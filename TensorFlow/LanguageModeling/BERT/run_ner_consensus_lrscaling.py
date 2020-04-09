@@ -196,7 +196,7 @@ class ConsensusProcessor(DataProcessor):
         return self._create_examples(
             self._read_tsv(os.path.join(data_dir, file_name)), "dev")
     def get_test_examples(self, data_dir, file_name="test.tsv"):
-        return self._create_test_examples(
+        return self._create_examples(
             self._read_tsv(os.path.join(data_dir, file_name)), "test")
     def get_labels(self):
         return ["che","dis","ggp","org"]
@@ -209,19 +209,6 @@ class ConsensusProcessor(DataProcessor):
             left = tokenization.convert_to_unicode(line[3])
             span = tokenization.convert_to_unicode(line[4])
             right = tokenization.convert_to_unicode(line[5])
-            label = tokenization.convert_to_unicode(line[2])
-            examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
-        return examples
-
-    #There is an extra tab in the test set for some reason...
-    def _create_test_examples(self, lines, set_type):
-        """Creates examples for the test set."""
-        examples = []
-        for (i, line) in enumerate(lines):
-            guid = "%s-%s" % (set_type, i)
-            left = tokenization.convert_to_unicode(line[3])
-            span = tokenization.convert_to_unicode(line[4])
-            right = tokenization.convert_to_unicode(line[6])
             label = tokenization.convert_to_unicode(line[2])
             examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
         return examples
