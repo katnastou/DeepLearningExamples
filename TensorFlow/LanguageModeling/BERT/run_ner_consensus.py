@@ -206,25 +206,12 @@ class ConsensusProcessor(DataProcessor):
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
-            left = tokenization.convert_to_unicode(line[3])
-            span = tokenization.convert_to_unicode(line[4])
-            right = tokenization.convert_to_unicode(line[5])
-            label = tokenization.convert_to_unicode(line[2])
+            left = tokenization.convert_to_unicode(line[-3])
+            span = tokenization.convert_to_unicode(line[-2])
+            right = tokenization.convert_to_unicode(line[-1])
+            label = tokenization.convert_to_unicode(line[-4])
             examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
         return examples
-
-    # #There is an extra tab in the test set for some reason...
-    # def _create_test_examples(self, lines, set_type):
-    #     """Creates examples for the test set."""
-    #     examples = []
-    #     for (i, line) in enumerate(lines):
-    #         guid = "%s-%s" % (set_type, i)
-    #         left = tokenization.convert_to_unicode(line[3])
-    #         span = tokenization.convert_to_unicode(line[4])
-    #         right = tokenization.convert_to_unicode(line[6])
-    #         label = tokenization.convert_to_unicode(line[2])
-    #         examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
-    #     return examples
 
 def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer):
     if isinstance(example, PaddingInputExample):

@@ -206,10 +206,10 @@ class ConsensusProcessor(DataProcessor):
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
-            left = tokenization.convert_to_unicode(line[3])
-            span = tokenization.convert_to_unicode(line[4])
-            right = tokenization.convert_to_unicode(line[5])
-            label = tokenization.convert_to_unicode(line[2])
+            left = tokenization.convert_to_unicode(line[-3])
+            span = tokenization.convert_to_unicode(line[-2])
+            right = tokenization.convert_to_unicode(line[-1])
+            label = tokenization.convert_to_unicode(line[-4])
             examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
         return examples
 
