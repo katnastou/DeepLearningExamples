@@ -93,8 +93,7 @@ export NCCL_DEBUG=INFO
 #export OMP_PROC_BIND=true
 echo "START $SLURM_JOBID: $(date)"
 
-#srun python run_ner_consensus.py \
-srun python run_ner_consensus_lrscaling.py \
+srun python run_ner_consensus.py \
     --do_prepare=true \
     --do_train=true \
     --do_eval=true \
