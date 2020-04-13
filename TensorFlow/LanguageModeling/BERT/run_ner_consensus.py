@@ -110,7 +110,9 @@ flags.DEFINE_float(
 flags.DEFINE_integer(
     "save_checkpoints_steps", 1000,
     "How often to save the model checkpoint.")
-
+flags.DEFINE_string(
+    "replace_span", None,
+    "Replace span text with given special token.")
 flags.DEFINE_integer(
     "iterations_per_loop", 1000,
     "How many steps to make in each estimator call.")
@@ -213,7 +215,7 @@ class ConsensusProcessor(DataProcessor):
             examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
         return examples
 
-def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer):
+def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span):
     if isinstance(example, PaddingInputExample):
         return InputFeatures(
             input_ids=[0] * max_seq_length,
@@ -235,12 +237,12 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
     else:
         left_tok = ['[PAD]'] * ((center-1)-len(left_tok)) + left_tok
     tokens.extend(left_tok)
-    # I don't understand when we need a replace span, I should ask
-    # if not replace_span:
-    #     tokens.extend(span)
-    # else:
-    #     tokens.append(replace_span)
-    tokens.extend(span_tok)
+    
+    if not replace_span:
+        tokens.extend(span_tok)
+    else:
+        tokens.append(replace_span)
+    #tokens.extend(span_tok)
     tokens.extend(right_tok)
     if len(tokens) >= max_seq_length -1:
         tokens, chopped = tokens[:max_seq_length-1], tokens[max_seq_length-1:]
@@ -283,14 +285,12 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
     return feature
 
 
-def filed_based_convert_examples_to_features(
-        examples, label_list, max_seq_length, tokenizer, output_file #, mode=None
-        ):
+def filed_based_convert_examples_to_features(examples, label_list, max_seq_length, tokenizer, output_file, replace_span):
     writer = tf.python_io.TFRecordWriter(output_file)
     for (ex_index, example) in enumerate(examples):
         if ex_index % 20000 == 0:
             tf.compat.v1.logging.info("Writing example %d of %d" % (ex_index, len(examples)))
-        feature = convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer)
+        feature = convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span)
 
         def create_int_feature(values):
             f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
@@ -475,7 +475,7 @@ def main(_):
     task_name = FLAGS.task_name.lower()
     if task_name not in processors:
         raise ValueError("Task not found: %s" % (task_name))
-
+    
     tf.io.gfile.makedirs(FLAGS.output_dir)
 
     processor = processors[task_name]()
@@ -558,7 +558,7 @@ def main(_):
 
     if FLAGS.do_train: 
         filed_based_convert_examples_to_features(
-          train_examples[start_index:end_index], label_list, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank])
+          train_examples[start_index:end_index], label_list, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span)
         tf.compat.v1.logging.info("***** Running training *****")
         tf.compat.v1.logging.info("  Num examples = %d", len(train_examples))
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.train_batch_size)
@@ -594,7 +594,7 @@ def main(_):
         num_actual_eval_examples = len(eval_examples)
         eval_file = os.path.join(FLAGS.output_dir, "eval.tf_record")
         filed_based_convert_examples_to_features(
-            eval_examples, label_list, FLAGS.max_seq_length, tokenizer, eval_file)
+            eval_examples, label_list, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span)
 
         tf.compat.v1.logging.info("***** Running evaluation *****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
@@ -623,7 +623,7 @@ def main(_):
         predict_file = os.path.join(FLAGS.output_dir, "predict.tf_record")
         filed_based_convert_examples_to_features(predict_examples, label_list,
                                                  FLAGS.max_seq_length, tokenizer,
-                                                 predict_file)
+                                                 predict_file, FLAGS.replace_span)
         tf.compat.v1.logging.info("***** Running prediction*****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
                         len(predict_examples), num_actual_predict_examples,

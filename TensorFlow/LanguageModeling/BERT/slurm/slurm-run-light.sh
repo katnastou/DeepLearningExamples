@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=96G
+#SBATCH --mem=64G
 #SBATCH -p gpu
 #SBATCH -t 72:00:00
 #SBATCH --gres=gpu:v100:1
@@ -20,8 +20,6 @@ module load tensorflow/1.15-hvd
 
 OUTPUT_DIR="output-biobert/singlegpu/$SLURM_JOBID"
 mkdir -p $OUTPUT_DIR
-
-
 
 #check for all parameters
 if [ "$#" -ne 8 ]; then
@@ -57,6 +55,7 @@ srun python run_ner_consensus.py \
     --do_train=true \
     --do_eval=true \
     --do_predict=true \
+    --replace_span="[MASK]" \
     --task_name=$TASK \
     --init_checkpoint=$INIT_CKPT \
     --vocab_file=$BERT_DIR/vocab.txt \
