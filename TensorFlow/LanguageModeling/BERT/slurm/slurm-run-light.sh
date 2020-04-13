@@ -55,7 +55,7 @@ srun python run_ner_consensus.py \
     --do_train=true \
     --do_eval=true \
     --do_predict=true \
-    --replace_span="[MASK]" \
+    --replace_span="[unused1]" \
     --task_name=$TASK \
     --init_checkpoint=$INIT_CKPT \
     --vocab_file=$BERT_DIR/vocab.txt \
