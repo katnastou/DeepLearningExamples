@@ -26,7 +26,6 @@ import tf_metrics
 import time
 import horovod.tensorflow as hvd
 from utils.utils import LogEvalRunHook, LogTrainRunHook
-from tensorflow.core.protobuf import rewriter_config_pb2
 
 flags = tf.flags
 
@@ -113,13 +112,12 @@ flags.DEFINE_integer(
     "How often to save the model checkpoint.")
 
 flags.DEFINE_string(
-    "replace_span", None,
-    "Replace span text with given special token.")
+    "replace_span_A", None,
+    "Replace span text with given special token for entity A.")
 
 flags.DEFINE_string(
-    "labels_dir", None,
-    "The directory with the labels.txt file"
-)
+    "replace_span_B", None,
+    "Replace span text with given special token for entity B.")
 
 flags.DEFINE_integer(
     "iterations_per_loop", 1000,
@@ -131,13 +129,6 @@ flags.DEFINE_bool("horovod", False, "Whether to use Horovod for multi-gpu runs")
 flags.DEFINE_bool("use_fp16", False, "Whether to use fp32 or fp16 arithmetic on GPU.")
 flags.DEFINE_bool("use_xla", False, "Whether to enable XLA JIT compilation.")
 
-#os.environ["XLA_FLAGS"]="--xla_gpu_cuda_data_dir="
-
-#class OomReportingHook(tf.estimator.SessionRunHook):
-#    def before_run(self, run_context):
-#        return SessionRunArgs(fetches=[],  # no extra fetches
-#                              options=tf.RunOptions(
-#                              report_tensor_allocations_upon_oom=True))
 
 class PaddingInputExample(object):
     """Fake example so the num input examples is a multiple of the batch size.
@@ -151,9 +142,8 @@ class PaddingInputExample(object):
 
 class InputExample(object):
     """A single training/test example for simple sequence classification."""
-    def __init__(self,guid,left,span,right,label=None):
+    def __init__(self,guid,sent_start,entity1,text_between_ent_1,equiv1,text_between_ent_1_and_ent_2,entity2,text_between_ent_2,equiv2,sent_end,label=None):
         """Constructs a InputExample.
-
         Args:
           guid: Unique id for the example.
           text_a: string. The untokenized text of the first sequence. For single
@@ -162,9 +152,15 @@ class InputExample(object):
             specified for train and dev examples, but not for test examples.
         """
         self.guid = guid
-        self.left = left
-        self.span = span
-        self.right = right
+        self.sent_start=sent_start
+        self.entity1=entity1
+        self.text_between_ent_1=text_between_ent_1
+        self.equiv1=equiv1
+        self.text_between_ent_1_and_ent_2=text_between_ent_1_and_ent_2
+        self.entity2=entity2
+        self.text_between_ent_2=text_between_ent_2
+        self.equiv2=equiv2
+        self.sent_end=sent_end
         self.label = label
 
 
@@ -190,7 +186,7 @@ class DataProcessor(object):
         """Gets a collection of `InputExample`s for the dev set."""
         raise NotImplementedError()
 
-    def get_labels(self, data_dir):
+    def get_labels(self):
         """Gets the list of labels for this data set."""
         raise NotImplementedError()
 
@@ -215,35 +211,41 @@ class ConsensusProcessor(DataProcessor):
     def get_test_examples(self, data_dir, file_name="test.tsv"):
         return self._create_examples(
             self._read_tsv(os.path.join(data_dir, file_name)), "test")
-    def get_labels(self, data_dir, file_name="labels.txt"):
-        labels = []
-        with open(os.path.join(data_dir, file_name)) as f:
-            for line in f:
-                line = line.strip()
-                if line in labels:
-                    raise ValueError('duplicate value {} in {}'.format(line, path))
-                labels.append(line)
-        #return labels
-        label_list = sorted(list(set(labels)))
-        label_map = {l: i for i, l in enumerate(label_list)} 
-        return label_list,label_map
-
-    #def get_labels(self):
-    #    return ["che","dis","ggp","org"]
+    def get_labels(self):
+        return ["Not_a_complex","Complex_formation"]
 
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
+        #the file now has 14 columns
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
-            left = tokenization.convert_to_unicode(line[-3])
-            span = tokenization.convert_to_unicode(line[-2])
-            right = tokenization.convert_to_unicode(line[-1])
-            label = tokenization.convert_to_unicode(line[-4])
-            examples.append(InputExample(guid=guid, left=left, span=span,right=right, label=label))
+            sent_start = tokenization.convert_to_unicode(line[-10])
+            entity1 = tokenization.convert_to_unicode(line[-9])
+            text_between_ent_1 = tokenization.convert_to_unicode(line[-8])
+            equiv1 = tokenization.convert_to_unicode(line[-7])
+            text_between_ent_1_and_ent_2 = tokenization.convert_to_unicode(line[-6])
+            entity2 = tokenization.convert_to_unicode(line[-5])
+            text_between_ent_2 = tokenization.convert_to_unicode(line[-4])
+            equiv2 = tokenization.convert_to_unicode(line[-3])
+            sent_end = tokenization.convert_to_unicode(line[-2])
+            label = tokenization.convert_to_unicode(line[-1])
+            examples.append(
+                InputExample(
+                    guid=guid, 
+                    sent_start=sent_start, 
+                    entity1=entity1,
+                    text_between_ent_1=text_between_ent_1, 
+                    equiv1=equiv1, 
+                    text_between_ent_1_and_ent_2=text_between_ent_1_and_ent_2,
+                    entity2=entity2,
+                    text_between_ent_2=text_between_ent_2,
+                    equiv2=equiv2,
+                    sent_end=sent_end,
+                    label=label))
         return examples
 
-def convert_single_example(ex_index, example, label_list, label_map, max_seq_length, tokenizer, replace_span):
+def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span_A, replace_span_B):
     if isinstance(example, PaddingInputExample):
         return InputFeatures(
             input_ids=[0] * max_seq_length,
@@ -251,27 +253,70 @@ def convert_single_example(ex_index, example, label_list, label_map, max_seq_len
             segment_ids=[0] * max_seq_length,
             label_id=0,
             is_real_example=False)
-    #labels = sorted(list(set(label_list))) 
-    #label_map = {l: i for i, l in enumerate(labels)}
+    #labels = sorted(list(setlabel_list))) 
+    label_map = {l: i for i, l in enumerate(label_list)}
 
     #code for text tokenization adapted from https://github.com/spyysalo/bert-span-classifier/
-    left_tok = tokenizer.tokenize(example.left)
-    span_tok = tokenizer.tokenize(example.span)
-    right_tok = tokenizer.tokenize(example.right)
-    tokens = ['[CLS]']
+    sent_start_tok_bef = tokenizer.tokenize(example.sent_start)
+    entity1_tok = tokenizer.tokenize(example.entity1)
+    text_between_ent_1_tok = tokenizer.tokenize(example.text_between_ent_1)
+    equiv1_tok = tokenizer.tokenize(example.equiv1)
+    text_between_ent_1_and_ent_2_tok = tokenizer.tokenize(example.text_between_ent_1_and_ent_2)
+    entity2_tok = tokenizer.tokenize(example.entity2)
+    text_between_ent_2_tok = tokenizer.tokenize(example.text_between_ent_2)
+    equiv2_tok = tokenizer.tokenize(example.equiv2)
+    sent_end_tok = tokenizer.tokenize(example.sent_end)
+    tokens_bef = ['[CLS]']
     center = int(max_seq_length/2)
-    if len(left_tok) > center-1:
-        left_tok = left_tok[len(left_tok)-(center-1):]
+    sent_start_tok=[]
+
+    #replace  ##unused ##3 with unused3 before counting tokens in the start entity
+    for i,v in enumerate(sent_start_tok_bef):
+        if sent_start_tok_bef[i:i+2] == ["unused", "##3"]:
+            sent_start_tok.append("[unused3]")
+            #remove the ##3 token from the list of tokens
+            sent_start_tok_bef.pop(i+1)
+        else:
+            sent_start_tok.append(sent_start_tok_bef[i])
+
+    # I have removed sentences with more than 18 words in text_between_ent_1_and_ent_2_tok during preprocessing --> check if it needs more
+    if (len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-1:
+        sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-1):]
     else:
-        left_tok = ['[PAD]'] * ((center-1)-len(left_tok)) + left_tok
-    tokens.extend(left_tok)
-    
-    if not replace_span:
-        tokens.extend(span_tok)
+        sent_start_tok = ['[PAD]'] * ((center-1)-len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
+    tokens_bef.extend(sent_start_tok)
+     
+    if not replace_span_A:
+        tokens_bef.extend(entity1_tok)
     else:
-        tokens.append(replace_span)
+        tokens_bef.append(replace_span_A)
     #tokens.extend(span_tok)
-    tokens.extend(right_tok)
+    #if an equiv entity exists
+    if example.text_between_ent_1:
+        tokens_bef.extend(text_between_ent_1_tok)
+        tokens_bef.extend(equiv1_tok)
+    tokens_bef.extend(text_between_ent_1_and_ent_2_tok)
+    
+    if not replace_span_B:
+        tokens_bef.extend(entity2_tok)
+    else:
+        tokens_bef.append(replace_span_B)
+
+    if example.text_between_ent_2:
+        tokens_bef.extend(text_between_ent_2_tok)
+        tokens_bef.extend(equiv2_tok)
+
+    tokens_bef.extend(sent_end_tok)
+    tokens=[]
+    #remove the rest of unused ##3 before expanding and extending
+    for i,v in enumerate(tokens_bef):
+        if tokens_bef[i:i+2] == ["unused", "##3"]:
+            tokens.append("[unused3]")
+            #remove the ##3 token from the list of tokens
+            tokens_bef.pop(i+1)
+        else:
+            tokens.append(tokens_bef[i])
+
     if len(tokens) >= max_seq_length -1:
         tokens, chopped = tokens[:max_seq_length-1], tokens[max_seq_length-1:]
         #shows the chopped inputs, log files for 10M end up being 3gb because of that so I stopped logging that
@@ -312,13 +357,28 @@ def convert_single_example(ex_index, example, label_list, label_map, max_seq_len
     )
     return feature
 
+def _truncate_seq_pair(tokens_a, tokens_b, max_length):
+    """Truncates a sequence pair in place to the maximum length."""
 
-def filed_based_convert_examples_to_features(examples, label_list, label_map, max_seq_length, tokenizer, output_file, replace_span):
+    # This is a simple heuristic which will always truncate the longer sequence
+    # one token at a time. This makes more sense than truncating an equal percent
+    # of tokens from each, since if one sequence is very short then each token
+    # that's truncated likely contains more information than a longer sequence.
+    while True:
+        total_length = len(tokens_a) + len(tokens_b)
+        if total_length <= max_length:
+            break
+        if len(tokens_a) > len(tokens_b):
+            tokens_a.pop()
+        else:
+            tokens_b.pop()
+
+def filed_based_convert_examples_to_features(examples, label_list, max_seq_length, tokenizer, output_file, replace_span_A, replace_span_B):
     writer = tf.python_io.TFRecordWriter(output_file)
     for (ex_index, example) in enumerate(examples):
         if ex_index % 20000 == 0:
             tf.compat.v1.logging.info("Writing example %d of %d" % (ex_index, len(examples)))
-        feature = convert_single_example(ex_index, example, label_list, label_map, max_seq_length, tokenizer, replace_span)
+        feature = convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span_A, replace_span_B)
 
         def create_int_feature(values):
             f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
@@ -449,97 +509,66 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint=None, learning_rat
         if mode == tf.estimator.ModeKeys.TRAIN:
             train_op = optimization.create_optimizer(
                 total_loss, learning_rate, num_train_steps, num_warmup_steps, hvd, False, use_fp16)
+            def metric_fn(per_example_loss, label_ids, logits, is_real_example):
+                predictions = tf.argmax(logits, axis=-1, output_type=tf.int64)
+                accuracy = tf.compat.v1.metrics.accuracy(
+                    labels=label_ids, predictions=predictions, weights=is_real_example)
+                return {
+                    "eval_accuracy": accuracy
+               }
+            eval_metric_ops = metric_fn(per_example_loss, label_ids, logits, is_real_example)        
             output_spec = tf.estimator.EstimatorSpec(
               mode=mode,
               loss=total_loss,
-              train_op=train_op)
+              train_op=train_op,
+              eval_metric_ops=eval_metric_ops
+              )
         elif mode == tf.estimator.ModeKeys.EVAL:
             def metric_fn(per_example_loss, label_ids, logits, is_real_example):
                 predictions = tf.argmax(logits, axis=-1, output_type=tf.int64)
                 accuracy = tf.compat.v1.metrics.accuracy(
                     labels=label_ids, predictions=predictions, weights=is_real_example)
                 loss = tf.compat.v1.metrics.mean(values=per_example_loss, weights=is_real_example)
-                precision=tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,average="micro")
-                recall=tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,average="micro")
-                precision_mac=tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,average="macro")
-                recall_mac=tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,average="macro")
-                precision_weighted=tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
-                recall_weighted=tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
-                #pos_indices=[1,2,3] # class 0:che is the negative class
-                #recall_che = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_che = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro") 
-                #precision, op_prec = tf.compat.v1.metrics.precision(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #pos_indices=[0,2,3] # class 1:dis is the negative class
-                #recall_dis = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_dis = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #pos_indices=[0,1,3] # class 2:ggp is the negative class
-                #recall_ggp = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_ggp = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #pos_indices=[0,1,2] # class 3:org is the negative class
-                #recall_org = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_org = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #default average micro, other option:macro, weighted
-                #pos_indices=[1,2,3] #class 0 is the negative class
-                f1 = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="micro")
-                f1_mac = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="macro")
-                f1_wei = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
-                
-                #these calculations are all wrong
-                #FN, FN_op = tf.compat.v1.metrics.false_negatives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #FP, FP_op = tf.compat.v1.metrics.false_positives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #TP, TP_op = tf.compat.v1.metrics.true_positives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #TN, TN_op = tf.compat.v1.metrics.true_negatives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                
-                #f1 = 2 * (precision * recall) / (precision + recall)
-                #f1_op = tf.group(op_rec, op_prec, tf.identity(f1, name="f1"))
+                #recall = tf.compat.v1.metrics.recall(label_ids,predictions,num_labels)
+                recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
+                #precision = tf.compat.v1.metrics.precision(label_ids,predictions,num_labels)
+                precision, op_prec = tf.compat.v1.metrics.precision(labels=label_ids, predictions=predictions, weights=is_real_example)
+                #f = tf_metrics.f1(label_ids,predictions,num_labels)
+                FN = tf.metrics.false_negatives(labels=label_ids, predictions=predictions)
+                FP = tf.metrics.false_positives(labels=label_ids, predictions=predictions)
+                TP = tf.metrics.true_positives(labels=label_ids, predictions=predictions)
+                TN = tf.metrics.true_negatives(labels=label_ids, predictions=predictions)
+
                 #MCC = (TP * TN - FP * FN) / ((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN)) ** 0.5
                 #MCC_op = tf.group(FN_op, TN_op, TP_op, FP_op, tf.identity(MCC, name="MCC"))
+                f1 = 2 * (precision * recall) / (precision + recall)
+                f1_op = tf.group(op_rec, op_prec, tf.identity(f1, name="f1"))
                 
                 return {
                     "eval_accuracy": accuracy,
                     "eval_loss": loss,
-                    "precision":precision,
-                    "recall":recall,
-                    "precision_mac":precision_mac,
-                    "recall_mac":recall_mac,
-                    "precision_weighted":precision_weighted,
-                    "recall_weighted":recall_weighted,
-
-                    #"recall": (recall,op_rec),
-                    #"precision": (precision, op_prec),
-                    #"recall_che":recall_che,
-                    #"precision_che": precision_che,
-                    #"precision_dis":precision_dis,
-                    #"recall_dis":recall_dis,
-                    #"precision_ggp":precision_ggp,
-                    #"recall_ggp":recall_ggp,
-                    #"precision_org":precision_org,
-                    #"recall_org":recall_org,
-                    "f1-score": f1,
-                    "f1-macro": f1_mac,
-                    "f1-weighted": f1_wei,
-                    #"false negatives": (FN,FN_op),
-                    #"false positives": (FP,FP_op),
-                    #"true positives": (TP,TP_op),
-                    #"true negatives": (TN,TN_op),
-                    #"f1":(f1,f1_op),
+                    "recall": (recall,op_rec),
+                    "precision": (precision,op_prec),
+                    "f-score": (f1,f1_op),
+                    "tp": TP,
+                    "tn": TN,
+                    "fp": FP,
+                    "fn": FN,
                     #"MCC": (MCC, MCC_op)
-                }
+                }    
+                #return {
+                #    "eval_accuracy": accuracy,
+                #    "eval_loss": loss,
+                #}
 
             eval_metric_ops = metric_fn(per_example_loss, label_ids, logits, is_real_example)
             output_spec = tf.estimator.EstimatorSpec(
               mode=mode,
               loss=total_loss,
-              eval_metric_ops=eval_metric_ops,
-              )
+              eval_metric_ops=eval_metric_ops)
         else:
-            output_spec = tf.estimator.EstimatorSpec( 
-            mode=mode, predictions={"probabilities":probabilities,
-                                    "logits":logits})
+            output_spec = tf.estimator.EstimatorSpec(
+              mode=mode, predictions={"probabilities":probabilities})
         return output_spec
 
     return model_fn
@@ -576,9 +605,8 @@ def main(_):
 
     processor = processors[task_name]()
 
-    label_list,label_map = processor.get_labels(FLAGS.labels_dir)
-    inv_label_map = { v: k for k, v in label_map.items() }
-    #label_list = processor.get_labels()
+    label_list = processor.get_labels()
+
     tokenizer = tokenization.FullTokenizer(
         vocab_file=FLAGS.vocab_file, do_lower_case=FLAGS.do_lower_case)
 
@@ -586,28 +614,20 @@ def main(_):
 
     master_process = True
     training_hooks = []
-    #training_hooks.append(OomReportingHook())
     global_batch_size = FLAGS.train_batch_size
     hvd_rank = 0
 
     config = tf.compat.v1.ConfigProto()
-    #didn't work
-    #config.gpu_options.allow_growth = True
-    #with tf.Session(config=config):
-    #    pass
     if FLAGS.horovod:
       global_batch_size = FLAGS.train_batch_size * hvd.size()
       master_process = (hvd.rank() == 0)
       hvd_rank = hvd.rank()
-      #os.environ['CUDA_VISIBLE_DEVICES'] = str(hvd.local_rank())
       config.gpu_options.visible_device_list = str(hvd.local_rank())
       if hvd.size() > 1:
         training_hooks.append(hvd.BroadcastGlobalVariablesHook(0))
 
-   # config.gpu_options.per_process_gpu_memory_fraction = 0.7
     if FLAGS.use_xla:
         config.graph_options.optimizer_options.global_jit_level = tf.compat.v1.OptimizerOptions.ON_1
-        #config.graph_options.rewrite_options.memory_optimization = rewriter_config_pb2.RewriterConfig.NO_MEM_OPT
     run_config = tf.estimator.RunConfig(
       model_dir=FLAGS.output_dir if master_process else None,
       session_config=config,
@@ -624,7 +644,7 @@ def main(_):
     num_train_steps = None
     num_warmup_steps = None
     training_hooks.append(LogTrainRunHook(global_batch_size, hvd_rank))
-
+    
     if FLAGS.do_train:
         train_examples = processor.get_train_examples(FLAGS.data_dir)
         num_train_steps = int(
@@ -663,7 +683,7 @@ def main(_):
 
     if FLAGS.do_train: 
         filed_based_convert_examples_to_features(
-          train_examples[start_index:end_index], label_list, label_map, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span)
+          train_examples[start_index:end_index], label_list, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span_A, FLAGS.replace_span_B)
         tf.compat.v1.logging.info("***** Running training *****")
         tf.compat.v1.logging.info("  Num examples = %d", len(train_examples))
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.train_batch_size)
@@ -699,7 +719,7 @@ def main(_):
         num_actual_eval_examples = len(eval_examples)
         eval_file = os.path.join(FLAGS.output_dir, "eval.tf_record")
         filed_based_convert_examples_to_features(
-            eval_examples, label_list, label_map, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span)
+            eval_examples, label_list, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
 
         tf.compat.v1.logging.info("***** Running evaluation *****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
@@ -722,16 +742,13 @@ def main(_):
             for key in sorted(result.keys()):
                 tf.compat.v1.logging.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
-        
-        eval_hooks = [LogEvalRunHook(FLAGS.eval_batch_size)]
- 
     if FLAGS.do_predict and master_process:
         predict_examples = processor.get_test_examples(FLAGS.data_dir)
         num_actual_predict_examples = len(predict_examples)
         predict_file = os.path.join(FLAGS.output_dir, "predict.tf_record")
-        filed_based_convert_examples_to_features(predict_examples, label_list, label_map,
+        filed_based_convert_examples_to_features(predict_examples, label_list,
                                                  FLAGS.max_seq_length, tokenizer,
-                                                 predict_file, FLAGS.replace_span)
+                                                 predict_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
         tf.compat.v1.logging.info("***** Running prediction*****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
                         len(predict_examples), num_actual_predict_examples,
@@ -750,24 +767,19 @@ def main(_):
         eval_start_time = time.time()
 
         output_predict_file = os.path.join(FLAGS.output_dir, "test_results.tsv")
-        output_class_file = os.path.join(FLAGS.output_dir, "test_output_labels.txt")
-        with tf.io.gfile.GFile(output_predict_file, "w") as writer, tf.io.gfile.GFile(output_class_file, "w") as writer2:
+        with tf.io.gfile.GFile(output_predict_file, "w") as writer:
             num_written_lines = 0
             tf.compat.v1.logging.info("***** Predict results *****")
             for prediction in estimator.predict(input_fn=predict_input_fn, hooks=eval_hooks,
                                                      yield_single_examples=True):
                 probabilities = prediction["probabilities"]
-                logits = prediction["logits"]
-                pr_res = np.argmax(logits, axis=-1)
-                output = str(inv_label_map[pr_res])+"\n"
-                writer2.write(output)
                 output_line = "\t".join(
                     str(class_probability)
                     for class_probability in probabilities) + "\n"
                 writer.write(output_line)
                 num_written_lines += 1
         assert num_written_lines == num_actual_predict_examples
-    
+
         eval_time_elapsed = time.time() - eval_start_time
         eval_time_wo_overhead = eval_hooks[-1].total_time
 
