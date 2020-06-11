@@ -4,22 +4,26 @@
 #SBATCH --ntasks=8
 
 # 6 CPU cores per task to keep the parallel data feeding going. 
-#SBATCH --cpus-per-task=10
+#SBATCH --cpus-per-task=6
 
 # Allocate enough memory.
-#SBATCH --mem=64G
-#SBATCH -p gpu
-
+#SBATCH --mem=160G
+###SBATCH -p gpu
+#SBATCH -p gputest
 # Time limit on Puhti's gpu partition is 3 days.
-#SBATCH -t 09:00:00
-#SBATCH -J 128len
+###SBATCH -t 72:00:00
+#SBATCH -t 00:15:00
+#SBATCH -J 5-12.5M
 
 # Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:4
 #SBATCH --ntasks-per-node=4
 
+#Exclude nodes
+#SBATCH --exclude=r04g05,r04g01,r14g07,r15g08,r01g04,r03g07,r16g02,r04g06
+
 # Puhti project number
-#SBATCH --account=Project_<num>
+#SBATCH --account=Project_2001426
 
 # Log file locations, %j corresponds to slurm job id. symlinks didn't work. Will add hard links to directory instead. Now it saves in projappl dir.
 #SBATCH -o logs/%j.out
@@ -27,20 +31,11 @@
 
 # Clear all modules
 module purge
-#if not you may get CUDA OOM errors
-#module load gcc/8.3.0 
-#module load gcc/9.1.0
-#module load cuda/10.1.168
-#for multiple gpus
-#module load hpcx-mpi/2.4.0
-#module load intel/19.0.4
-#module load mpich/3.3.1
-#module load intel/18.0.5
-#module load intel-mpi/18.0.5
 #load tensorflow with horovod support
 module load tensorflow/1.15-hvd
 #module load tensorflow/1.13.1-hvd
-#module load tensorflow/2.0.0-hvd
+
+#module load tensorflow/1.14.0
 
 OUTPUT_DIR="output-biobert/multigpu/$SLURM_JOBID"
 mkdir -p $OUTPUT_DIR
@@ -62,7 +57,7 @@ fi
 
 #models --> symlink to models dir in scratch
 #scratchdata --> symlink to data dir in scratch
-
+#fill all so you don't check for params
 BERT_DIR=${1:-"models/biobert_large"}
 DATASET_DIR=${2:-"scratchdata/4-class-10K-w20"}
 MAX_SEQ_LENGTH="$3"
@@ -94,9 +89,9 @@ fi
 
 #rm -rf "OUTPUT_DIR"
 #mkdir -p "$OUTPUT_DIR"
-
+#problem with nodes failing --> now I exclude nodes
 #export NCCL_IB_HCA="^mlx5_1:1"
-#export TF_XLA_FLAGS=--tf_xla_cpu_global_jit
+
 export NCCL_DEBUG=INFO
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 #https://horovod.readthedocs.io/en/latest/troubleshooting_include.html#running-out-of-memory
@@ -121,11 +116,12 @@ srun python run_ner_consensus.py \
     --max_seq_length=$MAX_SEQ_LENGTH \
     --learning_rate=$LEARNING_RATE \
     --num_train_epochs=$EPOCHS \
-    --use_fp16 \
-    --horovod \
     --cased=$cased \
+    --labels_dir=$LABELS_DIR \
     --use_xla \
-    --labels_dir=$LABELS_DIR 
+    --use_fp16 \
+    --horovod
+    
 
 result=$(egrep '^INFO:tensorflow:  eval_accuracy' logs/${SLURM_JOB_ID}.err | perl -pe 's/.*accuracy \= (\d)\.(\d{2})(\d{2})\d+$/$2\.$3/')
 echo -n 'TEST-RESULT'$'\t'
@@ -138,3 +134,5 @@ echo -n 'num_train_epochs'$'\t'"$EPOCHS"$'\t'
 echo -n 'accuracy'$'\t'"$result"$'\n'
 
 seff $SLURM_JOBID
+gpuseff $SLURM_JOBID
+
