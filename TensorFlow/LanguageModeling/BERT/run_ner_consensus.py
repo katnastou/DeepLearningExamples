@@ -27,7 +27,8 @@ import time
 import horovod.tensorflow as hvd
 from utils.utils import LogEvalRunHook, LogTrainRunHook
 from tensorflow.core.protobuf import rewriter_config_pb2
-
+#import utils.dllogger_class
+#from dllogger import Verbosity
 flags = tf.flags
 
 FLAGS = flags.FLAGS
@@ -109,7 +110,7 @@ flags.DEFINE_float(
     "E.g., 0.1 = 10% of training.")
 
 flags.DEFINE_integer(
-    "save_checkpoints_steps", 1000,
+    "save_checkpoints_steps", 10000,
     "How often to save the model checkpoint.")
 
 flags.DEFINE_string(
@@ -225,6 +226,7 @@ class ConsensusProcessor(DataProcessor):
                 labels.append(line)
         #return labels
         label_list = sorted(list(set(labels)))
+        #label_list.reverse() #reverse list so that out goes to index 0 and serves as the negative class during calculations of evaluation metrics
         label_map = {l: i for i, l in enumerate(label_list)} 
         return label_list,label_map
 
@@ -256,8 +258,13 @@ def convert_single_example(ex_index, example, label_list, label_map, max_seq_len
 
     #code for text tokenization adapted from https://github.com/spyysalo/bert-span-classifier/
     left_tok = tokenizer.tokenize(example.left)
+    #left_tok_len = len(left_tok)
     span_tok = tokenizer.tokenize(example.span)
+    
     right_tok = tokenizer.tokenize(example.right)
+    #right_tok_len = len(right_tok)
+    #original_tok_len = left_tok_len + right_tok_len + 1
+    #tf.compat.v1.logging.info("Original Token Length {}".format(original_tok_len))
     tokens = ['[CLS]']
     center = int(max_seq_length/2)
     if len(left_tok) > center-1:
@@ -465,40 +472,11 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint=None, learning_rat
                 recall_mac=tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,average="macro")
                 precision_weighted=tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
                 recall_weighted=tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
-                #pos_indices=[1,2,3] # class 0:che is the negative class
-                #recall_che = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_che = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro") 
-                #precision, op_prec = tf.compat.v1.metrics.precision(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #pos_indices=[0,2,3] # class 1:dis is the negative class
-                #recall_dis = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_dis = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #pos_indices=[0,1,3] # class 2:ggp is the negative class
-                #recall_ggp = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_ggp = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #pos_indices=[0,1,2] # class 3:org is the negative class
-                #recall_org = tf_metrics.recall(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #recall, op_rec = tf.compat.v1.metrics.recall(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #precision_org = tf_metrics.precision(labels=label_ids,predictions=predictions,num_classes=num_labels,pos_indices=pos_indices,average="micro")
-                #default average micro, other option:macro, weighted
-                #pos_indices=[1,2,3] #class 0 is the negative class
                 f1 = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="micro")
                 f1_mac = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="macro")
                 f1_wei = tf_metrics.f1(labels=label_ids,predictions=predictions,num_classes=num_labels,average="weighted")
                 
-                #these calculations are all wrong
-                #FN, FN_op = tf.compat.v1.metrics.false_negatives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #FP, FP_op = tf.compat.v1.metrics.false_positives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #TP, TP_op = tf.compat.v1.metrics.true_positives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                #TN, TN_op = tf.compat.v1.metrics.true_negatives(labels=label_ids, predictions=predictions, weights=is_real_example)
-                
-                #f1 = 2 * (precision * recall) / (precision + recall)
-                #f1_op = tf.group(op_rec, op_prec, tf.identity(f1, name="f1"))
-                #MCC = (TP * TN - FP * FN) / ((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN)) ** 0.5
-                #MCC_op = tf.group(FN_op, TN_op, TP_op, FP_op, tf.identity(MCC, name="MCC"))
-                
+               
                 return {
                     "eval_accuracy": accuracy,
                     "eval_loss": loss,
@@ -508,26 +486,9 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint=None, learning_rat
                     "recall_mac":recall_mac,
                     "precision_weighted":precision_weighted,
                     "recall_weighted":recall_weighted,
-
-                    #"recall": (recall,op_rec),
-                    #"precision": (precision, op_prec),
-                    #"recall_che":recall_che,
-                    #"precision_che": precision_che,
-                    #"precision_dis":precision_dis,
-                    #"recall_dis":recall_dis,
-                    #"precision_ggp":precision_ggp,
-                    #"recall_ggp":recall_ggp,
-                    #"precision_org":precision_org,
-                    #"recall_org":recall_org,
                     "f1-score": f1,
                     "f1-macro": f1_mac,
-                    "f1-weighted": f1_wei,
-                    #"false negatives": (FN,FN_op),
-                    #"false positives": (FP,FP_op),
-                    #"true positives": (TP,TP_op),
-                    #"true negatives": (TN,TN_op),
-                    #"f1":(f1,f1_op),
-                    #"MCC": (MCC, MCC_op)
+                    "f1-weighted": f1_wei
                 }
 
             eval_metric_ops = metric_fn(per_example_loss, label_ids, logits, is_real_example)
@@ -546,12 +507,16 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint=None, learning_rat
 
 
 def main(_):
+    os.environ["TF_XLA_FLAGS"] = "--tf_xla_enable_lazy_compilation=false" #causes memory fragmentation for bert leading to OOM
+    os.environ["XLA_FLAGS"]="--xla_gpu_cuda_data_dir=/appl/spack/install-tree/gcc-8.3.0/cuda-10.1.168-mrdepn/"
+    #os.environ["TF_CUDA_HOST_MEM_LIMIT_IN_MB"] = "30000"
+    #os.environ["TF_XLA_FLAGS"]="--tf_xla_cpu_global_jit"
     tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.INFO)
-
+    #dllogging = utils.dllogger_class.dllogger_class(FLAGS.dllog_path) 
     if FLAGS.horovod:
       hvd.init()
-    if FLAGS.use_fp16:
-        os.environ["TF_ENABLE_AUTO_MIXED_PRECISION_GRAPH_REWRITE"] = "1"
+    #if FLAGS.use_fp16:
+    #    os.environ["TF_ENABLE_AUTO_MIXED_PRECISION_GRAPH_REWRITE"] = "1"
 
     processors = {'consensus':ConsensusProcessor}
     
@@ -593,8 +558,6 @@ def main(_):
     config = tf.compat.v1.ConfigProto()
     #didn't work
     #config.gpu_options.allow_growth = True
-    #with tf.Session(config=config):
-    #    pass
     if FLAGS.horovod:
       global_batch_size = FLAGS.train_batch_size * hvd.size()
       master_process = (hvd.rank() == 0)
@@ -603,7 +566,7 @@ def main(_):
       config.gpu_options.visible_device_list = str(hvd.local_rank())
       if hvd.size() > 1:
         training_hooks.append(hvd.BroadcastGlobalVariablesHook(0))
-
+      #config.gpu_options.per_process_gpu_memory_fraction = 0.4
    # config.gpu_options.per_process_gpu_memory_fraction = 0.7
     if FLAGS.use_xla:
         config.graph_options.optimizer_options.global_jit_level = tf.compat.v1.OptimizerOptions.ON_1
@@ -743,7 +706,7 @@ def main(_):
             input_file=predict_file,
             batch_size=FLAGS.predict_batch_size,
             seq_length=FLAGS.max_seq_length,
-            is_training=False,
+            is_training=False,       
             drop_remainder=predict_drop_remainder)
 
         eval_hooks = [LogEvalRunHook(FLAGS.predict_batch_size)]
