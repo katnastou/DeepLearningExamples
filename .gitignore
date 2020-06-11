@@ -1,3 +1,5 @@
 repos.cfg
 repos_init.cfg
 nvtool*
+TensorFlow/LanguageModeling/.DS_Store
+.DS_Store
