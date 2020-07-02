@@ -142,7 +142,7 @@ class PaddingInputExample(object):
 
 class InputExample(object):
     """A single training/test example for simple sequence classification."""
-    def __init__(self,guid,sent_start,entity1,text_between_ent_1,equiv1,text_between_ent_1_and_ent_2,entity2,text_between_ent_2,equiv2,sent_end,label=None):
+    def __init__(self,guid,sent_start,entity1,text_between_ent_1_and_ent_2,entity2,sent_end,label=None):
         """Constructs a InputExample.
         Args:
           guid: Unique id for the example.
@@ -154,12 +154,8 @@ class InputExample(object):
         self.guid = guid
         self.sent_start=sent_start
         self.entity1=entity1
-        self.text_between_ent_1=text_between_ent_1
-        self.equiv1=equiv1
         self.text_between_ent_1_and_ent_2=text_between_ent_1_and_ent_2
         self.entity2=entity2
-        self.text_between_ent_2=text_between_ent_2
-        self.equiv2=equiv2
         self.sent_end=sent_end
         self.label = label
 
@@ -212,22 +208,20 @@ class ConsensusProcessor(DataProcessor):
         return self._create_examples(
             self._read_tsv(os.path.join(data_dir, file_name)), "test")
     def get_labels(self):
-        return ["Not_a_complex","Complex_formation"]
+        label_list = ["Not_a_complex","Complex_formation"]
+        label_map = {l: i for i, l in enumerate(label_list)} 
+        return label_list,label_map
 
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
-        #the file now has 14 columns
+        #the file now has 10 columns
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
-            sent_start = tokenization.convert_to_unicode(line[-10])
-            entity1 = tokenization.convert_to_unicode(line[-9])
-            text_between_ent_1 = tokenization.convert_to_unicode(line[-8])
-            equiv1 = tokenization.convert_to_unicode(line[-7])
-            text_between_ent_1_and_ent_2 = tokenization.convert_to_unicode(line[-6])
-            entity2 = tokenization.convert_to_unicode(line[-5])
-            text_between_ent_2 = tokenization.convert_to_unicode(line[-4])
-            equiv2 = tokenization.convert_to_unicode(line[-3])
+            sent_start = tokenization.convert_to_unicode(line[-6])
+            entity1 = tokenization.convert_to_unicode(line[-5])
+            text_between_ent_1_and_ent_2 = tokenization.convert_to_unicode(line[-4])
+            entity2 = tokenization.convert_to_unicode(line[-3])
             sent_end = tokenization.convert_to_unicode(line[-2])
             label = tokenization.convert_to_unicode(line[-1])
             examples.append(
@@ -235,17 +229,13 @@ class ConsensusProcessor(DataProcessor):
                     guid=guid, 
                     sent_start=sent_start, 
                     entity1=entity1,
-                    text_between_ent_1=text_between_ent_1, 
-                    equiv1=equiv1, 
                     text_between_ent_1_and_ent_2=text_between_ent_1_and_ent_2,
                     entity2=entity2,
-                    text_between_ent_2=text_between_ent_2,
-                    equiv2=equiv2,
                     sent_end=sent_end,
                     label=label))
         return examples
 
-def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span_A, replace_span_B):
+def convert_single_example(ex_index, example, label_list,label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B):
     if isinstance(example, PaddingInputExample):
         return InputFeatures(
             input_ids=[0] * max_seq_length,
@@ -254,17 +244,17 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
             label_id=0,
             is_real_example=False)
     #labels = sorted(list(setlabel_list))) 
-    label_map = {l: i for i, l in enumerate(label_list)}
+    #label_map = {l: i for i, l in enumerate(label_list)}
 
     #code for text tokenization adapted from https://github.com/spyysalo/bert-span-classifier/
     sent_start_tok_bef = tokenizer.tokenize(example.sent_start)
     entity1_tok = tokenizer.tokenize(example.entity1)
-    text_between_ent_1_tok = tokenizer.tokenize(example.text_between_ent_1)
-    equiv1_tok = tokenizer.tokenize(example.equiv1)
+    #text_between_ent_1_tok = tokenizer.tokenize(example.text_between_ent_1)
+    #equiv1_tok = tokenizer.tokenize(example.equiv1)
     text_between_ent_1_and_ent_2_tok = tokenizer.tokenize(example.text_between_ent_1_and_ent_2)
     entity2_tok = tokenizer.tokenize(example.entity2)
-    text_between_ent_2_tok = tokenizer.tokenize(example.text_between_ent_2)
-    equiv2_tok = tokenizer.tokenize(example.equiv2)
+    #text_between_ent_2_tok = tokenizer.tokenize(example.text_between_ent_2)
+    #equiv2_tok = tokenizer.tokenize(example.equiv2)
     sent_end_tok = tokenizer.tokenize(example.sent_end)
     tokens_bef = ['[CLS]']
     center = int(max_seq_length/2)
@@ -279,11 +269,11 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
         else:
             sent_start_tok.append(sent_start_tok_bef[i])
 
-    # I have removed sentences with more than 18 words in text_between_ent_1_and_ent_2_tok during preprocessing --> check if it needs more
-    if (len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-1:
-        sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-1):]
+    # I have removed sentences with more than 20 words in text_between_ent_1_and_ent_2_tok during preprocessing --> check if it needs more
+    if (len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-1:
+        sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-1):]
     else:
-        sent_start_tok = ['[PAD]'] * ((center-1)-len(sent_start_tok+entity1_tok+text_between_ent_1_tok+equiv1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
+        sent_start_tok = ['[PAD]'] * ((center-1)-len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
     tokens_bef.extend(sent_start_tok)
      
     if not replace_span_A:
@@ -292,9 +282,9 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
         tokens_bef.append(replace_span_A)
     #tokens.extend(span_tok)
     #if an equiv entity exists
-    if example.text_between_ent_1:
-        tokens_bef.extend(text_between_ent_1_tok)
-        tokens_bef.extend(equiv1_tok)
+    #if example.text_between_ent_1:
+    #    tokens_bef.extend(text_between_ent_1_tok)
+    #    tokens_bef.extend(equiv1_tok)
     tokens_bef.extend(text_between_ent_1_and_ent_2_tok)
     
     if not replace_span_B:
@@ -302,9 +292,9 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
     else:
         tokens_bef.append(replace_span_B)
 
-    if example.text_between_ent_2:
-        tokens_bef.extend(text_between_ent_2_tok)
-        tokens_bef.extend(equiv2_tok)
+    #if example.text_between_ent_2:
+    #    tokens_bef.extend(text_between_ent_2_tok)
+    #    tokens_bef.extend(equiv2_tok)
 
     tokens_bef.extend(sent_end_tok)
     tokens=[]
@@ -373,12 +363,12 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
         else:
             tokens_b.pop()
 
-def filed_based_convert_examples_to_features(examples, label_list, max_seq_length, tokenizer, output_file, replace_span_A, replace_span_B):
+def filed_based_convert_examples_to_features(examples, label_list, label_map, max_seq_length, tokenizer, output_file, replace_span_A, replace_span_B):
     writer = tf.python_io.TFRecordWriter(output_file)
     for (ex_index, example) in enumerate(examples):
         if ex_index % 20000 == 0:
             tf.compat.v1.logging.info("Writing example %d of %d" % (ex_index, len(examples)))
-        feature = convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer, replace_span_A, replace_span_B)
+        feature = convert_single_example(ex_index, example, label_list, label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B)
 
         def create_int_feature(values):
             f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
@@ -568,7 +558,7 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint=None, learning_rat
               eval_metric_ops=eval_metric_ops)
         else:
             output_spec = tf.estimator.EstimatorSpec(
-              mode=mode, predictions={"probabilities":probabilities})
+              mode=mode, predictions={"probabilities":probabilities, "logits":logits})
         return output_spec
 
     return model_fn
@@ -605,7 +595,9 @@ def main(_):
 
     processor = processors[task_name]()
 
-    label_list = processor.get_labels()
+    #label_list = processor.get_labels()
+    label_list,label_map = processor.get_labels()
+    inv_label_map = { v: k for k, v in label_map.items() }
 
     tokenizer = tokenization.FullTokenizer(
         vocab_file=FLAGS.vocab_file, do_lower_case=FLAGS.do_lower_case)
@@ -683,7 +675,7 @@ def main(_):
 
     if FLAGS.do_train: 
         filed_based_convert_examples_to_features(
-          train_examples[start_index:end_index], label_list, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span_A, FLAGS.replace_span_B)
+          train_examples[start_index:end_index], label_list, label_map, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span_A, FLAGS.replace_span_B)
         tf.compat.v1.logging.info("***** Running training *****")
         tf.compat.v1.logging.info("  Num examples = %d", len(train_examples))
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.train_batch_size)
@@ -719,7 +711,7 @@ def main(_):
         num_actual_eval_examples = len(eval_examples)
         eval_file = os.path.join(FLAGS.output_dir, "eval.tf_record")
         filed_based_convert_examples_to_features(
-            eval_examples, label_list, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
+            eval_examples, label_list, label_map, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
 
         tf.compat.v1.logging.info("***** Running evaluation *****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
@@ -746,7 +738,7 @@ def main(_):
         predict_examples = processor.get_test_examples(FLAGS.data_dir)
         num_actual_predict_examples = len(predict_examples)
         predict_file = os.path.join(FLAGS.output_dir, "predict.tf_record")
-        filed_based_convert_examples_to_features(predict_examples, label_list,
+        filed_based_convert_examples_to_features(predict_examples, label_list, label_map,
                                                  FLAGS.max_seq_length, tokenizer,
                                                  predict_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
         tf.compat.v1.logging.info("***** Running prediction*****")
@@ -766,13 +758,18 @@ def main(_):
         eval_hooks = [LogEvalRunHook(FLAGS.predict_batch_size)]
         eval_start_time = time.time()
 
+        output_class_file = os.path.join(FLAGS.output_dir, "test_output_labels.txt")
         output_predict_file = os.path.join(FLAGS.output_dir, "test_results.tsv")
-        with tf.io.gfile.GFile(output_predict_file, "w") as writer:
+        with tf.io.gfile.GFile(output_predict_file, "w") as writer, tf.io.gfile.GFile(output_class_file, "w") as writer2:
             num_written_lines = 0
             tf.compat.v1.logging.info("***** Predict results *****")
             for prediction in estimator.predict(input_fn=predict_input_fn, hooks=eval_hooks,
                                                      yield_single_examples=True):
                 probabilities = prediction["probabilities"]
+                logits = prediction["logits"]
+                pr_res = np.argmax(logits, axis=-1)
+                output = str(inv_label_map[pr_res])+"\n"
+                writer2.write(output)
                 output_line = "\t".join(
                     str(class_probability)
                     for class_probability in probabilities) + "\n"
