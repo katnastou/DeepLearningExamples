@@ -1,0 +1,66 @@
+7478534,s0,T1,T2,,ETS1, transactivates the human ,GM-CSF," promoter in Jurkat T cells stimulated with PMA and ionomycin. 
+",Not_a_complex
+7478534,s0,T1,T31,,ETS1, transactivates the human GM-CSF promoter in Jurkat T cells stimulated with ,PMA," and ionomycin. 
+",Not_a_complex
+7478534,s0,T1,T32,,ETS1, transactivates the human GM-CSF promoter in Jurkat T cells stimulated with PMA and ,ionomycin,". 
+",Not_a_complex
+7478534,s0,T2,T31,ETS1 transactivates the human ,GM-CSF, promoter in Jurkat T cells stimulated with ,PMA," and ionomycin. 
+",Not_a_complex
+7478534,s0,T2,T32,ETS1 transactivates the human ,GM-CSF, promoter in Jurkat T cells stimulated with PMA and ,ionomycin,". 
+",Not_a_complex
+7478534,s0,T31,T32,ETS1 transactivates the human GM-CSF promoter in Jurkat T cells stimulated with ,PMA, and ,ionomycin,". 
+",Not_a_complex
+7478534,s2,T3,T4,,Granulocyte-macrophage colony-stimulating factor, (,GM-CSF,) is one such cytokine whose increased expression results partly from increases in transcription.,Not_a_complex
+7478534,s3,T18,T19,Cis-acting elements with ,NF kappa B,", ",AP-1," and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T18,T20,Cis-acting elements with ,NF kappa B,", AP-1 and ",ETS,"-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T18,T33,Cis-acting elements with ,NF kappa B,", AP-1 and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following ",PMA, and ionomycin stimulation.,Not_a_complex
+7478534,s3,T18,T34,Cis-acting elements with ,NF kappa B,", AP-1 and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ",ionomycin, stimulation.,Not_a_complex
+7478534,s3,T19,T20,"Cis-acting elements with NF kappa B, ",AP-1, and ,ETS,"-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T19,T33,"Cis-acting elements with NF kappa B, ",AP-1," and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following ",PMA, and ionomycin stimulation.,Not_a_complex
+7478534,s3,T19,T34,"Cis-acting elements with NF kappa B, ",AP-1," and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ",ionomycin, stimulation.,Not_a_complex
+7478534,s3,T20,T33,"Cis-acting elements with NF kappa B, AP-1 and ",ETS,"-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following ",PMA, and ionomycin stimulation.,Not_a_complex
+7478534,s3,T20,T34,"Cis-acting elements with NF kappa B, AP-1 and ",ETS,"-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ",ionomycin, stimulation.,Not_a_complex
+7478534,s3,T33,T34,"Cis-acting elements with NF kappa B, AP-1 and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following ",PMA, and ,ionomycin, stimulation.,Not_a_complex
+7478534,s3,T18,T5,Cis-acting elements with ,NF kappa B,", AP-1 and ETS-like motifs have been identified in the promoter region of the ",GM-CSF," gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T19,T5,"Cis-acting elements with NF kappa B, ",AP-1, and ETS-like motifs have been identified in the promoter region of the ,GM-CSF," gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T20,T5,"Cis-acting elements with NF kappa B, AP-1 and ",ETS,-like motifs have been identified in the promoter region of the ,GM-CSF," gene, which are important for transcriptional activity following PMA and ionomycin stimulation.",Not_a_complex
+7478534,s3,T5,T33,"Cis-acting elements with NF kappa B, AP-1 and ETS-like motifs have been identified in the promoter region of the ",GM-CSF," gene, which are important for transcriptional activity following ",PMA, and ionomycin stimulation.,Not_a_complex
+7478534,s3,T5,T34,"Cis-acting elements with NF kappa B, AP-1 and ETS-like motifs have been identified in the promoter region of the ",GM-CSF," gene, which are important for transcriptional activity following PMA and ",ionomycin, stimulation.,Not_a_complex
+7478534,s4,T23,T6,A number of the ,ETS," family of transcription factors are expressed in T cells, including ",ETS1, and ELF1.,Not_a_complex
+7478534,s4,T6,T7,"A number of the ETS family of transcription factors are expressed in T cells, including ",ETS1, and ,ELF1,.,Not_a_complex
+7478534,s4,T23,T7,A number of the ,ETS," family of transcription factors are expressed in T cells, including ETS1 and ",ELF1,.,Not_a_complex
+7478534,s6,T10,T11,"Exogenous ETS1, but not ",ELF1,", can transactivate ",GM-CSF,", through the GM5 site, in a PMA/ionomycin dependent manner.",Not_a_complex
+7478534,s6,T10,T21,"Exogenous ETS1, but not ",ELF1,", can transactivate GM-CSF, through the GM5 site, in a ",PMA,/ionomycin dependent manner.,Not_a_complex
+7478534,s6,T10,T22,"Exogenous ETS1, but not ",ELF1,", can transactivate GM-CSF, through the GM5 site, in a PMA/",ionomycin, dependent manner.,Not_a_complex
+7478534,s6,T11,T21,"Exogenous ETS1, but not ELF1, can transactivate ",GM-CSF,", through the GM5 site, in a ",PMA,/ionomycin dependent manner.,Not_a_complex
+7478534,s6,T11,T22,"Exogenous ETS1, but not ELF1, can transactivate ",GM-CSF,", through the GM5 site, in a PMA/",ionomycin, dependent manner.,Not_a_complex
+7478534,s6,T21,T22,"Exogenous ETS1, but not ELF1, can transactivate GM-CSF, through the GM5 site, in a ",PMA,/,ionomycin, dependent manner.,Not_a_complex
+7478534,s6,T9,T10,Exogenous ,ETS1,", but not ",ELF1,", can transactivate GM-CSF, through the GM5 site, in a PMA/ionomycin dependent manner.",Not_a_complex
+7478534,s6,T9,T11,Exogenous ,ETS1,", but not ELF1, can transactivate ",GM-CSF,", through the GM5 site, in a PMA/ionomycin dependent manner.",Not_a_complex
+7478534,s6,T9,T21,Exogenous ,ETS1,", but not ELF1, can transactivate GM-CSF, through the GM5 site, in a ",PMA,/ionomycin dependent manner.,Not_a_complex
+7478534,s6,T9,T22,Exogenous ,ETS1,", but not ELF1, can transactivate GM-CSF, through the GM5 site, in a PMA/",ionomycin, dependent manner.,Not_a_complex
+7478534,s8,T24,T12,Mutation of the core ,ETS, binding site from -GGAA- to -GGAT- prevents the binding of ETS-like factors with the exception of ,ETS1,.,Not_a_complex
+7478534,s8,T26,T12,Mutation of the core ETS binding site from -GGAA- to -GGAT- prevents the binding of ,ETS,-like factors with the exception of ,ETS1,.,Not_a_complex
+7478534,s8,T24,T26,Mutation of the core ,ETS, binding site from -GGAA- to -GGAT- prevents the binding of ,ETS,-like factors with the exception of ETS1.,Not_a_complex
+7478534,s9,T13,T14,The ,GM-CSF," promoter, modified in this way to be ",ETS1," specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T13,T15,The ,GM-CSF," promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ",ETS1, transactivation in the presence of PMA and ionomycin.,Not_a_complex
+7478534,s9,T13,T27,The ,GM-CSF," promoter, modified in this way to be ETS1 specific, is fully responsive to ",PMA,"/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T13,T28,The ,GM-CSF," promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/",ionomycin," induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T13,T29,The ,GM-CSF," promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of ",PMA, and ionomycin.,Not_a_complex
+7478534,s9,T13,T30,The ,GM-CSF," promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ",ionomycin,.,Not_a_complex
+7478534,s9,T14,T15,"The GM-CSF promoter, modified in this way to be ",ETS1," specific, is fully responsive to PMA/ionomycin induction, in addition to ",ETS1, transactivation in the presence of PMA and ionomycin.,Not_a_complex
+7478534,s9,T14,T27,"The GM-CSF promoter, modified in this way to be ",ETS1," specific, is fully responsive to ",PMA,"/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T14,T28,"The GM-CSF promoter, modified in this way to be ",ETS1," specific, is fully responsive to PMA/",ionomycin," induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T14,T29,"The GM-CSF promoter, modified in this way to be ",ETS1," specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of ",PMA, and ionomycin.,Not_a_complex
+7478534,s9,T14,T30,"The GM-CSF promoter, modified in this way to be ",ETS1," specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ",ionomycin,.,Not_a_complex
+7478534,s9,T27,T15,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to ",PMA,"/ionomycin induction, in addition to ",ETS1, transactivation in the presence of PMA and ionomycin.,Not_a_complex
+7478534,s9,T28,T15,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/",ionomycin," induction, in addition to ",ETS1, transactivation in the presence of PMA and ionomycin.,Not_a_complex
+7478534,s9,T15,T29,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ",ETS1, transactivation in the presence of ,PMA, and ionomycin.,Not_a_complex
+7478534,s9,T15,T30,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ",ETS1, transactivation in the presence of PMA and ,ionomycin,.,Not_a_complex
+7478534,s9,T27,T28,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to ",PMA,/,ionomycin," induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.",Not_a_complex
+7478534,s9,T27,T29,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to ",PMA,"/ionomycin induction, in addition to ETS1 transactivation in the presence of ",PMA, and ionomycin.,Not_a_complex
+7478534,s9,T27,T30,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to ",PMA,"/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ",ionomycin,.,Not_a_complex
+7478534,s9,T28,T29,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/",ionomycin," induction, in addition to ETS1 transactivation in the presence of ",PMA, and ionomycin.,Not_a_complex
+7478534,s9,T28,T30,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/",ionomycin," induction, in addition to ETS1 transactivation in the presence of PMA and ",ionomycin,.,Not_a_complex
+7478534,s9,T29,T30,"The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of ",PMA, and ,ionomycin,.,Not_a_complex
+7478534,s10,T16,T17,Together these data suggest that ,ETS1, may be involved in mediating the increased ,GM-CSF, production associated with T cell activation.,Not_a_complex

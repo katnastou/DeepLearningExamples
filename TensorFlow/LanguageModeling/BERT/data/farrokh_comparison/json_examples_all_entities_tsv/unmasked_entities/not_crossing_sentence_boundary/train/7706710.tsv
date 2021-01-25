@@ -1,0 +1,17 @@
+7706710,s2,T3,T4,Formation of the ,NFAT-1, transcriptional complex on the ,IL-2, promoter is essential for IL-2 transcription.,Not_a_complex
+7706710,s2,T3,T5,Formation of the ,NFAT-1, transcriptional complex on the IL-2 promoter is essential for ,IL-2, transcription.,Not_a_complex
+7706710,s2,T4,T5,Formation of the NFAT-1 transcriptional complex on the ,IL-2, promoter is essential for ,IL-2, transcription.,Not_a_complex
+7706710,s3,T6,T7,Using a cell line that is stably transfected with a trimer of the ,NFAT-1, regulatory element linked to a ,lac-Z," reporter gene, we screened for inhibitors of NFAT-1-mediated beta-galactosidase activity.",Not_a_complex
+7706710,s3,T6,T8,Using a cell line that is stably transfected with a trimer of the ,NFAT-1," regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of ",NFAT-1,-mediated beta-galactosidase activity.,Not_a_complex
+7706710,s3,T6,T9,Using a cell line that is stably transfected with a trimer of the ,NFAT-1," regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-mediated ",beta-galactosidase, activity.,Not_a_complex
+7706710,s3,T7,T8,Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a ,lac-Z," reporter gene, we screened for inhibitors of ",NFAT-1,-mediated beta-galactosidase activity.,Not_a_complex
+7706710,s3,T7,T9,Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a ,lac-Z," reporter gene, we screened for inhibitors of NFAT-1-mediated ",beta-galactosidase, activity.,Not_a_complex
+7706710,s3,T8,T9,"Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of ",NFAT-1,-mediated ,beta-galactosidase, activity.,Not_a_complex
+7706710,s6,T11,T12,Similar inhibition of ,NFAT-1,"-mediated gene expression was observed in a second cell line, which is stably transfected with ",NFAT-1, regulatory elements linked to the reporter gene for sCD8.,Not_a_complex
+7706710,s7,T13,T14,"At 10 microM, both compounds inhibited ",IL-2, mRNA and protein levels in the ,NFAT-1,"-linked lac-Z transfectants, and in human lymphocytes.",Not_a_complex
+7706710,s7,T13,T15,"At 10 microM, both compounds inhibited ",IL-2, mRNA and protein levels in the NFAT-1-linked ,lac-Z," transfectants, and in human lymphocytes.",Not_a_complex
+7706710,s7,T14,T15,"At 10 microM, both compounds inhibited IL-2 mRNA and protein levels in the ",NFAT-1,-linked ,lac-Z," transfectants, and in human lymphocytes.",Not_a_complex
+7706710,s9,T17,T22,WIN 53071 inhibited ,IL-2, production induced in the calcium-dependent PMA and ,ionomycin, pathway.,Not_a_complex
+7706710,s9,T17,T23,WIN 53071 inhibited ,IL-2, production induced in the calcium-dependent ,PMA, and ionomycin pathway.,Not_a_complex
+7706710,s9,T23,T22,WIN 53071 inhibited IL-2 production induced in the calcium-dependent ,PMA, and ,ionomycin, pathway.,Not_a_complex
+7706710,s10,T21,T18,"Conversely, calcium-independent anti-",CD28, Ab and PMA-induced ,IL-2, production was resistant.,Not_a_complex

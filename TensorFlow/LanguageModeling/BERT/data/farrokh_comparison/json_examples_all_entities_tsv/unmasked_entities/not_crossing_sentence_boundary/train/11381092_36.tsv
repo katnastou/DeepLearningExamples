@@ -1,0 +1,34 @@
+11381092_36,s1,T2,T3,Like ,Oxa1,", ",Mba1, is required for efficient protein insertion of both mitochondrially and nuclear-encoded proteins.,Not_a_complex
+11381092_36,s2,T4,T5,,Mba1, and ,Oxa1," overlap not only in substrate specificity, but most likely also in their function.",Not_a_complex
+11381092_36,s3,T6,T7,In the presence of ,Oxa1,", ",Mba1," is largely dispensable, indicating that Oxa1 can function independently of Mba1.",Not_a_complex
+11381092_36,s3,T6,T8,In the presence of ,Oxa1,", Mba1 is largely dispensable, indicating that ",Oxa1, can function independently of Mba1.,Not_a_complex
+11381092_36,s3,T6,T9,In the presence of ,Oxa1,", Mba1 is largely dispensable, indicating that Oxa1 can function independently of ",Mba1,.,Not_a_complex
+11381092_36,s3,T7,T8,"In the presence of Oxa1, ",Mba1," is largely dispensable, indicating that ",Oxa1, can function independently of Mba1.,Not_a_complex
+11381092_36,s3,T7,T9,"In the presence of Oxa1, ",Mba1," is largely dispensable, indicating that Oxa1 can function independently of ",Mba1,.,Not_a_complex
+11381092_36,s3,T8,T9,"In the presence of Oxa1, Mba1 is largely dispensable, indicating that ",Oxa1, can function independently of ,Mba1,.,Not_a_complex
+11381092_36,s4,T10,T11,"In contrast, ",Mba1, is unable to replace ,Oxa1," completely even upon overexpression, but restores the defective insertion of the Oxa1 precursor in a Deltaoxa1 mutant.",Not_a_complex
+11381092_36,s4,T10,T12,"In contrast, ",Mba1," is unable to replace Oxa1 completely even upon overexpression, but restores the defective insertion of the ",Oxa1, precursor in a Deltaoxa1 mutant.,Not_a_complex
+11381092_36,s4,T10,T18,"In contrast, ",Mba1," is unable to replace Oxa1 completely even upon overexpression, but restores the defective insertion of the Oxa1 precursor in a ",Deltaoxa1, mutant.,Not_a_complex
+11381092_36,s4,T11,T12,"In contrast, Mba1 is unable to replace ",Oxa1," completely even upon overexpression, but restores the defective insertion of the ",Oxa1, precursor in a Deltaoxa1 mutant.,Not_a_complex
+11381092_36,s4,T11,T18,"In contrast, Mba1 is unable to replace ",Oxa1," completely even upon overexpression, but restores the defective insertion of the Oxa1 precursor in a ",Deltaoxa1, mutant.,Not_a_complex
+11381092_36,s4,T12,T18,"In contrast, Mba1 is unable to replace Oxa1 completely even upon overexpression, but restores the defective insertion of the ",Oxa1, precursor in a ,Deltaoxa1, mutant.,Not_a_complex
+11381092_36,s5,T13,T15,This partial suppression may be explained by the observation that ,Mba1, needs Oxa1 to interact with ,Cox2,", whereas its interaction with Cox3 is independent of Oxa1.
+",Complex_formation
+11381092_36,s5,T13,T16,This partial suppression may be explained by the observation that ,Mba1," needs Oxa1 to interact with Cox2, whereas its interaction with ",Cox3," is independent of Oxa1.
+",Complex_formation
+11381092_36,s5,T13,T14,This partial suppression may be explained by the observation that ,Mba1, needs ,Oxa1," to interact with Cox2, whereas its interaction with Cox3 is independent of Oxa1.
+",Not_a_complex
+11381092_36,s5,T13,T17,This partial suppression may be explained by the observation that ,Mba1," needs Oxa1 to interact with Cox2, whereas its interaction with Cox3 is independent of ",Oxa1,".
+",Not_a_complex
+11381092_36,s5,T14,T15,This partial suppression may be explained by the observation that Mba1 needs ,Oxa1, to interact with ,Cox2,", whereas its interaction with Cox3 is independent of Oxa1.
+",Not_a_complex
+11381092_36,s5,T14,T16,This partial suppression may be explained by the observation that Mba1 needs ,Oxa1," to interact with Cox2, whereas its interaction with ",Cox3," is independent of Oxa1.
+",Not_a_complex
+11381092_36,s5,T14,T17,This partial suppression may be explained by the observation that Mba1 needs ,Oxa1," to interact with Cox2, whereas its interaction with Cox3 is independent of ",Oxa1,".
+",Not_a_complex
+11381092_36,s5,T15,T16,This partial suppression may be explained by the observation that Mba1 needs Oxa1 to interact with ,Cox2,", whereas its interaction with ",Cox3," is independent of Oxa1.
+",Not_a_complex
+11381092_36,s5,T15,T17,This partial suppression may be explained by the observation that Mba1 needs Oxa1 to interact with ,Cox2,", whereas its interaction with Cox3 is independent of ",Oxa1,".
+",Not_a_complex
+11381092_36,s5,T16,T17,"This partial suppression may be explained by the observation that Mba1 needs Oxa1 to interact with Cox2, whereas its interaction with ",Cox3, is independent of ,Oxa1,".
+",Not_a_complex

@@ -1,0 +1,11 @@
+10704443_5,s0,T2,T3,The Emp24 complex in yeast comprises ,Emp24p,", ",Erv25p,", and most likely Erp1p and Erp2p.",Complex_formation
+10704443_5,s0,T2,T4,The Emp24 complex in yeast comprises ,Emp24p,", Erv25p, and most likely ",Erp1p, and Erp2p.,Complex_formation
+10704443_5,s0,T2,T5,The Emp24 complex in yeast comprises ,Emp24p,", Erv25p, and most likely Erp1p and ",Erp2p,.,Complex_formation
+10704443_5,s0,T3,T4,"The Emp24 complex in yeast comprises Emp24p, ",Erv25p,", and most likely ",Erp1p, and Erp2p.,Complex_formation
+10704443_5,s0,T3,T5,"The Emp24 complex in yeast comprises Emp24p, ",Erv25p,", and most likely Erp1p and ",Erp2p,.,Complex_formation
+10704443_5,s0,T4,T5,"The Emp24 complex in yeast comprises Emp24p, Erv25p, and most likely ",Erp1p, and ,Erp2p,.,Complex_formation
+10704443_5,s0,T1,T2,The ,Emp24, complex in yeast comprises ,Emp24p,", Erv25p, and most likely Erp1p and Erp2p.",Not_a_complex
+10704443_5,s0,T1,T3,The ,Emp24," complex in yeast comprises Emp24p, ",Erv25p,", and most likely Erp1p and Erp2p.",Not_a_complex
+10704443_5,s0,T1,T4,The ,Emp24," complex in yeast comprises Emp24p, Erv25p, and most likely ",Erp1p, and Erp2p.,Not_a_complex
+10704443_5,s0,T1,T5,The ,Emp24," complex in yeast comprises Emp24p, Erv25p, and most likely Erp1p and ",Erp2p,.,Not_a_complex
+10704443_5,s2,T7,T8,In this study we provide evidence that the ,Emp24, complex is directly required for efficient packaging of ,Gas1p, into ER-derived vesicles.,Not_a_complex

@@ -1,0 +1,8 @@
+10364157,s0,T1,T2,Direct interaction of hematopoietic transcription factors ,PU.1, and ,GATA-1,": functional antagonism in erythroid cells. 
+",Complex_formation
+10364157,s2,T3,T18,,PU.1, is a hematopoietic-specific ,Ets, family transcription factor that is required for development of some lymphoid and myeloid lineages.,Not_a_complex
+10364157,s4,T5,T6,Restoration of terminal differentiation in the mouse erythroleukemia (MEL) cells requires a decline in the level of ,PU.1,", indicating that ",PU.1, can block erythroid differentiation.,Not_a_complex
+10364157,s6,T8,T9,We find that ,PU.1, interacts directly with ,GATA-1,", a zinc finger transcription factor required for erythroid differentiation.",Complex_formation
+10364157,s7,T10,T11,Interaction between ,PU.1, and ,GATA-1, requires intact DNA-binding domains in both proteins.,Complex_formation
+10364157,s8,T12,T13,,PU.1, represses ,GATA-1,-mediated transcriptional activation.,Not_a_complex
+10364157,s11,T16,T17,"Furthermore, introduction of exogenous ",GATA-1, in both MEL cells and Xenopus embryos and explants relieves the block to erythroid differentiation imposed by ,PU.1,.,Complex_formation

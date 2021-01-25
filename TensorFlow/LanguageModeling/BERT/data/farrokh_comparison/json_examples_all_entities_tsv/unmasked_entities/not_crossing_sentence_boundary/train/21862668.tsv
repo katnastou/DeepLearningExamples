@@ -1,0 +1,30 @@
+21862668,s0,T1,T11,,HCF243, encodes a chloroplast-localized protein involved in the ,D1," protein stability of the arabidopsis photosystem II complex. 
+",Not_a_complex
+21862668,s0,T1,T19,,HCF243, encodes a chloroplast-localized protein involved in the D1 protein stability of the arabidopsis ,photosystem II," complex. 
+",Not_a_complex
+21862668,s0,T11,T19,HCF243 encodes a chloroplast-localized protein involved in the ,D1, protein stability of the arabidopsis ,photosystem II," complex. 
+",Not_a_complex
+21862668,s1,T17,T18,Numerous auxiliary nuclear factors have been identified to be involved in the dynamics of the ,photosystem II, (,PSII,) complex.,Not_a_complex
+21862668,s2,T2,T20,"In this study, we characterized the ",high chlorophyll fluorescence243," (hcf243) mutant of Arabidopsis (Arabidopsis thaliana), which shows higher chlorophyll fluorescence and is severely deficient in the accumulation of ",PSII, supercomplexes compared with the wild type.,Not_a_complex
+21862668,s2,T2,T3,"In this study, we characterized the ",high chlorophyll fluorescence243, (,hcf243,") mutant of Arabidopsis (Arabidopsis thaliana), which shows higher chlorophyll fluorescence and is severely deficient in the accumulation of PSII supercomplexes compared with the wild type.",Not_a_complex
+21862668,s2,T3,T20,"In this study, we characterized the high chlorophyll fluorescence243 (",hcf243,") mutant of Arabidopsis (Arabidopsis thaliana), which shows higher chlorophyll fluorescence and is severely deficient in the accumulation of ",PSII, supercomplexes compared with the wild type.,Not_a_complex
+21862668,s4,T12,T13,In vivo protein-labeling experiments indicated that the synthesis rate of both ,D1, and ,D2," proteins decreased severely in hcf243, whereas no change was found in the rate of other plastid-encoded proteins.",Not_a_complex
+21862668,s4,T12,T5,In vivo protein-labeling experiments indicated that the synthesis rate of both ,D1, and D2 proteins decreased severely in ,hcf243,", whereas no change was found in the rate of other plastid-encoded proteins.",Not_a_complex
+21862668,s4,T13,T5,In vivo protein-labeling experiments indicated that the synthesis rate of both D1 and ,D2, proteins decreased severely in ,hcf243,", whereas no change was found in the rate of other plastid-encoded proteins.",Not_a_complex
+21862668,s5,T14,T21,"Furthermore, the degradation rate of the PSII core subunit ",D1," protein is higher in hcf243 than in the wild type, and the assembly of ",PSII, is retarded significantly in the hcf243 mutant.,Not_a_complex
+21862668,s5,T23,T14,"Furthermore, the degradation rate of the ",PSII, core subunit ,D1," protein is higher in hcf243 than in the wild type, and the assembly of PSII is retarded significantly in the hcf243 mutant.",Not_a_complex
+21862668,s5,T23,T21,"Furthermore, the degradation rate of the ",PSII," core subunit D1 protein is higher in hcf243 than in the wild type, and the assembly of ",PSII, is retarded significantly in the hcf243 mutant.,Not_a_complex
+21862668,s5,T14,T6,"Furthermore, the degradation rate of the PSII core subunit ",D1, protein is higher in ,hcf243," than in the wild type, and the assembly of PSII is retarded significantly in the hcf243 mutant.",Not_a_complex
+21862668,s5,T6,T21,"Furthermore, the degradation rate of the PSII core subunit D1 protein is higher in ",hcf243," than in the wild type, and the assembly of ",PSII, is retarded significantly in the hcf243 mutant.,Not_a_complex
+21862668,s5,T23,T6,"Furthermore, the degradation rate of the ",PSII, core subunit D1 protein is higher in ,hcf243," than in the wild type, and the assembly of PSII is retarded significantly in the hcf243 mutant.",Not_a_complex
+21862668,s5,T6,T7,"Furthermore, the degradation rate of the PSII core subunit D1 protein is higher in ",hcf243," than in the wild type, and the assembly of PSII is retarded significantly in the ",hcf243, mutant.,Not_a_complex
+21862668,s5,T14,T7,"Furthermore, the degradation rate of the PSII core subunit ",D1," protein is higher in hcf243 than in the wild type, and the assembly of PSII is retarded significantly in the ",hcf243, mutant.,Not_a_complex
+21862668,s5,T21,T7,"Furthermore, the degradation rate of the PSII core subunit D1 protein is higher in hcf243 than in the wild type, and the assembly of ",PSII, is retarded significantly in the ,hcf243, mutant.,Not_a_complex
+21862668,s5,T23,T7,"Furthermore, the degradation rate of the ",PSII," core subunit D1 protein is higher in hcf243 than in the wild type, and the assembly of PSII is retarded significantly in the ",hcf243, mutant.,Not_a_complex
+21862668,s6,T8,T15,,HCF243,", a nuclear gene, encodes a chloroplast protein that interacts with the ",D1, protein.,Complex_formation
+21862668,s8,T10,T16,These results suggest that ,HCF243,", which arose after the origin of the higher plants, may act as a cofactor to maintain the stability of ",D1," protein and to promote the subsequent assembly of the PSII complex. 
+",Not_a_complex
+21862668,s8,T10,T22,These results suggest that ,HCF243,", which arose after the origin of the higher plants, may act as a cofactor to maintain the stability of D1 protein and to promote the subsequent assembly of the ",PSII," complex. 
+",Not_a_complex
+21862668,s8,T16,T22,"These results suggest that HCF243, which arose after the origin of the higher plants, may act as a cofactor to maintain the stability of ",D1, protein and to promote the subsequent assembly of the ,PSII," complex. 
+",Not_a_complex

@@ -1,0 +1,17 @@
+18056411_52,s0,T1,T4,Flag-tagged ,IFNAR1, proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% ,Nonidet P-40,", 1 M NaCl, and 0.1% SDS.",Not_a_complex
+18056411_52,s0,T1,T5,Flag-tagged ,IFNAR1," proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% Nonidet P-40, 1 M ",NaCl,", and 0.1% SDS.",Not_a_complex
+18056411_52,s0,T1,T6,Flag-tagged ,IFNAR1," proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% Nonidet P-40, 1 M NaCl, and 0.1% ",SDS,.,Not_a_complex
+18056411_52,s0,T4,T5,Flag-tagged IFNAR1 proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% ,Nonidet P-40,", 1 M ",NaCl,", and 0.1% SDS.",Not_a_complex
+18056411_52,s0,T4,T6,Flag-tagged IFNAR1 proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% ,Nonidet P-40,", 1 M NaCl, and 0.1% ",SDS,.,Not_a_complex
+18056411_52,s0,T5,T6,"Flag-tagged IFNAR1 proteins (wild type or KR mutant) were expressed in 293T cells and purified using M2 agarose (Sigma-Aldrich) followed by sequential stringent washes with buffers containing 1% Nonidet P-40, 1 M ",NaCl,", and 0.1% ",SDS,.,Not_a_complex
+18056411_52,s1,T7,T8,Subsequent washes were performed with the same buffer containing 200 mM ,NaCl,", 100 mM ",NaCl,", and, finally, TBS.",Not_a_complex
+18056411_52,s1,T7,T9,Subsequent washes were performed with the same buffer containing 200 mM ,NaCl,", 100 mM NaCl, and, finally, ",TBS,.,Not_a_complex
+18056411_52,s1,T8,T9,"Subsequent washes were performed with the same buffer containing 200 mM NaCl, 100 mM ",NaCl,", and, finally, ",TBS,.,Not_a_complex
+18056411_52,s2,T2,T3,These washes were stringent enough to remove any detectable ,Tyk2, from immunoprecipitated ,IFNAR1,.,Complex_formation
+18056411_52,s3,T10,T11,The precipitated proteins were eluted with 0.1 M ,glycine,", pH 3.0 and resolved by ",SDS,-PAGE.,Not_a_complex
+18056411_52,s5,T12,T13,80% of eluate was analyzed by ,SDS,-PAGE followed by colloidal ,Coomassie," (Invitrogen) staining.
+",Not_a_complex
+18056411_52,s5,T12,T14,80% of eluate was analyzed by ,SDS,-PAGE followed by colloidal Coomassie (,Invitrogen,") staining.
+",Not_a_complex
+18056411_52,s5,T13,T14,80% of eluate was analyzed by SDS-PAGE followed by colloidal ,Coomassie, (,Invitrogen,") staining.
+",Not_a_complex

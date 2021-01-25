@@ -1,0 +1,48 @@
+25161659,s2,T15,T16,Expression of plastid encoded genes is dependent on two different transcription machineries; a ,plastid-encoded bacterial-type RNA polymerase, (,PEP,") and a nuclear-encoded phage-type RNA polymerase (NEP), which recognize distinct types of promoters.",Not_a_complex
+25161659,s2,T15,T17,Expression of plastid encoded genes is dependent on two different transcription machineries; a ,plastid-encoded bacterial-type RNA polymerase, (PEP) and a ,nuclear-encoded phage-type RNA polymerase," (NEP), which recognize distinct types of promoters.",Not_a_complex
+25161659,s2,T15,T18,Expression of plastid encoded genes is dependent on two different transcription machineries; a ,plastid-encoded bacterial-type RNA polymerase, (PEP) and a nuclear-encoded phage-type RNA polymerase (,NEP,"), which recognize distinct types of promoters.",Not_a_complex
+25161659,s2,T16,T17,Expression of plastid encoded genes is dependent on two different transcription machineries; a plastid-encoded bacterial-type RNA polymerase (,PEP,) and a ,nuclear-encoded phage-type RNA polymerase," (NEP), which recognize distinct types of promoters.",Not_a_complex
+25161659,s2,T16,T18,Expression of plastid encoded genes is dependent on two different transcription machineries; a plastid-encoded bacterial-type RNA polymerase (,PEP,) and a nuclear-encoded phage-type RNA polymerase (,NEP,"), which recognize distinct types of promoters.",Not_a_complex
+25161659,s2,T17,T18,Expression of plastid encoded genes is dependent on two different transcription machineries; a plastid-encoded bacterial-type RNA polymerase (PEP) and a ,nuclear-encoded phage-type RNA polymerase, (,NEP,"), which recognize distinct types of promoters.",Not_a_complex
+25161659,s3,T19,T20,"However, the division of labor between ",PEP, and ,NEP, during plastid development and in mature chloroplasts is unclear.,Not_a_complex
+25161659,s4,T1,T2,We show here that ,PLASTID REDOX INSENSITIVE 2, (,PRIN2,") and CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa (CSP41b), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s4,T1,T3,We show here that ,PLASTID REDOX INSENSITIVE 2, (PRIN2) and ,CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa," (CSP41b), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s4,T1,T4,We show here that ,PLASTID REDOX INSENSITIVE 2, (PRIN2) and CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa (,CSP41b,"), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s4,T2,T3,We show here that PLASTID REDOX INSENSITIVE 2 (,PRIN2,) and ,CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa," (CSP41b), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s4,T2,T4,We show here that PLASTID REDOX INSENSITIVE 2 (,PRIN2,) and CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa (,CSP41b,"), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s4,T3,T4,We show here that PLASTID REDOX INSENSITIVE 2 (PRIN2) and ,CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa, (,CSP41b,"), two proteins identified in plastid nucleoid preparations, are essential for proper plant embryo development.",Not_a_complex
+25161659,s5,T5,T6,Using Co-IP assays and native PAGE we have shown a direct physical interaction between ,PRIN2, and ,CSP41b,.,Complex_formation
+25161659,s6,T7,T8,"Moreover, ",PRIN2, and ,CSP41b, form a distinct protein complex in vitro that binds DNA.,Complex_formation
+25161659,s7,T9,T10,The ,prin2.2, and ,csp41b,"-2 single mutants displayed pale phenotypes, abnormal chloroplasts with reduced transcript levels of photosynthesis genes and defects in embryo development.",Not_a_complex
+25161659,s8,T11,T21,The respective ,csp41b,-2,prin2.2, homo/heterozygote double mutants produced abnormal white colored ovules and shrunken seeds.,Not_a_complex
+25161659,s9,T12,T22,"Thus, the ",csp41b,-2,prin2.2, double mutant is embryo lethal.,Not_a_complex
+25161659,s11,T13,T14,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the ",PRIN2,-,CSP41b," DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Complex_formation
+25161659,s11,T24,T13,"Taken together, our results suggest that ",PEP," activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the ",PRIN2,"-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T25,T13,"Taken together, our results suggest that PEP activity and consequently the switch from ",NEP," to PEP activity, is essential during embryo development and that the ",PRIN2,"-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T26,T13,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to ",PEP," activity, is essential during embryo development and that the ",PRIN2,"-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T13,T27,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the ",PRIN2,-CSP41b DNA binding protein complex possibly is important for full ,PEP," activity during this process. 
+",Not_a_complex
+25161659,s11,T24,T14,"Taken together, our results suggest that ",PEP," activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the PRIN2-",CSP41b," DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T25,T14,"Taken together, our results suggest that PEP activity and consequently the switch from ",NEP," to PEP activity, is essential during embryo development and that the PRIN2-",CSP41b," DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T26,T14,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to ",PEP," activity, is essential during embryo development and that the PRIN2-",CSP41b," DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T14,T27,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the PRIN2-",CSP41b, DNA binding protein complex possibly is important for full ,PEP," activity during this process. 
+",Not_a_complex
+25161659,s11,T24,T25,"Taken together, our results suggest that ",PEP, activity and consequently the switch from ,NEP," to PEP activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T24,T26,"Taken together, our results suggest that ",PEP, activity and consequently the switch from NEP to ,PEP," activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T24,T27,"Taken together, our results suggest that ",PEP," activity and consequently the switch from NEP to PEP activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full ",PEP," activity during this process. 
+",Not_a_complex
+25161659,s11,T25,T26,"Taken together, our results suggest that PEP activity and consequently the switch from ",NEP, to ,PEP," activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full PEP activity during this process. 
+",Not_a_complex
+25161659,s11,T25,T27,"Taken together, our results suggest that PEP activity and consequently the switch from ",NEP," to PEP activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full ",PEP," activity during this process. 
+",Not_a_complex
+25161659,s11,T26,T27,"Taken together, our results suggest that PEP activity and consequently the switch from NEP to ",PEP," activity, is essential during embryo development and that the PRIN2-CSP41b DNA binding protein complex possibly is important for full ",PEP," activity during this process. 
+",Not_a_complex

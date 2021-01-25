@@ -1,0 +1,28 @@
+8892614,s0,T1,T2,Apoptosis signaling pathways in normal T cells: differential activity of ,Bcl-2, and ,IL-1beta,"-converting enzyme family protease inhibitors on glucocorticoid- and Fas-mediated cytotoxicity. 
+",Not_a_complex
+8892614,s0,T1,T3,Apoptosis signaling pathways in normal T cells: differential activity of ,Bcl-2, and IL-1beta-converting enzyme family protease inhibitors on glucocorticoid- and ,Fas,"-mediated cytotoxicity. 
+",Not_a_complex
+8892614,s0,T2,T3,Apoptosis signaling pathways in normal T cells: differential activity of Bcl-2 and ,IL-1beta,-converting enzyme family protease inhibitors on glucocorticoid- and ,Fas,"-mediated cytotoxicity. 
+",Not_a_complex
+8892614,s2,T5,T6,Restimulation of T cell blasts up-regulates ,Fas, and ,Fas ligand," expression, with subsequent interaction leading to cell death.",Complex_formation
+8892614,s3,T7,T8,Overexpression of ,Bcl-2," in tumor cells blocks apoptosis induced by many stimuli, but inhibition of ",Fas,-mediated killing has not been consistently observed.,Not_a_complex
+8892614,s4,T9,T10,To examine the behavior of ,Bcl-2," in normal cells, T cell blasts were transiently transfected with ",Bcl-2, and related gene products to determine the effect on apoptotic signaling.,Not_a_complex
+8892614,s5,T11,T12,Transient overexpression of ,Bcl-2, in mouse and human T cell blasts did not block ,Fas,"-mediated apoptosis, whereas etoposide- and glucocorticoid-induced cytotoxicity was potently inhibited.",Not_a_complex
+8892614,s5,T11,T22,Transient overexpression of ,Bcl-2," in mouse and human T cell blasts did not block Fas-mediated apoptosis, whereas ",etoposide,- and glucocorticoid-induced cytotoxicity was potently inhibited.,Not_a_complex
+8892614,s5,T11,T23,Transient overexpression of ,Bcl-2," in mouse and human T cell blasts did not block Fas-mediated apoptosis, whereas etoposide- and ",glucocorticoid,-induced cytotoxicity was potently inhibited.,Not_a_complex
+8892614,s5,T12,T22,Transient overexpression of Bcl-2 in mouse and human T cell blasts did not block ,Fas,"-mediated apoptosis, whereas ",etoposide,- and glucocorticoid-induced cytotoxicity was potently inhibited.,Not_a_complex
+8892614,s5,T12,T23,Transient overexpression of Bcl-2 in mouse and human T cell blasts did not block ,Fas,"-mediated apoptosis, whereas etoposide- and ",glucocorticoid,-induced cytotoxicity was potently inhibited.,Not_a_complex
+8892614,s5,T22,T23,"Transient overexpression of Bcl-2 in mouse and human T cell blasts did not block Fas-mediated apoptosis, whereas ",etoposide,- and ,glucocorticoid,-induced cytotoxicity was potently inhibited.,Not_a_complex
+8892614,s6,T13,T14,Expression of ,Bcl-xL, and adenovirus ,E1B 19K, did not interfere with anti-Fas killing.,Not_a_complex
+8892614,s6,T13,T15,Expression of ,Bcl-xL, and adenovirus E1B 19K did not interfere with anti-,Fas, killing.,Not_a_complex
+8892614,s6,T14,T15,Expression of Bcl-xL and adenovirus ,E1B 19K, did not interfere with anti-,Fas, killing.,Not_a_complex
+8892614,s7,T24,T16,"In contrast, ",interleukin-1beta,-converting enzyme family protease inhibitors Ac-DEVD-CHO and CrmA blocked ,Fas,-mediated apoptosis.,Not_a_complex
+8892614,s7,T25,T16,"In contrast, interleukin-1beta-converting enzyme family protease inhibitors ",Ac-DEVD-CHO, and CrmA blocked ,Fas,-mediated apoptosis.,Not_a_complex
+8892614,s7,T26,T16,"In contrast, interleukin-1beta-converting enzyme family protease inhibitors Ac-DEVD-CHO and ",CrmA, blocked ,Fas,-mediated apoptosis.,Not_a_complex
+8892614,s7,T24,T25,"In contrast, ",interleukin-1beta,-converting enzyme family protease inhibitors ,Ac-DEVD-CHO, and CrmA blocked Fas-mediated apoptosis.,Not_a_complex
+8892614,s7,T24,T26,"In contrast, ",interleukin-1beta,-converting enzyme family protease inhibitors Ac-DEVD-CHO and ,CrmA, blocked Fas-mediated apoptosis.,Not_a_complex
+8892614,s7,T25,T26,"In contrast, interleukin-1beta-converting enzyme family protease inhibitors ",Ac-DEVD-CHO, and ,CrmA, blocked Fas-mediated apoptosis.,Not_a_complex
+8892614,s8,T17,T18,These results suggest that peripheral T cells use distinct apoptosis signaling pathways with differential sensitivity to ,Bcl-2, and ,interleukin-1beta,-converting enzyme family protease inhibitors.,Not_a_complex
+8892614,s9,T19,T20,Since T cells normally express ,Bcl-2, and ,Bcl-xL," following activation, their inability to block Fas-mediated apoptosis may allow for the elimination of self-reactive cells and the appropriate regulation of immune responses.",Not_a_complex
+8892614,s9,T19,T21,Since T cells normally express ,Bcl-2," and Bcl-xL following activation, their inability to block ",Fas,-mediated apoptosis may allow for the elimination of self-reactive cells and the appropriate regulation of immune responses.,Not_a_complex
+8892614,s9,T20,T21,Since T cells normally express Bcl-2 and ,Bcl-xL," following activation, their inability to block ",Fas,-mediated apoptosis may allow for the elimination of self-reactive cells and the appropriate regulation of immune responses.,Not_a_complex

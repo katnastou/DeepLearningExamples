@@ -1,0 +1,39 @@
+22405651_35,s0,T1,T12,Similar to ,Cand1,", Glmn binds to a broad range of ",CRLs, although in a completely different manner.,Complex_formation
+22405651_35,s0,T2,T12,"Similar to Cand1, ",Glmn, binds to a broad range of ,CRLs, although in a completely different manner.,Complex_formation
+22405651_35,s0,T1,T2,Similar to ,Cand1,", ",Glmn, binds to a broad range of CRLs although in a completely different manner.,Not_a_complex
+22405651_35,s1,T3,T13,,Cand1, associates with un-neddylated ,cullins, not bound to SRs.,Complex_formation
+22405651_35,s1,T13,T14,Cand1 associates with un-neddylated ,cullins, not bound to ,SRs,.,Not_a_complex
+22405651_35,s1,T3,T14,,Cand1, associates with un-neddylated cullins not bound to ,SRs,.,Not_a_complex
+22405651_35,s2,T15,T16,"In contrast, Glmn can bind to ",cullins, independent of their neddylation status or association with ,SRs,.,Complex_formation
+22405651_35,s2,T4,T15,"In contrast, ",Glmn, can bind to ,cullins, independent of their neddylation status or association with SRs.,Complex_formation
+22405651_35,s2,T4,T16,"In contrast, ",Glmn, can bind to cullins independent of their neddylation status or association with ,SRs,.,Not_a_complex
+22405651_35,s3,T5,T17,"However, the specific role of ",Cand1, in regulating ,CRL, activity remains largely unknown.,Not_a_complex
+22405651_35,s4,T7,T19,Depletion of Cand1 had little effect on the abundance of cullins and ,Cand1, only associates with a small fraction of un-neddylated ,cullins,.,Complex_formation
+22405651_35,s4,T18,T19,Depletion of Cand1 had little effect on the abundance of ,cullins, and Cand1 only associates with a small fraction of un-neddylated ,cullins,.,Not_a_complex
+22405651_35,s4,T6,T18,Depletion of ,Cand1, had little effect on the abundance of ,cullins, and Cand1 only associates with a small fraction of un-neddylated cullins.,Not_a_complex
+22405651_35,s4,T6,T19,Depletion of ,Cand1, had little effect on the abundance of cullins and Cand1 only associates with a small fraction of un-neddylated ,cullins,.,Not_a_complex
+22405651_35,s4,T6,T7,Depletion of ,Cand1, had little effect on the abundance of cullins and ,Cand1, only associates with a small fraction of un-neddylated cullins.,Not_a_complex
+22405651_35,s4,T18,T7,Depletion of Cand1 had little effect on the abundance of ,cullins, and ,Cand1, only associates with a small fraction of un-neddylated cullins.,Not_a_complex
+22405651_35,s5,T26,T24,Inhibition of neddylation with MLN4924 led to small increases in the fraction of cullins bound to Cand1 and little changes in ,cullin, binding to ,SRs,.,Complex_formation
+22405651_35,s5,T25,T8,Inhibition of neddylation with MLN4924 led to small increases in the fraction of ,cullins, bound to ,Cand1, and little changes in cullin binding to SRs.,Complex_formation
+22405651_35,s5,T20,T24,Inhibition of neddylation with ,MLN4924, led to small increases in the fraction of cullins bound to Cand1 and little changes in cullin binding to ,SRs,.,Not_a_complex
+22405651_35,s5,T20,T25,Inhibition of neddylation with ,MLN4924, led to small increases in the fraction of ,cullins, bound to Cand1 and little changes in cullin binding to SRs.,Not_a_complex
+22405651_35,s5,T20,T26,Inhibition of neddylation with ,MLN4924, led to small increases in the fraction of cullins bound to Cand1 and little changes in ,cullin, binding to SRs.,Not_a_complex
+22405651_35,s5,T25,T24,Inhibition of neddylation with MLN4924 led to small increases in the fraction of ,cullins, bound to Cand1 and little changes in cullin binding to ,SRs,.,Not_a_complex
+22405651_35,s5,T25,T26,Inhibition of neddylation with MLN4924 led to small increases in the fraction of ,cullins, bound to Cand1 and little changes in ,cullin, binding to SRs.,Not_a_complex
+22405651_35,s5,T20,T8,Inhibition of neddylation with ,MLN4924, led to small increases in the fraction of cullins bound to ,Cand1, and little changes in cullin binding to SRs.,Not_a_complex
+22405651_35,s5,T8,T24,Inhibition of neddylation with MLN4924 led to small increases in the fraction of cullins bound to ,Cand1, and little changes in cullin binding to ,SRs,.,Not_a_complex
+22405651_35,s5,T8,T26,Inhibition of neddylation with MLN4924 led to small increases in the fraction of cullins bound to ,Cand1, and little changes in ,cullin, binding to SRs.,Not_a_complex
+22405651_35,s6,T9,T21,"Interestingly, loss of ",Cand1, function in C. elegans results in reduction of specific ,CRL, functions while leaving others unaffected.,Not_a_complex
+22405651_35,s7,T10,T11,"Therefore, although ",Cand1, can bind to the broad class of unmodified ,Rbx1,"-Cullins, its impact on CRL activity is quite limited.
+",Complex_formation
+22405651_35,s7,T10,T22,"Therefore, although ",Cand1, can bind to the broad class of unmodified Rbx1-,Cullins,", its impact on CRL activity is quite limited.
+",Complex_formation
+22405651_35,s7,T10,T23,"Therefore, although ",Cand1," can bind to the broad class of unmodified Rbx1-Cullins, its impact on ",CRL," activity is quite limited.
+",Not_a_complex
+22405651_35,s7,T11,T22,"Therefore, although Cand1 can bind to the broad class of unmodified ",Rbx1,-,Cullins,", its impact on CRL activity is quite limited.
+",Not_a_complex
+22405651_35,s7,T11,T23,"Therefore, although Cand1 can bind to the broad class of unmodified ",Rbx1,"-Cullins, its impact on ",CRL," activity is quite limited.
+",Not_a_complex
+22405651_35,s7,T22,T23,"Therefore, although Cand1 can bind to the broad class of unmodified Rbx1-",Cullins,", its impact on ",CRL," activity is quite limited.
+",Not_a_complex

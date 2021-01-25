@@ -1,0 +1,19 @@
+7534293,s0,T1,T2,,E2F-1," and a cyclin-like DNA repair enzyme, ",uracil-DNA glycosylase,", provide evidence for an autoregulatory mechanism for transcription. 
+",Not_a_complex
+7534293,s1,T3,T4,"The cell cycle-dependent transcription factor, ",E2F-1,", regulates the cyclin-like species of the DNA repair enzyme ",uracil-DNA glycosylase, (UDG) gene in human osteosarcoma (Saos-2) cells.,Not_a_complex
+7534293,s1,T3,T5,"The cell cycle-dependent transcription factor, ",E2F-1,", regulates the cyclin-like species of the DNA repair enzyme uracil-DNA glycosylase (",UDG,) gene in human osteosarcoma (Saos-2) cells.,Not_a_complex
+7534293,s1,T4,T5,"The cell cycle-dependent transcription factor, E2F-1, regulates the cyclin-like species of the DNA repair enzyme ",uracil-DNA glycosylase, (,UDG,) gene in human osteosarcoma (Saos-2) cells.,Not_a_complex
+7534293,s2,T6,T15,"We demonstrate, through the deletion of the human ",UDG," promoter sequences, that expression of E2F-1 activates the UDG promoter through several ",E2F, sites.,Not_a_complex
+7534293,s2,T6,T7,"We demonstrate, through the deletion of the human ",UDG," promoter sequences, that expression of ",E2F-1, activates the UDG promoter through several E2F sites.,Not_a_complex
+7534293,s2,T6,T8,"We demonstrate, through the deletion of the human ",UDG," promoter sequences, that expression of E2F-1 activates the ",UDG, promoter through several E2F sites.,Not_a_complex
+7534293,s2,T7,T15,"We demonstrate, through the deletion of the human UDG promoter sequences, that expression of ",E2F-1, activates the UDG promoter through several ,E2F, sites.,Not_a_complex
+7534293,s2,T7,T8,"We demonstrate, through the deletion of the human UDG promoter sequences, that expression of ",E2F-1, activates the ,UDG, promoter through several E2F sites.,Not_a_complex
+7534293,s2,T8,T15,"We demonstrate, through the deletion of the human UDG promoter sequences, that expression of E2F-1 activates the ",UDG, promoter through several ,E2F, sites.,Not_a_complex
+7534293,s3,T9,T10,"The major putative downstream site for E2F, located in the first exon, serves as a target for ",E2F-1,/,DP1, complex binding in vitro.,Complex_formation
+7534293,s3,T16,T10,The major putative downstream site for ,E2F,", located in the first exon, serves as a target for E2F-1/",DP1, complex binding in vitro.,Not_a_complex
+7534293,s3,T16,T9,The major putative downstream site for ,E2F,", located in the first exon, serves as a target for ",E2F-1,/DP1 complex binding in vitro.,Not_a_complex
+7534293,s4,T11,T17,We also provide evidence for the functional relationship between the cyclin-like ,UDG, gene product and ,E2F,.,Not_a_complex
+7534293,s5,T12,T18,High levels of ,UDG, expression in a transient transfection assay result in the down-regulation of transcriptional activity through elements specific for ,E2F,-mediated transcription.,Not_a_complex
+7534293,s8,T20,T14,This implicates ,E2F," as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the negative effect of ",UDG, on E2F-mediated transcriptional activity.,Not_a_complex
+7534293,s8,T14,T21,"This implicates E2F as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the negative effect of ",UDG, on ,E2F,-mediated transcriptional activity.,Not_a_complex
+7534293,s8,T20,T21,This implicates ,E2F," as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the negative effect of UDG on ",E2F,-mediated transcriptional activity.,Not_a_complex

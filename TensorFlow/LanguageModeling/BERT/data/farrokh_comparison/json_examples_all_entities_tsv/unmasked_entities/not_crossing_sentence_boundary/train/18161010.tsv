@@ -1,0 +1,15 @@
+18161010,s0,T1,T15,The cytoplasmic domain of ,chondrolectin, interacts with the beta-subunit of ,Rab geranylgeranyl transferase,". 
+",Complex_formation
+18161010,s1,T2,T3,Mouse ,chondrolectin, (,chodl,) was isolated out of the tail tip of four-day old 129/SvJ mice as a by-product of a PCR-based subtractive cDNA library screening.,Not_a_complex
+18161010,s3,T4,T5,,Chodl, is the mouse homologue of human ,chondrolectin," (CHODL), a gene that encodes for a type Ia transmembrane protein and that is expressed in human testis, prostate, heart and skeletal muscle tissue.",Not_a_complex
+18161010,s3,T4,T6,,Chodl, is the mouse homologue of human chondrolectin (,CHODL,"), a gene that encodes for a type Ia transmembrane protein and that is expressed in human testis, prostate, heart and skeletal muscle tissue.",Not_a_complex
+18161010,s3,T5,T6,Chodl is the mouse homologue of human ,chondrolectin, (,CHODL,"), a gene that encodes for a type Ia transmembrane protein and that is expressed in human testis, prostate, heart and skeletal muscle tissue.",Not_a_complex
+18161010,s4,T7,T10,,CHODL,"-splice variants (CHODL ( f ), CHODL ( f Delta E ), ",CHODL, ( Delta E )) are detected in human leukocytes.,Not_a_complex
+18161010,s4,T7,T8,,CHODL,-splice variants (,CHODL," ( f ), CHODL ( f Delta E ), CHODL ( Delta E )) are detected in human leukocytes.",Not_a_complex
+18161010,s4,T7,T9,,CHODL,"-splice variants (CHODL ( f ), ",CHODL," ( f Delta E ), CHODL ( Delta E )) are detected in human leukocytes.",Not_a_complex
+18161010,s4,T8,T10,CHODL-splice variants (,CHODL," ( f ), CHODL ( f Delta E ), ",CHODL, ( Delta E )) are detected in human leukocytes.,Not_a_complex
+18161010,s4,T8,T9,CHODL-splice variants (,CHODL," ( f ), ",CHODL," ( f Delta E ), CHODL ( Delta E )) are detected in human leukocytes.",Not_a_complex
+18161010,s4,T9,T10,"CHODL-splice variants (CHODL ( f ), ",CHODL," ( f Delta E ), ",CHODL, ( Delta E )) are detected in human leukocytes.,Not_a_complex
+18161010,s7,T13,T14,The beta-subunit of Rab geranylgeranyl transferase (,Rabggtb,) was isolated 8 times after a complete Sos recruitment system (SRS) screen with the cytoplasmic domain of ,chodl,.,Complex_formation
+18161010,s7,T16,T14,The beta-subunit of ,Rab geranylgeranyl transferase, (Rabggtb) was isolated 8 times after a complete Sos recruitment system (SRS) screen with the cytoplasmic domain of ,chodl,.,Complex_formation
+18161010,s7,T16,T13,The beta-subunit of ,Rab geranylgeranyl transferase, (,Rabggtb,) was isolated 8 times after a complete Sos recruitment system (SRS) screen with the cytoplasmic domain of chodl.,Not_a_complex

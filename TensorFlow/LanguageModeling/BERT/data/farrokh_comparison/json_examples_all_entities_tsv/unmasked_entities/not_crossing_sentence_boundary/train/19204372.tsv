@@ -1,0 +1,22 @@
+19204372,s1,T2,T16,,Axin, is a negative regulator of canonical ,Wnt," signaling, which promotes the degradation of beta-catenin, the major effector in this signaling cascade.",Not_a_complex
+19204372,s1,T2,T3,,Axin," is a negative regulator of canonical Wnt signaling, which promotes the degradation of ",beta-catenin,", the major effector in this signaling cascade.",Not_a_complex
+19204372,s1,T16,T3,Axin is a negative regulator of canonical ,Wnt," signaling, which promotes the degradation of ",beta-catenin,", the major effector in this signaling cascade.",Not_a_complex
+19204372,s4,T17,T18,The RGS domain is required for ,APC,"-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of Axin on the ",Wnt,"/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T17,T6,The RGS domain is required for ,APC,"-binding, while the C6 motif has been implicated in the activation of ",c-Jun N-terminal kinase,", but is not required for the effects of Axin on the Wnt/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T6,T18,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of ",c-Jun N-terminal kinase,", but is not required for the effects of Axin on the ",Wnt,"/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T6,T7,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of ",c-Jun N-terminal kinase,", but is not required for the effects of ",Axin," on the Wnt/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T6,T8,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of ",c-Jun N-terminal kinase,", but is not required for the effects of Axin on the Wnt/",beta-catenin," pathway, in vitro.",Not_a_complex
+19204372,s4,T17,T7,The RGS domain is required for ,APC,"-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of ",Axin," on the Wnt/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T7,T18,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of ",Axin, on the ,Wnt,"/beta-catenin pathway, in vitro.",Not_a_complex
+19204372,s4,T7,T8,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of ",Axin, on the Wnt/,beta-catenin," pathway, in vitro.",Not_a_complex
+19204372,s4,T17,T8,The RGS domain is required for ,APC,"-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of Axin on the Wnt/",beta-catenin," pathway, in vitro.",Not_a_complex
+19204372,s4,T18,T8,"The RGS domain is required for APC-binding, while the C6 motif has been implicated in the activation of c-Jun N-terminal kinase, but is not required for the effects of Axin on the ",Wnt,/,beta-catenin," pathway, in vitro.",Not_a_complex
+19204372,s6,T11,T19,"As Axin-DeltaRGS protein was produced at normal levels, its inability to support embryogenesis confirms the importance of interactions between ",Axin, and ,APC,.,Complex_formation
+19204372,s6,T10,T11,As ,Axin-DeltaRGS," protein was produced at normal levels, its inability to support embryogenesis confirms the importance of interactions between ",Axin, and APC.,Not_a_complex
+19204372,s6,T10,T19,As ,Axin-DeltaRGS," protein was produced at normal levels, its inability to support embryogenesis confirms the importance of interactions between Axin and ",APC,.,Not_a_complex
+19204372,s8,T13,T14,"Furthermore, many ",Axin,(DeltaC6/DeltaC6) embryos that were heterozygous for a ,beta-catenin," null mutation survived to term, demonstrating that early lethality was due to failure to negatively regulate beta-catenin. 
+",Not_a_complex
+19204372,s8,T13,T15,"Furthermore, many ",Axin,"(DeltaC6/DeltaC6) embryos that were heterozygous for a beta-catenin null mutation survived to term, demonstrating that early lethality was due to failure to negatively regulate ",beta-catenin,". 
+",Not_a_complex
+19204372,s8,T14,T15,"Furthermore, many Axin(DeltaC6/DeltaC6) embryos that were heterozygous for a ",beta-catenin," null mutation survived to term, demonstrating that early lethality was due to failure to negatively regulate ",beta-catenin,". 
+",Not_a_complex

@@ -1,0 +1,12 @@
+25683140,s0,T4,T5,The dimerization of the yeast ,cytochrome bc1, complex is an early event and is independent of ,Rip1,". 
+",Not_a_complex
+25683140,s2,T2,T7,"Among them, the ",Rieske iron-sulfur protein, (,Rip1,"), besides its catalytic role in electron transfer, may be implicated in the bc1 complex dimerization.",Not_a_complex
+25683140,s2,T2,T8,"Among them, the ",Rieske iron-sulfur protein," (Rip1), besides its catalytic role in electron transfer, may be implicated in the ",bc1, complex dimerization.,Not_a_complex
+25683140,s2,T7,T8,"Among them, the Rieske iron-sulfur protein (",Rip1,"), besides its catalytic role in electron transfer, may be implicated in the ",bc1, complex dimerization.,Not_a_complex
+25683140,s4,T11,T3,"In addition, the lack of Rip1 leads to the accumulation of an immature ",bc1," intermediate, only loosely associated with ",cytochrome c oxidase,.,Complex_formation
+25683140,s4,T10,T11,"In addition, the lack of ",Rip1, leads to the accumulation of an immature ,bc1," intermediate, only loosely associated with cytochrome c oxidase.",Not_a_complex
+25683140,s4,T10,T3,"In addition, the lack of ",Rip1," leads to the accumulation of an immature bc1 intermediate, only loosely associated with ",cytochrome c oxidase,.,Not_a_complex
+25683140,s6,T13,T14,We showed that the dimerization process is an early event during ,bc1, complex biogenesis and that the presence of ,Rip1,", differently from previous proposals, is not essential for this process.",Not_a_complex
+25683140,s7,T15,T16,We also investigated the multi-step model of ,bc1, assembly thereby lending further support to the existence of bona fide subcomplexes during ,bc1, maturation in the inner mitochondrial membrane.,Not_a_complex
+25683140,s8,T17,T18,"Finally, a new model of ",cytochrome bc1," complex assembly, in which distinct intermediates sequentially interact during ",bc1," maturation, has been proposed. 
+",Not_a_complex

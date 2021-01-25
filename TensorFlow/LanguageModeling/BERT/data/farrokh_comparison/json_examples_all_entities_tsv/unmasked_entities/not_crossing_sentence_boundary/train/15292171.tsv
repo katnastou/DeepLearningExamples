@@ -1,0 +1,20 @@
+15292171,s0,T1,T2,Functional characterization of the yeast ,Ppz1, phosphatase inhibitory subunit ,Hal3,": a mutagenesis study. 
+",Not_a_complex
+15292171,s1,T3,T5,Saccharomyces cerevisiae ,Hal3, is a conserved protein that binds the carboxyl-terminal catalytic domain of the PP1c (protein phosphatase 1)-related phosphatase ,Ppz1," and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Complex_formation
+15292171,s1,T3,T25,Saccharomyces cerevisiae ,Hal3, is a conserved protein that binds the carboxyl-terminal catalytic domain of the PP1c (,protein phosphatase 1,")-related phosphatase Ppz1 and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Not_a_complex
+15292171,s1,T3,T4,Saccharomyces cerevisiae ,Hal3, is a conserved protein that binds the carboxyl-terminal catalytic domain of the ,PP1c," (protein phosphatase 1)-related phosphatase Ppz1 and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Not_a_complex
+15292171,s1,T4,T25,Saccharomyces cerevisiae Hal3 is a conserved protein that binds the carboxyl-terminal catalytic domain of the ,PP1c, (,protein phosphatase 1,")-related phosphatase Ppz1 and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Not_a_complex
+15292171,s1,T4,T5,Saccharomyces cerevisiae Hal3 is a conserved protein that binds the carboxyl-terminal catalytic domain of the ,PP1c, (protein phosphatase 1)-related phosphatase ,Ppz1," and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Not_a_complex
+15292171,s1,T25,T5,Saccharomyces cerevisiae Hal3 is a conserved protein that binds the carboxyl-terminal catalytic domain of the PP1c (,protein phosphatase 1,)-related phosphatase ,Ppz1," and potently inhibits its activity, thus modulating all of the characterized functions so far of the phosphatase.",Not_a_complex
+15292171,s2,T6,T7,It is unknown how ,Hal3, binds to ,Ppz1, and inhibits its activity.,Complex_formation
+15292171,s3,T8,T9,Although it contains a putative ,protein phosphatase 1c," binding-like sequence (263KLHVLF268), mutagenesis analysis suggests that this motif is not required for ",Ppz1, binding and inhibition.,Not_a_complex
+15292171,s4,T10,T11,The mutation of the conserved His378 (possibly involved in dehydrogenase catalytic activity) did not impair ,Hal3, functions or ,Ppz1, binding.,Complex_formation
+15292171,s5,T12,T13,Random mutagenesis of the 228 residue-conserved central region of ,Hal3, followed by a loss-of-function screen allowed the identification of nine residues important for ,Ppz1,-related Hal3 functions.,Not_a_complex
+15292171,s5,T12,T14,Random mutagenesis of the 228 residue-conserved central region of ,Hal3, followed by a loss-of-function screen allowed the identification of nine residues important for Ppz1-related ,Hal3, functions.,Not_a_complex
+15292171,s5,T13,T14,Random mutagenesis of the 228 residue-conserved central region of Hal3 followed by a loss-of-function screen allowed the identification of nine residues important for ,Ppz1,-related ,Hal3, functions.,Not_a_complex
+15292171,s7,T15,T16,Several mutations affected ,Ppz1," binding and inhibition in vitro, whereas changes in Glu460 and Val462 did not alter binding but resulted in ",Hal3, versions unable to inhibit the phosphatase.,Complex_formation
+15292171,s8,T17,T18,"Therefore, there are independent ",Hal3, structural elements required for ,Ppz1, binding and inhibition.,Complex_formation
+15292171,s9,T19,T20,S. cerevisiae encodes a protein (,Vhs3,) structurally related to ,Hal3,.,Not_a_complex
+15292171,s11,T21,T22,"Surprisingly, versions of ",Hal3, carrying mutations that strongly affected ,Ppz1, binding or inhibitory capacity were able to complement lethality.,Complex_formation
+15292171,s13,T23,T24,This finding suggests that ,Hal3, may have both ,Ppz1,"-dependent and independent functions involving different structural elements. 
+",Not_a_complex

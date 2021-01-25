@@ -1,0 +1,5 @@
+27899653_8,s0,T1,T2,We found that ,KLHL12, can differentially interact with ,KHSRP, and promote KHSRP ubiquitination.,Complex_formation
+27899653_8,s0,T1,T3,We found that ,KLHL12, can differentially interact with KHSRP and promote ,KHSRP, ubiquitination.,Not_a_complex
+27899653_8,s0,T2,T3,We found that KLHL12 can differentially interact with ,KHSRP, and promote ,KHSRP, ubiquitination.,Not_a_complex
+27899653_8,s1,T4,T5,We then sought to elucidate how ,KLHL12,-mediated ,KHSRP, ubiquitination affects IRES-driven translation.,Not_a_complex
+27899653_8,s2,T8,T7,"This led us to identify a hitherto undescribed regulatory mechanism of IRES-driven translation involving ubiquitination--namely, the regulation of IRES-dependent translation via ",ubiquitin, modulation of ,ITAFs,.,Not_a_complex

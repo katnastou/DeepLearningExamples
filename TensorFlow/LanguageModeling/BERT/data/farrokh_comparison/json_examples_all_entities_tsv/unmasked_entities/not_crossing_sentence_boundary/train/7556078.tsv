@@ -1,0 +1,56 @@
+7556078,s0,T1,T2,The products of the ,SUP45, (,eRF1,") and SUP35 genes interact to mediate translation termination in Saccharomyces cerevisiae. 
+",Not_a_complex
+7556078,s0,T1,T3,The products of the ,SUP45, (eRF1) and ,SUP35," genes interact to mediate translation termination in Saccharomyces cerevisiae. 
+",Not_a_complex
+7556078,s0,T2,T3,The products of the SUP45 (,eRF1,) and ,SUP35," genes interact to mediate translation termination in Saccharomyces cerevisiae. 
+",Not_a_complex
+7556078,s1,T4,T24,The product of the yeast ,SUP45, gene (Sup45p) is highly homologous to the Xenopus ,eukaryote release factor 1," (eRF1), which has release factor activity in vitro.",Not_a_complex
+7556078,s1,T4,T5,The product of the yeast ,SUP45, gene (,Sup45p,") is highly homologous to the Xenopus eukaryote release factor 1 (eRF1), which has release factor activity in vitro.",Not_a_complex
+7556078,s1,T4,T6,The product of the yeast ,SUP45, gene (Sup45p) is highly homologous to the Xenopus eukaryote release factor 1 (,eRF1,"), which has release factor activity in vitro.",Not_a_complex
+7556078,s1,T5,T24,The product of the yeast SUP45 gene (,Sup45p,) is highly homologous to the Xenopus ,eukaryote release factor 1," (eRF1), which has release factor activity in vitro.",Not_a_complex
+7556078,s1,T5,T6,The product of the yeast SUP45 gene (,Sup45p,) is highly homologous to the Xenopus eukaryote release factor 1 (,eRF1,"), which has release factor activity in vitro.",Not_a_complex
+7556078,s1,T24,T6,The product of the yeast SUP45 gene (Sup45p) is highly homologous to the Xenopus ,eukaryote release factor 1, (,eRF1,"), which has release factor activity in vitro.",Not_a_complex
+7556078,s2,T7,T8,"We show, using the two-hybrid system, that in Saccharomyces cerevisiae ",Sup45p, and the product of the ,SUP35, gene (Sup35p) interact in vivo.,Complex_formation
+7556078,s2,T7,T9,"We show, using the two-hybrid system, that in Saccharomyces cerevisiae ",Sup45p, and the product of the SUP35 gene (,Sup35p,) interact in vivo.,Complex_formation
+7556078,s2,T8,T9,"We show, using the two-hybrid system, that in Saccharomyces cerevisiae Sup45p and the product of the ",SUP35, gene (,Sup35p,) interact in vivo.,Not_a_complex
+7556078,s3,T10,T11,The ability of ,Sup45p, C-terminally tagged with (His)6 to specifically precipitate ,Sup35p, from a cell lysate was used to confirm this interaction in vitro.,Complex_formation
+7556078,s4,T12,T13,Although overexpression of either the ,SUP45, or ,SUP35," genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the SUP35 and SUP45 genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.",Not_a_complex
+7556078,s4,T12,T14,Although overexpression of either the ,SUP45," or SUP35 genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the ",SUP35, and SUP45 genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.,Not_a_complex
+7556078,s4,T12,T15,Although overexpression of either the ,SUP45," or SUP35 genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the SUP35 and ",SUP45, genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.,Not_a_complex
+7556078,s4,T13,T14,Although overexpression of either the SUP45 or ,SUP35," genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the ",SUP35, and SUP45 genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.,Not_a_complex
+7556078,s4,T13,T15,Although overexpression of either the SUP45 or ,SUP35," genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the SUP35 and ",SUP45, genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.,Not_a_complex
+7556078,s4,T14,T15,"Although overexpression of either the SUP45 or SUP35 genes alone did not reduce the efficiency of codon-specific tRNA nonsense suppression, the simultaneous overexpression of both the ",SUP35, and ,SUP45, genes in nonsense suppressor tRNA-containing strains produced an antisuppressor phenotype.,Not_a_complex
+7556078,s5,T16,T17,These data are consistent with ,Sup35p, and ,Sup45p, forming a complex with release factor properties.,Complex_formation
+7556078,s6,T18,T19,"Furthermore, overexpression of either Xenopus or human ",eRF1, (,SUP45,) genes also resulted in anti-suppression only if that strain was also overexpressing the yeast SUP35 gene.,Not_a_complex
+7556078,s6,T18,T20,"Furthermore, overexpression of either Xenopus or human ",eRF1, (SUP45) genes also resulted in anti-suppression only if that strain was also overexpressing the yeast ,SUP35, gene.,Not_a_complex
+7556078,s6,T19,T20,"Furthermore, overexpression of either Xenopus or human eRF1 (",SUP45,) genes also resulted in anti-suppression only if that strain was also overexpressing the yeast ,SUP35, gene.,Not_a_complex
+7556078,s8,T21,T22,We propose that ,Sup45p, and ,Sup35p," interact to form a release factor complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Complex_formation
+7556078,s8,T21,T23,We propose that ,Sup45p, and Sup35p interact to form a release factor complex in yeast and that ,Sup35p,", which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T21,T25,We propose that ,Sup45p, and Sup35p interact to form a ,release factor," complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T21,T26,We propose that ,Sup45p," and Sup35p interact to form a release factor complex in yeast and that Sup35p, which has ",GTP," binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T21,T27,We propose that ,Sup45p," and Sup35p interact to form a release factor complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the ",GTP," hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T22,T23,We propose that Sup45p and ,Sup35p, interact to form a release factor complex in yeast and that ,Sup35p,", which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T22,T25,We propose that Sup45p and ,Sup35p, interact to form a ,release factor," complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T22,T26,We propose that Sup45p and ,Sup35p," interact to form a release factor complex in yeast and that Sup35p, which has ",GTP," binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T22,T27,We propose that Sup45p and ,Sup35p," interact to form a release factor complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the ",GTP," hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T25,T23,We propose that Sup45p and Sup35p interact to form a ,release factor, complex in yeast and that ,Sup35p,", which has GTP binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T23,T26,We propose that Sup45p and Sup35p interact to form a release factor complex in yeast and that ,Sup35p,", which has ",GTP," binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T23,T27,We propose that Sup45p and Sup35p interact to form a release factor complex in yeast and that ,Sup35p,", which has GTP binding sequence motifs in its C-terminal domain, provides the ",GTP," hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T25,T26,We propose that Sup45p and Sup35p interact to form a ,release factor," complex in yeast and that Sup35p, which has ",GTP," binding sequence motifs in its C-terminal domain, provides the GTP hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T25,T27,We propose that Sup45p and Sup35p interact to form a ,release factor," complex in yeast and that Sup35p, which has GTP binding sequence motifs in its C-terminal domain, provides the ",GTP," hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex
+7556078,s8,T26,T27,"We propose that Sup45p and Sup35p interact to form a release factor complex in yeast and that Sup35p, which has ",GTP," binding sequence motifs in its C-terminal domain, provides the ",GTP," hydrolytic activity which is a demonstrated requirement of the eukaryote translation termination reaction. 
+",Not_a_complex

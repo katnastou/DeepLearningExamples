@@ -1,0 +1,25 @@
+19864490,s0,T1,T13,,Consortin,", a trans-Golgi network cargo receptor for the plasma membrane targeting and recycling of ",connexins,". 
+",Not_a_complex
+19864490,s3,T3,T14,We identified ,consortin, as a binding partner of ,connexins,", the building blocks of gap junctions.",Complex_formation
+19864490,s5,T20,T5,It directly interacts with the TGN ,clathrin, adaptors ,GGA1," and GGA2, and disruption of this interaction by expression of a consortin mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.",Complex_formation
+19864490,s5,T20,T6,It directly interacts with the TGN ,clathrin, adaptors GGA1 and ,GGA2,", and disruption of this interaction by expression of a consortin mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.",Complex_formation
+19864490,s5,T5,T6,It directly interacts with the TGN clathrin adaptors ,GGA1, and ,GGA2,", and disruption of this interaction by expression of a consortin mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.",Not_a_complex
+19864490,s5,T5,T7,It directly interacts with the TGN clathrin adaptors ,GGA1," and GGA2, and disruption of this interaction by expression of a ",consortin, mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.,Not_a_complex
+19864490,s5,T6,T7,It directly interacts with the TGN clathrin adaptors GGA1 and ,GGA2,", and disruption of this interaction by expression of a ",consortin, mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.,Not_a_complex
+19864490,s5,T20,T7,It directly interacts with the TGN ,clathrin," adaptors GGA1 and GGA2, and disruption of this interaction by expression of a ",consortin, mutant lacking the acidic cluster-dileucine (DXXLL) GGA interaction motif causes an intracellular accumulation of several connexins.,Not_a_complex
+19864490,s6,T8,T15,RNA interference-mediated silencing of ,consortin, expression in HeLa cells blocks the cell surface targeting of these ,connexins,", which accumulate intracellularly, whereas partial depletion and redistribution of the consortin pool slows down the intracellular degradation of gap junction plaques.",Not_a_complex
+19864490,s6,T8,T9,RNA interference-mediated silencing of ,consortin," expression in HeLa cells blocks the cell surface targeting of these connexins, which accumulate intracellularly, whereas partial depletion and redistribution of the ",consortin, pool slows down the intracellular degradation of gap junction plaques.,Not_a_complex
+19864490,s6,T15,T9,RNA interference-mediated silencing of consortin expression in HeLa cells blocks the cell surface targeting of these ,connexins,", which accumulate intracellularly, whereas partial depletion and redistribution of the ",consortin, pool slows down the intracellular degradation of gap junction plaques.,Not_a_complex
+19864490,s8,T10,T17,The identification of ,consortin, provides in addition a potential target for therapies aimed at diseases in which ,connexin," traffic is altered, including cardiac ischemia, peripheral neuropathies, cataracts and hearing impairment.",Not_a_complex
+19864490,s10,T11,T12,GenBank: Human ,CNST," cDNA, NM_152609; mouse ",Cnst," cDNA, NM_146105. 
+",Not_a_complex
+19864490,s10,T11,T18,GenBank: Human ,CNST," cDNA, ",NM_152609,"; mouse Cnst cDNA, NM_146105. 
+",Not_a_complex
+19864490,s10,T11,T19,GenBank: Human ,CNST," cDNA, NM_152609; mouse Cnst cDNA, ",NM_146105,". 
+",Not_a_complex
+19864490,s10,T18,T12,"GenBank: Human CNST cDNA, ",NM_152609,; mouse ,Cnst," cDNA, NM_146105. 
+",Not_a_complex
+19864490,s10,T12,T19,"GenBank: Human CNST cDNA, NM_152609; mouse ",Cnst," cDNA, ",NM_146105,". 
+",Not_a_complex
+19864490,s10,T18,T19,"GenBank: Human CNST cDNA, ",NM_152609,"; mouse Cnst cDNA, ",NM_146105,". 
+",Not_a_complex

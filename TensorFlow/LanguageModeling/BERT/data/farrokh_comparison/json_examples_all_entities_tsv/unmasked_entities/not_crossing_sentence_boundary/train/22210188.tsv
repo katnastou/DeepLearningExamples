@@ -1,0 +1,22 @@
+22210188,s0,T1,T13,Interaction of ,protein inhibitor of activated STAT 2, (PIAS2) with ,receptor of activated C kinase 1,", RACK1. 
+",Complex_formation
+22210188,s0,T1,T3,Interaction of ,protein inhibitor of activated STAT 2," (PIAS2) with receptor of activated C kinase 1, ",RACK1,". 
+",Complex_formation
+22210188,s0,T2,T13,Interaction of protein inhibitor of activated STAT 2 (,PIAS2,) with ,receptor of activated C kinase 1,", RACK1. 
+",Complex_formation
+22210188,s0,T2,T3,Interaction of protein inhibitor of activated STAT 2 (,PIAS2,") with receptor of activated C kinase 1, ",RACK1,". 
+",Complex_formation
+22210188,s0,T1,T2,Interaction of ,protein inhibitor of activated STAT 2, (,PIAS2,") with receptor of activated C kinase 1, RACK1. 
+",Not_a_complex
+22210188,s0,T13,T3,Interaction of protein inhibitor of activated STAT 2 (PIAS2) with ,receptor of activated C kinase 1,", ",RACK1,". 
+",Not_a_complex
+22210188,s1,T4,T5,"In this study, the evolutionarily conserved intracellular adaptor protein, receptor of activated C kinase 1 (",RACK1,) was identified as a novel interaction partner of ,protein inhibitor of activated STAT 2, (PIAS2) using a yeast two-hybrid screening system.,Complex_formation
+22210188,s1,T4,T6,"In this study, the evolutionarily conserved intracellular adaptor protein, receptor of activated C kinase 1 (",RACK1,) was identified as a novel interaction partner of protein inhibitor of activated STAT 2 (,PIAS2,) using a yeast two-hybrid screening system.,Complex_formation
+22210188,s1,T14,T5,"In this study, the evolutionarily conserved intracellular adaptor protein, ",receptor of activated C kinase 1, (RACK1) was identified as a novel interaction partner of ,protein inhibitor of activated STAT 2, (PIAS2) using a yeast two-hybrid screening system.,Complex_formation
+22210188,s1,T14,T6,"In this study, the evolutionarily conserved intracellular adaptor protein, ",receptor of activated C kinase 1, (RACK1) was identified as a novel interaction partner of protein inhibitor of activated STAT 2 (,PIAS2,) using a yeast two-hybrid screening system.,Complex_formation
+22210188,s1,T14,T4,"In this study, the evolutionarily conserved intracellular adaptor protein, ",receptor of activated C kinase 1, (,RACK1,) was identified as a novel interaction partner of protein inhibitor of activated STAT 2 (PIAS2) using a yeast two-hybrid screening system.,Not_a_complex
+22210188,s1,T5,T6,"In this study, the evolutionarily conserved intracellular adaptor protein, receptor of activated C kinase 1 (RACK1) was identified as a novel interaction partner of ",protein inhibitor of activated STAT 2, (,PIAS2,) using a yeast two-hybrid screening system.,Not_a_complex
+22210188,s2,T7,T8,The direct interaction and co-localization of ,RACK1, with ,PIAS2," was confirmed by immunoprecipitation and immunofluorescence staining analysis, respectively.",Complex_formation
+22210188,s3,T9,T10,The 5th to 7th Trp-Asp 40 (5-7 WD40) repeats of ,RACK1, were identified as the minimal domain required for interaction with ,PIAS2, by deletion analysis.,Complex_formation
+22210188,s4,T11,T12,"Furthermore, multiple ",PIAS2,"-domains, particularly the 'PINIT' and RLD domains, bind the ",RACK1," 5-7 WD40 domain. 
+",Complex_formation

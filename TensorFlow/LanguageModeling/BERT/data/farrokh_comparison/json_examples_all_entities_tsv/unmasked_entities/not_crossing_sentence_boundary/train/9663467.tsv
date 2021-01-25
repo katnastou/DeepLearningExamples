@@ -1,0 +1,19 @@
+9663467,s0,T1,T2,,Thrombopoietin, supports in vitro erythroid differentiation via its specific receptor ,c-Mpl," in a human leukemia cell line. 
+",Complex_formation
+9663467,s1,T3,T4,,Thrombopoietin, (,TPO,) acts on megakaryopoiesis and erythropoiesis in vitro and in vivo.,Not_a_complex
+9663467,s3,T18,T19,A small population of UT-7/GM cells positively stained for ,hemoglobin, (,Hb,) after a 7-day exposure to TPO.,Not_a_complex
+9663467,s3,T18,T5,A small population of UT-7/GM cells positively stained for ,hemoglobin, (Hb) after a 7-day exposure to ,TPO,.,Not_a_complex
+9663467,s3,T19,T5,A small population of UT-7/GM cells positively stained for hemoglobin (,Hb,) after a 7-day exposure to ,TPO,.,Not_a_complex
+9663467,s4,T6,T20,More than 50% of ,TPO,-treated UT-7/GMT cells positively stained for ,Hb,.,Not_a_complex
+9663467,s6,T8,T10,,TPO, induced tyrosine phosphorylation of the TPO receptor but not the ,erythropoietin (EPO) receptor,.,Not_a_complex
+9663467,s6,T8,T9,,TPO, induced tyrosine phosphorylation of the ,TPO receptor, but not the erythropoietin (EPO) receptor.,Not_a_complex
+9663467,s6,T9,T10,TPO induced tyrosine phosphorylation of the ,TPO receptor, but not the ,erythropoietin (EPO) receptor,.,Not_a_complex
+9663467,s7,T12,T13,There was no competition between TPO and ,EPO, for binding to ,EPO receptor,.,Complex_formation
+9663467,s7,T11,T12,There was no competition between ,TPO, and ,EPO, for binding to EPO receptor.,Not_a_complex
+9663467,s7,T11,T13,There was no competition between ,TPO, and EPO for binding to ,EPO receptor,.,Not_a_complex
+9663467,s9,T15,T16,Isoelectric focusing demonstrated that ,TPO," induced fetal and adult Hb synthesis, whereas ",EPO," induced embryonic, fetal, and adult Hb synthesis.",Not_a_complex
+9663467,s9,T15,T21,Isoelectric focusing demonstrated that ,TPO, induced fetal and adult ,Hb," synthesis, whereas EPO induced embryonic, fetal, and adult Hb synthesis.",Not_a_complex
+9663467,s9,T15,T22,Isoelectric focusing demonstrated that ,TPO," induced fetal and adult Hb synthesis, whereas EPO induced embryonic, fetal, and adult ",Hb, synthesis.,Not_a_complex
+9663467,s9,T21,T16,Isoelectric focusing demonstrated that TPO induced fetal and adult ,Hb," synthesis, whereas ",EPO," induced embryonic, fetal, and adult Hb synthesis.",Not_a_complex
+9663467,s9,T16,T22,"Isoelectric focusing demonstrated that TPO induced fetal and adult Hb synthesis, whereas ",EPO," induced embryonic, fetal, and adult ",Hb, synthesis.,Not_a_complex
+9663467,s9,T21,T22,Isoelectric focusing demonstrated that TPO induced fetal and adult ,Hb," synthesis, whereas EPO induced embryonic, fetal, and adult ",Hb, synthesis.,Not_a_complex

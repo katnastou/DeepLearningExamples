@@ -1,0 +1,92 @@
+11535594,s0,T1,T2,Transcriptional regulation of the human ,sterol 12alpha-hydroxylase, gene (,CYP8B1,"): roles of heaptocyte nuclear factor 4alpha in mediating bile acid repression. 
+",Not_a_complex
+11535594,s0,T1,T32,Transcriptional regulation of the human ,sterol 12alpha-hydroxylase, gene (CYP8B1): roles of ,heaptocyte nuclear factor 4alpha," in mediating bile acid repression. 
+",Not_a_complex
+11535594,s0,T1,T33,Transcriptional regulation of the human ,sterol 12alpha-hydroxylase, gene (CYP8B1): roles of heaptocyte nuclear factor 4alpha in mediating ,bile acid," repression. 
+",Not_a_complex
+11535594,s0,T2,T32,Transcriptional regulation of the human sterol 12alpha-hydroxylase gene (,CYP8B1,): roles of ,heaptocyte nuclear factor 4alpha," in mediating bile acid repression. 
+",Not_a_complex
+11535594,s0,T2,T33,Transcriptional regulation of the human sterol 12alpha-hydroxylase gene (,CYP8B1,): roles of heaptocyte nuclear factor 4alpha in mediating ,bile acid," repression. 
+",Not_a_complex
+11535594,s0,T32,T33,Transcriptional regulation of the human sterol 12alpha-hydroxylase gene (CYP8B1): roles of ,heaptocyte nuclear factor 4alpha, in mediating ,bile acid," repression. 
+",Not_a_complex
+11535594,s1,T3,T34,,Sterol 12alpha-hydroxylase, catalyzes the synthesis of ,cholic acid, and controls the ratio of cholic acid over chenodeoxycholic acid in the bile.,Not_a_complex
+11535594,s1,T3,T35,,Sterol 12alpha-hydroxylase, catalyzes the synthesis of cholic acid and controls the ratio of ,cholic acid, over chenodeoxycholic acid in the bile.,Not_a_complex
+11535594,s1,T3,T36,,Sterol 12alpha-hydroxylase, catalyzes the synthesis of cholic acid and controls the ratio of cholic acid over ,chenodeoxycholic acid, in the bile.,Not_a_complex
+11535594,s1,T34,T35,Sterol 12alpha-hydroxylase catalyzes the synthesis of ,cholic acid, and controls the ratio of ,cholic acid, over chenodeoxycholic acid in the bile.,Not_a_complex
+11535594,s1,T34,T36,Sterol 12alpha-hydroxylase catalyzes the synthesis of ,cholic acid, and controls the ratio of cholic acid over ,chenodeoxycholic acid, in the bile.,Not_a_complex
+11535594,s1,T35,T36,Sterol 12alpha-hydroxylase catalyzes the synthesis of cholic acid and controls the ratio of ,cholic acid, over ,chenodeoxycholic acid, in the bile.,Not_a_complex
+11535594,s2,T37,T38,Transcription of CYP8B1 is inhibited by ,bile acids,", ",cholesterol,", and insulin.",Not_a_complex
+11535594,s2,T4,T37,Transcription of ,CYP8B1, is inhibited by ,bile acids,", cholesterol, and insulin.",Not_a_complex
+11535594,s2,T4,T38,Transcription of ,CYP8B1," is inhibited by bile acids, ",cholesterol,", and insulin.",Not_a_complex
+11535594,s2,T4,T5,Transcription of ,CYP8B1," is inhibited by bile acids, cholesterol, and ",insulin,.,Not_a_complex
+11535594,s2,T37,T5,Transcription of CYP8B1 is inhibited by ,bile acids,", cholesterol, and ",insulin,.,Not_a_complex
+11535594,s2,T38,T5,"Transcription of CYP8B1 is inhibited by bile acids, ",cholesterol,", and ",insulin,.,Not_a_complex
+11535594,s3,T6,T39,To study the mechanism of ,CYP8B1, transcription by ,bile acids,", we have cloned and determined 3389 base pairs of the 5'-upstream nucleotide sequences of the human CYP8B1.",Not_a_complex
+11535594,s3,T6,T7,To study the mechanism of ,CYP8B1," transcription by bile acids, we have cloned and determined 3389 base pairs of the 5'-upstream nucleotide sequences of the human ",CYP8B1,.,Not_a_complex
+11535594,s3,T39,T7,To study the mechanism of CYP8B1 transcription by ,bile acids,", we have cloned and determined 3389 base pairs of the 5'-upstream nucleotide sequences of the human ",CYP8B1,.,Not_a_complex
+11535594,s4,T8,T40,Deletion analysis of ,CYP8B1,/,luciferase, reporter activity in HepG2 cells revealed that the sequences from -57 to +300 were important for basal and liver-specific promoter activities.,Not_a_complex
+11535594,s5,T10,T11,Hepatocyte nuclear factor 4alpha (,HNF4alpha,) strongly activated human ,CYP8B1," promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T10,T12,Hepatocyte nuclear factor 4alpha (,HNF4alpha,") strongly activated human CYP8B1 promoter activities, whereas ",cholesterol 7alpha-hydroxylase promoter factor," (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T10,T13,Hepatocyte nuclear factor 4alpha (,HNF4alpha,") strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an ",NR5A2," family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T10,T41,Hepatocyte nuclear factor 4alpha (,HNF4alpha,") strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (",CPF,"), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T11,T12,Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human ,CYP8B1," promoter activities, whereas ",cholesterol 7alpha-hydroxylase promoter factor," (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T11,T13,Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human ,CYP8B1," promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an ",NR5A2," family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T11,T41,Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human ,CYP8B1," promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (",CPF,"), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T12,T13,"Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas ",cholesterol 7alpha-hydroxylase promoter factor," (CPF), an ",NR5A2," family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T12,T41,"Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas ",cholesterol 7alpha-hydroxylase promoter factor, (,CPF,"), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T41,T13,"Hepatocyte nuclear factor 4alpha (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (",CPF,"), an ",NR5A2," family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T9,T10,,Hepatocyte nuclear factor 4alpha, (,HNF4alpha,") strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T9,T11,,Hepatocyte nuclear factor 4alpha, (HNF4alpha) strongly activated human ,CYP8B1," promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T9,T12,,Hepatocyte nuclear factor 4alpha," (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas ",cholesterol 7alpha-hydroxylase promoter factor," (CPF), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T9,T13,,Hepatocyte nuclear factor 4alpha," (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (CPF), an ",NR5A2," family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s5,T9,T41,,Hepatocyte nuclear factor 4alpha," (HNF4alpha) strongly activated human CYP8B1 promoter activities, whereas cholesterol 7alpha-hydroxylase promoter factor (",CPF,"), an NR5A2 family of nuclear receptors, had much less effect.",Not_a_complex
+11535594,s6,T42,T43,Electrophoretic mobility shift assay identified an overlapping ,HNF4alpha,- and ,CPF,-binding site in the +198/+227 region.,Not_a_complex
+11535594,s7,T14,T44,The human ,CYP8B1, promoter activities were strongly repressed by ,bile acids,", and the bile acid response element was localized between +137 and +220.",Not_a_complex
+11535594,s7,T14,T45,The human ,CYP8B1," promoter activities were strongly repressed by bile acids, and the ",bile acid, response element was localized between +137 and +220.,Not_a_complex
+11535594,s7,T44,T45,The human CYP8B1 promoter activities were strongly repressed by ,bile acids,", and the ",bile acid, response element was localized between +137 and +220.,Not_a_complex
+11535594,s8,T15,T46,Site-directed mutagenesis of the ,HNF4alpha,-binding site markedly reduced promoter activity and its response to ,bile acid, repression.,Not_a_complex
+11535594,s9,T47,T48,"On the other hand, mutation of the ",CPF,-binding site had little effect on promoter activity and ,bile acid, inhibition.,Not_a_complex
+11535594,s10,T16,T17,"A negative nuclear receptor, ",small heterodimer partner, markedly inhibited transactivation of ,CYP8B1, by HNF4alpha.,Not_a_complex
+11535594,s10,T16,T18,"A negative nuclear receptor, ",small heterodimer partner, markedly inhibited transactivation of CYP8B1 by ,HNF4alpha,.,Not_a_complex
+11535594,s10,T17,T18,"A negative nuclear receptor, small heterodimer partner markedly inhibited transactivation of ",CYP8B1, by ,HNF4alpha,.,Not_a_complex
+11535594,s11,T19,T20,Mammalian two-hybrid assay confirmed that ,HNF4alpha, interacted with ,small heterodimer partner,.,Complex_formation
+11535594,s12,T21,T22,"Furthermore, bile acids and ",farnesoid X receptor, reduced the expression of nuclear ,HNF4alpha, in HepG2 cells and rat livers and its binding to DNA.,Not_a_complex
+11535594,s12,T49,T21,"Furthermore, ",bile acids, and ,farnesoid X receptor, reduced the expression of nuclear HNF4alpha in HepG2 cells and rat livers and its binding to DNA.,Not_a_complex
+11535594,s12,T49,T22,"Furthermore, ",bile acids, and farnesoid X receptor reduced the expression of nuclear ,HNF4alpha, in HepG2 cells and rat livers and its binding to DNA.,Not_a_complex
+11535594,s13,T23,T24,Bile acids and ,farnesoid X receptor, also inhibited mouse ,HNF4alpha, gene transcription.,Not_a_complex
+11535594,s13,T50,T23,,Bile acids, and ,farnesoid X receptor, also inhibited mouse HNF4alpha gene transcription.,Not_a_complex
+11535594,s13,T50,T24,,Bile acids, and farnesoid X receptor also inhibited mouse ,HNF4alpha, gene transcription.,Not_a_complex
+11535594,s14,T25,T26,"In summary, our data revealed the critical roles ",HNF4alpha, play on ,CYP8B1, transcription and its repression by bile acids.,Not_a_complex
+11535594,s14,T25,T51,"In summary, our data revealed the critical roles ",HNF4alpha, play on CYP8B1 transcription and its repression by ,bile acids,.,Not_a_complex
+11535594,s14,T26,T51,"In summary, our data revealed the critical roles HNF4alpha play on ",CYP8B1, transcription and its repression by ,bile acids,.,Not_a_complex
+11535594,s15,T29,T30,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of ,HNF4alpha, with ,SHP," and reduction of HNF4alpha expression in the liver. 
+",Complex_formation
+11535594,s15,T27,T28,Bile acids repress human ,CYP8B1, transcription by reducing the transactivation activity of ,HNF4alpha," through interaction of HNF4alpha with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T27,T29,Bile acids repress human ,CYP8B1, transcription by reducing the transactivation activity of HNF4alpha through interaction of ,HNF4alpha," with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T27,T30,Bile acids repress human ,CYP8B1, transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with ,SHP," and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T27,T31,Bile acids repress human ,CYP8B1, transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with SHP and reduction of ,HNF4alpha," expression in the liver. 
+",Not_a_complex
+11535594,s15,T52,T27,,Bile acids, repress human ,CYP8B1," transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T28,T29,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of ,HNF4alpha, through interaction of ,HNF4alpha," with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T28,T30,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of ,HNF4alpha, through interaction of HNF4alpha with ,SHP," and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T28,T31,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of ,HNF4alpha, through interaction of HNF4alpha with SHP and reduction of ,HNF4alpha," expression in the liver. 
+",Not_a_complex
+11535594,s15,T52,T28,,Bile acids, repress human CYP8B1 transcription by reducing the transactivation activity of ,HNF4alpha," through interaction of HNF4alpha with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T29,T31,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of ,HNF4alpha, with SHP and reduction of ,HNF4alpha," expression in the liver. 
+",Not_a_complex
+11535594,s15,T52,T29,,Bile acids, repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of ,HNF4alpha," with SHP and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T30,T31,Bile acids repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with ,SHP, and reduction of ,HNF4alpha," expression in the liver. 
+",Not_a_complex
+11535594,s15,T52,T30,,Bile acids, repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with ,SHP," and reduction of HNF4alpha expression in the liver. 
+",Not_a_complex
+11535594,s15,T52,T31,,Bile acids, repress human CYP8B1 transcription by reducing the transactivation activity of HNF4alpha through interaction of HNF4alpha with SHP and reduction of ,HNF4alpha," expression in the liver. 
+",Not_a_complex

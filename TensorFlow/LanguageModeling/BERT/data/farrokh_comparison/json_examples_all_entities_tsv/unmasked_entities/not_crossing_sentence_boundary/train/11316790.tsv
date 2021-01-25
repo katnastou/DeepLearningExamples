@@ -1,0 +1,35 @@
+11316790,s1,T1,T2,"In Saccharomyces cerevisiae, gene silencing at the HMR and HML loci is normally dependent on ",Sir2p,", ",Sir3p,", and Sir4p, which are structural components of silenced chromatin.",Not_a_complex
+11316790,s1,T1,T3,"In Saccharomyces cerevisiae, gene silencing at the HMR and HML loci is normally dependent on ",Sir2p,", Sir3p, and ",Sir4p,", which are structural components of silenced chromatin.",Not_a_complex
+11316790,s1,T2,T3,"In Saccharomyces cerevisiae, gene silencing at the HMR and HML loci is normally dependent on Sir2p, ",Sir3p,", and ",Sir4p,", which are structural components of silenced chromatin.",Not_a_complex
+11316790,s2,T4,T19,,Sir2p, is a ,NAD+-dependent histone deacetylase, required for silencing.,Not_a_complex
+11316790,s3,T29,T5,Silencing can be restored in cells lacking ,Sir, proteins by a dominant mutation in ,SUM1,", which normally acts as a mitotic repressor of meiotic genes.",Not_a_complex
+11316790,s4,T6,T7,This study found that mutant ,Sum1,"-1p, but not wild-type ",Sum1p,", associated directly with HM loci.",Not_a_complex
+11316790,s5,T25,T24,The ,origin recognition complex," (ORC) was required for Sum1-1p-mediated silencing, and mutations in ",ORC, genes reduced association of Sum1-1p with the HM loci.,Not_a_complex
+11316790,s5,T26,T24,The origin recognition complex (,ORC,") was required for Sum1-1p-mediated silencing, and mutations in ",ORC, genes reduced association of Sum1-1p with the HM loci.,Not_a_complex
+11316790,s5,T25,T26,The ,origin recognition complex, (,ORC,") was required for Sum1-1p-mediated silencing, and mutations in ORC genes reduced association of Sum1-1p with the HM loci.",Not_a_complex
+11316790,s5,T8,T24,The origin recognition complex (ORC) was required for ,Sum1,"-1p-mediated silencing, and mutations in ",ORC, genes reduced association of Sum1-1p with the HM loci.,Not_a_complex
+11316790,s5,T25,T8,The ,origin recognition complex, (ORC) was required for ,Sum1,"-1p-mediated silencing, and mutations in ORC genes reduced association of Sum1-1p with the HM loci.",Not_a_complex
+11316790,s5,T26,T8,The origin recognition complex (,ORC,) was required for ,Sum1,"-1p-mediated silencing, and mutations in ORC genes reduced association of Sum1-1p with the HM loci.",Not_a_complex
+11316790,s5,T8,T9,The origin recognition complex (ORC) was required for ,Sum1,"-1p-mediated silencing, and mutations in ORC genes reduced association of ",Sum1,-1p with the HM loci.,Not_a_complex
+11316790,s5,T24,T9,"The origin recognition complex (ORC) was required for Sum1-1p-mediated silencing, and mutations in ",ORC, genes reduced association of ,Sum1,-1p with the HM loci.,Not_a_complex
+11316790,s5,T25,T9,The ,origin recognition complex," (ORC) was required for Sum1-1p-mediated silencing, and mutations in ORC genes reduced association of ",Sum1,-1p with the HM loci.,Not_a_complex
+11316790,s5,T26,T9,The origin recognition complex (,ORC,") was required for Sum1-1p-mediated silencing, and mutations in ORC genes reduced association of ",Sum1,-1p with the HM loci.,Not_a_complex
+11316790,s6,T10,T11,,Sum1,"-1p-mediated silencing also depended on HST1, a paralog of ",SIR2,.,Not_a_complex
+11316790,s6,T10,T20,,Sum1,-1p-mediated silencing also depended on ,HST1,", a paralog of SIR2.",Not_a_complex
+11316790,s6,T20,T11,Sum1-1p-mediated silencing also depended on ,HST1,", a paralog of ",SIR2,.,Not_a_complex
+11316790,s7,T13,T21,Both Sum1-1p and wild-type ,Sum1p, interacted with ,Hst1p, in coimmunoprecipitation experiments.,Complex_formation
+11316790,s7,T12,T13,Both ,Sum1,-1p and wild-type ,Sum1p, interacted with Hst1p in coimmunoprecipitation experiments.,Not_a_complex
+11316790,s7,T12,T21,Both ,Sum1,-1p and wild-type Sum1p interacted with ,Hst1p, in coimmunoprecipitation experiments.,Not_a_complex
+11316790,s8,T15,T22,"Therefore, the SUM1-1 mutation did not change the affinity of ",Sum1p, for ,Hst1p,", but rather relocalized Sum1p to the HM loci.",Complex_formation
+11316790,s8,T14,T15,"Therefore, the ",SUM1,-1 mutation did not change the affinity of ,Sum1p," for Hst1p, but rather relocalized Sum1p to the HM loci.",Not_a_complex
+11316790,s8,T14,T16,"Therefore, the ",SUM1,"-1 mutation did not change the affinity of Sum1p for Hst1p, but rather relocalized ",Sum1p, to the HM loci.,Not_a_complex
+11316790,s8,T14,T22,"Therefore, the ",SUM1,-1 mutation did not change the affinity of Sum1p for ,Hst1p,", but rather relocalized Sum1p to the HM loci.",Not_a_complex
+11316790,s8,T15,T16,"Therefore, the SUM1-1 mutation did not change the affinity of ",Sum1p," for Hst1p, but rather relocalized ",Sum1p, to the HM loci.,Not_a_complex
+11316790,s8,T22,T16,"Therefore, the SUM1-1 mutation did not change the affinity of Sum1p for ",Hst1p,", but rather relocalized ",Sum1p, to the HM loci.,Not_a_complex
+11316790,s9,T17,T23,,Sum1,-1-,Hst1p, action led to hypoacetylation of the nucleosomes at HM loci.,Not_a_complex
+11316790,s10,T18,T27,"Thus, ",Sum1,-1p and ,Hst1p," could substitute for Sir proteins to achieve silencing through formation of a compositionally distinct type of heterochromatin. 
+",Not_a_complex
+11316790,s10,T18,T28,"Thus, ",Sum1,-1p and Hst1p could substitute for ,Sir," proteins to achieve silencing through formation of a compositionally distinct type of heterochromatin. 
+",Not_a_complex
+11316790,s10,T27,T28,"Thus, Sum1-1p and ",Hst1p, could substitute for ,Sir," proteins to achieve silencing through formation of a compositionally distinct type of heterochromatin. 
+",Not_a_complex

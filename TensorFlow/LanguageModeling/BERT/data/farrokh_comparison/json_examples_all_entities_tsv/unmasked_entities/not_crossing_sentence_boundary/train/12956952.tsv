@@ -1,0 +1,29 @@
+12956952,s0,T1,T2,Caenorhabditis elegans ,TAC-1, and ,ZYG-9," form a complex that is essential for long astral and spindle microtubules. 
+",Complex_formation
+12956952,s1,T14,T15,,TACC, (,transforming acidic coiled-coil,") proteins were first identified by their ability to transform cell lines [1], and links between human cancer and the overexpression of TACC proteins highlight the importance of understanding the biological function of this family of proteins.",Not_a_complex
+12956952,s1,T14,T16,,TACC," (transforming acidic coiled-coil) proteins were first identified by their ability to transform cell lines [1], and links between human cancer and the overexpression of ",TACC, proteins highlight the importance of understanding the biological function of this family of proteins.,Not_a_complex
+12956952,s1,T15,T16,TACC (,transforming acidic coiled-coil,") proteins were first identified by their ability to transform cell lines [1], and links between human cancer and the overexpression of ",TACC, proteins highlight the importance of understanding the biological function of this family of proteins.,Not_a_complex
+12956952,s2,T17,T3,"Herein, we describe the characterization of a new member of the ",TACC," family of proteins in Caenorhabditis elegans, ",TAC-1,.,Not_a_complex
+12956952,s3,T18,T19,"In other systems, ",TACC, proteins associate with the ,XMAP215," family of microtubule-stabilizing proteins; however, it is unclear whether TACC proteins have microtubule-based functions distinct from XMAP215.",Complex_formation
+12956952,s3,T18,T20,"In other systems, ",TACC," proteins associate with the XMAP215 family of microtubule-stabilizing proteins; however, it is unclear whether ",TACC, proteins have microtubule-based functions distinct from XMAP215.,Not_a_complex
+12956952,s3,T18,T21,"In other systems, ",TACC," proteins associate with the XMAP215 family of microtubule-stabilizing proteins; however, it is unclear whether TACC proteins have microtubule-based functions distinct from ",XMAP215,.,Not_a_complex
+12956952,s3,T19,T20,"In other systems, TACC proteins associate with the ",XMAP215," family of microtubule-stabilizing proteins; however, it is unclear whether ",TACC, proteins have microtubule-based functions distinct from XMAP215.,Not_a_complex
+12956952,s3,T19,T21,"In other systems, TACC proteins associate with the ",XMAP215," family of microtubule-stabilizing proteins; however, it is unclear whether TACC proteins have microtubule-based functions distinct from ",XMAP215,.,Not_a_complex
+12956952,s3,T20,T21,"In other systems, TACC proteins associate with the XMAP215 family of microtubule-stabilizing proteins; however, it is unclear whether ",TACC, proteins have microtubule-based functions distinct from ,XMAP215,.,Not_a_complex
+12956952,s4,T22,T4,We depleted both the ,XMAP215, ortholog ,ZYG-9, and TAC-1 via dsRNA-mediated interference (RNAi).,Not_a_complex
+12956952,s4,T4,T5,We depleted both the XMAP215 ortholog ,ZYG-9, and ,TAC-1, via dsRNA-mediated interference (RNAi).,Not_a_complex
+12956952,s4,T22,T5,We depleted both the ,XMAP215, ortholog ZYG-9 and ,TAC-1, via dsRNA-mediated interference (RNAi).,Not_a_complex
+12956952,s5,T6,T7,We found that ,tac-1,(RNAi) resulted in microtubule-based defects that were very similar to ,zyg-9,(RNAi).,Not_a_complex
+12956952,s6,T8,T9,"Furthermore, ",TAC-1, and ,ZYG-9, are required for long astral microtubules in general and long spindle microtubules during spindle assembly.,Not_a_complex
+12956952,s9,T10,T11,"Furthermore, we found that ",ZYG-9, and ,TAC-1," physically interact in vivo, and this interaction is important for the efficient localization of the ZYG-9/TAC-1 complex to centrosomes. 
+",Complex_formation
+12956952,s9,T12,T13,"Furthermore, we found that ZYG-9 and TAC-1 physically interact in vivo, and this interaction is important for the efficient localization of the ",ZYG-9,/,TAC-1," complex to centrosomes. 
+",Complex_formation
+12956952,s9,T10,T12,"Furthermore, we found that ",ZYG-9," and TAC-1 physically interact in vivo, and this interaction is important for the efficient localization of the ",ZYG-9,"/TAC-1 complex to centrosomes. 
+",Not_a_complex
+12956952,s9,T10,T13,"Furthermore, we found that ",ZYG-9," and TAC-1 physically interact in vivo, and this interaction is important for the efficient localization of the ZYG-9/",TAC-1," complex to centrosomes. 
+",Not_a_complex
+12956952,s9,T11,T12,"Furthermore, we found that ZYG-9 and ",TAC-1," physically interact in vivo, and this interaction is important for the efficient localization of the ",ZYG-9,"/TAC-1 complex to centrosomes. 
+",Not_a_complex
+12956952,s9,T11,T13,"Furthermore, we found that ZYG-9 and ",TAC-1," physically interact in vivo, and this interaction is important for the efficient localization of the ZYG-9/",TAC-1," complex to centrosomes. 
+",Not_a_complex

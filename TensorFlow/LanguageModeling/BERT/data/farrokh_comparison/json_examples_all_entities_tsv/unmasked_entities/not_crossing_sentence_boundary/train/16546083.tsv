@@ -1,0 +1,44 @@
+16546083,s0,T23,T3,ATR homolog Mec1 controls association of ,DNA polymerase zeta,-,Rev1," complex with regions near a double-strand break. 
+",Complex_formation
+16546083,s0,T1,T2,,ATR, homolog ,Mec1," controls association of DNA polymerase zeta-Rev1 complex with regions near a double-strand break. 
+",Not_a_complex
+16546083,s0,T1,T23,,ATR, homolog Mec1 controls association of ,DNA polymerase zeta,"-Rev1 complex with regions near a double-strand break. 
+",Not_a_complex
+16546083,s0,T1,T3,,ATR, homolog Mec1 controls association of DNA polymerase zeta-,Rev1," complex with regions near a double-strand break. 
+",Not_a_complex
+16546083,s0,T2,T23,ATR homolog ,Mec1, controls association of ,DNA polymerase zeta,"-Rev1 complex with regions near a double-strand break. 
+",Not_a_complex
+16546083,s0,T2,T3,ATR homolog ,Mec1, controls association of DNA polymerase zeta-,Rev1," complex with regions near a double-strand break. 
+",Not_a_complex
+16546083,s1,T24,T25,,DNA polymerase zeta, (,Polzeta,") and Rev1 contribute to the bypassing of DNA lesions, termed translesion DNA synthesis (TLS).",Not_a_complex
+16546083,s1,T24,T4,,DNA polymerase zeta, (Polzeta) and ,Rev1," contribute to the bypassing of DNA lesions, termed translesion DNA synthesis (TLS).",Not_a_complex
+16546083,s1,T25,T4,DNA polymerase zeta (,Polzeta,) and ,Rev1," contribute to the bypassing of DNA lesions, termed translesion DNA synthesis (TLS).",Not_a_complex
+16546083,s2,T26,T5,,Polzeta," consists of two subunits, one encoded by ",REV3, (the catalytic subunit) and the other encoded by REV7.,Not_a_complex
+16546083,s2,T5,T6,"Polzeta consists of two subunits, one encoded by ",REV3, (the catalytic subunit) and the other encoded by ,REV7,.,Not_a_complex
+16546083,s2,T26,T6,,Polzeta," consists of two subunits, one encoded by REV3 (the catalytic subunit) and the other encoded by ",REV7,.,Not_a_complex
+16546083,s3,T7,T8,,Rev1, acts as a ,deoxycytidyl transferase,", inserting dCMP opposite lesions.",Not_a_complex
+16546083,s4,T27,T9,,Polzeta, and ,Rev1, have been shown to operate in the same TLS pathway in the budding yeast Saccharomyces cerevisiae.,Not_a_complex
+16546083,s5,T28,T10,"Here, we show that budding yeast ",Polzeta, and ,Rev1, form a complex and associate together with double-strand breaks (DSBs).,Complex_formation
+16546083,s6,T29,T11,As a component of the ,Polzeta,-,Rev1," complex, Rev1 plays a noncatalytic role in the association with DSBs.",Complex_formation
+16546083,s6,T11,T12,As a component of the Polzeta-,Rev1," complex, ",Rev1, plays a noncatalytic role in the association with DSBs.,Not_a_complex
+16546083,s6,T29,T12,As a component of the ,Polzeta,"-Rev1 complex, ",Rev1, plays a noncatalytic role in the association with DSBs.,Not_a_complex
+16546083,s7,T13,T14,"In budding yeast, the ",ATR,-homolog ,Mec1, plays a central role in the DNA-damage checkpoint response.,Not_a_complex
+16546083,s8,T30,T16,We further show that Mec1-dependent phosphorylation promotes the ,Polzeta,-,Rev1, association with DSBs.,Complex_formation
+16546083,s8,T15,T16,We further show that ,Mec1,-dependent phosphorylation promotes the Polzeta-,Rev1, association with DSBs.,Not_a_complex
+16546083,s8,T15,T30,We further show that ,Mec1,-dependent phosphorylation promotes the ,Polzeta,-Rev1 association with DSBs.,Not_a_complex
+16546083,s9,T17,T18,,Rev1, association with DSBs requires neither the function of the ,Rad24, checkpoint-clamp loader nor the Rad6-Rad18-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T17,T19,,Rev1, association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the ,Rad6,-Rad18-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T17,T20,,Rev1, association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the Rad6-,Rad18,-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T17,T32,,Rev1, association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the Rad6-Rad18-mediated ubiquitination of ,PCNA,.,Not_a_complex
+16546083,s9,T18,T19,Rev1 association with DSBs requires neither the function of the ,Rad24, checkpoint-clamp loader nor the ,Rad6,-Rad18-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T18,T20,Rev1 association with DSBs requires neither the function of the ,Rad24, checkpoint-clamp loader nor the Rad6-,Rad18,-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T18,T32,Rev1 association with DSBs requires neither the function of the ,Rad24, checkpoint-clamp loader nor the Rad6-Rad18-mediated ubiquitination of ,PCNA,.,Not_a_complex
+16546083,s9,T19,T20,Rev1 association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the ,Rad6,-,Rad18,-mediated ubiquitination of PCNA.,Not_a_complex
+16546083,s9,T19,T32,Rev1 association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the ,Rad6,-Rad18-mediated ubiquitination of ,PCNA,.,Not_a_complex
+16546083,s9,T20,T32,Rev1 association with DSBs requires neither the function of the Rad24 checkpoint-clamp loader nor the Rad6-,Rad18,-mediated ubiquitination of ,PCNA,.,Not_a_complex
+16546083,s10,T31,T22,Our results reveal a novel role of Mec1 in the localization of the ,Polzeta,-,Rev1," complex to DNA lesions and highlight a linkage of TLS polymerases to the checkpoint response. 
+",Complex_formation
+16546083,s10,T21,T22,Our results reveal a novel role of ,Mec1, in the localization of the Polzeta-,Rev1," complex to DNA lesions and highlight a linkage of TLS polymerases to the checkpoint response. 
+",Not_a_complex
+16546083,s10,T21,T31,Our results reveal a novel role of ,Mec1, in the localization of the ,Polzeta,"-Rev1 complex to DNA lesions and highlight a linkage of TLS polymerases to the checkpoint response. 
+",Not_a_complex

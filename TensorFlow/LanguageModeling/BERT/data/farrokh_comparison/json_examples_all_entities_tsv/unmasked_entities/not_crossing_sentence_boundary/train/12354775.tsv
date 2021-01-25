@@ -1,0 +1,45 @@
+12354775,s0,T1,T3,Zinc-dependent interaction between ,dishevelled, and the Drosophila Wnt antagonist ,naked cuticle,". 
+",Complex_formation
+12354775,s0,T1,T2,Zinc-dependent interaction between ,dishevelled, and the Drosophila ,Wnt," antagonist naked cuticle. 
+",Not_a_complex
+12354775,s0,T2,T3,Zinc-dependent interaction between dishevelled and the Drosophila ,Wnt, antagonist ,naked cuticle,". 
+",Not_a_complex
+12354775,s1,T4,T5,"During Drosophila development, the ",naked cuticle, (,nkd,) gene attenuates wingless/Wnt signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s1,T4,T6,"During Drosophila development, the ",naked cuticle, (nkd) gene attenuates ,wingless,/Wnt signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s1,T4,T7,"During Drosophila development, the ",naked cuticle, (nkd) gene attenuates wingless/,Wnt, signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s1,T5,T6,"During Drosophila development, the naked cuticle (",nkd,) gene attenuates ,wingless,/Wnt signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s1,T5,T7,"During Drosophila development, the naked cuticle (",nkd,) gene attenuates wingless/,Wnt, signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s1,T6,T7,"During Drosophila development, the naked cuticle (nkd) gene attenuates ",wingless,/,Wnt, signaling through a negative feedback loop mechanism.,Not_a_complex
+12354775,s2,T8,T11,Fly and vertebrate ,Nkd," proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the Wnt signal transducer, ",dishevelled, (Dsh).,Complex_formation
+12354775,s2,T8,T12,Fly and vertebrate ,Nkd," proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the Wnt signal transducer, dishevelled (",Dsh,).,Complex_formation
+12354775,s2,T10,T11,"Fly and vertebrate Nkd proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the ",Wnt," signal transducer, ",dishevelled, (Dsh).,Not_a_complex
+12354775,s2,T10,T12,"Fly and vertebrate Nkd proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the ",Wnt," signal transducer, dishevelled (",Dsh,).,Not_a_complex
+12354775,s2,T11,T12,"Fly and vertebrate Nkd proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the Wnt signal transducer, ",dishevelled, (,Dsh,).,Not_a_complex
+12354775,s2,T8,T10,Fly and vertebrate ,Nkd," proteins contain a putative calcium-binding EF-hand motif, the EFX domain, that interacts with the basic/PDZ region of the ",Wnt," signal transducer, dishevelled (Dsh).",Not_a_complex
+12354775,s3,T13,T14,Here we show that ,Dsh, binding by Drosophila ,Nkd, in vitro is mediated by the EFX domain as well as an adjacent C-terminal sequence.,Complex_formation
+12354775,s4,T15,T16,In vivo data suggest that both of these regions contribute to the ability of ,Nkd, to antagonize ,Wnt, signaling.,Not_a_complex
+12354775,s5,T18,T19,Mutations in the Nkd EF-hand designed to eliminate potential ion binding affected ,Nkd,-,Dsh, interactions in the yeast two-hybrid assay but not in the glutathione S-transferase pull-down assay.,Complex_formation
+12354775,s5,T17,T18,Mutations in the ,Nkd, EF-hand designed to eliminate potential ion binding affected ,Nkd,-Dsh interactions in the yeast two-hybrid assay but not in the glutathione S-transferase pull-down assay.,Not_a_complex
+12354775,s5,T17,T19,Mutations in the ,Nkd, EF-hand designed to eliminate potential ion binding affected Nkd-,Dsh, interactions in the yeast two-hybrid assay but not in the glutathione S-transferase pull-down assay.,Not_a_complex
+12354775,s6,T20,T21,Addition of the chelating agent EDTA abolished the in vitro ,Nkd,-,Dsh, interaction.,Complex_formation
+12354775,s7,T23,T24,"Surprisingly zinc, but not calcium, was able to restore ",Nkd,-,Dsh," binding, suggesting a zinc-mediated interaction.",Complex_formation
+12354775,s9,T27,T29,The results further clarify how ,Nkd, may antagonize Wnt signaling via interaction with ,Dsh,", and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind Dsh. 
+",Complex_formation
+12354775,s9,T30,T31,"The results further clarify how Nkd may antagonize Wnt signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila ",Nkd, that collaborates with the conserved EFX domain to bind ,Dsh,". 
+",Complex_formation
+12354775,s9,T27,T28,The results further clarify how ,Nkd, may antagonize ,Wnt," signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind Dsh. 
+",Not_a_complex
+12354775,s9,T27,T30,The results further clarify how ,Nkd," may antagonize Wnt signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila ",Nkd," that collaborates with the conserved EFX domain to bind Dsh. 
+",Not_a_complex
+12354775,s9,T27,T31,The results further clarify how ,Nkd," may antagonize Wnt signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind ",Dsh,". 
+",Not_a_complex
+12354775,s9,T28,T29,The results further clarify how Nkd may antagonize ,Wnt, signaling via interaction with ,Dsh,", and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind Dsh. 
+",Not_a_complex
+12354775,s9,T28,T30,The results further clarify how Nkd may antagonize ,Wnt," signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila ",Nkd," that collaborates with the conserved EFX domain to bind Dsh. 
+",Not_a_complex
+12354775,s9,T28,T31,The results further clarify how Nkd may antagonize ,Wnt," signaling via interaction with Dsh, and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind ",Dsh,". 
+",Not_a_complex
+12354775,s9,T29,T30,The results further clarify how Nkd may antagonize Wnt signaling via interaction with ,Dsh,", and identify a novel zinc-binding domain in Drosophila ",Nkd," that collaborates with the conserved EFX domain to bind Dsh. 
+",Not_a_complex
+12354775,s9,T29,T31,The results further clarify how Nkd may antagonize Wnt signaling via interaction with ,Dsh,", and identify a novel zinc-binding domain in Drosophila Nkd that collaborates with the conserved EFX domain to bind ",Dsh,". 
+",Not_a_complex

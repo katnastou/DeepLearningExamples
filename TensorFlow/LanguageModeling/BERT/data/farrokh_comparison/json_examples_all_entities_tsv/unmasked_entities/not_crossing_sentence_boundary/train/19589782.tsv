@@ -1,0 +1,56 @@
+19589782,s0,T1,T3,Epidithiodiketopiperazines block the interaction between ,hypoxia-inducible factor-1alpha, (HIF-1alpha) and ,p300," by a zinc ejection mechanism. 
+",Complex_formation
+19589782,s0,T2,T3,Epidithiodiketopiperazines block the interaction between hypoxia-inducible factor-1alpha (,HIF-1alpha,) and ,p300," by a zinc ejection mechanism. 
+",Complex_formation
+19589782,s0,T12,T1,,Epidithiodiketopiperazines, block the interaction between ,hypoxia-inducible factor-1alpha," (HIF-1alpha) and p300 by a zinc ejection mechanism. 
+",Not_a_complex
+19589782,s0,T1,T13,Epidithiodiketopiperazines block the interaction between ,hypoxia-inducible factor-1alpha, (HIF-1alpha) and p300 by a ,zinc," ejection mechanism. 
+",Not_a_complex
+19589782,s0,T1,T2,Epidithiodiketopiperazines block the interaction between ,hypoxia-inducible factor-1alpha, (,HIF-1alpha,") and p300 by a zinc ejection mechanism. 
+",Not_a_complex
+19589782,s0,T12,T13,,Epidithiodiketopiperazines, block the interaction between hypoxia-inducible factor-1alpha (HIF-1alpha) and p300 by a ,zinc," ejection mechanism. 
+",Not_a_complex
+19589782,s0,T12,T2,,Epidithiodiketopiperazines, block the interaction between hypoxia-inducible factor-1alpha (,HIF-1alpha,") and p300 by a zinc ejection mechanism. 
+",Not_a_complex
+19589782,s0,T2,T13,Epidithiodiketopiperazines block the interaction between hypoxia-inducible factor-1alpha (,HIF-1alpha,) and p300 by a ,zinc," ejection mechanism. 
+",Not_a_complex
+19589782,s0,T12,T3,,Epidithiodiketopiperazines, block the interaction between hypoxia-inducible factor-1alpha (HIF-1alpha) and ,p300," by a zinc ejection mechanism. 
+",Not_a_complex
+19589782,s0,T3,T13,Epidithiodiketopiperazines block the interaction between hypoxia-inducible factor-1alpha (HIF-1alpha) and ,p300, by a ,zinc," ejection mechanism. 
+",Not_a_complex
+19589782,s1,T9,T10,The hypoxic response in humans is regulated by the hypoxia-inducible transcription factor system; inhibition of ,hypoxia-inducible factor, (,HIF,) activity has potential for the treatment of cancer.,Not_a_complex
+19589782,s2,T11,T4,"Chetomin, a member of the epidithiodiketopiperazine (ETP) family of natural products, inhibits the interaction between ",HIF-alpha, and the transcriptional coactivator ,p300,.,Complex_formation
+19589782,s2,T14,T11,,Chetomin,", a member of the epidithiodiketopiperazine (ETP) family of natural products, inhibits the interaction between ",HIF-alpha, and the transcriptional coactivator p300.,Not_a_complex
+19589782,s2,T15,T11,"Chetomin, a member of the ",epidithiodiketopiperazine," (ETP) family of natural products, inhibits the interaction between ",HIF-alpha, and the transcriptional coactivator p300.,Not_a_complex
+19589782,s2,T16,T11,"Chetomin, a member of the epidithiodiketopiperazine (",ETP,") family of natural products, inhibits the interaction between ",HIF-alpha, and the transcriptional coactivator p300.,Not_a_complex
+19589782,s2,T14,T15,,Chetomin,", a member of the ",epidithiodiketopiperazine," (ETP) family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator p300.",Not_a_complex
+19589782,s2,T14,T16,,Chetomin,", a member of the epidithiodiketopiperazine (",ETP,") family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator p300.",Not_a_complex
+19589782,s2,T15,T16,"Chetomin, a member of the ",epidithiodiketopiperazine, (,ETP,") family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator p300.",Not_a_complex
+19589782,s2,T14,T4,,Chetomin,", a member of the epidithiodiketopiperazine (ETP) family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator ",p300,.,Not_a_complex
+19589782,s2,T15,T4,"Chetomin, a member of the ",epidithiodiketopiperazine," (ETP) family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator ",p300,.,Not_a_complex
+19589782,s2,T16,T4,"Chetomin, a member of the epidithiodiketopiperazine (",ETP,") family of natural products, inhibits the interaction between HIF-alpha and the transcriptional coactivator ",p300,.,Not_a_complex
+19589782,s3,T5,T6,Structure-activity studies employing both natural and synthetic ETP derivatives reveal that only the structurally unique ETP core is required and sufficient to block the interaction of ,HIF-1alpha, and ,p300,.,Complex_formation
+19589782,s3,T17,T18,Structure-activity studies employing both natural and synthetic ,ETP, derivatives reveal that only the structurally unique ,ETP, core is required and sufficient to block the interaction of HIF-1alpha and p300.,Not_a_complex
+19589782,s3,T17,T5,Structure-activity studies employing both natural and synthetic ,ETP, derivatives reveal that only the structurally unique ETP core is required and sufficient to block the interaction of ,HIF-1alpha, and p300.,Not_a_complex
+19589782,s3,T18,T5,Structure-activity studies employing both natural and synthetic ETP derivatives reveal that only the structurally unique ,ETP, core is required and sufficient to block the interaction of ,HIF-1alpha, and p300.,Not_a_complex
+19589782,s3,T17,T6,Structure-activity studies employing both natural and synthetic ,ETP, derivatives reveal that only the structurally unique ETP core is required and sufficient to block the interaction of HIF-1alpha and ,p300,.,Not_a_complex
+19589782,s3,T18,T6,Structure-activity studies employing both natural and synthetic ETP derivatives reveal that only the structurally unique ,ETP, core is required and sufficient to block the interaction of HIF-1alpha and ,p300,.,Not_a_complex
+19589782,s4,T21,T7,"In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ",ETPs, react with ,p300,", causing zinc ion ejection.",Complex_formation
+19589782,s4,T19,T20,In support of both cell-based and animal work showing that the cytotoxic effect of ,ETPs, is reduced by the addition of ,Zn(2+)," through an unknown mechanism, our mechanistic studies reveal that ETPs react with p300, causing zinc ion ejection.",Not_a_complex
+19589782,s4,T19,T21,In support of both cell-based and animal work showing that the cytotoxic effect of ,ETPs," is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ",ETPs," react with p300, causing zinc ion ejection.",Not_a_complex
+19589782,s4,T19,T22,In support of both cell-based and animal work showing that the cytotoxic effect of ,ETPs," is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ETPs react with p300, causing ",zinc, ion ejection.,Not_a_complex
+19589782,s4,T20,T21,In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of ,Zn(2+)," through an unknown mechanism, our mechanistic studies reveal that ",ETPs," react with p300, causing zinc ion ejection.",Not_a_complex
+19589782,s4,T20,T22,In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of ,Zn(2+)," through an unknown mechanism, our mechanistic studies reveal that ETPs react with p300, causing ",zinc, ion ejection.,Not_a_complex
+19589782,s4,T21,T22,"In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ",ETPs," react with p300, causing ",zinc, ion ejection.,Not_a_complex
+19589782,s4,T19,T7,In support of both cell-based and animal work showing that the cytotoxic effect of ,ETPs," is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ETPs react with ",p300,", causing zinc ion ejection.",Not_a_complex
+19589782,s4,T20,T7,In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of ,Zn(2+)," through an unknown mechanism, our mechanistic studies reveal that ETPs react with ",p300,", causing zinc ion ejection.",Not_a_complex
+19589782,s4,T7,T22,"In support of both cell-based and animal work showing that the cytotoxic effect of ETPs is reduced by the addition of Zn(2+) through an unknown mechanism, our mechanistic studies reveal that ETPs react with ",p300,", causing ",zinc, ion ejection.,Not_a_complex
+19589782,s5,T23,T24,Cell studies with both natural and synthetic ,ETPs, demonstrated a decrease in vascular endothelial growth factor and antiproliferative effects that were abrogated by ,zinc, supplementation.,Not_a_complex
+19589782,s5,T23,T8,Cell studies with both natural and synthetic ,ETPs, demonstrated a decrease in ,vascular endothelial growth factor, and antiproliferative effects that were abrogated by zinc supplementation.,Not_a_complex
+19589782,s5,T8,T24,Cell studies with both natural and synthetic ETPs demonstrated a decrease in ,vascular endothelial growth factor, and antiproliferative effects that were abrogated by ,zinc, supplementation.,Not_a_complex
+19589782,s6,T26,T27,The results have implications for the design of selective ETPs and for the interaction of ,ETPs, with ,other zinc ion-binding protein targets," involved in gene expression. 
+",Complex_formation
+19589782,s6,T25,T26,The results have implications for the design of selective ,ETPs, and for the interaction of ,ETPs," with other zinc ion-binding protein targets involved in gene expression. 
+",Not_a_complex
+19589782,s6,T25,T27,The results have implications for the design of selective ,ETPs, and for the interaction of ETPs with ,other zinc ion-binding protein targets," involved in gene expression. 
+",Not_a_complex

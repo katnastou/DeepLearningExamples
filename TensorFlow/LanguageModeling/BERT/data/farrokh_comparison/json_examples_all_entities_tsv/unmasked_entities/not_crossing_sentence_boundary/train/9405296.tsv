@@ -1,0 +1,9 @@
+9405296,s0,T1,T2,Genes that cause aberrant cell morphology by overexpression in fission yeast: a role of a small ,GTP,-binding protein ,Rho2," in cell morphogenesis. 
+",Complex_formation
+9405296,s3,T3,T4,One of the genes causing a rounded morphology was identified as the ,rho2,+ gene encoding a small ,GTP,-binding protein.,Complex_formation
+9405296,s4,T5,T6,The overexpression of ,rho2,+ resulted in a randomized distribution of cortical ,F-actin, and formation of a thick cell wall.,Not_a_complex
+9405296,s5,T17,T7,Analyses using ,cdc, mutants suggested that the overexpression of ,rho2,+ prevents the establishment of growth polarity in G1.,Not_a_complex
+9405296,s6,T8,T9,The ,rho2,"+ gene was not essential, but among cells deleted for ",rho2,"+, those with an irregular shape were observed.",Not_a_complex
+9405296,s10,T12,T13,The localization of GFP-,Rho2, during interphase was partially dependent on ,sts5,+.,Not_a_complex
+9405296,s12,T15,T16,Analysis of functional overlapping between ,Rho2, and ,Rho1," revealed that their functions are distinct from each other, with partial overlapping. 
+",Not_a_complex

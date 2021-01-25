@@ -1,0 +1,26 @@
+10657632,s0,T1,T2,,Membrane cofactor protein, (MCP; ,CD46,"): isoform-specific tyrosine phosphorylation. 
+",Not_a_complex
+10657632,s0,T1,T8,,Membrane cofactor protein, (,MCP,"; CD46): isoform-specific tyrosine phosphorylation. 
+",Not_a_complex
+10657632,s0,T8,T2,Membrane cofactor protein (,MCP,; ,CD46,"): isoform-specific tyrosine phosphorylation. 
+",Not_a_complex
+10657632,s1,T3,T4,,Membrane cofactor protein, (MCP; ,CD46,) is a widely expressed type 1 transmembrane glycoprotein that inhibits complement activation on host cells.,Not_a_complex
+10657632,s1,T3,T9,,Membrane cofactor protein, (,MCP,; CD46) is a widely expressed type 1 transmembrane glycoprotein that inhibits complement activation on host cells.,Not_a_complex
+10657632,s1,T9,T4,Membrane cofactor protein (,MCP,; ,CD46,) is a widely expressed type 1 transmembrane glycoprotein that inhibits complement activation on host cells.,Not_a_complex
+10657632,s4,T11,T12,"That is, binding of ",MCP, on human monocytes by measles virus hemagglutinin or cross-linking by an anti-MCP Ab resulted in ,IL-12," down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T11,T13,"That is, binding of ",MCP, on human monocytes by ,measles virus hemagglutinin," or cross-linking by an anti-MCP Ab resulted in IL-12 down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T11,T19,"That is, binding of ",MCP, on human monocytes by measles virus hemagglutinin or cross-linking by an anti-,MCP," Ab resulted in IL-12 down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T11,T20,"That is, binding of ",MCP," on human monocytes by measles virus hemagglutinin or cross-linking by an anti-MCP Ab resulted in IL-12 down-regulation, while binding to ",MCP, by Neisseria on epithelial cells produced a calcium flux.,Not_a_complex
+10657632,s4,T13,T12,"That is, binding of MCP on human monocytes by ",measles virus hemagglutinin, or cross-linking by an anti-MCP Ab resulted in ,IL-12," down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T19,T12,"That is, binding of MCP on human monocytes by measles virus hemagglutinin or cross-linking by an anti-",MCP, Ab resulted in ,IL-12," down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T12,T20,"That is, binding of MCP on human monocytes by measles virus hemagglutinin or cross-linking by an anti-MCP Ab resulted in ",IL-12," down-regulation, while binding to ",MCP, by Neisseria on epithelial cells produced a calcium flux.,Not_a_complex
+10657632,s4,T13,T19,"That is, binding of MCP on human monocytes by ",measles virus hemagglutinin, or cross-linking by an anti-,MCP," Ab resulted in IL-12 down-regulation, while binding to MCP by Neisseria on epithelial cells produced a calcium flux.",Not_a_complex
+10657632,s4,T13,T20,"That is, binding of MCP on human monocytes by ",measles virus hemagglutinin," or cross-linking by an anti-MCP Ab resulted in IL-12 down-regulation, while binding to ",MCP, by Neisseria on epithelial cells produced a calcium flux.,Not_a_complex
+10657632,s4,T19,T20,"That is, binding of MCP on human monocytes by measles virus hemagglutinin or cross-linking by an anti-",MCP," Ab resulted in IL-12 down-regulation, while binding to ",MCP, by Neisseria on epithelial cells produced a calcium flux.,Not_a_complex
+10657632,s8,T21,T22,We examined ,MCP, tail peptides and performed Ab cross-linking experiments on several human cell lines and ,MCP, isoform transfectants.,Not_a_complex
+10657632,s9,T16,T5,We found an ,MCP, peptide of CYT-2 was phosphorylated by a ,src kinase, system.,Not_a_complex
+10657632,s12,T6,T17,"In particular, the ",src kinase,", Lck, is required for phosphorylation of ",MCP, in the Jurkat T cell line.,Not_a_complex
+10657632,s12,T6,T7,"In particular, the ",src kinase,", ",Lck,", is required for phosphorylation of MCP in the Jurkat T cell line.",Not_a_complex
+10657632,s12,T7,T17,"In particular, the src kinase, ",Lck,", is required for phosphorylation of ",MCP, in the Jurkat T cell line.,Not_a_complex
+10657632,s13,T24,T18,"Taken together, these studies suggest a ",src, family-dependent pathway for signaling through ,MCP,". 
+",Not_a_complex

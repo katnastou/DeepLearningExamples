@@ -1,0 +1,122 @@
+10068671,s0,T1,T2,Interferon-alpha activates multiple STAT proteins and upregulates proliferation-associated ,IL-2Ralpha,", ",c-myc,", and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s0,T1,T3,Interferon-alpha activates multiple STAT proteins and upregulates proliferation-associated ,IL-2Ralpha,", c-myc, and ",pim-1," genes in human T cells. 
+",Not_a_complex
+10068671,s0,T46,T1,,Interferon-alpha, activates multiple STAT proteins and upregulates proliferation-associated ,IL-2Ralpha,", c-myc, and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s0,T49,T1,Interferon-alpha activates multiple ,STAT, proteins and upregulates proliferation-associated ,IL-2Ralpha,", c-myc, and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s0,T2,T3,"Interferon-alpha activates multiple STAT proteins and upregulates proliferation-associated IL-2Ralpha, ",c-myc,", and ",pim-1," genes in human T cells. 
+",Not_a_complex
+10068671,s0,T46,T2,,Interferon-alpha," activates multiple STAT proteins and upregulates proliferation-associated IL-2Ralpha, ",c-myc,", and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s0,T49,T2,Interferon-alpha activates multiple ,STAT," proteins and upregulates proliferation-associated IL-2Ralpha, ",c-myc,", and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s0,T46,T3,,Interferon-alpha," activates multiple STAT proteins and upregulates proliferation-associated IL-2Ralpha, c-myc, and ",pim-1," genes in human T cells. 
+",Not_a_complex
+10068671,s0,T49,T3,Interferon-alpha activates multiple ,STAT," proteins and upregulates proliferation-associated IL-2Ralpha, c-myc, and ",pim-1," genes in human T cells. 
+",Not_a_complex
+10068671,s0,T46,T49,,Interferon-alpha, activates multiple ,STAT," proteins and upregulates proliferation-associated IL-2Ralpha, c-myc, and pim-1 genes in human T cells. 
+",Not_a_complex
+10068671,s1,T47,T48,,Interferon-alpha, (,IFN-alpha,") is a pleiotropic cytokine that has antiviral, antiproliferative, and immunoregulatory functions.",Not_a_complex
+10068671,s3,T4,T5,We have analyzed the expression of ,IL-2Ralpha,", ",c-myc,", and pim-1 genes in anti-CD3-activated human T lymphocytes.",Not_a_complex
+10068671,s3,T4,T51,We have analyzed the expression of ,IL-2Ralpha,", c-myc, and pim-1 genes in anti-",CD3,-activated human T lymphocytes.,Not_a_complex
+10068671,s3,T4,T6,We have analyzed the expression of ,IL-2Ralpha,", c-myc, and ",pim-1, genes in anti-CD3-activated human T lymphocytes.,Not_a_complex
+10068671,s3,T5,T51,"We have analyzed the expression of IL-2Ralpha, ",c-myc,", and pim-1 genes in anti-",CD3,-activated human T lymphocytes.,Not_a_complex
+10068671,s3,T5,T6,"We have analyzed the expression of IL-2Ralpha, ",c-myc,", and ",pim-1, genes in anti-CD3-activated human T lymphocytes.,Not_a_complex
+10068671,s3,T6,T51,"We have analyzed the expression of IL-2Ralpha, c-myc, and ",pim-1, genes in anti-,CD3,-activated human T lymphocytes.,Not_a_complex
+10068671,s4,T7,T8,The induction of these genes is associated with ,interleukin-2, (,IL-2,)-induced T-cell proliferation.,Not_a_complex
+10068671,s5,T10,T11,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and ",IL-15, upregulated ,IL-2Ralpha,", c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T10,T12,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and ",IL-15," upregulated IL-2Ralpha, ",c-myc,", and pim-1 gene expression.",Not_a_complex
+10068671,s5,T10,T13,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and ",IL-15," upregulated IL-2Ralpha, c-myc, and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T32,T10,"Treatment of T lymphocytes with IFN-alpha, IL-2, ",IL-12,", and ",IL-15," upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T34,T10,Treatment of T lymphocytes with ,IFN-alpha,", IL-2, IL-12, and ",IL-15," upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T11,T12,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and IL-15 upregulated ",IL-2Ralpha,", ",c-myc,", and pim-1 gene expression.",Not_a_complex
+10068671,s5,T11,T13,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and IL-15 upregulated ",IL-2Ralpha,", c-myc, and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T32,T11,"Treatment of T lymphocytes with IFN-alpha, IL-2, ",IL-12,", and IL-15 upregulated ",IL-2Ralpha,", c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T34,T11,Treatment of T lymphocytes with ,IFN-alpha,", IL-2, IL-12, and IL-15 upregulated ",IL-2Ralpha,", c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T12,T13,"Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and IL-15 upregulated IL-2Ralpha, ",c-myc,", and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T32,T12,"Treatment of T lymphocytes with IFN-alpha, IL-2, ",IL-12,", and IL-15 upregulated IL-2Ralpha, ",c-myc,", and pim-1 gene expression.",Not_a_complex
+10068671,s5,T34,T12,Treatment of T lymphocytes with ,IFN-alpha,", IL-2, IL-12, and IL-15 upregulated IL-2Ralpha, ",c-myc,", and pim-1 gene expression.",Not_a_complex
+10068671,s5,T32,T13,"Treatment of T lymphocytes with IFN-alpha, IL-2, ",IL-12,", and IL-15 upregulated IL-2Ralpha, c-myc, and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T34,T13,Treatment of T lymphocytes with ,IFN-alpha,", IL-2, IL-12, and IL-15 upregulated IL-2Ralpha, c-myc, and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T34,T32,Treatment of T lymphocytes with ,IFN-alpha,", IL-2, ",IL-12,", and IL-15 upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T9,T10,"Treatment of T lymphocytes with IFN-alpha, ",IL-2,", IL-12, and ",IL-15," upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T9,T11,"Treatment of T lymphocytes with IFN-alpha, ",IL-2,", IL-12, and IL-15 upregulated ",IL-2Ralpha,", c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T9,T12,"Treatment of T lymphocytes with IFN-alpha, ",IL-2,", IL-12, and IL-15 upregulated IL-2Ralpha, ",c-myc,", and pim-1 gene expression.",Not_a_complex
+10068671,s5,T9,T13,"Treatment of T lymphocytes with IFN-alpha, ",IL-2,", IL-12, and IL-15 upregulated IL-2Ralpha, c-myc, and ",pim-1, gene expression.,Not_a_complex
+10068671,s5,T9,T32,"Treatment of T lymphocytes with IFN-alpha, ",IL-2,", ",IL-12,", and IL-15 upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s5,T34,T9,Treatment of T lymphocytes with ,IFN-alpha,", ",IL-2,", IL-12, and IL-15 upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.",Not_a_complex
+10068671,s6,T44,T14,,IFN-alpha, also sensitized T cells to ,IL-2,"-induced proliferation, further suggesting that IFN-alpha may be involved in the regulation of T-cell mitogenesis.",Not_a_complex
+10068671,s6,T14,T45,IFN-alpha also sensitized T cells to ,IL-2,"-induced proliferation, further suggesting that ",IFN-alpha, may be involved in the regulation of T-cell mitogenesis.,Not_a_complex
+10068671,s6,T44,T45,,IFN-alpha," also sensitized T cells to IL-2-induced proliferation, further suggesting that ",IFN-alpha, may be involved in the regulation of T-cell mitogenesis.,Not_a_complex
+10068671,s7,T15,T16,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T15,T17,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T15,T18,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T15,T19,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T15,T20,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T15,T37,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T15,T38,When we analyzed the nature of STAT proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T15,When we analyzed the nature of ,STAT, proteins capable of binding to ,IL-2Ralpha,", pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T16,T17,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T16,T18,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T16,T19,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T16,T20,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T16,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T16,T38,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T16,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, ",pim-1,", and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T17,T18,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T17,T19,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T17,T20,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T17,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T17,T38,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T17,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and ",IRF-1," GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T18,T19,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T18,T20,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T18,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T38,T18,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,-induced binding of ,STAT1,", STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T18,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of ",STAT1,", STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T19,T20,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T19,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T38,T19,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T19,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, ",STAT3,", and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T20,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and ",STAT4,", but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T38,T20,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T52,T20,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and ",STAT4,", but not STAT5 to all of these elements.",Not_a_complex
+10068671,s7,T38,T37,"When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T52,T37,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not ",STAT5, to all of these elements.,Not_a_complex
+10068671,s7,T52,T38,When we analyzed the nature of ,STAT," proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed ",IFN-alpha,"-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.",Not_a_complex
+10068671,s8,T33,T21,"Yet, IFN-alpha was able to activate binding of ",STAT5, to the high-affinity ,IFP53, GAS site.,Not_a_complex
+10068671,s8,T36,T21,"Yet, ",IFN-alpha, was able to activate binding of STAT5 to the high-affinity ,IFP53, GAS site.,Not_a_complex
+10068671,s8,T36,T33,"Yet, ",IFN-alpha, was able to activate binding of ,STAT5, to the high-affinity IFP53 GAS site.,Not_a_complex
+10068671,s9,T22,T23,IFN-alpha enhanced tyrosine phosphorylation of ,STAT1,", ",STAT3,", STAT4, STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T22,T24,IFN-alpha enhanced tyrosine phosphorylation of ,STAT1,", STAT3, ",STAT4,", STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T22,T25,IFN-alpha enhanced tyrosine phosphorylation of ,STAT1,", STAT3, STAT4, ",STAT5a,", and STAT5b.",Not_a_complex
+10068671,s9,T22,T26,IFN-alpha enhanced tyrosine phosphorylation of ,STAT1,", STAT3, STAT4, STAT5a, and ",STAT5b,.,Not_a_complex
+10068671,s9,T35,T22,,IFN-alpha, enhanced tyrosine phosphorylation of ,STAT1,", STAT3, STAT4, STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T23,T24,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, ",STAT3,", ",STAT4,", STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T23,T25,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, ",STAT3,", STAT4, ",STAT5a,", and STAT5b.",Not_a_complex
+10068671,s9,T23,T26,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, ",STAT3,", STAT4, STAT5a, and ",STAT5b,.,Not_a_complex
+10068671,s9,T35,T23,,IFN-alpha," enhanced tyrosine phosphorylation of STAT1, ",STAT3,", STAT4, STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T24,T25,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, STAT3, ",STAT4,", ",STAT5a,", and STAT5b.",Not_a_complex
+10068671,s9,T24,T26,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, STAT3, ",STAT4,", STAT5a, and ",STAT5b,.,Not_a_complex
+10068671,s9,T35,T24,,IFN-alpha," enhanced tyrosine phosphorylation of STAT1, STAT3, ",STAT4,", STAT5a, and STAT5b.",Not_a_complex
+10068671,s9,T25,T26,"IFN-alpha enhanced tyrosine phosphorylation of STAT1, STAT3, STAT4, ",STAT5a,", and ",STAT5b,.,Not_a_complex
+10068671,s9,T35,T25,,IFN-alpha," enhanced tyrosine phosphorylation of STAT1, STAT3, STAT4, ",STAT5a,", and STAT5b.",Not_a_complex
+10068671,s9,T35,T26,,IFN-alpha," enhanced tyrosine phosphorylation of STAT1, STAT3, STAT4, STAT5a, and ",STAT5b,.,Not_a_complex
+10068671,s10,T27,T28,IL-12 induced ,STAT4, and ,IL-2, and IL-15 induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T27,T29,IL-12 induced ,STAT4, and IL-2 and ,IL-15, induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T39,T27,I,L-12, induced ,STAT4, and IL-2 and IL-15 induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T27,T40,IL-12 induced ,STAT4, and IL-2 and IL-15 induced ,STAT5, binding to the GAS elements.,Not_a_complex
+10068671,s10,T28,T29,IL-12 induced STAT4 and ,IL-2, and ,IL-15, induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T39,T28,I,L-12, induced STAT4 and ,IL-2, and IL-15 induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T28,T40,IL-12 induced STAT4 and ,IL-2, and IL-15 induced ,STAT5, binding to the GAS elements.,Not_a_complex
+10068671,s10,T39,T29,I,L-12, induced STAT4 and IL-2 and ,IL-15, induced STAT5 binding to the GAS elements.,Not_a_complex
+10068671,s10,T29,T40,IL-12 induced STAT4 and IL-2 and ,IL-15, induced ,STAT5, binding to the GAS elements.,Not_a_complex
+10068671,s10,T39,T40,I,L-12, induced STAT4 and IL-2 and IL-15 induced ,STAT5, binding to the GAS elements.,Not_a_complex
+10068671,s11,T30,T31,"Taken together, our results suggest that IFN-alpha, ",IL-2,", IL-12, and ",IL-15, have overlapping activities on human T cells.,Not_a_complex
+10068671,s11,T41,T30,"Taken together, our results suggest that ",IFN-alpha,", ",IL-2,", IL-12, and IL-15 have overlapping activities on human T cells.",Not_a_complex
+10068671,s11,T30,T42,"Taken together, our results suggest that IFN-alpha, ",IL-2,", ",IL-12,", and IL-15 have overlapping activities on human T cells.",Not_a_complex
+10068671,s11,T41,T31,"Taken together, our results suggest that ",IFN-alpha,", IL-2, IL-12, and ",IL-15, have overlapping activities on human T cells.,Not_a_complex
+10068671,s11,T42,T31,"Taken together, our results suggest that IFN-alpha, IL-2, ",IL-12,", and ",IL-15, have overlapping activities on human T cells.,Not_a_complex
+10068671,s11,T41,T42,"Taken together, our results suggest that ",IFN-alpha,", IL-2, ",IL-12,", and IL-15 have overlapping activities on human T cells.",Not_a_complex

@@ -1,0 +1,27 @@
+9858618,s0,T1,T2,Interactions between the ,class II transactivator, and ,CREB binding protein," increase transcription of major histocompatibility complex class II genes. 
+",Complex_formation
+9858618,s0,T1,T15,Interactions between the ,class II transactivator, and CREB binding protein increase transcription of ,major histocompatibility complex class II genes,". 
+",Not_a_complex
+9858618,s0,T2,T15,Interactions between the class II transactivator and ,CREB binding protein, increase transcription of ,major histocompatibility complex class II genes,". 
+",Not_a_complex
+9858618,s1,T16,T3,,Class II major histocompatibility (class II) genes, are regulated in a B-cell-specific and ,gamma interferon,-inducible fashion.,Not_a_complex
+9858618,s2,T4,T5,The master switch for the expression of these genes is the ,class II transactivator, (,CIITA,).,Not_a_complex
+9858618,s3,T6,T7,"In this report, we demonstrate that one of the functions of ",CIITA, is to recruit the ,CREB binding protein, (CBP) to class II promoters.,Complex_formation
+9858618,s3,T6,T8,"In this report, we demonstrate that one of the functions of ",CIITA, is to recruit the CREB binding protein (,CBP,) to class II promoters.,Complex_formation
+9858618,s3,T6,T18,"In this report, we demonstrate that one of the functions of ",CIITA, is to recruit the CREB binding protein (CBP) to ,class II, promoters.,Not_a_complex
+9858618,s3,T7,T18,"In this report, we demonstrate that one of the functions of CIITA is to recruit the ",CREB binding protein, (CBP) to ,class II, promoters.,Not_a_complex
+9858618,s3,T7,T8,"In this report, we demonstrate that one of the functions of CIITA is to recruit the ",CREB binding protein, (,CBP,) to class II promoters.,Not_a_complex
+9858618,s3,T8,T18,"In this report, we demonstrate that one of the functions of CIITA is to recruit the CREB binding protein (",CBP,) to ,class II, promoters.,Not_a_complex
+9858618,s4,T9,T10,Not only functional but also specific binding interactions between ,CIITA, and ,CBP, were demonstrated.,Complex_formation
+9858618,s5,T11,T19,"Moreover, a dominant negative form of ",CBP, decreased the activity of ,class II, promoters and levels of class II determinants on the surface of cells.,Not_a_complex
+9858618,s5,T11,T20,"Moreover, a dominant negative form of ",CBP, decreased the activity of class II promoters and levels of ,class II, determinants on the surface of cells.,Not_a_complex
+9858618,s5,T19,T20,"Moreover, a dominant negative form of CBP decreased the activity of ",class II, promoters and levels of ,class II, determinants on the surface of cells.,Not_a_complex
+9858618,s6,T12,T13,"Finally, the inhibition of class II gene expression by the glucocorticoid hormone could be attributed to the squelching of ",CBP, by the ,glucocorticoid receptor,.,Not_a_complex
+9858618,s6,T21,T12,"Finally, the inhibition of ",class II, gene expression by the glucocorticoid hormone could be attributed to the squelching of ,CBP, by the glucocorticoid receptor.,Not_a_complex
+9858618,s6,T22,T12,"Finally, the inhibition of class II gene expression by the ",glucocorticoid hormone, could be attributed to the squelching of ,CBP, by the glucocorticoid receptor.,Not_a_complex
+9858618,s6,T21,T13,"Finally, the inhibition of ",class II, gene expression by the glucocorticoid hormone could be attributed to the squelching of CBP by the ,glucocorticoid receptor,.,Not_a_complex
+9858618,s6,T22,T13,"Finally, the inhibition of class II gene expression by the ",glucocorticoid hormone, could be attributed to the squelching of CBP by the ,glucocorticoid receptor,.,Not_a_complex
+9858618,s6,T21,T22,"Finally, the inhibition of ",class II, gene expression by the ,glucocorticoid hormone, could be attributed to the squelching of CBP by the glucocorticoid receptor.,Not_a_complex
+9858618,s7,T14,T17,We conclude that ,CBP,", a histone acetyltransferase, plays an important role in the transcription of ",class II genes,.,Not_a_complex
+9858618,s7,T14,T23,We conclude that ,CBP,", a ",histone acetyltransferase,", plays an important role in the transcription of class II genes.",Not_a_complex
+9858618,s7,T23,T17,"We conclude that CBP, a ",histone acetyltransferase,", plays an important role in the transcription of ",class II genes,.,Not_a_complex

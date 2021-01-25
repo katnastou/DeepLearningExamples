@@ -1,0 +1,9 @@
+10706618,s0,T6,T1,The ,retinoblastoma,-interacting ,zinc-finger protein RIZ," is a downstream effector of estrogen action. 
+",Complex_formation
+10706618,s0,T1,T8,The retinoblastoma-interacting ,zinc-finger protein RIZ, is a downstream effector of ,estrogen," action. 
+",Not_a_complex
+10706618,s0,T6,T8,The ,retinoblastoma,-interacting zinc-finger protein RIZ is a downstream effector of ,estrogen," action. 
+",Not_a_complex
+10706618,s1,T2,T3,Co-immunoprecipitation experiments in cell extract from cultured cells or target tissues indicated that ,estrogen receptor, was complexed with the retinoblastoma binding protein ,RIZ, in a ligand-dependent manner.,Complex_formation
+10706618,s1,T7,T3,Co-immunoprecipitation experiments in cell extract from cultured cells or target tissues indicated that estrogen receptor was complexed with the ,retinoblastoma, binding protein ,RIZ, in a ligand-dependent manner.,Complex_formation
+10706618,s1,T2,T7,Co-immunoprecipitation experiments in cell extract from cultured cells or target tissues indicated that ,estrogen receptor, was complexed with the ,retinoblastoma, binding protein RIZ in a ligand-dependent manner.,Not_a_complex

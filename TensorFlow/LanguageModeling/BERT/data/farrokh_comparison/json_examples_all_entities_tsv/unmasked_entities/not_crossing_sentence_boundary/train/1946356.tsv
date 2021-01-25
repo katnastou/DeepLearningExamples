@@ -1,0 +1,14 @@
+1946356,s0,T1,T2,Negative regulation of human immunodeficiency virus type 1 expression in monocytes: role of the ,65-kDa, plus ,50-kDa," NF-kappa B dimer. 
+",Complex_formation
+1946356,s0,T1,T7,Negative regulation of human immunodeficiency virus type 1 expression in monocytes: role of the ,65-kDa, plus 50-kDa ,NF-kappa B," dimer. 
+",Not_a_complex
+1946356,s0,T2,T7,Negative regulation of human immunodeficiency virus type 1 expression in monocytes: role of the 65-kDa plus ,50-kDa, ,NF-kappa B," dimer. 
+",Not_a_complex
+1946356,s4,T3,T4,This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the ,65-kDa, plus ,50-kDa, NF-kappa B heterodimer was preferentially lost.,Complex_formation
+1946356,s4,T3,T8,This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the ,65-kDa, plus 50-kDa ,NF-kappa B, heterodimer was preferentially lost.,Not_a_complex
+1946356,s4,T9,T3,This absence of binding was localized to the ,NF-kappa B, region of the HIV-1 enhancer; the ,65-kDa, plus 50-kDa NF-kappa B heterodimer was preferentially lost.,Not_a_complex
+1946356,s4,T4,T8,This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the 65-kDa plus ,50-kDa, ,NF-kappa B, heterodimer was preferentially lost.,Not_a_complex
+1946356,s4,T9,T4,This absence of binding was localized to the ,NF-kappa B, region of the HIV-1 enhancer; the 65-kDa plus ,50-kDa, NF-kappa B heterodimer was preferentially lost.,Not_a_complex
+1946356,s4,T9,T8,This absence of binding was localized to the ,NF-kappa B, region of the HIV-1 enhancer; the 65-kDa plus 50-kDa ,NF-kappa B, heterodimer was preferentially lost.,Not_a_complex
+1946356,s8,T13,T15,Antiserum specific for ,NF-kappa B," binding proteins, but not ",c-rel,"-specific antiserum, disrupted heterodimer complex formation.",Not_a_complex
+1946356,s10,T5,T6,Binding of the ,65-kDa, plus ,50-kDa," heterodimer to the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism restricting HIV-1 gene expression.",Complex_formation

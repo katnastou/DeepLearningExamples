@@ -1,0 +1,11 @@
+12644454,s0,T5,T1,Structure and ,ubiquitin, interactions of the conserved zinc finger domain of ,Npl4,". 
+",Complex_formation
+12644454,s2,T2,T3,"Here, we report the solution structure and ubiquitin binding properties of one such motif, the ",Npl4, zinc finger or ,RanBP2,/Nup358 zinc finger (NZF) domain.,Not_a_complex
+12644454,s2,T2,T4,"Here, we report the solution structure and ubiquitin binding properties of one such motif, the ",Npl4, zinc finger or RanBP2/,Nup358, zinc finger (NZF) domain.,Not_a_complex
+12644454,s2,T7,T2,"Here, we report the solution structure and ",ubiquitin," binding properties of one such motif, the ",Npl4, zinc finger or RanBP2/Nup358 zinc finger (NZF) domain.,Not_a_complex
+12644454,s2,T3,T4,"Here, we report the solution structure and ubiquitin binding properties of one such motif, the Npl4 zinc finger or ",RanBP2,/,Nup358, zinc finger (NZF) domain.,Not_a_complex
+12644454,s2,T7,T3,"Here, we report the solution structure and ",ubiquitin," binding properties of one such motif, the Npl4 zinc finger or ",RanBP2,/Nup358 zinc finger (NZF) domain.,Not_a_complex
+12644454,s2,T7,T4,"Here, we report the solution structure and ",ubiquitin," binding properties of one such motif, the Npl4 zinc finger or RanBP2/",Nup358, zinc finger (NZF) domain.,Not_a_complex
+12644454,s5,T8,T9,,Npl4," NZF binds specifically, but weakly, to free ",ubiquitin," using a conserved 13TF14 dipeptide to interact with the ""Ile-44"" surface of ubiquitin.",Complex_formation
+12644454,s5,T8,T11,,Npl4," NZF binds specifically, but weakly, to free ubiquitin using a conserved 13TF14 dipeptide to interact with the ""Ile-44"" surface of ",ubiquitin,.,Not_a_complex
+12644454,s5,T9,T11,"Npl4 NZF binds specifically, but weakly, to free ",ubiquitin," using a conserved 13TF14 dipeptide to interact with the ""Ile-44"" surface of ",ubiquitin,.,Not_a_complex

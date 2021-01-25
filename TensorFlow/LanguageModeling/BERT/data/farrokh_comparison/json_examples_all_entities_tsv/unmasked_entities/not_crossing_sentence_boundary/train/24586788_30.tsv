@@ -1,0 +1,16 @@
+24586788_30,s6,T1,T2,"B) JAR cells were transfected to express vector, ",Asb4,", or ",Asb4," co-transfected with vector, wild-type Id2, or degradation-resistant Id2 (DR-Id2).",Not_a_complex
+24586788_30,s6,T1,T3,"B) JAR cells were transfected to express vector, ",Asb4,", or Asb4 co-transfected with vector, wild-type ",Id2,", or degradation-resistant Id2 (DR-Id2).",Not_a_complex
+24586788_30,s6,T1,T4,"B) JAR cells were transfected to express vector, ",Asb4,", or Asb4 co-transfected with vector, wild-type Id2, or degradation-resistant ",Id2, (DR-Id2).,Not_a_complex
+24586788_30,s6,T1,T5,"B) JAR cells were transfected to express vector, ",Asb4,", or Asb4 co-transfected with vector, wild-type Id2, or degradation-resistant Id2 (DR-",Id2,).,Not_a_complex
+24586788_30,s6,T2,T3,"B) JAR cells were transfected to express vector, Asb4, or ",Asb4," co-transfected with vector, wild-type ",Id2,", or degradation-resistant Id2 (DR-Id2).",Not_a_complex
+24586788_30,s6,T2,T4,"B) JAR cells were transfected to express vector, Asb4, or ",Asb4," co-transfected with vector, wild-type Id2, or degradation-resistant ",Id2, (DR-Id2).,Not_a_complex
+24586788_30,s6,T2,T5,"B) JAR cells were transfected to express vector, Asb4, or ",Asb4," co-transfected with vector, wild-type Id2, or degradation-resistant Id2 (DR-",Id2,).,Not_a_complex
+24586788_30,s6,T3,T4,"B) JAR cells were transfected to express vector, Asb4, or Asb4 co-transfected with vector, wild-type ",Id2,", or degradation-resistant ",Id2, (DR-Id2).,Not_a_complex
+24586788_30,s6,T3,T5,"B) JAR cells were transfected to express vector, Asb4, or Asb4 co-transfected with vector, wild-type ",Id2,", or degradation-resistant Id2 (DR-",Id2,).,Not_a_complex
+24586788_30,s6,T4,T5,"B) JAR cells were transfected to express vector, Asb4, or Asb4 co-transfected with vector, wild-type Id2, or degradation-resistant ",Id2, (DR-,Id2,).,Not_a_complex
+24586788_30,s7,T6,T12,,ASB4," induced hCG secretion, and co-expression of wild-type ",ID2, with ASB4 did not change hCG secretion compared to ASB4 expression alone.,Not_a_complex
+24586788_30,s7,T6,T7,,ASB4," induced hCG secretion, and co-expression of wild-type ID2 with ",ASB4, did not change hCG secretion compared to ASB4 expression alone.,Not_a_complex
+24586788_30,s7,T6,T8,,ASB4," induced hCG secretion, and co-expression of wild-type ID2 with ASB4 did not change hCG secretion compared to ",ASB4, expression alone.,Not_a_complex
+24586788_30,s7,T12,T7,"ASB4 induced hCG secretion, and co-expression of wild-type ",ID2, with ,ASB4, did not change hCG secretion compared to ASB4 expression alone.,Not_a_complex
+24586788_30,s7,T7,T8,"ASB4 induced hCG secretion, and co-expression of wild-type ID2 with ",ASB4, did not change hCG secretion compared to ,ASB4, expression alone.,Not_a_complex
+24586788_30,s7,T12,T8,"ASB4 induced hCG secretion, and co-expression of wild-type ",ID2, with ASB4 did not change hCG secretion compared to ,ASB4, expression alone.,Not_a_complex

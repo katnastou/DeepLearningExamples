@@ -1,0 +1,44 @@
+22371489,s0,T15,T1,Identification of ,ubiquitin-specific protease 9X, (,USP9X,") as a deubiquitinase acting on ubiquitin-peroxin 5 (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T1,T2,Identification of ubiquitin-specific protease 9X (,USP9X,) as a deubiquitinase acting on ubiquitin-,peroxin 5," (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T1,T23,Identification of ubiquitin-specific protease 9X (,USP9X,) as a deubiquitinase acting on ,ubiquitin,"-peroxin 5 (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T1,T3,Identification of ubiquitin-specific protease 9X (,USP9X,) as a deubiquitinase acting on ubiquitin-peroxin 5 (,PEX5,") thioester conjugate. 
+",Not_a_complex
+22371489,s0,T15,T23,Identification of ,ubiquitin-specific protease 9X, (USP9X) as a deubiquitinase acting on ,ubiquitin,"-peroxin 5 (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T15,T2,Identification of ,ubiquitin-specific protease 9X, (USP9X) as a deubiquitinase acting on ubiquitin-,peroxin 5," (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T23,T2,Identification of ubiquitin-specific protease 9X (USP9X) as a deubiquitinase acting on ,ubiquitin,-,peroxin 5," (PEX5) thioester conjugate. 
+",Not_a_complex
+22371489,s0,T2,T3,Identification of ubiquitin-specific protease 9X (USP9X) as a deubiquitinase acting on ubiquitin-,peroxin 5, (,PEX5,") thioester conjugate. 
+",Not_a_complex
+22371489,s0,T15,T3,Identification of ,ubiquitin-specific protease 9X, (USP9X) as a deubiquitinase acting on ubiquitin-peroxin 5 (,PEX5,") thioester conjugate. 
+",Not_a_complex
+22371489,s0,T23,T3,Identification of ubiquitin-specific protease 9X (USP9X) as a deubiquitinase acting on ,ubiquitin,-peroxin 5 (,PEX5,") thioester conjugate. 
+",Not_a_complex
+22371489,s1,T4,T5,,Peroxin 5, (,PEX5,"), the peroxisomal protein shuttling receptor, binds newly synthesized peroxisomal matrix proteins in the cytosol and promotes their translocation across the organelle membrane.",Not_a_complex
+22371489,s3,T7,T26,,PEX5, is then monoubiquitinated at a conserved cysteine residue and extracted back into the cytosol in an ,ATP,-dependent manner.,Not_a_complex
+22371489,s4,T17,T10,We have previously shown that the ,ubiquitin,"-PEX5 thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-",PEX5, is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T20,T10,We have previously shown that the ubiquitin-PEX5 thioester conjugate (,Ub,"-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-",PEX5, is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T21,T10,"We have previously shown that the ubiquitin-PEX5 thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of ",Ub,-,PEX5, is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T17,T20,We have previously shown that the ,ubiquitin,-PEX5 thioester conjugate (,Ub,"-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T17,T21,We have previously shown that the ,ubiquitin,"-PEX5 thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of ",Ub,-PEX5 is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T20,T21,We have previously shown that the ubiquitin-PEX5 thioester conjugate (,Ub,"-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of ",Ub,-PEX5 is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T8,T10,We have previously shown that the ubiquitin-,PEX5," thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-",PEX5, is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T17,T8,We have previously shown that the ,ubiquitin,-,PEX5," thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T8,T20,We have previously shown that the ubiquitin-,PEX5, thioester conjugate (,Ub,"-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T8,T21,We have previously shown that the ubiquitin-,PEX5," thioester conjugate (Ub-PEX5) released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of ",Ub,-PEX5 is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T8,T9,We have previously shown that the ubiquitin-,PEX5, thioester conjugate (Ub-,PEX5,") released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T9,T10,We have previously shown that the ubiquitin-PEX5 thioester conjugate (Ub-,PEX5,") released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-",PEX5, is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s4,T17,T9,We have previously shown that the ,ubiquitin,-PEX5 thioester conjugate (Ub-,PEX5,") released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T20,T9,We have previously shown that the ubiquitin-PEX5 thioester conjugate (,Ub,-,PEX5,") released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of Ub-PEX5 is nonenzymatically deubiquitinated in vivo.",Not_a_complex
+22371489,s4,T9,T21,We have previously shown that the ubiquitin-PEX5 thioester conjugate (Ub-,PEX5,") released into the cytosol can be efficiently disrupted by physiological concentrations of glutathione, raising the possibility that a fraction of ",Ub,-PEX5 is nonenzymatically deubiquitinated in vivo.,Not_a_complex
+22371489,s5,T22,T11,"However, data suggesting that ",Ub,-,PEX5, is also a target of a deubiquitinase were also obtained in that work.,Not_a_complex
+22371489,s7,T12,T13,Our results suggest that ubiquitin-specific protease 9X (,USP9X,) is by far the most active deubiquitinase acting on Ub-,PEX5,", both in female rat liver and HeLa cells.",Not_a_complex
+22371489,s7,T16,T12,Our results suggest that ,ubiquitin-specific protease 9X, (,USP9X,") is by far the most active deubiquitinase acting on Ub-PEX5, both in female rat liver and HeLa cells.",Not_a_complex
+22371489,s7,T12,T19,Our results suggest that ubiquitin-specific protease 9X (,USP9X,) is by far the most active deubiquitinase acting on ,Ub,"-PEX5, both in female rat liver and HeLa cells.",Not_a_complex
+22371489,s7,T16,T13,Our results suggest that ,ubiquitin-specific protease 9X, (USP9X) is by far the most active deubiquitinase acting on Ub-,PEX5,", both in female rat liver and HeLa cells.",Not_a_complex
+22371489,s7,T19,T13,Our results suggest that ubiquitin-specific protease 9X (USP9X) is by far the most active deubiquitinase acting on ,Ub,-,PEX5,", both in female rat liver and HeLa cells.",Not_a_complex
+22371489,s7,T16,T19,Our results suggest that ,ubiquitin-specific protease 9X, (USP9X) is by far the most active deubiquitinase acting on ,Ub,"-PEX5, both in female rat liver and HeLa cells.",Not_a_complex

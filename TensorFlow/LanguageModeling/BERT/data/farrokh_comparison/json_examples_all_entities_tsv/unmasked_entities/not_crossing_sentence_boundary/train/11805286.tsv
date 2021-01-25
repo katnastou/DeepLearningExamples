@@ -1,0 +1,13 @@
+11805286,s0,T1,T2,Subnuclear distribution of ,topoisomerase I, is linked to ongoing transcription and ,p53," status. 
+",Not_a_complex
+11805286,s1,T3,T9,"The nonconserved, hydrophilic N-terminal domain of eukaryotic ",DNA topoisomerase I, (,topo I,) is dispensable for catalytic activity in vitro but essential in vivo.,Not_a_complex
+11805286,s2,T4,T10,There are at least five putative nuclear localization signals and a ,nucleolin,-binding signal within the first 215 residues of the ,topo I, N-terminal domain.,Complex_formation
+11805286,s3,T11,T12,We have investigated physiological functions of the ,topo I, N-terminal domain by fusing it to an ,enhanced green fluorescent protein, (EGFP).,Not_a_complex
+11805286,s3,T11,T13,We have investigated physiological functions of the ,topo I, N-terminal domain by fusing it to an enhanced green fluorescent protein (,EGFP,).,Not_a_complex
+11805286,s3,T12,T13,We have investigated physiological functions of the topo I N-terminal domain by fusing it to an ,enhanced green fluorescent protein, (,EGFP,).,Not_a_complex
+11805286,s6,T16,T15,Immunoprecipitation experiments reveal that the ,topo I, N terminus (topoIN)-,EGFP, fusion protein associates with the TATA-binding protein in cells.,Not_a_complex
+11805286,s7,T17,T14,"Furthermore, DNA damage results in extensive nuclear redistribution of the ",topoIN,-,EGFP, chimeric product.,Not_a_complex
+11805286,s8,T18,T7,The redistribution is also p53-dependent and the N terminus of ,topo I, appears to interact with ,p53, in vivo.,Complex_formation
+11805286,s8,T6,T18,The redistribution is also ,p53,-dependent and the N terminus of ,topo I, appears to interact with p53 in vivo.,Not_a_complex
+11805286,s8,T6,T7,The redistribution is also ,p53,-dependent and the N terminus of topo I appears to interact with ,p53, in vivo.,Not_a_complex
+11805286,s9,T19,T8,These results show that the ,topo I, localization to the nucleolus is related to the ,p53," and DNA damage, as well as changes in transcriptional status.",Not_a_complex

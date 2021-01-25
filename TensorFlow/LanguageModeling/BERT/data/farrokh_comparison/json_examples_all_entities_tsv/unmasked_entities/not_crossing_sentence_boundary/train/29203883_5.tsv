@@ -1,0 +1,9 @@
+29203883_5,s0,T1,T10,,ABIN-1, is a ubiquitin binding protein that can bind to both K63 and M1 ,ubiquitin, chains but not to K48 chains .,Complex_formation
+29203883_5,s0,T1,T9,,ABIN-1, is a ,ubiquitin, binding protein that can bind to both K63 and M1 ubiquitin chains but not to K48 chains .,Complex_formation
+29203883_5,s0,T9,T10,ABIN-1 is a ,ubiquitin, binding protein that can bind to both K63 and M1 ,ubiquitin, chains but not to K48 chains .,Not_a_complex
+29203883_5,s1,T2,T3,Specific risk haploid types in the gene ,Abin-1, (,TNFAIP3-interacting protein 1,", or Tnip1) are strongly associated with a predisposition for autoimmune inflammatory diseases such as systemic lupus erythematosus (SLE) and psoriasis .",Not_a_complex
+29203883_5,s1,T2,T4,Specific risk haploid types in the gene ,Abin-1," (TNFAIP3-interacting protein 1, or ",Tnip1,) are strongly associated with a predisposition for autoimmune inflammatory diseases such as systemic lupus erythematosus (SLE) and psoriasis .,Not_a_complex
+29203883_5,s1,T3,T4,Specific risk haploid types in the gene Abin-1 (,TNFAIP3-interacting protein 1,", or ",Tnip1,) are strongly associated with a predisposition for autoimmune inflammatory diseases such as systemic lupus erythematosus (SLE) and psoriasis .,Not_a_complex
+29203883_5,s2,T5,T6,These risk haplotypes produce lower levels of ,Abin-1, mRNA and ,ABIN-1," protein, suggesting that the susceptibility to autoimmunity is due to their hypomorphic function.",Not_a_complex
+29203883_5,s3,T7,T8,,Abin-1,"-/- mice die during late embryogenesis due to fetal liver cell death, anaemia and hypoplasia, which can be blocked by ",TNFalpha," deficiency .
+",Not_a_complex

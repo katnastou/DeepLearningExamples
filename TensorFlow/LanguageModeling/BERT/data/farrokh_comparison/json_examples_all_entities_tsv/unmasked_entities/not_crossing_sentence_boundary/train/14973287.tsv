@@ -1,0 +1,37 @@
+14973287,s0,T11,T1,,HtrA1, serine protease inhibits signaling mediated by ,Tgfbeta," family proteins. 
+",Not_a_complex
+14973287,s1,T12,T2,,HtrA1,", a member of the mammalian ",HtrA," serine protease family, has a highly conserved protease domain followed by a PDZ domain.",Not_a_complex
+14973287,s2,T13,T14,"Because HtrA1 is a secretory protein and has another functional domain with homology to follistatin, we examined whether ",HtrA1, functions as an antagonist of ,Tgfbeta, family proteins.,Not_a_complex
+14973287,s2,T3,T13,Because ,HtrA1," is a secretory protein and has another functional domain with homology to follistatin, we examined whether ",HtrA1, functions as an antagonist of Tgfbeta family proteins.,Not_a_complex
+14973287,s2,T3,T14,Because ,HtrA1," is a secretory protein and has another functional domain with homology to follistatin, we examined whether HtrA1 functions as an antagonist of ",Tgfbeta, family proteins.,Not_a_complex
+14973287,s2,T3,T4,Because ,HtrA1, is a secretory protein and has another functional domain with homology to ,follistatin,", we examined whether HtrA1 functions as an antagonist of Tgfbeta family proteins.",Not_a_complex
+14973287,s2,T4,T13,Because HtrA1 is a secretory protein and has another functional domain with homology to ,follistatin,", we examined whether ",HtrA1, functions as an antagonist of Tgfbeta family proteins.,Not_a_complex
+14973287,s2,T4,T14,Because HtrA1 is a secretory protein and has another functional domain with homology to ,follistatin,", we examined whether HtrA1 functions as an antagonist of ",Tgfbeta, family proteins.,Not_a_complex
+14973287,s3,T15,T16,"During embryo development, mouse ",HtrA1, was expressed in specific areas where signaling by ,Tgfbeta, family proteins plays important regulatory roles.,Not_a_complex
+14973287,s4,T17,T19,The GST-pulldown assay showed that ,HtrA1," binds to a broad range of Tgfbeta family proteins, including Bmp4, Gdf5, ",Tgfbetas, and activin.,Complex_formation
+14973287,s4,T17,T20,The GST-pulldown assay showed that ,HtrA1," binds to a broad range of Tgfbeta family proteins, including Bmp4, Gdf5, Tgfbetas and ",activin,.,Complex_formation
+14973287,s4,T17,T5,The GST-pulldown assay showed that ,HtrA1," binds to a broad range of Tgfbeta family proteins, including ",Bmp4,", Gdf5, Tgfbetas and activin.",Complex_formation
+14973287,s4,T17,T6,The GST-pulldown assay showed that ,HtrA1," binds to a broad range of Tgfbeta family proteins, including Bmp4, ",Gdf5,", Tgfbetas and activin.",Complex_formation
+14973287,s4,T17,T18,The GST-pulldown assay showed that ,HtrA1, binds to a broad range of ,Tgfbeta," family proteins, including Bmp4, Gdf5, Tgfbetas and activin.",Not_a_complex
+14973287,s4,T18,T19,The GST-pulldown assay showed that HtrA1 binds to a broad range of ,Tgfbeta," family proteins, including Bmp4, Gdf5, ",Tgfbetas, and activin.,Not_a_complex
+14973287,s4,T18,T20,The GST-pulldown assay showed that HtrA1 binds to a broad range of ,Tgfbeta," family proteins, including Bmp4, Gdf5, Tgfbetas and ",activin,.,Not_a_complex
+14973287,s4,T19,T20,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including Bmp4, Gdf5, ",Tgfbetas, and ,activin,.,Not_a_complex
+14973287,s4,T18,T5,The GST-pulldown assay showed that HtrA1 binds to a broad range of ,Tgfbeta," family proteins, including ",Bmp4,", Gdf5, Tgfbetas and activin.",Not_a_complex
+14973287,s4,T5,T19,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including ",Bmp4,", Gdf5, ",Tgfbetas, and activin.,Not_a_complex
+14973287,s4,T5,T20,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including ",Bmp4,", Gdf5, Tgfbetas and ",activin,.,Not_a_complex
+14973287,s4,T5,T6,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including ",Bmp4,", ",Gdf5,", Tgfbetas and activin.",Not_a_complex
+14973287,s4,T18,T6,The GST-pulldown assay showed that HtrA1 binds to a broad range of ,Tgfbeta," family proteins, including Bmp4, ",Gdf5,", Tgfbetas and activin.",Not_a_complex
+14973287,s4,T6,T19,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including Bmp4, ",Gdf5,", ",Tgfbetas, and activin.,Not_a_complex
+14973287,s4,T6,T20,"The GST-pulldown assay showed that HtrA1 binds to a broad range of Tgfbeta family proteins, including Bmp4, ",Gdf5,", Tgfbetas and ",activin,.,Not_a_complex
+14973287,s5,T21,T7,,HtrA1, inhibited signaling by ,Bmp4,", Bmp2, and Tgfbeta1 in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s5,T7,T8,HtrA1 inhibited signaling by ,Bmp4,", ",Bmp2,", and Tgfbeta1 in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s5,T7,T9,HtrA1 inhibited signaling by ,Bmp4,", Bmp2, and ",Tgfbeta1," in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s5,T21,T8,,HtrA1," inhibited signaling by Bmp4, ",Bmp2,", and Tgfbeta1 in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s5,T8,T9,"HtrA1 inhibited signaling by Bmp4, ",Bmp2,", and ",Tgfbeta1," in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s5,T21,T9,,HtrA1," inhibited signaling by Bmp4, Bmp2, and ",Tgfbeta1," in C2C12 cells, presumably by preventing receptor activation.",Not_a_complex
+14973287,s6,T22,T23,Experiments using a series of deletion mutants indicated that the binding activity of ,HtrA1," required the protease domain and a small linker region preceding it, and that inhibition of ",Tgfbeta, signaling is dependent on the proteolytic activity of HtrA1.,Not_a_complex
+14973287,s6,T22,T24,Experiments using a series of deletion mutants indicated that the binding activity of ,HtrA1," required the protease domain and a small linker region preceding it, and that inhibition of Tgfbeta signaling is dependent on the proteolytic activity of ",HtrA1,.,Not_a_complex
+14973287,s6,T23,T24,"Experiments using a series of deletion mutants indicated that the binding activity of HtrA1 required the protease domain and a small linker region preceding it, and that inhibition of ",Tgfbeta, signaling is dependent on the proteolytic activity of ,HtrA1,.,Not_a_complex
+14973287,s7,T25,T10,Misexpression of ,HtrA1, near the developing chick eye led to suppression of eye development that was indistinguishable from the effects of ,noggin,.,Not_a_complex
+14973287,s8,T26,T27,"Taken together, these data indicate that ",HtrA1, protease is a novel inhibitor of ,Tgfbeta," family members. 
+",Not_a_complex

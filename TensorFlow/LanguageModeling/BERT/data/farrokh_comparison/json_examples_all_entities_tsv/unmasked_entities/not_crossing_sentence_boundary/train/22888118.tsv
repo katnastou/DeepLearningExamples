@@ -1,0 +1,15 @@
+22888118,s1,T14,T1,Through their ,ubiquitin ligase," activity, ",Cbl,"-family proteins suppress signalling mediated by protein-tyrosine kinases (PTKs), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s1,T1,T6,"Through their ubiquitin ligase activity, ",Cbl,-family proteins suppress signalling mediated by ,protein-tyrosine kinases," (PTKs), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s1,T1,T7,"Through their ubiquitin ligase activity, ",Cbl,-family proteins suppress signalling mediated by protein-tyrosine kinases (,PTKs,"), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s1,T14,T6,Through their ,ubiquitin ligase," activity, Cbl-family proteins suppress signalling mediated by ",protein-tyrosine kinases," (PTKs), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s1,T6,T7,"Through their ubiquitin ligase activity, Cbl-family proteins suppress signalling mediated by ",protein-tyrosine kinases, (,PTKs,"), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s1,T14,T7,Through their ,ubiquitin ligase," activity, Cbl-family proteins suppress signalling mediated by protein-tyrosine kinases (",PTKs,"), but can also function as adaptor proteins to positively regulate signalling.",Not_a_complex
+22888118,s3,T10,T2,"Here, we analysed the crystal structure of the TKB domain of Cbl-c/Cbl-3 (",Cbl-c," TKB), which is a distinct member of the mammalian ",Cbl,-family.,Not_a_complex
+22888118,s3,T8,T2,"Here, we analysed the crystal structure of the TKB domain of ",Cbl-c,"/Cbl-3 (Cbl-c TKB), which is a distinct member of the mammalian ",Cbl,-family.,Not_a_complex
+22888118,s3,T9,T2,"Here, we analysed the crystal structure of the TKB domain of Cbl-c/",Cbl-3," (Cbl-c TKB), which is a distinct member of the mammalian ",Cbl,-family.,Not_a_complex
+22888118,s3,T8,T10,"Here, we analysed the crystal structure of the TKB domain of ",Cbl-c,/Cbl-3 (,Cbl-c," TKB), which is a distinct member of the mammalian Cbl-family.",Not_a_complex
+22888118,s3,T8,T9,"Here, we analysed the crystal structure of the TKB domain of ",Cbl-c,/,Cbl-3," (Cbl-c TKB), which is a distinct member of the mammalian Cbl-family.",Not_a_complex
+22888118,s3,T9,T10,"Here, we analysed the crystal structure of the TKB domain of Cbl-c/",Cbl-3, (,Cbl-c," TKB), which is a distinct member of the mammalian Cbl-family.",Not_a_complex
+22888118,s4,T3,T11,In comparison with ,Cbl," TKB, ",Cbl-c, TKB showed restricted structural flexibility upon phosphopeptide binding.,Not_a_complex
+22888118,s6,T4,T13,"These results suggest that proteins, post-translational modifications or mutations that alter structural flexibility of the TKB domain of ",Cbl,"-family proteins could regulate their binding to target phosphoproteins and thereby, affect ",PTK,"-mediated signalling. 
+",Not_a_complex

@@ -1,0 +1,15 @@
+9164841,s1,T2,T3,To gain a better understanding of the mechanism of binding to the human ,mineralocorticoid receptor, (,hMR,"), we developed a new monoclonal antibody (mAb) raised against the hormone-binding domain (HBD).",Not_a_complex
+9164841,s4,T5,T6,This antibody recognized both the denatured and native ,MR," forms, as well as the hetero-oligomeric ",MR, form and the transformed MR state.,Not_a_complex
+9164841,s4,T5,T7,This antibody recognized both the denatured and native ,MR," forms, as well as the hetero-oligomeric MR form and the transformed ",MR, state.,Not_a_complex
+9164841,s4,T6,T7,"This antibody recognized both the denatured and native MR forms, as well as the hetero-oligomeric ",MR, form and the transformed ,MR, state.,Not_a_complex
+9164841,s6,T15,T8,We then studied the effect of the antibody on ,aldosterone, and progesterone binding to the ,hMR,.,Complex_formation
+9164841,s6,T16,T8,We then studied the effect of the antibody on aldosterone and ,progesterone, binding to the ,hMR,.,Complex_formation
+9164841,s6,T15,T16,We then studied the effect of the antibody on ,aldosterone, and ,progesterone, binding to the hMR.,Not_a_complex
+9164841,s10,T17,T11,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the ,steroid,-,MR, complex and the antibody-MR complex.,Complex_formation
+9164841,s10,T18,T12,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the steroid-MR complex and the ,antibody,-,MR, complex.,Complex_formation
+9164841,s10,T11,T12,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the steroid-,MR, complex and the antibody-,MR, complex.,Not_a_complex
+9164841,s10,T11,T18,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the steroid-,MR, complex and the ,antibody,-MR complex.,Not_a_complex
+9164841,s10,T17,T12,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the ,steroid,-MR complex and the antibody-,MR, complex.,Not_a_complex
+9164841,s10,T17,T18,A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the ,steroid,-MR complex and the ,antibody,-MR complex.,Not_a_complex
+9164841,s11,T13,T14,"After its associated proteins, especially the heat-shock protein ",hsp90,", had been cross-linked with the ",hMR," by dimethylpimelimidate, 18C7 was still able to react with the receptor.",Not_a_complex
+9164841,s16,T20,T21,Because of the similar behaviours of ,aldosterone, and ,progesterone,", we conclude that the N-terminal Thr729-Leu765 region of the HBD is similarly involved in the binding of both hormones.",Not_a_complex

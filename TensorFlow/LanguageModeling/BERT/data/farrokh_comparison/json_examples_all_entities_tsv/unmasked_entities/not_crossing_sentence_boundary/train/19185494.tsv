@@ -1,0 +1,45 @@
+19185494,s2,T1,T2,Although previous studies have demonstrated cortical and plus-end targeting of ,dynein heavy chain, (,Dyn1,"/HC), the regulation of its recruitment to these sites remains elusive.",Not_a_complex
+19185494,s3,T3,T27,RESULTS: Here we show that separate domains of ,Dyn1,/HC confer differential localization to the ,dynein, complex.,Not_a_complex
+19185494,s4,T4,T5,The N-terminal tail domain targets ,Dyn1,/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/LIS1-dependent manner.",Complex_formation
+19185494,s4,T6,T10,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/,LIS1,-dependent manner.,Complex_formation
+19185494,s4,T6,T7,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a ,Bik1,/CLIP-170- and Pac1/LIS1-dependent manner.,Complex_formation
+19185494,s4,T6,T8,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a Bik1/,CLIP-170,- and Pac1/LIS1-dependent manner.,Complex_formation
+19185494,s4,T6,T9,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a Bik1/CLIP-170- and ,Pac1,/LIS1-dependent manner.,Complex_formation
+19185494,s4,T4,T10,The N-terminal tail domain targets ,Dyn1,"/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/",LIS1,-dependent manner.,Not_a_complex
+19185494,s4,T4,T6,The N-terminal tail domain targets ,Dyn1,"/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T4,T7,The N-terminal tail domain targets ,Dyn1,"/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a ",Bik1,/CLIP-170- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T4,T8,The N-terminal tail domain targets ,Dyn1,"/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/",CLIP-170,- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T4,T9,The N-terminal tail domain targets ,Dyn1,"/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and ",Pac1,/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T5,T10,The N-terminal tail domain targets Dyn1/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/",LIS1,-dependent manner.,Not_a_complex
+19185494,s4,T5,T6,The N-terminal tail domain targets Dyn1/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets ",Dyn1,/HC to microtubule plus ends in a Bik1/CLIP-170- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T5,T7,The N-terminal tail domain targets Dyn1/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a ",Bik1,/CLIP-170- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T5,T8,The N-terminal tail domain targets Dyn1/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/",CLIP-170,- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T5,T9,The N-terminal tail domain targets Dyn1/HC to cortical ,Num1," receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and ",Pac1,/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T7,T10,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a ",Bik1,/CLIP-170- and Pac1/,LIS1,-dependent manner.,Not_a_complex
+19185494,s4,T7,T8,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a ",Bik1,/,CLIP-170,- and Pac1/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T7,T9,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a ",Bik1,/CLIP-170- and ,Pac1,/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T8,T10,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/",CLIP-170,- and Pac1/,LIS1,-dependent manner.,Not_a_complex
+19185494,s4,T8,T9,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/",CLIP-170,- and ,Pac1,/LIS1-dependent manner.,Not_a_complex
+19185494,s4,T9,T10,"The N-terminal tail domain targets Dyn1/HC to cortical Num1 receptor sites, whereas the C-terminal motor domain targets Dyn1/HC to microtubule plus ends in a Bik1/CLIP-170- and ",Pac1,/,LIS1,-dependent manner.,Not_a_complex
+19185494,s6,T12,T13,Overexpression of ,Pac1,/,LIS1,", but not Bik1/CLIP-170, rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T12,T14,Overexpression of ,Pac1,"/LIS1, but not ",Bik1,"/CLIP-170, rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T12,T15,Overexpression of ,Pac1,"/LIS1, but not Bik1/",CLIP-170,", rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T12,T16,Overexpression of ,Pac1,"/LIS1, but not Bik1/CLIP-170, rescues the dominant negativity by restoring ",Dyn1,/HC to plus ends.,Not_a_complex
+19185494,s6,T13,T14,Overexpression of Pac1/,LIS1,", but not ",Bik1,"/CLIP-170, rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T13,T15,Overexpression of Pac1/,LIS1,", but not Bik1/",CLIP-170,", rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T13,T16,Overexpression of Pac1/,LIS1,", but not Bik1/CLIP-170, rescues the dominant negativity by restoring ",Dyn1,/HC to plus ends.,Not_a_complex
+19185494,s6,T14,T15,"Overexpression of Pac1/LIS1, but not ",Bik1,/,CLIP-170,", rescues the dominant negativity by restoring Dyn1/HC to plus ends.",Not_a_complex
+19185494,s6,T14,T16,"Overexpression of Pac1/LIS1, but not ",Bik1,"/CLIP-170, rescues the dominant negativity by restoring ",Dyn1,/HC to plus ends.,Not_a_complex
+19185494,s6,T15,T16,"Overexpression of Pac1/LIS1, but not Bik1/",CLIP-170,", rescues the dominant negativity by restoring ",Dyn1,/HC to plus ends.,Not_a_complex
+19185494,s8,T18,T19,"However, cortical targeting of the tail construct is more robust than full-length ",Dyn1,/HC and occurs independently of ,Bik1,/CLIP-170 or Pac1/LIS1.,Not_a_complex
+19185494,s8,T18,T20,"However, cortical targeting of the tail construct is more robust than full-length ",Dyn1,/HC and occurs independently of Bik1/,CLIP-170, or Pac1/LIS1.,Not_a_complex
+19185494,s8,T18,T21,"However, cortical targeting of the tail construct is more robust than full-length ",Dyn1,/HC and occurs independently of Bik1/CLIP-170 or ,Pac1,/LIS1.,Not_a_complex
+19185494,s8,T18,T22,"However, cortical targeting of the tail construct is more robust than full-length ",Dyn1,/HC and occurs independently of Bik1/CLIP-170 or Pac1/,LIS1,.,Not_a_complex
+19185494,s8,T19,T20,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of ",Bik1,/,CLIP-170, or Pac1/LIS1.,Not_a_complex
+19185494,s8,T19,T21,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of ",Bik1,/CLIP-170 or ,Pac1,/LIS1.,Not_a_complex
+19185494,s8,T19,T22,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of ",Bik1,/CLIP-170 or Pac1/,LIS1,.,Not_a_complex
+19185494,s8,T20,T21,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of Bik1/",CLIP-170, or ,Pac1,/LIS1.,Not_a_complex
+19185494,s8,T20,T22,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of Bik1/",CLIP-170, or Pac1/,LIS1,.,Not_a_complex
+19185494,s8,T21,T22,"However, cortical targeting of the tail construct is more robust than full-length Dyn1/HC and occurs independently of Bik1/CLIP-170 or ",Pac1,/,LIS1,.,Not_a_complex
+19185494,s10,T36,T23,We propose that targeting of ,dynein," to plus ends unmasks the tail, priming the motor for off-loading to cortical ",Num1," sites. 
+",Not_a_complex

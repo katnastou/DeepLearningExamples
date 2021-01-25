@@ -1,0 +1,41 @@
+14697212,s0,T1,T2,,FBP11, regulates nuclear localization of ,N-WASP," and inhibits N-WASP-dependent microspike formation. 
+",Not_a_complex
+14697212,s0,T1,T3,,FBP11, regulates nuclear localization of N-WASP and inhibits ,N-WASP,"-dependent microspike formation. 
+",Not_a_complex
+14697212,s0,T2,T3,FBP11 regulates nuclear localization of ,N-WASP, and inhibits ,N-WASP,"-dependent microspike formation. 
+",Not_a_complex
+14697212,s1,T4,T23,,WASP, family proteins are involved in cortical ,actin, cytoskeleton reorganization.,Not_a_complex
+14697212,s2,T24,T25,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating ",Arp2,/,3, complex.,Complex_formation
+14697212,s2,T5,T8,,Neural Wiskott-Aldrich syndrome protein," (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with ",Cdc42,", activating Arp2/3 complex.",Complex_formation
+14697212,s2,T6,T8,Neural Wiskott-Aldrich syndrome protein (,N-WASP,"), a ubiquitously expressed WASP homologous protein, directly binds with ",Cdc42,", activating Arp2/3 complex.",Complex_formation
+14697212,s2,T5,T24,,Neural Wiskott-Aldrich syndrome protein," (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating ",Arp2,/3 complex.,Not_a_complex
+14697212,s2,T5,T25,,Neural Wiskott-Aldrich syndrome protein," (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating Arp2/",3, complex.,Not_a_complex
+14697212,s2,T5,T6,,Neural Wiskott-Aldrich syndrome protein, (,N-WASP,"), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating Arp2/3 complex.",Not_a_complex
+14697212,s2,T5,T7,,Neural Wiskott-Aldrich syndrome protein," (N-WASP), a ubiquitously expressed ",WASP," homologous protein, directly binds with Cdc42, activating Arp2/3 complex.",Not_a_complex
+14697212,s2,T6,T24,Neural Wiskott-Aldrich syndrome protein (,N-WASP,"), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating ",Arp2,/3 complex.,Not_a_complex
+14697212,s2,T6,T25,Neural Wiskott-Aldrich syndrome protein (,N-WASP,"), a ubiquitously expressed WASP homologous protein, directly binds with Cdc42, activating Arp2/",3, complex.,Not_a_complex
+14697212,s2,T6,T7,Neural Wiskott-Aldrich syndrome protein (,N-WASP,"), a ubiquitously expressed ",WASP," homologous protein, directly binds with Cdc42, activating Arp2/3 complex.",Not_a_complex
+14697212,s2,T7,T24,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed ",WASP," homologous protein, directly binds with Cdc42, activating ",Arp2,/3 complex.,Not_a_complex
+14697212,s2,T7,T25,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed ",WASP," homologous protein, directly binds with Cdc42, activating Arp2/",3, complex.,Not_a_complex
+14697212,s2,T7,T8,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed ",WASP," homologous protein, directly binds with ",Cdc42,", activating Arp2/3 complex.",Not_a_complex
+14697212,s2,T8,T24,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with ",Cdc42,", activating ",Arp2,/3 complex.,Not_a_complex
+14697212,s2,T8,T25,"Neural Wiskott-Aldrich syndrome protein (N-WASP), a ubiquitously expressed WASP homologous protein, directly binds with ",Cdc42,", activating Arp2/",3, complex.,Not_a_complex
+14697212,s3,T10,T11,"In this study, we show that N-WASP-dependent microspike formation is inhibited by ",formin binding protein 11, (,FBP11,).,Not_a_complex
+14697212,s3,T9,T10,"In this study, we show that ",N-WASP,-dependent microspike formation is inhibited by ,formin binding protein 11, (FBP11).,Not_a_complex
+14697212,s3,T9,T11,"In this study, we show that ",N-WASP,-dependent microspike formation is inhibited by formin binding protein 11 (,FBP11,).,Not_a_complex
+14697212,s4,T12,T13,Endogenous ,FBP11," localizes with nuclear-speckles, and co-localization of ",N-WASP, and FBP11 was observed when they were co-expressed.,Not_a_complex
+14697212,s4,T12,T14,Endogenous ,FBP11," localizes with nuclear-speckles, and co-localization of N-WASP and ",FBP11, was observed when they were co-expressed.,Not_a_complex
+14697212,s4,T13,T14,"Endogenous FBP11 localizes with nuclear-speckles, and co-localization of ",N-WASP, and ,FBP11, was observed when they were co-expressed.,Not_a_complex
+14697212,s5,T15,T16,,Epidermal growth factor, (,EGF,) induced actin-microspike formation in COS7 cells.,Not_a_complex
+14697212,s6,T17,T18,"However, transient expression of ",FBP11, suppressed ,N-WASP,-dependent actin-microspike formation by trapping N-WASP in the nucleus.,Not_a_complex
+14697212,s6,T17,T19,"However, transient expression of ",FBP11, suppressed N-WASP-dependent actin-microspike formation by trapping ,N-WASP, in the nucleus.,Not_a_complex
+14697212,s6,T17,T26,"However, transient expression of ",FBP11, suppressed N-WASP-dependent ,actin,-microspike formation by trapping N-WASP in the nucleus.,Not_a_complex
+14697212,s6,T18,T19,"However, transient expression of FBP11 suppressed ",N-WASP,-dependent actin-microspike formation by trapping ,N-WASP, in the nucleus.,Not_a_complex
+14697212,s6,T18,T26,"However, transient expression of FBP11 suppressed ",N-WASP,-dependent ,actin,-microspike formation by trapping N-WASP in the nucleus.,Not_a_complex
+14697212,s6,T26,T19,"However, transient expression of FBP11 suppressed N-WASP-dependent ",actin,-microspike formation by trapping ,N-WASP, in the nucleus.,Not_a_complex
+14697212,s7,T20,T21,These results indicate that ,FBP11, regulates localization of ,N-WASP,", thus negatively regulating the function of N-WASP in the cytoplasm. 
+",Not_a_complex
+14697212,s7,T20,T22,These results indicate that ,FBP11," regulates localization of N-WASP, thus negatively regulating the function of ",N-WASP," in the cytoplasm. 
+",Not_a_complex
+14697212,s7,T21,T22,These results indicate that FBP11 regulates localization of ,N-WASP,", thus negatively regulating the function of ",N-WASP," in the cytoplasm. 
+",Not_a_complex

@@ -1,0 +1,20 @@
+18452947,s0,T1,T2,Characterization of ,Dnmt3b,:,thymine-DNA glycosylase," interaction and stimulation of thymine glycosylase-mediated repair by DNA methyltransferase(s) and RNA. 
+",Complex_formation
+18452947,s0,T1,T14,Characterization of ,Dnmt3b,:thymine-DNA glycosylase interaction and stimulation of thymine glycosylase-mediated repair by ,DNA methyltransferase(s)," and RNA. 
+",Not_a_complex
+18452947,s0,T2,T14,Characterization of Dnmt3b:,thymine-DNA glycosylase, interaction and stimulation of thymine glycosylase-mediated repair by ,DNA methyltransferase(s)," and RNA. 
+",Not_a_complex
+18452947,s2,T15,T3,DNA methylation patterns are established and maintained at CpG dinucleotides by ,DNA methyltransferases, (,Dnmt1,", Dnmt3a, and Dnmt3b).",Not_a_complex
+18452947,s2,T3,T4,DNA methylation patterns are established and maintained at CpG dinucleotides by DNA methyltransferases (,Dnmt1,", ",Dnmt3a,", and Dnmt3b).",Not_a_complex
+18452947,s2,T3,T5,DNA methylation patterns are established and maintained at CpG dinucleotides by DNA methyltransferases (,Dnmt1,", Dnmt3a, and ",Dnmt3b,).,Not_a_complex
+18452947,s2,T15,T4,DNA methylation patterns are established and maintained at CpG dinucleotides by ,DNA methyltransferases," (Dnmt1, ",Dnmt3a,", and Dnmt3b).",Not_a_complex
+18452947,s2,T4,T5,"DNA methylation patterns are established and maintained at CpG dinucleotides by DNA methyltransferases (Dnmt1, ",Dnmt3a,", and ",Dnmt3b,).,Not_a_complex
+18452947,s2,T15,T5,DNA methylation patterns are established and maintained at CpG dinucleotides by ,DNA methyltransferases," (Dnmt1, Dnmt3a, and ",Dnmt3b,).,Not_a_complex
+18452947,s6,T6,T7,,G/T mismatch-specific thymine-DNA glycosylase, (,Tdg,) and methyl-CpG binding domain protein 4 can both excise uracil or thymine at U.G and T.G mismatches to initiate base excision repair.,Not_a_complex
+18452947,s6,T6,T8,,G/T mismatch-specific thymine-DNA glycosylase, (Tdg) and ,methyl-CpG binding domain protein 4, can both excise uracil or thymine at U.G and T.G mismatches to initiate base excision repair.,Not_a_complex
+18452947,s6,T7,T8,G/T mismatch-specific thymine-DNA glycosylase (,Tdg,) and ,methyl-CpG binding domain protein 4, can both excise uracil or thymine at U.G and T.G mismatches to initiate base excision repair.,Not_a_complex
+18452947,s7,T9,T10,"Here, we report the characterization of interactions between ",Dnmt3b, and both ,Tdg, and methyl-CpG binding domain protein 4.,Complex_formation
+18452947,s7,T9,T11,"Here, we report the characterization of interactions between ",Dnmt3b, and both Tdg and ,methyl-CpG binding domain protein 4,.,Complex_formation
+18452947,s7,T10,T11,"Here, we report the characterization of interactions between Dnmt3b and both ",Tdg, and ,methyl-CpG binding domain protein 4,.,Not_a_complex
+18452947,s8,T12,T13,Our results demonstrate (1) that both ,Tdg, and ,Dnmt3b," are colocalized to heterochromatin and (2) reduction of T.G mismatch repair efficiency upon loss of DNA methyltransferase expression, as well as a requirement for an RNA component for correct T.G mismatch repair. 
+",Not_a_complex

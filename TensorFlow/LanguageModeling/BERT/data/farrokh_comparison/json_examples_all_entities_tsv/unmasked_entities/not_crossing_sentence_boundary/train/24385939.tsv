@@ -1,0 +1,45 @@
+24385939,s0,T1,T12,,Smc5,/,6," coordinates formation and resolution of joint molecules with chromosome morphology to ensure meiotic divisions. 
+",Complex_formation
+24385939,s1,T22,T23,"During meiosis, ",Structural Maintenance of Chromosome, (,SMC,) complexes underpin two fundamental features of meiosis: homologous recombination and chromosome segregation.,Not_a_complex
+24385939,s2,T2,T13,"While meiotic functions of the cohesin and condensin complexes have been delineated, the role of the third SMC complex, ",Smc5,/,6,", remains enigmatic.",Complex_formation
+24385939,s2,T20,T13,While meiotic functions of the ,cohesin," and condensin complexes have been delineated, the role of the third SMC complex, Smc5/",6,", remains enigmatic.",Not_a_complex
+24385939,s2,T21,T13,While meiotic functions of the cohesin and ,condensin," complexes have been delineated, the role of the third SMC complex, Smc5/",6,", remains enigmatic.",Not_a_complex
+24385939,s2,T24,T13,"While meiotic functions of the cohesin and condensin complexes have been delineated, the role of the third ",SMC," complex, Smc5/",6,", remains enigmatic.",Not_a_complex
+24385939,s2,T20,T2,While meiotic functions of the ,cohesin," and condensin complexes have been delineated, the role of the third SMC complex, ",Smc5,"/6, remains enigmatic.",Not_a_complex
+24385939,s2,T21,T2,While meiotic functions of the cohesin and ,condensin," complexes have been delineated, the role of the third SMC complex, ",Smc5,"/6, remains enigmatic.",Not_a_complex
+24385939,s2,T24,T2,"While meiotic functions of the cohesin and condensin complexes have been delineated, the role of the third ",SMC," complex, ",Smc5,"/6, remains enigmatic.",Not_a_complex
+24385939,s2,T20,T21,While meiotic functions of the ,cohesin, and ,condensin," complexes have been delineated, the role of the third SMC complex, Smc5/6, remains enigmatic.",Not_a_complex
+24385939,s2,T20,T24,While meiotic functions of the ,cohesin," and condensin complexes have been delineated, the role of the third ",SMC," complex, Smc5/6, remains enigmatic.",Not_a_complex
+24385939,s2,T21,T24,While meiotic functions of the cohesin and ,condensin," complexes have been delineated, the role of the third ",SMC," complex, Smc5/6, remains enigmatic.",Not_a_complex
+24385939,s3,T3,T14,"Here we identify specific, essential meiotic functions for the ",Smc5,/,6, complex in homologous recombination and the regulation of cohesin.,Complex_formation
+24385939,s3,T14,T25,"Here we identify specific, essential meiotic functions for the Smc5/",6, complex in homologous recombination and the regulation of ,cohesin,.,Not_a_complex
+24385939,s3,T3,T25,"Here we identify specific, essential meiotic functions for the ",Smc5,/6 complex in homologous recombination and the regulation of ,cohesin,.,Not_a_complex
+24385939,s4,T4,T15,We show that ,Smc5,/,6," is enriched at centromeres and cohesin-association sites where it regulates sister-chromatid cohesion and the timely removal of cohesin from chromosomal arms, respectively.",Complex_formation
+24385939,s4,T15,T27,We show that Smc5/,6, is enriched at centromeres and ,cohesin,"-association sites where it regulates sister-chromatid cohesion and the timely removal of cohesin from chromosomal arms, respectively.",Not_a_complex
+24385939,s4,T15,T28,We show that Smc5/,6, is enriched at centromeres and cohesin-association sites where it regulates sister-chromatid cohesion and the timely removal of ,cohesin," from chromosomal arms, respectively.",Not_a_complex
+24385939,s4,T27,T28,We show that Smc5/6 is enriched at centromeres and ,cohesin,-association sites where it regulates sister-chromatid cohesion and the timely removal of ,cohesin," from chromosomal arms, respectively.",Not_a_complex
+24385939,s4,T4,T27,We show that ,Smc5,/6 is enriched at centromeres and ,cohesin,"-association sites where it regulates sister-chromatid cohesion and the timely removal of cohesin from chromosomal arms, respectively.",Not_a_complex
+24385939,s4,T4,T28,We show that ,Smc5,/6 is enriched at centromeres and cohesin-association sites where it regulates sister-chromatid cohesion and the timely removal of ,cohesin," from chromosomal arms, respectively.",Not_a_complex
+24385939,s5,T5,T16,,Smc5,/,6," also localizes to recombination hotspots, where it promotes normal formation and resolution of a subset of joint-molecule intermediates.",Complex_formation
+24385939,s6,T6,T17,"In this regard, ",Smc5,/,6, functions independently of the major crossover pathway defined by the MutLgamma complex.,Complex_formation
+24385939,s7,T7,T18,"Furthermore, we show that ",Smc5,/,6," is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-Mms4(Eme1).",Complex_formation
+24385939,s7,T18,T10,"Furthermore, we show that Smc5/",6," is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-Mms4(",Eme1,).,Not_a_complex
+24385939,s7,T29,T10,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the ",XPF,"-family endonuclease, Mus81-Mms4(",Eme1,).,Not_a_complex
+24385939,s7,T18,T29,"Furthermore, we show that Smc5/",6, is required for stable chromosomal localization of the ,XPF,"-family endonuclease, Mus81-Mms4(Eme1).",Not_a_complex
+24385939,s7,T7,T10,"Furthermore, we show that ",Smc5,"/6 is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-Mms4(",Eme1,).,Not_a_complex
+24385939,s7,T7,T29,"Furthermore, we show that ",Smc5,/6 is required for stable chromosomal localization of the ,XPF,"-family endonuclease, Mus81-Mms4(Eme1).",Not_a_complex
+24385939,s7,T7,T8,"Furthermore, we show that ",Smc5,"/6 is required for stable chromosomal localization of the XPF-family endonuclease, ",Mus81,-Mms4(Eme1).,Not_a_complex
+24385939,s7,T7,T9,"Furthermore, we show that ",Smc5,"/6 is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-",Mms4,(Eme1).,Not_a_complex
+24385939,s7,T8,T10,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the XPF-family endonuclease, ",Mus81,-Mms4(,Eme1,).,Not_a_complex
+24385939,s7,T18,T8,"Furthermore, we show that Smc5/",6," is required for stable chromosomal localization of the XPF-family endonuclease, ",Mus81,-Mms4(Eme1).,Not_a_complex
+24385939,s7,T29,T8,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the ",XPF,"-family endonuclease, ",Mus81,-Mms4(Eme1).,Not_a_complex
+24385939,s7,T8,T9,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the XPF-family endonuclease, ",Mus81,-,Mms4,(Eme1).,Not_a_complex
+24385939,s7,T9,T10,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-",Mms4,(,Eme1,).,Not_a_complex
+24385939,s7,T18,T9,"Furthermore, we show that Smc5/",6," is required for stable chromosomal localization of the XPF-family endonuclease, Mus81-",Mms4,(Eme1).,Not_a_complex
+24385939,s7,T29,T9,"Furthermore, we show that Smc5/6 is required for stable chromosomal localization of the ",XPF,"-family endonuclease, Mus81-",Mms4,(Eme1).,Not_a_complex
+24385939,s8,T11,T19,Our data suggest that the ,Smc5,/,6," complex is required for specific recombination and chromosomal processes throughout meiosis and that in its absence, attempts at cell division with unresolved joint molecules and residual cohesin lead to severe recombination-induced meiotic catastrophe. 
+",Complex_formation
+24385939,s8,T11,T26,Our data suggest that the ,Smc5,"/6 complex is required for specific recombination and chromosomal processes throughout meiosis and that in its absence, attempts at cell division with unresolved joint molecules and residual ",cohesin," lead to severe recombination-induced meiotic catastrophe. 
+",Not_a_complex
+24385939,s8,T19,T26,Our data suggest that the Smc5/,6," complex is required for specific recombination and chromosomal processes throughout meiosis and that in its absence, attempts at cell division with unresolved joint molecules and residual ",cohesin," lead to severe recombination-induced meiotic catastrophe. 
+",Not_a_complex

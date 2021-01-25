@@ -1,0 +1,30 @@
+21295699,s1,T1,T13,,Sac1, phosphoinositide (PI) phosphatases are essential regulators of ,PI,-signaling networks.,Not_a_complex
+21295699,s1,T1,T7,,Sac1, ,phosphoinositide, (PI) phosphatases are essential regulators of PI-signaling networks.,Not_a_complex
+21295699,s1,T1,T9,,Sac1, phosphoinositide (,PI,) phosphatases are essential regulators of PI-signaling networks.,Not_a_complex
+21295699,s1,T7,T13,Sac1 ,phosphoinositide, (PI) phosphatases are essential regulators of ,PI,-signaling networks.,Not_a_complex
+21295699,s1,T7,T9,Sac1 ,phosphoinositide, (,PI,) phosphatases are essential regulators of PI-signaling networks.,Not_a_complex
+21295699,s1,T9,T13,Sac1 phosphoinositide (,PI,) phosphatases are essential regulators of ,PI,-signaling networks.,Not_a_complex
+21295699,s2,T2,T16,Yeast ,Sac1,", an integral endoplasmic reticulum (ER) membrane protein, controls ",PI4P," levels at the ER, Golgi, and plasma membrane (PM).",Complex_formation
+21295699,s3,T4,T20,Whether ,Sac1, can act in trans and turn over ,PI4P, at the Golgi and PM from the ER remains a paradox.,Complex_formation
+21295699,s4,T21,T3,We find that Sac1-mediated ,PI4P, metabolism requires the ,oxysterol-binding homology (Osh) proteins,.,Not_a_complex
+21295699,s4,T6,T3,We find that ,Sac1,-mediated PI4P metabolism requires the ,oxysterol-binding homology (Osh) proteins,.,Not_a_complex
+21295699,s4,T6,T21,We find that ,Sac1,-mediated ,PI4P, metabolism requires the oxysterol-binding homology (Osh) proteins.,Not_a_complex
+21295699,s5,T8,T22,"The PH domain-containing family member, ",Osh3,", localizes to PM/ER membrane contact sites dependent upon PM ",PI4P, levels.,Not_a_complex
+21295699,s6,T10,T23,We reconstitute Osh protein-stimulated ,Sac1, ,PI, phosphatase activity in vitro.,Not_a_complex
+21295699,s6,T5,T10,We reconstitute ,Osh, protein-stimulated ,Sac1, PI phosphatase activity in vitro.,Not_a_complex
+21295699,s6,T5,T23,We reconstitute ,Osh, protein-stimulated Sac1 ,PI, phosphatase activity in vitro.,Not_a_complex
+21295699,s7,T11,T25,"We also show that the ER membrane VAP proteins, ",Scs2,"/Scs22, control PM ",PI4P, levels and Sac1 activity in vitro.,Complex_formation
+21295699,s7,T12,T25,"We also show that the ER membrane VAP proteins, Scs2/",Scs22,", control PM ",PI4P, levels and Sac1 activity in vitro.,Complex_formation
+21295699,s7,T11,T12,"We also show that the ER membrane VAP proteins, ",Scs2,/,Scs22,", control PM PI4P levels and Sac1 activity in vitro.",Not_a_complex
+21295699,s7,T11,T14,"We also show that the ER membrane VAP proteins, ",Scs2,"/Scs22, control PM PI4P levels and ",Sac1, activity in vitro.,Not_a_complex
+21295699,s7,T24,T11,We also show that the ER membrane ,VAP," proteins, ",Scs2,"/Scs22, control PM PI4P levels and Sac1 activity in vitro.",Not_a_complex
+21295699,s7,T12,T14,"We also show that the ER membrane VAP proteins, Scs2/",Scs22,", control PM PI4P levels and ",Sac1, activity in vitro.,Not_a_complex
+21295699,s7,T24,T12,We also show that the ER membrane ,VAP," proteins, Scs2/",Scs22,", control PM PI4P levels and Sac1 activity in vitro.",Not_a_complex
+21295699,s7,T24,T14,We also show that the ER membrane ,VAP," proteins, Scs2/Scs22, control PM PI4P levels and ",Sac1, activity in vitro.,Not_a_complex
+21295699,s7,T25,T14,"We also show that the ER membrane VAP proteins, Scs2/Scs22, control PM ",PI4P, levels and ,Sac1, activity in vitro.,Not_a_complex
+21295699,s7,T24,T25,We also show that the ER membrane ,VAP," proteins, Scs2/Scs22, control PM ",PI4P, levels and Sac1 activity in vitro.,Not_a_complex
+21295699,s8,T15,T17,We propose that ,Osh3, functions at ER/PM contact sites as both a sensor of PM PI4P and an activator of the ER ,Sac1, phosphatase.,Not_a_complex
+21295699,s8,T15,T26,We propose that ,Osh3, functions at ER/PM contact sites as both a sensor of PM ,PI4P, and an activator of the ER Sac1 phosphatase.,Not_a_complex
+21295699,s8,T26,T17,We propose that Osh3 functions at ER/PM contact sites as both a sensor of PM ,PI4P, and an activator of the ER ,Sac1, phosphatase.,Not_a_complex
+21295699,s9,T19,T27,Our findings further suggest that the conserved ,Osh, proteins control ,PI," metabolism at additional membrane contact sites. 
+",Not_a_complex

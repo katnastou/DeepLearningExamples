@@ -1,0 +1,6 @@
+22723847_14,s0,T1,T2,Given the role of ,Ubp9,", Ubp13 and ",Duf1," for normal mitochondria function, we first checked the localization of these three proteins.",Not_a_complex
+22723847_14,s0,T1,T5,Given the role of ,Ubp9,", ",Ubp13," and Duf1 for normal mitochondria function, we first checked the localization of these three proteins.",Not_a_complex
+22723847_14,s0,T5,T2,"Given the role of Ubp9, ",Ubp13, and ,Duf1," for normal mitochondria function, we first checked the localization of these three proteins.",Not_a_complex
+22723847_14,s1,T3,T4,"We found that these three proteins had similar distributions: GFP-tagged proteins were found mostly in the cytoplasm, in various growth conditions (data not shown), as described in databases for ",Ubp9, and ,Duf1,.,Not_a_complex
+22723847_14,s1,T6,T3,We found that these three proteins had similar distributions: ,GFP,"-tagged proteins were found mostly in the cytoplasm, in various growth conditions (data not shown), as described in databases for ",Ubp9, and Duf1.,Not_a_complex
+22723847_14,s1,T6,T4,We found that these three proteins had similar distributions: ,GFP,"-tagged proteins were found mostly in the cytoplasm, in various growth conditions (data not shown), as described in databases for Ubp9 and ",Duf1,.,Not_a_complex

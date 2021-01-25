@@ -1,0 +1,119 @@
+25002145_10,s0,T1,T2,Previous studies showed that ,ROS1, is required to prevent the transcriptional silencing of ,RD29A,-LUC and 35S-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T1,T35,Previous studies showed that ,ROS1, is required to prevent the transcriptional silencing of RD29A-,LUC, and 35S-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T1,T38,Previous studies showed that ,ROS1, is required to prevent the transcriptional silencing of RD29A-LUC and 35S-,NPTII, trans-genes.,Not_a_complex
+25002145_10,s0,T1,T41,Previous studies showed that ,ROS1, is required to prevent the transcriptional silencing of RD29A-LUC and ,35S,-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T2,T35,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of ,RD29A,-,LUC, and 35S-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T2,T38,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of ,RD29A,-LUC and 35S-,NPTII, trans-genes.,Not_a_complex
+25002145_10,s0,T2,T41,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of ,RD29A,-LUC and ,35S,-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T35,T38,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of RD29A-,LUC, and 35S-,NPTII, trans-genes.,Not_a_complex
+25002145_10,s0,T35,T41,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of RD29A-,LUC, and ,35S,-NPTII trans-genes.,Not_a_complex
+25002145_10,s0,T41,T38,Previous studies showed that ROS1 is required to prevent the transcriptional silencing of RD29A-LUC and ,35S,-,NPTII, trans-genes.,Not_a_complex
+25002145_10,s1,T3,T36,Mutations in ,IDM1, cause the silencing of 35S-NPTII but not of the RD29A-,LUC, transgene.,Not_a_complex
+25002145_10,s1,T3,T4,Mutations in ,IDM1, cause the silencing of 35S-NPTII but not of the ,RD29A,-LUC transgene.,Not_a_complex
+25002145_10,s1,T3,T43,Mutations in ,IDM1, cause the silencing of ,35S,-NPTII but not of the RD29A-LUC transgene.,Not_a_complex
+25002145_10,s1,T3,T44,Mutations in ,IDM1, cause the silencing of 35S-,NPTII, but not of the RD29A-LUC transgene.,Not_a_complex
+25002145_10,s1,T43,T36,Mutations in IDM1 cause the silencing of ,35S,-NPTII but not of the RD29A-,LUC, transgene.,Not_a_complex
+25002145_10,s1,T44,T36,Mutations in IDM1 cause the silencing of 35S-,NPTII, but not of the RD29A-,LUC, transgene.,Not_a_complex
+25002145_10,s1,T4,T36,Mutations in IDM1 cause the silencing of 35S-NPTII but not of the ,RD29A,-,LUC, transgene.,Not_a_complex
+25002145_10,s1,T43,T4,Mutations in IDM1 cause the silencing of ,35S,-NPTII but not of the ,RD29A,-LUC transgene.,Not_a_complex
+25002145_10,s1,T44,T4,Mutations in IDM1 cause the silencing of 35S-,NPTII, but not of the ,RD29A,-LUC transgene.,Not_a_complex
+25002145_10,s1,T43,T44,Mutations in IDM1 cause the silencing of ,35S,-,NPTII, but not of the RD29A-LUC transgene.,Not_a_complex
+25002145_10,s2,T42,T5,An independent genetic screen for mutants impaired in the prevention of silencing of the ,35S,-,SUC2, transgene led to the isolation of mutant alleles of IDM1 as well as ROS1.,Not_a_complex
+25002145_10,s2,T5,T6,An independent genetic screen for mutants impaired in the prevention of silencing of the 35S-,SUC2, transgene led to the isolation of mutant alleles of ,IDM1, as well as ROS1.,Not_a_complex
+25002145_10,s2,T5,T7,An independent genetic screen for mutants impaired in the prevention of silencing of the 35S-,SUC2, transgene led to the isolation of mutant alleles of IDM1 as well as ,ROS1,.,Not_a_complex
+25002145_10,s2,T42,T6,An independent genetic screen for mutants impaired in the prevention of silencing of the ,35S,-SUC2 transgene led to the isolation of mutant alleles of ,IDM1, as well as ROS1.,Not_a_complex
+25002145_10,s2,T6,T7,An independent genetic screen for mutants impaired in the prevention of silencing of the 35S-SUC2 transgene led to the isolation of mutant alleles of ,IDM1, as well as ,ROS1,.,Not_a_complex
+25002145_10,s2,T42,T7,An independent genetic screen for mutants impaired in the prevention of silencing of the ,35S,-SUC2 transgene led to the isolation of mutant alleles of IDM1 as well as ,ROS1,.,Not_a_complex
+25002145_10,s4,T10,T11,Wild-type 35S-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of ,SUC2, (,sucrose transporter 2,) expression.,Not_a_complex
+25002145_10,s4,T45,T10,Wild-type ,35S,-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of ,SUC2, (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s4,T49,T10,Wild-type 35S-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% ,sucrose, due to high levels of ,SUC2, (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s4,T45,T11,Wild-type ,35S,-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of SUC2 (,sucrose transporter 2,) expression.,Not_a_complex
+25002145_10,s4,T49,T11,Wild-type 35S-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% ,sucrose, due to high levels of SUC2 (,sucrose transporter 2,) expression.,Not_a_complex
+25002145_10,s4,T45,T49,Wild-type ,35S,-SUC2 trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% ,sucrose, due to high levels of SUC2 (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s4,T9,T10,Wild-type 35S-,SUC2, trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of ,SUC2, (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s4,T9,T11,Wild-type 35S-,SUC2, trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of SUC2 (,sucrose transporter 2,) expression.,Not_a_complex
+25002145_10,s4,T45,T9,Wild-type ,35S,-,SUC2, trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% sucrose due to high levels of SUC2 (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s4,T9,T49,Wild-type 35S-,SUC2, trans-genic plants showed an inhibition of root growth on Murashige-Skoog (MS) medium with 2% ,sucrose, due to high levels of SUC2 (sucrose transporter 2) expression.,Not_a_complex
+25002145_10,s5,T12,T13,The root length in both ,idm1,-9 and ,idm2,-3 plants was similar to that in the Col-0 control that did not have the 35S-SUC2 transgene.,Not_a_complex
+25002145_10,s5,T12,T14,The root length in both ,idm1,-9 and idm2-3 plants was similar to that in the Col-0 control that did not have the 35S-,SUC2, transgene.,Not_a_complex
+25002145_10,s5,T12,T48,The root length in both ,idm1,-9 and idm2-3 plants was similar to that in the Col-0 control that did not have the ,35S,-SUC2 transgene.,Not_a_complex
+25002145_10,s5,T13,T14,The root length in both idm1-9 and ,idm2,-3 plants was similar to that in the Col-0 control that did not have the 35S-,SUC2, transgene.,Not_a_complex
+25002145_10,s5,T13,T48,The root length in both idm1-9 and ,idm2,-3 plants was similar to that in the Col-0 control that did not have the ,35S,-SUC2 transgene.,Not_a_complex
+25002145_10,s5,T48,T14,The root length in both idm1-9 and idm2-3 plants was similar to that in the Col-0 control that did not have the ,35S,-,SUC2, transgene.,Not_a_complex
+25002145_10,s6,T15,T16,Both the 35S-,SUC2, and 35S-HPTII transgenes were silenced in ,idm1,-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T15,T17,Both the 35S-,SUC2, and 35S-HPTII transgenes were silenced in idm1-9 and ,idm2,-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T15,T37,Both the 35S-,SUC2, and 35S-,HPTII, transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T46,T15,Both the ,35S,-,SUC2, and 35S-HPTII transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T15,T47,Both the 35S-,SUC2, and ,35S,-HPTII transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T16,T17,Both the 35S-SUC2 and 35S-HPTII transgenes were silenced in ,idm1,-9 and ,idm2,-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T37,T16,Both the 35S-SUC2 and 35S-,HPTII, transgenes were silenced in ,idm1,-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T46,T16,Both the ,35S,-SUC2 and 35S-HPTII transgenes were silenced in ,idm1,-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T47,T16,Both the 35S-SUC2 and ,35S,-HPTII transgenes were silenced in ,idm1,-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T37,T17,Both the 35S-SUC2 and 35S-,HPTII, transgenes were silenced in idm1-9 and ,idm2,-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T46,T17,Both the ,35S,-SUC2 and 35S-HPTII transgenes were silenced in idm1-9 and ,idm2,-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T47,T17,Both the 35S-SUC2 and ,35S,-HPTII transgenes were silenced in idm1-9 and ,idm2,-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T46,T37,Both the ,35S,-SUC2 and 35S-,HPTII, transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T47,T37,Both the 35S-SUC2 and ,35S,-,HPTII, transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s6,T46,T47,Both the ,35S,-SUC2 and ,35S,-HPTII transgenes were silenced in idm1-9 and idm2-3 mutant plants (Figure 1D).,Not_a_complex
+25002145_10,s7,T18,T19,"Bisulfite sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the 35S promoter region was increased in ",idm1,-9 and ,idm2,-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s7,T50,T18,,Bisulfite," sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the 35S promoter region was increased in ",idm1,-9 and idm2-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s7,T51,T18,"Bisulfite sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the ",35S, promoter region was increased in ,idm1,-9 and idm2-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s7,T50,T19,,Bisulfite," sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the 35S promoter region was increased in idm1-9 and ",idm2,-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s7,T51,T19,"Bisulfite sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the ",35S, promoter region was increased in idm1-9 and ,idm2,-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s7,T50,T51,,Bisulfite," sequencing analysis showed that, compared to the wild-type control, the DNA methylation level of the ",35S, promoter region was increased in idm1-9 and idm2-3 plants (Figure S1E).,Not_a_complex
+25002145_10,s8,T20,T21,The ,At1g26400, region was also hypermethylated in ,idm1,-9 and idm2-3 according to the Chop PCR results (Figure S1F).,Not_a_complex
+25002145_10,s8,T20,T22,The ,At1g26400, region was also hypermethylated in idm1-9 and ,idm2,-3 according to the Chop PCR results (Figure S1F).,Not_a_complex
+25002145_10,s8,T21,T22,The At1g26400 region was also hypermethylated in ,idm1,-9 and ,idm2,-3 according to the Chop PCR results (Figure S1F).,Not_a_complex
+25002145_10,s9,T52,T40,Chromatin immunoprecipitation (ChIP) assays showed an increased ,H3K9me2, level and a decreased ,H3K4me2, level in the 35S promoter region in the mutant plants (Figure 1E).,Not_a_complex
+25002145_10,s9,T40,T53,Chromatin immunoprecipitation (ChIP) assays showed an increased H3K9me2 level and a decreased ,H3K4me2, level in the ,35S, promoter region in the mutant plants (Figure 1E).,Not_a_complex
+25002145_10,s9,T52,T53,Chromatin immunoprecipitation (ChIP) assays showed an increased ,H3K9me2, level and a decreased H3K4me2 level in the ,35S, promoter region in the mutant plants (Figure 1E).,Not_a_complex
+25002145_10,s10,T23,T24,In ,idm2,"-3, a single-nucleotide-substitution mutation (from GGG to GAG) in ",At1g54840, changed amino acid glycine 276 to glutamic acid.,Not_a_complex
+25002145_10,s11,T25,T26,Consistent with the genetic mapping result (Figure S1G) suggesting that the ,idm2,"-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between ",idm2,-3 and idm2-1 (SALK_130656) had a long-root phenotype like that of idm2-3 (Figure S1H).,Not_a_complex
+25002145_10,s11,T25,T27,Consistent with the genetic mapping result (Figure S1G) suggesting that the ,idm2,"-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between idm2-3 and ",idm2,-1 (SALK_130656) had a long-root phenotype like that of idm2-3 (Figure S1H).,Not_a_complex
+25002145_10,s11,T25,T28,Consistent with the genetic mapping result (Figure S1G) suggesting that the ,idm2,"-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between idm2-3 and idm2-1 (SALK_130656) had a long-root phenotype like that of ",idm2,-3 (Figure S1H).,Not_a_complex
+25002145_10,s11,T26,T27,"Consistent with the genetic mapping result (Figure S1G) suggesting that the idm2-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between ",idm2,-3 and ,idm2,-1 (SALK_130656) had a long-root phenotype like that of idm2-3 (Figure S1H).,Not_a_complex
+25002145_10,s11,T26,T28,"Consistent with the genetic mapping result (Figure S1G) suggesting that the idm2-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between ",idm2,-3 and idm2-1 (SALK_130656) had a long-root phenotype like that of ,idm2,-3 (Figure S1H).,Not_a_complex
+25002145_10,s11,T27,T28,"Consistent with the genetic mapping result (Figure S1G) suggesting that the idm2-3 mutation was responsible for the long-root phenotype, all of the F1 plants from genetic crosses between idm2-3 and ",idm2,-1 (SALK_130656) had a long-root phenotype like that of ,idm2,-3 (Figure S1H).,Not_a_complex
+25002145_10,s12,T29,T30,We also transferred the wild-type ,IDM2, genomic fragment into ,idm2,-3 mutant plants and found that it can complement the root phenotype (Figure S1H).,Not_a_complex
+25002145_10,s13,T31,T32,"These results demonstrated that, like ",IDM1, and ,ROS1,", IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T31,T33,"These results demonstrated that, like ",IDM1," and ROS1, ",IDM2," is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T31,T34,"These results demonstrated that, like ",IDM1," and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-",SUC2," and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T31,T39,"These results demonstrated that, like ",IDM1," and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-",HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T31,T54,"These results demonstrated that, like ",IDM1," and ROS1, IDM2 is required for prevention of transcriptional silencing of the ",35,"-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T31,T55,"These results demonstrated that, like ",IDM1," and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and ",35S,"-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T32,T33,"These results demonstrated that, like IDM1 and ",ROS1,", ",IDM2," is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T32,T34,"These results demonstrated that, like IDM1 and ",ROS1,", IDM2 is required for prevention of transcriptional silencing of the 35-",SUC2," and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T32,T39,"These results demonstrated that, like IDM1 and ",ROS1,", IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-",HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T32,T54,"These results demonstrated that, like IDM1 and ",ROS1,", IDM2 is required for prevention of transcriptional silencing of the ",35,"-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T32,T55,"These results demonstrated that, like IDM1 and ",ROS1,", IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and ",35S,"-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T33,T34,"These results demonstrated that, like IDM1 and ROS1, ",IDM2, is required for prevention of transcriptional silencing of the 35-,SUC2," and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T33,T39,"These results demonstrated that, like IDM1 and ROS1, ",IDM2, is required for prevention of transcriptional silencing of the 35-SUC2 and 35S-,HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T33,T54,"These results demonstrated that, like IDM1 and ROS1, ",IDM2, is required for prevention of transcriptional silencing of the ,35,"-SUC2 and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T33,T55,"These results demonstrated that, like IDM1 and ROS1, ",IDM2, is required for prevention of transcriptional silencing of the 35-SUC2 and ,35S,"-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T34,T39,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-",SUC2, and 35S-,HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T54,T34,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the ",35,-,SUC2," and 35S-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T34,T55,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-",SUC2, and ,35S,"-HPTII transgenes.
+",Not_a_complex
+25002145_10,s13,T54,T39,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the ",35,-SUC2 and 35S-,HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T55,T39,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the 35-SUC2 and ",35S,-,HPTII," transgenes.
+",Not_a_complex
+25002145_10,s13,T54,T55,"These results demonstrated that, like IDM1 and ROS1, IDM2 is required for prevention of transcriptional silencing of the ",35,-SUC2 and ,35S,"-HPTII transgenes.
+",Not_a_complex

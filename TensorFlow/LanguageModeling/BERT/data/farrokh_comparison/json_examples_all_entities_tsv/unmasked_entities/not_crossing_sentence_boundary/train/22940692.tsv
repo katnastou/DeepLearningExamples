@@ -1,0 +1,48 @@
+22940692,s1,T1,T12,Endocrine release of ,insulin, principally controls ,glucose, homeostasis.,Not_a_complex
+22940692,s2,T13,T14,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ,ion channels, and mobilization of ,Ca(2+), and cyclic AMP (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T13,T15,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ,ion channels, and mobilization of Ca(2+) and ,cyclic AMP, (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T13,T16,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ,ion channels, and mobilization of Ca(2+) and cyclic AMP (,cAMP,) signalling pathways.,Not_a_complex
+22940692,s2,T14,T15,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ion channels and mobilization of ,Ca(2+), and ,cyclic AMP, (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T14,T16,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ion channels and mobilization of ,Ca(2+), and cyclic AMP (,cAMP,) signalling pathways.,Not_a_complex
+22940692,s2,T15,T16,Nutrient-induced exocytosis of insulin granules from pancreatic beta-cells involves ion channels and mobilization of Ca(2+) and ,cyclic AMP, (,cAMP,) signalling pathways.,Not_a_complex
+22940692,s2,T2,T13,Nutrient-induced exocytosis of ,insulin, granules from pancreatic beta-cells involves ,ion channels, and mobilization of Ca(2+) and cyclic AMP (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T2,T14,Nutrient-induced exocytosis of ,insulin, granules from pancreatic beta-cells involves ion channels and mobilization of ,Ca(2+), and cyclic AMP (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T2,T15,Nutrient-induced exocytosis of ,insulin, granules from pancreatic beta-cells involves ion channels and mobilization of Ca(2+) and ,cyclic AMP, (cAMP) signalling pathways.,Not_a_complex
+22940692,s2,T2,T16,Nutrient-induced exocytosis of ,insulin, granules from pancreatic beta-cells involves ion channels and mobilization of Ca(2+) and cyclic AMP (,cAMP,) signalling pathways.,Not_a_complex
+22940692,s3,T3,T4,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the ",kinase,/phosphatase anchoring protein ,AKAP150, impairs insulin secretion in mice.,Complex_formation
+22940692,s3,T18,T4,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the kinase/",phosphatase, anchoring protein ,AKAP150, impairs insulin secretion in mice.,Complex_formation
+22940692,s3,T3,T18,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the ",kinase,/,phosphatase, anchoring protein AKAP150 impairs insulin secretion in mice.,Not_a_complex
+22940692,s3,T3,T5,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the ",kinase,/phosphatase anchoring protein AKAP150 impairs ,insulin, secretion in mice.,Not_a_complex
+22940692,s3,T4,T5,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the kinase/phosphatase anchoring protein ",AKAP150, impairs ,insulin, secretion in mice.,Not_a_complex
+22940692,s3,T18,T5,"Whole-animal physiology, islet studies and live-beta-cell imaging approaches reveal that ablation of the kinase/",phosphatase, anchoring protein AKAP150 impairs ,insulin, secretion in mice.,Not_a_complex
+22940692,s4,T19,T20,Loss of AKAP150 impacts ,L-type, ,Ca(2+)," currents, and attenuates cytoplasmic accumulation of Ca(2+) and cAMP in beta-cells.",Not_a_complex
+22940692,s4,T19,T21,Loss of AKAP150 impacts ,L-type," Ca(2+) currents, and attenuates cytoplasmic accumulation of ",Ca(2+), and cAMP in beta-cells.,Not_a_complex
+22940692,s4,T19,T22,Loss of AKAP150 impacts ,L-type," Ca(2+) currents, and attenuates cytoplasmic accumulation of Ca(2+) and ",cAMP, in beta-cells.,Not_a_complex
+22940692,s4,T20,T21,Loss of AKAP150 impacts L-type ,Ca(2+)," currents, and attenuates cytoplasmic accumulation of ",Ca(2+), and cAMP in beta-cells.,Not_a_complex
+22940692,s4,T20,T22,Loss of AKAP150 impacts L-type ,Ca(2+)," currents, and attenuates cytoplasmic accumulation of Ca(2+) and ",cAMP, in beta-cells.,Not_a_complex
+22940692,s4,T21,T22,"Loss of AKAP150 impacts L-type Ca(2+) currents, and attenuates cytoplasmic accumulation of ",Ca(2+), and ,cAMP, in beta-cells.,Not_a_complex
+22940692,s4,T6,T19,Loss of ,AKAP150, impacts ,L-type," Ca(2+) currents, and attenuates cytoplasmic accumulation of Ca(2+) and cAMP in beta-cells.",Not_a_complex
+22940692,s4,T6,T20,Loss of ,AKAP150, impacts L-type ,Ca(2+)," currents, and attenuates cytoplasmic accumulation of Ca(2+) and cAMP in beta-cells.",Not_a_complex
+22940692,s4,T6,T21,Loss of ,AKAP150," impacts L-type Ca(2+) currents, and attenuates cytoplasmic accumulation of ",Ca(2+), and cAMP in beta-cells.,Not_a_complex
+22940692,s4,T6,T22,Loss of ,AKAP150," impacts L-type Ca(2+) currents, and attenuates cytoplasmic accumulation of Ca(2+) and ",cAMP, in beta-cells.,Not_a_complex
+22940692,s5,T23,T24,Yet surprisingly AKAP150 null animals display improved ,glucose, handling and heightened ,insulin, sensitivity in skeletal muscle.,Not_a_complex
+22940692,s5,T7,T23,Yet surprisingly ,AKAP150, null animals display improved ,glucose, handling and heightened insulin sensitivity in skeletal muscle.,Not_a_complex
+22940692,s5,T7,T24,Yet surprisingly ,AKAP150, null animals display improved glucose handling and heightened ,insulin, sensitivity in skeletal muscle.,Not_a_complex
+22940692,s6,T8,T26,More refined analyses of ,AKAP150, knock-in mice unable to anchor protein kinase A or protein phosphatase 2B uncover an unexpected observation that tethering of ,phosphatases, to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Complex_formation
+22940692,s6,T25,T26,More refined analyses of AKAP150 knock-in mice unable to anchor protein kinase A or ,protein phosphatase 2B, uncover an unexpected observation that tethering of ,phosphatases, to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Not_a_complex
+22940692,s6,T8,T25,More refined analyses of ,AKAP150, knock-in mice unable to anchor protein kinase A or ,protein phosphatase 2B, uncover an unexpected observation that tethering of phosphatases to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Not_a_complex
+22940692,s6,T8,T9,More refined analyses of ,AKAP150, knock-in mice unable to anchor ,protein kinase A, or protein phosphatase 2B uncover an unexpected observation that tethering of phosphatases to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Not_a_complex
+22940692,s6,T9,T25,More refined analyses of AKAP150 knock-in mice unable to anchor ,protein kinase A, or ,protein phosphatase 2B, uncover an unexpected observation that tethering of phosphatases to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Not_a_complex
+22940692,s6,T9,T26,More refined analyses of AKAP150 knock-in mice unable to anchor ,protein kinase A, or protein phosphatase 2B uncover an unexpected observation that tethering of ,phosphatases, to a seven-residue sequence of the anchoring protein is the predominant molecular event underlying these metabolic phenotypes.,Not_a_complex
+22940692,s7,T10,T11,Thus anchored signalling events that facilitate ,insulin, secretion and glucose homeostasis may be set by ,AKAP150," associated phosphatase activity. 
+",Not_a_complex
+22940692,s7,T10,T27,Thus anchored signalling events that facilitate ,insulin, secretion and ,glucose," homeostasis may be set by AKAP150 associated phosphatase activity. 
+",Not_a_complex
+22940692,s7,T10,T28,Thus anchored signalling events that facilitate ,insulin, secretion and glucose homeostasis may be set by AKAP150 associated ,phosphatase," activity. 
+",Not_a_complex
+22940692,s7,T27,T11,Thus anchored signalling events that facilitate insulin secretion and ,glucose, homeostasis may be set by ,AKAP150," associated phosphatase activity. 
+",Not_a_complex
+22940692,s7,T11,T28,Thus anchored signalling events that facilitate insulin secretion and glucose homeostasis may be set by ,AKAP150, associated ,phosphatase," activity. 
+",Not_a_complex
+22940692,s7,T27,T28,Thus anchored signalling events that facilitate insulin secretion and ,glucose, homeostasis may be set by AKAP150 associated ,phosphatase," activity. 
+",Not_a_complex

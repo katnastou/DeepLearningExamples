@@ -1,0 +1,71 @@
+27694803_7,s0,T1,T2,To test if ,Cbr1, could reduce ,Dph3," in vitro, we cloned, expressed and purified the recombinant Cbr1.",Not_a_complex
+27694803_7,s0,T1,T3,To test if ,Cbr1," could reduce Dph3 in vitro, we cloned, expressed and purified the recombinant ",Cbr1,.,Not_a_complex
+27694803_7,s0,T2,T3,To test if Cbr1 could reduce ,Dph3," in vitro, we cloned, expressed and purified the recombinant ",Cbr1,.,Not_a_complex
+27694803_7,s1,T4,T5,We first monitored the reduction of ,Dph3, by detecting the 488 nm absorption of oxidized ,Dph3, as previously described.,Not_a_complex
+27694803_7,s2,T24,T6,Upon addition of ,NADH," to initiate the reaction, ",Dph3, was rapidly reduced by Cbr1 (Fig. 1b).,Not_a_complex
+27694803_7,s2,T6,T7,"Upon addition of NADH to initiate the reaction, ",Dph3, was rapidly reduced by ,Cbr1, (Fig. 1b).,Not_a_complex
+27694803_7,s2,T24,T7,Upon addition of ,NADH," to initiate the reaction, Dph3 was rapidly reduced by ",Cbr1, (Fig. 1b).,Not_a_complex
+27694803_7,s3,T25,T26,"In contrast, addition of ",NADPH," did not lead to reduction of Dph3, suggesting that Cbr1 is an ",NADH,-specific enzyme (Supplementary Fig. 3).,Not_a_complex
+27694803_7,s3,T25,T8,"In contrast, addition of ",NADPH, did not lead to reduction of ,Dph3,", suggesting that Cbr1 is an NADH-specific enzyme (Supplementary Fig. 3).",Not_a_complex
+27694803_7,s3,T8,T26,"In contrast, addition of NADPH did not lead to reduction of ",Dph3,", suggesting that Cbr1 is an ",NADH,-specific enzyme (Supplementary Fig. 3).,Not_a_complex
+27694803_7,s3,T8,T9,"In contrast, addition of NADPH did not lead to reduction of ",Dph3,", suggesting that ",Cbr1, is an NADH-specific enzyme (Supplementary Fig. 3).,Not_a_complex
+27694803_7,s3,T25,T9,"In contrast, addition of ",NADPH," did not lead to reduction of Dph3, suggesting that ",Cbr1, is an NADH-specific enzyme (Supplementary Fig. 3).,Not_a_complex
+27694803_7,s3,T9,T26,"In contrast, addition of NADPH did not lead to reduction of Dph3, suggesting that ",Cbr1, is an ,NADH,-specific enzyme (Supplementary Fig. 3).,Not_a_complex
+27694803_7,s4,T10,T11,To confirm Cbr1's role as a ,Dph3," reductase, we tested if this reduction system can be used to reduce ",Dph1,-Dph2 and reconstitute the first step of diphthamide biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T10,T12,To confirm Cbr1's role as a ,Dph3," reductase, we tested if this reduction system can be used to reduce Dph1-",Dph2, and reconstitute the first step of diphthamide biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T27,T10,To confirm ,Cbr1,'s role as a ,Dph3," reductase, we tested if this reduction system can be used to reduce Dph1-Dph2 and reconstitute the first step of diphthamide biosynthesis in vitro.",Not_a_complex
+27694803_7,s4,T10,T28,To confirm Cbr1's role as a ,Dph3," reductase, we tested if this reduction system can be used to reduce Dph1-Dph2 and reconstitute the first step of ",diphthamide, biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T11,T12,"To confirm Cbr1's role as a Dph3 reductase, we tested if this reduction system can be used to reduce ",Dph1,-,Dph2, and reconstitute the first step of diphthamide biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T27,T11,To confirm ,Cbr1,"'s role as a Dph3 reductase, we tested if this reduction system can be used to reduce ",Dph1,-Dph2 and reconstitute the first step of diphthamide biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T11,T28,"To confirm Cbr1's role as a Dph3 reductase, we tested if this reduction system can be used to reduce ",Dph1,-Dph2 and reconstitute the first step of ,diphthamide, biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T27,T12,To confirm ,Cbr1,"'s role as a Dph3 reductase, we tested if this reduction system can be used to reduce Dph1-",Dph2, and reconstitute the first step of diphthamide biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T12,T28,"To confirm Cbr1's role as a Dph3 reductase, we tested if this reduction system can be used to reduce Dph1-",Dph2, and reconstitute the first step of ,diphthamide, biosynthesis in vitro.,Not_a_complex
+27694803_7,s4,T27,T28,To confirm ,Cbr1,"'s role as a Dph3 reductase, we tested if this reduction system can be used to reduce Dph1-Dph2 and reconstitute the first step of ",diphthamide, biosynthesis in vitro.,Not_a_complex
+27694803_7,s5,T13,T14,"Using C-SAM, the substrate ",eEF2, was radioactively labeled in the presence of ,Dph1,"-Dph2, Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T13,T15,"Using C-SAM, the substrate ",eEF2, was radioactively labeled in the presence of Dph1-,Dph2,", Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T13,T16,"Using C-SAM, the substrate ",eEF2," was radioactively labeled in the presence of Dph1-Dph2, ",Dph3,", Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T13,T17,"Using C-SAM, the substrate ",eEF2," was radioactively labeled in the presence of Dph1-Dph2, Dph3, ",Cbr1," and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T13,T29,"Using C-SAM, the substrate ",eEF2," was radioactively labeled in the presence of Dph1-Dph2, Dph3, Cbr1 and ",NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T13,Using ,C-SAM,", the substrate ",eEF2," was radioactively labeled in the presence of Dph1-Dph2, Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T14,T15,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of ",Dph1,-,Dph2,", Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T14,T16,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of ",Dph1,"-Dph2, ",Dph3,", Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T14,T17,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of ",Dph1,"-Dph2, Dph3, ",Cbr1," and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T14,T29,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of ",Dph1,"-Dph2, Dph3, Cbr1 and ",NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T14,Using ,C-SAM,", the substrate eEF2 was radioactively labeled in the presence of ",Dph1,"-Dph2, Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T15,T16,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-",Dph2,", ",Dph3,", Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T15,T17,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-",Dph2,", Dph3, ",Cbr1," and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T15,T29,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-",Dph2,", Dph3, Cbr1 and ",NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T15,Using ,C-SAM,", the substrate eEF2 was radioactively labeled in the presence of Dph1-",Dph2,", Dph3, Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T16,T17,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, ",Dph3,", ",Cbr1," and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T16,T29,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, ",Dph3,", Cbr1 and ",NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T16,Using ,C-SAM,", the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, ",Dph3,", Cbr1 and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T17,T29,"Using C-SAM, the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, Dph3, ",Cbr1, and ,NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T17,Using ,C-SAM,", the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, Dph3, ",Cbr1," and NADH (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s5,T34,T29,Using ,C-SAM,", the substrate eEF2 was radioactively labeled in the presence of Dph1-Dph2, Dph3, Cbr1 and ",NADH," (Fig. 1c, and Supplementary Fig. 7, lane3).",Not_a_complex
+27694803_7,s6,T18,T19,The ,Cbr1,/NADH/,Dph3," reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T18,T20,The ,Cbr1,/NADH/Dph3 reduction system was able to reduce ,Dph1,"-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T18,T21,The ,Cbr1,/NADH/Dph3 reduction system was able to reduce Dph1-,Dph2," similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T18,T30,The ,Cbr1,/,NADH,"/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T18,T31,The ,Cbr1,/NADH/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to ,dithionite,", a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T18,T32,The ,Cbr1,"/NADH/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T19,T20,The Cbr1/NADH/,Dph3, reduction system was able to reduce ,Dph1,"-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T19,T21,The Cbr1/NADH/,Dph3, reduction system was able to reduce Dph1-,Dph2," similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T30,T19,The Cbr1/,NADH,/,Dph3," reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T19,T31,The Cbr1/NADH/,Dph3, reduction system was able to reduce Dph1-Dph2 similarly to ,dithionite,", a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T19,T32,The Cbr1/NADH/,Dph3," reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T20,T21,The Cbr1/NADH/Dph3 reduction system was able to reduce ,Dph1,-,Dph2," similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T30,T20,The Cbr1/,NADH,/Dph3 reduction system was able to reduce ,Dph1,"-Dph2 similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T20,T31,The Cbr1/NADH/Dph3 reduction system was able to reduce ,Dph1,-Dph2 similarly to ,dithionite,", a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T20,T32,The Cbr1/NADH/Dph3 reduction system was able to reduce ,Dph1,"-Dph2 similarly to dithionite, a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T30,T21,The Cbr1/,NADH,/Dph3 reduction system was able to reduce Dph1-,Dph2," similarly to dithionite, a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T21,T31,The Cbr1/NADH/Dph3 reduction system was able to reduce Dph1-,Dph2, similarly to ,dithionite,", a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T21,T32,The Cbr1/NADH/Dph3 reduction system was able to reduce Dph1-,Dph2," similarly to dithionite, a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T30,T31,The Cbr1/,NADH,/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to ,dithionite,", a chemical reductant for Fe-S clusters (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T30,T32,The Cbr1/,NADH,"/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to dithionite, a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s6,T31,T32,The Cbr1/NADH/Dph3 reduction system was able to reduce Dph1-Dph2 similarly to ,dithionite,", a chemical reductant for ",Fe-S clusters," (Fig. 1c, and Supplementary Fig. 7, lane 1).",Not_a_complex
+27694803_7,s7,T22,T23,These results demonstrated that ,Cbr1, can reduce ,Dph3," using NADH in vitro.
+",Not_a_complex
+27694803_7,s7,T22,T33,These results demonstrated that ,Cbr1, can reduce Dph3 using ,NADH," in vitro.
+",Not_a_complex
+27694803_7,s7,T23,T33,These results demonstrated that Cbr1 can reduce ,Dph3, using ,NADH," in vitro.
+",Not_a_complex

@@ -1,0 +1,3 @@
+20404999_54,s2,T4,T1,Data for the ,IscS,-,IscU," complex were collected at 4degreesC with protein concentrations of 4.5 mg/ml (10 h), 10 mg/ml (2 h), and 21 mg/ml (2 h).",Complex_formation
+20404999_54,s3,T5,T2,For the ,IscS,-,TusA," complex, a data set was recorded at 4degreesC for 30 min at 22 mg/ml.",Complex_formation
+20404999_54,s5,T6,T3,Data sets recorded at different concentrations for ,IscS,-,IscU," were merged in Primus after removal of the lowest resolution shell (0.012-0.12 Aa-1) for the 10 and 21 mg/ml data sets, for which Guinier plots showed larger Rg values (~39 Aa) indicating concentration-dependent oligomerization.",Not_a_complex

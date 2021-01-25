@@ -1,0 +1,34 @@
+19141288_18,s0,T1,T2,The ,PhK,/,GPb, complex was formed in solution before deposition on the electron microscope grid.,Complex_formation
+19141288_18,s1,T3,T4,"Divalent cations Mg2+ and Ca2+ were included in the buffer, because these enhance the affinity of ",PhK, for ,GPb, by about 8-fold.,Complex_formation
+19141288_18,s1,T24,T25,Divalent cations ,Mg2+, and ,Ca2+," were included in the buffer, because these enhance the affinity of PhK for GPb by about 8-fold.",Not_a_complex
+19141288_18,s1,T24,T3,Divalent cations ,Mg2+," and Ca2+ were included in the buffer, because these enhance the affinity of ",PhK, for GPb by about 8-fold.,Not_a_complex
+19141288_18,s1,T25,T3,Divalent cations Mg2+ and ,Ca2+," were included in the buffer, because these enhance the affinity of ",PhK, for GPb by about 8-fold.,Not_a_complex
+19141288_18,s1,T24,T4,Divalent cations ,Mg2+," and Ca2+ were included in the buffer, because these enhance the affinity of PhK for ",GPb, by about 8-fold.,Not_a_complex
+19141288_18,s1,T25,T4,Divalent cations Mg2+ and ,Ca2+," were included in the buffer, because these enhance the affinity of PhK for ",GPb, by about 8-fold.,Not_a_complex
+19141288_18,s2,T5,T6,Quantitative assessment of the affinity of the multivalent proteins ,PhK, tetramer (MW 1.3 x 106) and ,GPb, dimer (MW 1.94 x 105) is not easy.,Not_a_complex
+19141288_18,s3,T7,T8,The ,PhK,/,GPb," complex was analyzed by gel filtration on a Superose 6 column, but the results were inconclusive.",Complex_formation
+19141288_18,s4,T9,T10,The Km for the ,PhK, phosphorylation of ,GPb, is 9 muM (Table 1).,Not_a_complex
+19141288_18,s6,T12,T13,"Hence, Kd for ",PhK,/,GPb," could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of Mg2+ and Ca2+.",Not_a_complex
+19141288_18,s6,T12,T26,"Hence, Kd for ",PhK,"/GPb could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of ",Mg2+, and Ca2+.,Not_a_complex
+19141288_18,s6,T12,T27,"Hence, Kd for ",PhK,"/GPb could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of Mg2+ and ",Ca2+,.,Not_a_complex
+19141288_18,s6,T13,T26,"Hence, Kd for PhK/",GPb," could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of ",Mg2+, and Ca2+.,Not_a_complex
+19141288_18,s6,T13,T27,"Hence, Kd for PhK/",GPb," could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of Mg2+ and ",Ca2+,.,Not_a_complex
+19141288_18,s6,T26,T27,"Hence, Kd for PhK/GPb could be ~9 muM. However, used an ELISA assay to measure affinities and found an apparent Kd ~40 nM for control conditions that was reduced to an apparent Kd 5 nM in the presence of ",Mg2+, and ,Ca2+,.,Not_a_complex
+19141288_18,s8,T14,T15,The concentrations used in preparing the ,PhK,/,GPb, sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Complex_formation
+19141288_18,s8,T18,T19,The concentrations used in preparing the PhK/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 ,PhK, (alphabetagammadelta):0.8 ,GPb, dimer.,Complex_formation
+19141288_18,s8,T14,T16,The concentrations used in preparing the ,PhK,/GPb sample (,PhK, tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T14,T17,The concentrations used in preparing the ,PhK,/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and ,GPb, dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T14,T18,The concentrations used in preparing the ,PhK,/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 ,PhK, (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T14,T19,The concentrations used in preparing the ,PhK,/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 ,GPb, dimer.,Not_a_complex
+19141288_18,s8,T15,T16,The concentrations used in preparing the PhK/,GPb, sample (,PhK, tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T15,T17,The concentrations used in preparing the PhK/,GPb, sample (PhK tetramer 2.22 mg/ml [1.71 muM] and ,GPb, dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T15,T18,The concentrations used in preparing the PhK/,GPb, sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 ,PhK, (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T15,T19,The concentrations used in preparing the PhK/,GPb, sample (PhK tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 ,GPb, dimer.,Not_a_complex
+19141288_18,s8,T16,T17,The concentrations used in preparing the PhK/GPb sample (,PhK, tetramer 2.22 mg/ml [1.71 muM] and ,GPb, dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T16,T18,The concentrations used in preparing the PhK/GPb sample (,PhK, tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 ,PhK, (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T16,T19,The concentrations used in preparing the PhK/GPb sample (,PhK, tetramer 2.22 mg/ml [1.71 muM] and GPb dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 ,GPb, dimer.,Not_a_complex
+19141288_18,s8,T17,T18,The concentrations used in preparing the PhK/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and ,GPb, dimer 1.08 mg/ml [5.54 muM]) correspond to 1 ,PhK, (alphabetagammadelta):0.8 GPb dimer.,Not_a_complex
+19141288_18,s8,T17,T19,The concentrations used in preparing the PhK/GPb sample (PhK tetramer 2.22 mg/ml [1.71 muM] and ,GPb, dimer 1.08 mg/ml [5.54 muM]) correspond to 1 PhK (alphabetagammadelta):0.8 ,GPb, dimer.,Not_a_complex
+19141288_18,s9,T20,T21,"Depending on the value of Kd, saturation of ",PhK, with ,GPb, could have been between 1% and 80%.,Complex_formation
+19141288_18,s10,T22,T23,"The appearance of the particles on the grids showed all particles with an increase in size, indicating that some were ",GPb," bound, compared with the native ",PhK," particles.
+",Not_a_complex

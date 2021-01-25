@@ -1,0 +1,29 @@
+22815787,s0,T9,T1,,L1CAM, binds ,ErbB," receptors through Ig-like domains coupling cell adhesion and neuregulin signalling. 
+",Complex_formation
+22815787,s0,T1,T10,L1CAM binds ,ErbB, receptors through Ig-like domains coupling cell adhesion and ,neuregulin," signalling. 
+",Not_a_complex
+22815787,s0,T9,T10,,L1CAM, binds ErbB receptors through Ig-like domains coupling cell adhesion and ,neuregulin," signalling. 
+",Not_a_complex
+22815787,s4,T11,T12,Immunoglobulin superfamily proteins of the NCAM and ,L1, families couple specific substrate recognition and cell adhesion with the activation of ,receptor tyrosine kinases,.,Not_a_complex
+22815787,s4,T2,T11,Immunoglobulin superfamily proteins of the ,NCAM, and ,L1, families couple specific substrate recognition and cell adhesion with the activation of receptor tyrosine kinases.,Not_a_complex
+22815787,s4,T2,T12,Immunoglobulin superfamily proteins of the ,NCAM, and L1 families couple specific substrate recognition and cell adhesion with the activation of ,receptor tyrosine kinases,.,Not_a_complex
+22815787,s5,T13,T3,Thus it has been shown that ,L1CAM,-mediated cell adhesion promotes the activation of the ,EGFR, (erbB1) from Drosophila to humans.,Not_a_complex
+22815787,s5,T3,T4,Thus it has been shown that L1CAM-mediated cell adhesion promotes the activation of the ,EGFR, (,erbB1,) from Drosophila to humans.,Not_a_complex
+22815787,s5,T13,T4,Thus it has been shown that ,L1CAM,-mediated cell adhesion promotes the activation of the EGFR (,erbB1,) from Drosophila to humans.,Not_a_complex
+22815787,s6,T14,T5,Here we explore the specificity of the molecular interaction between ,L1CAM, and the ,erbB, receptor family.,Complex_formation
+22815787,s7,T15,T6,We show that ,L1CAM, binds physically ,erbB, receptors in both heterologous systems and the mammalian developing brain.,Complex_formation
+22815787,s9,T17,T7,"Interestingly, binding of ",L1CAM, to ,erbB, enhances its response to neuregulins.,Complex_formation
+22815787,s9,T17,T20,"Interestingly, binding of ",L1CAM, to erbB enhances its response to ,neuregulins,.,Not_a_complex
+22815787,s9,T7,T20,"Interestingly, binding of L1CAM to ",erbB, enhances its response to ,neuregulins,.,Not_a_complex
+22815787,s10,T8,T18,During development this may synergize with the activation of ,erbB, receptors through ,L1CAM," homophilic interactions, conferring diffusible neuregulins specificity for cells or axons that interact with the substrate through L1CAM. 
+",Complex_formation
+22815787,s10,T18,T19,During development this may synergize with the activation of erbB receptors through ,L1CAM," homophilic interactions, conferring diffusible neuregulins specificity for cells or axons that interact with the substrate through ",L1CAM,". 
+",Not_a_complex
+22815787,s10,T18,T21,During development this may synergize with the activation of erbB receptors through ,L1CAM," homophilic interactions, conferring diffusible ",neuregulins," specificity for cells or axons that interact with the substrate through L1CAM. 
+",Not_a_complex
+22815787,s10,T21,T19,"During development this may synergize with the activation of erbB receptors through L1CAM homophilic interactions, conferring diffusible ",neuregulins, specificity for cells or axons that interact with the substrate through ,L1CAM,". 
+",Not_a_complex
+22815787,s10,T8,T19,During development this may synergize with the activation of ,erbB," receptors through L1CAM homophilic interactions, conferring diffusible neuregulins specificity for cells or axons that interact with the substrate through ",L1CAM,". 
+",Not_a_complex
+22815787,s10,T8,T21,During development this may synergize with the activation of ,erbB," receptors through L1CAM homophilic interactions, conferring diffusible ",neuregulins," specificity for cells or axons that interact with the substrate through L1CAM. 
+",Not_a_complex

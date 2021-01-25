@@ -1,0 +1,20 @@
+22939628_3,s0,T6,T7,Intracellular ,calcium, (,Ca2+,) homeostasis plays a crucial role in neuron survival and function.,Not_a_complex
+22939628_3,s1,T10,T11,Neuronal Ca2+ influx is mediated through voltage-gated channels and/or ,receptor-operated channels, activated by ,neurotransmitters,.,Not_a_complex
+22939628_3,s1,T8,T10,Neuronal ,Ca2+, influx is mediated through voltage-gated channels and/or ,receptor-operated channels, activated by neurotransmitters.,Not_a_complex
+22939628_3,s1,T8,T11,Neuronal ,Ca2+, influx is mediated through voltage-gated channels and/or receptor-operated channels activated by ,neurotransmitters,.,Not_a_complex
+22939628_3,s1,T8,T9,Neuronal ,Ca2+, influx is mediated through ,voltage-gated channels, and/or receptor-operated channels activated by neurotransmitters.,Not_a_complex
+22939628_3,s1,T9,T10,Neuronal Ca2+ influx is mediated through ,voltage-gated channels, and/or ,receptor-operated channels, activated by neurotransmitters.,Not_a_complex
+22939628_3,s1,T9,T11,Neuronal Ca2+ influx is mediated through ,voltage-gated channels, and/or receptor-operated channels activated by ,neurotransmitters,.,Not_a_complex
+22939628_3,s2,T12,T13,Intracellular ,Ca2+, release occurs via ,ryanodine receptors," (RyRs) and inositol (1,4,5)-trisphosphate receptors (IP3Rs) on the endoplasmic reticulum (ER).",Not_a_complex
+22939628_3,s2,T12,T14,Intracellular ,Ca2+, release occurs via ryanodine receptors (,RyRs,") and inositol (1,4,5)-trisphosphate receptors (IP3Rs) on the endoplasmic reticulum (ER).",Not_a_complex
+22939628_3,s2,T12,T15,Intracellular ,Ca2+, release occurs via ryanodine receptors (RyRs) and ,"inositol (1,4,5)-trisphosphate receptors", (IP3Rs) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T12,T16,Intracellular ,Ca2+," release occurs via ryanodine receptors (RyRs) and inositol (1,4,5)-trisphosphate receptors (",IP3Rs,) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T13,T14,Intracellular Ca2+ release occurs via ,ryanodine receptors, (,RyRs,") and inositol (1,4,5)-trisphosphate receptors (IP3Rs) on the endoplasmic reticulum (ER).",Not_a_complex
+22939628_3,s2,T13,T15,Intracellular Ca2+ release occurs via ,ryanodine receptors, (RyRs) and ,"inositol (1,4,5)-trisphosphate receptors", (IP3Rs) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T13,T16,Intracellular Ca2+ release occurs via ,ryanodine receptors," (RyRs) and inositol (1,4,5)-trisphosphate receptors (",IP3Rs,) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T14,T15,Intracellular Ca2+ release occurs via ryanodine receptors (,RyRs,) and ,"inositol (1,4,5)-trisphosphate receptors", (IP3Rs) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T14,T16,Intracellular Ca2+ release occurs via ryanodine receptors (,RyRs,") and inositol (1,4,5)-trisphosphate receptors (",IP3Rs,) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s2,T15,T16,Intracellular Ca2+ release occurs via ryanodine receptors (RyRs) and ,"inositol (1,4,5)-trisphosphate receptors", (,IP3Rs,) on the endoplasmic reticulum (ER).,Not_a_complex
+22939628_3,s4,T1,T2,,RyR1, and ,RyR2, are both expressed in the hippocampus.,Not_a_complex
+22939628_3,s6,T4,T5,,RyR2, knock-down impairs performance of mice in passive avoidance tests whereas ,RyR1," knock-down did not.
+",Not_a_complex

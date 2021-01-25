@@ -1,0 +1,31 @@
+17911105,s1,T16,T2,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of ",presenilin,", ",Pen-2,", nicastrin, and Aph-1.",Complex_formation
+17911105,s1,T2,T3,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of presenilin, ",Pen-2,", ",nicastrin,", and Aph-1.",Complex_formation
+17911105,s1,T2,T4,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of presenilin, ",Pen-2,", nicastrin, and ",Aph-1,.,Complex_formation
+17911105,s1,T16,T3,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of ",presenilin,", Pen-2, ",nicastrin,", and Aph-1.",Complex_formation
+17911105,s1,T3,T4,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of presenilin, Pen-2, ",nicastrin,", and ",Aph-1,.,Complex_formation
+17911105,s1,T16,T4,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the Notch receptor, and is composed of ",presenilin,", Pen-2, nicastrin, and ",Aph-1,.,Complex_formation
+17911105,s1,T14,T1,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the ",amyloid beta-protein precursor, and the ,Notch," receptor, and is composed of presenilin, Pen-2, nicastrin, and Aph-1.",Not_a_complex
+17911105,s1,T1,T16,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the ",Notch," receptor, and is composed of ",presenilin,", Pen-2, nicastrin, and Aph-1.",Not_a_complex
+17911105,s1,T1,T2,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the ",Notch," receptor, and is composed of presenilin, ",Pen-2,", nicastrin, and Aph-1.",Not_a_complex
+17911105,s1,T1,T3,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the ",Notch," receptor, and is composed of presenilin, Pen-2, ",nicastrin,", and Aph-1.",Not_a_complex
+17911105,s1,T1,T4,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the amyloid beta-protein precursor and the ",Notch," receptor, and is composed of presenilin, Pen-2, nicastrin, and ",Aph-1,.,Not_a_complex
+17911105,s1,T14,T16,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the ",amyloid beta-protein precursor," and the Notch receptor, and is composed of ",presenilin,", Pen-2, nicastrin, and Aph-1.",Not_a_complex
+17911105,s1,T14,T2,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the ",amyloid beta-protein precursor," and the Notch receptor, and is composed of presenilin, ",Pen-2,", nicastrin, and Aph-1.",Not_a_complex
+17911105,s1,T14,T3,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the ",amyloid beta-protein precursor," and the Notch receptor, and is composed of presenilin, Pen-2, ",nicastrin,", and Aph-1.",Not_a_complex
+17911105,s1,T14,T4,"Gamma-secretase is an intramembrane aspartyl protease complex that cleaves type I integral membrane proteins, including the ",amyloid beta-protein precursor," and the Notch receptor, and is composed of presenilin, Pen-2, nicastrin, and ",Aph-1,.,Not_a_complex
+17911105,s5,T5,T19,We also quantified components in the isolated complexes by Western blot using protein standards and found that the amounts of ,Pen-2, and nicastrin were the same as that of ,presenilin,.,Complex_formation
+17911105,s5,T5,T6,We also quantified components in the isolated complexes by Western blot using protein standards and found that the amounts of ,Pen-2, and ,nicastrin, were the same as that of presenilin.,Complex_formation
+17911105,s5,T6,T19,We also quantified components in the isolated complexes by Western blot using protein standards and found that the amounts of Pen-2 and ,nicastrin, were the same as that of ,presenilin,.,Complex_formation
+17911105,s6,T7,T8,"Moreover, we found that one ",Aph-1," was not co-immunoprecipitated with another in active complexes, evidence that ",Aph-1, is likewise present as a monomer.,Not_a_complex
+17911105,s7,T10,T11,"Taken together, these results demonstrate that the stoichiometry of gamma-components presenilin:Pen-2:",nicastrin,:,Aph-1," is 1:1:1:1. 
+",Complex_formation
+17911105,s7,T20,T10,"Taken together, these results demonstrate that the stoichiometry of gamma-components ",presenilin,:Pen-2:,nicastrin,":Aph-1 is 1:1:1:1. 
+",Complex_formation
+17911105,s7,T20,T11,"Taken together, these results demonstrate that the stoichiometry of gamma-components ",presenilin,:Pen-2:nicastrin:,Aph-1," is 1:1:1:1. 
+",Complex_formation
+17911105,s7,T9,T10,"Taken together, these results demonstrate that the stoichiometry of gamma-components presenilin:",Pen-2,:,nicastrin,":Aph-1 is 1:1:1:1. 
+",Complex_formation
+17911105,s7,T9,T11,"Taken together, these results demonstrate that the stoichiometry of gamma-components presenilin:",Pen-2,:nicastrin:,Aph-1," is 1:1:1:1. 
+",Complex_formation
+17911105,s7,T20,T9,"Taken together, these results demonstrate that the stoichiometry of gamma-components ",presenilin,:,Pen-2,":nicastrin:Aph-1 is 1:1:1:1. 
+",Complex_formation

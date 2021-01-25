@@ -1,0 +1,40 @@
+9356494,s0,T1,T2,The Epstein-Barr virus oncogene product ,latent membrane protein 1, engages the ,tumor necrosis factor receptor,"-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus latent membrane protein 1 (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.",Complex_formation
+9356494,s0,T1,T18,The Epstein-Barr virus oncogene product ,latent membrane protein 1, engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate ,NF-kappaB,". 
+The Epstein-Barr virus latent membrane protein 1 (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.",Not_a_complex
+9356494,s0,T1,T3,The Epstein-Barr virus oncogene product ,latent membrane protein 1," engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus ",latent membrane protein 1, (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T1,T4,The Epstein-Barr virus oncogene product ,latent membrane protein 1," engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus latent membrane protein 1 (",LMP1,) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T2,T18,The Epstein-Barr virus oncogene product latent membrane protein 1 engages the ,tumor necrosis factor receptor,-associated death domain protein to mediate B lymphocyte growth transformation and activate ,NF-kappaB,". 
+The Epstein-Barr virus latent membrane protein 1 (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.",Not_a_complex
+9356494,s0,T2,T3,The Epstein-Barr virus oncogene product latent membrane protein 1 engages the ,tumor necrosis factor receptor,"-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus ",latent membrane protein 1, (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T2,T4,The Epstein-Barr virus oncogene product latent membrane protein 1 engages the ,tumor necrosis factor receptor,"-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus latent membrane protein 1 (",LMP1,) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T18,T3,The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate ,NF-kappaB,". 
+The Epstein-Barr virus ",latent membrane protein 1, (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T3,T4,"The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB. 
+The Epstein-Barr virus ",latent membrane protein 1, (,LMP1,) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s0,T18,T4,The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate ,NF-kappaB,". 
+The Epstein-Barr virus latent membrane protein 1 (",LMP1,) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.,Not_a_complex
+9356494,s5,T21,T6,A yeast two-hybrid screen identified ,TES2," interacting proteins, including the ",tumor necrosis factor receptor-associated death domain protein, (TRADD).,Complex_formation
+9356494,s5,T21,T7,A yeast two-hybrid screen identified ,TES2," interacting proteins, including the tumor necrosis factor receptor-associated death domain protein (",TRADD,).,Complex_formation
+9356494,s5,T6,T7,"A yeast two-hybrid screen identified TES2 interacting proteins, including the ",tumor necrosis factor receptor-associated death domain protein, (,TRADD,).,Not_a_complex
+9356494,s6,T8,T22,,TRADD, was the only protein that interacted with wild-type ,TES2, and not with isoleucine-mutated TES2.,Complex_formation
+9356494,s6,T22,T23,TRADD was the only protein that interacted with wild-type ,TES2, and not with isoleucine-mutated ,TES2,.,Not_a_complex
+9356494,s6,T8,T23,,TRADD, was the only protein that interacted with wild-type TES2 and not with isoleucine-mutated ,TES2,.,Not_a_complex
+9356494,s7,T12,T13,"TRADD associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and ",TRADD, constitutively associated with ,LMP1, in EBV-transformed cells.,Complex_formation
+9356494,s7,T9,T10,,TRADD, associated with wild-type ,LMP1," but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-transformed cells.",Complex_formation
+9356494,s7,T10,T11,TRADD associated with wild-type ,LMP1, but not with isoleucine-mutated ,LMP1," in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-transformed cells.",Not_a_complex
+9356494,s7,T10,T12,TRADD associated with wild-type ,LMP1," but not with isoleucine-mutated LMP1 in mammalian cells, and ",TRADD, constitutively associated with LMP1 in EBV-transformed cells.,Not_a_complex
+9356494,s7,T10,T13,TRADD associated with wild-type ,LMP1," but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with ",LMP1, in EBV-transformed cells.,Not_a_complex
+9356494,s7,T11,T12,TRADD associated with wild-type LMP1 but not with isoleucine-mutated ,LMP1," in mammalian cells, and ",TRADD, constitutively associated with LMP1 in EBV-transformed cells.,Not_a_complex
+9356494,s7,T11,T13,TRADD associated with wild-type LMP1 but not with isoleucine-mutated ,LMP1," in mammalian cells, and TRADD constitutively associated with ",LMP1, in EBV-transformed cells.,Not_a_complex
+9356494,s7,T9,T11,,TRADD, associated with wild-type LMP1 but not with isoleucine-mutated ,LMP1," in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-transformed cells.",Not_a_complex
+9356494,s7,T9,T12,,TRADD," associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and ",TRADD, constitutively associated with LMP1 in EBV-transformed cells.,Not_a_complex
+9356494,s7,T9,T13,,TRADD," associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with ",LMP1, in EBV-transformed cells.,Not_a_complex
+9356494,s8,T14,T15,"In transfection assays, ",TRADD, and ,TES2, synergistically mediated high-level NF-kappaB activation.,Complex_formation
+9356494,s8,T14,T19,"In transfection assays, ",TRADD, and TES2 synergistically mediated high-level ,NF-kappaB, activation.,Not_a_complex
+9356494,s8,T15,T19,"In transfection assays, TRADD and ",TES2, synergistically mediated high-level ,NF-kappaB, activation.,Not_a_complex
+9356494,s9,T16,T17,These results indicate that ,LMP1, appropriates ,TRADD, to enable efficient long-term lymphoblastoid cell outgrowth.,Not_a_complex

@@ -1,0 +1,33 @@
+7659529,s0,T1,T2,Regulation of transcription of the human ,erythropoietin receptor, gene by proteins binding to ,GATA-1," and Sp1 motifs. 
+",Not_a_complex
+7659529,s0,T1,T3,Regulation of transcription of the human ,erythropoietin receptor, gene by proteins binding to GATA-1 and ,Sp1," motifs. 
+",Not_a_complex
+7659529,s0,T2,T3,Regulation of transcription of the human erythropoietin receptor gene by proteins binding to ,GATA-1, and ,Sp1," motifs. 
+",Not_a_complex
+7659529,s1,T4,T6,,Erythropoietin," (Epo), the primary regulator of the production of erythroid cells, acts by binding to a cell surface receptor (",EpoR,) on erythroid progenitors.,Complex_formation
+7659529,s1,T5,T6,Erythropoietin (,Epo,"), the primary regulator of the production of erythroid cells, acts by binding to a cell surface receptor (",EpoR,) on erythroid progenitors.,Complex_formation
+7659529,s1,T4,T5,,Erythropoietin, (,Epo,"), the primary regulator of the production of erythroid cells, acts by binding to a cell surface receptor (EpoR) on erythroid progenitors.",Not_a_complex
+7659529,s3,T30,T8,In erythroid cells most of the transcription activity was contained in a 150 bp promoter fragment with binding sites for transcription factors ,AP2,", ",Sp1, and the erythroid-specific GATA-1.,Not_a_complex
+7659529,s3,T8,T9,"In erythroid cells most of the transcription activity was contained in a 150 bp promoter fragment with binding sites for transcription factors AP2, ",Sp1, and the erythroid-specific ,GATA-1,.,Not_a_complex
+7659529,s3,T30,T9,In erythroid cells most of the transcription activity was contained in a 150 bp promoter fragment with binding sites for transcription factors ,AP2,", Sp1 and the erythroid-specific ",GATA-1,.,Not_a_complex
+7659529,s4,T10,T11,The 150 bp ,hEpoR," promoter exhibited high and low activity in erythroid OCIM1 and K562 cells, respectively, reflecting the high and low levels of constitutive ",hEpoR, expression.,Not_a_complex
+7659529,s5,T12,T13,The ,GATA-1, and ,Sp1, binding sites in this promoter lacking a TATA sequence were necessary for a high level of transcription activation.,Not_a_complex
+7659529,s6,T14,T15,Protein-DNA binding studies suggested that ,Sp1, and two other CCGCCC binding proteins from erythroid and non-erythroid cells could bind to the ,Sp1, binding motif.,Not_a_complex
+7659529,s7,T16,T17,By increasing ,GATA-1," levels via co-transfection, we were able to transactivate the ",hEpoR," promoter in K562 cells and non-erythroid cells, but not in the highly active OCIM1 cells, although GATA-1 mRNA levels were comparable in OCIM1 and K562.",Not_a_complex
+7659529,s7,T16,T18,By increasing ,GATA-1," levels via co-transfection, we were able to transactivate the hEpoR promoter in K562 cells and non-erythroid cells, but not in the highly active OCIM1 cells, although ",GATA-1, mRNA levels were comparable in OCIM1 and K562.,Not_a_complex
+7659529,s7,T17,T18,"By increasing GATA-1 levels via co-transfection, we were able to transactivate the ",hEpoR," promoter in K562 cells and non-erythroid cells, but not in the highly active OCIM1 cells, although ",GATA-1, mRNA levels were comparable in OCIM1 and K562.,Not_a_complex
+7659529,s8,T19,T20,"Interestingly, when we mutated the ",Sp1," site, resulting in a marked decrease in ",hEpoR," promoter activity, we could restore transactivation by increasing GATA-1 levels in OCIM1 cells.",Not_a_complex
+7659529,s8,T19,T21,"Interestingly, when we mutated the ",Sp1," site, resulting in a marked decrease in hEpoR promoter activity, we could restore transactivation by increasing ",GATA-1, levels in OCIM1 cells.,Not_a_complex
+7659529,s8,T20,T21,"Interestingly, when we mutated the Sp1 site, resulting in a marked decrease in ",hEpoR," promoter activity, we could restore transactivation by increasing ",GATA-1, levels in OCIM1 cells.,Not_a_complex
+7659529,s9,T22,T23,These data suggest that while ,GATA-1, can transactivate the ,EpoR," promoter, the level of hEpoR gene expression does not depend on GATA-1 alone.",Not_a_complex
+7659529,s9,T22,T24,These data suggest that while ,GATA-1," can transactivate the EpoR promoter, the level of ",hEpoR, gene expression does not depend on GATA-1 alone.,Not_a_complex
+7659529,s9,T22,T25,These data suggest that while ,GATA-1," can transactivate the EpoR promoter, the level of hEpoR gene expression does not depend on ",GATA-1, alone.,Not_a_complex
+7659529,s9,T23,T24,These data suggest that while GATA-1 can transactivate the ,EpoR," promoter, the level of ",hEpoR, gene expression does not depend on GATA-1 alone.,Not_a_complex
+7659529,s9,T23,T25,These data suggest that while GATA-1 can transactivate the ,EpoR," promoter, the level of hEpoR gene expression does not depend on ",GATA-1, alone.,Not_a_complex
+7659529,s9,T24,T25,"These data suggest that while GATA-1 can transactivate the EpoR promoter, the level of ",hEpoR, gene expression does not depend on ,GATA-1, alone.,Not_a_complex
+7659529,s10,T26,T27,"Rather, ",hEpoR, transcription activity depends on coordination between ,Sp1," and GATA-1 with other cell-specific factors, including possibly other Sp1-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex
+7659529,s10,T26,T28,"Rather, ",hEpoR, transcription activity depends on coordination between Sp1 and ,GATA-1," with other cell-specific factors, including possibly other Sp1-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex
+7659529,s10,T26,T29,"Rather, ",hEpoR," transcription activity depends on coordination between Sp1 and GATA-1 with other cell-specific factors, including possibly other ",Sp1,"-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex
+7659529,s10,T27,T28,"Rather, hEpoR transcription activity depends on coordination between ",Sp1, and ,GATA-1," with other cell-specific factors, including possibly other Sp1-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex
+7659529,s10,T27,T29,"Rather, hEpoR transcription activity depends on coordination between ",Sp1," and GATA-1 with other cell-specific factors, including possibly other ",Sp1,"-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex
+7659529,s10,T28,T29,"Rather, hEpoR transcription activity depends on coordination between Sp1 and ",GATA-1," with other cell-specific factors, including possibly other ",Sp1,"-like binding proteins, to provide high level, tissue-specific expression.",Not_a_complex

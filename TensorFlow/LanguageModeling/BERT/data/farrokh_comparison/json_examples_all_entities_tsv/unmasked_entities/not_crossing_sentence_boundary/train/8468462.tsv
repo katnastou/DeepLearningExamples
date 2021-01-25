@@ -1,0 +1,45 @@
+8468462,s1,T1,T2,Enhanced ,IL-2, transcription correlates with increased ,c-fos," synthesis and increased Fos content of AP-1. 
+",Not_a_complex
+8468462,s1,T1,T32,Enhanced ,IL-2, transcription correlates with increased c-fos synthesis and increased Fos content of ,AP-1,". 
+",Not_a_complex
+8468462,s1,T2,T32,Enhanced IL-2 transcription correlates with increased ,c-fos, synthesis and increased Fos content of ,AP-1,". 
+",Not_a_complex
+8468462,s3,T4,T5,We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via ,CD2,:,lymphocyte function-associated Ag-3," and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.",Complex_formation
+8468462,s3,T3,T4,We previously reported that human umbilical vein EC provide costimulatory signals to ,PHA,-stimulated PBL via ,CD2,":lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.",Not_a_complex
+8468462,s3,T3,T5,We previously reported that human umbilical vein EC provide costimulatory signals to ,PHA,-stimulated PBL via CD2:,lymphocyte function-associated Ag-3," and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.",Not_a_complex
+8468462,s3,T3,T6,We previously reported that human umbilical vein EC provide costimulatory signals to ,PHA,"-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of ",IL-2, production.,Not_a_complex
+8468462,s3,T4,T6,We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via ,CD2,":lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of ",IL-2, production.,Not_a_complex
+8468462,s3,T5,T6,We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:,lymphocyte function-associated Ag-3," and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of ",IL-2, production.,Not_a_complex
+8468462,s5,T7,T8,We now report that EC costimulation causes increased levels of ,IL-2, mRNA as a result of increased ,IL-2, transcription in PBL.,Not_a_complex
+8468462,s6,T10,T11,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including ",c-jun, and ,c-fos,"-two components of the transcription factor AP-1, NFAT, and others.",Complex_formation
+8468462,s6,T10,T34,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including ",c-jun, and c-fos-two components of the transcription factor ,AP-1,", NFAT, and others.",Not_a_complex
+8468462,s6,T10,T35,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including ",c-jun," and c-fos-two components of the transcription factor AP-1, ",NFAT,", and others.",Not_a_complex
+8468462,s6,T11,T34,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including c-jun and ",c-fos,-two components of the transcription factor ,AP-1,", NFAT, and others.",Not_a_complex
+8468462,s6,T11,T35,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including c-jun and ",c-fos,"-two components of the transcription factor AP-1, ",NFAT,", and others.",Not_a_complex
+8468462,s6,T34,T35,"We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 transcription, including c-jun and c-fos-two components of the transcription factor ",AP-1,", ",NFAT,", and others.",Not_a_complex
+8468462,s6,T9,T10,We therefore examined the effects of EC on T cell nuclear factors known to regulate ,IL-2," transcription, including ",c-jun," and c-fos-two components of the transcription factor AP-1, NFAT, and others.",Not_a_complex
+8468462,s6,T9,T11,We therefore examined the effects of EC on T cell nuclear factors known to regulate ,IL-2," transcription, including c-jun and ",c-fos,"-two components of the transcription factor AP-1, NFAT, and others.",Not_a_complex
+8468462,s6,T9,T34,We therefore examined the effects of EC on T cell nuclear factors known to regulate ,IL-2," transcription, including c-jun and c-fos-two components of the transcription factor ",AP-1,", NFAT, and others.",Not_a_complex
+8468462,s6,T9,T35,We therefore examined the effects of EC on T cell nuclear factors known to regulate ,IL-2," transcription, including c-jun and c-fos-two components of the transcription factor AP-1, ",NFAT,", and others.",Not_a_complex
+8468462,s7,T12,T13,PBL constitutively express ,c-jun," transcripts, and the level of ",c-jun, mRNA is not altered by PHA activation in the absence or presence of EC.,Not_a_complex
+8468462,s7,T12,T14,PBL constitutively express ,c-jun," transcripts, and the level of c-jun mRNA is not altered by ",PHA, activation in the absence or presence of EC.,Not_a_complex
+8468462,s7,T13,T14,"PBL constitutively express c-jun transcripts, and the level of ",c-jun, mRNA is not altered by ,PHA, activation in the absence or presence of EC.,Not_a_complex
+8468462,s8,T15,T16,"In contrast, ",c-fos, mRNA is absent from resting T cells and is induced on ,PHA, activation.,Not_a_complex
+8468462,s9,T17,T18,EC alone do not induce ,c-fos, mRNA but augment the level of ,c-fos, mRNA in PHA-activated T cells by 3- to 10-fold.,Not_a_complex
+8468462,s9,T17,T19,EC alone do not induce ,c-fos, mRNA but augment the level of c-fos mRNA in ,PHA,-activated T cells by 3- to 10-fold.,Not_a_complex
+8468462,s9,T18,T19,EC alone do not induce c-fos mRNA but augment the level of ,c-fos, mRNA in ,PHA,-activated T cells by 3- to 10-fold.,Not_a_complex
+8468462,s11,T22,T23,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal AP-1 site of the ,IL-2, promoter and that contain immunoreactive ,c-Jun, but not c-Fos protein.,Not_a_complex
+8468462,s11,T22,T24,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal AP-1 site of the ,IL-2, promoter and that contain immunoreactive c-Jun but not ,c-Fos, protein.,Not_a_complex
+8468462,s11,T36,T22,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal ,AP-1, site of the ,IL-2, promoter and that contain immunoreactive c-Jun but not c-Fos protein.,Not_a_complex
+8468462,s11,T23,T24,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal AP-1 site of the IL-2 promoter and that contain immunoreactive ,c-Jun, but not ,c-Fos, protein.,Not_a_complex
+8468462,s11,T36,T23,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal ,AP-1, site of the IL-2 promoter and that contain immunoreactive ,c-Jun, but not c-Fos protein.,Not_a_complex
+8468462,s11,T36,T24,Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal ,AP-1, site of the IL-2 promoter and that contain immunoreactive c-Jun but not ,c-Fos, protein.,Not_a_complex
+8468462,s12,T26,T27,"In contrast, AP-1 from PHA-activated cells contains ",c-Jun, and low levels of ,c-Fos,.,Complex_formation
+8468462,s12,T25,T26,"In contrast, AP-1 from ",PHA,-activated cells contains ,c-Jun, and low levels of c-Fos.,Not_a_complex
+8468462,s12,T25,T27,"In contrast, AP-1 from ",PHA,-activated cells contains c-Jun and low levels of ,c-Fos,.,Not_a_complex
+8468462,s12,T37,T25,"In contrast, ",AP-1, from ,PHA,-activated cells contains c-Jun and low levels of c-Fos.,Not_a_complex
+8468462,s12,T37,T26,"In contrast, ",AP-1, from PHA-activated cells contains ,c-Jun, and low levels of c-Fos.,Not_a_complex
+8468462,s12,T37,T27,"In contrast, ",AP-1, from PHA-activated cells contains c-Jun and low levels of ,c-Fos,.,Not_a_complex
+8468462,s13,T28,T38,"Strikingly, costimulation with EC results in a dramatic increase (up to 15-fold) in the ",c-Fos, content of ,AP-1,.,Not_a_complex
+8468462,s14,T29,T40,Levels of other nuclear factors involved in ,IL-2," regulation were not altered by EC, although ",NFAT,-DNA complexes migrated at a slightly different mobility.,Not_a_complex
+8468462,s15,T39,T30,"In summary, our data suggest that changes in the composition of transcription factor ",AP-1, is a key molecular mechanism for increasing ,IL-2, transcription and may underlie the phenomenon of costimulation by EC.,Not_a_complex

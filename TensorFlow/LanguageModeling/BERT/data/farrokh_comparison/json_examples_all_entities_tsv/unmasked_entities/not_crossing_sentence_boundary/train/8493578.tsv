@@ -1,0 +1,20 @@
+8493578,s0,T1,T2,Regulation of the Ets-related transcription factor ,Elf-1, by binding to the ,retinoblastoma protein,". 
+",Complex_formation
+8493578,s0,T20,T1,Regulation of the ,Ets,-related transcription factor ,Elf-1," by binding to the retinoblastoma protein. 
+",Not_a_complex
+8493578,s0,T20,T2,Regulation of the ,Ets,-related transcription factor Elf-1 by binding to the ,retinoblastoma protein,". 
+",Not_a_complex
+8493578,s1,T3,T4,The ,retinoblastoma, gene product (,Rb,) is a nuclear phosphoprotein that regulates cell cycle progression.,Not_a_complex
+8493578,s2,T5,T21,,Elf-1, is a lymphoid-specific ,Ets, transcription factor that regulates inducible gene expression during T cell activation.,Not_a_complex
+8493578,s3,T6,T7,"In this report, it is demonstrated that ",Elf-1, contains a sequence motif that is highly related to the ,Rb, binding sites of several viral oncoproteins and binds to the pocket region of Rb both in vitro and in vivo.,Complex_formation
+8493578,s3,T6,T8,"In this report, it is demonstrated that ",Elf-1, contains a sequence motif that is highly related to the Rb binding sites of several viral oncoproteins and binds to the pocket region of ,Rb, both in vitro and in vivo.,Complex_formation
+8493578,s3,T7,T8,"In this report, it is demonstrated that Elf-1 contains a sequence motif that is highly related to the ",Rb, binding sites of several viral oncoproteins and binds to the pocket region of ,Rb, both in vitro and in vivo.,Not_a_complex
+8493578,s4,T9,T10,,Elf-1, binds exclusively to the underphosphorylated form of ,Rb, and fails to bind to Rb mutants derived from patients with retinoblastoma.,Complex_formation
+8493578,s4,T10,T11,Elf-1 binds exclusively to the underphosphorylated form of ,Rb, and fails to bind to ,Rb, mutants derived from patients with retinoblastoma.,Not_a_complex
+8493578,s4,T9,T11,,Elf-1, binds exclusively to the underphosphorylated form of Rb and fails to bind to ,Rb, mutants derived from patients with retinoblastoma.,Not_a_complex
+8493578,s5,T12,T13,Co-immunoprecipitation experiments demonstrated an association between ,Elf-1, and ,Rb, in resting normal human T cells.,Complex_formation
+8493578,s6,T14,T15,"After T cell activation, the phosphorylation of ",Rb, results in the release of ,Elf-1,", which is correlated temporally with the activation of Elf-1-mediated transcription.",Not_a_complex
+8493578,s6,T14,T16,"After T cell activation, the phosphorylation of ",Rb," results in the release of Elf-1, which is correlated temporally with the activation of ",Elf-1,-mediated transcription.,Not_a_complex
+8493578,s6,T15,T16,"After T cell activation, the phosphorylation of Rb results in the release of ",Elf-1,", which is correlated temporally with the activation of ",Elf-1,-mediated transcription.,Not_a_complex
+8493578,s7,T17,T18,Overexpression of a phosphorylation-defective form of ,Rb, inhibited ,Elf-1,-dependent transcription during T cell activation.,Not_a_complex
+8493578,s8,T19,T22,These results demonstrate that ,Rb, interacts specifically with a lineage-restricted ,Ets, transcription factor.,Not_a_complex

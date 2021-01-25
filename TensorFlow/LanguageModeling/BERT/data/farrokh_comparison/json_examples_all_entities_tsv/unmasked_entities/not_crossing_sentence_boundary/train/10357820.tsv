@@ -1,0 +1,19 @@
+10357820,s0,T1,T11,Repression by ,Ikaros, and Aiolos is mediated through ,histone deacetylase," complexes. 
+",Not_a_complex
+10357820,s0,T1,T2,Repression by ,Ikaros, and ,Aiolos," is mediated through histone deacetylase complexes. 
+",Not_a_complex
+10357820,s0,T2,T11,Repression by Ikaros and ,Aiolos, is mediated through ,histone deacetylase," complexes. 
+",Not_a_complex
+10357820,s1,T3,T4,Here we show that the lymphoid lineage-determining factors ,Ikaros, and ,Aiolos, can function as strong transcriptional repressors.,Not_a_complex
+10357820,s3,T12,T13,Repression by Ikaros proteins correlates with hypo-acetylation of core ,histones, at promoter sites and is relieved by ,histone deacetylase, inhibitors.,Not_a_complex
+10357820,s3,T5,T12,Repression by ,Ikaros, proteins correlates with hypo-acetylation of core ,histones, at promoter sites and is relieved by histone deacetylase inhibitors.,Not_a_complex
+10357820,s3,T5,T13,Repression by ,Ikaros, proteins correlates with hypo-acetylation of core histones at promoter sites and is relieved by ,histone deacetylase, inhibitors.,Not_a_complex
+10357820,s4,T10,T14,"Consistent with these findings, Ikaros and its repression domains can interact in vivo and in vitro with the ",mSin3, family of co-repressors which bind to ,histone deacetylases,.,Complex_formation
+10357820,s4,T6,T10,"Consistent with these findings, ",Ikaros, and its repression domains can interact in vivo and in vitro with the ,mSin3, family of co-repressors which bind to histone deacetylases.,Complex_formation
+10357820,s4,T6,T14,"Consistent with these findings, ",Ikaros, and its repression domains can interact in vivo and in vitro with the mSin3 family of co-repressors which bind to ,histone deacetylases,.,Not_a_complex
+10357820,s5,T7,T8,Based on these and our recent findings of associations between ,Ikaros, and ,Mi-2-HDAC,", we propose that Ikaros family members modulate gene expression during lymphocyte development by recruiting distinct histone deacetylase complexes to specific promoters.",Complex_formation
+10357820,s5,T7,T15,Based on these and our recent findings of associations between ,Ikaros," and Mi-2-HDAC, we propose that Ikaros family members modulate gene expression during lymphocyte development by recruiting distinct ",histone deacetylase, complexes to specific promoters.,Not_a_complex
+10357820,s5,T7,T9,Based on these and our recent findings of associations between ,Ikaros," and Mi-2-HDAC, we propose that ",Ikaros, family members modulate gene expression during lymphocyte development by recruiting distinct histone deacetylase complexes to specific promoters.,Not_a_complex
+10357820,s5,T8,T15,Based on these and our recent findings of associations between Ikaros and ,Mi-2-HDAC,", we propose that Ikaros family members modulate gene expression during lymphocyte development by recruiting distinct ",histone deacetylase, complexes to specific promoters.,Not_a_complex
+10357820,s5,T8,T9,Based on these and our recent findings of associations between Ikaros and ,Mi-2-HDAC,", we propose that ",Ikaros, family members modulate gene expression during lymphocyte development by recruiting distinct histone deacetylase complexes to specific promoters.,Not_a_complex
+10357820,s5,T9,T15,"Based on these and our recent findings of associations between Ikaros and Mi-2-HDAC, we propose that ",Ikaros, family members modulate gene expression during lymphocyte development by recruiting distinct ,histone deacetylase, complexes to specific promoters.,Not_a_complex

@@ -1,0 +1,12 @@
+10660620,s0,T3,T4,,PILRalpha,", a novel immunoreceptor tyrosine-based inhibitory motif-bearing protein, recruits ",SHP-1," upon tyrosine phosphorylation and is paired with the truncated counterpart PILRbeta. 
+",Complex_formation
+10660620,s0,T3,T5,,PILRalpha,", a novel immunoreceptor tyrosine-based inhibitory motif-bearing protein, recruits SHP-1 upon tyrosine phosphorylation and is paired with the truncated counterpart ",PILRbeta,". 
+",Complex_formation
+10660620,s0,T4,T5,"PILRalpha, a novel immunoreceptor tyrosine-based inhibitory motif-bearing protein, recruits ",SHP-1, upon tyrosine phosphorylation and is paired with the truncated counterpart ,PILRbeta,". 
+",Not_a_complex
+10660620,s2,T7,T8,By using a modified yeast two-hybrid system and ,SHP-1," as bait, we have cloned a human cDNA, ",PILRalpha,", encoding a 303-amino acid immunoglobulin-like transmembrane receptor bearing two cytoplasmic tyrosines positioned within an immunoreceptor tyrosine-based inhibitory motif.",Not_a_complex
+10660620,s3,T9,T10,Substrate trapping in combination with pervanadate treatment of 293T cells confirms that ,PILRalpha, associates with ,SHP-1, in vivo upon tyrosine phosphorylation.,Complex_formation
+10660620,s4,T11,T1,Mutation of the tyrosine residues in ,PILRalpha, indicates the pivotal role of the Tyr-269 residue in recruiting ,SHP-1,.,Complex_formation
+10660620,s5,T12,T2,Surface plasmon resonance analysis further suggests that the association between ,PILRalpha,-Tyr-269 and ,SHP-1, is mediated primarily via the amino-terminal SH2 domain of the latter.,Complex_formation
+10660620,s7,T14,T15,The ,PILRalpha, and ,PILRbeta," genes are localized to chromosome 7 which is in contrast with the mapping of known members of the inhibitory receptor superfamily. 
+",Not_a_complex

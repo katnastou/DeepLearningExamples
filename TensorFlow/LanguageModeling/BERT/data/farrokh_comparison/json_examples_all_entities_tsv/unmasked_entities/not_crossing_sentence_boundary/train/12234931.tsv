@@ -1,0 +1,64 @@
+12234931,s0,T7,T8,,Disabled-2, exhibits the properties of a cargo-selective endocytic ,clathrin," adaptor. 
+",Not_a_complex
+12234931,s2,T24,T10,A major mode of cargo selection at the bud site is via the ,micro 2, subunit of the ,AP-2," adaptor complex, which recognizes tyrosine-based internalization signals.",Not_a_complex
+12234931,s4,T11,T1,,Disabled-2, (,Dab2,) recognizes the FXNPXY internalization motif in LDL-receptor family members via an N-terminal phosphotyrosine-binding (PTB) domain.,Not_a_complex
+12234931,s4,T1,T12,Disabled-2 (,Dab2,) recognizes the FXNPXY internalization motif in ,LDL-receptor, family members via an N-terminal phosphotyrosine-binding (PTB) domain.,Not_a_complex
+12234931,s4,T11,T12,,Disabled-2, (Dab2) recognizes the FXNPXY internalization motif in ,LDL-receptor, family members via an N-terminal phosphotyrosine-binding (PTB) domain.,Not_a_complex
+12234931,s5,T13,T2,"Here, we show that in addition to binding ",AP-2,", ",Dab2," also binds directly to phosphoinositides and to clathrin, assembling triskelia into regular polyhedral coats.",Complex_formation
+12234931,s5,T2,T14,"Here, we show that in addition to binding AP-2, ",Dab2, also binds directly to ,phosphoinositides," and to clathrin, assembling triskelia into regular polyhedral coats.",Complex_formation
+12234931,s5,T2,T15,"Here, we show that in addition to binding AP-2, ",Dab2, also binds directly to phosphoinositides and to ,clathrin,", assembling triskelia into regular polyhedral coats.",Complex_formation
+12234931,s5,T13,T14,"Here, we show that in addition to binding ",AP-2,", Dab2 also binds directly to ",phosphoinositides," and to clathrin, assembling triskelia into regular polyhedral coats.",Not_a_complex
+12234931,s5,T13,T15,"Here, we show that in addition to binding ",AP-2,", Dab2 also binds directly to phosphoinositides and to ",clathrin,", assembling triskelia into regular polyhedral coats.",Not_a_complex
+12234931,s5,T14,T15,"Here, we show that in addition to binding AP-2, Dab2 also binds directly to ",phosphoinositides, and to ,clathrin,", assembling triskelia into regular polyhedral coats.",Not_a_complex
+12234931,s6,T17,T18,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal ",AP-2, and ,clathrin,-binding determinants regulate clathrin lattice assembly.,Complex_formation
+12234931,s6,T16,T3,The FXNPXY motif and ,phosphoinositides," contact different regions of the PTB domain, but can stably anchor ",Dab2," to the membrane surface, while the distal AP-2 and clathrin-binding determinants regulate clathrin lattice assembly.",Complex_formation
+12234931,s6,T16,T17,The FXNPXY motif and ,phosphoinositides," contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal ",AP-2, and clathrin-binding determinants regulate clathrin lattice assembly.,Not_a_complex
+12234931,s6,T16,T18,The FXNPXY motif and ,phosphoinositides," contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal AP-2 and ",clathrin,-binding determinants regulate clathrin lattice assembly.,Not_a_complex
+12234931,s6,T16,T19,The FXNPXY motif and ,phosphoinositides," contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal AP-2 and clathrin-binding determinants regulate ",clathrin, lattice assembly.,Not_a_complex
+12234931,s6,T17,T19,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal ",AP-2, and clathrin-binding determinants regulate ,clathrin, lattice assembly.,Not_a_complex
+12234931,s6,T18,T19,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor Dab2 to the membrane surface, while the distal AP-2 and ",clathrin,-binding determinants regulate ,clathrin, lattice assembly.,Not_a_complex
+12234931,s6,T3,T17,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor ",Dab2," to the membrane surface, while the distal ",AP-2, and clathrin-binding determinants regulate clathrin lattice assembly.,Not_a_complex
+12234931,s6,T3,T18,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor ",Dab2," to the membrane surface, while the distal AP-2 and ",clathrin,-binding determinants regulate clathrin lattice assembly.,Not_a_complex
+12234931,s6,T3,T19,"The FXNPXY motif and phosphoinositides contact different regions of the PTB domain, but can stably anchor ",Dab2," to the membrane surface, while the distal AP-2 and clathrin-binding determinants regulate ",clathrin, lattice assembly.,Not_a_complex
+12234931,s7,T20,T21,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, ",epsin,", ",HIP1," and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T20,T22,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, ",epsin,", HIP1 and ",numb,", which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T20,T23,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, ",epsin,", HIP1 and numb, which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T21,T22,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, ",HIP1, and ,numb,", which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T21,T23,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, ",HIP1," and numb, which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T22,T23,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, HIP1 and ",numb,", which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T20,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, ",epsin,", HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T21,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, ",HIP1," and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T22,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, HIP1 and ",numb,", which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T23,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, AP180, epsin, HIP1 and numb, which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T5,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", AP180, epsin, HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T4,T6,We propose that ,Dab2," is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, ",AP180,", epsin, HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T5,T20,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", AP180, ",epsin,", HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T5,T21,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", AP180, epsin, ",HIP1," and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T5,T22,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", AP180, epsin, HIP1 and ",numb,", which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T5,T23,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", AP180, epsin, HIP1 and numb, which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T5,T6,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including ",beta-arrestin,", ",AP180,", epsin, HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T6,T20,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, ",AP180,", ",epsin,", HIP1 and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T6,T21,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, ",AP180,", epsin, ",HIP1," and numb, which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T6,T22,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, ",AP180,", epsin, HIP1 and ",numb,", which regulate clathrin-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex
+12234931,s7,T6,T23,"We propose that Dab2 is a typical member of a growing family of cargo-specific adaptor proteins, including beta-arrestin, ",AP180,", epsin, HIP1 and numb, which regulate ",clathrin,"-coat assembly at the plasma membrane by synchronizing cargo selection and lattice polymerization events. 
+",Not_a_complex

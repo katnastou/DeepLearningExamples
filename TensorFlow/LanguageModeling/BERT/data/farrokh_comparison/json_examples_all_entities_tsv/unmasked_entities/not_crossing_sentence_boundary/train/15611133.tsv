@@ -1,0 +1,63 @@
+15611133,s0,T1,T2,Functional analysis of ,Rpn6p,", a lid component of the 26 S proteasome, using temperature-sensitive ",rpn6," mutants of the yeast Saccharomyces cerevisiae. 
+",Not_a_complex
+15611133,s0,T1,T20,Functional analysis of ,Rpn6p,", a lid component of the ",26 S proteasome,", using temperature-sensitive rpn6 mutants of the yeast Saccharomyces cerevisiae. 
+",Not_a_complex
+15611133,s0,T20,T2,"Functional analysis of Rpn6p, a lid component of the ",26 S proteasome,", using temperature-sensitive ",rpn6," mutants of the yeast Saccharomyces cerevisiae. 
+",Not_a_complex
+15611133,s1,T3,T19,,Rpn6p, is a component of the lid of the ,26 S proteasome,.,Not_a_complex
+15611133,s4,T21,T5,"However, the affinity-purified ",26 S proteasome, of the ,rpn6," mutants grown at the permissive temperature degraded polyubiquitinated Sic1p efficiently, even at a higher temperature.",Not_a_complex
+15611133,s4,T5,T6,"However, the affinity-purified 26 S proteasome of the ",rpn6, mutants grown at the permissive temperature degraded polyubiquitinated ,Sic1p," efficiently, even at a higher temperature.",Not_a_complex
+15611133,s4,T21,T6,"However, the affinity-purified ",26 S proteasome, of the rpn6 mutants grown at the permissive temperature degraded polyubiquitinated ,Sic1p," efficiently, even at a higher temperature.",Not_a_complex
+15611133,s7,T7,T22,"Indeed, both ",rpn6, mutants grown at the restrictive temperature were defective in assembling the ,26 S proteasome,.,Not_a_complex
+15611133,s8,T10,T11,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, ",Rpn8p,", ",Rpn9p,", and Rpn11p.",Complex_formation
+15611133,s8,T10,T12,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, ",Rpn8p,", Rpn9p, and ",Rpn11p,.,Complex_formation
+15611133,s8,T11,T12,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, Rpn8p, ",Rpn9p,", and ",Rpn11p,.,Complex_formation
+15611133,s8,T9,T10,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, ",Rpn5p,", ",Rpn8p,", Rpn9p, and Rpn11p.",Complex_formation
+15611133,s8,T9,T11,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, ",Rpn5p,", Rpn8p, ",Rpn9p,", and Rpn11p.",Complex_formation
+15611133,s8,T9,T12,"A striking feature of the rpn6 mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, ",Rpn5p,", Rpn8p, Rpn9p, and ",Rpn11p,.,Complex_formation
+15611133,s8,T8,T10,A striking feature of the ,rpn6," mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, ",Rpn8p,", Rpn9p, and Rpn11p.",Not_a_complex
+15611133,s8,T8,T11,A striking feature of the ,rpn6," mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, Rpn8p, ",Rpn9p,", and Rpn11p.",Not_a_complex
+15611133,s8,T8,T12,A striking feature of the ,rpn6," mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, Rpn5p, Rpn8p, Rpn9p, and ",Rpn11p,.,Not_a_complex
+15611133,s8,T8,T9,A striking feature of the ,rpn6," mutants at the restrictive temperature was that there appeared a protein complex composed of only four of the nine lid components, ",Rpn5p,", Rpn8p, Rpn9p, and Rpn11p.",Not_a_complex
+15611133,s9,T14,T15,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ",Rpn3p,", ",Rpn7p,", Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T14,T16,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ",Rpn3p,", Rpn7p, ",Rpn12p,", and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T14,T17,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ",Rpn3p,", Rpn7p, Rpn12p, and ",Sem1p," (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T14,T18,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ",Rpn3p,", Rpn7p, Rpn12p, and Sem1p (",Rpn15p,") into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T15,T16,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, ",Rpn7p,", ",Rpn12p,", and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T15,T17,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, ",Rpn7p,", Rpn12p, and ",Sem1p," (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T15,T18,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, ",Rpn7p,", Rpn12p, and Sem1p (",Rpn15p,") into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T16,T17,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, ",Rpn12p,", and ",Sem1p," (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T16,T18,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, ",Rpn12p,", and Sem1p (",Rpn15p,") into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Complex_formation
+15611133,s9,T13,T14,"Altogether, we conclude that ",Rpn6p, is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ,Rpn3p,", Rpn7p, Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T13,T15,"Altogether, we conclude that ",Rpn6p," is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, ",Rpn7p,", Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T13,T16,"Altogether, we conclude that ",Rpn6p," is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, ",Rpn12p,", and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T13,T17,"Altogether, we conclude that ",Rpn6p," is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and ",Sem1p," (Rpn15p) into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T13,T18,"Altogether, we conclude that ",Rpn6p," is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and Sem1p (",Rpn15p,") into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T13,T23,"Altogether, we conclude that ",Rpn6p," is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex
+15611133,s9,T14,T23,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of ",Rpn3p,", Rpn7p, Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex
+15611133,s9,T15,T23,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, ",Rpn7p,", Rpn12p, and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex
+15611133,s9,T16,T23,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, ",Rpn12p,", and Sem1p (Rpn15p) into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex
+15611133,s9,T17,T18,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and ",Sem1p, (,Rpn15p,") into the lid, thereby playing an essential role in the proper function of the 26 S proteasome. 
+",Not_a_complex
+15611133,s9,T17,T23,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and ",Sem1p," (Rpn15p) into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex
+15611133,s9,T18,T23,"Altogether, we conclude that Rpn6p is essential for the integrity/assembly of the lid in the sense that it is necessary for the incorporation of Rpn3p, Rpn7p, Rpn12p, and Sem1p (",Rpn15p,") into the lid, thereby playing an essential role in the proper function of the ",26 S proteasome,". 
+",Not_a_complex

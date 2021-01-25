@@ -1,0 +1,12 @@
+9177217,s0,T1,T2,Specific complex formation between the type II bare lymphocyte syndrome-associated transactivators ,CIITA, and ,RFX5,". 
+",Complex_formation
+9177217,s2,T3,T21,"One gene encodes a protein, ",RFX5,", that is a member of the ",RFX, family of DNA binding proteins.,Not_a_complex
+9177217,s4,T5,T6,Expression plasmids encoding regions of ,RFX5, fused to the ,GAL4, DNA binding domain activated transcription from a reporter construct containing GAL4 sites in a cotransfection assay in the Raji human B cell line.,Not_a_complex
+9177217,s4,T5,T7,Expression plasmids encoding regions of ,RFX5, fused to the GAL4 DNA binding domain activated transcription from a reporter construct containing ,GAL4, sites in a cotransfection assay in the Raji human B cell line.,Not_a_complex
+9177217,s4,T6,T7,Expression plasmids encoding regions of RFX5 fused to the ,GAL4, DNA binding domain activated transcription from a reporter construct containing ,GAL4, sites in a cotransfection assay in the Raji human B cell line.,Not_a_complex
+9177217,s5,T8,T9,"However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with ",interferon gamma," stimulation, a condition in which expression of both ",CIITA, and class II major histocompatibility complex surface proteins are induced.,Not_a_complex
+9177217,s7,T11,T12,Transcriptional activation by the ,RFX5, fusion protein could be restored in RJ2.2.5 by cotransfection with a ,CIITA, expression plasmid.,Not_a_complex
+9177217,s8,T13,T14,"Finally, a direct interaction between ",RFX5, and ,CIITA, was detected with the yeast two-hybrid and far-Western blot assays.,Complex_formation
+9177217,s9,T15,T16,"Thus, ",RFX5, can activate transcription only in cooperation with ,CIITA,.,Not_a_complex
+9177217,s10,T17,T18,,RFX5, and ,CIITA, associate to form a complex capable of activating transcription from class II major histocompatibility complex promoters.,Complex_formation
+9177217,s11,T19,T20,"In this complex, promoter specificity is determined by the DNA binding domain of ",RFX5, and the general transcription apparatus is recruited by the acidic activation domain of ,CIITA,.,Not_a_complex

@@ -1,0 +1,4 @@
+2105528,s2,T1,T2,"Two complementary DNAs were isolated that encode proteins, denoted ",ITF-1, and ,ITF-2,", that are expressed in a variety of cell types and bind the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.",Not_a_complex
+2105528,s2,T1,T5,"Two complementary DNAs were isolated that encode proteins, denoted ",ITF-1," and ITF-2, that are expressed in a variety of cell types and bind the microE5/kappa 2 motif found in both ",heavy and kappa light chain, enhancers.,Not_a_complex
+2105528,s2,T2,T5,"Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ",ITF-2,", that are expressed in a variety of cell types and bind the microE5/kappa 2 motif found in both ",heavy and kappa light chain, enhancers.,Not_a_complex
+2105528,s3,T3,T4,"The complementary DNAs are the products of distinct genes, yet both ",ITF-1, and ,ITF-2, are structurally and functionally similar.,Not_a_complex

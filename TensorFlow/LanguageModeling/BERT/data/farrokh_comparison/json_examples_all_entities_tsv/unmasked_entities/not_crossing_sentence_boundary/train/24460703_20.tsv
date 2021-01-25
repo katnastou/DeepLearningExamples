@@ -1,0 +1,19 @@
+24460703_20,s0,T1,T2,,Mid2, cytoplasmic tail interacts directly with the ,Apm4, mu homology region.,Complex_formation
+24460703_20,s1,T11,T12,A) ,GST, alone; ,GST, tagged wild type Apm4 and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T11,T13,A) ,GST, alone; GST tagged wild type Apm4 and ,GST, tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T12,T13,A) GST alone; ,GST, tagged wild type Apm4 and ,GST, tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T11,T3,A) ,GST, alone; GST tagged wild type ,Apm4, and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T12,T3,A) GST alone; ,GST, tagged wild type ,Apm4, and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T3,T13,A) GST alone; GST tagged wild type ,Apm4, and ,GST, tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T3,T4,A) GST alone; GST tagged wild type ,Apm4, and GST tagged ,Apm4, mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T3,T5,A) GST alone; GST tagged wild type ,Apm4, and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of ,Mid2,.,Not_a_complex
+24460703_20,s1,T11,T4,A) ,GST, alone; GST tagged wild type Apm4 and GST tagged ,Apm4, mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T12,T4,A) GST alone; ,GST, tagged wild type Apm4 and GST tagged ,Apm4, mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T13,T4,A) GST alone; GST tagged wild type Apm4 and ,GST, tagged ,Apm4, mutants were prepared as described and incubated with His-tagged cytoplasmic tail of Mid2.,Not_a_complex
+24460703_20,s1,T4,T5,A) GST alone; GST tagged wild type Apm4 and GST tagged ,Apm4, mutants were prepared as described and incubated with His-tagged cytoplasmic tail of ,Mid2,.,Not_a_complex
+24460703_20,s1,T11,T5,A) ,GST, alone; GST tagged wild type Apm4 and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of ,Mid2,.,Not_a_complex
+24460703_20,s1,T12,T5,A) GST alone; ,GST, tagged wild type Apm4 and GST tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of ,Mid2,.,Not_a_complex
+24460703_20,s1,T13,T5,A) GST alone; GST tagged wild type Apm4 and ,GST, tagged Apm4 mutants were prepared as described and incubated with His-tagged cytoplasmic tail of ,Mid2,.,Not_a_complex
+24460703_20,s5,T14,T10,B) Mid2-,GFP," was transformed into cells expressing wild type, mutant or no ",Apm4,.,Not_a_complex
+24460703_20,s5,T9,T10,B) ,Mid2,"-GFP was transformed into cells expressing wild type, mutant or no ",Apm4,.,Not_a_complex
+24460703_20,s5,T9,T14,B) ,Mid2,-,GFP," was transformed into cells expressing wild type, mutant or no Apm4.",Not_a_complex

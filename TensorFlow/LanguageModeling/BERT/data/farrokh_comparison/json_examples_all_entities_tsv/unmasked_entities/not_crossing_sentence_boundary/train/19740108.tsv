@@ -1,0 +1,63 @@
+19740108,s1,T13,T14,In searching for new targets for antimalarials we investigated the biosynthesis of hypusine present in ,eukaryotic initiation factor-5A, (,eIF-5A,) in Plasmodium.,Not_a_complex
+19740108,s1,T21,T13,In searching for new targets for antimalarials we investigated the biosynthesis of ,hypusine, present in ,eukaryotic initiation factor-5A, (eIF-5A) in Plasmodium.,Not_a_complex
+19740108,s1,T21,T14,In searching for new targets for antimalarials we investigated the biosynthesis of ,hypusine, present in eukaryotic initiation factor-5A (,eIF-5A,) in Plasmodium.,Not_a_complex
+19740108,s2,T1,T15,"Here, we describe the cloning and expression of ",deoxyhypusine hydroxylase," (DOHH), which completes the modification of ",eIF-5A, through hydroxylation of deoxyhypusine.,Not_a_complex
+19740108,s2,T1,T2,"Here, we describe the cloning and expression of ",deoxyhypusine hydroxylase, (,DOHH,"), which completes the modification of eIF-5A through hydroxylation of deoxyhypusine.",Not_a_complex
+19740108,s2,T2,T15,"Here, we describe the cloning and expression of deoxyhypusine hydroxylase (",DOHH,"), which completes the modification of ",eIF-5A, through hydroxylation of deoxyhypusine.,Not_a_complex
+19740108,s5,T5,T6,Purified ,DOHH, protein displayed hydroxylase activity in a novel in vitro ,DOHH," assay, but phycocyanin lyase activity was absent.",Not_a_complex
+19740108,s11,T10,T16,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T10,T17,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T11,T18,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T11,T19,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T12,T18,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH, (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T12,T19,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH, (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Complex_formation
+19740108,s11,T10,T11,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T10,T12,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH," (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T10,T18,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T10,T19,* MINT-7255047: DHS (uniprotkb:,P49366,) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T12,T11,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH, (uniprotkb:,Q8I701,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T16,T11,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T17,T11,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T16,T12,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH," (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T17,T12,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH," (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T16,T17,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T16,T18,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T16,T19,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T17,T18,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T17,T19,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T18,T19,* MINT-7255047: DHS (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A, (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T10,* MINT-7255047: ,DHS, (uniprotkb:,P49366,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T11,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:,Q8I701,") enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T12,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: ,DOHH," (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T16,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T17,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T18,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with ,eIF-5A," (uniprotkb:Q710D1) by enzymatic studies (MI:0415). 
+",Not_a_complex
+19740108,s11,T9,T19,* MINT-7255047: ,DHS, (uniprotkb:P49366) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:Q710D1) by enzymatic studies (MI:0415) * MINT-7255326: DOHH (uniprotkb:Q8I701) enzymaticly reacts (MI:0414) with eIF-5A (uniprotkb:,Q710D1,") by enzymatic studies (MI:0415). 
+",Not_a_complex

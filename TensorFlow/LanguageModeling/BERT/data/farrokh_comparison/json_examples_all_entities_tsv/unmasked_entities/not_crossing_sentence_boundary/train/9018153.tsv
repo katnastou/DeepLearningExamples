@@ -1,0 +1,7 @@
+9018153,s0,T1,T2,Interaction of transcription factors ,RFX1, and ,MIBP1," with the gamma motif of the negative regulatory element of the hepatitis B virus core promoter. 
+",Not_a_complex
+9018153,s5,T5,T6,"In addition, ",RFX1," can bind simultaneously, most likely as a heterodimer, with the transcription factor ",MIBP1, to NRE gamma.,Complex_formation
+9018153,s6,T7,T8,In the absence of a cloned ,MIBP1," gene for further studies, we hypothesize that ",RFX1, acts with MIBP1 to negatively regulate the core promoter activity through the NRE gamma site.,Not_a_complex
+9018153,s6,T7,T9,In the absence of a cloned ,MIBP1," gene for further studies, we hypothesize that RFX1 acts with ",MIBP1, to negatively regulate the core promoter activity through the NRE gamma site.,Not_a_complex
+9018153,s6,T8,T9,"In the absence of a cloned MIBP1 gene for further studies, we hypothesize that ",RFX1, acts with ,MIBP1, to negatively regulate the core promoter activity through the NRE gamma site.,Not_a_complex
+9018153,s7,T10,T11,The ability of ,RFX1, to transactivate the core promoter raises the possibility that ,RFX1, may play a dual role in regulating HBV gene expression.,Not_a_complex

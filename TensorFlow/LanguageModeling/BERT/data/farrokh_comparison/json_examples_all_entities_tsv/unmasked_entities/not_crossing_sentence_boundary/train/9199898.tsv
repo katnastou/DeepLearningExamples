@@ -1,0 +1,34 @@
+9199898,s0,T24,T23,,S-allyl cysteine, inhibits activation of ,nuclear factor kappa B," in human T cells. 
+",Not_a_complex
+9199898,s1,T25,T6,Reactive ,oxygen, species are involved in signal transduction pathways leading to nuclear factor kappa B (,NF-kappa B,) activation which has been implicated in the regulation of gene transcription.,Not_a_complex
+9199898,s1,T7,T6,Reactive oxygen species are involved in signal transduction pathways leading to ,nuclear factor kappa B, (,NF-kappa B,) activation which has been implicated in the regulation of gene transcription.,Not_a_complex
+9199898,s1,T25,T7,Reactive ,oxygen, species are involved in signal transduction pathways leading to ,nuclear factor kappa B, (NF-kappa B) activation which has been implicated in the regulation of gene transcription.,Not_a_complex
+9199898,s2,T15,T16,"We recently reported that a garlic compound, ",S-allyl cysteine, (,SAC,"), protects bovine pulmonary artery endothelial cells from oxidant injury induced by hydrogen peroxide (H2O2).",Not_a_complex
+9199898,s2,T15,T17,"We recently reported that a garlic compound, ",S-allyl cysteine," (SAC), protects bovine pulmonary artery endothelial cells from oxidant injury induced by ",hydrogen peroxide, (H2O2).,Not_a_complex
+9199898,s2,T15,T18,"We recently reported that a garlic compound, ",S-allyl cysteine," (SAC), protects bovine pulmonary artery endothelial cells from oxidant injury induced by hydrogen peroxide (",H2O2,).,Not_a_complex
+9199898,s2,T16,T17,"We recently reported that a garlic compound, S-allyl cysteine (",SAC,"), protects bovine pulmonary artery endothelial cells from oxidant injury induced by ",hydrogen peroxide, (H2O2).,Not_a_complex
+9199898,s2,T16,T18,"We recently reported that a garlic compound, S-allyl cysteine (",SAC,"), protects bovine pulmonary artery endothelial cells from oxidant injury induced by hydrogen peroxide (",H2O2,).,Not_a_complex
+9199898,s2,T17,T18,"We recently reported that a garlic compound, S-allyl cysteine (SAC), protects bovine pulmonary artery endothelial cells from oxidant injury induced by ",hydrogen peroxide, (,H2O2,).,Not_a_complex
+9199898,s3,T19,T1,In this study we determined the effects of ,SAC, on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by ,tumor necrosis factor alpha, (TNF- alpha) and H2O2.,Not_a_complex
+9199898,s3,T1,T2,In this study we determined the effects of SAC on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by ,tumor necrosis factor alpha, (,TNF- alpha,) and H2O2.,Not_a_complex
+9199898,s3,T1,T20,In this study we determined the effects of SAC on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by ,tumor necrosis factor alpha, (TNF- alpha) and ,H2O2,.,Not_a_complex
+9199898,s3,T8,T1,In this study we determined the effects of SAC on ,NF-kappa B, activation in human T lymphocytes (Jurkat cells) induced by ,tumor necrosis factor alpha, (TNF- alpha) and H2O2.,Not_a_complex
+9199898,s3,T19,T20,In this study we determined the effects of ,SAC, on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (TNF- alpha) and ,H2O2,.,Not_a_complex
+9199898,s3,T19,T2,In this study we determined the effects of ,SAC, on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (,TNF- alpha,) and H2O2.,Not_a_complex
+9199898,s3,T2,T20,In this study we determined the effects of SAC on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (,TNF- alpha,) and ,H2O2,.,Not_a_complex
+9199898,s3,T8,T2,In this study we determined the effects of SAC on ,NF-kappa B, activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (,TNF- alpha,) and H2O2.,Not_a_complex
+9199898,s3,T19,T8,In this study we determined the effects of ,SAC, on ,NF-kappa B, activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (TNF- alpha) and H2O2.,Not_a_complex
+9199898,s3,T8,T20,In this study we determined the effects of SAC on ,NF-kappa B, activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (TNF- alpha) and ,H2O2,.,Not_a_complex
+9199898,s5,T10,T14,SAC consistently exhibited a dose-dependent inhibition of ,NF-kappa B, activation induced by both TNF-alpha and ,H2O2,.,Not_a_complex
+9199898,s5,T21,T10,,SAC, consistently exhibited a dose-dependent inhibition of ,NF-kappa B, activation induced by both TNF-alpha and H2O2.,Not_a_complex
+9199898,s5,T21,T14,,SAC, consistently exhibited a dose-dependent inhibition of NF-kappa B activation induced by both TNF-alpha and ,H2O2,.,Not_a_complex
+9199898,s5,T10,T3,SAC consistently exhibited a dose-dependent inhibition of ,NF-kappa B, activation induced by both ,TNF-alpha, and H2O2.,Not_a_complex
+9199898,s5,T3,T14,SAC consistently exhibited a dose-dependent inhibition of NF-kappa B activation induced by both ,TNF-alpha, and ,H2O2,.,Not_a_complex
+9199898,s5,T21,T3,,SAC, consistently exhibited a dose-dependent inhibition of NF-kappa B activation induced by both ,TNF-alpha, and H2O2.,Not_a_complex
+9199898,s6,T4,T5,Supershift with specific antibodies to NF-kappa B subunits confirmed that the inducible retarded bands observed in the EMSA and ,p65,-,p50, heterodimer of the NF-kappa B/Rel protein.,Complex_formation
+9199898,s6,T11,T12,Supershift with specific antibodies to ,NF-kappa B, subunits confirmed that the inducible retarded bands observed in the EMSA and p65-p50 heterodimer of the ,NF-kappa B/Rel, protein.,Not_a_complex
+9199898,s6,T11,T4,Supershift with specific antibodies to ,NF-kappa B, subunits confirmed that the inducible retarded bands observed in the EMSA and ,p65,-p50 heterodimer of the NF-kappa B/Rel protein.,Not_a_complex
+9199898,s6,T4,T12,Supershift with specific antibodies to NF-kappa B subunits confirmed that the inducible retarded bands observed in the EMSA and ,p65,-p50 heterodimer of the ,NF-kappa B/Rel, protein.,Not_a_complex
+9199898,s6,T11,T5,Supershift with specific antibodies to ,NF-kappa B, subunits confirmed that the inducible retarded bands observed in the EMSA and p65-,p50, heterodimer of the NF-kappa B/Rel protein.,Not_a_complex
+9199898,s6,T5,T12,Supershift with specific antibodies to NF-kappa B subunits confirmed that the inducible retarded bands observed in the EMSA and p65-,p50, heterodimer of the ,NF-kappa B/Rel, protein.,Not_a_complex
+9199898,s7,T22,T13,Our data suggest that ,SAC, may act via antioxidant mechanisms to block ,NF-kappa B, activation in Jurkat cells.,Not_a_complex

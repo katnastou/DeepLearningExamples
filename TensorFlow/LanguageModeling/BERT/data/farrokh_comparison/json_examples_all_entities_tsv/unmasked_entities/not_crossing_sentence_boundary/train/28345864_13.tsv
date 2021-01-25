@@ -1,0 +1,6 @@
+28345864_13,s2,T7,T2,"However, when cells are replenished with ",glucose,", glycolysis takes place and ",FBP1, is inactivated.,Not_a_complex
+28345864_13,s4,T4,T8,To follow ,FBP1," dynamics, we have grown yeast in the absence of ",glucose, and then shifted the cells to glucose-containing medium.,Not_a_complex
+28345864_13,s4,T4,T9,To follow ,FBP1," dynamics, we have grown yeast in the absence of glucose and then shifted the cells to ",glucose,-containing medium.,Not_a_complex
+28345864_13,s4,T8,T9,"To follow FBP1 dynamics, we have grown yeast in the absence of ",glucose, and then shifted the cells to ,glucose,-containing medium.,Not_a_complex
+28345864_13,s6,T5,T11,"Then, using a single-step FLAG-affinity purification protocol, ",FBP1, was isolated from the three different growth conditions (,glucose,", carbon starved, and carbon starved+heat shock) and the composition of the complex was explored.
+",Not_a_complex

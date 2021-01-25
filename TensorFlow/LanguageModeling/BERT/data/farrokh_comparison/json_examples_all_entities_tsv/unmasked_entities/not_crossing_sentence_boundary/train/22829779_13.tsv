@@ -1,0 +1,62 @@
+22829779_13,s0,T1,T2,,VeA, bridges ,VelB, and LaeA in the trimeric VelB-VeA-LaeA complex.,Complex_formation
+22829779_13,s0,T1,T3,,VeA, bridges VelB and ,LaeA, in the trimeric VelB-VeA-LaeA complex.,Complex_formation
+22829779_13,s0,T1,T4,,VeA, bridges VelB and LaeA in the trimeric ,VelB,-VeA-LaeA complex.,Complex_formation
+22829779_13,s0,T1,T6,,VeA, bridges VelB and LaeA in the trimeric VelB-VeA-,LaeA, complex.,Complex_formation
+22829779_13,s0,T2,T3,VeA bridges ,VelB, and ,LaeA, in the trimeric VelB-VeA-LaeA complex.,Complex_formation
+22829779_13,s0,T2,T5,VeA bridges ,VelB, and LaeA in the trimeric VelB-,VeA,-LaeA complex.,Complex_formation
+22829779_13,s0,T2,T6,VeA bridges ,VelB, and LaeA in the trimeric VelB-VeA-,LaeA, complex.,Complex_formation
+22829779_13,s0,T3,T4,VeA bridges VelB and ,LaeA, in the trimeric ,VelB,-VeA-LaeA complex.,Complex_formation
+22829779_13,s0,T3,T5,VeA bridges VelB and ,LaeA, in the trimeric VelB-,VeA,-LaeA complex.,Complex_formation
+22829779_13,s0,T4,T5,VeA bridges VelB and LaeA in the trimeric ,VelB,-,VeA,-LaeA complex.,Complex_formation
+22829779_13,s0,T4,T6,VeA bridges VelB and LaeA in the trimeric ,VelB,-VeA-,LaeA, complex.,Complex_formation
+22829779_13,s0,T5,T6,VeA bridges VelB and LaeA in the trimeric VelB-,VeA,-,LaeA, complex.,Complex_formation
+22829779_13,s0,T1,T5,,VeA, bridges VelB and LaeA in the trimeric VelB-,VeA,-LaeA complex.,Not_a_complex
+22829779_13,s0,T2,T4,VeA bridges ,VelB, and LaeA in the trimeric ,VelB,-VeA-LaeA complex.,Not_a_complex
+22829779_13,s0,T3,T6,VeA bridges VelB and ,LaeA, in the trimeric VelB-VeA-,LaeA, complex.,Not_a_complex
+22829779_13,s2,T7,T8,,VeA, protein levels (Figure 2C) were similar in wild type and ,mpkB, mutant strains.,Not_a_complex
+22829779_13,s3,T9,T10,,velB, RNA was unchanged whereas ,laeA, transcripts were downregulated as previously reported (Figure S2A).,Not_a_complex
+22829779_13,s4,T11,T12,TAP purification of natively expressed ,VeA,"::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of ",VelB," and LaeA proteins were enriched by tagged VeA in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T11,T13,TAP purification of natively expressed ,VeA,"::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and ",LaeA," proteins were enriched by tagged VeA in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T11,T14,TAP purification of natively expressed ,VeA,"::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and LaeA proteins were enriched by tagged ",VeA," in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T11,T15,TAP purification of natively expressed ,VeA,"::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and LaeA proteins were enriched by tagged VeA in the absence of ",MpkB," (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T12,T13,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of ",VelB, and ,LaeA," proteins were enriched by tagged VeA in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T12,T14,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of ",VelB, and LaeA proteins were enriched by tagged ,VeA," in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T12,T15,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of ",VelB, and LaeA proteins were enriched by tagged VeA in the absence of ,MpkB," (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T13,T14,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and ",LaeA, proteins were enriched by tagged ,VeA," in the absence of MpkB (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T13,T15,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and ",LaeA, proteins were enriched by tagged VeA in the absence of ,MpkB," (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s4,T14,T15,"TAP purification of natively expressed VeA::cTAP revealed that under conditions where sexual development was normally promoted, only significantly reduced amounts of VelB and LaeA proteins were enriched by tagged ",VeA, in the absence of ,MpkB," (Figure 2D, Tables S2 and S3).",Not_a_complex
+22829779_13,s5,T18,T19,"The MAP kinase does not affect VeA nuclear import, because the interaction of ",VeA, with the importin ,KapA, was not significantly affected in mpkB mutant.,Complex_formation
+22829779_13,s5,T16,T17,The ,MAP kinase, does not affect ,VeA," nuclear import, because the interaction of VeA with the importin KapA was not significantly affected in mpkB mutant.",Not_a_complex
+22829779_13,s5,T16,T18,The ,MAP kinase," does not affect VeA nuclear import, because the interaction of ",VeA, with the importin KapA was not significantly affected in mpkB mutant.,Not_a_complex
+22829779_13,s5,T16,T19,The ,MAP kinase," does not affect VeA nuclear import, because the interaction of VeA with the importin ",KapA, was not significantly affected in mpkB mutant.,Not_a_complex
+22829779_13,s5,T16,T20,The ,MAP kinase," does not affect VeA nuclear import, because the interaction of VeA with the importin KapA was not significantly affected in ",mpkB, mutant.,Not_a_complex
+22829779_13,s5,T17,T18,The MAP kinase does not affect ,VeA," nuclear import, because the interaction of ",VeA, with the importin KapA was not significantly affected in mpkB mutant.,Not_a_complex
+22829779_13,s5,T17,T19,The MAP kinase does not affect ,VeA," nuclear import, because the interaction of VeA with the importin ",KapA, was not significantly affected in mpkB mutant.,Not_a_complex
+22829779_13,s5,T17,T20,The MAP kinase does not affect ,VeA," nuclear import, because the interaction of VeA with the importin KapA was not significantly affected in ",mpkB, mutant.,Not_a_complex
+22829779_13,s5,T18,T20,"The MAP kinase does not affect VeA nuclear import, because the interaction of ",VeA, with the importin KapA was not significantly affected in ,mpkB, mutant.,Not_a_complex
+22829779_13,s5,T19,T20,"The MAP kinase does not affect VeA nuclear import, because the interaction of VeA with the importin ",KapA, was not significantly affected in ,mpkB, mutant.,Not_a_complex
+22829779_13,s6,T21,T22,"Consistently, nuclear import of the subunits of the trimeric ",VelB,-,VeA,-LaeA complex was not affected in a mkkB mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Complex_formation
+22829779_13,s6,T21,T23,"Consistently, nuclear import of the subunits of the trimeric ",VelB,-VeA-,LaeA, complex was not affected in a mkkB mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Complex_formation
+22829779_13,s6,T22,T23,"Consistently, nuclear import of the subunits of the trimeric VelB-",VeA,-,LaeA, complex was not affected in a mkkB mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Complex_formation
+22829779_13,s6,T21,T32,"Consistently, nuclear import of the subunits of the trimeric ",VelB,-VeA-LaeA complex was not affected in a mkkB mutant lacking the upstream MAP2K ,AnSte7, (Figure S2B).,Not_a_complex
+22829779_13,s6,T21,T33,"Consistently, nuclear import of the subunits of the trimeric ",VelB,-VeA-LaeA complex was not affected in a ,mkkB, mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Not_a_complex
+22829779_13,s6,T22,T32,"Consistently, nuclear import of the subunits of the trimeric VelB-",VeA,-LaeA complex was not affected in a mkkB mutant lacking the upstream MAP2K ,AnSte7, (Figure S2B).,Not_a_complex
+22829779_13,s6,T22,T33,"Consistently, nuclear import of the subunits of the trimeric VelB-",VeA,-LaeA complex was not affected in a ,mkkB, mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Not_a_complex
+22829779_13,s6,T23,T32,"Consistently, nuclear import of the subunits of the trimeric VelB-VeA-",LaeA, complex was not affected in a mkkB mutant lacking the upstream MAP2K ,AnSte7, (Figure S2B).,Not_a_complex
+22829779_13,s6,T23,T33,"Consistently, nuclear import of the subunits of the trimeric VelB-VeA-",LaeA, complex was not affected in a ,mkkB, mutant lacking the upstream MAP2K AnSte7 (Figure S2B).,Not_a_complex
+22829779_13,s6,T33,T32,"Consistently, nuclear import of the subunits of the trimeric VelB-VeA-LaeA complex was not affected in a ",mkkB, mutant lacking the upstream MAP2K ,AnSte7, (Figure S2B).,Not_a_complex
+22829779_13,s7,T24,T25,Lack of ,laeA, normally causes enhanced ,VeA, and VelB expression as well as enhanced complex formation.,Not_a_complex
+22829779_13,s7,T24,T26,Lack of ,laeA, normally causes enhanced VeA and ,VelB, expression as well as enhanced complex formation.,Not_a_complex
+22829779_13,s7,T25,T26,Lack of laeA normally causes enhanced ,VeA, and ,VelB, expression as well as enhanced complex formation.,Not_a_complex
+22829779_13,s8,T27,T28,This suggests that decreased ,VeA,-,VelB," association is not a result of the reduced levels of LaeA in mpkB mutants.
+",Complex_formation
+22829779_13,s8,T27,T29,This suggests that decreased ,VeA,-VelB association is not a result of the reduced levels of ,LaeA," in mpkB mutants.
+",Not_a_complex
+22829779_13,s8,T27,T30,This suggests that decreased ,VeA,-VelB association is not a result of the reduced levels of LaeA in ,mpkB," mutants.
+",Not_a_complex
+22829779_13,s8,T28,T29,This suggests that decreased VeA-,VelB, association is not a result of the reduced levels of ,LaeA," in mpkB mutants.
+",Not_a_complex
+22829779_13,s8,T28,T30,This suggests that decreased VeA-,VelB, association is not a result of the reduced levels of LaeA in ,mpkB," mutants.
+",Not_a_complex
+22829779_13,s8,T29,T30,This suggests that decreased VeA-VelB association is not a result of the reduced levels of ,LaeA, in ,mpkB," mutants.
+",Not_a_complex

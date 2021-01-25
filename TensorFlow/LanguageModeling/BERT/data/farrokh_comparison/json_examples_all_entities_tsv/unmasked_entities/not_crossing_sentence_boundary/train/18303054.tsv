@@ -1,0 +1,27 @@
+18303054,s0,T1,T2,,IKAP, localizes to membrane ruffles with ,filamin A," and regulates actin cytoskeleton organization and cell migration. 
+",Not_a_complex
+18303054,s0,T1,T22,,IKAP, localizes to membrane ruffles with filamin A and regulates ,actin," cytoskeleton organization and cell migration. 
+",Not_a_complex
+18303054,s0,T2,T22,IKAP localizes to membrane ruffles with ,filamin A, and regulates ,actin," cytoskeleton organization and cell migration. 
+",Not_a_complex
+18303054,s1,T3,T4,Loss-of-function mutations in the ,IKBKAP," gene, which encodes ",IKAP," (ELP1), cause familial dysautonomia (FD), with defective neuronal development and maintenance.",Not_a_complex
+18303054,s1,T3,T5,Loss-of-function mutations in the ,IKBKAP," gene, which encodes IKAP (",ELP1,"), cause familial dysautonomia (FD), with defective neuronal development and maintenance.",Not_a_complex
+18303054,s1,T4,T5,"Loss-of-function mutations in the IKBKAP gene, which encodes ",IKAP, (,ELP1,"), cause familial dysautonomia (FD), with defective neuronal development and maintenance.",Not_a_complex
+18303054,s4,T7,T8,The defects could be rescued by reintroduction of wild-type ,IKAP, but not by FD-,IKAP,", a truncated form of IKAP constructed according to the mutation found in the majority of FD patients.",Not_a_complex
+18303054,s4,T7,T9,The defects could be rescued by reintroduction of wild-type ,IKAP," but not by FD-IKAP, a truncated form of ",IKAP, constructed according to the mutation found in the majority of FD patients.,Not_a_complex
+18303054,s4,T8,T9,The defects could be rescued by reintroduction of wild-type IKAP but not by FD-,IKAP,", a truncated form of ",IKAP, constructed according to the mutation found in the majority of FD patients.,Not_a_complex
+18303054,s5,T10,T11,Cytosolic ,IKAP," co-purified with proteins involved in cell migration, including ",filamin A,", which is also involved in neuronal migration.",Not_a_complex
+18303054,s6,T12,T13,Immunostaining of ,IKAP, and ,filamin A, revealed a distinct co-localization of these two proteins in membrane ruffles.,Not_a_complex
+18303054,s7,T14,T15,Depletion of ,IKAP, resulted in a significant decrease in ,filamin A," localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-IKAP.",Not_a_complex
+18303054,s7,T14,T16,Depletion of ,IKAP," resulted in a significant decrease in filamin A localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type ",IKAP, but not by FD-IKAP.,Not_a_complex
+18303054,s7,T14,T17,Depletion of ,IKAP," resulted in a significant decrease in filamin A localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-",IKAP,.,Not_a_complex
+18303054,s7,T14,T23,Depletion of ,IKAP, resulted in a significant decrease in filamin A localization in membrane ruffles and defective ,actin," cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-IKAP.",Not_a_complex
+18303054,s7,T15,T16,Depletion of IKAP resulted in a significant decrease in ,filamin A," localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type ",IKAP, but not by FD-IKAP.,Not_a_complex
+18303054,s7,T15,T17,Depletion of IKAP resulted in a significant decrease in ,filamin A," localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-",IKAP,.,Not_a_complex
+18303054,s7,T15,T23,Depletion of IKAP resulted in a significant decrease in ,filamin A, localization in membrane ruffles and defective ,actin," cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-IKAP.",Not_a_complex
+18303054,s7,T16,T17,"Depletion of IKAP resulted in a significant decrease in filamin A localization in membrane ruffles and defective actin cytoskeleton organization, which both could be rescued by the expression of wild-type ",IKAP, but not by FD-,IKAP,.,Not_a_complex
+18303054,s7,T23,T16,Depletion of IKAP resulted in a significant decrease in filamin A localization in membrane ruffles and defective ,actin," cytoskeleton organization, which both could be rescued by the expression of wild-type ",IKAP, but not by FD-IKAP.,Not_a_complex
+18303054,s7,T23,T17,Depletion of IKAP resulted in a significant decrease in filamin A localization in membrane ruffles and defective ,actin," cytoskeleton organization, which both could be rescued by the expression of wild-type IKAP but not by FD-",IKAP,.,Not_a_complex
+18303054,s8,T18,T19,No downregulation in the protein levels of ,paxillin, or ,beclin 1,", which were recently described as specific transcriptional targets of IKAP, was detected.",Not_a_complex
+18303054,s8,T18,T20,No downregulation in the protein levels of ,paxillin," or beclin 1, which were recently described as specific transcriptional targets of ",IKAP,", was detected.",Not_a_complex
+18303054,s8,T19,T20,No downregulation in the protein levels of paxillin or ,beclin 1,", which were recently described as specific transcriptional targets of ",IKAP,", was detected.",Not_a_complex

@@ -1,0 +1,25 @@
+10639338,s0,T1,T17,Saccharomyces cerevisiae ,Arc35p, works through two genetically separable calmodulin functions to regulate the actin and ,tubulin," cytoskeletons. 
+",Not_a_complex
+10639338,s0,T1,T2,Saccharomyces cerevisiae ,Arc35p, works through two genetically separable ,calmodulin," functions to regulate the actin and tubulin cytoskeletons. 
+",Not_a_complex
+10639338,s0,T1,T3,Saccharomyces cerevisiae ,Arc35p, works through two genetically separable calmodulin functions to regulate the ,actin," and tubulin cytoskeletons. 
+",Not_a_complex
+10639338,s0,T2,T17,Saccharomyces cerevisiae Arc35p works through two genetically separable ,calmodulin, functions to regulate the actin and ,tubulin," cytoskeletons. 
+",Not_a_complex
+10639338,s0,T2,T3,Saccharomyces cerevisiae Arc35p works through two genetically separable ,calmodulin, functions to regulate the ,actin," and tubulin cytoskeletons. 
+",Not_a_complex
+10639338,s0,T3,T17,Saccharomyces cerevisiae Arc35p works through two genetically separable calmodulin functions to regulate the ,actin, and ,tubulin," cytoskeletons. 
+",Not_a_complex
+10639338,s1,T4,T18,Analysis of the ,arc35,-1 mutant has revealed previously that this component of the Arp2/,3, complex is involved in organization of the actin cytoskeleton.,Complex_formation
+10639338,s1,T4,T5,Analysis of the ,arc35,-1 mutant has revealed previously that this component of the ,Arp2,/3 complex is involved in organization of the actin cytoskeleton.,Complex_formation
+10639338,s1,T5,T18,Analysis of the arc35-1 mutant has revealed previously that this component of the ,Arp2,/,3, complex is involved in organization of the actin cytoskeleton.,Complex_formation
+10639338,s1,T4,T6,Analysis of the ,arc35,-1 mutant has revealed previously that this component of the Arp2/3 complex is involved in organization of the ,actin, cytoskeleton.,Not_a_complex
+10639338,s1,T5,T6,Analysis of the arc35-1 mutant has revealed previously that this component of the ,Arp2,/3 complex is involved in organization of the ,actin, cytoskeleton.,Not_a_complex
+10639338,s1,T18,T6,Analysis of the arc35-1 mutant has revealed previously that this component of the Arp2/,3, complex is involved in organization of the ,actin, cytoskeleton.,Not_a_complex
+10639338,s4,T7,T8,"The observed metaphase arrest most likely occurs by activation of the spindle assembly checkpoint, because ",arc35,-1 was synthetically lethal with a deletion of ,BUB2,.,Not_a_complex
+10639338,s6,T10,T11,Both the ,actin, and microtubule defects of ,arc35,-1 can be suppressed by overexpression of calmodulin.,Not_a_complex
+10639338,s6,T10,T12,Both the ,actin, and microtubule defects of arc35-1 can be suppressed by overexpression of ,calmodulin,.,Not_a_complex
+10639338,s6,T11,T12,Both the actin and microtubule defects of ,arc35,-1 can be suppressed by overexpression of ,calmodulin,.,Not_a_complex
+10639338,s7,T13,T14,Analysis of a collection of ts ,cmd1, mutants for their ability to suppress the ,actin, and/or microtubule defect revealed that the two defects observed in arc35-1 are genetically separable.,Not_a_complex
+10639338,s7,T13,T15,Analysis of a collection of ts ,cmd1, mutants for their ability to suppress the actin and/or microtubule defect revealed that the two defects observed in ,arc35,-1 are genetically separable.,Not_a_complex
+10639338,s7,T14,T15,Analysis of a collection of ts cmd1 mutants for their ability to suppress the ,actin, and/or microtubule defect revealed that the two defects observed in ,arc35,-1 are genetically separable.,Not_a_complex

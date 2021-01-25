@@ -1,0 +1,91 @@
+22196728,s2,T19,T33,We report that nodal ,TGF-beta, signals use the poised ,histone, mark H3K9me3 to trigger differentiation of mammalian embryonic stem cells.,Not_a_complex
+22196728,s2,T19,T34,We report that nodal ,TGF-beta, signals use the poised histone mark ,H3K9me3, to trigger differentiation of mammalian embryonic stem cells.,Not_a_complex
+22196728,s2,T33,T34,We report that nodal TGF-beta signals use the poised ,histone, mark ,H3K9me3, to trigger differentiation of mammalian embryonic stem cells.,Not_a_complex
+22196728,s3,T1,T2,Nodal receptors induce the formation of companion ,Smad4,-,Smad2,/3 and TRIM33-Smad2/3 complexes.,Complex_formation
+22196728,s3,T1,T21,Nodal receptors induce the formation of companion ,Smad4,-Smad2/,3, and TRIM33-Smad2/3 complexes.,Complex_formation
+22196728,s3,T2,T21,Nodal receptors induce the formation of companion Smad4-,Smad2,/,3, and TRIM33-Smad2/3 complexes.,Complex_formation
+22196728,s3,T3,T22,Nodal receptors induce the formation of companion Smad4-Smad2/3 and ,TRIM33,-Smad2/,3, complexes.,Complex_formation
+22196728,s3,T3,T4,Nodal receptors induce the formation of companion Smad4-Smad2/3 and ,TRIM33,-,Smad2,/3 complexes.,Complex_formation
+22196728,s3,T4,T22,Nodal receptors induce the formation of companion Smad4-Smad2/3 and TRIM33-,Smad2,/,3, complexes.,Complex_formation
+22196728,s3,T1,T22,Nodal receptors induce the formation of companion ,Smad4,-Smad2/3 and TRIM33-Smad2/,3, complexes.,Not_a_complex
+22196728,s3,T1,T3,Nodal receptors induce the formation of companion ,Smad4,-Smad2/3 and ,TRIM33,-Smad2/3 complexes.,Not_a_complex
+22196728,s3,T1,T4,Nodal receptors induce the formation of companion ,Smad4,-Smad2/3 and TRIM33-,Smad2,/3 complexes.,Not_a_complex
+22196728,s3,T2,T22,Nodal receptors induce the formation of companion Smad4-,Smad2,/3 and TRIM33-Smad2/,3, complexes.,Not_a_complex
+22196728,s3,T2,T3,Nodal receptors induce the formation of companion Smad4-,Smad2,/3 and ,TRIM33,-Smad2/3 complexes.,Not_a_complex
+22196728,s3,T2,T4,Nodal receptors induce the formation of companion Smad4-,Smad2,/3 and TRIM33-,Smad2,/3 complexes.,Not_a_complex
+22196728,s3,T21,T22,Nodal receptors induce the formation of companion Smad4-Smad2/,3, and TRIM33-Smad2/,3, complexes.,Not_a_complex
+22196728,s3,T21,T3,Nodal receptors induce the formation of companion Smad4-Smad2/,3, and ,TRIM33,-Smad2/3 complexes.,Not_a_complex
+22196728,s3,T21,T4,Nodal receptors induce the formation of companion Smad4-Smad2/,3, and TRIM33-,Smad2,/3 complexes.,Not_a_complex
+22196728,s4,T23,T24,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/,3, to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T23,T25,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/,3, to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T6,T23,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-Smad2/,3, to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T6,T24,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-Smad2/3 to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T6,T25,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-Smad2/3 to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T6,T7,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-,Smad2,/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T7,T23,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-,Smad2,/,3, to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T7,T24,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-,Smad2,/3 to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T7,T25,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-,Smad2,/3 to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and Mixl1.,Complex_formation
+22196728,s4,T23,T26,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/,3, to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T24,T25,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to ,H3K9me3, and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T24,T26,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T25,T26,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T5,T23,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-Smad2/,3, to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T5,T24,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-Smad2/3 to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T5,T25,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-Smad2/3 to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T5,T26,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T5,T6,The PHD-Bromo cassette of ,TRIM33, facilitates binding of ,TRIM33,-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T5,T7,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-,Smad2,/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and Mixl1.,Not_a_complex
+22196728,s4,T5,T8,The PHD-Bromo cassette of ,TRIM33, facilitates binding of TRIM33-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T6,T26,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T6,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of ,TRIM33,-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T7,T26,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-,Smad2,/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and Mixl1.,Not_a_complex
+22196728,s4,T7,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-,Smad2,/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T23,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/,3, to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T24,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to ,H3K9me3, and H3K18ac on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T25,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to H3K9me3 and ,H3K18ac, on the promoters of mesendoderm regulators Gsc and ,Mixl1,.,Not_a_complex
+22196728,s4,T26,T8,The PHD-Bromo cassette of TRIM33 facilitates binding of TRIM33-Smad2/3 to H3K9me3 and H3K18ac on the promoters of mesendoderm regulators ,Gsc, and ,Mixl1,.,Not_a_complex
+22196728,s5,T20,T35,"The crystal structure of this cassette, bound to histone H3 peptides, illustrates that PHD recognizes ",K9me3,", and Bromo binds an adjacent ",K18ac,.,Not_a_complex
+22196728,s5,T9,T20,"The crystal structure of this cassette, bound to ",histone H3," peptides, illustrates that PHD recognizes ",K9me3,", and Bromo binds an adjacent K18ac.",Not_a_complex
+22196728,s5,T9,T35,"The crystal structure of this cassette, bound to ",histone H3," peptides, illustrates that PHD recognizes K9me3, and Bromo binds an adjacent ",K18ac,.,Not_a_complex
+22196728,s6,T10,T11,The interaction between ,TRIM33,-,Smad2,"/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T10,T27,The interaction between ,TRIM33,-Smad2/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T10,T28,The interaction between ,TRIM33,-Smad2/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T11,T27,The interaction between TRIM33-,Smad2,/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T11,T28,The interaction between TRIM33-,Smad2,/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T27,T28,The interaction between TRIM33-Smad2/,3, and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Complex_formation
+22196728,s6,T10,T12,The interaction between ,TRIM33,-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Not_a_complex
+22196728,s6,T10,T13,The interaction between ,TRIM33,"-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T10,T14,The interaction between ,TRIM33,"-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T10,T29,The interaction between ,TRIM33,"-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/",3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T10,T30,The interaction between ,TRIM33,"-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for ",Pol II, recruitment.,Not_a_complex
+22196728,s6,T11,T12,The interaction between TRIM33-,Smad2,/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Not_a_complex
+22196728,s6,T11,T13,The interaction between TRIM33-,Smad2,"/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T11,T14,The interaction between TRIM33-,Smad2,"/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T11,T29,The interaction between TRIM33-,Smad2,"/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/",3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T11,T30,The interaction between TRIM33-,Smad2,"/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for ",Pol II, recruitment.,Not_a_complex
+22196728,s6,T12,T13,The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to ",Smad4,-Smad2/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T12,T14,The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-",Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T27,T12,The interaction between TRIM33-Smad2/,3, and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Not_a_complex
+22196728,s6,T28,T12,The interaction between TRIM33-Smad2/3 and ,H3K9me3, displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/3 for Pol II recruitment.",Not_a_complex
+22196728,s6,T12,T29,The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/",3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T12,T30,The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor ,HP1gamma,", making nodal response elements accessible to Smad4-Smad2/3 for ",Pol II, recruitment.,Not_a_complex
+22196728,s6,T13,T14,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-,Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T27,T13,The interaction between TRIM33-Smad2/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T28,T13,The interaction between TRIM33-Smad2/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T13,T29,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/,3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T13,T30,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to ",Smad4,-Smad2/3 for ,Pol II, recruitment.,Not_a_complex
+22196728,s6,T27,T14,The interaction between TRIM33-Smad2/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T28,T14,The interaction between TRIM33-Smad2/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/3 for Pol II recruitment.,Not_a_complex
+22196728,s6,T14,T29,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/,3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T14,T30,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-",Smad2,/3 for ,Pol II, recruitment.,Not_a_complex
+22196728,s6,T27,T29,The interaction between TRIM33-Smad2/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/",3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T27,T30,The interaction between TRIM33-Smad2/,3," and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for ",Pol II, recruitment.,Not_a_complex
+22196728,s6,T28,T29,The interaction between TRIM33-Smad2/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/",3, for Pol II recruitment.,Not_a_complex
+22196728,s6,T28,T30,The interaction between TRIM33-Smad2/3 and ,H3K9me3," displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/3 for ",Pol II, recruitment.,Not_a_complex
+22196728,s6,T29,T30,"The interaction between TRIM33-Smad2/3 and H3K9me3 displaces the chromatin-compacting factor HP1gamma, making nodal response elements accessible to Smad4-Smad2/",3, for ,Pol II, recruitment.,Not_a_complex
+22196728,s7,T16,T17,"In turn, Smad4 increases K18 acetylation to augment ",TRIM33,-,Smad2,/3 binding.,Complex_formation
+22196728,s7,T16,T31,"In turn, Smad4 increases K18 acetylation to augment ",TRIM33,-Smad2/,3, binding.,Complex_formation
+22196728,s7,T17,T31,"In turn, Smad4 increases K18 acetylation to augment TRIM33-",Smad2,/,3, binding.,Complex_formation
+22196728,s7,T15,T16,"In turn, ",Smad4, increases K18 acetylation to augment ,TRIM33,-Smad2/3 binding.,Not_a_complex
+22196728,s7,T15,T17,"In turn, ",Smad4, increases K18 acetylation to augment TRIM33-,Smad2,/3 binding.,Not_a_complex
+22196728,s7,T15,T31,"In turn, ",Smad4, increases K18 acetylation to augment TRIM33-Smad2/,3, binding.,Not_a_complex

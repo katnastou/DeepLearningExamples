@@ -1,0 +1,39 @@
+30452242_21,s0,T1,T2,To further interrogate the interaction of ,Ssp2, and ,Smk1,", we utilized a bacterial expression strategy that incorporates non-natural cross-linkable amino acids at specific positions within a target protein.",Complex_formation
+30452242_21,s1,T11,T12,This system utilizes an ,aminoacyl-tRNA synthetase, that charges an engineered amber suppressor tRNA with the non-natural amino acid ,p-benzoyl-l-phenylalanine, (Bpa).,Not_a_complex
+30452242_21,s1,T11,T3,This system utilizes an ,aminoacyl-tRNA synthetase, that charges an engineered amber suppressor tRNA with the non-natural amino acid p-benzoyl-l-phenylalanine (,Bpa,).,Not_a_complex
+30452242_21,s1,T12,T3,This system utilizes an aminoacyl-tRNA synthetase that charges an engineered amber suppressor tRNA with the non-natural amino acid ,p-benzoyl-l-phenylalanine, (,Bpa,).,Not_a_complex
+30452242_21,s3,T14,T15,Amber codons were introduced at various positions in a plasmid that directs the inducible expression of both SMK1 and ,SSP2KAD,-,GST,.,Not_a_complex
+30452242_21,s3,T5,T14,Amber codons were introduced at various positions in a plasmid that directs the inducible expression of both ,SMK1, and ,SSP2KAD,-GST.,Not_a_complex
+30452242_21,s3,T5,T15,Amber codons were introduced at various positions in a plasmid that directs the inducible expression of both ,SMK1, and SSP2KAD-,GST,.,Not_a_complex
+30452242_21,s4,T16,T6,These plasmids and a second plasmid that directs the expression of the tRNA and ,synthetase," were co-transformed into bacteria, and transformants were induced in medium containing ",Bpa,.,Not_a_complex
+30452242_21,s5,T7,T8,"Subsequently, samples were irradiated with UV and resolved by electrophoresis in denaturing gels, and ",Smk1, or ,Ssp2, proteins detected by immunoblot analyses.,Not_a_complex
+30452242_21,s6,T10,T19,"If the amber suppressible residue in one of the Smk1/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of ",Smk1, and the ,Ssp2KAD,"-GST complex may be detected.
+",Complex_formation
+30452242_21,s6,T17,T10,If the amber suppressible residue in one of the Smk1/,Ssp2KAD,"-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of ",Smk1," and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T18,T10,If the amber suppressible residue in one of the Smk1/Ssp2KAD-,GST," proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of ",Smk1," and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T10,T20,"If the amber suppressible residue in one of the Smk1/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of ",Smk1, and the Ssp2KAD-,GST," complex may be detected.
+",Not_a_complex
+30452242_21,s6,T17,T18,If the amber suppressible residue in one of the Smk1/,Ssp2KAD,-,GST," proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T17,T19,If the amber suppressible residue in one of the Smk1/,Ssp2KAD,"-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the ",Ssp2KAD,"-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T17,T20,If the amber suppressible residue in one of the Smk1/,Ssp2KAD,"-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-",GST," complex may be detected.
+",Not_a_complex
+30452242_21,s6,T18,T19,If the amber suppressible residue in one of the Smk1/Ssp2KAD-,GST," proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the ",Ssp2KAD,"-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T18,T20,If the amber suppressible residue in one of the Smk1/Ssp2KAD-,GST," proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-",GST," complex may be detected.
+",Not_a_complex
+30452242_21,s6,T19,T20,"If the amber suppressible residue in one of the Smk1/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the ",Ssp2KAD,-,GST," complex may be detected.
+",Not_a_complex
+30452242_21,s6,T9,T10,If the amber suppressible residue in one of the ,Smk1,"/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of ",Smk1," and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T9,T17,If the amber suppressible residue in one of the ,Smk1,/,Ssp2KAD,"-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T9,T18,If the amber suppressible residue in one of the ,Smk1,/Ssp2KAD-,GST," proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T9,T19,If the amber suppressible residue in one of the ,Smk1,"/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the ",Ssp2KAD,"-GST complex may be detected.
+",Not_a_complex
+30452242_21,s6,T9,T20,If the amber suppressible residue in one of the ,Smk1,"/Ssp2KAD-GST proteins is within 4 Aa of a C atom of the second protein, new electrophoretic species approximating the combined masses of Smk1 and the Ssp2KAD-",GST," complex may be detected.
+",Not_a_complex

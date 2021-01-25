@@ -1,0 +1,28 @@
+12185196,s0,T10,T1,Interaction of ,protein phosphatase 1 delta, with ,nucleolin," in human osteoblastic cells. 
+",Complex_formation
+12185196,s1,T11,T12,We examined the expression and cytolocalization of the ,protein phosphatase type 1 delta, (,PP1delta,) isoform and nucleolin in human osteoblastic MG63 and Saos-2 cells.,Not_a_complex
+12185196,s1,T11,T2,We examined the expression and cytolocalization of the ,protein phosphatase type 1 delta, (PP1delta) isoform and ,nucleolin, in human osteoblastic MG63 and Saos-2 cells.,Not_a_complex
+12185196,s1,T12,T2,We examined the expression and cytolocalization of the protein phosphatase type 1 delta (,PP1delta,) isoform and ,nucleolin, in human osteoblastic MG63 and Saos-2 cells.,Not_a_complex
+12185196,s6,T13,T4,,PP1delta, and ,nucleolin, were co-localized in the nucleolus in MG63 and Saos-2 cells revealed by an immunofluorescence method.,Not_a_complex
+12185196,s7,T14,T5,,PP1delta, and ,nucleolin, were also co-immunoprecipitated with anti-nucleolin and anti-PP1delta antibodies.,Complex_formation
+12185196,s7,T14,T15,,PP1delta, and nucleolin were also co-immunoprecipitated with anti-nucleolin and anti-,PP1delta, antibodies.,Not_a_complex
+12185196,s7,T5,T15,PP1delta and ,nucleolin, were also co-immunoprecipitated with anti-nucleolin and anti-,PP1delta, antibodies.,Not_a_complex
+12185196,s7,T5,T6,PP1delta and ,nucleolin, were also co-immunoprecipitated with anti-,nucleolin, and anti-PP1delta antibodies.,Not_a_complex
+12185196,s7,T14,T6,,PP1delta, and nucleolin were also co-immunoprecipitated with anti-,nucleolin, and anti-PP1delta antibodies.,Not_a_complex
+12185196,s7,T6,T15,PP1delta and nucleolin were also co-immunoprecipitated with anti-,nucleolin, and anti-,PP1delta, antibodies.,Not_a_complex
+12185196,s8,T16,T17,In the ,actinomycin D,"-treated cells, the subcellular localization of ",PP1delta, and nucleolin was changed.,Not_a_complex
+12185196,s8,T16,T7,In the ,actinomycin D,"-treated cells, the subcellular localization of PP1delta and ",nucleolin, was changed.,Not_a_complex
+12185196,s8,T17,T7,"In the actinomycin D-treated cells, the subcellular localization of ",PP1delta, and ,nucleolin, was changed.,Not_a_complex
+12185196,s9,T18,T19,Expression of ,PP1delta, was upregulated with ,actinomycin D, treatment.,Not_a_complex
+12185196,s12,T22,T8,These results indicate that ,PP1delta, was associated with ,nucleolin," in the nucleolus of MG63 and Saos-2 cells and that nucleolin is a possible candidate substrate for PP1delta. 
+",Complex_formation
+12185196,s12,T22,T23,These results indicate that ,PP1delta, was associated with nucleolin in the nucleolus of MG63 and Saos-2 cells and that nucleolin is a possible candidate substrate for ,PP1delta,". 
+",Not_a_complex
+12185196,s12,T8,T23,These results indicate that PP1delta was associated with ,nucleolin, in the nucleolus of MG63 and Saos-2 cells and that nucleolin is a possible candidate substrate for ,PP1delta,". 
+",Not_a_complex
+12185196,s12,T8,T9,These results indicate that PP1delta was associated with ,nucleolin, in the nucleolus of MG63 and Saos-2 cells and that ,nucleolin," is a possible candidate substrate for PP1delta. 
+",Not_a_complex
+12185196,s12,T22,T9,These results indicate that ,PP1delta, was associated with nucleolin in the nucleolus of MG63 and Saos-2 cells and that ,nucleolin," is a possible candidate substrate for PP1delta. 
+",Not_a_complex
+12185196,s12,T9,T23,These results indicate that PP1delta was associated with nucleolin in the nucleolus of MG63 and Saos-2 cells and that ,nucleolin, is a possible candidate substrate for ,PP1delta,". 
+",Not_a_complex

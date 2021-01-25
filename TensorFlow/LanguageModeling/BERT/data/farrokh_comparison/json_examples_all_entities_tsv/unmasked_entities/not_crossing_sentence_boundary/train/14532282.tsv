@@ -1,0 +1,15 @@
+14532282,s0,T1,T2,,HCF-1, functions as a coactivator for the ,zinc finger protein Krox20,". 
+",Not_a_complex
+14532282,s1,T3,T18,,HCF-1, is a transcriptional cofactor required for activation of herpes simplex virus immediate-early genes by ,VP16," as well as less clearly defined roles in cell proliferation, cytokinesis, and spliceosome formation.",Not_a_complex
+14532282,s3,T19,T4,,VP16," uses a degenerate 4-amino acid sequence, known as the HCF-binding motif, to bind to a six-bladed beta-propeller domain at the N terminus of ",HCF-1,.,Complex_formation
+14532282,s4,T20,T5,Functional ,HCF,-binding motifs are also found in ,LZIP," and Zhangfei, two cellular bZIP transcription factors of unknown function.",Complex_formation
+14532282,s4,T20,T6,Functional ,HCF,-binding motifs are also found in LZIP and ,Zhangfei,", two cellular bZIP transcription factors of unknown function.",Complex_formation
+14532282,s4,T5,T6,Functional HCF-binding motifs are also found in ,LZIP, and ,Zhangfei,", two cellular bZIP transcription factors of unknown function.",Not_a_complex
+14532282,s7,T8,T10,,Krox20,", a zinc finger transcription factor required for Schwann cell differentiation, and E2F4, a cell cycle regulator, showed a strong requirement for functional ",HCF-1, to activate transcription.,Not_a_complex
+14532282,s7,T8,T9,,Krox20,", a zinc finger transcription factor required for Schwann cell differentiation, and ",E2F4,", a cell cycle regulator, showed a strong requirement for functional HCF-1 to activate transcription.",Not_a_complex
+14532282,s7,T9,T10,"Krox20, a zinc finger transcription factor required for Schwann cell differentiation, and ",E2F4,", a cell cycle regulator, showed a strong requirement for functional ",HCF-1, to activate transcription.,Not_a_complex
+14532282,s8,T11,T22,"In contrast, activation by ",estrogen receptor-alpha, did not display ,HCF, dependence.,Not_a_complex
+14532282,s9,T12,T13,In ,Krox20,", the HCF-binding motif lies within the N-terminal activation domain and mutation of this sequence diminishes both transactivation and association with the ",HCF-1, beta-propeller.,Complex_formation
+14532282,s10,T14,T15,The activation domain in the C-terminal subunit of ,HCF-1, contributes to activation by ,Krox20,", possibly through recruitment of p300.",Not_a_complex
+14532282,s10,T14,T16,The activation domain in the C-terminal subunit of ,HCF-1," contributes to activation by Krox20, possibly through recruitment of ",p300,.,Not_a_complex
+14532282,s10,T15,T16,The activation domain in the C-terminal subunit of HCF-1 contributes to activation by ,Krox20,", possibly through recruitment of ",p300,.,Not_a_complex

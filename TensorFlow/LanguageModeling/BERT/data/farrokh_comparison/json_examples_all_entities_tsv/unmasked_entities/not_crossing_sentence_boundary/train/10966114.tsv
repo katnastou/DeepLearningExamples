@@ -1,0 +1,50 @@
+10966114,s0,T1,T2,Structure of a ,c-Cbl,-,UbcH7," complex: RING domain function in ubiquitin-protein ligases. 
+",Complex_formation
+10966114,s0,T1,T3,Structure of a ,c-Cbl,-UbcH7 complex: RING domain function in ,ubiquitin-protein ligases,". 
+",Not_a_complex
+10966114,s0,T2,T3,Structure of a c-Cbl-,UbcH7, complex: RING domain function in ,ubiquitin-protein ligases,". 
+",Not_a_complex
+10966114,s1,T4,T7,,Ubiquitin-protein ligases, (,E3s,) regulate diverse cellular processes by mediating protein ubiquitination.,Not_a_complex
+10966114,s2,T8,T10,The c-Cbl proto-oncogene is a RING family ,E3, that recognizes ,activated receptor tyrosine kinases,", promotes their ubiquitination by a ubiquitin-conjugating enzyme (E2) and terminates signaling.",Complex_formation
+10966114,s2,T10,T11,The c-Cbl proto-oncogene is a RING family E3 that recognizes ,activated receptor tyrosine kinases,", promotes their ubiquitination by a ",ubiquitin-conjugating enzyme, (E2) and terminates signaling.,Not_a_complex
+10966114,s2,T5,T10,The ,c-Cbl, proto-oncogene is a RING family E3 that recognizes ,activated receptor tyrosine kinases,", promotes their ubiquitination by a ubiquitin-conjugating enzyme (E2) and terminates signaling.",Not_a_complex
+10966114,s2,T5,T11,The ,c-Cbl," proto-oncogene is a RING family E3 that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ",ubiquitin-conjugating enzyme, (E2) and terminates signaling.,Not_a_complex
+10966114,s2,T5,T8,The ,c-Cbl, proto-oncogene is a RING family ,E3," that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ubiquitin-conjugating enzyme (E2) and terminates signaling.",Not_a_complex
+10966114,s2,T5,T9,The ,c-Cbl," proto-oncogene is a RING family E3 that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ubiquitin-conjugating enzyme (",E2,) and terminates signaling.,Not_a_complex
+10966114,s2,T8,T11,The c-Cbl proto-oncogene is a RING family ,E3," that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ",ubiquitin-conjugating enzyme, (E2) and terminates signaling.,Not_a_complex
+10966114,s2,T8,T9,The c-Cbl proto-oncogene is a RING family ,E3," that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ubiquitin-conjugating enzyme (",E2,) and terminates signaling.,Not_a_complex
+10966114,s2,T10,T9,The c-Cbl proto-oncogene is a RING family E3 that recognizes ,activated receptor tyrosine kinases,", promotes their ubiquitination by a ubiquitin-conjugating enzyme (",E2,) and terminates signaling.,Not_a_complex
+10966114,s2,T11,T9,"The c-Cbl proto-oncogene is a RING family E3 that recognizes activated receptor tyrosine kinases, promotes their ubiquitination by a ",ubiquitin-conjugating enzyme, (,E2,) and terminates signaling.,Not_a_complex
+10966114,s3,T6,T12,The crystal structure of ,c-Cbl, bound to a cognate ,E2, and a kinase peptide shows how the RING domain recruits the E2.,Complex_formation
+10966114,s3,T12,T13,The crystal structure of c-Cbl bound to a cognate ,E2, and a kinase peptide shows how the RING domain recruits the ,E2,.,Not_a_complex
+10966114,s3,T6,T13,The crystal structure of ,c-Cbl, bound to a cognate E2 and a kinase peptide shows how the RING domain recruits the ,E2,.,Not_a_complex
+10966114,s4,T14,T15,A comparison with a HECT family ,E3,-,E2, complex indicates that a common E2 motif is recognized by the two E3 families.,Complex_formation
+10966114,s4,T16,T17,A comparison with a HECT family E3-E2 complex indicates that a common ,E2, motif is recognized by the two ,E3, families.,Complex_formation
+10966114,s4,T14,T16,A comparison with a HECT family ,E3,-E2 complex indicates that a common ,E2, motif is recognized by the two E3 families.,Not_a_complex
+10966114,s4,T14,T17,A comparison with a HECT family ,E3,-E2 complex indicates that a common E2 motif is recognized by the two ,E3, families.,Not_a_complex
+10966114,s4,T22,T14,A comparison with a ,HECT, family ,E3,-E2 complex indicates that a common E2 motif is recognized by the two E3 families.,Not_a_complex
+10966114,s4,T15,T16,A comparison with a HECT family E3-,E2, complex indicates that a common ,E2, motif is recognized by the two E3 families.,Not_a_complex
+10966114,s4,T15,T17,A comparison with a HECT family E3-,E2, complex indicates that a common E2 motif is recognized by the two ,E3, families.,Not_a_complex
+10966114,s4,T22,T15,A comparison with a ,HECT, family E3-,E2, complex indicates that a common E2 motif is recognized by the two E3 families.,Not_a_complex
+10966114,s4,T22,T16,A comparison with a ,HECT, family E3-E2 complex indicates that a common ,E2, motif is recognized by the two E3 families.,Not_a_complex
+10966114,s4,T22,T17,A comparison with a ,HECT, family E3-E2 complex indicates that a common E2 motif is recognized by the two ,E3, families.,Not_a_complex
+10966114,s5,T19,T20,The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the ,E2," active site, suggesting that RING ",E3s," may function as scaffolds that position the substrate and the E2 optimally for ubiquitin transfer. 
+",Complex_formation
+10966114,s5,T20,T21,"The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING ",E3s, may function as scaffolds that position the substrate and the ,E2," optimally for ubiquitin transfer. 
+",Complex_formation
+10966114,s5,T18,T19,The structure reveals a rigid coupling between the peptide binding and the ,E2, binding domains and a conserved surface channel leading from the peptide to the ,E2," active site, suggesting that RING E3s may function as scaffolds that position the substrate and the E2 optimally for ubiquitin transfer. 
+",Not_a_complex
+10966114,s5,T18,T20,The structure reveals a rigid coupling between the peptide binding and the ,E2," binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING ",E3s," may function as scaffolds that position the substrate and the E2 optimally for ubiquitin transfer. 
+",Not_a_complex
+10966114,s5,T18,T21,The structure reveals a rigid coupling between the peptide binding and the ,E2," binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING E3s may function as scaffolds that position the substrate and the ",E2," optimally for ubiquitin transfer. 
+",Not_a_complex
+10966114,s5,T18,T23,The structure reveals a rigid coupling between the peptide binding and the ,E2," binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING E3s may function as scaffolds that position the substrate and the E2 optimally for ",ubiquitin," transfer. 
+",Not_a_complex
+10966114,s5,T19,T21,The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the ,E2," active site, suggesting that RING E3s may function as scaffolds that position the substrate and the ",E2," optimally for ubiquitin transfer. 
+",Not_a_complex
+10966114,s5,T19,T23,The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the ,E2," active site, suggesting that RING E3s may function as scaffolds that position the substrate and the E2 optimally for ",ubiquitin," transfer. 
+",Not_a_complex
+10966114,s5,T20,T23,"The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING ",E3s, may function as scaffolds that position the substrate and the E2 optimally for ,ubiquitin," transfer. 
+",Not_a_complex
+10966114,s5,T21,T23,"The structure reveals a rigid coupling between the peptide binding and the E2 binding domains and a conserved surface channel leading from the peptide to the E2 active site, suggesting that RING E3s may function as scaffolds that position the substrate and the ",E2, optimally for ,ubiquitin," transfer. 
+",Not_a_complex

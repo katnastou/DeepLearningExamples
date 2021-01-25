@@ -1,0 +1,13 @@
+24560702_19,s0,T1,T3,These data suggest that ,zfh1, is sufficient to promote transcription of some of the dMN guidance molecules in EWs but ,grn, is not.,Not_a_complex
+24560702_19,s1,T4,T12,"However, both ",zfh1, and grn can work together with eve to transcriptionally reprogram EWs and regulate guidance receptors and ,CAMs, normally expressed in dMNs.,Not_a_complex
+24560702_19,s1,T4,T5,"However, both ",zfh1, and ,grn, can work together with eve to transcriptionally reprogram EWs and regulate guidance receptors and CAMs normally expressed in dMNs.,Not_a_complex
+24560702_19,s1,T4,T6,"However, both ",zfh1, and grn can work together with ,eve, to transcriptionally reprogram EWs and regulate guidance receptors and CAMs normally expressed in dMNs.,Not_a_complex
+24560702_19,s1,T5,T12,"However, both zfh1 and ",grn, can work together with eve to transcriptionally reprogram EWs and regulate guidance receptors and ,CAMs, normally expressed in dMNs.,Not_a_complex
+24560702_19,s1,T5,T6,"However, both zfh1 and ",grn, can work together with ,eve, to transcriptionally reprogram EWs and regulate guidance receptors and CAMs normally expressed in dMNs.,Not_a_complex
+24560702_19,s1,T6,T12,"However, both zfh1 and grn can work together with ",eve, to transcriptionally reprogram EWs and regulate guidance receptors and ,CAMs, normally expressed in dMNs.,Not_a_complex
+24560702_19,s2,T8,T10,"Additionally, the combinatorial expression of ",eve, with zfh1 or ,grn," induces a more robust transcriptional reprograming of EWs than each of them alone (Figure 6Q).
+",Not_a_complex
+24560702_19,s2,T8,T9,"Additionally, the combinatorial expression of ",eve, with ,zfh1," or grn induces a more robust transcriptional reprograming of EWs than each of them alone (Figure 6Q).
+",Not_a_complex
+24560702_19,s2,T9,T10,"Additionally, the combinatorial expression of eve with ",zfh1, or ,grn," induces a more robust transcriptional reprograming of EWs than each of them alone (Figure 6Q).
+",Not_a_complex

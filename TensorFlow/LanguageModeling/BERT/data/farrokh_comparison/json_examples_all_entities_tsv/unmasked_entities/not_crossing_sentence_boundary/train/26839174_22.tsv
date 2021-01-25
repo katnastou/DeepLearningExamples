@@ -1,0 +1,10 @@
+26839174_22,s0,T6,T7,"Finally, to determine whether the observed increase in mitochondrial function also affects cellular fitness, we studied the growth rates and RLS of ",mmr1Delta, ,mfb1Delta, cells.,Not_a_complex
+26839174_22,s4,T8,T9,We find that there is no short-lived population of ,mfb1Delta, ,mmr1Delta, cells.,Not_a_complex
+26839174_22,s6,T2,T11,"Thus, deletion of ",MFB1, extends RLS in ,mmr1Delta, cells and vice versa.,Not_a_complex
+26839174_22,s7,T3,T12,Deletion of ,MMR1, in ,mfb1Delta, cells also rescued cellular growth rates (Fig. 4f).,Not_a_complex
+26839174_22,s8,T4,T13,"Overall, these results indicate that ",Mfb1p," and Mmr1p have antagonistic effects in controlling mitochondrial partitioning, and that the disproportionate loss of mitochondria from mother cells is the primary cause for cellular growth defects and premature ageing in ",mfb1Delta," cells.
+",Not_a_complex
+26839174_22,s8,T4,T5,"Overall, these results indicate that ",Mfb1p, and ,Mmr1p," have antagonistic effects in controlling mitochondrial partitioning, and that the disproportionate loss of mitochondria from mother cells is the primary cause for cellular growth defects and premature ageing in mfb1Delta cells.
+",Not_a_complex
+26839174_22,s8,T5,T13,"Overall, these results indicate that Mfb1p and ",Mmr1p," have antagonistic effects in controlling mitochondrial partitioning, and that the disproportionate loss of mitochondria from mother cells is the primary cause for cellular growth defects and premature ageing in ",mfb1Delta," cells.
+",Not_a_complex

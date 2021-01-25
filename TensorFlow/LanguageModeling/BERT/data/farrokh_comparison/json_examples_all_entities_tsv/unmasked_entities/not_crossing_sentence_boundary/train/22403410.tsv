@@ -1,0 +1,48 @@
+22403410,s0,T1,T2,"Role for two conserved intermembrane space proteins, ",Ups1p, and ,Ups2p,", [corrected] in intra-mitochondrial phospholipid trafficking. 
+",Not_a_complex
+22403410,s0,T1,T22,"Role for two conserved intermembrane space proteins, ",Ups1p," and Ups2p, [corrected] in intra-mitochondrial ",phospholipid," trafficking. 
+",Not_a_complex
+22403410,s0,T2,T22,"Role for two conserved intermembrane space proteins, Ups1p and ",Ups2p,", [corrected] in intra-mitochondrial ",phospholipid," trafficking. 
+",Not_a_complex
+22403410,s2,T24,T25,Most ,phospholipids," are synthesized in the endoplasmic reticulum (ER) and transported to mitochondria, but ",cardiolipin, and phosphatidylethanolamine are produced in mitochondria.,Not_a_complex
+22403410,s2,T24,T31,Most ,phospholipids," are synthesized in the endoplasmic reticulum (ER) and transported to mitochondria, but cardiolipin and ",phosphatidylethanolamine, are produced in mitochondria.,Not_a_complex
+22403410,s2,T25,T31,"Most phospholipids are synthesized in the endoplasmic reticulum (ER) and transported to mitochondria, but ",cardiolipin, and ,phosphatidylethanolamine, are produced in mitochondria.,Not_a_complex
+22403410,s3,T18,T19,"In the yeast Saccharomyces cerevisiae, phospholipid exchange between the ER and mitochondria relies on the ",ER-mitochondria encounter structure, (,ERMES,") complex, which physically connects the ER and mitochondrial outer membrane.",Not_a_complex
+22403410,s3,T20,T18,"In the yeast Saccharomyces cerevisiae, ",phospholipid, exchange between the ER and mitochondria relies on the ,ER-mitochondria encounter structure," (ERMES) complex, which physically connects the ER and mitochondrial outer membrane.",Not_a_complex
+22403410,s3,T20,T19,"In the yeast Saccharomyces cerevisiae, ",phospholipid, exchange between the ER and mitochondria relies on the ER-mitochondria encounter structure (,ERMES,") complex, which physically connects the ER and mitochondrial outer membrane.",Not_a_complex
+22403410,s5,T3,T26,"Here, we investigated the role of the conserved intermembrane space proteins, ",Ups1p," and Ups2p, and an inner membrane protein, Mdm31p, in ",phospholipid, metabolism.,Not_a_complex
+22403410,s5,T3,T4,"Here, we investigated the role of the conserved intermembrane space proteins, ",Ups1p, and ,Ups2p,", and an inner membrane protein, Mdm31p, in phospholipid metabolism.",Not_a_complex
+22403410,s5,T3,T5,"Here, we investigated the role of the conserved intermembrane space proteins, ",Ups1p," and Ups2p, and an inner membrane protein, ",Mdm31p,", in phospholipid metabolism.",Not_a_complex
+22403410,s5,T4,T26,"Here, we investigated the role of the conserved intermembrane space proteins, Ups1p and ",Ups2p,", and an inner membrane protein, Mdm31p, in ",phospholipid, metabolism.,Not_a_complex
+22403410,s5,T4,T5,"Here, we investigated the role of the conserved intermembrane space proteins, Ups1p and ",Ups2p,", and an inner membrane protein, ",Mdm31p,", in phospholipid metabolism.",Not_a_complex
+22403410,s5,T5,T26,"Here, we investigated the role of the conserved intermembrane space proteins, Ups1p and Ups2p, and an inner membrane protein, ",Mdm31p,", in ",phospholipid, metabolism.,Not_a_complex
+22403410,s6,T32,T27,Our data show that loss of the ,ERMES," complex, Ups1p, and Mdm31p causes similar defects in mitochondrial ",phospholipid," metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s6,T6,T27,"Our data show that loss of the ERMES complex, ",Ups1p,", and Mdm31p causes similar defects in mitochondrial ",phospholipid," metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s6,T32,T6,Our data show that loss of the ,ERMES," complex, ",Ups1p,", and Mdm31p causes similar defects in mitochondrial phospholipid metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s6,T6,T7,"Our data show that loss of the ERMES complex, ",Ups1p,", and ",Mdm31p," causes similar defects in mitochondrial phospholipid metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s6,T7,T27,"Our data show that loss of the ERMES complex, Ups1p, and ",Mdm31p, causes similar defects in mitochondrial ,phospholipid," metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s6,T32,T7,Our data show that loss of the ,ERMES," complex, Ups1p, and ",Mdm31p," causes similar defects in mitochondrial phospholipid metabolism, mitochondrial morphology, and cell growth.",Not_a_complex
+22403410,s7,T10,T11,Defects in cells lacking the ERMES complex or Ups1p are suppressed by Mdm31p overexpression as well as additional loss of ,Ups2p,", which antagonizes ",Ups1p,.,Not_a_complex
+22403410,s7,T33,T10,Defects in cells lacking the ,ERMES, complex or Ups1p are suppressed by Mdm31p overexpression as well as additional loss of ,Ups2p,", which antagonizes Ups1p.",Not_a_complex
+22403410,s7,T33,T11,Defects in cells lacking the ,ERMES," complex or Ups1p are suppressed by Mdm31p overexpression as well as additional loss of Ups2p, which antagonizes ",Ups1p,.,Not_a_complex
+22403410,s7,T8,T10,Defects in cells lacking the ERMES complex or ,Ups1p, are suppressed by Mdm31p overexpression as well as additional loss of ,Ups2p,", which antagonizes Ups1p.",Not_a_complex
+22403410,s7,T8,T11,Defects in cells lacking the ERMES complex or ,Ups1p," are suppressed by Mdm31p overexpression as well as additional loss of Ups2p, which antagonizes ",Ups1p,.,Not_a_complex
+22403410,s7,T33,T8,Defects in cells lacking the ,ERMES, complex or ,Ups1p," are suppressed by Mdm31p overexpression as well as additional loss of Ups2p, which antagonizes Ups1p.",Not_a_complex
+22403410,s7,T8,T9,Defects in cells lacking the ERMES complex or ,Ups1p, are suppressed by ,Mdm31p," overexpression as well as additional loss of Ups2p, which antagonizes Ups1p.",Not_a_complex
+22403410,s7,T9,T10,Defects in cells lacking the ERMES complex or Ups1p are suppressed by ,Mdm31p, overexpression as well as additional loss of ,Ups2p,", which antagonizes Ups1p.",Not_a_complex
+22403410,s7,T9,T11,Defects in cells lacking the ERMES complex or Ups1p are suppressed by ,Mdm31p," overexpression as well as additional loss of Ups2p, which antagonizes ",Ups1p,.,Not_a_complex
+22403410,s7,T33,T9,Defects in cells lacking the ,ERMES, complex or Ups1p are suppressed by ,Mdm31p," overexpression as well as additional loss of Ups2p, which antagonizes Ups1p.",Not_a_complex
+22403410,s8,T12,T28,Combined loss of the ERMES complex and ,Ups1p, exacerbates ,phospholipid, defects.,Not_a_complex
+22403410,s8,T34,T12,Combined loss of the ,ERMES, complex and ,Ups1p, exacerbates phospholipid defects.,Not_a_complex
+22403410,s8,T34,T28,Combined loss of the ,ERMES, complex and Ups1p exacerbates ,phospholipid, defects.,Not_a_complex
+22403410,s9,T13,T35,"Finally, pulse-chase experiments using [(14)C]serine revealed that ",Ups1p, and Ups2p antagonistically regulate conversion of ,phosphatidylethanolamine, to phosphatidylcholine.,Complex_formation
+22403410,s9,T14,T35,"Finally, pulse-chase experiments using [(14)C]serine revealed that Ups1p and ",Ups2p, antagonistically regulate conversion of ,phosphatidylethanolamine, to phosphatidylcholine.,Complex_formation
+22403410,s9,T13,T14,"Finally, pulse-chase experiments using [(14)C]serine revealed that ",Ups1p, and ,Ups2p, antagonistically regulate conversion of phosphatidylethanolamine to phosphatidylcholine.,Not_a_complex
+22403410,s9,T13,T36,"Finally, pulse-chase experiments using [(14)C]serine revealed that ",Ups1p, and Ups2p antagonistically regulate conversion of phosphatidylethanolamine to ,phosphatidylcholine,.,Not_a_complex
+22403410,s9,T14,T36,"Finally, pulse-chase experiments using [(14)C]serine revealed that Ups1p and ",Ups2p, antagonistically regulate conversion of phosphatidylethanolamine to ,phosphatidylcholine,.,Not_a_complex
+22403410,s9,T35,T36,"Finally, pulse-chase experiments using [(14)C]serine revealed that Ups1p and Ups2p antagonistically regulate conversion of ",phosphatidylethanolamine, to ,phosphatidylcholine,.,Not_a_complex
+22403410,s10,T15,T29,Our results suggest that ,Ups, proteins and Mdm31p play important roles in ,phospholipid, biosynthesis in mitochondria.,Complex_formation
+22403410,s10,T16,T29,Our results suggest that Ups proteins and ,Mdm31p, play important roles in ,phospholipid, biosynthesis in mitochondria.,Complex_formation
+22403410,s10,T15,T16,Our results suggest that ,Ups, proteins and ,Mdm31p, play important roles in phospholipid biosynthesis in mitochondria.,Not_a_complex
+22403410,s11,T17,T30,,Ups, proteins may function in ,phospholipid," trafficking between the outer and inner mitochondrial membranes. 
+",Complex_formation

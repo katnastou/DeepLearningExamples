@@ -1,0 +1,48 @@
+19736312,s0,T1,T6,,Vinculin, nucleates ,actin," polymerization and modifies actin filament structure. 
+",Not_a_complex
+19736312,s0,T1,T7,,Vinculin, nucleates actin polymerization and modifies ,actin," filament structure. 
+",Not_a_complex
+19736312,s0,T6,T7,Vinculin nucleates ,actin, polymerization and modifies ,actin," filament structure. 
+",Not_a_complex
+19736312,s1,T2,T10,,Vinculin, links integrins to the actin cytoskeleton by binding ,F-actin,.,Complex_formation
+19736312,s1,T8,T9,Vinculin links ,integrins, to the ,actin, cytoskeleton by binding F-actin.,Complex_formation
+19736312,s1,T2,T8,,Vinculin, links ,integrins, to the actin cytoskeleton by binding F-actin.,Not_a_complex
+19736312,s1,T2,T9,,Vinculin, links integrins to the ,actin, cytoskeleton by binding F-actin.,Not_a_complex
+19736312,s1,T8,T10,Vinculin links ,integrins, to the actin cytoskeleton by binding ,F-actin,.,Not_a_complex
+19736312,s1,T9,T10,Vinculin links integrins to the ,actin, cytoskeleton by binding ,F-actin,.,Not_a_complex
+19736312,s3,T14,T12,Here we assess the consequence of the vinculin tail (,VT,) on ,actin, dynamics by examining its binding to monomeric and filamentous yeast actins.,Not_a_complex
+19736312,s3,T3,T12,Here we assess the consequence of the ,vinculin tail, (VT) on ,actin, dynamics by examining its binding to monomeric and filamentous yeast actins.,Not_a_complex
+19736312,s3,T3,T14,Here we assess the consequence of the ,vinculin tail, (,VT,) on actin dynamics by examining its binding to monomeric and filamentous yeast actins.,Not_a_complex
+19736312,s3,T3,T4,Here we assess the consequence of the ,vinculin tail, (VT) on actin dynamics by examining its binding to monomeric and filamentous yeast ,actins,.,Not_a_complex
+19736312,s3,T12,T4,Here we assess the consequence of the vinculin tail (VT) on ,actin, dynamics by examining its binding to monomeric and filamentous yeast ,actins,.,Not_a_complex
+19736312,s3,T14,T4,Here we assess the consequence of the vinculin tail (,VT,) on actin dynamics by examining its binding to monomeric and filamentous yeast ,actins,.,Not_a_complex
+19736312,s4,T15,T13,,VT, causes pyrene-labeled ,G-actin," to polymerize in low ionic strength buffer (G-buffer), conditions that normally do not promote actin polymerization.",Not_a_complex
+19736312,s4,T13,T16,VT causes pyrene-labeled ,G-actin," to polymerize in low ionic strength buffer (G-buffer), conditions that normally do not promote ",actin, polymerization.,Not_a_complex
+19736312,s4,T15,T16,,VT," causes pyrene-labeled G-actin to polymerize in low ionic strength buffer (G-buffer), conditions that normally do not promote ",actin, polymerization.,Not_a_complex
+19736312,s5,T17,T18,"Analysis by electron microscopy shows that, under these conditions, the filaments form small bundles at low ",VT," concentrations, which gradually increase in size until saturation occurs at a ratio of 2 ",VT,:1 actin.,Not_a_complex
+19736312,s5,T17,T19,"Analysis by electron microscopy shows that, under these conditions, the filaments form small bundles at low ",VT," concentrations, which gradually increase in size until saturation occurs at a ratio of 2 VT:1 ",actin,.,Not_a_complex
+19736312,s5,T18,T19,"Analysis by electron microscopy shows that, under these conditions, the filaments form small bundles at low VT concentrations, which gradually increase in size until saturation occurs at a ratio of 2 ",VT,:1 ,actin,.,Not_a_complex
+19736312,s6,T20,T21,Addition of ,VT, to pyrene-labeled mutant yeast ,G-actin," (S265C) produced a fluorescence excimer band, which requires a relatively normal filament geometry.",Not_a_complex
+19736312,s6,T20,T32,Addition of ,VT, to ,pyrene,"-labeled mutant yeast G-actin (S265C) produced a fluorescence excimer band, which requires a relatively normal filament geometry.",Not_a_complex
+19736312,s6,T32,T21,Addition of VT to ,pyrene,-labeled mutant yeast ,G-actin," (S265C) produced a fluorescence excimer band, which requires a relatively normal filament geometry.",Not_a_complex
+19736312,s7,T22,T23,"In higher ionic strength polymerization-promoting F-buffer, substoichiometric amounts of ",VT, accelerate the polymerization of pyrene-labeled WT ,actin,.,Not_a_complex
+19736312,s8,T24,T25,"However, the amplitude of the pyrene fluorescence caused by ",actin, polymerization is quenched as the ,VT, concentration increases without an effect on net actin polymerization as determined by centrifugation assays.,Not_a_complex
+19736312,s8,T24,T26,"However, the amplitude of the pyrene fluorescence caused by ",actin, polymerization is quenched as the VT concentration increases without an effect on net ,actin, polymerization as determined by centrifugation assays.,Not_a_complex
+19736312,s8,T25,T26,"However, the amplitude of the pyrene fluorescence caused by actin polymerization is quenched as the ",VT, concentration increases without an effect on net ,actin, polymerization as determined by centrifugation assays.,Not_a_complex
+19736312,s9,T27,T28,"Finally, addition of ",VT, to preformed pyrene-labeled S265C ,F-actin, causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T27,T29,"Finally, addition of ",VT, to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of ,VT, to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T27,T30,"Finally, addition of ",VT, to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the ,actin, filament.,Not_a_complex
+19736312,s9,T27,T33,"Finally, addition of ",VT, to preformed ,pyrene,-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T27,T34,"Finally, addition of ",VT, to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the ,pyrene, fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T28,T29,"Finally, addition of VT to preformed pyrene-labeled S265C ",F-actin, causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of ,VT, to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T28,T30,"Finally, addition of VT to preformed pyrene-labeled S265C ",F-actin, causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the ,actin, filament.,Not_a_complex
+19736312,s9,T33,T28,"Finally, addition of VT to preformed ",pyrene,-labeled S265C ,F-actin, causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T28,T34,"Finally, addition of VT to preformed pyrene-labeled S265C ",F-actin, causes a concentration-dependent decrease in the maximum amplitude of the ,pyrene, fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T29,T30,"Finally, addition of VT to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of ",VT, to remodel the conformation of the ,actin, filament.,Not_a_complex
+19736312,s9,T33,T29,"Finally, addition of VT to preformed ",pyrene,-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of ,VT, to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T34,T29,"Finally, addition of VT to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the ",pyrene, fluorescence band demonstrating the ability of ,VT, to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s9,T33,T30,"Finally, addition of VT to preformed ",pyrene,-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the pyrene fluorescence band demonstrating the ability of VT to remodel the conformation of the ,actin, filament.,Not_a_complex
+19736312,s9,T34,T30,"Finally, addition of VT to preformed pyrene-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the ",pyrene, fluorescence band demonstrating the ability of VT to remodel the conformation of the ,actin, filament.,Not_a_complex
+19736312,s9,T33,T34,"Finally, addition of VT to preformed ",pyrene,-labeled S265C F-actin causes a concentration-dependent decrease in the maximum amplitude of the ,pyrene, fluorescence band demonstrating the ability of VT to remodel the conformation of the actin filament.,Not_a_complex
+19736312,s10,T5,T31,These observations support the idea that ,vinculin, can link adhesion plaques to the cytoskeleton by initiating the formation of bundled ,actin," filaments or by remodeling existing filaments. 
+",Not_a_complex

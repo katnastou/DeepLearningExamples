@@ -1,0 +1,11 @@
+9111040,s0,T1,T2,Oncogenic forms of ,NOTCH1, lacking either the primary binding site for ,RBP-Jkappa," or nuclear localization sequences retain the ability to associate with RBP-Jkappa and activate transcription. 
+",Complex_formation
+9111040,s0,T1,T3,Oncogenic forms of ,NOTCH1, lacking either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the ability to associate with ,RBP-Jkappa," and activate transcription. 
+",Complex_formation
+9111040,s0,T2,T3,Oncogenic forms of NOTCH1 lacking either the primary binding site for ,RBP-Jkappa, or nuclear localization sequences retain the ability to associate with ,RBP-Jkappa," and activate transcription. 
+",Not_a_complex
+9111040,s1,T4,T5,Truncated forms of the ,NOTCH1, transmembrane receptor engineered to resemble mutant forms of ,NOTCH1, found in certain cases of human T cell leukemia/lymphoma (T-ALL) efficiently induce T-ALL when expressed in the bone marrow of mice.,Not_a_complex
+9111040,s2,T6,T7,Unlike full-sized ,NOTCH1,", two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were found to activate transcription in cultured cells, presumably through ",RBP-Jkappa, response elements within DNA.,Not_a_complex
+9111040,s4,T9,T10,Transcriptional activation required the presence of a weak ,RBP-Jkappa,-binding site within the ,NOTCH1, ankyrin repeat region of the intracellular domain.,Complex_formation
+9111040,s5,T11,T12,"Unexpectedly, a second, stronger ",RBP-Jkappa,"-binding site, which lies within the intracellular domain close to the transmembrane region and significantly augments association with ",RBP-Jkappa,", was not needed for oncogenesis or for transcriptional activation.",Not_a_complex
+9111040,s8,T13,T14,These data are most consistent with ,NOTCH1, oncogenesis and transcriptional activation being independent of association with ,RBP-Jkappa, at promoter sites.,Not_a_complex

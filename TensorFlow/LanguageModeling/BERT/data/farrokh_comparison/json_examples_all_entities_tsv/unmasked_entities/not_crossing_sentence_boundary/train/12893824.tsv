@@ -1,0 +1,25 @@
+12893824,s0,T1,T13,,Glutathione peroxidase 1, is regulated by the c-Abl and ,Arg," tyrosine kinases. 
+",Not_a_complex
+12893824,s0,T1,T2,,Glutathione peroxidase 1, is regulated by the ,c-Abl," and Arg tyrosine kinases. 
+",Not_a_complex
+12893824,s0,T2,T13,Glutathione peroxidase 1 is regulated by the ,c-Abl, and ,Arg," tyrosine kinases. 
+",Not_a_complex
+12893824,s1,T3,T14,The ,c-Abl, and ,Arg, tyrosine kinases are activated in the cellular response to oxidative stress.,Not_a_complex
+12893824,s2,T4,T5,The present studies demonstrate that ,c-Abl, and Arg associate with ,glutathione peroxidase 1, (GPx1) and that this interaction is regulated by intracellular oxidant levels.,Complex_formation
+12893824,s2,T4,T6,The present studies demonstrate that ,c-Abl, and Arg associate with glutathione peroxidase 1 (,GPx1,) and that this interaction is regulated by intracellular oxidant levels.,Complex_formation
+12893824,s2,T15,T5,The present studies demonstrate that c-Abl and ,Arg, associate with ,glutathione peroxidase 1, (GPx1) and that this interaction is regulated by intracellular oxidant levels.,Complex_formation
+12893824,s2,T15,T6,The present studies demonstrate that c-Abl and ,Arg, associate with glutathione peroxidase 1 (,GPx1,) and that this interaction is regulated by intracellular oxidant levels.,Complex_formation
+12893824,s2,T4,T15,The present studies demonstrate that ,c-Abl, and ,Arg, associate with glutathione peroxidase 1 (GPx1) and that this interaction is regulated by intracellular oxidant levels.,Not_a_complex
+12893824,s2,T5,T6,The present studies demonstrate that c-Abl and Arg associate with ,glutathione peroxidase 1, (,GPx1,) and that this interaction is regulated by intracellular oxidant levels.,Not_a_complex
+12893824,s3,T7,T8,The ,c-Abl, and Arg SH3 domains bind directly to a proline-rich site in ,GPx1, at amino acids 132-145.,Complex_formation
+12893824,s3,T16,T8,The c-Abl and ,Arg, SH3 domains bind directly to a proline-rich site in ,GPx1, at amino acids 132-145.,Complex_formation
+12893824,s3,T7,T16,The ,c-Abl, and ,Arg, SH3 domains bind directly to a proline-rich site in GPx1 at amino acids 132-145.,Not_a_complex
+12893824,s4,T17,T18,GPx1 also functions as a substrate for ,c-Abl,- and ,Arg,-mediated phosphorylation on Tyr-96.,Not_a_complex
+12893824,s4,T9,T17,,GPx1, also functions as a substrate for ,c-Abl,- and Arg-mediated phosphorylation on Tyr-96.,Not_a_complex
+12893824,s4,T9,T18,,GPx1, also functions as a substrate for c-Abl- and ,Arg,-mediated phosphorylation on Tyr-96.,Not_a_complex
+12893824,s5,T11,T10,The results further show that ,c-Abl, and ,Arg, stimulate GPx activity and that these kinases contribute to GPx-mediated protection of cells against oxidative stress.,Not_a_complex
+12893824,s5,T10,T19,The results further show that c-Abl and ,Arg, stimulate ,GPx, activity and that these kinases contribute to GPx-mediated protection of cells against oxidative stress.,Not_a_complex
+12893824,s5,T10,T20,The results further show that c-Abl and ,Arg, stimulate GPx activity and that these kinases contribute to ,GPx,-mediated protection of cells against oxidative stress.,Not_a_complex
+12893824,s5,T11,T19,The results further show that ,c-Abl, and Arg stimulate ,GPx, activity and that these kinases contribute to GPx-mediated protection of cells against oxidative stress.,Not_a_complex
+12893824,s5,T11,T20,The results further show that ,c-Abl, and Arg stimulate GPx activity and that these kinases contribute to ,GPx,-mediated protection of cells against oxidative stress.,Not_a_complex
+12893824,s5,T19,T20,The results further show that c-Abl and Arg stimulate ,GPx, activity and that these kinases contribute to ,GPx,-mediated protection of cells against oxidative stress.,Not_a_complex

@@ -1,0 +1,46 @@
+16380507_12,s0,T1,T7,"In addition, ",HDAC2, KD did not affect ,NF-kappaB," expression, nuclear translocation (Fig. 3 A), or NF-kappaB-DNA binding (Fig. 3 B).",Not_a_complex
+16380507_12,s0,T1,T8,"In addition, ",HDAC2," KD did not affect NF-kappaB expression, nuclear translocation (Fig. 3 A), or ",NF-kappaB,-DNA binding (Fig. 3 B).,Not_a_complex
+16380507_12,s0,T7,T8,"In addition, HDAC2 KD did not affect ",NF-kappaB," expression, nuclear translocation (Fig. 3 A), or ",NF-kappaB,-DNA binding (Fig. 3 B).,Not_a_complex
+16380507_12,s1,T2,T10,We confirmed previous data showing that Dex increased GR and ,HDAC2, association with the ,p65,-NF-kappaB complex (Fig. 3 A).,Complex_formation
+16380507_12,s1,T2,T11,We confirmed previous data showing that Dex increased GR and ,HDAC2, association with the p65-,NF-kappaB, complex (Fig. 3 A).,Complex_formation
+16380507_12,s1,T9,T10,We confirmed previous data showing that Dex increased ,GR, and HDAC2 association with the ,p65,-NF-kappaB complex (Fig. 3 A).,Complex_formation
+16380507_12,s1,T9,T11,We confirmed previous data showing that Dex increased ,GR, and HDAC2 association with the p65-,NF-kappaB, complex (Fig. 3 A).,Complex_formation
+16380507_12,s1,T10,T11,We confirmed previous data showing that Dex increased GR and HDAC2 association with the ,p65,-,NF-kappaB, complex (Fig. 3 A).,Not_a_complex
+16380507_12,s1,T12,T10,We confirmed previous data showing that ,Dex, increased GR and HDAC2 association with the ,p65,-NF-kappaB complex (Fig. 3 A).,Not_a_complex
+16380507_12,s1,T12,T11,We confirmed previous data showing that ,Dex, increased GR and HDAC2 association with the p65-,NF-kappaB, complex (Fig. 3 A).,Not_a_complex
+16380507_12,s1,T12,T2,We confirmed previous data showing that ,Dex, increased GR and ,HDAC2, association with the p65-NF-kappaB complex (Fig. 3 A).,Not_a_complex
+16380507_12,s1,T9,T2,We confirmed previous data showing that Dex increased ,GR, and ,HDAC2, association with the p65-NF-kappaB complex (Fig. 3 A).,Not_a_complex
+16380507_12,s1,T12,T9,We confirmed previous data showing that ,Dex, increased ,GR, and HDAC2 association with the p65-NF-kappaB complex (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T13,T14,"However, ",GR, was not recruited to the ,p65,-NF-kappaB complex after HDAC2 KD (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T13,T15,"However, ",GR, was not recruited to the p65-,NF-kappaB, complex after HDAC2 KD (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T14,T15,"However, GR was not recruited to the ",p65,-,NF-kappaB, complex after HDAC2 KD (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T13,T3,"However, ",GR, was not recruited to the p65-NF-kappaB complex after ,HDAC2, KD (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T14,T3,"However, GR was not recruited to the ",p65,-NF-kappaB complex after ,HDAC2, KD (Fig. 3 A).,Not_a_complex
+16380507_12,s2,T15,T3,"However, GR was not recruited to the p65-",NF-kappaB, complex after ,HDAC2, KD (Fig. 3 A).,Not_a_complex
+16380507_12,s3,T16,T17,Chromatin immunoprecipitation (ChIP) analysis showed that ,Dex, failed to inhibit ,histone 4, acetylation at the p65-NF-kappaB binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T16,T18,Chromatin immunoprecipitation (ChIP) analysis showed that ,Dex, failed to inhibit histone 4 acetylation at the ,p65,-NF-kappaB binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T16,T19,Chromatin immunoprecipitation (ChIP) analysis showed that ,Dex, failed to inhibit histone 4 acetylation at the p65-,NF-kappaB, binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T17,T18,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit ,histone 4, acetylation at the ,p65,-NF-kappaB binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T17,T19,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit ,histone 4, acetylation at the p65-,NF-kappaB, binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T18,T19,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the ,p65,-,NF-kappaB, binding site in the GM-CSF promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T16,T4,Chromatin immunoprecipitation (ChIP) analysis showed that ,Dex, failed to inhibit histone 4 acetylation at the p65-NF-kappaB binding site in the ,GM-CSF, promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T17,T4,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit ,histone 4, acetylation at the p65-NF-kappaB binding site in the ,GM-CSF, promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T18,T4,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the ,p65,-NF-kappaB binding site in the ,GM-CSF, promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T19,T4,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the p65-,NF-kappaB, binding site in the ,GM-CSF, promoter region after HDAC2 KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T4,T5,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the p65-NF-kappaB binding site in the ,GM-CSF, promoter region after ,HDAC2, KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T16,T5,Chromatin immunoprecipitation (ChIP) analysis showed that ,Dex, failed to inhibit histone 4 acetylation at the p65-NF-kappaB binding site in the GM-CSF promoter region after ,HDAC2, KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T17,T5,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit ,histone 4, acetylation at the p65-NF-kappaB binding site in the GM-CSF promoter region after ,HDAC2, KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T18,T5,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the ,p65,-NF-kappaB binding site in the GM-CSF promoter region after ,HDAC2, KD (Fig. 3 C).,Not_a_complex
+16380507_12,s3,T19,T5,Chromatin immunoprecipitation (ChIP) analysis showed that Dex failed to inhibit histone 4 acetylation at the p65-,NF-kappaB, binding site in the GM-CSF promoter region after ,HDAC2, KD (Fig. 3 C).,Not_a_complex
+16380507_12,s4,T20,T21,"Thus, HDAC2 KD did not reduce the ability of ",GR, to induce ,GR,"-sensitive gene expression but had a preferential effect on the suppression of NF-kappaB-mediated inflammatory gene expression.
+",Not_a_complex
+16380507_12,s4,T20,T22,"Thus, HDAC2 KD did not reduce the ability of ",GR, to induce GR-sensitive gene expression but had a preferential effect on the suppression of ,NF-kappaB,"-mediated inflammatory gene expression.
+",Not_a_complex
+16380507_12,s4,T21,T22,"Thus, HDAC2 KD did not reduce the ability of GR to induce ",GR,-sensitive gene expression but had a preferential effect on the suppression of ,NF-kappaB,"-mediated inflammatory gene expression.
+",Not_a_complex
+16380507_12,s4,T6,T20,"Thus, ",HDAC2, KD did not reduce the ability of ,GR," to induce GR-sensitive gene expression but had a preferential effect on the suppression of NF-kappaB-mediated inflammatory gene expression.
+",Not_a_complex
+16380507_12,s4,T6,T21,"Thus, ",HDAC2, KD did not reduce the ability of GR to induce ,GR,"-sensitive gene expression but had a preferential effect on the suppression of NF-kappaB-mediated inflammatory gene expression.
+",Not_a_complex
+16380507_12,s4,T6,T22,"Thus, ",HDAC2, KD did not reduce the ability of GR to induce GR-sensitive gene expression but had a preferential effect on the suppression of ,NF-kappaB,"-mediated inflammatory gene expression.
+",Not_a_complex

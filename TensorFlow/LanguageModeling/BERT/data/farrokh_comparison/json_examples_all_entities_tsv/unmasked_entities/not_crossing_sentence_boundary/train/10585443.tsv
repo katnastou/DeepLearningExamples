@@ -1,0 +1,20 @@
+10585443,s0,T1,T2,Characterization of the cytosolic ,tuberin,-,hamartin, complex.,Complex_formation
+10585443,s1,T3,T4,,Tuberin, is a cytosolic chaperone for ,hamartin,". 
+",Complex_formation
+10585443,s3,T6,T7,Mutations to either the ,TSC1, or ,TSC2, gene are responsible for the disease.,Not_a_complex
+10585443,s4,T8,T9,The ,TSC1, gene encodes ,hamartin,", a 130-kDa protein without significant homology to other known mammalian proteins.",Not_a_complex
+10585443,s5,T10,T11,Analysis of the amino acid sequence of ,tuberin,", the 200-kDa product of the ",TSC2," gene, identified a region with limited homology to GTPase-activating proteins.",Not_a_complex
+10585443,s6,T12,T13,"Previously, we demonstrated direct binding between ",tuberin, and ,hamartin,.,Complex_formation
+10585443,s8,T14,T15,"We show that the complex is predominantly cytosolic and may contain additional, as yet uncharacterized components alongside ",tuberin, and ,hamartin,.,Complex_formation
+10585443,s9,T18,T19,"Furthermore, because oligomerization of the hamartin carboxyl-terminal coiled coil domain was inhibited by the presence of tuberin, we propose that ",tuberin," acts as a chaperone, preventing ",hamartin," self-aggregation. 
+",Complex_formation
+10585443,s9,T16,T17,"Furthermore, because oligomerization of the ",hamartin, carboxyl-terminal coiled coil domain was inhibited by the presence of ,tuberin,", we propose that tuberin acts as a chaperone, preventing hamartin self-aggregation. 
+",Not_a_complex
+10585443,s9,T16,T18,"Furthermore, because oligomerization of the ",hamartin," carboxyl-terminal coiled coil domain was inhibited by the presence of tuberin, we propose that ",tuberin," acts as a chaperone, preventing hamartin self-aggregation. 
+",Not_a_complex
+10585443,s9,T16,T19,"Furthermore, because oligomerization of the ",hamartin," carboxyl-terminal coiled coil domain was inhibited by the presence of tuberin, we propose that tuberin acts as a chaperone, preventing ",hamartin," self-aggregation. 
+",Not_a_complex
+10585443,s9,T17,T18,"Furthermore, because oligomerization of the hamartin carboxyl-terminal coiled coil domain was inhibited by the presence of ",tuberin,", we propose that ",tuberin," acts as a chaperone, preventing hamartin self-aggregation. 
+",Not_a_complex
+10585443,s9,T17,T19,"Furthermore, because oligomerization of the hamartin carboxyl-terminal coiled coil domain was inhibited by the presence of ",tuberin,", we propose that tuberin acts as a chaperone, preventing ",hamartin," self-aggregation. 
+",Not_a_complex

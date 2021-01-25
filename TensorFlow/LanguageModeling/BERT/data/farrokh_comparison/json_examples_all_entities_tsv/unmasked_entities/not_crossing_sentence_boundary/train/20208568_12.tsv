@@ -1,0 +1,38 @@
+20208568_12,s0,T6,T1,To further prove that ,HES1, negatively regulates ,DTX1," expression, we made a dominant negative human HES1 (dnHES1) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.",Not_a_complex
+20208568_12,s0,T1,T7,To further prove that HES1 negatively regulates ,DTX1," expression, we made a dominant negative human ",HES1, (dnHES1) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.,Not_a_complex
+20208568_12,s0,T1,T8,To further prove that HES1 negatively regulates ,DTX1," expression, we made a dominant negative human HES1 (",dnHES1,) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.,Not_a_complex
+20208568_12,s0,T6,T7,To further prove that ,HES1," negatively regulates DTX1 expression, we made a dominant negative human ",HES1, (dnHES1) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.,Not_a_complex
+20208568_12,s0,T6,T8,To further prove that ,HES1," negatively regulates DTX1 expression, we made a dominant negative human HES1 (",dnHES1,) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.,Not_a_complex
+20208568_12,s0,T7,T8,"To further prove that HES1 negatively regulates DTX1 expression, we made a dominant negative human ",HES1, (,dnHES1,) by mutating three amino acids critical for DNA binding while leaving dimerization motifs intact.,Not_a_complex
+20208568_12,s1,T9,T10,,HES1," binds to and inhibits the activity of its own promoter, which can be shown with reporter construct ",HES1,-AB.,Not_a_complex
+20208568_12,s2,T12,T13,"In 293T cells, expression of ",HES1, suppressed ,HES1,"-AB promoter activity, but adding dnHES1 reversed HES1-mediated inhibition of Hes1-AB (Figure 4A).",Not_a_complex
+20208568_12,s2,T12,T15,"In 293T cells, expression of ",HES1," suppressed HES1-AB promoter activity, but adding ",dnHES1, reversed HES1-mediated inhibition of Hes1-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T12,T16,"In 293T cells, expression of ",HES1," suppressed HES1-AB promoter activity, but adding dnHES1 reversed ",HES1,-mediated inhibition of Hes1-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T12,T17,"In 293T cells, expression of ",HES1," suppressed HES1-AB promoter activity, but adding dnHES1 reversed HES1-mediated inhibition of ",Hes1,-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T13,T15,"In 293T cells, expression of HES1 suppressed ",HES1,"-AB promoter activity, but adding ",dnHES1, reversed HES1-mediated inhibition of Hes1-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T13,T16,"In 293T cells, expression of HES1 suppressed ",HES1,"-AB promoter activity, but adding dnHES1 reversed ",HES1,-mediated inhibition of Hes1-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T13,T17,"In 293T cells, expression of HES1 suppressed ",HES1,"-AB promoter activity, but adding dnHES1 reversed HES1-mediated inhibition of ",Hes1,-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T15,T16,"In 293T cells, expression of HES1 suppressed HES1-AB promoter activity, but adding ",dnHES1, reversed ,HES1,-mediated inhibition of Hes1-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T15,T17,"In 293T cells, expression of HES1 suppressed HES1-AB promoter activity, but adding ",dnHES1, reversed HES1-mediated inhibition of ,Hes1,-AB (Figure 4A).,Not_a_complex
+20208568_12,s2,T16,T17,"In 293T cells, expression of HES1 suppressed HES1-AB promoter activity, but adding dnHES1 reversed ",HES1,-mediated inhibition of ,Hes1,-AB (Figure 4A).,Not_a_complex
+20208568_12,s4,T19,T20,"Then, we tested whether ",dnHES1, could block ,HES1,-mediated inhibition of DTX1 transcription in osteosarcoma.,Not_a_complex
+20208568_12,s4,T19,T2,"Then, we tested whether ",dnHES1, could block HES1-mediated inhibition of ,DTX1, transcription in osteosarcoma.,Not_a_complex
+20208568_12,s4,T20,T2,"Then, we tested whether dnHES1 could block ",HES1,-mediated inhibition of ,DTX1, transcription in osteosarcoma.,Not_a_complex
+20208568_12,s5,T21,T22,Transduction with ,dnHES1," upregulated DTX1 transcription in three osteosarcoma cell lines (Figure 4B), indicating that ",HES1, suppressed DTX1 expression in osteosarcoma.,Not_a_complex
+20208568_12,s5,T21,T3,Transduction with ,dnHES1, upregulated ,DTX1," transcription in three osteosarcoma cell lines (Figure 4B), indicating that HES1 suppressed DTX1 expression in osteosarcoma.",Not_a_complex
+20208568_12,s5,T3,T22,Transduction with dnHES1 upregulated ,DTX1," transcription in three osteosarcoma cell lines (Figure 4B), indicating that ",HES1, suppressed DTX1 expression in osteosarcoma.,Not_a_complex
+20208568_12,s5,T3,T4,Transduction with dnHES1 upregulated ,DTX1," transcription in three osteosarcoma cell lines (Figure 4B), indicating that HES1 suppressed ",DTX1, expression in osteosarcoma.,Not_a_complex
+20208568_12,s5,T21,T4,Transduction with ,dnHES1," upregulated DTX1 transcription in three osteosarcoma cell lines (Figure 4B), indicating that HES1 suppressed ",DTX1, expression in osteosarcoma.,Not_a_complex
+20208568_12,s5,T22,T4,"Transduction with dnHES1 upregulated DTX1 transcription in three osteosarcoma cell lines (Figure 4B), indicating that ",HES1, suppressed ,DTX1, expression in osteosarcoma.,Not_a_complex
+20208568_12,s6,T23,T24,Expression of ,HASH1,", a known ",HES1," target, also was upregulated by dnHES1 (Figure 4B and 4C) in parallel with DTX1.
+",Not_a_complex
+20208568_12,s6,T23,T25,Expression of ,HASH1,", a known HES1 target, also was upregulated by ",dnHES1," (Figure 4B and 4C) in parallel with DTX1.
+",Not_a_complex
+20208568_12,s6,T24,T25,"Expression of HASH1, a known ",HES1," target, also was upregulated by ",dnHES1," (Figure 4B and 4C) in parallel with DTX1.
+",Not_a_complex
+20208568_12,s6,T23,T5,Expression of ,HASH1,", a known HES1 target, also was upregulated by dnHES1 (Figure 4B and 4C) in parallel with ",DTX1,".
+",Not_a_complex
+20208568_12,s6,T24,T5,"Expression of HASH1, a known ",HES1," target, also was upregulated by dnHES1 (Figure 4B and 4C) in parallel with ",DTX1,".
+",Not_a_complex
+20208568_12,s6,T25,T5,"Expression of HASH1, a known HES1 target, also was upregulated by ",dnHES1, (Figure 4B and 4C) in parallel with ,DTX1,".
+",Not_a_complex

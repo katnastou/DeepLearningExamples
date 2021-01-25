@@ -1,0 +1,43 @@
+8861913,s0,T1,T10,Structure of the C-terminal region of ,p21,(WAF1/CIP1) complexed with human ,PCNA,". 
+",Complex_formation
+8861913,s0,T2,T10,Structure of the C-terminal region of p21(,WAF1,/CIP1) complexed with human ,PCNA,". 
+",Complex_formation
+8861913,s0,T3,T10,Structure of the C-terminal region of p21(WAF1/,CIP1,) complexed with human ,PCNA,". 
+",Complex_formation
+8861913,s0,T1,T2,Structure of the C-terminal region of ,p21,(,WAF1,"/CIP1) complexed with human PCNA. 
+",Not_a_complex
+8861913,s0,T1,T3,Structure of the C-terminal region of ,p21,(WAF1/,CIP1,") complexed with human PCNA. 
+",Not_a_complex
+8861913,s0,T2,T3,Structure of the C-terminal region of p21(,WAF1,/,CIP1,") complexed with human PCNA. 
+",Not_a_complex
+8861913,s1,T12,T4,The crystal structure of the human DNA polymerase delta processivity factor ,PCNA, (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein ,p21,(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T13,T4,The crystal structure of the human DNA polymerase delta processivity factor PCNA (,proliferating cell nuclear antigen,) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein ,p21,(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T12,T5,The crystal structure of the human DNA polymerase delta processivity factor ,PCNA, (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(,WAF1,/CIP1) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T13,T5,The crystal structure of the human DNA polymerase delta processivity factor PCNA (,proliferating cell nuclear antigen,) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(,WAF1,/CIP1) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T12,T6,The crystal structure of the human DNA polymerase delta processivity factor ,PCNA, (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/,CIP1,) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T13,T6,The crystal structure of the human DNA polymerase delta processivity factor PCNA (,proliferating cell nuclear antigen,) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/,CIP1,) has been determined at 2.6 angstrom resolution.,Complex_formation
+8861913,s1,T11,T12,The crystal structure of the human ,DNA polymerase delta, processivity factor ,PCNA, (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T11,T13,The crystal structure of the human ,DNA polymerase delta, processivity factor PCNA (,proliferating cell nuclear antigen,) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T12,T13,The crystal structure of the human DNA polymerase delta processivity factor ,PCNA, (,proliferating cell nuclear antigen,) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T11,T4,The crystal structure of the human ,DNA polymerase delta, processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein ,p21,(WAF1/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T4,T5,The crystal structure of the human DNA polymerase delta processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein ,p21,(,WAF1,/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T4,T6,The crystal structure of the human DNA polymerase delta processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein ,p21,(WAF1/,CIP1,) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T11,T5,The crystal structure of the human ,DNA polymerase delta, processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(,WAF1,/CIP1) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T5,T6,The crystal structure of the human DNA polymerase delta processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(,WAF1,/,CIP1,) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s1,T11,T6,The crystal structure of the human ,DNA polymerase delta, processivity factor PCNA (proliferating cell nuclear antigen) complexed with a 22 residue peptide derived from the C-terminus of the cell-cycle checkpoint protein p21(WAF1/,CIP1,) has been determined at 2.6 angstrom resolution.,Not_a_complex
+8861913,s2,T7,T14,,p21, binds to ,PCNA, in a 1:1 stoichiometry with an extensive array of interactions that include the formation of a beta sheet with the interdomain connector loop of PCNA.,Complex_formation
+8861913,s2,T14,T15,p21 binds to ,PCNA, in a 1:1 stoichiometry with an extensive array of interactions that include the formation of a beta sheet with the interdomain connector loop of ,PCNA,.,Not_a_complex
+8861913,s2,T7,T15,,p21, binds to PCNA in a 1:1 stoichiometry with an extensive array of interactions that include the formation of a beta sheet with the interdomain connector loop of ,PCNA,.,Not_a_complex
+8861913,s3,T8,T16,An intact trimeric ring is maintained in the structure of the ,p21,-,PCNA," complex, with a central hole available for DNA interaction.",Complex_formation
+8861913,s4,T17,T18,The ability of p21 to inhibit the action of ,PCNA, is therefore likely to be due to its masking of elements on ,PCNA," that are required for the binding of other components of the polymerase assembly. 
+",Not_a_complex
+8861913,s4,T17,T19,The ability of p21 to inhibit the action of ,PCNA, is therefore likely to be due to its masking of elements on PCNA that are required for the binding of other components of the ,polymerase," assembly. 
+",Not_a_complex
+8861913,s4,T18,T19,The ability of p21 to inhibit the action of PCNA is therefore likely to be due to its masking of elements on ,PCNA, that are required for the binding of other components of the ,polymerase," assembly. 
+",Not_a_complex
+8861913,s4,T9,T17,The ability of ,p21, to inhibit the action of ,PCNA," is therefore likely to be due to its masking of elements on PCNA that are required for the binding of other components of the polymerase assembly. 
+",Not_a_complex
+8861913,s4,T9,T18,The ability of ,p21, to inhibit the action of PCNA is therefore likely to be due to its masking of elements on ,PCNA," that are required for the binding of other components of the polymerase assembly. 
+",Not_a_complex
+8861913,s4,T9,T19,The ability of ,p21, to inhibit the action of PCNA is therefore likely to be due to its masking of elements on PCNA that are required for the binding of other components of the ,polymerase," assembly. 
+",Not_a_complex

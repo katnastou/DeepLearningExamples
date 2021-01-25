@@ -1,0 +1,95 @@
+26960795,s0,T1,T2,,SUMO-Targeted Ubiquitin Ligase, (,STUbL,") Slx5 regulates proteolysis of centromeric histone H3 variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T1,T3,,SUMO-Targeted Ubiquitin Ligase, (STUbL) ,Slx5," regulates proteolysis of centromeric histone H3 variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T1,T4,,SUMO-Targeted Ubiquitin Ligase, (STUbL) Slx5 regulates proteolysis of centromeric ,histone H3," variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T1,T5,,SUMO-Targeted Ubiquitin Ligase, (STUbL) Slx5 regulates proteolysis of centromeric histone H3 variant ,Cse4," and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T2,T3,SUMO-Targeted Ubiquitin Ligase (,STUbL,) ,Slx5," regulates proteolysis of centromeric histone H3 variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T2,T4,SUMO-Targeted Ubiquitin Ligase (,STUbL,) Slx5 regulates proteolysis of centromeric ,histone H3," variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T2,T5,SUMO-Targeted Ubiquitin Ligase (,STUbL,) Slx5 regulates proteolysis of centromeric histone H3 variant ,Cse4," and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T3,T4,SUMO-Targeted Ubiquitin Ligase (STUbL) ,Slx5, regulates proteolysis of centromeric ,histone H3," variant Cse4 and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T3,T5,SUMO-Targeted Ubiquitin Ligase (STUbL) ,Slx5, regulates proteolysis of centromeric histone H3 variant ,Cse4," and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s0,T4,T5,SUMO-Targeted Ubiquitin Ligase (STUbL) Slx5 regulates proteolysis of centromeric ,histone H3, variant ,Cse4," and prevents its mislocalization to euchromatin. 
+",Not_a_complex
+26960795,s1,T6,T29,,Centromeric histone H3,", ",CENP-ACse4,", is essential for faithful chromosome segregation.",Not_a_complex
+26960795,s3,T31,T32,Mislocalization of ,CENP-ACse4," is associated with aneuploidy in yeast, flies and tumorigenesis in human cells; thus, defining pathways that regulate ",CENP-A, levels is critical for understanding how mislocalization of CENP-A contributes to aneuploidy in human cancers.,Not_a_complex
+26960795,s3,T31,T33,Mislocalization of ,CENP-ACse4," is associated with aneuploidy in yeast, flies and tumorigenesis in human cells; thus, defining pathways that regulate CENP-A levels is critical for understanding how mislocalization of ",CENP-A, contributes to aneuploidy in human cancers.,Not_a_complex
+26960795,s3,T32,T33,"Mislocalization of CENP-ACse4 is associated with aneuploidy in yeast, flies and tumorigenesis in human cells; thus, defining pathways that regulate ",CENP-A, levels is critical for understanding how mislocalization of ,CENP-A, contributes to aneuploidy in human cancers.,Not_a_complex
+26960795,s4,T7,T38,Previous work in budding yeast has shown that ubiquitination of overexpressed ,Cse4," by Psh1, an ",E3 ligase,", partially contributes to proteolysis of Cse4.",Not_a_complex
+26960795,s4,T7,T8,Previous work in budding yeast has shown that ubiquitination of overexpressed ,Cse4, by ,Psh1,", an E3 ligase, partially contributes to proteolysis of Cse4.",Not_a_complex
+26960795,s4,T7,T9,Previous work in budding yeast has shown that ubiquitination of overexpressed ,Cse4," by Psh1, an E3 ligase, partially contributes to proteolysis of ",Cse4,.,Not_a_complex
+26960795,s4,T8,T38,Previous work in budding yeast has shown that ubiquitination of overexpressed Cse4 by ,Psh1,", an ",E3 ligase,", partially contributes to proteolysis of Cse4.",Not_a_complex
+26960795,s4,T8,T9,Previous work in budding yeast has shown that ubiquitination of overexpressed Cse4 by ,Psh1,", an E3 ligase, partially contributes to proteolysis of ",Cse4,.,Not_a_complex
+26960795,s4,T38,T9,"Previous work in budding yeast has shown that ubiquitination of overexpressed Cse4 by Psh1, an ",E3 ligase,", partially contributes to proteolysis of ",Cse4,.,Not_a_complex
+26960795,s5,T10,T11,"Here, we provide the first evidence that ",Cse4, is sumoylated by E3 ligases ,Siz1, and Siz2 in vivo and in vitro.,Not_a_complex
+26960795,s5,T10,T12,"Here, we provide the first evidence that ",Cse4, is sumoylated by E3 ligases Siz1 and ,Siz2, in vivo and in vitro.,Not_a_complex
+26960795,s5,T10,T39,"Here, we provide the first evidence that ",Cse4, is sumoylated by ,E3 ligases, Siz1 and Siz2 in vivo and in vitro.,Not_a_complex
+26960795,s5,T11,T12,"Here, we provide the first evidence that Cse4 is sumoylated by E3 ligases ",Siz1, and ,Siz2, in vivo and in vitro.,Not_a_complex
+26960795,s5,T39,T11,"Here, we provide the first evidence that Cse4 is sumoylated by ",E3 ligases, ,Siz1, and Siz2 in vivo and in vitro.,Not_a_complex
+26960795,s5,T39,T12,"Here, we provide the first evidence that Cse4 is sumoylated by ",E3 ligases, Siz1 and ,Siz2, in vivo and in vitro.,Not_a_complex
+26960795,s6,T13,T14,Ubiquitination of ,Cse4, by ,Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase, (STUbL) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T13,T16,Ubiquitination of ,Cse4, by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (,STUbL,) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T13,T17,Ubiquitination of ,Cse4, by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) ,Slx5, plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T13,T18,Ubiquitination of ,Cse4, by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) Slx5 plays a critical role in proteolysis of ,Cse4, and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T13,T19,Ubiquitination of ,Cse4, by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of ,Cse4, to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T14,T16,Ubiquitination of Cse4 by ,Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase, (,STUbL,) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T14,T17,Ubiquitination of Cse4 by ,Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase, (STUbL) ,Slx5, plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T14,T18,Ubiquitination of Cse4 by ,Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase, (STUbL) Slx5 plays a critical role in proteolysis of ,Cse4, and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T14,T19,Ubiquitination of Cse4 by ,Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase, (STUbL) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of ,Cse4, to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T16,T17,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (,STUbL,) ,Slx5, plays a critical role in proteolysis of Cse4 and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T16,T18,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (,STUbL,) Slx5 plays a critical role in proteolysis of ,Cse4, and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T16,T19,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (,STUbL,) Slx5 plays a critical role in proteolysis of Cse4 and prevents mislocalization of ,Cse4, to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T17,T18,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) ,Slx5, plays a critical role in proteolysis of ,Cse4, and prevents mislocalization of Cse4 to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T17,T19,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) ,Slx5, plays a critical role in proteolysis of Cse4 and prevents mislocalization of ,Cse4, to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s6,T18,T19,Ubiquitination of Cse4 by Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase (STUbL) Slx5 plays a critical role in proteolysis of ,Cse4, and prevents mislocalization of ,Cse4, to euchromatin under normal physiological conditions.,Not_a_complex
+26960795,s7,T20,T21,Accumulation of sumoylated ,Cse4, species and increased stability of ,Cse4, in slx5increment strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s7,T20,T22,Accumulation of sumoylated ,Cse4, species and increased stability of Cse4 in slx5increment strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of ,Cse4,.,Not_a_complex
+26960795,s7,T20,T35,Accumulation of sumoylated ,Cse4, species and increased stability of Cse4 in ,slx5increment, strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s7,T20,T40,Accumulation of sumoylated ,Cse4, species and increased stability of Cse4 in slx5increment strains suggest that sumoylation precedes ,ubiquitin,-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s7,T21,T22,Accumulation of sumoylated Cse4 species and increased stability of ,Cse4, in slx5increment strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of ,Cse4,.,Not_a_complex
+26960795,s7,T21,T35,Accumulation of sumoylated Cse4 species and increased stability of ,Cse4, in ,slx5increment, strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s7,T21,T40,Accumulation of sumoylated Cse4 species and increased stability of ,Cse4, in slx5increment strains suggest that sumoylation precedes ,ubiquitin,-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s7,T35,T22,Accumulation of sumoylated Cse4 species and increased stability of Cse4 in ,slx5increment, strains suggest that sumoylation precedes ubiquitin-mediated proteolysis of ,Cse4,.,Not_a_complex
+26960795,s7,T40,T22,Accumulation of sumoylated Cse4 species and increased stability of Cse4 in slx5increment strains suggest that sumoylation precedes ,ubiquitin,-mediated proteolysis of ,Cse4,.,Not_a_complex
+26960795,s7,T35,T40,Accumulation of sumoylated Cse4 species and increased stability of Cse4 in ,slx5increment, strains suggest that sumoylation precedes ,ubiquitin,-mediated proteolysis of Cse4.,Not_a_complex
+26960795,s8,T23,T15,,Slx5,-mediated Cse4 proteolysis is independent of Psh1 since ,slx5increment, psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T24,T15,Slx5-mediated ,Cse4, proteolysis is independent of Psh1 since ,slx5increment, psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T25,T15,Slx5-mediated Cse4 proteolysis is independent of ,Psh1, since ,slx5increment, psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T15,T26,Slx5-mediated Cse4 proteolysis is independent of Psh1 since ,slx5increment, psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T15,T34,Slx5-mediated Cse4 proteolysis is independent of Psh1 since ,slx5increment, ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T15,T36,Slx5-mediated Cse4 proteolysis is independent of Psh1 since ,slx5increment, psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T15,T37,Slx5-mediated Cse4 proteolysis is independent of Psh1 since ,slx5increment, psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T23,T24,,Slx5,-mediated ,Cse4, proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T23,T25,,Slx5,-mediated Cse4 proteolysis is independent of ,Psh1, since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T23,T26,,Slx5,-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T23,T34,,Slx5,-mediated Cse4 proteolysis is independent of Psh1 since slx5increment ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T23,T36,,Slx5,-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T23,T37,,Slx5,-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T24,T25,Slx5-mediated ,Cse4, proteolysis is independent of ,Psh1, since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T24,T26,Slx5-mediated ,Cse4, proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T24,T34,Slx5-mediated ,Cse4, proteolysis is independent of Psh1 since slx5increment ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T24,T36,Slx5-mediated ,Cse4, proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T24,T37,Slx5-mediated ,Cse4, proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T25,T26,Slx5-mediated Cse4 proteolysis is independent of ,Psh1, since slx5increment psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T25,T34,Slx5-mediated Cse4 proteolysis is independent of ,Psh1, since slx5increment ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T25,T36,Slx5-mediated Cse4 proteolysis is independent of ,Psh1, since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T25,T37,Slx5-mediated Cse4 proteolysis is independent of ,Psh1, since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T34,T26,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment ,psh1increment, strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or psh1increment strains.,Not_a_complex
+26960795,s8,T26,T36,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T26,T37,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of ,Cse4, stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T34,T36,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or psh1increment strains.,Not_a_complex
+26960795,s8,T34,T37,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment ,psh1increment, strains exhibit higher levels of Cse4 stability and mislocalization compared to either slx5increment or ,psh1increment, strains.,Not_a_complex
+26960795,s8,T36,T37,Slx5-mediated Cse4 proteolysis is independent of Psh1 since slx5increment psh1increment strains exhibit higher levels of Cse4 stability and mislocalization compared to either ,slx5increment, or ,psh1increment, strains.,Not_a_complex
+26960795,s9,T27,T28,Our results demonstrate a role for ,Slx5, in ubiquitin-mediated proteolysis of ,Cse4," to prevent its mislocalization and maintain genome stability. 
+",Not_a_complex
+26960795,s9,T27,T41,Our results demonstrate a role for ,Slx5, in ,ubiquitin,"-mediated proteolysis of Cse4 to prevent its mislocalization and maintain genome stability. 
+",Not_a_complex
+26960795,s9,T41,T28,Our results demonstrate a role for Slx5 in ,ubiquitin,-mediated proteolysis of ,Cse4," to prevent its mislocalization and maintain genome stability. 
+",Not_a_complex

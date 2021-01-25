@@ -1,0 +1,8 @@
+10229231,s0,T1,T2,Regulation of ,Fas ligand, expression and cell death by ,apoptosis-linked gene 4,". 
+",Not_a_complex
+10229231,s2,T3,T4,One of the best understood apoptotic pathways occurs in T lymphocytes and is mediated by ,Fas,/,Fas ligand, (FasL) interaction.,Complex_formation
+10229231,s2,T3,T5,One of the best understood apoptotic pathways occurs in T lymphocytes and is mediated by ,Fas,/Fas ligand (,FasL,) interaction.,Complex_formation
+10229231,s2,T4,T5,One of the best understood apoptotic pathways occurs in T lymphocytes and is mediated by Fas/,Fas ligand, (,FasL,) interaction.,Not_a_complex
+10229231,s4,T7,T8,Overexpression of full-length ,ALG-4, induced transcription of ,FasL," and, consequently, apoptosis.",Not_a_complex
+10229231,s5,T9,T10,These results indicate that ,ALG-4, is necessary and sufficient for ,FasL, expression.,Not_a_complex
+10229231,s6,T11,T12,,Fas,/,FasL," interaction initiates cell death in many other systems, and its dysregulation is a mechanism by which several pathologic conditions arise.",Complex_formation

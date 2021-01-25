@@ -1,0 +1,53 @@
+9398404,s0,T1,T2,,IL-2, and ,IL-7," induce heterodimerization of STAT5 isoforms in human peripheral blood T lymphoblasts. 
+",Not_a_complex
+9398404,s0,T1,T25,,IL-2, and IL-7 induce heterodimerization of ,STAT5," isoforms in human peripheral blood T lymphoblasts. 
+",Not_a_complex
+9398404,s0,T2,T25,IL-2 and ,IL-7, induce heterodimerization of ,STAT5," isoforms in human peripheral blood T lymphoblasts. 
+",Not_a_complex
+9398404,s1,T33,T26,"Despite differences in T cell responses induced by interleukin (IL)-2 and IL-7, both cytokines modulate T cell functions by activation of ",signal transducers and activators of transcription, (,STAT,) proteins.,Not_a_complex
+9398404,s1,T3,T26,Despite differences in T cell responses induced by ,interleukin (IL)-2," and IL-7, both cytokines modulate T cell functions by activation of signal transducers and activators of transcription (",STAT,) proteins.,Not_a_complex
+9398404,s1,T3,T33,Despite differences in T cell responses induced by ,interleukin (IL)-2," and IL-7, both cytokines modulate T cell functions by activation of ",signal transducers and activators of transcription, (STAT) proteins.,Not_a_complex
+9398404,s1,T3,T4,Despite differences in T cell responses induced by ,interleukin (IL)-2, and ,IL-7,", both cytokines modulate T cell functions by activation of signal transducers and activators of transcription (STAT) proteins.",Not_a_complex
+9398404,s1,T4,T26,Despite differences in T cell responses induced by interleukin (IL)-2 and ,IL-7,", both cytokines modulate T cell functions by activation of signal transducers and activators of transcription (",STAT,) proteins.,Not_a_complex
+9398404,s1,T4,T33,Despite differences in T cell responses induced by interleukin (IL)-2 and ,IL-7,", both cytokines modulate T cell functions by activation of ",signal transducers and activators of transcription, (STAT) proteins.,Not_a_complex
+9398404,s2,T27,T5,We examined the contribution of the two isoforms of ,STAT5,", ",STAT5A," and STAT5B, to IL-2- and IL-7-induced activation of human peripheral blood T lymphoblasts.",Not_a_complex
+9398404,s2,T5,T6,"We examined the contribution of the two isoforms of STAT5, ",STAT5A, and ,STAT5B,", to IL-2- and IL-7-induced activation of human peripheral blood T lymphoblasts.",Not_a_complex
+9398404,s2,T5,T7,"We examined the contribution of the two isoforms of STAT5, ",STAT5A," and STAT5B, to ",IL-2,- and IL-7-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T5,T8,"We examined the contribution of the two isoforms of STAT5, ",STAT5A," and STAT5B, to IL-2- and ",IL-7,-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T27,T6,We examined the contribution of the two isoforms of ,STAT5,", STAT5A and ",STAT5B,", to IL-2- and IL-7-induced activation of human peripheral blood T lymphoblasts.",Not_a_complex
+9398404,s2,T6,T7,"We examined the contribution of the two isoforms of STAT5, STAT5A and ",STAT5B,", to ",IL-2,- and IL-7-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T6,T8,"We examined the contribution of the two isoforms of STAT5, STAT5A and ",STAT5B,", to IL-2- and ",IL-7,-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T27,T7,We examined the contribution of the two isoforms of ,STAT5,", STAT5A and STAT5B, to ",IL-2,- and IL-7-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T7,T8,"We examined the contribution of the two isoforms of STAT5, STAT5A and STAT5B, to ",IL-2,- and ,IL-7,-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s2,T27,T8,We examined the contribution of the two isoforms of ,STAT5,", STAT5A and STAT5B, to IL-2- and ",IL-7,-induced activation of human peripheral blood T lymphoblasts.,Not_a_complex
+9398404,s3,T9,T10,Both cytokines induced assembly of ,STAT5A, and ,STAT5B," containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or IL-7-treated cells.",Complex_formation
+9398404,s3,T10,T11,Both cytokines induced assembly of STAT5A and ,STAT5B," containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of ",IL-2,- or IL-7-treated cells.,Not_a_complex
+9398404,s3,T10,T12,Both cytokines induced assembly of STAT5A and ,STAT5B," containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or I",L-7,-treated cells.,Not_a_complex
+9398404,s3,T10,T28,Both cytokines induced assembly of STAT5A and ,STAT5B, containing complexes capable of binding to the ,interferon-gamma," activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or IL-7-treated cells.",Not_a_complex
+9398404,s3,T11,T12,"Both cytokines induced assembly of STAT5A and STAT5B containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of ",IL-2,- or I,L-7,-treated cells.,Not_a_complex
+9398404,s3,T28,T11,Both cytokines induced assembly of STAT5A and STAT5B containing complexes capable of binding to the ,interferon-gamma," activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of ",IL-2,- or IL-7-treated cells.,Not_a_complex
+9398404,s3,T28,T12,Both cytokines induced assembly of STAT5A and STAT5B containing complexes capable of binding to the ,interferon-gamma," activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or I",L-7,-treated cells.,Not_a_complex
+9398404,s3,T9,T11,Both cytokines induced assembly of ,STAT5A," and STAT5B containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of ",IL-2,- or IL-7-treated cells.,Not_a_complex
+9398404,s3,T9,T12,Both cytokines induced assembly of ,STAT5A," and STAT5B containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or I",L-7,-treated cells.,Not_a_complex
+9398404,s3,T9,T28,Both cytokines induced assembly of ,STAT5A, and STAT5B containing complexes capable of binding to the ,interferon-gamma," activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or IL-7-treated cells.",Not_a_complex
+9398404,s4,T13,T14,The kinetics of this translocation were delayed in ,IL-7,-treated as compared to ,IL-2,-treated cells.,Not_a_complex
+9398404,s5,T15,T16,,IL-2, and ,IL-7, were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and STAT5B and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T15,T17,,IL-2, and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of ,STAT5A, and STAT5B and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T15,T18,,IL-2, and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and ,STAT5B, and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T15,T32,,IL-2, and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and STAT5B and to facilitate binding of these ,STATs, to an immobilized GAS element.,Not_a_complex
+9398404,s5,T16,T17,IL-2 and ,IL-7, were equivalent in their ability to induce tyrosine phosphorylation of ,STAT5A, and STAT5B and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T16,T18,IL-2 and ,IL-7, were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and ,STAT5B, and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T16,T32,IL-2 and ,IL-7, were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and STAT5B and to facilitate binding of these ,STATs, to an immobilized GAS element.,Not_a_complex
+9398404,s5,T17,T18,IL-2 and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of ,STAT5A, and ,STAT5B, and to facilitate binding of these STATs to an immobilized GAS element.,Not_a_complex
+9398404,s5,T17,T32,IL-2 and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of ,STAT5A, and STAT5B and to facilitate binding of these ,STATs, to an immobilized GAS element.,Not_a_complex
+9398404,s5,T18,T32,IL-2 and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and ,STAT5B, and to facilitate binding of these ,STATs, to an immobilized GAS element.,Not_a_complex
+9398404,s6,T21,T22,Both IL-2 and IL-7 induced substantial amounts of ,STAT5A,/,STAT5B, heterodimerization.,Complex_formation
+9398404,s6,T19,T20,Both ,IL-2, and ,IL-7, induced substantial amounts of STAT5A/STAT5B heterodimerization.,Not_a_complex
+9398404,s6,T19,T21,Both ,IL-2, and IL-7 induced substantial amounts of ,STAT5A,/STAT5B heterodimerization.,Not_a_complex
+9398404,s6,T19,T22,Both ,IL-2, and IL-7 induced substantial amounts of STAT5A/,STAT5B, heterodimerization.,Not_a_complex
+9398404,s6,T20,T21,Both IL-2 and ,IL-7, induced substantial amounts of ,STAT5A,/STAT5B heterodimerization.,Not_a_complex
+9398404,s6,T20,T22,Both IL-2 and ,IL-7, induced substantial amounts of STAT5A/,STAT5B, heterodimerization.,Not_a_complex
+9398404,s7,T29,T30,"Moreover, we observed constitutive association of ",STAT3, with each ,STAT5, isomer.,Complex_formation
+9398404,s8,T23,T24,These data suggest that ,IL-2, and ,IL-7, induce assembly of STAT heterodimers in a similar manner and that subsequent cellular responses may be driven by induction of similar sets of genes.,Not_a_complex
+9398404,s8,T23,T31,These data suggest that ,IL-2, and IL-7 induce assembly of ,STAT, heterodimers in a similar manner and that subsequent cellular responses may be driven by induction of similar sets of genes.,Not_a_complex
+9398404,s8,T24,T31,These data suggest that IL-2 and ,IL-7, induce assembly of ,STAT, heterodimers in a similar manner and that subsequent cellular responses may be driven by induction of similar sets of genes.,Not_a_complex

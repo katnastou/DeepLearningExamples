@@ -1,0 +1,10 @@
+11687965,s7,T6,T2,"Interestingly, at the protein level, ",p53," tumor suppressor was substantially increased upon flurbiprofen treatment, yet the level of p21, a downstream target for ",p53, remained unchanged.,Not_a_complex
+11687965,s7,T7,T2,"Interestingly, at the protein level, p53 tumor suppressor was substantially increased upon flurbiprofen treatment, yet the level of ",p21,", a downstream target for ",p53, remained unchanged.,Not_a_complex
+11687965,s7,T6,T7,"Interestingly, at the protein level, ",p53," tumor suppressor was substantially increased upon flurbiprofen treatment, yet the level of ",p21,", a downstream target for p53 remained unchanged.",Not_a_complex
+11687965,s9,T8,T3,Results from co-immunoprecipitation showed association of ,COX-2, with ,p53, in tumor cells.,Complex_formation
+11687965,s10,T10,T4,These observations suggest that the interaction of ,COX-2, with ,p53," may cause p21-independent suppression of tumor cell growth upon flurbiprofen treatment. 
+",Complex_formation
+11687965,s10,T10,T11,These observations suggest that the interaction of ,COX-2, with p53 may cause ,p21,"-independent suppression of tumor cell growth upon flurbiprofen treatment. 
+",Not_a_complex
+11687965,s10,T4,T11,These observations suggest that the interaction of COX-2 with ,p53, may cause ,p21,"-independent suppression of tumor cell growth upon flurbiprofen treatment. 
+",Not_a_complex

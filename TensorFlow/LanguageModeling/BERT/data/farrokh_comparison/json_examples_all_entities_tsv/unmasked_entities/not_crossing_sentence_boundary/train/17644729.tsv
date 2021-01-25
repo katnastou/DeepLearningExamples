@@ -1,0 +1,65 @@
+17644729,s0,T1,T2,Functional analysis of the epidermal-specific MYB genes ,CAPRICE, and ,WEREWOLF," in Arabidopsis. 
+",Not_a_complex
+17644729,s0,T32,T1,Functional analysis of the epidermal-specific ,MYB, genes ,CAPRICE," and WEREWOLF in Arabidopsis. 
+",Not_a_complex
+17644729,s0,T32,T2,Functional analysis of the epidermal-specific ,MYB, genes CAPRICE and ,WEREWOLF," in Arabidopsis. 
+",Not_a_complex
+17644729,s3,T30,T23,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (WER) and the R3-type ",MYB, gene CAPRICE (,CPC,).,Not_a_complex
+17644729,s3,T31,T23,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type ",MYB, gene WEREWOLF (WER) and the R3-type MYB gene CAPRICE (,CPC,).,Not_a_complex
+17644729,s3,T3,T23,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene ",WEREWOLF, (WER) and the R3-type MYB gene CAPRICE (,CPC,).,Not_a_complex
+17644729,s3,T3,T30,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene ",WEREWOLF, (WER) and the R3-type ,MYB, gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T31,T3,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type ",MYB, gene ,WEREWOLF, (WER) and the R3-type MYB gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T3,T4,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene ",WEREWOLF, (,WER,) and the R3-type MYB gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T3,T5,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene ",WEREWOLF, (WER) and the R3-type MYB gene ,CAPRICE, (CPC).,Not_a_complex
+17644729,s3,T31,T30,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type ",MYB, gene WEREWOLF (WER) and the R3-type ,MYB, gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T4,T23,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (",WER,) and the R3-type MYB gene CAPRICE (,CPC,).,Not_a_complex
+17644729,s3,T4,T30,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (",WER,) and the R3-type ,MYB, gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T31,T4,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type ",MYB, gene WEREWOLF (,WER,) and the R3-type MYB gene CAPRICE (CPC).,Not_a_complex
+17644729,s3,T4,T5,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (",WER,) and the R3-type MYB gene ,CAPRICE, (CPC).,Not_a_complex
+17644729,s3,T5,T23,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (WER) and the R3-type MYB gene ",CAPRICE, (,CPC,).,Not_a_complex
+17644729,s3,T30,T5,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type MYB gene WEREWOLF (WER) and the R3-type ",MYB, gene ,CAPRICE, (CPC).,Not_a_complex
+17644729,s3,T31,T5,"To examine the molecular basis of this process, we analyzed the functional relationship of the R2R3-type ",MYB, gene WEREWOLF (WER) and the R3-type MYB gene ,CAPRICE, (CPC).,Not_a_complex
+17644729,s4,T24,T25,Chimeric constructs made from the R3 MYB regions of WER and ,CPC, used in reciprocal complementation experiments showed that the ,CPC, R3 region cannot functionally substitute for the WER R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s4,T6,T24,Chimeric constructs made from the R3 MYB regions of ,WER, and ,CPC, used in reciprocal complementation experiments showed that the CPC R3 region cannot functionally substitute for the WER R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s4,T6,T25,Chimeric constructs made from the R3 MYB regions of ,WER, and CPC used in reciprocal complementation experiments showed that the ,CPC, R3 region cannot functionally substitute for the WER R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s4,T6,T7,Chimeric constructs made from the R3 MYB regions of ,WER, and CPC used in reciprocal complementation experiments showed that the CPC R3 region cannot functionally substitute for the ,WER, R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s4,T24,T7,Chimeric constructs made from the R3 MYB regions of WER and ,CPC, used in reciprocal complementation experiments showed that the CPC R3 region cannot functionally substitute for the ,WER, R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s4,T25,T7,Chimeric constructs made from the R3 MYB regions of WER and CPC used in reciprocal complementation experiments showed that the ,CPC, R3 region cannot functionally substitute for the ,WER, R3 region in the differentiation of hairless cells.,Not_a_complex
+17644729,s5,T8,T26,"However, ",WER, R3 can substantially substitute for ,CPC, R3.,Not_a_complex
+17644729,s6,T10,T11,There are no differences in yeast interaction assays of WER or ,WER chimera proteins, with ,GLABRA3, (GL3) or ENHANCER OF GLABRA3 (EGL3).,Complex_formation
+17644729,s6,T10,T12,There are no differences in yeast interaction assays of WER or ,WER chimera proteins, with GLABRA3 (,GL3,) or ENHANCER OF GLABRA3 (EGL3).,Complex_formation
+17644729,s6,T10,T13,There are no differences in yeast interaction assays of WER or ,WER chimera proteins, with GLABRA3 (GL3) or ,ENHANCER OF GLABRA3, (EGL3).,Complex_formation
+17644729,s6,T10,T14,There are no differences in yeast interaction assays of WER or ,WER chimera proteins, with GLABRA3 (GL3) or ENHANCER OF GLABRA3 (,EGL3,).,Complex_formation
+17644729,s6,T9,T11,There are no differences in yeast interaction assays of ,WER, or WER chimera proteins with ,GLABRA3, (GL3) or ENHANCER OF GLABRA3 (EGL3).,Complex_formation
+17644729,s6,T9,T12,There are no differences in yeast interaction assays of ,WER, or WER chimera proteins with GLABRA3 (,GL3,) or ENHANCER OF GLABRA3 (EGL3).,Complex_formation
+17644729,s6,T9,T13,There are no differences in yeast interaction assays of ,WER, or WER chimera proteins with GLABRA3 (GL3) or ,ENHANCER OF GLABRA3, (EGL3).,Complex_formation
+17644729,s6,T9,T14,There are no differences in yeast interaction assays of ,WER, or WER chimera proteins with GLABRA3 (GL3) or ENHANCER OF GLABRA3 (,EGL3,).,Complex_formation
+17644729,s6,T11,T12,There are no differences in yeast interaction assays of WER or WER chimera proteins with ,GLABRA3, (,GL3,) or ENHANCER OF GLABRA3 (EGL3).,Not_a_complex
+17644729,s6,T11,T13,There are no differences in yeast interaction assays of WER or WER chimera proteins with ,GLABRA3, (GL3) or ,ENHANCER OF GLABRA3, (EGL3).,Not_a_complex
+17644729,s6,T11,T14,There are no differences in yeast interaction assays of WER or WER chimera proteins with ,GLABRA3, (GL3) or ENHANCER OF GLABRA3 (,EGL3,).,Not_a_complex
+17644729,s6,T12,T13,There are no differences in yeast interaction assays of WER or WER chimera proteins with GLABRA3 (,GL3,) or ,ENHANCER OF GLABRA3, (EGL3).,Not_a_complex
+17644729,s6,T12,T14,There are no differences in yeast interaction assays of WER or WER chimera proteins with GLABRA3 (,GL3,) or ENHANCER OF GLABRA3 (,EGL3,).,Not_a_complex
+17644729,s6,T13,T14,There are no differences in yeast interaction assays of WER or WER chimera proteins with GLABRA3 (GL3) or ,ENHANCER OF GLABRA3, (,EGL3,).,Not_a_complex
+17644729,s6,T9,T10,There are no differences in yeast interaction assays of ,WER, or ,WER chimera proteins, with GLABRA3 (GL3) or ENHANCER OF GLABRA3 (EGL3).,Not_a_complex
+17644729,s7,T15,T16,CPC and CPC chimera proteins also have similar activity in preventing ,GL3, ,WER, and EGL3 WER interactions.,Complex_formation
+17644729,s7,T17,T18,CPC and CPC chimera proteins also have similar activity in preventing GL3 WER and ,EGL3, ,WER, interactions.,Complex_formation
+17644729,s7,T15,T17,CPC and CPC chimera proteins also have similar activity in preventing ,GL3, WER and ,EGL3, WER interactions.,Not_a_complex
+17644729,s7,T15,T18,CPC and CPC chimera proteins also have similar activity in preventing ,GL3, WER and EGL3 ,WER, interactions.,Not_a_complex
+17644729,s7,T27,T15,,CPC, and CPC chimera proteins also have similar activity in preventing ,GL3, WER and EGL3 WER interactions.,Not_a_complex
+17644729,s7,T28,T15,CPC and ,CPC chimera proteins, also have similar activity in preventing ,GL3, WER and EGL3 WER interactions.,Not_a_complex
+17644729,s7,T16,T17,CPC and CPC chimera proteins also have similar activity in preventing GL3 ,WER, and ,EGL3, WER interactions.,Not_a_complex
+17644729,s7,T16,T18,CPC and CPC chimera proteins also have similar activity in preventing GL3 ,WER, and EGL3 ,WER, interactions.,Not_a_complex
+17644729,s7,T27,T16,,CPC, and CPC chimera proteins also have similar activity in preventing GL3 ,WER, and EGL3 WER interactions.,Not_a_complex
+17644729,s7,T28,T16,CPC and ,CPC chimera proteins, also have similar activity in preventing GL3 ,WER, and EGL3 WER interactions.,Not_a_complex
+17644729,s7,T27,T17,,CPC, and CPC chimera proteins also have similar activity in preventing GL3 WER and ,EGL3, WER interactions.,Not_a_complex
+17644729,s7,T28,T17,CPC and ,CPC chimera proteins, also have similar activity in preventing GL3 WER and ,EGL3, WER interactions.,Not_a_complex
+17644729,s7,T27,T18,,CPC, and CPC chimera proteins also have similar activity in preventing GL3 WER and EGL3 ,WER, interactions.,Not_a_complex
+17644729,s7,T28,T18,CPC and ,CPC chimera proteins, also have similar activity in preventing GL3 WER and EGL3 ,WER, interactions.,Not_a_complex
+17644729,s7,T27,T28,,CPC, and ,CPC chimera proteins, also have similar activity in preventing GL3 WER and EGL3 WER interactions.,Not_a_complex
+17644729,s8,T19,T20,"Furthermore, we showed by gel mobility shift assays that ",WER, chimera proteins do not bind to the ,GL2, promoter region.,Not_a_complex
+17644729,s9,T21,T22,"However, a CPC chimera protein, which harbors the ",WER," R3 motif, still binds to the ",GL2," promoter region. 
+",Not_a_complex
+17644729,s9,T29,T21,"However, a ",CPC," chimera protein, which harbors the ",WER," R3 motif, still binds to the GL2 promoter region. 
+",Not_a_complex
+17644729,s9,T29,T22,"However, a ",CPC," chimera protein, which harbors the WER R3 motif, still binds to the ",GL2," promoter region. 
+",Not_a_complex

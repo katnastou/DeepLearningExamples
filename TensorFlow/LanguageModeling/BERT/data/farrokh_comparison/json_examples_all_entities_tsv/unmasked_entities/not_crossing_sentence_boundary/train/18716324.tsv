@@ -1,0 +1,27 @@
+18716324,s0,T1,T17,Sister chromatid cohesion role for ,CDC28,-,CDK," in Saccharomyces cerevisiae. 
+",Complex_formation
+18716324,s2,T2,T3,,Ctf7p, (,Eco1p,) is required to establish sister chromatid pairing specifically during DNA replication.,Not_a_complex
+18716324,s4,T20,T21,Ctf7p is a phosphoprotein and an in vitro target of Cdc28p ,cyclin-dependent kinase, (,CDK,"), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T5,T20,,Ctf7p, is a phosphoprotein and an in vitro target of Cdc28p ,cyclin-dependent kinase," (CDK), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T5,T21,,Ctf7p, is a phosphoprotein and an in vitro target of Cdc28p cyclin-dependent kinase (,CDK,"), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T5,T6,,Ctf7p, is a phosphoprotein and an in vitro target of ,Cdc28p," cyclin-dependent kinase (CDK), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T5,T7,,Ctf7p," is a phosphoprotein and an in vitro target of Cdc28p cyclin-dependent kinase (CDK), suggesting one possible mechanism for regulating the essential function of ",Ctf7p,.,Not_a_complex
+18716324,s4,T6,T20,Ctf7p is a phosphoprotein and an in vitro target of ,Cdc28p, ,cyclin-dependent kinase," (CDK), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T6,T21,Ctf7p is a phosphoprotein and an in vitro target of ,Cdc28p, cyclin-dependent kinase (,CDK,"), suggesting one possible mechanism for regulating the essential function of Ctf7p.",Not_a_complex
+18716324,s4,T6,T7,Ctf7p is a phosphoprotein and an in vitro target of ,Cdc28p," cyclin-dependent kinase (CDK), suggesting one possible mechanism for regulating the essential function of ",Ctf7p,.,Not_a_complex
+18716324,s4,T20,T7,Ctf7p is a phosphoprotein and an in vitro target of Cdc28p ,cyclin-dependent kinase," (CDK), suggesting one possible mechanism for regulating the essential function of ",Ctf7p,.,Not_a_complex
+18716324,s4,T21,T7,Ctf7p is a phosphoprotein and an in vitro target of Cdc28p cyclin-dependent kinase (,CDK,"), suggesting one possible mechanism for regulating the essential function of ",Ctf7p,.,Not_a_complex
+18716324,s5,T8,T9,"Here, we report a novel synthetic lethal interaction between ",ctf7, and ,cdc28,.,Complex_formation
+18716324,s6,T10,T11,"However, neither elevated ",CDC28, levels nor ,CDC28, Cak1p-bypass alleles rescue ctf7 cell phenotypes.,Not_a_complex
+18716324,s6,T10,T12,"However, neither elevated ",CDC28, levels nor CDC28 ,Cak1p,-bypass alleles rescue ctf7 cell phenotypes.,Not_a_complex
+18716324,s6,T10,T13,"However, neither elevated ",CDC28, levels nor CDC28 Cak1p-bypass alleles rescue ,ctf7, cell phenotypes.,Not_a_complex
+18716324,s6,T11,T12,"However, neither elevated CDC28 levels nor ",CDC28, ,Cak1p,-bypass alleles rescue ctf7 cell phenotypes.,Not_a_complex
+18716324,s6,T11,T13,"However, neither elevated CDC28 levels nor ",CDC28, Cak1p-bypass alleles rescue ,ctf7, cell phenotypes.,Not_a_complex
+18716324,s6,T12,T13,"However, neither elevated CDC28 levels nor CDC28 ",Cak1p,-bypass alleles rescue ,ctf7, cell phenotypes.,Not_a_complex
+18716324,s7,T14,T18,"Moreover, cells expressing ",Ctf7p, mutated at all full- and partial-consensus ,CDK,-phosphorylation sites exhibit robust cell growth.,Not_a_complex
+18716324,s8,T15,T16,These and other results reveal that ,Ctf7p, regulation is more complicated than previously envisioned and suggest that CDK acts in sister chromatid cohesion parallel to ,Ctf7p," reactions. 
+",Not_a_complex
+18716324,s8,T15,T19,These and other results reveal that ,Ctf7p, regulation is more complicated than previously envisioned and suggest that ,CDK," acts in sister chromatid cohesion parallel to Ctf7p reactions. 
+",Not_a_complex
+18716324,s8,T19,T16,These and other results reveal that Ctf7p regulation is more complicated than previously envisioned and suggest that ,CDK, acts in sister chromatid cohesion parallel to ,Ctf7p," reactions. 
+",Not_a_complex

@@ -1,0 +1,34 @@
+27449295,s0,T14,T1,,Momordin Ic,", a new natural ",SENP1," inhibitor, inhibits prostate cancer cell proliferation. 
+",Not_a_complex
+27449295,s1,T15,T2,,SUMO-specific protease 1, (,SENP1,"), a member of the de-SUMOylation protease family, is elevated in prostate cancer (PCa) cells and is involved in PCa pathogenesis.",Not_a_complex
+27449295,s2,T16,T17,,Momordin Iotac, (,Mc,"), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-DeltaRanGAP1.",Not_a_complex
+27449295,s2,T16,T18,,Momordin Iotac," (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced ",SENP1C,-induced cleavage of SUMO2-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T16,T19,,Momordin Iotac," (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-",DeltaRanGAP1,.,Not_a_complex
+27449295,s2,T17,T18,Momordin Iotac (,Mc,"), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced ",SENP1C,-induced cleavage of SUMO2-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T17,T19,Momordin Iotac (,Mc,"), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-",DeltaRanGAP1,.,Not_a_complex
+27449295,s2,T18,T19,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced ",SENP1C,-induced cleavage of SUMO2-,DeltaRanGAP1,.,Not_a_complex
+27449295,s2,T16,T3,,Momordin Iotac," (Mc), a natural pentacyclic triterpenoid, inhibited ",SENP1," in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-DeltaRanGAP1.",Not_a_complex
+27449295,s2,T17,T3,Momordin Iotac (,Mc,"), a natural pentacyclic triterpenoid, inhibited ",SENP1," in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-DeltaRanGAP1.",Not_a_complex
+27449295,s2,T3,T18,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited ",SENP1," in vitro, as reflected by reduced ",SENP1C,-induced cleavage of SUMO2-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T3,T19,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited ",SENP1," in vitro, as reflected by reduced SENP1C-induced cleavage of SUMO2-",DeltaRanGAP1,.,Not_a_complex
+27449295,s2,T3,T4,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited ",SENP1," in vitro, as reflected by reduced SENP1C-induced cleavage of ",SUMO2,-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T16,T4,,Momordin Iotac," (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of ",SUMO2,-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T17,T4,Momordin Iotac (,Mc,"), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of ",SUMO2,-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T18,T4,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced ",SENP1C,-induced cleavage of ,SUMO2,-DeltaRanGAP1.,Not_a_complex
+27449295,s2,T4,T19,"Momordin Iotac (Mc), a natural pentacyclic triterpenoid, inhibited SENP1 in vitro, as reflected by reduced SENP1C-induced cleavage of ",SUMO2,-,DeltaRanGAP1,.,Not_a_complex
+27449295,s3,T20,T6,"Mc also altered the thermal stability of SENP1 in a newly developed cellular thermal shift assay, indicating that ",Mc, directly interacts with ,SENP1, in PCa cells.,Complex_formation
+27449295,s3,T27,T20,,Mc," also altered the thermal stability of SENP1 in a newly developed cellular thermal shift assay, indicating that ",Mc, directly interacts with SENP1 in PCa cells.,Not_a_complex
+27449295,s3,T5,T20,Mc also altered the thermal stability of ,SENP1," in a newly developed cellular thermal shift assay, indicating that ",Mc, directly interacts with SENP1 in PCa cells.,Not_a_complex
+27449295,s3,T27,T5,,Mc, also altered the thermal stability of ,SENP1," in a newly developed cellular thermal shift assay, indicating that Mc directly interacts with SENP1 in PCa cells.",Not_a_complex
+27449295,s3,T5,T6,Mc also altered the thermal stability of ,SENP1," in a newly developed cellular thermal shift assay, indicating that Mc directly interacts with ",SENP1, in PCa cells.,Not_a_complex
+27449295,s3,T27,T6,,Mc," also altered the thermal stability of SENP1 in a newly developed cellular thermal shift assay, indicating that Mc directly interacts with ",SENP1, in PCa cells.,Not_a_complex
+27449295,s4,T21,T22,"Consistent with SENP1 inhibition, ",Mc," increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, ",hypoxia inducible factor-1a, and nucleus accumbens associated protein 1 in PC3 cells.,Not_a_complex
+27449295,s4,T7,T21,Consistent with ,SENP1," inhibition, ",Mc," increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, hypoxia inducible factor-1a and nucleus accumbens associated protein 1 in PC3 cells.",Not_a_complex
+27449295,s4,T7,T22,Consistent with ,SENP1," inhibition, Mc increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, ",hypoxia inducible factor-1a, and nucleus accumbens associated protein 1 in PC3 cells.,Not_a_complex
+27449295,s4,T7,T8,Consistent with ,SENP1," inhibition, Mc increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, hypoxia inducible factor-1a and ",nucleus accumbens associated protein 1, in PC3 cells.,Not_a_complex
+27449295,s4,T21,T8,"Consistent with SENP1 inhibition, ",Mc," increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, hypoxia inducible factor-1a and ",nucleus accumbens associated protein 1, in PC3 cells.,Not_a_complex
+27449295,s4,T22,T8,"Consistent with SENP1 inhibition, Mc increased SUMOylated protein levels, which was further confirmed by the accumulation of two known SUMOylated proteins, ",hypoxia inducible factor-1a, and ,nucleus accumbens associated protein 1, in PC3 cells.,Not_a_complex
+27449295,s5,T9,T23,"Compared to LNCaP and normal prostate epithelial RWPE-1 cells, PC3 cells had higher levels of ",SENP1, mRNA and were more sensitive to ,Mc,-induced growth inhibition.,Not_a_complex
+27449295,s6,T28,T10,,Mc, also reduced ,SENP1, mRNA levels in PCa cells.,Not_a_complex
+27449295,s7,T11,T24,Overexpression of ,SENP1, rescued PC3 cells from ,Mc,-induced apoptosis.,Not_a_complex
+27449295,s9,T26,T12,These findings demonstrate that ,Mc, is a novel ,SENP1, inhibitor with potential therapeutic value for PCa.,Not_a_complex

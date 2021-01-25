@@ -1,0 +1,43 @@
+18541373,s0,T12,T1,,Parkin, is ubiquitinated by ,Nrdp1," and abrogates Nrdp1-induced oxidative stress. 
+",Not_a_complex
+18541373,s0,T1,T2,Parkin is ubiquitinated by ,Nrdp1, and abrogates ,Nrdp1,"-induced oxidative stress. 
+",Not_a_complex
+18541373,s0,T12,T2,,Parkin, is ubiquitinated by Nrdp1 and abrogates ,Nrdp1,"-induced oxidative stress. 
+",Not_a_complex
+18541373,s2,T3,T14,We previously described that ,Nrdp1,", a RING-finger ubiquitin E3 ligase, interacted with ",Parkin, by the yeast two-hybrid assay and by co-immunoprecipitation.,Complex_formation
+18541373,s2,T24,T14,"We previously described that Nrdp1, a RING-finger ",ubiquitin E3 ligase,", interacted with ",Parkin, by the yeast two-hybrid assay and by co-immunoprecipitation.,Not_a_complex
+18541373,s2,T3,T24,We previously described that ,Nrdp1,", a RING-finger ",ubiquitin E3 ligase,", interacted with Parkin by the yeast two-hybrid assay and by co-immunoprecipitation.",Not_a_complex
+18541373,s3,T15,T22,Here we further demonstrated that overexpression of Nrdp1 significantly reduced the endogenous ,Parkin, level in an Nrdp1 dosage-dependent and ,proteasome,-dependent manner.,Not_a_complex
+18541373,s3,T4,T15,Here we further demonstrated that overexpression of ,Nrdp1, significantly reduced the endogenous ,Parkin, level in an Nrdp1 dosage-dependent and proteasome-dependent manner.,Not_a_complex
+18541373,s3,T4,T22,Here we further demonstrated that overexpression of ,Nrdp1, significantly reduced the endogenous Parkin level in an Nrdp1 dosage-dependent and ,proteasome,-dependent manner.,Not_a_complex
+18541373,s3,T4,T5,Here we further demonstrated that overexpression of ,Nrdp1, significantly reduced the endogenous Parkin level in an ,Nrdp1, dosage-dependent and proteasome-dependent manner.,Not_a_complex
+18541373,s3,T15,T5,Here we further demonstrated that overexpression of Nrdp1 significantly reduced the endogenous ,Parkin, level in an ,Nrdp1, dosage-dependent and proteasome-dependent manner.,Not_a_complex
+18541373,s3,T5,T22,Here we further demonstrated that overexpression of Nrdp1 significantly reduced the endogenous Parkin level in an ,Nrdp1, dosage-dependent and ,proteasome,-dependent manner.,Not_a_complex
+18541373,s4,T18,T7,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating ",Parkin, is an ,Nrdp1, substrate.,Complex_formation
+18541373,s4,T16,T17,"More importantly, Nrdp1 ubiquitinated ",Parkin, and catalyzed the poly-ubiquitin chains on ,Parkin," in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T16,T18,"More importantly, Nrdp1 ubiquitinated ",Parkin," and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating ",Parkin, is an Nrdp1 substrate.,Not_a_complex
+18541373,s4,T16,T23,"More importantly, Nrdp1 ubiquitinated ",Parkin, and catalyzed the poly-,ubiquitin," chains on Parkin in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T17,T18,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on ",Parkin," in vitro as well as in cells, indicating ",Parkin, is an Nrdp1 substrate.,Not_a_complex
+18541373,s4,T23,T17,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-",ubiquitin, chains on ,Parkin," in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T23,T18,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-",ubiquitin," chains on Parkin in vitro as well as in cells, indicating ",Parkin, is an Nrdp1 substrate.,Not_a_complex
+18541373,s4,T6,T16,"More importantly, ",Nrdp1, ubiquitinated ,Parkin," and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T6,T17,"More importantly, ",Nrdp1, ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on ,Parkin," in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T6,T18,"More importantly, ",Nrdp1," ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating ",Parkin, is an Nrdp1 substrate.,Not_a_complex
+18541373,s4,T6,T23,"More importantly, ",Nrdp1, ubiquitinated Parkin and catalyzed the poly-,ubiquitin," chains on Parkin in vitro as well as in cells, indicating Parkin is an Nrdp1 substrate.",Not_a_complex
+18541373,s4,T6,T7,"More importantly, ",Nrdp1," ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating Parkin is an ",Nrdp1, substrate.,Not_a_complex
+18541373,s4,T16,T7,"More importantly, Nrdp1 ubiquitinated ",Parkin," and catalyzed the poly-ubiquitin chains on Parkin in vitro as well as in cells, indicating Parkin is an ",Nrdp1, substrate.,Not_a_complex
+18541373,s4,T17,T7,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-ubiquitin chains on ",Parkin," in vitro as well as in cells, indicating Parkin is an ",Nrdp1, substrate.,Not_a_complex
+18541373,s4,T23,T7,"More importantly, Nrdp1 ubiquitinated Parkin and catalyzed the poly-",ubiquitin," chains on Parkin in vitro as well as in cells, indicating Parkin is an ",Nrdp1, substrate.,Not_a_complex
+18541373,s5,T8,T19,"In addition, we demonstrated that overexpression of ",Nrdp1," increased the production of reactive oxygen species (ROS), which was abrogated by co-expression of ",Parkin,.,Not_a_complex
+18541373,s7,T10,T20,"Together, we provided evidence that interactions between ",Nrdp1, and ,Parkin," negatively regulated Parkin level and affected ROS production, suggesting that Nrdp1 may play a role in Parkinson's disease. 
+",Complex_formation
+18541373,s7,T10,T11,"Together, we provided evidence that interactions between ",Nrdp1," and Parkin negatively regulated Parkin level and affected ROS production, suggesting that ",Nrdp1," may play a role in Parkinson's disease. 
+",Not_a_complex
+18541373,s7,T10,T21,"Together, we provided evidence that interactions between ",Nrdp1, and Parkin negatively regulated ,Parkin," level and affected ROS production, suggesting that Nrdp1 may play a role in Parkinson's disease. 
+",Not_a_complex
+18541373,s7,T20,T11,"Together, we provided evidence that interactions between Nrdp1 and ",Parkin," negatively regulated Parkin level and affected ROS production, suggesting that ",Nrdp1," may play a role in Parkinson's disease. 
+",Not_a_complex
+18541373,s7,T21,T11,"Together, we provided evidence that interactions between Nrdp1 and Parkin negatively regulated ",Parkin," level and affected ROS production, suggesting that ",Nrdp1," may play a role in Parkinson's disease. 
+",Not_a_complex
+18541373,s7,T20,T21,"Together, we provided evidence that interactions between Nrdp1 and ",Parkin, negatively regulated ,Parkin," level and affected ROS production, suggesting that Nrdp1 may play a role in Parkinson's disease. 
+",Not_a_complex

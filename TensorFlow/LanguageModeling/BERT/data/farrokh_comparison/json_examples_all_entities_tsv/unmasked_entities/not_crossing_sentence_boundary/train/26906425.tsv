@@ -1,0 +1,20 @@
+26906425,s3,T1,T2,,Atlastin 1, (,ATL1,", also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T1,T3,,Atlastin 1," (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and ",reticulon 2," (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T1,T4,,Atlastin 1," (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (",RTN2,", also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T1,T8,,Atlastin 1," (ATL1, also known as ",SPG3A,") encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T1,T9,,Atlastin 1," (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as ",SPG12,) helps shape ER tube formation.,Not_a_complex
+26906425,s3,T2,T3,Atlastin 1 (,ATL1,", also known as SPG3A) encodes an ER membrane fusion GTPase and ",reticulon 2," (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T2,T4,Atlastin 1 (,ATL1,", also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (",RTN2,", also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T2,T8,Atlastin 1 (,ATL1,", also known as ",SPG3A,") encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T2,T9,Atlastin 1 (,ATL1,", also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as ",SPG12,) helps shape ER tube formation.,Not_a_complex
+26906425,s3,T3,T4,"Atlastin 1 (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and ",reticulon 2, (,RTN2,", also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T8,T3,"Atlastin 1 (ATL1, also known as ",SPG3A,) encodes an ER membrane fusion GTPase and ,reticulon 2," (RTN2, also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T3,T9,"Atlastin 1 (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and ",reticulon 2," (RTN2, also known as ",SPG12,) helps shape ER tube formation.,Not_a_complex
+26906425,s3,T8,T4,"Atlastin 1 (ATL1, also known as ",SPG3A,) encodes an ER membrane fusion GTPase and reticulon 2 (,RTN2,", also known as SPG12) helps shape ER tube formation.",Not_a_complex
+26906425,s3,T4,T9,"Atlastin 1 (ATL1, also known as SPG3A) encodes an ER membrane fusion GTPase and reticulon 2 (",RTN2,", also known as ",SPG12,) helps shape ER tube formation.,Not_a_complex
+26906425,s3,T8,T9,"Atlastin 1 (ATL1, also known as ",SPG3A,") encodes an ER membrane fusion GTPase and reticulon 2 (RTN2, also known as ",SPG12,) helps shape ER tube formation.,Not_a_complex
+26906425,s4,T5,T10,"Here, we use a new fluorescent ER marker to show that the ER within wild-type Drosophila motor nerve terminals forms a network of tubules that is fragmented and made diffuse upon loss of the ",atlastin 1, ortholog ,atl,.,Not_a_complex
+26906425,s5,T11,T6,,atl, or ,Rtnl1, loss decreases evoked transmitter release and increases arborization.,Not_a_complex
+26906425,s6,T12,T13,"Similar to other HSP proteins, ",Atl, inhibits bone morphogenetic protein (,BMP,") signaling, and loss of atl causes age-dependent locomotor deficits in adults.",Not_a_complex
+26906425,s6,T12,T7,"Similar to other HSP proteins, ",Atl, inhibits ,bone morphogenetic protein," (BMP) signaling, and loss of atl causes age-dependent locomotor deficits in adults.",Not_a_complex
+26906425,s6,T7,T13,"Similar to other HSP proteins, Atl inhibits ",bone morphogenetic protein, (,BMP,") signaling, and loss of atl causes age-dependent locomotor deficits in adults.",Not_a_complex

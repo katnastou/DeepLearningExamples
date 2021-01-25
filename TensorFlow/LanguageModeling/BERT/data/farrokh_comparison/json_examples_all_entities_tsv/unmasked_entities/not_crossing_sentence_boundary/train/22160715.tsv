@@ -1,0 +1,22 @@
+22160715,s0,T12,T7,,Histone deacetylase, inhibitors prevent the degradation and restore the activity of ,glucocerebrosidase," in Gaucher disease. 
+",Not_a_complex
+22160715,s1,T9,T10,Gaucher disease (GD) is caused by a spectrum of genetic mutations within the gene encoding the lysosomal enzyme ,glucocerebrosidase, (,GCase,).,Not_a_complex
+22160715,s2,T23,T25,These mutations often lead to misfolded proteins that are recognized by the unfolded protein response system and are degraded through the ,ubiquitin,-,proteasome, pathway.,Not_a_complex
+22160715,s6,T16,T1,,GCase, was found to bind to ,Hsp70,", which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ubiquitin-proteasome pathway.",Complex_formation
+22160715,s6,T1,T2,GCase was found to bind to ,Hsp70,", which directed the protein to ",TCP1," for proper folding, and to Hsp90, which directed the protein to the ubiquitin-proteasome pathway.",Not_a_complex
+22160715,s6,T1,T22,GCase was found to bind to ,Hsp70,", which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ",ubiquitin,-proteasome pathway.,Not_a_complex
+22160715,s6,T1,T26,GCase was found to bind to ,Hsp70,", which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ubiquitin-",proteasome, pathway.,Not_a_complex
+22160715,s6,T1,T3,GCase was found to bind to ,Hsp70,", which directed the protein to TCP1 for proper folding, and to ",Hsp90,", which directed the protein to the ubiquitin-proteasome pathway.",Not_a_complex
+22160715,s6,T16,T22,,GCase," was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ",ubiquitin,-proteasome pathway.,Not_a_complex
+22160715,s6,T16,T26,,GCase," was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ubiquitin-",proteasome, pathway.,Not_a_complex
+22160715,s6,T16,T2,,GCase," was found to bind to Hsp70, which directed the protein to ",TCP1," for proper folding, and to Hsp90, which directed the protein to the ubiquitin-proteasome pathway.",Not_a_complex
+22160715,s6,T2,T22,"GCase was found to bind to Hsp70, which directed the protein to ",TCP1," for proper folding, and to Hsp90, which directed the protein to the ",ubiquitin,-proteasome pathway.,Not_a_complex
+22160715,s6,T2,T26,"GCase was found to bind to Hsp70, which directed the protein to ",TCP1," for proper folding, and to Hsp90, which directed the protein to the ubiquitin-",proteasome, pathway.,Not_a_complex
+22160715,s6,T2,T3,"GCase was found to bind to Hsp70, which directed the protein to ",TCP1," for proper folding, and to ",Hsp90,", which directed the protein to the ubiquitin-proteasome pathway.",Not_a_complex
+22160715,s6,T22,T26,"GCase was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to Hsp90, which directed the protein to the ",ubiquitin,-,proteasome, pathway.,Not_a_complex
+22160715,s6,T16,T3,,GCase," was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to ",Hsp90,", which directed the protein to the ubiquitin-proteasome pathway.",Not_a_complex
+22160715,s6,T3,T22,"GCase was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to ",Hsp90,", which directed the protein to the ",ubiquitin,-proteasome pathway.,Not_a_complex
+22160715,s6,T3,T26,"GCase was found to bind to Hsp70, which directed the protein to TCP1 for proper folding, and to ",Hsp90,", which directed the protein to the ubiquitin-",proteasome, pathway.,Not_a_complex
+22160715,s9,T4,T5,HDACis reduce binding to ,Hsp90, and prevent subsequent ubiquitination and proteasomal degradation without affecting binding to ,Hsp70, or TCP1.,Not_a_complex
+22160715,s9,T4,T6,HDACis reduce binding to ,Hsp90, and prevent subsequent ubiquitination and proteasomal degradation without affecting binding to Hsp70 or ,TCP1,.,Not_a_complex
+22160715,s9,T5,T6,HDACis reduce binding to Hsp90 and prevent subsequent ubiquitination and proteasomal degradation without affecting binding to ,Hsp70, or ,TCP1,.,Not_a_complex

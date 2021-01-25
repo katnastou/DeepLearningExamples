@@ -1,0 +1,91 @@
+19706536,s0,T1,T2,Phosphorylation of ,CARMA1, by ,HPK1," is critical for NF-kappaB activation in T cells. 
+",Not_a_complex
+19706536,s0,T1,T27,Phosphorylation of ,CARMA1, by HPK1 is critical for ,NF-kappaB," activation in T cells. 
+",Not_a_complex
+19706536,s0,T2,T27,Phosphorylation of CARMA1 by ,HPK1, is critical for ,NF-kappaB," activation in T cells. 
+",Not_a_complex
+19706536,s2,T29,T30,Hematopoietic progenitor kinase (HPK1) is an important proximal mediator of ,T-cell receptor, (,TCR,)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T29,T31,Hematopoietic progenitor kinase (HPK1) is an important proximal mediator of ,T-cell receptor, (TCR)-induced ,NF-kappaB, activation.,Not_a_complex
+19706536,s2,T3,T29,,Hematopoietic progenitor kinase, (HPK1) is an important proximal mediator of ,T-cell receptor, (TCR)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T3,T30,,Hematopoietic progenitor kinase, (HPK1) is an important proximal mediator of T-cell receptor (,TCR,)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T3,T31,,Hematopoietic progenitor kinase, (HPK1) is an important proximal mediator of T-cell receptor (TCR)-induced ,NF-kappaB, activation.,Not_a_complex
+19706536,s2,T3,T4,,Hematopoietic progenitor kinase, (,HPK1,) is an important proximal mediator of T-cell receptor (TCR)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T30,T31,Hematopoietic progenitor kinase (HPK1) is an important proximal mediator of T-cell receptor (,TCR,)-induced ,NF-kappaB, activation.,Not_a_complex
+19706536,s2,T4,T29,Hematopoietic progenitor kinase (,HPK1,) is an important proximal mediator of ,T-cell receptor, (TCR)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T4,T30,Hematopoietic progenitor kinase (,HPK1,) is an important proximal mediator of T-cell receptor (,TCR,)-induced NF-kappaB activation.,Not_a_complex
+19706536,s2,T4,T31,Hematopoietic progenitor kinase (,HPK1,) is an important proximal mediator of T-cell receptor (TCR)-induced ,NF-kappaB, activation.,Not_a_complex
+19706536,s3,T32,T33,Knock-down of HPK1 abrogates ,TCR,-induced IKKbeta and ,NF-kappaB," activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T5,T32,Knock-down of ,HPK1, abrogates ,TCR,"-induced IKKbeta and NF-kappaB activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T5,T33,Knock-down of ,HPK1, abrogates TCR-induced IKKbeta and ,NF-kappaB," activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T5,T6,Knock-down of ,HPK1, abrogates TCR-induced ,IKKbeta," and NF-kappaB activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T5,T7,Knock-down of ,HPK1," abrogates TCR-induced IKKbeta and NF-kappaB activation, whereas active ",HPK1, leads to increased IKKbeta activity in T cells.,Not_a_complex
+19706536,s3,T5,T8,Knock-down of ,HPK1," abrogates TCR-induced IKKbeta and NF-kappaB activation, whereas active HPK1 leads to increased ",IKKbeta, activity in T cells.,Not_a_complex
+19706536,s3,T32,T6,Knock-down of HPK1 abrogates ,TCR,-induced ,IKKbeta," and NF-kappaB activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T6,T33,Knock-down of HPK1 abrogates TCR-induced ,IKKbeta, and ,NF-kappaB," activation, whereas active HPK1 leads to increased IKKbeta activity in T cells.",Not_a_complex
+19706536,s3,T6,T7,Knock-down of HPK1 abrogates TCR-induced ,IKKbeta," and NF-kappaB activation, whereas active ",HPK1, leads to increased IKKbeta activity in T cells.,Not_a_complex
+19706536,s3,T6,T8,Knock-down of HPK1 abrogates TCR-induced ,IKKbeta," and NF-kappaB activation, whereas active HPK1 leads to increased ",IKKbeta, activity in T cells.,Not_a_complex
+19706536,s3,T32,T7,Knock-down of HPK1 abrogates ,TCR,"-induced IKKbeta and NF-kappaB activation, whereas active ",HPK1, leads to increased IKKbeta activity in T cells.,Not_a_complex
+19706536,s3,T33,T7,Knock-down of HPK1 abrogates TCR-induced IKKbeta and ,NF-kappaB," activation, whereas active ",HPK1, leads to increased IKKbeta activity in T cells.,Not_a_complex
+19706536,s3,T7,T8,"Knock-down of HPK1 abrogates TCR-induced IKKbeta and NF-kappaB activation, whereas active ",HPK1, leads to increased ,IKKbeta, activity in T cells.,Not_a_complex
+19706536,s3,T32,T8,Knock-down of HPK1 abrogates ,TCR,"-induced IKKbeta and NF-kappaB activation, whereas active HPK1 leads to increased ",IKKbeta, activity in T cells.,Not_a_complex
+19706536,s3,T33,T8,Knock-down of HPK1 abrogates TCR-induced IKKbeta and ,NF-kappaB," activation, whereas active HPK1 leads to increased ",IKKbeta, activity in T cells.,Not_a_complex
+19706536,s5,T34,T10,"Here, we show that HPK1-mediated ",NF-kappaB, activation is dependent on the adaptor protein ,CARMA1,.,Not_a_complex
+19706536,s5,T9,T10,"Here, we show that ",HPK1,-mediated NF-kappaB activation is dependent on the adaptor protein ,CARMA1,.,Not_a_complex
+19706536,s5,T9,T34,"Here, we show that ",HPK1,-mediated ,NF-kappaB, activation is dependent on the adaptor protein CARMA1.,Not_a_complex
+19706536,s6,T11,T12,,HPK1, interacts with ,CARMA1, in a TCR stimulation-dependent manner and phosphorylates the linker region of CARMA1.,Complex_formation
+19706536,s6,T11,T13,,HPK1, interacts with CARMA1 in a TCR stimulation-dependent manner and phosphorylates the linker region of ,CARMA1,.,Not_a_complex
+19706536,s6,T11,T35,,HPK1, interacts with CARMA1 in a ,TCR, stimulation-dependent manner and phosphorylates the linker region of CARMA1.,Not_a_complex
+19706536,s6,T12,T13,HPK1 interacts with ,CARMA1, in a TCR stimulation-dependent manner and phosphorylates the linker region of ,CARMA1,.,Not_a_complex
+19706536,s6,T12,T35,HPK1 interacts with ,CARMA1, in a ,TCR, stimulation-dependent manner and phosphorylates the linker region of CARMA1.,Not_a_complex
+19706536,s6,T35,T13,HPK1 interacts with CARMA1 in a ,TCR, stimulation-dependent manner and phosphorylates the linker region of ,CARMA1,.,Not_a_complex
+19706536,s7,T14,T15,"Interestingly, the putative ",HPK1, phosphorylation sites in ,CARMA1, are different from known PKC consensus sites.,Not_a_complex
+19706536,s7,T14,T40,"Interestingly, the putative ",HPK1, phosphorylation sites in CARMA1 are different from known ,PKC, consensus sites.,Not_a_complex
+19706536,s7,T15,T40,"Interestingly, the putative HPK1 phosphorylation sites in ",CARMA1, are different from known ,PKC, consensus sites.,Not_a_complex
+19706536,s8,T16,T17,"Mutations of residues S549, S551, and S552 in ",CARMA1, abrogated phosphorylation of a ,CARMA1,-linker construct by HPK1 in vitro.,Not_a_complex
+19706536,s8,T16,T18,"Mutations of residues S549, S551, and S552 in ",CARMA1, abrogated phosphorylation of a CARMA1-linker construct by ,HPK1, in vitro.,Not_a_complex
+19706536,s8,T17,T18,"Mutations of residues S549, S551, and S552 in CARMA1 abrogated phosphorylation of a ",CARMA1,-linker construct by ,HPK1, in vitro.,Not_a_complex
+19706536,s9,T19,T20,"In addition, ",CARMA1, S551A or S5549A/S551A point mutants failed to restore ,HPK1,-mediated and TCR-mediated NF-kappaB activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T19,T21,"In addition, ",CARMA1, S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated NF-kappaB activation and ,IL-2, expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T19,T22,"In addition, ",CARMA1, S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated NF-kappaB activation and IL-2 expression in ,CARMA1,-deficient T cells.,Not_a_complex
+19706536,s9,T19,T36,"In addition, ",CARMA1, S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and ,TCR,-mediated NF-kappaB activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T19,T37,"In addition, ",CARMA1, S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated ,NF-kappaB, activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T20,T21,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore ",HPK1,-mediated and TCR-mediated NF-kappaB activation and ,IL-2, expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T20,T22,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore ",HPK1,-mediated and TCR-mediated NF-kappaB activation and IL-2 expression in ,CARMA1,-deficient T cells.,Not_a_complex
+19706536,s9,T20,T36,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore ",HPK1,-mediated and ,TCR,-mediated NF-kappaB activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T20,T37,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore ",HPK1,-mediated and TCR-mediated ,NF-kappaB, activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T21,T22,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated NF-kappaB activation and ",IL-2, expression in ,CARMA1,-deficient T cells.,Not_a_complex
+19706536,s9,T36,T21,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and ",TCR,-mediated NF-kappaB activation and ,IL-2, expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T37,T21,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated ",NF-kappaB, activation and ,IL-2, expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s9,T36,T22,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and ",TCR,-mediated NF-kappaB activation and IL-2 expression in ,CARMA1,-deficient T cells.,Not_a_complex
+19706536,s9,T37,T22,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and TCR-mediated ",NF-kappaB, activation and IL-2 expression in ,CARMA1,-deficient T cells.,Not_a_complex
+19706536,s9,T36,T37,"In addition, CARMA1 S551A or S5549A/S551A point mutants failed to restore HPK1-mediated and ",TCR,-mediated ,NF-kappaB, activation and IL-2 expression in CARMA1-deficient T cells.,Not_a_complex
+19706536,s10,T23,T24,"Thus, we identify ",HPK1, as a kinase specific for ,CARMA1," and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T23,T25,"Thus, we identify ",HPK1, as a kinase specific for CARMA1 and suggest ,HPK1,"-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T23,T26,"Thus, we identify ",HPK1, as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of ,CARMA1," as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T23,T38,"Thus, we identify ",HPK1, as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the ,NF-kappaB," response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T23,T39,"Thus, we identify ",HPK1, as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon ,TCR," stimulation. 
+",Not_a_complex
+19706536,s10,T24,T25,"Thus, we identify HPK1 as a kinase specific for ",CARMA1, and suggest ,HPK1,"-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T24,T26,"Thus, we identify HPK1 as a kinase specific for ",CARMA1, and suggest HPK1-mediated phosphorylation of ,CARMA1," as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T24,T38,"Thus, we identify HPK1 as a kinase specific for ",CARMA1, and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the ,NF-kappaB," response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T24,T39,"Thus, we identify HPK1 as a kinase specific for ",CARMA1, and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon ,TCR," stimulation. 
+",Not_a_complex
+19706536,s10,T25,T26,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest ",HPK1,-mediated phosphorylation of ,CARMA1," as an additional regulatory mechanism tuning the NF-kappaB response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T25,T38,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest ",HPK1,-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the ,NF-kappaB," response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T25,T39,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest ",HPK1,-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the NF-kappaB response upon ,TCR," stimulation. 
+",Not_a_complex
+19706536,s10,T26,T38,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of ",CARMA1, as an additional regulatory mechanism tuning the ,NF-kappaB," response upon TCR stimulation. 
+",Not_a_complex
+19706536,s10,T26,T39,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of ",CARMA1, as an additional regulatory mechanism tuning the NF-kappaB response upon ,TCR," stimulation. 
+",Not_a_complex
+19706536,s10,T38,T39,"Thus, we identify HPK1 as a kinase specific for CARMA1 and suggest HPK1-mediated phosphorylation of CARMA1 as an additional regulatory mechanism tuning the ",NF-kappaB, response upon ,TCR," stimulation. 
+",Not_a_complex

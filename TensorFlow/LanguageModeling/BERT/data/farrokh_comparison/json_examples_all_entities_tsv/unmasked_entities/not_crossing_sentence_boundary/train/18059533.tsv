@@ -1,0 +1,49 @@
+18059533,s0,T19,T20,Competitive inhibition of histone deacetylase activity by ,trichostatin A, and ,butyrate,". 
+",Not_a_complex
+18059533,s0,T8,T19,Competitive inhibition of ,histone deacetylase, activity by ,trichostatin A," and butyrate. 
+",Not_a_complex
+18059533,s0,T8,T20,Competitive inhibition of ,histone deacetylase, activity by trichostatin A and ,butyrate,". 
+",Not_a_complex
+18059533,s1,T9,T10,,Histone deacetylases, (,HDACs,) play a pivotal role in gene expression through their involvement in chromatin remodeling.,Not_a_complex
+18059533,s2,T11,T12,The abnormal targeting or retention of ,HDACs," to DNA regulatory regions is observed in many cancers, and hence ",HDAC, inhibitors are being tested as promising anti-tumor agents.,Not_a_complex
+18059533,s3,T21,T13,"The results of previous kinetic studies, characterizing ",trichostatin A," (TSA), as well as butyrate, as ",HDAC," noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T22,T13,"The results of previous kinetic studies, characterizing trichostatin A (",TSA,"), as well as butyrate, as ",HDAC," noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T23,T13,"The results of previous kinetic studies, characterizing trichostatin A (TSA), as well as ",butyrate,", as ",HDAC," noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T13,T24,"The results of previous kinetic studies, characterizing trichostatin A (TSA), as well as butyrate, as ",HDAC," noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that ",TSA, should act as a competitive inhibitor.,Not_a_complex
+18059533,s3,T21,T22,"The results of previous kinetic studies, characterizing ",trichostatin A, (,TSA,"), as well as butyrate, as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T21,T23,"The results of previous kinetic studies, characterizing ",trichostatin A," (TSA), as well as ",butyrate,", as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T21,T24,"The results of previous kinetic studies, characterizing ",trichostatin A," (TSA), as well as butyrate, as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that ",TSA, should act as a competitive inhibitor.,Not_a_complex
+18059533,s3,T22,T23,"The results of previous kinetic studies, characterizing trichostatin A (",TSA,"), as well as ",butyrate,", as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that TSA should act as a competitive inhibitor.",Not_a_complex
+18059533,s3,T22,T24,"The results of previous kinetic studies, characterizing trichostatin A (",TSA,"), as well as butyrate, as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that ",TSA, should act as a competitive inhibitor.,Not_a_complex
+18059533,s3,T23,T24,"The results of previous kinetic studies, characterizing trichostatin A (TSA), as well as ",butyrate,", as HDAC noncompetitive inhibitors, conflict with crystallographic and homology modeling data suggesting that ",TSA, should act as a competitive inhibitor.,Not_a_complex
+18059533,s4,T14,T15,Our results demonstrate that each of the ,HDAC, inhibitors TSA and butyrate inhibits ,HDAC, activity in a competitive fashion.,Not_a_complex
+18059533,s4,T14,T25,Our results demonstrate that each of the ,HDAC, inhibitors ,TSA, and butyrate inhibits HDAC activity in a competitive fashion.,Not_a_complex
+18059533,s4,T14,T26,Our results demonstrate that each of the ,HDAC, inhibitors TSA and ,butyrate, inhibits HDAC activity in a competitive fashion.,Not_a_complex
+18059533,s4,T25,T15,Our results demonstrate that each of the HDAC inhibitors ,TSA, and butyrate inhibits ,HDAC, activity in a competitive fashion.,Not_a_complex
+18059533,s4,T26,T15,Our results demonstrate that each of the HDAC inhibitors TSA and ,butyrate, inhibits ,HDAC, activity in a competitive fashion.,Not_a_complex
+18059533,s4,T25,T26,Our results demonstrate that each of the HDAC inhibitors ,TSA, and ,butyrate, inhibits HDAC activity in a competitive fashion.,Not_a_complex
+18059533,s5,T1,T2,Co-immunoprecipitation studies show that the inhibition of ,HDAC1, and ,HDAC2, activity by TSA does not disturb the extensive level of their association in the human breast cancer cell line MCF-7.,Complex_formation
+18059533,s5,T1,T27,Co-immunoprecipitation studies show that the inhibition of ,HDAC1, and HDAC2 activity by ,TSA, does not disturb the extensive level of their association in the human breast cancer cell line MCF-7.,Not_a_complex
+18059533,s5,T2,T27,Co-immunoprecipitation studies show that the inhibition of HDAC1 and ,HDAC2, activity by ,TSA, does not disturb the extensive level of their association in the human breast cancer cell line MCF-7.,Not_a_complex
+18059533,s6,T3,T4,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of ",HDAC1, and ,HDAC2," with Sin3A, a core component of the Sin3 complex.",Complex_formation
+18059533,s6,T3,T5,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of ",HDAC1, and HDAC2 with ,Sin3A,", a core component of the Sin3 complex.",Complex_formation
+18059533,s6,T4,T5,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of HDAC1 and ",HDAC2, with ,Sin3A,", a core component of the Sin3 complex.",Complex_formation
+18059533,s6,T16,T17,"Moreover, the inhibition of ",HDAC," activity by TSA does not interfere with the interaction of HDAC1 and HDAC2 with Sin3A, a core component of the ",Sin3, complex.,Not_a_complex
+18059533,s6,T16,T28,"Moreover, the inhibition of ",HDAC, activity by ,TSA," does not interfere with the interaction of HDAC1 and HDAC2 with Sin3A, a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T28,T17,"Moreover, the inhibition of HDAC activity by ",TSA," does not interfere with the interaction of HDAC1 and HDAC2 with Sin3A, a core component of the ",Sin3, complex.,Not_a_complex
+18059533,s6,T16,T3,"Moreover, the inhibition of ",HDAC, activity by TSA does not interfere with the interaction of ,HDAC1," and HDAC2 with Sin3A, a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T3,T17,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of ",HDAC1," and HDAC2 with Sin3A, a core component of the ",Sin3, complex.,Not_a_complex
+18059533,s6,T28,T3,"Moreover, the inhibition of HDAC activity by ",TSA, does not interfere with the interaction of ,HDAC1," and HDAC2 with Sin3A, a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T16,T4,"Moreover, the inhibition of ",HDAC, activity by TSA does not interfere with the interaction of HDAC1 and ,HDAC2," with Sin3A, a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T4,T17,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of HDAC1 and ",HDAC2," with Sin3A, a core component of the ",Sin3, complex.,Not_a_complex
+18059533,s6,T28,T4,"Moreover, the inhibition of HDAC activity by ",TSA, does not interfere with the interaction of HDAC1 and ,HDAC2," with Sin3A, a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T16,T5,"Moreover, the inhibition of ",HDAC, activity by TSA does not interfere with the interaction of HDAC1 and HDAC2 with ,Sin3A,", a core component of the Sin3 complex.",Not_a_complex
+18059533,s6,T5,T17,"Moreover, the inhibition of HDAC activity by TSA does not interfere with the interaction of HDAC1 and HDAC2 with ",Sin3A,", a core component of the ",Sin3, complex.,Not_a_complex
+18059533,s6,T28,T5,"Moreover, the inhibition of HDAC activity by ",TSA, does not interfere with the interaction of HDAC1 and HDAC2 with ,Sin3A,", a core component of the Sin3 complex.",Not_a_complex
+18059533,s7,T18,T29,"Thus, repressor complexes such as ",Sin3,", appear to be stable in the presence of ",TSA,.,Not_a_complex
+18059533,s8,T6,T7,The association of ,HDAC2, with ,transcription factor Sp1," is also not affected by TSA. 
+",Complex_formation
+18059533,s8,T6,T30,The association of ,HDAC2, with transcription factor Sp1 is also not affected by ,TSA,". 
+",Not_a_complex
+18059533,s8,T7,T30,The association of HDAC2 with ,transcription factor Sp1, is also not affected by ,TSA,". 
+",Not_a_complex

@@ -1,0 +1,21 @@
+16420575,s0,T1,T8,The interaction of ,von Willebrand factor,-A1 domain with ,collagen,": mutation G1324S (type 2M von Willebrand disease) impairs the conformational change in A1 domain induced by collagen. 
+",Complex_formation
+16420575,s0,T1,T9,The interaction of ,von Willebrand factor,-A1 domain with collagen: mutation G1324S (type 2M von Willebrand disease) impairs the conformational change in A1 domain induced by ,collagen,". 
+",Not_a_complex
+16420575,s0,T8,T9,The interaction of von Willebrand factor-A1 domain with ,collagen,: mutation G1324S (type 2M von Willebrand disease) impairs the conformational change in A1 domain induced by ,collagen,". 
+",Not_a_complex
+16420575,s1,T2,T10,BACKGROUND: It is established that the A3 domain in ,von Willebrand factor, (VWF) contains the major ,collagen,-binding site.,Complex_formation
+16420575,s1,T3,T10,BACKGROUND: It is established that the A3 domain in von Willebrand factor (,VWF,) contains the major ,collagen,-binding site.,Complex_formation
+16420575,s1,T2,T3,BACKGROUND: It is established that the A3 domain in ,von Willebrand factor, (,VWF,) contains the major collagen-binding site.,Not_a_complex
+16420575,s2,T11,T12,"However, there are conflicting reports describing the capacity of the A1 domain to interact with ",collagen types I, and ,III,.,Not_a_complex
+16420575,s3,T4,T21,"METHODS: In this study, we have used recombinant ",VWF,"-A1 polypeptides, as well as conformation-specific monoclonal antibodies (mAb), to analyze the A1-",collagen, interaction.,Complex_formation
+16420575,s4,T14,T5,"RESULTS: The A1 domain bound to collagen with K(d) approximately 8.0 nm and this binding was blocked by the mAb 6G1, which blocks the interaction between ",ristocetin, and ,VWF,.,Complex_formation
+16420575,s4,T13,T14,RESULTS: The A1 domain bound to ,collagen," with K(d) approximately 8.0 nm and this binding was blocked by the mAb 6G1, which blocks the interaction between ",ristocetin, and VWF.,Not_a_complex
+16420575,s4,T13,T5,RESULTS: The A1 domain bound to ,collagen," with K(d) approximately 8.0 nm and this binding was blocked by the mAb 6G1, which blocks the interaction between ristocetin and ",VWF,.,Not_a_complex
+16420575,s5,T15,T16,"In addition, ",collagen,"-bound A1 protein was able to support flow-dependent adhesion of platelets, demonstrating that the binding sites for ",collagen, and glycoprotein (GP)Ib are different.,Not_a_complex
+16420575,s5,T15,T23,"In addition, ",collagen,"-bound A1 protein was able to support flow-dependent adhesion of platelets, demonstrating that the binding sites for collagen and ",glycoprotein (GP)Ib, are different.,Not_a_complex
+16420575,s5,T16,T23,"In addition, collagen-bound A1 protein was able to support flow-dependent adhesion of platelets, demonstrating that the binding sites for ",collagen, and ,glycoprotein (GP)Ib, are different.,Not_a_complex
+16420575,s8,T18,T6,"Thus, direct binding to ",collagen, induces a change in the structural conformation within the ,VWF,"-A1 domain, and the G1324S substitution prevents this conformational change.",Complex_formation
+16420575,s9,T19,T22,CONCLUSION: This study has shown that the isolated A1 domain can simultaneously bind to ,collagen, and platelet ,GPIb,", supporting platelet adhesion under high-flow conditions.",Not_a_complex
+16420575,s10,T7,T20,"In addition, this study has used mAb to demonstrate that the binding of the isolated A1 domain or full-length ",VWF, to ,collagen," is accompanied by a conformational change in A1 domain. 
+",Complex_formation

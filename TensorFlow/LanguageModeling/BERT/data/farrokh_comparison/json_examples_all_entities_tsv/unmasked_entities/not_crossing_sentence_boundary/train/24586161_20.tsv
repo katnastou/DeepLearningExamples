@@ -1,0 +1,23 @@
+24586161_20,s0,T8,T2,"To gain insight to the specificity of acetyltransferases in the YopJ effector family, we determined if HopZ1a could acetylate ",AvrBsT,'s substrate ,ACIP1,.,Complex_formation
+24586161_20,s0,T1,T2,To gain insight to the specificity of acetyltransferases in the ,YopJ," effector family, we determined if HopZ1a could acetylate AvrBsT's substrate ",ACIP1,.,Not_a_complex
+24586161_20,s0,T1,T7,To gain insight to the specificity of acetyltransferases in the ,YopJ," effector family, we determined if ",HopZ1a, could acetylate AvrBsT's substrate ACIP1.,Not_a_complex
+24586161_20,s0,T1,T8,To gain insight to the specificity of acetyltransferases in the ,YopJ," effector family, we determined if HopZ1a could acetylate ",AvrBsT,'s substrate ACIP1.,Not_a_complex
+24586161_20,s0,T7,T2,"To gain insight to the specificity of acetyltransferases in the YopJ effector family, we determined if ",HopZ1a, could acetylate AvrBsT's substrate ,ACIP1,.,Not_a_complex
+24586161_20,s0,T7,T8,"To gain insight to the specificity of acetyltransferases in the YopJ effector family, we determined if ",HopZ1a, could acetylate ,AvrBsT,'s substrate ACIP1.,Not_a_complex
+24586161_20,s1,T10,T11,"Conversely, we determined if AvrBsT could acetylate ",HopZ1a,'s substrate ,tubulin,.,Complex_formation
+24586161_20,s1,T9,T10,"Conversely, we determined if ",AvrBsT, could acetylate ,HopZ1a,'s substrate tubulin.,Not_a_complex
+24586161_20,s1,T9,T11,"Conversely, we determined if ",AvrBsT, could acetylate HopZ1a's substrate ,tubulin,.,Not_a_complex
+24586161_20,s2,T12,T3,Incubation of GST-,HopZ1a, with GST-,ACIP1, did not result in detectable acetylation of ACIP1 (Figure 2C).,Not_a_complex
+24586161_20,s2,T3,T4,Incubation of GST-HopZ1a with GST-,ACIP1, did not result in detectable acetylation of ,ACIP1, (Figure 2C).,Not_a_complex
+24586161_20,s2,T12,T4,Incubation of GST-,HopZ1a, with GST-ACIP1 did not result in detectable acetylation of ,ACIP1, (Figure 2C).,Not_a_complex
+24586161_20,s3,T13,T5,"Moreover, neither ",HopZ1a, nor other members of the ,HopZ," family could physically associate with ACIP1 in targeted yeast two-hybrid screens (Figure S5A, B).",Not_a_complex
+24586161_20,s3,T5,T6,"Moreover, neither HopZ1a nor other members of the ",HopZ, family could physically associate with ,ACIP1," in targeted yeast two-hybrid screens (Figure S5A, B).",Not_a_complex
+24586161_20,s3,T13,T6,"Moreover, neither ",HopZ1a, nor other members of the HopZ family could physically associate with ,ACIP1," in targeted yeast two-hybrid screens (Figure S5A, B).",Not_a_complex
+24586161_20,s4,T14,T15,"Similarly, we could not detect ",AvrBsT,-dependent acetylation of ,tubulin," in vitro (Figure S5C) or direct physical interaction between AvrBsT and tubulin in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s4,T14,T16,"Similarly, we could not detect ",AvrBsT,-dependent acetylation of tubulin in vitro (Figure S5C) or direct physical interaction between ,AvrBsT," and tubulin in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s4,T14,T17,"Similarly, we could not detect ",AvrBsT,-dependent acetylation of tubulin in vitro (Figure S5C) or direct physical interaction between AvrBsT and ,tubulin," in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s4,T15,T16,"Similarly, we could not detect AvrBsT-dependent acetylation of ",tubulin, in vitro (Figure S5C) or direct physical interaction between ,AvrBsT," and tubulin in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s4,T15,T17,"Similarly, we could not detect AvrBsT-dependent acetylation of ",tubulin, in vitro (Figure S5C) or direct physical interaction between AvrBsT and ,tubulin," in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s4,T16,T17,"Similarly, we could not detect AvrBsT-dependent acetylation of tubulin in vitro (Figure S5C) or direct physical interaction between ",AvrBsT, and ,tubulin," in yeast (Figure S5A,B).",Not_a_complex
+24586161_20,s5,T18,T19,These data suggest that ,AvrBsT, and ,HopZ1a," possess distinct substrate specificity.
+",Not_a_complex

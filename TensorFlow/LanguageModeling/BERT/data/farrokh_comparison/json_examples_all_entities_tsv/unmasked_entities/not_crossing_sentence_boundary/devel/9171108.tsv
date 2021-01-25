@@ -1,0 +1,22 @@
+9171108,s0,T1,T4,The ,class II trans-activator, CIITA interacts with the TBP-associated factor ,TAFII32,". 
+",Complex_formation
+9171108,s0,T2,T4,The class II trans-activator ,CIITA, interacts with the TBP-associated factor ,TAFII32,". 
+",Complex_formation
+9171108,s0,T3,T4,The class II trans-activator CIITA interacts with the ,TBP,-associated factor ,TAFII32,". 
+",Complex_formation
+9171108,s0,T1,T2,The ,class II trans-activator, ,CIITA," interacts with the TBP-associated factor TAFII32. 
+",Not_a_complex
+9171108,s0,T1,T3,The ,class II trans-activator, CIITA interacts with the ,TBP,"-associated factor TAFII32. 
+",Not_a_complex
+9171108,s0,T2,T3,The class II trans-activator ,CIITA, interacts with the ,TBP,"-associated factor TAFII32. 
+",Not_a_complex
+9171108,s1,T5,T16,The ,class II trans- activator, (CIITA) is the main transcriptional co-activator for the expression of ,MHC class II, proteins.,Not_a_complex
+9171108,s1,T5,T6,The ,class II trans- activator, (,CIITA,) is the main transcriptional co-activator for the expression of MHC class II proteins.,Not_a_complex
+9171108,s1,T6,T16,The class II trans- activator (,CIITA,) is the main transcriptional co-activator for the expression of ,MHC class II, proteins.,Not_a_complex
+9171108,s6,T9,T10,This activation domain of ,CIITA," interacts with the 32 kDa subunit of the general transcription complex TFIID, ",TAFII32,.,Complex_formation
+9171108,s6,T17,T10,This activation domain of CIITA interacts with the 32 kDa subunit of the general transcription complex ,TFIID,", ",TAFII32,.,Not_a_complex
+9171108,s6,T9,T17,This activation domain of ,CIITA, interacts with the 32 kDa subunit of the general transcription complex ,TFIID,", TAFII32.",Not_a_complex
+9171108,s7,T11,T12,Decreased transcriptional activation by N-terminal deletions of ,CIITA, is correlated directly with their reduced binding to ,TAFII32,.,Complex_formation
+9171108,s8,T13,T14,We conclude that interactions between ,TAFII32, and ,CIITA, are responsible for activation of class II genes.,Complex_formation
+9171108,s8,T13,T15,We conclude that interactions between ,TAFII32, and CIITA are responsible for activation of ,class II, genes.,Not_a_complex
+9171108,s8,T14,T15,We conclude that interactions between TAFII32 and ,CIITA, are responsible for activation of ,class II, genes.,Not_a_complex
