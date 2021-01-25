@@ -36,6 +36,10 @@ flags.DEFINE_string(
 )
 
 flags.DEFINE_string(
+    "input_file_type", "tsv", "The type of input file: tsv or csv supported"
+)
+
+flags.DEFINE_string(
     "data_dir", None,
     "The input datadir.",
 )
@@ -195,18 +199,44 @@ class DataProcessor(object):
             for line in reader:
                 lines.append(line)
             return lines
+    
+    @classmethod
+    def _read_csv(tsv_file_path):
+        tsv_handle = open(tsv_file_path, "rt" , newline='')
+        field_names = ['document_id', 'sentence_id', 'e1_id', 'e2_id', 
+                        'text_before', 'e1_text', 'text_middle', 
+                        'e2_text', 'text_right', 'label']
+        tsv_reader = csv.DictReader(tsv_handle, fieldnames=field_names)
+        lines = []
+        for row in tsv_reader:
+            lines.append(line)
+        return lines
+        tsv_handle.close()
+
 
 
 class ConsensusProcessor(DataProcessor):
-    def get_train_examples(self, data_dir, file_name="train.tsv"):
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, file_name)), "train")
-    def get_dev_examples(self, data_dir, file_name="dev.tsv"):
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, file_name)), "dev")
-    def get_test_examples(self, data_dir, file_name="test.tsv"):
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, file_name)), "test")
+    def get_train_examples(self, data_dir, file_name="train.tsv", input_file_type):
+        if(input_file_type=="tsv"):
+            return self._create_examples(
+                self._read_tsv(os.path.join(data_dir, file_name)), "train")
+        if(input_file_type=="csv"):
+            return self._create_examples(
+                self._read_csv(os.path.join(data_dir, file_name)), "train")
+    def get_dev_examples(self, data_dir, input_file_type):
+        if(input_file_type=="tsv"):
+            return self._create_examples(
+                self._read_tsv(os.path.join(data_dir,  "dev.tsv")), "dev")
+        if(input_file_type=="csv"):
+            return self._create_examples(
+                self._read_csv(os.path.join(data_dir,  "devel.tsv")), "dev")
+    def get_test_examples(self, data_dir, file_name="test.tsv", input_file_type):
+        if(input_file_type=="tsv"):
+            return self._create_examples(
+                self._read_tsv(os.path.join(data_dir,  file_name)), "test")
+        if(input_file_type=="csv"):
+            return self._create_examples(
+                self._read_csv(os.path.join(data_dir,  file_name)), "test")
     def get_labels(self):
         label_list = ["Not_a_complex","Complex_formation"]
         label_map = {l: i for i, l in enumerate(label_list)} 
@@ -590,7 +620,9 @@ def main(_):
     task_name = FLAGS.task_name.lower()
     if task_name not in processors:
         raise ValueError("Task not found: %s" % (task_name))
-    
+
+    input_file_type = FLAGS.input_file_type.lower()
+
     tf.io.gfile.makedirs(FLAGS.output_dir)
 
     processor = processors[task_name]()
@@ -813,6 +845,7 @@ def main(_):
 if __name__ == "__main__":
     flags.mark_flag_as_required("data_dir")
     flags.mark_flag_as_required("task_name")
+    flags.mark_flag_as_required("input_file_type")
     flags.mark_flag_as_required("vocab_file")
     flags.mark_flag_as_required("bert_config_file")
     flags.mark_flag_as_required("output_dir")
