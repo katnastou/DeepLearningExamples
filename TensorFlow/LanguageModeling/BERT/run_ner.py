@@ -168,7 +168,7 @@ class DataProcessor(object):
     @classmethod
     def _read_data(cls, input_file):
         """Reads a BIO data."""
-        with tf.io.gfile.Open(input_file, "r") as f:
+        with tf.io.gfile.GFile(input_file, "r") as f:
             lines = []
             words = []
             labels = []
@@ -266,7 +266,7 @@ class CLEFEProcessor(DataProcessor):
 
     @classmethod
     def _read_data2(cls, input_file):
-        with tf.io.gfile.Open(input_file, "r") as f:
+        with tf.io.gfile.GFile(input_file, "r") as f:
             lines = []
             words = []
             labels = []
@@ -300,10 +300,10 @@ class I2b22012Processor(CLEFEProcessor):
 def write_tokens(tokens, labels, mode):
     if mode == "test":
         path = os.path.join(FLAGS.output_dir, "token_" + mode + ".txt")
-        if tf.io.gfile.Exists(path):
-            wf = tf.io.gfile.Open(path, 'a')
+        if tf.gfile.Exists(path):
+            wf = tf.gfile.Open(path, 'a')
         else:
-            wf = tf.io.gfile.Open(path, 'w')
+            wf = tf.gfile.Open(path, 'w')
         for token, label in zip(tokens, labels):
             if token != "**NULL**":
                 wf.write(token + ' ' + str(label) + '\n')
@@ -315,8 +315,8 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
     for (i, label) in enumerate(label_list, 1):
         label_map[label] = i
     label2id_file = os.path.join(FLAGS.output_dir, 'label2id.pkl')
-    if not tf.io.gfile.Exists(label2id_file):
-        with tf.io.gfile.Open(label2id_file, 'wb') as w:
+    if not tf.gfile.Exists(label2id_file):
+        with tf.gfile.Open(label2id_file, 'wb') as w:
             pickle.dump(label_map, w)
     textlist = example.text.split(' ')
     labellist = example.label.split(' ')
@@ -770,7 +770,7 @@ def main(_):
             drop_remainder=eval_drop_remainder)
         result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
         output_eval_file = os.path.join(FLAGS.output_dir, "eval_results.txt")
-        with tf.io.gfile.Open(output_eval_file, "w") as writer:
+        with tf.gfile.Open(output_eval_file, "w") as writer:
             tf.compat.v1.logging.info("***** Eval results *****")
             for key in sorted(result.keys()):
                 tf.compat.v1.logging.info("  %s = %s", key, str(result[key]))
@@ -782,12 +782,12 @@ def main(_):
                                                  FLAGS.max_seq_length, tokenizer,
                                                  predict_file, mode="test")
 
-        with tf.io.gfile.Open(os.path.join(FLAGS.output_dir, 'label2id.pkl'), 'rb') as rf:
+        with tf.gfile.Open(os.path.join(FLAGS.output_dir, 'label2id.pkl'), 'rb') as rf:
             label2id = pickle.load(rf)
             id2label = {value: key for key, value in label2id.items()}
         token_path = os.path.join(FLAGS.output_dir, "token_test.txt")
-        if tf.io.gfile.Exists(token_path):
-            tf.io.gfile.Remove(token_path)
+        if tf.gfile.Exists(token_path):
+            tf.gfile.Remove(token_path)
 
         tf.compat.v1.logging.info("***** Running prediction*****")
         tf.compat.v1.logging.info("  Num examples = %d", len(predict_examples))
@@ -807,9 +807,9 @@ def main(_):
         output_predict_file = os.path.join(FLAGS.output_dir, "label_test.txt")
         test_labels_file = os.path.join(FLAGS.output_dir, "test_labels.txt")
         test_labels_err_file = os.path.join(FLAGS.output_dir, "test_labels_errs.txt")
-        with tf.io.gfile.Open(output_predict_file, 'w') as writer, \
-                tf.io.gfile.Open(test_labels_file, 'w') as tl, \
-                tf.io.gfile.Open(test_labels_err_file, 'w') as tle:
+        with tf.gfile.Open(output_predict_file, 'w') as writer, \
+                tf.gfile.Open(test_labels_file, 'w') as tl, \
+                tf.gfile.Open(test_labels_err_file, 'w') as tle:
             print(id2label)
             i=0
             for prediction in estimator.predict(input_fn=predict_input_fn, hooks=eval_hooks,
@@ -853,11 +853,11 @@ def main(_):
         tf.compat.v1.logging.info("-----------------------------")
 
         tf.compat.v1.logging.info('Reading: %s', test_labels_file)
-        with tf.io.gfile.Open(test_labels_file, "r") as f:
+        with tf.gfile.Open(test_labels_file, "r") as f:
             counts = evaluate(f)
         eval_result = report_notprint(counts)
         print(''.join(eval_result))
-        with tf.io.gfile.Open(os.path.join(FLAGS.output_dir, 'test_results_conlleval.txt'), 'w') as fd:
+        with tf.gfile.Open(os.path.join(FLAGS.output_dir, 'test_results_conlleval.txt'), 'w') as fd:
             fd.write(''.join(eval_result))
 
 

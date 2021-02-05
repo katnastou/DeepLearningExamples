@@ -178,11 +178,11 @@ class InputFeatures(object):
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""
 
-    def get_train_examples(self, data_dir):
+    def get_train_examples(self, data_dir, input_file_type):
         """Gets a collection of `InputExample`s for the train set."""
         raise NotImplementedError()
 
-    def get_dev_examples(self, data_dir):
+    def get_dev_examples(self, data_dir, input_file_type):
         """Gets a collection of `InputExample`s for the dev set."""
         raise NotImplementedError()
 
@@ -201,28 +201,29 @@ class DataProcessor(object):
             return lines
     
     @classmethod
-    def _read_csv(tsv_file_path):
-        tsv_handle = open(tsv_file_path, "rt" , newline='')
-        field_names = ['document_id', 'sentence_id', 'e1_id', 'e2_id', 
+    def _read_csv(cls, tsv_file, quotechar=None):
+        with open(tsv_file, "rt") as tsv_handle:
+            field_names = ['document_id', 'sentence_id', 'e1_id', 'e2_id', 
                         'text_before', 'e1_text', 'text_middle', 
                         'e2_text', 'text_right', 'label']
-        tsv_reader = csv.DictReader(tsv_handle, fieldnames=field_names)
-        lines = []
-        for row in tsv_reader:
-            lines.append(line)
-        return lines
-        tsv_handle.close()
-
+            tsv_reader = csv.reader(tsv_handle, delimiter=",", quotechar='"')
+            #tsv_reader = csv.DictReader(tsv_handle, fieldnames=field_names)
+            lines = []
+            for line in tsv_reader:
+                lines.append(line)
+                print (line)
+            return lines
 
 
 class ConsensusProcessor(DataProcessor):
-    def get_train_examples(self, data_dir, file_name="train.tsv", input_file_type):
+    def get_train_examples(self, data_dir, input_file_type):
         if(input_file_type=="tsv"):
             return self._create_examples(
-                self._read_tsv(os.path.join(data_dir, file_name)), "train")
+                self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
         if(input_file_type=="csv"):
+            data_file=os.path.join(data_dir, "train.tsv")
             return self._create_examples(
-                self._read_csv(os.path.join(data_dir, file_name)), "train")
+                self._read_csv(data_file), "train")
     def get_dev_examples(self, data_dir, input_file_type):
         if(input_file_type=="tsv"):
             return self._create_examples(
@@ -230,13 +231,13 @@ class ConsensusProcessor(DataProcessor):
         if(input_file_type=="csv"):
             return self._create_examples(
                 self._read_csv(os.path.join(data_dir,  "devel.tsv")), "dev")
-    def get_test_examples(self, data_dir, file_name="test.tsv", input_file_type):
+    def get_test_examples(self, data_dir, input_file_type):
         if(input_file_type=="tsv"):
             return self._create_examples(
-                self._read_tsv(os.path.join(data_dir,  file_name)), "test")
+                self._read_tsv(os.path.join(data_dir,  "test.tsv")), "test")
         if(input_file_type=="csv"):
             return self._create_examples(
-                self._read_csv(os.path.join(data_dir,  file_name)), "test")
+                self._read_csv(os.path.join(data_dir,  "test.tsv")), "test")
     def get_labels(self):
         label_list = ["Not_a_complex","Complex_formation"]
         label_map = {l: i for i, l in enumerate(label_list)} 
@@ -247,6 +248,7 @@ class ConsensusProcessor(DataProcessor):
         #the file now has 10 columns
         examples = []
         for (i, line) in enumerate(lines):
+            print (line)
             guid = "%s-%s" % (set_type, i)
             sent_start = tokenization.convert_to_unicode(line[-6])
             entity1 = tokenization.convert_to_unicode(line[-5])
@@ -670,7 +672,7 @@ def main(_):
     training_hooks.append(LogTrainRunHook(global_batch_size, hvd_rank))
     
     if FLAGS.do_train:
-        train_examples = processor.get_train_examples(FLAGS.data_dir)
+        train_examples = processor.get_train_examples(FLAGS.data_dir, FLAGS.input_file_type)
         num_train_steps = int(
             len(train_examples) / global_batch_size * FLAGS.num_train_epochs)
         num_warmup_steps = int(num_train_steps * FLAGS.warmup_proportion)
@@ -739,7 +741,7 @@ def main(_):
           tf.compat.v1.logging.info("-----------------------------")
 
     if FLAGS.do_eval and master_process:
-        eval_examples = processor.get_dev_examples(FLAGS.data_dir)
+        eval_examples = processor.get_dev_examples(FLAGS.data_dir, FLAGS.input_file_type)
         num_actual_eval_examples = len(eval_examples)
         eval_file = os.path.join(FLAGS.output_dir, "eval.tf_record")
         filed_based_convert_examples_to_features(
@@ -767,7 +769,7 @@ def main(_):
                 tf.compat.v1.logging.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
     if FLAGS.do_predict and master_process:
-        predict_examples = processor.get_test_examples(FLAGS.data_dir)
+        predict_examples = processor.get_test_examples(FLAGS.data_dir, FLAGS.input_file_type)
         num_actual_predict_examples = len(predict_examples)
         predict_file = os.path.join(FLAGS.output_dir, "predict.tf_record")
         filed_based_convert_examples_to_features(predict_examples, label_list, label_map,

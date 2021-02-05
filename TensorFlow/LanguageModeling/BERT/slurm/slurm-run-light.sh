@@ -7,7 +7,11 @@
 #SBATCH -t 72:00:00
 #SBATCH --gres=gpu:v100:1
 #SBATCH --ntasks-per-node=1
+<<<<<<< HEAD
 #SBATCH --account=Project_2001426
+=======
+#SBATCH --account=Project_<number>
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 #SBATCH -o logs/%j.out
 #SBATCH -e logs/%j.err
 

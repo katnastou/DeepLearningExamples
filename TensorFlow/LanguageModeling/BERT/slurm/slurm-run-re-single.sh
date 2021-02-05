@@ -8,17 +8,28 @@
 
 # Allocate enough memory.
 #SBATCH --mem=64G
+<<<<<<< HEAD
 #SBATCH -p gputest
 
 # Time limit on Puhti's gpu partition is 3 days.
 #SBATCH -t 00:15:00
+=======
+#SBATCH -p gpu
+
+# Time limit on Puhti's gpu partition is 3 days.
+#SBATCH -t 04:00:00
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 # Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:1
 #SBATCH --ntasks-per-node=1
 
 # Puhti project number
+<<<<<<< HEAD
 #SBATCH --account=Project_2001426
+=======
+#SBATCH --account=Project_<num>
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 # Log file locations, %j corresponds to slurm job id. symlinks didn't work. Will add hard links to directory instead. Now it saves in projappl dir.
 #SBATCH -o logs/%j.out

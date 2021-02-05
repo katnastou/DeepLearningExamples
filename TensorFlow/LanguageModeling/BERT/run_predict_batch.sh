@@ -1,9 +1,16 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 MAX_JOBS=110
 #output-biobert is a symlink to the project output folder
 #mkdir -p output-biobert/predictions/large
 mkdir -p output-biobert/predictions/base_new_week29
+=======
+MAX_JOBS=100
+#output-biobert is a symlink to the project output folder
+mkdir -p output-biobert/predictions/large
+mkdir -p output-biobert/predictions/base_new
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 #large trained model: 2595163/model.ckpt-74483
 #base trained model: 2603931/model.ckpt-74483
@@ -11,18 +18,30 @@ mkdir -p output-biobert/predictions/base_new_week29
 #/scratch/project_2001426/output-biobert/multigpu/2595163/model.ckpt-74483
 
 MODELS="
+<<<<<<< HEAD
 /scratch/project_2001426/katerina/output-biobert/multigpu/2699830/model.ckpt-48828
+=======
+/scratch/project_2001426/output-biobert/multigpu/2699830/model.ckpt-48828
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 "
 
 batch_size="32"
 
+<<<<<<< HEAD
 data_dir="/scratch/project_2001426/stringdata/week_29/split-contexts"
+=======
+data_dir="/scratch/project_2001426/stringdata/week_27/split-contexts"
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 type="consensus" 
 labels_dir="data/biobert/other"
 
 #all files from 00-49
+<<<<<<< HEAD
 NAME="ggp-contexts-w100-[0-9][0-9].tsv"
+=======
+NAME="ggp-contexts-w100-1[0-4].tsv"
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 for dataset in $(ls $data_dir); do
     #if dataset filename is between 00-49
@@ -51,7 +70,11 @@ for dataset in $(ls $data_dir); do
                 config_dir="models/biobert_v1.1_pubmed"
                 while true; do
                 #change to base for base model
+<<<<<<< HEAD
                     jobs=$(ls output-biobert/predictions/base_new_week29 | wc -l)
+=======
+                    jobs=$(ls output-biobert/predictions/base_new | wc -l)
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
                     if [ $jobs -lt $MAX_JOBS ]; then break; fi
                         echo "Too many jobs ($jobs), sleeping ..."
                         sleep 60
@@ -72,9 +95,15 @@ for dataset in $(ls $data_dir); do
             echo "Submitted batch job $job_id"
             #change to base for base model
             if [[ "$model" =~ "2595163" ]]; then touch output-biobert/predictions/large/$job_id; fi
+<<<<<<< HEAD
             sleep 2
             if [[ "$model" =~ "2699830" ]]; then touch output-biobert/predictions/base_new_week29/$job_id; fi
             sleep 2
+=======
+            sleep 5
+            if [[ "$model" =~ "2699830" ]]; then touch output-biobert/predictions/base_new/$job_id; fi
+            sleep 5
+>>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
         done
     fi
 done

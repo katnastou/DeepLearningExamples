@@ -2,8 +2,8 @@
 # Definining resource we want to allocate. We set 8 tasks, 4 tasks over 2 nodes as we have 4 GPUs per node.
 ###SBATCH --nodes=2
 ###SBATCH --ntasks=4
-#SBATCH --nodes=1
-#SBATCH --ntasks=4
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
 
 # 6 CPU cores per task to keep the parallel data feeding going. 
 #SBATCH --cpus-per-task=6
@@ -43,15 +43,15 @@ OUTPUT_DIR="output-biobert/multigpu/$SLURM_JOBID"
 mkdir -p $OUTPUT_DIR
 
 #uncomment to delete output!!!
-function on_exit {
-    rm -rf "$OUTPUT_DIR"
-    rm -f jobs/$SLURM_JOBID
-}
-trap on_exit EXIT
+#function on_exit {
+#    rm -rf "$OUTPUT_DIR"
+#    rm -f jobs/$SLURM_JOBID
+#}
+#trap on_exit EXIT
 
 #check for all parameters
-if [ "$#" -ne 9 ]; then #make 9 if you add label dir
-    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint labels_dir"
+if [ "$#" -ne 10 ]; then #make 10 if you add label dir
+    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint labels_dir input_file_type"
     exit 1
 fi
 #command example from BERT folder in projappl dir:
@@ -69,6 +69,7 @@ EPOCHS="$6"
 TASK=${7:-"consensus"}
 INIT_CKPT=${8:-"models/biobert_large/bert_model.ckpt"}
 LABELS_DIR="$9"
+FILE_TYPE="$10"
 # #fix in case you want to use uncased models
 # #start with this 
 # if [[ $BERT_DIR =~ "uncased" ]]; then
@@ -120,6 +121,7 @@ srun python run_ner_consensus.py \
     --num_train_epochs=$EPOCHS \
     --cased=$cased \
     --labels_dir=$LABELS_DIR \
+    --input_file_type=$FILE_TYPE \
     --use_xla \
     --use_fp16 \
     --horovod
@@ -134,7 +136,6 @@ echo -n 'train_batch_size'$'\t'"$BATCH_SIZE"$'\t'
 echo -n 'learning_rate'$'\t'"$LEARNING_RATE"$'\t'
 echo -n 'num_train_epochs'$'\t'"$EPOCHS"$'\t'
 echo -n 'accuracy'$'\t'"$result"$'\n'
-
 
 gpuseff $SLURM_JOBID
 
