@@ -211,7 +211,7 @@ class DataProcessor(object):
             lines = []
             for line in tsv_reader:
                 lines.append(line)
-                print (line)
+                #print (line)
             return lines
 
 
