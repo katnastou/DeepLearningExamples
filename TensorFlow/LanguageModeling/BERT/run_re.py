@@ -186,7 +186,7 @@ class DataProcessor(object):
     @classmethod
     def _read_tsv(cls, input_file, quotechar=None):
         """Reads a tab separated value file."""
-        with tf.io.gfile.Open(input_file, "r") as f:
+        with tf.gfile.Open(input_file, "r") as f:
             reader = csv.reader(f, delimiter="\t", quotechar=quotechar)
             lines = []
             for line in reader:
@@ -891,7 +891,7 @@ def main(_):
         result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
         output_eval_file = os.path.join(FLAGS.output_dir, "eval_results.txt")
-        with tf.io.gfile.GFile(output_eval_file, "w") as writer:
+        with tf.gfile.GFile(output_eval_file, "w") as writer:
             tf.compat.v1.logging.info("***** Eval results *****")
             for key in sorted(result.keys()):
                 tf.compat.v1.logging.info("  %s = %s", key, str(result[key]))
@@ -925,7 +925,7 @@ def main(_):
 
 
         output_predict_file = os.path.join(FLAGS.output_dir, "test_results.tsv")
-        with tf.io.gfile.GFile(output_predict_file, "w") as writer:
+        with tf.gfile.GFile(output_predict_file, "w") as writer:
             num_written_lines = 0
             tf.compat.v1.logging.info("***** Predict results *****")
             for prediction in estimator.predict(input_fn=predict_input_fn, hooks=eval_hooks,

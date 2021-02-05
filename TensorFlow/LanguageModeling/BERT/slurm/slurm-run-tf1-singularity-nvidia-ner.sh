@@ -107,8 +107,8 @@ srun singularity exec --nv --bind /projappl:/projappl --bind /scratch:/scratch \
     --num_train_epochs=$EPOCHS \
     --use_fp16 \
     --use_xla \
-    --cased=$cased ##\
-##    --horovod
+    --cased=$cased \
+    --horovod
 
 
 

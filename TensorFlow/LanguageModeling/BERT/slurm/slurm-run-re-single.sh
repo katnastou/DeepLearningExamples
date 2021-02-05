@@ -8,10 +8,12 @@
 
 # Allocate enough memory.
 #SBATCH --mem=64G
-#SBATCH -p gputest
-
+###SBATCH -p gputest
 # Time limit on Puhti's gpu partition is 3 days.
-#SBATCH -t 00:15:00
+###SBATCH -t 00:15:00
+#SBATCH -p gpu
+# Time limit on Puhti's gpu partition is 3 days.
+#SBATCH -t 04:00:00
 
 # Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:1

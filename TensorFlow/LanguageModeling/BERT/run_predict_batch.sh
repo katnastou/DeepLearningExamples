@@ -22,7 +22,7 @@ type="consensus"
 labels_dir="data/biobert/other"
 
 #all files from 00-49
-NAME="ggp-contexts-w100-[0-9][0-9].tsv"
+NAME="ggp-contexts-w100-1[0-4].tsv"
 
 for dataset in $(ls $data_dir); do
     #if dataset filename is between 00-49
@@ -72,9 +72,9 @@ for dataset in $(ls $data_dir); do
             echo "Submitted batch job $job_id"
             #change to base for base model
             if [[ "$model" =~ "2595163" ]]; then touch output-biobert/predictions/large/$job_id; fi
-            sleep 2
-            if [[ "$model" =~ "2699830" ]]; then touch output-biobert/predictions/base_new_week29/$job_id; fi
-            sleep 2
+            sleep 5
+            if [[ "$model" =~ "2699830" ]]; then touch output-biobert/predictions/base_new/$job_id; fi
+            sleep 5
         done
     fi
 done

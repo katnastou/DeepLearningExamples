@@ -1,7 +1,7 @@
 #!/bin/bash
 # Definining resource we want to allocate. We set 8 tasks, 4 tasks over 2 nodes as we have 4 GPUs per node.
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
+#SBATCH --nodes=2
+#SBATCH --ntasks=8
 
 # 6 CPU cores per task to keep the parallel data feeding going. 
 #SBATCH --cpus-per-task=6
@@ -14,8 +14,8 @@
 #SBATCH -t 06:00:00
 
 # Allocate 4 GPUs on each node.
-#SBATCH --gres=gpu:v100:1
-#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:v100:4
+#SBATCH --ntasks-per-node=4
 
 # Puhti project number
 #SBATCH --account=Project_2001426

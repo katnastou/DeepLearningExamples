@@ -8,11 +8,11 @@
 
 # Allocate enough memory.
 #SBATCH --mem=100G
-#SBATCH -p gpu
-
+###SBATCH -p gpu
+#SBATCH -p gputest
 # Time limit on Puhti's gpu partition is 3 days.
-#SBATCH -t 06:00:00
-
+###SBATCH -t 06:00:00
+#SBATCH -t 00:15:00
 # Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:1
 #SBATCH --ntasks-per-node=1
@@ -45,8 +45,8 @@ mkdir -p $OUTPUT_DIR
 #trap on_exit EXIT
 
 #check for all parameters
-if [ "$#" -ne 8 ]; then
-    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint"
+if [ "$#" -ne 9 ]; then
+    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint input_file_type"
     exit 1
 fi
 #command example from BERT folder in projappl dir:
@@ -63,6 +63,7 @@ LEARNING_RATE="$5"
 EPOCHS="$6"
 TASK=${7:-"consensus"}
 INIT_CKPT=${8:-"models/biobert_large/bert_model.ckpt"}
+FILE_TYPE="$9"
 
 # #fix in case you want to use uncased models
 # #start with this 
@@ -112,6 +113,7 @@ srun python run_re_masked_consensus.py \
     --max_seq_length=$MAX_SEQ_LENGTH \
     --learning_rate=$LEARNING_RATE \
     --num_train_epochs=$EPOCHS \
+    --input_file_type=$FILE_TYPE \
     --use_fp16 \
     --use_xla \
     --horovod \
@@ -127,5 +129,12 @@ echo -n 'train_batch_size'$'\t'"$BATCH_SIZE"$'\t'
 echo -n 'learning_rate'$'\t'"$LEARNING_RATE"$'\t'
 echo -n 'num_train_epochs'$'\t'"$EPOCHS"$'\t'
 echo -n 'accuracy'$'\t'"$result"$'\n'
+
+paste <(paste ${DATASET_DIR}"/test.tsv" ${OUTPUT_DIR}"/test_output_labels.txt") ${OUTPUT_DIR}"/test_results.tsv" | awk -F'\t' '{printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t\'\{\''Not_a_complex'\'': %s'\,' '\''Complex_formation'\'': %s'\}'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10)}' > ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv"; 
+
+#remove everything up to last - 
+#cp ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv" "/scratch/project_2001426/stringdata/week_50/tokenization/output_with_probabilities_tokenization_orgs_all.tsv"
+
+#echo -n 'result written in /scratch/project_2001426/stringdata/week_31_2/species/org-predictions'$'\n'
 
 seff $SLURM_JOBID

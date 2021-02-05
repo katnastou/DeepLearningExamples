@@ -557,7 +557,7 @@ def main(_):
 
     config = tf.compat.v1.ConfigProto()
     #didn't work
-    config.gpu_options.allow_growth = True
+    #config.gpu_options.allow_growth = True
     if FLAGS.horovod:
       global_batch_size = FLAGS.train_batch_size * hvd.size()
       master_process = (hvd.rank() == 0)
