@@ -1,18 +1,12 @@
 #!/bin/bash
 # Definining resource we want to allocate. We set 8 tasks, 4 tasks over 2 nodes as we have 4 GPUs per node.
-<<<<<<< HEAD
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-=======
 #SBATCH --nodes=2
 #SBATCH --ntasks=8
->>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 # 6 CPU cores per task to keep the parallel data feeding going. 
 #SBATCH --cpus-per-task=6
 
 # Allocate enough memory.
-<<<<<<< HEAD
 #SBATCH --mem=100G
 #SBATCH -p gpu
 
@@ -20,25 +14,11 @@
 #SBATCH -t 06:00:00
 
 # Allocate 4 GPUs on each node.
-#SBATCH --gres=gpu:v100:1
-#SBATCH --ntasks-per-node=1
-
-# Puhti project number
-#SBATCH --account=Project_2001426
-=======
-#SBATCH --mem=32G
-#SBATCH -p gputest
-
-# Time limit on Puhti's gpu partition is 3 days.
-#SBATCH -t 00:15:00
-
-# Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:4
 #SBATCH --ntasks-per-node=4
 
 # Puhti project number
-#SBATCH --account=Project_<num>
->>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
+#SBATCH --account=Project_2001426
 
 # Log file locations, %j corresponds to slurm job id. symlinks didn't work. Will add hard links to directory instead. Now it saves in projappl dir.
 #SBATCH -o logs/%j.out
@@ -57,20 +37,12 @@ OUTPUT_DIR="output-biobert/multigpu/$SLURM_JOBID"
 mkdir -p $OUTPUT_DIR
 
 #uncomment to delete output!!!
-<<<<<<< HEAD
 
 #function on_exit {
 #    rm -rf "$OUTPUT_DIR"
 #    rm -f jobs/$SLURM_JOBID
 #}
 #trap on_exit EXIT
-=======
-function on_exit {
-    rm -rf "$OUTPUT_DIR"
-    rm -f jobs/$SLURM_JOBID
-}
-trap on_exit EXIT
->>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
 
 #check for all parameters
 if [ "$#" -ne 8 ]; then
@@ -122,19 +94,11 @@ export NCCL_DEBUG=INFO
 #export OMP_PROC_BIND=true
 echo "START $SLURM_JOBID: $(date)"
 
-<<<<<<< HEAD
 srun python run_re_masked_consensus.py \
     --do_prepare=true \
     --do_train=true \
     --do_eval=true \
     --do_predict=true \
-=======
-srun python run_re_consensus.py \
-    --do_prepare=true \
-    --do_train=true \
-    --do_eval=true \
-    --do_predict=false \
->>>>>>> c28b7e16874bafb19144c4d22b217fa428281796
     --replace_span_A="[unused1]" \
     --replace_span_B="[unused2]" \
     --task_name=$TASK \
