@@ -1,0 +1,26 @@
+T1	Protein 24 29	Hsp90
+T2	Protein 594 599	Hsp90
+T3	Protein 762 767	Hsp90
+T4	Protein 897 902	Hsp90
+T5	Protein 1018 1023	Hsp90
+T6	Protein 56 74	DNA polymerase eta
+R1	Regulation Arg1:T1 Arg2:T6	
+T7	Protein 130 148	DNA polymerase eta
+T8	Protein 150 157	Pol eta
+*	Equiv T7 T8
+T9	Protein 297 304	Pol eta
+T10	Protein 406 410	PCNA
+R2	Complex_formation Arg1:T9 Arg2:T10	
+T11	Protein 487 494	Pol eta
+T12	Protein 659 666	Pol eta
+T13	Protein 733 737	PCNA
+R3	Regulation Arg1:T2 Arg2:T12	
+R4	Complex_formation Arg1:T12 Arg2:T13	
+T14	Protein 795 802	Pol eta
+T15	Protein 832 836	PCNA
+R5	Regulation Arg1:T3 Arg2:T14	
+T16	Protein 971 978	Pol eta
+T17	Protein 1053 1060	Pol eta
+R6	Regulation Arg1:T5 Arg2:T17	
+T18	Protein 842 851	ubiquitin
+A1	Blacklisted T18

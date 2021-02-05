@@ -1,0 +1,83 @@
+T1	Protein 91 98	TAFII80
+T2	Protein 119 126	TAFII80
+T3	OOS 374 383	activator
+T5	Protein 571 578	TAFII80
+T6	Protein 633 640	TAFII80
+T7	Protein 657 665	TAFII250
+T8	Protein 676 683	TAFII20
+T9	Protein 707 714	TAFII55
+T10	Protein 743 750	TAFII80
+T11	Protein 767 778	TFIIE alpha
+T12	Protein 788 799	TFIIF alpha
+T13	Protein 801 806	RAP74
+T14	Protein 821 826	TFIIB
+T15	Protein 828 838	TFIIE beta
+T16	Protein 843 853	TFIIF beta
+T17	Protein 855 860	RAP30
+T18	Protein 884 891	TAFII80
+T19	Protein 991 998	TAFII80
+T20	Protein 1011 1018	TAFII60
+T21	Protein 1030 1037	TAFII60
+T22	Protein 1057 1064	TAFII80
+T23	Protein 1114 1121	TAFII20
+T24	Protein 1201 1209	TAFII250
+T25	Protein 1214 1225	TFIIF alpha
+T26	Protein 1227 1232	RAP74
+T27	Protein 1270 1281	TFIIE alpha
+T28	Protein 1327 1334	TAFII80
+T29	Protein 1355 1366	TFIIE alpha
+T30	Protein 1371 1382	TFIIF alpha
+T31	Protein 1384 1389	RAP74
+T33	Protein 1555 1558	H2B
+T34	Protein 79 86	TAFII31
+T35	Family 138 142	TAFs
+T36	Complex 222 227	TFIID
+T37	Family 318 322	TAFs
+T38	Family 294 316	TBP-associated factors
+*	Equiv T37 T38
+T39	Complex 465 470	TFIID
+#1	AnnotatorNotes T3	tagged by tagger
+T40	Family 487 490	TAF
+T4	Protein 583 590	TAFII31
+T41	Protein 667 674	TAFII31
+T42	Protein 689 692	TBP
+T43	Protein 247 271	TATA-binding polypeptide
+T44	Protein 273 276	TBP
+*	Equiv T44 T43
+*	Equiv T13 T12
+*	Equiv T17 T16
+T45	Protein 1102 1109	TAFII31
+*	Equiv T26 T25
+T46	Protein 1262 1265	TBP
+*	Equiv T31 T30
+T32	Protein 1484 1491	TAFs 80
+T47	Protein 1493 1495	31
+T48	Protein 1501 1503	20
+T49	Protein 1534 1545	histones H4
+T50	Protein 1547 1549	H3
+T51	Family 1614 1618	TAFs
+T52	Complex 1660 1665	TFIID
+T53	Family 1429 1433	GTFs
+R1	Complex_formation Arg1:T2 Arg2:T35	
+R2	Complex_formation Arg1:T6 Arg2:T7	
+R3	Complex_formation Arg1:T6 Arg2:T41	
+R4	Complex_formation Arg1:T6 Arg2:T8	
+R5	Complex_formation Arg1:T6 Arg2:T42	
+R6	Out-of-scope Arg1:T6 Arg2:T9	
+#5	AnnotatorNotes R6	Negated
+R7	Complex_formation Arg1:T10 Arg2:T11	
+R8	Complex_formation Arg1:T10 Arg2:T12	
+R9	Out-of-scope Arg1:T10 Arg2:T14	
+#6	AnnotatorNotes R9	Negated
+R10	Out-of-scope Arg1:T10 Arg2:T15	
+#7	AnnotatorNotes R10	Negated
+R11	Out-of-scope Arg1:T10 Arg2:T16	
+#8	AnnotatorNotes R11	Negated
+R12	Complex_formation Arg1:T22 Arg2:T45	
+R13	Complex_formation Arg1:T22 Arg2:T23	
+R14	Complex_formation Arg1:T22 Arg2:T24	
+R15	Complex_formation Arg1:T22 Arg2:T25	
+R16	Complex_formation Arg1:T22 Arg2:T46	
+R17	Complex_formation Arg1:T22 Arg2:T27	
+R18	Complex_formation Arg1:T28 Arg2:T29	
+R19	Complex_formation Arg1:T28 Arg2:T30	

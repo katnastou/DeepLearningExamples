@@ -1,0 +1,61 @@
+T1	Protein 10 14	Sox2
+T2	Protein 45 49	VRK1
+T3	Protein 98 102	Sox2
+T4	Protein 292 296	VRK1
+T5	Protein 347 351	Sox2
+T6	Protein 353 358	Sox 2
+T7	Protein 363 367	VRK1
+T8	Protein 438 442	Sox2
+T9	Protein 463 467	VRK1
+T10	Protein 505 509	Sox2
+T11	Protein 513 517	VRK1
+T12	Protein 560 564	Sox2
+T13	Protein 578 582	VRK1
+T14	Protein 643 648	CCND1
+T15	Protein 670 674	VRK1
+T16	Protein 697 701	SOX2
+T17	Protein 861 865	Sox2
+T18	Protein 870 874	VRK1
+T19	Protein 956 966	N-cadherin
+T20	Protein 968 972	Pax6
+T21	Protein 974 979	mH2A1
+T22	Protein 1026 1040	histones mH2A1
+T23	Protein 1060 1065	CCND1
+T24	Protein 1070 1074	VRK1
+T25	Protein 1123 1127	VRK1
+T26	Protein 1140 1144	Sox2
+T27	Protein 1146 1150	VRK1
+T28	Protein 1177 1181	Sox2
+R1	Regulation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T6 Arg2:T7	
+R3	Regulation Arg1:T8 Arg2:T9	
+R4	Regulation_of_gene_expression Arg1:T12 Arg2:T13	
+R5	Positive_regulation Arg1:T12 Arg2:T13	
+R6	Positive_regulation Arg1:T13 Arg2:T14	
+R7	Positive_regulation Arg1:T12 Arg2:T14	
+R8	Negative_regulation Arg1:T15 Arg2:T16	
+R9	Regulation_of_transcription Arg1:T15 Arg2:T16	
+T29	Protein 986 991	mH2A2
+R10	Regulation Arg1:T17 Arg2:T19	
+R11	Regulation Arg1:T17 Arg2:T20	
+R12	Regulation Arg1:T17 Arg2:T21	
+R13	Regulation Arg1:T17 Arg2:T29	
+R14	Regulation Arg1:T18 Arg2:T19	
+R15	Regulation Arg1:T18 Arg2:T20	
+R16	Regulation Arg1:T18 Arg2:T21	
+R17	Regulation Arg1:T18 Arg2:T29	
+T30	Protein 1046 1051	mH2A2
+R18	Negative_regulation Arg1:T30 Arg2:T23	
+R19	Negative_regulation Arg1:T22 Arg2:T24	
+R20	Regulation_of_gene_expression Arg1:T30 Arg2:T23	
+R21	Regulation_of_gene_expression Arg1:T30 Arg2:T24	
+R22	Negative_regulation Arg1:T30 Arg2:T24	
+R23	Negative_regulation Arg1:T22 Arg2:T23	
+R24	Regulation_of_gene_expression Arg1:T22 Arg2:T23	
+R25	Regulation_of_gene_expression Arg1:T22 Arg2:T24	
+R26	Regulation Arg1:T28 Arg2:T27	
+R27	Regulation Arg1:T30 Arg2:T26	
+R28	Regulation Arg1:T22 Arg2:T26	
+R29	Regulation_of_transcription Arg1:T26 Arg2:T25	
+R30	Positive_regulation Arg1:T26 Arg2:T25	
+#1	AnnotatorNotes T22	1.2 is stuck with and :/

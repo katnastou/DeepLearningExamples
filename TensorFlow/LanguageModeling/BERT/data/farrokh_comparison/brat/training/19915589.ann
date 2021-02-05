@@ -1,0 +1,26 @@
+T1	Protein 87 91	PP2A
+T2	Protein 365 369	PP2A
+T3	Protein 530 534	PP2A
+T4	Protein 661 665	PP2A
+T5	Protein 792 796	PP2A
+T7	Protein 844 849	KIF4a
+T8	Protein 915 919	PP2A
+T9	Protein 983 987	PP2A
+T10	Protein 31 43	condensin II
+R1	Regulation Arg1:T1 Arg2:T10	
+T11	Protein 154 165	condensin I
+T12	Protein 170 182	condensin II
+T13	Protein 341 363	protein phosphatase 2A
+*	Equiv T13 T2
+T14	Protein 393 405	condensin II
+R2	Complex_formation Arg1:T2 Arg2:T14	
+T15	Protein 604 616	condensin II
+R3	Complex_formation Arg1:T3 Arg2:T15	
+R4	Regulation Arg1:T8 Arg2:T7	
+T6	Protein 414 425	condensin I
+T16	Protein 464 476	condensin II
+T17	Chemical 683 695	okadaic acid
+R5	Regulation Arg1:T17 Arg2:T4	
+T18	Chemical 708 718	fostriecin
+R6	Regulation Arg1:T17 Arg2:T5	
+R7	Regulation Arg1:T18 Arg2:T5	

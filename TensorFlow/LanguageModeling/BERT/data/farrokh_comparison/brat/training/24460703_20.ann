@@ -1,0 +1,26 @@
+T1	Protein 0 4	Mid2
+T2	Protein 50 54	Apm4
+T3	Protein 110 114	Apm4
+T4	Protein 130 134	Apm4
+T5	Protein 220 224	Mid2
+T6	Protein 330 334	Mid2
+T7	Protein 336 340	Mid2
+T8	Protein 440 444	Mid2
+T9	Protein 449 453	Mid2
+T10	Protein 520 524	Apm4
+T11	Protein 78 81	GST
+#1	AnnotatorNotes T11	reporter
+T12	Protein 89 92	GST
+#2	AnnotatorNotes T12	not tagged by tagger
+T13	Protein 119 122	GST
+#3	AnnotatorNotes T13	not tagged by tagger
+T14	Protein 454 457	GFP
+#4	AnnotatorNotes T14	not tagged by tagger
+A1	Fusion T12
+A2	Fusion T13
+A3	Fusion T14
+A4	Fusion T3
+A5	Fusion T4
+A6	Fusion T9
+A7	Mutant T4
+R1	Complex_formation Arg1:T1 Arg2:T2	

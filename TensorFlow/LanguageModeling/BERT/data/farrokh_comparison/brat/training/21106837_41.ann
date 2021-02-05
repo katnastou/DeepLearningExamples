@@ -1,0 +1,30 @@
+T1	Protein 36 45	KIF5B-YFP
+T3	Protein 178 184	Kv3.1b
+T4	Protein 323 328	Kv3.1
+T5	Protein 470 479	KIF5B-YFP
+T6	Protein 521 530	KIF5B-YFP
+T7	Protein 547 552	Kv3.1
+T8	Protein 708 717	KIF5B-YFP
+T10	Protein 796 805	KIF5B-YFP
+T12	Protein 843 848	Kv3.1
+T13	Protein 1077 1081	KIF5
+T14	Protein 1092 1097	Kv3.1
+R1	Complex_formation Arg1:T14 Arg2:T13	
+T15	Chemical 352 356	Zn2+
+A1	Mutant T3
+A2	Mutant T4
+A3	Mutant T7
+A6	Mutant T12
+T16	Protein 670 672	T1
+A7	Mutant T16
+#1	AnnotatorNotes T3	not tagged by tagger
+T17	Protein 68 76	Kv3.1aHA
+A8	Mutant T17
+#2	AnnotatorNotes T17	not tagged by tagger
+T18	Protein 736 744	Kv3.1bHA
+A9	Mutant T18
+#3	AnnotatorNotes T18	not tagged by tagger
+T19	Protein 825 833	Kv3.1aHA
+A10	Mutant T19
+#4	AnnotatorNotes T19	not tagged by tagger
+#5	AnnotatorNotes T16	not tagged by tagger

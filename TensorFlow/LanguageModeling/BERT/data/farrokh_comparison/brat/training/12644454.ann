@@ -1,0 +1,24 @@
+T1	Protein 76 80	Npl4
+T2	Protein 358 362	Npl4
+T3	Protein 378 384	RanBP2
+T4	Protein 385 391	Nup358
+T6	Protein 418 422	Npl4
+T8	Protein 653 657	Npl4
+T5	Protein 14 23	ubiquitin
+R1	Complex_formation Arg1:T5 Arg2:T1	
+T7	Protein 306 315	ubiquitin
+R2	Out-of-scope Arg1:T7 Arg2:T2	
+T9	Protein 702 711	ubiquitin
+R3	Complex_formation Arg1:T8 Arg2:T9	
+T11	Protein 788 797	ubiquitin
+T10	Protein 960 969	ubiquitin
+T12	Protein 237 246	ubiquitin
+#1	AnnotatorNotes R2	binds to domain?
+*	Equiv T4 T3
+R4	Out-of-scope Arg1:T7 Arg2:T3	
+A1	Blacklisted T5
+A2	Blacklisted T12
+A3	Blacklisted T7
+A4	Blacklisted T9
+A5	Blacklisted T11
+A6	Blacklisted T10

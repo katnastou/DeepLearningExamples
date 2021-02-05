@@ -1,0 +1,134 @@
+T1	Protein 25 29	ROM2
+T2	Protein 69 73	Dhh1
+T4	Protein 507 511	Khd1
+T5	Protein 542 546	Khd1
+T6	Protein 570 574	Rho1
+T7	Protein 639 643	ROM2
+T8	Protein 758 762	Rho1
+T9	Protein 888 892	DHH1
+T10	Protein 909 930	DEAD box RNA helicase
+T11	Protein 994 998	ROM2
+T12	Protein 1028 1032	ROM2
+T13	Protein 1048 1052	Rom2
+T14	Protein 1405 1409	Dhh1
+T15	Protein 1419 1423	ROM2
+T16	Protein 1451 1455	Khd1
+T17	Protein 1486 1490	Dhh1
+T18	Protein 1498 1502	Rho1
+T20	Protein 1601 1605	Rom2
+T22	Protein 1670 1674	Dhh1
+T23	Protein 1717 1721	Rho1
+T24	Protein 1734 1738	Rom2
+T25	Protein 1767 1771	Rho1
+T26	Protein 1872 1876	Dhh1
+T27	Protein 1933 1937	Rho1
+T28	Protein 34 38	LRG1
+T29	Protein 53 57	Ccr4
+T30	Protein 59 63	Pop2
+T31	Protein 136 140	Ccr4
+T32	Protein 161 165	Ccr4
+T3	Protein 166 169	Not
+T33	Protein 356 360	Ccr4
+T34	Protein 389 393	Ccr4
+T35	Protein 394 397	Not
+T36	Protein 459 463	Ccr4
+T37	Protein 533 537	Ccr4
+T38	Protein 653 657	LRG1
+T39	Protein 722 747	GTPase-activating protein
+T40	Protein 749 752	GAP
+*	Equiv T40 T39 T38
+T41	Protein 675 709	guanine nucleotide exchange factor
+T42	Protein 711 714	GEF
+*	Equiv T41 T42 T7
+T43	Protein 827 831	POP2
+T44	Protein 863 867	Ccr4
+T45	Protein 868 871	Not
+T46	Protein 956 960	Ccr4
+T47	Protein 961 964	Not
+T48	Protein 1003 1007	LRG1
+T49	Protein 1115 1119	LRG1
+T50	Protein 1345 1349	LRG1
+T51	Protein 1377 1381	Ccr4
+T52	Protein 1396 1400	Pop2
+T53	Protein 1460 1464	Ccr4
+T54	Protein 1477 1481	Pop2
+T55	Protein 1592 1600	Rho1-GEF
+T56	Protein 1610 1618	Rho1-GAP
+T57	Protein 1619 1623	Lrg1
+T58	Protein 1654 1658	Ccr4
+T59	Protein 1660 1664	Pop2
+T60	Protein 1743 1747	Lrg1
+T61	Protein 1856 1860	Ccr4
+T62	Protein 1862 1866	Pop2
+T63	Protein 2066 2070	Ccr4
+T64	Protein 2071 2074	Not
+T65	Protein 2183 2187	Ccr4
+T66	Protein 2188 2191	Not
+R1	Regulation_of_gene_expression Arg1:T29 Arg2:T1	
+R2	Regulation_of_gene_expression Arg1:T29 Arg2:T28	
+R3	Regulation_of_gene_expression Arg1:T30 Arg2:T1	
+R4	Regulation_of_gene_expression Arg1:T30 Arg2:T28	
+R5	Regulation_of_gene_expression Arg1:T2 Arg2:T1	
+R6	Regulation_of_gene_expression Arg1:T2 Arg2:T28	
+R7	Complex_formation Arg1:T32 Arg2:T3	
+R8	Complex_formation Arg1:T34 Arg2:T35	
+R9	Out-of-scope Arg1:T4 Arg2:T36	
+R10	Regulation Arg1:T6 Arg2:T5	
+R11	Regulation Arg1:T6 Arg2:T37	
+R12	Regulation_of_transcription Arg1:T5 Arg2:T7	
+R13	Regulation_of_transcription Arg1:T5 Arg2:T38	
+R14	Regulation_of_transcription Arg1:T37 Arg2:T7	
+R15	Regulation_of_transcription Arg1:T37 Arg2:T38	
+R16	Regulation Arg1:T40 Arg2:T8	
+R17	Regulation Arg1:T42 Arg2:T8	
+R18	Complex_formation Arg1:T45 Arg2:T44	
+R19	Complex_formation Arg1:T43 Arg2:T44	
+R20	Complex_formation Arg1:T43 Arg2:T45	
+*	Equiv T9 T10
+R21	Complex_formation Arg1:T46 Arg2:T47	
+R22	Complex_formation Arg1:T10 Arg2:T46	
+R23	Complex_formation Arg1:T10 Arg2:T47	
+T67	Protein 1078 1087	pop2Delta
+T68	Protein 1091 1100	dhh1Delta
+T69	Protein 1148 1157	pop2Delta
+T70	Protein 1162 1171	dhh1Delta
+T71	Protein 1196 1205	ccr4Delta
+T72	Protein 1247 1256	pop2Delta
+T73	Protein 1261 1270	dhh1Delta
+T74	Protein 1300 1309	lrg1Delta
+R24	Regulation_of_gene_expression Arg1:T51 Arg2:T50	
+R25	Regulation_of_gene_expression Arg1:T52 Arg2:T50	
+R26	Regulation_of_gene_expression Arg1:T14 Arg2:T50	
+R27	Regulation_of_gene_expression Arg1:T16 Arg2:T15	
+R28	Regulation_of_gene_expression Arg1:T53 Arg2:T15	
+*	Equiv T55 T20
+*	Equiv T57 T56
+R29	Positive_regulation Arg1:T20 Arg2:T18	
+R30	Positive_regulation Arg1:T57 Arg2:T18	
+R31	Regulation Arg1:T24 Arg2:T23	
+R32	Regulation Arg1:T60 Arg2:T23	
+R33	Regulation_of_transcription Arg1:T22 Arg2:T24	
+R34	Regulation_of_transcription Arg1:T22 Arg2:T60	
+R35	Regulation_of_transcription Arg1:T59 Arg2:T24	
+R36	Regulation_of_transcription Arg1:T59 Arg2:T60	
+R37	Regulation_of_transcription Arg1:T58 Arg2:T24	
+R38	Regulation_of_transcription Arg1:T58 Arg2:T60	
+R39	Regulation Arg1:T26 Arg2:T27	
+R40	Regulation Arg1:T62 Arg2:T27	
+R41	Regulation Arg1:T61 Arg2:T27	
+R42	Complex_formation Arg1:T63 Arg2:T64	
+R43	Complex_formation Arg1:T65 Arg2:T66	
+T19	OOS 106 133	Cell Wall Integrity Pathway
+T21	OOS 235 268	cell wall integrity (CWI) pathway
+T75	OOS 419 430	CWI pathway
+T76	OOS 481 492	CWI pathway
+T77	OOS 595 606	CWI pathway
+A1	Mutant T68
+A2	Mutant T67
+A3	Mutant T69
+A4	Mutant T70
+A5	Mutant T71
+A6	Mutant T72
+A7	Mutant T73
+A8	Mutant T74
+T78	OOS 1519 1530	CWI pathway

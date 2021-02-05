@@ -1,0 +1,21 @@
+T1	Protein 26 39	chondrolectin
+T2	Protein 114 127	chondrolectin
+T3	Protein 129 134	chodl
+T4	Protein 376 381	Chodl
+T5	Protein 414 427	chondrolectin
+T6	Protein 429 434	CHODL
+T7	Protein 576 581	CHODL
+T8	Protein 599 604	CHODL
+T9	Protein 612 617	CHODL
+T10	Protein 633 638	CHODL
+T11	Protein 706 719	chondrolectin
+T12	Protein 877 882	chodl
+T13	Protein 1003 1010	Rabggtb
+T14	Protein 1117 1122	chodl
+T15	Protein 75 105	Rab geranylgeranyl transferase
+R1	Complex_formation Arg1:T1 Arg2:T15	
+*	Equiv T2 T3
+*	Equiv T5 T6
+T16	Protein 971 1001	Rab geranylgeranyl transferase
+*	Equiv T16 T13
+R2	Complex_formation Arg1:T13 Arg2:T14	

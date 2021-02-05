@@ -1,0 +1,27 @@
+T1	Protein 4 39	FKBP12-rapamycin-associated protein
+T2	Protein 52 60	CLIP-170
+T3	Protein 70 78	CLIP-170
+T4	Protein 79 85	Restin
+T5	Protein 212 220	CLIP-170
+T6	Protein 299 307	CLIP-170
+T7	Protein 399 434	FKBP12-rapamycin-associated protein
+T8	Protein 480 488	CLIP-170
+T9	Protein 490 498	CLIP-170
+T10	Protein 719 727	CLIP-170
+T11	Protein 783 791	CLIP-170
+T12	Protein 849 857	CLIP-170
+T13	Protein 873 881	CLIP-170
+T14	Protein 938 946	CLIP-170
+T15	Protein 41 45	FRAP
+*	Equiv T1 T15
+R1	Catalysis_of_phosphorylation Arg1:T15 Arg2:T2	
+*	Equiv T3 T4
+T16	Protein 436 440	FRAP
+T17	Protein 454 463	mTOR/RAFT
+*	Equiv T7 T16 T17
+R2	Complex_formation Arg1:T17 Arg2:T8	
+T18	Protein 623 627	FRAP
+R3	Catalysis_of_phosphorylation Arg1:T18 Arg2:T9	
+T19	Protein 863 867	FRAP
+R6	Catalysis_of_phosphorylation Arg1:T19 Arg2:T13	
+R4	Positive_regulation Arg1:T19 Arg2:T14	

@@ -1,0 +1,20 @@
+T1	Protein 398 408	Atlastin 1
+T2	Protein 410 414	ATL1
+T3	Protein 478 489	reticulon 2
+T4	Protein 491 495	RTN2
+T5	Protein 740 750	atlastin 1
+T6	Protein 772 777	Rtnl1
+T7	Family 892 918	bone morphogenetic protein
+T8	Protein 430 435	SPG3A
+*	Equiv T8 T2 T1
+*	Equiv T4 T3 T9
+T9	Protein 511 516	SPG12
+T10	Protein 760 763	atl
+A1	Mutant T10
+T11	Protein 765 768	atl
+A2	Mutant T11
+T12	Protein 879 882	Atl
+T13	Family 920 923	BMP
+*	Equiv T13 T7
+T14	OOS 892 934	bone morphogenetic protein (BMP) signaling
+T15	Family 1146 1149	BMP

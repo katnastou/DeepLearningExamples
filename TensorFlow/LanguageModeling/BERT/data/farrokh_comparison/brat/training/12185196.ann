@@ -1,0 +1,30 @@
+T1	Protein 48 57	nucleolin
+T2	Protein 199 208	nucleolin
+T3	Protein 350 359	nucleolin
+T4	Protein 601 610	nucleolin
+T5	Protein 726 735	nucleolin
+T6	Protein 778 787	nucleolin
+T7	Protein 899 908	nucleolin
+T8	Protein 1204 1213	nucleolin
+T9	Protein 1265 1274	nucleolin
+T10	Protein 15 42	protein phosphatase 1 delta
+T11	Protein 143 175	protein phosphatase type 1 delta
+T12	Protein 177 185	PP1delta
+*	Equiv T12 T11
+#1	AnnotatorNotes T3	antibody
+T13	Protein 588 596	PP1delta
+T14	Protein 713 721	PP1delta
+#2	AnnotatorNotes T6	antibody
+T15	Protein 797 805	PP1delta
+#3	AnnotatorNotes T15	antibody
+T16	Chemical 825 838	actinomycin D
+T17	Protein 886 894	PP1delta
+T18	Protein 936 944	PP1delta
+T19	Chemical 966 979	actinomycin D
+T20	Chemical 1041 1054	actinomycin D
+T21	Chemical 1122 1135	actinomycin D
+T22	Protein 1175 1183	PP1delta
+T23	Protein 1313 1321	PP1delta
+R1	Complex_formation Arg1:T10 Arg2:T1	
+R2	Complex_formation Arg1:T14 Arg2:T5	
+R3	Complex_formation Arg1:T22 Arg2:T8	

@@ -1,0 +1,73 @@
+T1	Protein 383 388	Smad4
+T2	Protein 389 394	Smad2
+T3	Protein 401 407	TRIM33
+T4	Protein 408 413	Smad2
+T5	Protein 453 459	TRIM33
+T6	Protein 483 489	TRIM33
+T7	Protein 490 495	Smad2
+T8	Protein 572 577	Mixl1
+T9	Protein 628 638	histone H3
+T10	Protein 747 753	TRIM33
+T11	Protein 754 759	Smad2
+T12	Protein 816 824	HP1gamma
+T13	Protein 871 876	Smad4
+T14	Protein 877 882	Smad2
+T15	Protein 918 923	Smad4
+T16	Protein 961 967	TRIM33
+T17	Protein 968 973	Smad2
+T18	Protein 32 40	TGF-beta
+T19	Protein 218 226	TGF-beta
+T21	Protein 395 396	3
+T22	Protein 414 415	3
+R1	Complex_formation Arg1:T4 Arg2:T22	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+R3	Complex_formation Arg1:T3 Arg2:T22	
+R4	Complex_formation Arg1:T2 Arg2:T21	
+R5	Complex_formation Arg1:T1 Arg2:T2	
+R6	Complex_formation Arg1:T1 Arg2:T21	
+T23	Protein 496 497	3
+T24	Protein 501 508	H3K9me3
+T25	Protein 513 520	H3K18ac
+T26	Protein 564 567	Gsc
+T27	Protein 760 761	3
+T28	Protein 766 773	H3K9me3
+T29	Protein 883 884	3
+T30	Protein 889 895	Pol II
+T31	Protein 974 975	3
+T32	Protein 1015 1022	H3K9me3
+R7	Complex_formation Arg1:T10 Arg2:T11	
+R8	Complex_formation Arg1:T11 Arg2:T27	
+R9	Complex_formation Arg1:T10 Arg2:T27	
+R10	Complex_formation Arg1:T27 Arg2:T28	
+R11	Complex_formation Arg1:T11 Arg2:T28	
+R12	Complex_formation Arg1:T10 Arg2:T28	
+R13	Regulation Arg1:T28 Arg2:T12	
+R14	Regulation Arg1:T27 Arg2:T12	
+R15	Regulation Arg1:T11 Arg2:T12	
+R16	Regulation Arg1:T10 Arg2:T12	
+R17	Complex_formation Arg1:T6 Arg2:T7	
+R18	Complex_formation Arg1:T6 Arg2:T23	
+R19	Complex_formation Arg1:T7 Arg2:T23	
+R20	Complex_formation Arg1:T23 Arg2:T24	
+R21	Complex_formation Arg1:T7 Arg2:T24	
+R22	Complex_formation Arg1:T6 Arg2:T24	
+R23	Complex_formation Arg1:T23 Arg2:T25	
+R24	Complex_formation Arg1:T7 Arg2:T25	
+R25	Complex_formation Arg1:T6 Arg2:T25	
+R26	Regulation Arg1:T15 Arg2:T16	
+R27	Regulation Arg1:T15 Arg2:T17	
+R28	Regulation Arg1:T15 Arg2:T31	
+R29	Complex_formation Arg1:T16 Arg2:T17	
+R30	Complex_formation Arg1:T16 Arg2:T31	
+R31	Complex_formation Arg1:T17 Arg2:T31	
+T33	Family 250 257	histone
+#1	AnnotatorNotes T24	not normalizable
+#2	AnnotatorNotes T25	not normalizable
+T34	Protein 263 270	H3K9me3
+#3	AnnotatorNotes T34	not normalizable
+#4	AnnotatorNotes T32	not normalizable
+#5	AnnotatorNotes T28	not normalizable
+T20	Protein 681 686	K9me3
+#6	AnnotatorNotes T20	not normalizable
+T35	Protein 716 721	K18ac
+#7	AnnotatorNotes T35	not normalizable

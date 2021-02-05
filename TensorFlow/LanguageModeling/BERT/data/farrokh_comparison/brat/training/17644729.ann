@@ -1,0 +1,55 @@
+T1	Protein 56 63	CAPRICE
+T2	Protein 68 76	WEREWOLF
+T3	Protein 445 453	WEREWOLF
+T4	Protein 455 458	WER
+T5	Protein 485 492	CAPRICE
+T6	Protein 552 555	WER
+T7	Protein 680 683	WER
+T8	Protein 745 748	WER
+T9	Protein 849 852	WER
+T10	Protein 856 876	WER chimera proteins
+T11	Protein 882 889	GLABRA3
+T12	Protein 891 894	GL3
+T13	Protein 899 918	ENHANCER OF GLABRA3
+T14	Protein 920 924	EGL3
+T15	Protein 997 1000	GL3
+T16	Protein 1001 1004	WER
+T17	Protein 1009 1013	EGL3
+T18	Protein 1014 1017	WER
+T19	Protein 1089 1092	WER
+T20	Protein 1129 1132	GL2
+T21	Protein 1200 1203	WER
+T22	Protein 1233 1236	GL2
+*	Equiv T3 T4
+T23	Protein 494 497	CPC
+*	Equiv T5 T23
+T24	Protein 560 563	CPC
+T25	Protein 627 630	CPC
+T26	Protein 785 788	CPC
+*	Equiv T11 T12
+R2	Complex_formation Arg1:T9 Arg2:T13	
+*	Equiv T13 T14
+R1	Complex_formation Arg1:T9 Arg2:T11	
+R3	Complex_formation Arg1:T10 Arg2:T11	
+R4	Complex_formation Arg1:T10 Arg2:T13	
+T27	Protein 927 930	CPC
+T28	Protein 935 955	CPC chimera proteins
+R5	Complex_formation Arg1:T15 Arg2:T16	
+R6	Complex_formation Arg1:T17 Arg2:T18	
+R7	Negative_regulation Arg1:T28 Arg2:T15	
+R8	Negative_regulation Arg1:T28 Arg2:T16	
+R9	Negative_regulation Arg1:T28 Arg2:T17	
+R10	Negative_regulation Arg1:T28 Arg2:T18	
+R11	Negative_regulation Arg1:T27 Arg2:T15	
+R12	Negative_regulation Arg1:T27 Arg2:T16	
+R13	Negative_regulation Arg1:T27 Arg2:T17	
+R14	Negative_regulation Arg1:T27 Arg2:T18	
+T29	Protein 1161 1164	CPC
+R15	Regulation_of_transcription Arg1:T29 Arg2:T22	
+T30	Family 476 479	MYB
+T31	Family 436 439	MYB
+T32	Family 46 49	MYB
+A1	Mutant T29
+A2	Fusion T29
+#1	AnnotatorNotes T10	treated as normal NE, as if masked
+#2	AnnotatorNotes T28	treated as normal NE, as if masked

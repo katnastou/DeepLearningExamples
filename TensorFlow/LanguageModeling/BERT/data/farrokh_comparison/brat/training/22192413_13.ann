@@ -1,0 +1,45 @@
+T1	Protein 32 38	Nkx2.5
+T2	Protein 43 47	Tbx5
+T3	Protein 54 57	UTX
+T4	Protein 144 150	Nkx2.5
+T5	Protein 155 159	Tbx5
+T6	Protein 362 365	UTX
+T7	Protein 409 415	Nkx2.5
+T8	Protein 420 424	Tbx5
+T9	Protein 641 644	ANF
+T10	Protein 649 675	atrial natriuretic peptide
+T11	Protein 737 741	Tbx5
+T12	Protein 743 749	Nkx2.5
+T13	Protein 754 759	GATA4
+T14	Protein 821 824	ANF
+T15	Protein 879 885	Nkx2.5
+T16	Protein 890 894	Tbx5
+T17	Protein 966 971	MLC2v
+T18	Protein 1021 1024	ANF
+T19	Protein 1116 1121	MLC2v
+T20	Protein 1185 1190	MLC2v
+T21	Protein 1285 1288	UTX
+T22	Protein 1351 1355	Tbx5
+R1	Positive_regulation Arg1:T6 Arg2:T7	
+R2	Positive_regulation Arg1:T6 Arg2:T8	
+*	Equiv T9 T10
+T23	Protein 732 735	SRF
+R3	Complex_formation Arg1:T13 Arg2:T14	
+R4	Complex_formation Arg1:T12 Arg2:T14	
+R5	Complex_formation Arg1:T11 Arg2:T14	
+R6	Complex_formation Arg1:T23 Arg2:T14	
+R7	Complex_formation Arg1:T13 Arg2:T12	
+R8	Complex_formation Arg1:T13 Arg2:T11	
+R9	Complex_formation Arg1:T13 Arg2:T23	
+R10	Complex_formation Arg1:T12 Arg2:T11	
+R11	Complex_formation Arg1:T12 Arg2:T23	
+R12	Complex_formation Arg1:T11 Arg2:T23	
+R13	Regulation_of_gene_expression Arg1:T16 Arg2:T17	
+R14	Regulation_of_gene_expression Arg1:T15 Arg2:T17	
+R15	Positive_regulation Arg1:T16 Arg2:T17	
+R16	Positive_regulation Arg1:T15 Arg2:T17	
+T24	Protein 1340 1346	Nxk2.5
+R17	Positive_regulation Arg1:T21 Arg2:T24	
+R18	Positive_regulation Arg1:T21 Arg2:T22	
+R19	Regulation_of_gene_expression Arg1:T21 Arg2:T24	
+R20	Regulation_of_gene_expression Arg1:T21 Arg2:T22	

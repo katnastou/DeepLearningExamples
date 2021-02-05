@@ -1,0 +1,28 @@
+T1	Protein 150 155	BOLA3
+T2	Protein 156 161	GLRX5
+T3	Protein 175 180	BOLA3
+T4	Protein 241 246	BOLA3
+T5	Protein 443 448	BOLA1
+T6	Protein 449 454	GLRX5
+T7	Protein 502 507	BOLA1
+T8	Protein 540 545	BOLA3
+T9	Protein 633 638	BOLA1
+T10	Protein 758 763	GLRX5
+T11	Protein 794 799	GLRX5
+T12	Protein 902 907	GLRX5
+T13	Protein 1025 1030	GLRX5
+T14	Protein 1051 1056	BOLA3
+T15	Protein 1071 1076	BOLA1
+T16	Protein 1157 1162	GLRX5
+T17	Protein 1196 1201	BOLA1
+T18	Protein 1206 1211	BOLA3
+T19	Protein 1264 1269	GLRX5
+T20	Protein 1306 1311	GLRX5
+T21	Chemical 1253 1263	[2Fe-2S]2+
+T22	Chemical 1478 1488	[2Fe-2S]2+
+T23	Chemical 1458 1462	iron
+R1	Complex_formation Arg1:T5 Arg2:T6	
+R2	Complex_formation Arg1:T13 Arg2:T15	
+R3	Complex_formation Arg1:T13 Arg2:T14	
+R4	Complex_formation Arg1:T16 Arg2:T17	
+R5	Complex_formation Arg1:T16 Arg2:T18	

@@ -1,0 +1,54 @@
+T1	Protein 19 67	peroxisome proliferator-activated receptor gamma
+T2	Protein 138 186	Peroxisome proliferator-activated receptor gamma
+T3	Protein 188 197	PPARgamma
+T4	Protein 235 244	PPARgamma
+T5	Protein 311 320	PPARgamma
+T6	Protein 556 565	PPARgamma
+T7	Protein 722 729	DRIP205
+T8	Protein 731 738	TRAP220
+T9	Protein 764 773	PPARgamma
+T10	Protein 795 804	PPARgamma
+T11	Protein 841 848	DRIP205
+T12	Protein 989 998	PPARgamma
+T13	Protein 1038 1045	DRIP205
+T14	Protein 1075 1084	PPARgamma
+T15	Protein 72 91	retinoid X receptor
+*	Equiv T2 T3
+T16	Protein 280 299	retinoid X receptor
+T17	Protein 301 304	RXR
+*	Equiv T17 T16
+T18	Protein 321 324	RXR
+T19	Family 601 611	p160/SRC-1
+T20	Complex 693 697	DRIP
+T21	Complex 708 712	DRIP
+T22	Protein 740 743	PBP
+*	Equiv T22 T8 T7
+T23	Protein 809 812	RXR
+T24	Family 853 857	p160
+T25	Protein 930 933	RXR
+T26	Family 964 968	p160
+T27	Protein 980 983	RXR
+T28	Family 1054 1058	p160
+T29	Family 1423 1427	p160
+T30	Complex 1431 1435	DRIP
+T31	Protein 1502 1511	PPARgamma
+T32	Protein 1517 1520	RXR
+R1	Complex_formation Arg1:T4 Arg2:T16	
+R2	Out-of-scope Arg1:T5 Arg2:T18	
+#1	AnnotatorNotes R2	no direct clear cue?
+R3	Complex_formation Arg1:T6 Arg2:T19	
+R4	Complex_formation Arg1:T6 Arg2:T20	
+R5	Complex_formation Arg1:T7 Arg2:T9	
+R6	Complex_formation Arg1:T10 Arg2:T11	
+R7	Complex_formation Arg1:T10 Arg2:T24	
+R8	Complex_formation Arg1:T23 Arg2:T11	
+R9	Complex_formation Arg1:T23 Arg2:T24	
+R10	Complex_formation Arg1:T26 Arg2:T27	
+R11	Complex_formation Arg1:T13 Arg2:T14	
+#2	AnnotatorNotes R11	Cue: "recruited"
+R12	Out-of-scope Arg1:T28 Arg2:T14	
+#3	AnnotatorNotes R12	Negated, Cue: "recruited"
+#4	AnnotatorNotes R7	"selectively interact", this interaction may NOT be implied
+#5	AnnotatorNotes R6	"selectively interact", this interaction may NOT be implied
+#6	AnnotatorNotes R9	"selectively interact", this interaction may NOT be implied
+#7	AnnotatorNotes R8	"selectively interact", this interaction may NOT be implied

@@ -1,0 +1,47 @@
+T1	Protein 48 105	major histocompatibility complex class II invariant chain
+T2	Protein 212 286	human major histocompatibility complex class II-associated invariant-chain
+T3	Protein 1165 1168	p50
+T4	Protein 1170 1173	p52
+T5	Protein 1175 1178	p65
+T6	Protein 1184 1188	cRel
+T7	Protein 1248 1251	p50
+T8	Protein 1574 1577	p50
+T9	Protein 1579 1582	p52
+T10	Protein 1584 1587	p65
+T11	Protein 1593 1597	cRel
+T12	Protein 1661 1664	p50
+T13	Protein 1669 1672	p52
+R1	Complex_formation Arg1:T3 Arg2:T4
+R2	Complex_formation Arg1:T3 Arg2:T5
+R3	Complex_formation Arg1:T3 Arg2:T6
+R4	Complex_formation Arg1:T4 Arg2:T5
+R5	Complex_formation Arg1:T4 Arg2:T6
+R6	Complex_formation Arg1:T5 Arg2:T6
+R7	Complex_formation Arg1:T8 Arg2:T9
+R8	Complex_formation Arg1:T8 Arg2:T10
+R9	Complex_formation Arg1:T8 Arg2:T11
+R10	Complex_formation Arg1:T9 Arg2:T10
+R11	Complex_formation Arg1:T9 Arg2:T11
+R12	Complex_formation Arg1:T10 Arg2:T11
+R13	Complex_formation Arg1:T12 Arg2:T13
+T14	Complex 12 26	NF-kappa B/Rel
+T16	Complex 166 180	NF-kappa B/Rel
+T18	Complex 310 324	NF-kappa B/Rel
+T20	Protein 293 295	Ii
+*	Equiv T20 T2
+T15	Complex 508 522	NF-kappa B/Rel
+T17	Complex 596 610	NF-kappa B/Rel
+T19	Complex 1043 1057	NF-kappa B/Rel
+T21	Complex 1746 1760	NF-kappa B/Rel
+T22	Complex 1828 1842	NF-kappa B/Rel
+T23	Protein 364 366	Ii
+T24	Complex 367 374	kappa B
+T25	Protein 396 398	Ii
+T26	Complex 399 406	kappa B
+T27	Protein 634 636	Ii
+T28	Complex 637 644	kappa B
+T29	Protein 707 709	Ii
+T30	Protein 866 868	Ii
+T31	Complex 869 876	kappa B
+T32	Protein 1289 1291	Ii
+T33	Complex 1292 1299	kappa B

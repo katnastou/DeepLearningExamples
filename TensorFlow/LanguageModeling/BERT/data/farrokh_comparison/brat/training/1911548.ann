@@ -1,0 +1,57 @@
+T1	Protein 71 77	GM-CSF
+T2	Protein 431 479	granulocyte-macrophage colony-stimulating factor
+T3	Protein 481 487	GM-CSF
+T4	Protein 563 569	GM-CSF
+T5	Protein 907 913	GM-CSF
+T6	Protein 1111 1114	p50
+T7	Protein 1128 1131	p65
+T8	Protein 1195 1201	GM-CSF
+T9	Protein 1280 1283	p50
+T10	Protein 1342 1345	p50
+T11	Protein 1377 1380	p65
+T12	Protein 1422 1425	p65
+T13	Protein 1568 1572	KBF1
+T14	Protein 1631 1634	p50
+T15	Protein 1897 1903	GM-CSF
+T16	Protein 1992 1998	GM-CSF
+*	Equiv T2 T3
+R1	Complex_formation Arg1:T10 Arg2:T11
+T17	Complex 17 23	NF-GM2
+R2	Positive_regulation Arg1:T17 Arg2:T1	
+T18	Protein 1206 1226	immunoglobulin kappa
+R3	Regulation_of_transcription Arg1:T6 Arg2:T8	
+R4	Regulation_of_transcription Arg1:T7 Arg2:T8	
+R5	Regulation_of_transcription Arg1:T7 Arg2:T18	
+R6	Regulation_of_transcription Arg1:T6 Arg2:T18	
+R7	Regulation_of_transcription Arg1:T17 Arg2:T1	
+T19	Complex 222 232	NF-kappa B
+T20	Protein 1587 1612	50 kDa NF-kappa B protein
+#2	AnnotatorNotes T20	p50 - not normalizable
+T21	Protein 1735 1763	50 kDa subunit of NF-kappa B
+#3	AnnotatorNotes T21	p50 - not normalizable
+T22	Complex 1827 1834	kappa B
+T23	Complex 2081 2088	kappa B
+T24	Complex 811 817	NF-GM2
+T25	Complex 969 975	NF-GM2
+T26	Complex 1088 1094	NF-GM2
+T27	Complex 1393 1399	NF-GM2
+T28	Complex 1518 1524	NF-GM2
+T29	Complex 1638 1644	NF-GM2
+T30	Complex 1666 1672	NF-GM2
+T31	Complex 1778 1784	NF-GM2
+T32	Chemical 297 325	phorbol-12-myristate acetate
+T33	Chemical 327 330	PMA
+*	Equiv T33 T32
+T34	Chemical 336 353	calcium ionophore
+T35	Chemical 355 361	A23187
+*	Equiv T34 T35
+T36	Protein 269 275	lectin
+T37	Family 408 419	lymphokines
+R8	Regulation_of_transcription Arg1:T31 Arg2:T22	
+R9	Positive_regulation Arg1:T31 Arg2:T22	
+T38	Protein 862 864	A1
+#16	AnnotatorNotes T38	not normalizable
+T39	Protein 866 868	A2
+#17	AnnotatorNotes T39	not normalizable
+T40	Protein 874 875	B
+#18	AnnotatorNotes T40	not normalizable

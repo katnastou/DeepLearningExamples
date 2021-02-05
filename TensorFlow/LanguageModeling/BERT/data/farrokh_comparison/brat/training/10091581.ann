@@ -1,0 +1,40 @@
+T1	Protein 30 34	Pzh1
+T2	Protein 85 89	Trk1
+T3	Protein 262 266	pzh1
+T4	Protein 483 487	Pzh1
+T5	Protein 607 611	Pzh1
+T6	Protein 745 749	pzh1
+T7	Protein 866 870	Pzh1
+T8	Protein 1003 1007	Pzh1
+T9	Protein 1033 1037	trk1
+T10	Protein 1465 1469	pzh1
+T11	Protein 1570 1574	Trk1
+T12	Protein 1606 1610	Pzh1
+T13	Protein 1691 1695	Trk1
+T14	Chemical 65 68	Na+
+T15	Family 166 186	PPZ-like phosphatase
+T16	Protein 199 203	Pzhl
+A1	Mutant T3
+T17	Chemical 312 315	Na+
+T18	Chemical 353 356	KC1
+#1	AnnotatorNotes T18	this is "KCl" in PDF, Pubmed introduced a typo "l" => "1"
+T19	Chemical 642 645	Na+
+T20	Chemical 649 652	Li+
+T21	Chemical 727 729	K+
+A2	Mutant T6
+T22	Chemical 851 853	K+
+T23	Chemical 889 892	Na+
+T24	Chemical 904 906	K+
+T25	Chemical 974 976	K+
+T26	Chemical 985 988	Na+
+A3	Mutant T9
+T27	Chemical 1099 1101	K+
+T28	Chemical 1178 1181	KCl
+T29	Chemical 1242 1244	K+
+T30	Chemical 1274 1279	Na(+)
+T31	Protein 1349 1353	sod2
+A4	Mutant T31
+T32	Chemical 1411 1414	Na+
+T33	Chemical 1614 1618	NaCl
+T34	Chemical 1711 1713	K+
+T35	Chemical 1524 1527	KCl

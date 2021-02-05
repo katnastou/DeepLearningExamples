@@ -1,0 +1,41 @@
+T1	Protein 11 16	GLR-1
+T2	Protein 88 94	usp-46
+T3	Protein 122 128	USP-46
+T4	Protein 154 159	glr-1
+T5	Protein 164 170	USP-46
+T6	Protein 180 185	GLR-1
+T7	Protein 215 220	glr-1
+T8	Protein 252 257	glr-1
+T9	Protein 295 301	usp-46
+T10	Protein 389 395	usp-46
+T11	Protein 439 444	glr-1
+T12	Protein 455 460	actin
+T13	Protein 503 508	glr-1
+T14	Protein 517 523	usp-46
+T15	Protein 575 580	GLR-1
+T16	Protein 643 648	glr-1
+T17	Protein 680 685	glr-1
+T18	Protein 771 776	GLR-1
+T19	Protein 792 798	usp-46
+T20	Protein 1039 1044	GLR-1
+T21	Protein 1066 1072	usp-46
+T22	Protein 18 21	GFP
+A1	Fusion T22
+#1	AnnotatorNotes T22	not tagged by tagger
+T23	Protein 187 190	GFP
+A2	Fusion T23
+#2	AnnotatorNotes T23	not tagged by tagger
+T24	Protein 582 585	GFP
+A3	Fusion T24
+#3	AnnotatorNotes T24	not tagged by tagger
+A4	Fusion T1
+A5	Mutant T2
+A6	Fusion T6
+A7	Mutant T9
+A8	Mutant T10
+T25	Protein 448 453	act-1
+*	Equiv T12 T25
+A9	Mutant T14
+A10	Mutant T15
+A11	Mutant T19
+A12	Mutant T21

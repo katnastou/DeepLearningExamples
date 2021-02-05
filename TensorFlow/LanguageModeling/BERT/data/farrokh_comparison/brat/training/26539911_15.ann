@@ -1,0 +1,12 @@
+T1	Protein 9 14	CD133
+T2	Protein 166 171	CD133
+T3	Protein 235 240	CD133
+T4	Protein 372 377	CD133
+T5	Protein 423 428	CD133
+T6	OOS 40 44	CSCs
+#1	AnnotatorNotes T6	Cancer stem cells
+T7	Chemical 307 324	bromodeoxyuridine
+T8	Chemical 326 330	BrdU
+*	Equiv T8 T7
+T9	Chemical 450 454	BrdU
+T10	Chemical 500 504	BrdU

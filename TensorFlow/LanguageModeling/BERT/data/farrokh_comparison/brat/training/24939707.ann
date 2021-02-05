@@ -1,0 +1,15 @@
+T1	Protein 71 103	organic solute carrier partner 1
+T2	Protein 118 150	Organic solute carrier partner 1
+T3	Protein 152 157	OSCP1
+T4	Protein 313 318	OSCP1
+T5	Protein 542 547	OSCP1
+T6	Protein 636 641	OSCP1
+T7	Protein 643 649	dOSCP1
+T8	Protein 768 774	dOSCP1
+T9	Protein 846 852	dOSCP1
+T10	Protein 996 1002	dOSCP1
+T11	Protein 1266 1272	dOSCP1
+T12	Protein 1329 1335	dOSCP1
+T13	Protein 1459 1465	dOSCP1
+T14	Protein 1784 1790	dOSCP1
+*	Equiv T2 T3

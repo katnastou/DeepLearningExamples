@@ -1,0 +1,53 @@
+T1	Protein 14 19	Vts1p
+T2	Protein 300 305	Vts1p
+T3	Protein 460 465	Vts1p
+T4	Protein 525 530	Vts1p
+T5	Protein 575 580	Vts1p
+T6	Protein 702 707	Vts1p
+T7	Protein 767 772	Vts1p
+T8	Protein 894 899	Vts1p
+T9	Protein 986 991	Xrn1p
+T10	Protein 1098 1103	Vts1p
+T11	Protein 98 103	Ccr4p
+T12	Protein 104 109	Pop2p
+T13	Protein 110 113	Not
+R1	Complex_formation Arg1:T12 Arg2:T13	
+R2	Complex_formation Arg1:T12 Arg2:T11	
+R3	Complex_formation Arg1:T11 Arg2:T13	
+R4	Complex_formation Arg1:T11 Arg2:T1	
+R5	Complex_formation Arg1:T12 Arg2:T1	
+R6	Complex_formation Arg1:T13 Arg2:T1	
+T14	Protein 647 652	Ccr4p
+T15	Protein 653 658	Pop2p
+T16	Protein 659 662	Not
+R7	Complex_formation Arg1:T14 Arg2:T15	
+R8	Complex_formation Arg1:T14 Arg2:T16	
+R9	Complex_formation Arg1:T15 Arg2:T16	
+R10	Positive_regulation Arg1:T5 Arg2:T14	
+R11	Positive_regulation Arg1:T5 Arg2:T15	
+R12	Positive_regulation Arg1:T5 Arg2:T16	
+T17	Protein 727 732	Ccr4p
+T18	Protein 733 738	Pop2p
+T19	Protein 739 742	Not
+R13	Complex_formation Arg1:T18 Arg2:T19	
+R14	Complex_formation Arg1:T17 Arg2:T18	
+R15	Complex_formation Arg1:T17 Arg2:T19	
+R16	Complex_formation Arg1:T6 Arg2:T17	
+R17	Complex_formation Arg1:T6 Arg2:T18	
+R18	Complex_formation Arg1:T6 Arg2:T19	
+T20	Protein 786 791	Ccr4p
+T21	Protein 792 797	Pop2p
+T22	Protein 798 801	Not
+R19	Complex_formation Arg1:T21 Arg2:T22	
+R20	Complex_formation Arg1:T20 Arg2:T21	
+R21	Complex_formation Arg1:T20 Arg2:T22	
+R22	Complex_formation Arg1:T7 Arg2:T20	
+R23	Complex_formation Arg1:T7 Arg2:T21	
+R24	Complex_formation Arg1:T7 Arg2:T22	
+T23	Protein 1310 1314	Ccr4
+T24	Protein 1315 1319	Pop2
+T25	Protein 1320 1323	Not
+R25	Complex_formation Arg1:T24 Arg2:T25	
+R26	Complex_formation Arg1:T23 Arg2:T24	
+R27	Complex_formation Arg1:T23 Arg2:T25	
+T26	Family 325 330	Smaug

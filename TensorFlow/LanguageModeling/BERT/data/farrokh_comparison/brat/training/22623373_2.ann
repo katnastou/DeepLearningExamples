@@ -1,0 +1,39 @@
+T1	Family 203 206	CPs
+T2	Family 396 399	CPs
+T3	Family 570 573	CPs
+T4	Family 836 839	CPs
+T5	Family 910 913	CPs
+T6	Family 1229 1232	CPs
+T7	Family 1306 1309	CPs
+T8	Family 171 201	Proteasomal 20S core particles
+#1	AnnotatorNotes T8	one core particle is a complex https://www.nature.com/articles/nsb1100_1062, a lot are a group ?
+#2	AnnotatorNotes T1	tagged by tagger as GGP
+*	Equiv T1 T8
+T9	Family 479 484	Alfa-
+T10	Family 489 498	Beta-type
+T11	Family 521 525	Alfa
+T12	Family 528 532	Beta
+T13	Family 536 540	Beta
+T14	Family 543 547	Alfa
+T15	Family 622 626	Beta
+T16	Protein 651 656	Alfa1
+T17	Protein 664 669	Alfa2
+T18	Protein 770 775	Alfa1
+#3	AnnotatorNotes T16	tagger will not tag these, but I am not sure we should drop them
+T19	Family 778 782	Beta
+T20	Family 785 789	Beta
+#4	AnnotatorNotes T19	rchaeal and actinomycete (eubacterial) proteasomes have only one or two of each type of subunit, while eukaryotes are more complex, with seven different α subunits and seven different β subunits.
+T21	Protein 792 797	Alfa1
+T22	Protein 805 810	Alfa2
+T23	Family 813 817	Beta
+T24	Family 820 824	Beta
+T25	Protein 827 832	Alfa2
+T26	Protein 1322 1328	Alfa1-
+T27	Protein 1330 1336	Alfa2-
+T28	Family 1342 1346	Beta
+R1	Complex_formation Arg1:T9 Arg2:T10	
+R2	Complex_formation Arg1:T15 Arg2:T16	
+R3	Complex_formation Arg1:T15 Arg2:T17	
+R4	Complex_formation Arg1:T26 Arg2:T28	
+R5	Complex_formation Arg1:T26 Arg2:T27	
+R6	Complex_formation Arg1:T27 Arg2:T28	

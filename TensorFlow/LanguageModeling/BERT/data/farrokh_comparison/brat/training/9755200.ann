@@ -1,0 +1,21 @@
+T2	Family 305 309	Pc-G
+T4	Protein 392 396	phP1
+T6	Protein 537 541	phP1
+T7	Protein 660 664	phP1
+T8	Protein 691 695	P-PH
+T9	Protein 821 825	P-PH
+T10	Protein 846 865	Posterior sex combs
+T11	Protein 827 835	Polycomb
+T12	Protein 837 839	PC
+*	Equiv T11 T12
+T13	Protein 867 870	PSC
+*	Equiv T10 T13
+T14	Protein 118 124	yellow
+T1	Family 247 251	Pc-G
+T3	Protein 642 648	yellow
+T5	Protein 767 769	PH
+A1	Mutant T6
+A2	Mutant T7
+A3	Mutant T4
+T15	Family 231 245	Polycomb group
+*	Equiv T1 T15

@@ -1,0 +1,14 @@
+T1	Protein 32 36	Nek7
+T2	Protein 163 167	Nek7
+T3	Protein 285 289	TRF1
+T4	Protein 545 549	Nek7
+T5	Protein 646 650	Nek7
+T6	Family 116 125	shelterin
+T7	Protein 134 138	TRF2
+T8	OOS 280 284	Flag
+A1	Fusion T8
+#1	AnnotatorNotes T8	not tagged by tagger
+T9	Protein 290 294	Fok1
+A2	Fusion T9
+A3	Fusion T3
+T10	Chemical 416 427	aphidicolin

@@ -1,0 +1,43 @@
+T1	Protein 40 65	latent membrane protein 1
+T2	Protein 78 108	tumor necrosis factor receptor
+T3	Protein 235 260	latent membrane protein 1
+T4	Protein 262 266	LMP1
+T5	Protein 400 404	LMP1
+T6	Protein 1272 1334	tumor necrosis factor receptor-associated death domain protein
+T7	Protein 1336 1341	TRADD
+T8	Protein 1344 1349	TRADD
+T9	Protein 1445 1450	TRADD
+T10	Protein 1477 1481	LMP1
+T11	Protein 1514 1518	LMP1
+T12	Protein 1543 1548	TRADD
+T13	Protein 1580 1584	LMP1
+T14	Protein 1635 1640	TRADD
+T15	Protein 1645 1649	TES2
+T16	Protein 1736 1740	LMP1
+T17	Protein 1754 1759	TRADD
+*	Equiv T6 T7
+*	Equiv T3 T4
+R1	Complex_formation Arg1:T9 Arg2:T10
+R2	Negated Arg1:T9 Arg2:T11
+R3	Complex_formation Arg1:T12 Arg2:T13
+R4	Complex_formation Arg1:T1 Arg2:T2	
+T18	Protein 200 209	NF-kappaB
+R5	Positive_regulation Arg1:T1 Arg2:T18	
+T19	Protein 1686 1695	NF-kappaB
+R6	Complex_formation Arg1:T14 Arg2:T15	
+R7	Positive_regulation Arg1:T15 Arg2:T19	
+R8	Positive_regulation Arg1:T14 Arg2:T19	
+R9	Regulation Arg1:T16 Arg2:T17	
+#1	AnnotatorNotes T18	Complex
+#2	AnnotatorNotes T19	Complex
+T20	Protein 1832 1841	NF-kappaB
+#3	AnnotatorNotes T20	Complex
+T21	Protein 1231 1235	TES2
+#4	AnnotatorNotes T21	Protein region
+R10	Complex_formation Arg1:T6 Arg2:T21	
+T22	Protein 1402 1406	TES2
+#5	AnnotatorNotes T22	Protein region
+T23	Protein 1439 1443	TES2
+#6	AnnotatorNotes T23	Protein region
+R11	Complex_formation Arg1:T8 Arg2:T22	
+#7	AnnotatorNotes T15	Protein region

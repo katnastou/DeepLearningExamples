@@ -1,0 +1,42 @@
+T1	Protein 130 137	Tuberin
+T2	Protein 139 143	TSC2
+T3	Protein 196 203	tuberin
+T4	Protein 340 347	tuberin
+T5	Protein 392 399	Tuberin
+T6	Protein 568 575	tuberin
+T7	Protein 622 627	SMAD2
+T8	Protein 632 637	SMAD3
+T9	Protein 718 725	tuberin
+T10	Protein 740 744	Tsc2
+T11	Protein 839 842	KIP
+T12	Protein 849 857	cyclin A
+T13	Protein 950 957	tuberin
+T14	Protein 1244 1251	tuberin
+T15	Family 63 67	SMAD
+*	Equiv T1 T2
+T16	Protein 418 456	transforming growth factor (TGF)-beta1
+R1	Positive_regulation Arg1:T5 Arg2:T16	
+T17	Family 497 501	SMAD
+R2	Positive_regulation Arg1:T5 Arg2:T17	
+R3	Complex_formation Arg1:T6 Arg2:T7	
+R4	Complex_formation Arg1:T6 Arg2:T8	
+T18	Protein 659 668	TGF-beta1
+T19	Protein 694 697	p21
+T20	Protein 698 701	CIP
+*	Equiv T19 T20
+R5	Regulation_of_transcription Arg1:T6 Arg2:T20	
+R6	Regulation Arg1:T18 Arg2:T20	
+R7	Negative_regulation Arg1:T10 Arg2:T9	
+T21	Protein 786 794	TGF-beta
+R8	Negative_regulation Arg1:T10 Arg2:T21	
+T22	Protein 825 828	p21
+T23	Protein 829 832	CIP
+*	Equiv T22 T23
+T24	Protein 835 838	p27
+*	Equiv T24 T11
+R9	Regulation_of_transcription Arg1:T21 Arg2:T22	
+R10	Regulation_of_transcription Arg1:T21 Arg2:T24	
+R11	Regulation_of_transcription Arg1:T21 Arg2:T12	
+T25	Protein 919 928	TGF-beta1
+T26	Protein 1039 1048	TGF-beta1
+T27	Protein 1208 1217	TGF-beta1

@@ -1,0 +1,33 @@
+T1	OOS 41 46	phe-p
+T2	Family 63 98	peptidyl prolyl cis-trans isomerase
+T3	Protein 161 168	AtCyp19
+T4	Protein 204 211	AtCyp19
+T5	Protein 226 233	AtCyp19
+T6	Protein 321 341	Bovine serum albumin
+T7	Protein 403 410	AtCyp19
+T8	Protein 445 456	cyclophilin
+T9	Protein 542 549	AtCyp19
+T10	Protein 601 608	AtCyp19
+#1	AnnotatorNotes T1	tagged by tagger
+T11	Chemical 18 61	N-succinyl-ala-ala-pro-phe-p-nitroanilidine
+T12	Family 102 108	PPIase
+*	Equiv T12 T2
+A1	Mutant T3
+A2	Mutant T4
+A3	Mutant T5
+A4	Mutant T7
+A5	Mutant T9
+A6	Mutant T10
+T13	Protein 343 346	BSA
+*	Equiv T13 T6
+T14	Chemical 468 481	cyclosporin A
+T15	Chemical 483 486	CsA
+T16	Family 493 497	FKBP
+T17	Chemical 509 514	FK506
+T18	Family 523 529	PPIase
+T19	Chemical 615 618	CsA
+T20	Chemical 649 652	CsA
+T21	Chemical 724 727	CsA
+T22	Chemical 794 797	CsA
+T23	Chemical 858 861	CsA
+*	Equiv T15 T14

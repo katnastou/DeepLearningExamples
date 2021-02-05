@@ -1,0 +1,9 @@
+T1	Protein 102 105	CD4
+T2	Protein 1029 1035	SLP-76
+T3	Protein 205 208	TCR
+T4	Protein 899 903	ADAP
+T5	Protein 660 664	ADAP
+A1	Fusion T5
+T6	Protein 665 668	GFP
+A2	Fusion T6
+#1	AnnotatorNotes T6	not tagged by tagger

@@ -1,0 +1,30 @@
+T1	Protein 57 61	FtsL
+T2	Protein 72 76	FtsQ
+T3	Protein 212 216	FtsQ
+T4	Protein 218 222	FtsL
+T5	Protein 262 266	FtsL
+T6	Protein 412 416	FtsQ
+T7	Protein 427 431	FtsQ
+T8	Protein 485 489	FtsL
+T9	Protein 500 504	FtsQ
+T10	Protein 524 528	FtsK
+T11	Protein 570 574	FtsL
+T12	Protein 585 589	FtsQ
+T13	Protein 663 667	FtsK
+T14	Protein 780 784	FtsL
+T15	Protein 792 796	FtsQ
+T16	Protein 63 67	FtsB
+T17	Protein 227 231	FtsB
+T18	Protein 271 275	FtsB
+T19	Protein 494 498	FtsB
+T20	Protein 576 580	FtsB
+T21	Protein 786 790	FtsB
+R1	Complex_formation Arg1:T1 Arg2:T16	
+R2	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T16 Arg2:T2	
+R4	Complex_formation Arg1:T11 Arg2:T20	
+R5	Complex_formation Arg1:T11 Arg2:T12	
+R6	Complex_formation Arg1:T20 Arg2:T12	
+R7	Complex_formation Arg1:T14 Arg2:T21	
+R8	Complex_formation Arg1:T14 Arg2:T15	
+R9	Complex_formation Arg1:T21 Arg2:T15	

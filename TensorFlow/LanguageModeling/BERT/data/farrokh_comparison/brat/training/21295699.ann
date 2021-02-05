@@ -1,0 +1,46 @@
+T1	Protein 88 92	Sac1
+T2	Protein 185 189	Sac1
+T4	Protein 321 325	Sac1
+T6	Protein 426 430	Sac1
+T8	Protein 552 556	Osh3
+T10	Protein 670 674	Sac1
+T11	Protein 757 761	Scs2
+T12	Protein 762 767	Scs22
+T14	Protein 796 800	Sac1
+T15	Protein 836 840	Osh3
+T17	Protein 929 933	Sac1
+T18	Protein 0 3	Osh
+T19	Protein 995 998	Osh
+T3	Protein 469 510	oxysterol-binding homology (Osh) proteins
+R1	Regulation Arg1:T3 Arg2:T6	
+T5	Protein 647 650	Osh
+R2	Positive_regulation Arg1:T5 Arg2:T10	
+R3	Regulation Arg1:T12 Arg2:T14	
+R4	Regulation Arg1:T11 Arg2:T14	
+R5	Positive_regulation Arg1:T15 Arg2:T17	
+T7	Chemical 93 109	phosphoinositide
+#1	AnnotatorNotes T7	Group
+T9	Chemical 111 113	PI
+#2	AnnotatorNotes T9	Group
+*	Equiv T7 T9
+T13	Chemical 156 158	PI
+#3	AnnotatorNotes T13	Group
+T16	Chemical 257 261	PI4P
+R6	Complex_formation Arg1:T2 Arg2:T16	
+#4	AnnotatorNotes R6	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+T20	Chemical 357 361	PI4P
+R7	Complex_formation Arg1:T4 Arg2:T20	
+#5	AnnotatorNotes R7	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+T21	Chemical 440 444	PI4P
+T22	Chemical 618 622	PI4P
+T23	Chemical 675 677	PI
+#6	AnnotatorNotes T23	Group
+T24	Family 743 746	VAP
+T25	Chemical 780 784	PI4P
+R8	Complex_formation Arg1:T12 Arg2:T25	
+#8	AnnotatorNotes R8	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+R9	Complex_formation Arg1:T11 Arg2:T25	
+#9	AnnotatorNotes R9	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+T26	Chemical 897 901	PI4P
+T27	Chemical 1016 1018	PI
+#10	AnnotatorNotes T27	Group

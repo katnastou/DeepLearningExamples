@@ -1,0 +1,27 @@
+T1	Protein 52 56	Tda2
+T2	Protein 109 113	TDA2
+T3	Protein 378 382	Tda2
+T4	Protein 436 441	Aim21
+T5	Protein 494 499	AIM21
+T6	Protein 672 693	actin-capping protein
+T7	Protein 755 759	CAP1
+T8	Protein 764 768	CAP2
+T9	Protein 867 871	CAP1
+T10	Protein 920 924	CAP2
+T11	Protein 1015 1019	Cap1
+T12	Protein 1099 1103	CAP2
+T13	OOS 48 51	His
+A1	Fusion T13
+#1	AnnotatorNotes T13	not tagged by tagger
+T14	Protein 432 435	GST
+A2	Fusion T14
+#2	AnnotatorNotes T14	not tagged by tagger
+A3	Fusion T1
+A4	Fusion T4
+T15	OOS 181 185	NdeI
+T16	OOS 190 194	SalI
+T17	OOS 218 229	6-histidine
+T18	OOS 572 577	EcoRI
+T19	OOS 582 586	SalI
+T20	OOS 848 853	EcoRI
+T21	OOS 858 862	SalI

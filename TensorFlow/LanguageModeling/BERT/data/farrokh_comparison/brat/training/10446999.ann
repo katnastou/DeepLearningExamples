@@ -1,0 +1,27 @@
+T1	Protein 26 44	vitamin D receptor
+T2	Protein 976 987	VD receptor
+T3	Protein 989 992	VDR
+T4	Protein 1034 1037	VDR
+T5	Protein 1136 1155	retinoid X receptor
+T6	Protein 1572 1575	VDR
+*	Equiv T2 T3
+R1	Complex_formation Arg1:T4 Arg2:T5
+T7	Chemical 48 71	all-trans-retinoic acid
+T8	Chemical 238 261	all-trans-retinoic acid
+T9	Chemical 263 267	ATRA
+T10	Chemical 273 283	vitamin D3
+T11	Chemical 285 287	VD
+*	Equiv T10 T11
+*	Equiv T9 T8
+T12	Chemical 440 444	ATRA
+T13	Chemical 480 482	VD
+T14	Chemical 766 770	ATRA
+T15	Chemical 775 777	VD
+T16	Chemical 926 928	VD
+T17	Chemical 910 914	ATRA
+T18	Chemical 1064 1068	ATRA
+T19	Chemical 1177 1186	vitamin D
+T20	Chemical 1244 1253	vitamin D
+T21	Chemical 1330 1332	VD
+T22	Chemical 1365 1369	ATRA
+T23	Chemical 1519 1523	ATRA

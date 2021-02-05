@@ -1,0 +1,61 @@
+T1	Protein 655 670	betaIII-tubulin
+T2	Protein 852 867	betaIII-tubulin
+T3	Protein 1044 1059	betaIII-tubulin
+T4	Protein 1250 1265	betaIII-tubulin
+T5	Protein 1727 1742	betaIII-tubulin
+T6	Protein 2573 2588	betaIII-tubulin
+T7	Protein 92 97	pEGFP
+T8	Protein 112 117	pEGFP
+T9	Protein 99 105	Capzb2
+T10	Protein 122 128	Capzb2
+T11	Protein 156 162	Capzb2
+T12	Protein 163 167	EGFP
+A1	Fusion T12
+A2	Fusion T7
+A3	Fusion T8
+T13	Chemical 223 239	paraformaldehyde
+T14	Protein 250 256	Capzb2
+T15	Protein 379 385	Capzb2
+T16	Protein 386 390	EGFP
+A4	Fusion T16
+T17	Protein 414 420	Capzb2
+T18	Protein 544 549	pEGFP
+A5	Fusion T18
+T19	Protein 589 594	pEGFP
+A6	Fusion T19
+T20	Protein 616 621	pEGFP
+A7	Fusion T20
+T21	Protein 623 626	GFP
+A8	Fusion T21
+T22	Protein 1494 1499	pEGFP
+A9	Fusion T22
+T23	Protein 1514 1519	pEGFP
+A10	Fusion T23
+T24	Protein 1554 1558	EGFP
+A11	Fusion T24
+T25	Protein 2462 2466	EGFP
+A12	Fusion T25
+T26	Protein 603 609	Capzb2
+T27	Protein 817 824	F-actin
+T28	Protein 1026 1033	F-actin
+T29	Protein 1279 1286	F-actin
+T30	Protein 1501 1507	Capzb2
+T31	Protein 1525 1531	Capzb2
+T32	Protein 1547 1553	Capzb2
+T33	Protein 1807 1814	F-actin
+T34	Protein 1948 1954	Capzb2
+T35	Protein 2467 2473	Capzb2
+#1	AnnotatorNotes T7	not tagged by tagger
+#2	AnnotatorNotes T8	not tagged by tagger
+#3	AnnotatorNotes T12	not tagged by tagger
+#4	AnnotatorNotes T22	not tagged by tagger
+#5	AnnotatorNotes T23	not tagged by tagger
+#6	AnnotatorNotes T24	not tagged by tagger
+#7	AnnotatorNotes T18	not tagged by tagger
+#8	AnnotatorNotes T19	not tagged by tagger
+#9	AnnotatorNotes T20	not tagged by tagger
+#10	AnnotatorNotes T21	not tagged by tagger
+#11	AnnotatorNotes T25	not tagged by tagger
+A13	Fusion T11
+A14	Fusion T32
+A15	Fusion T35

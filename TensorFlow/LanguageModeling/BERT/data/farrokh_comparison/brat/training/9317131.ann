@@ -1,0 +1,50 @@
+T1	Protein 33 38	STAT6
+T2	Protein 65 69	IL-4
+T3	Protein 105 108	IgE
+T4	Protein 374 378	IL-4
+T5	Protein 471 476	STAT6
+T6	Protein 478 486	IL-4STAT
+T7	Protein 721 725	IL-4
+T8	Complex 850 861	NF kappa B1
+T9	Protein 886 889	p50
+T10	Protein 890 893	p65
+T11	Complex 941 952	NF kappa B2
+T12	Protein 980 983	p50
+T13	Protein 988 992	relB
+T14	Complex 1073 1084	NF kappa B2
+T15	Protein 1119 1123	IL-4
+T16	Complex 1220 1231	NF kappa B1
+T17	Complex 1311 1322	NF kappa B2
+T18	Protein 1367 1372	STAT6
+T19	Complex 1410 1421	NF kappa B2
+T20	Protein 1568 1573	STAT6
+T21	Protein 1601 1605	IL-4
+T22	Complex 1733 1744	NF kappa B2
+T23	Protein 1796 1801	STAT6
+T24	Protein 1813 1817	IL-4
+*	Equiv T5 T6
+R1	Complex_formation Arg1:T9 Arg2:T10
+R2	Complex_formation Arg1:T12 Arg2:T13	
+R3	Positive_regulation Arg1:T2 Arg2:T3	
+T25	Protein 393 396	IgE
+R4	Regulation_of_transcription Arg1:T4 Arg2:T25	
+R5	Positive_regulation Arg1:T4 Arg2:T25	
+R6	Regulation_of_transcription Arg1:T5 Arg2:T25	
+R7	Regulation_of_transcription Arg1:T9 Arg2:T8	
+R8	Regulation_of_transcription Arg1:T10 Arg2:T8	
+R9	Regulation_of_transcription Arg1:T12 Arg2:T11	
+R10	Regulation_of_transcription Arg1:T13 Arg2:T11	
+R11	Complex_formation Arg1:T22 Arg2:T23	
+T26	Protein 1852 1855	IgE
+R12	Positive_regulation Arg1:T24 Arg2:T26	
+R13	Regulation_of_transcription Arg1:T23 Arg2:T26	
+R14	Regulation_of_transcription Arg1:T22 Arg2:T26	
+T27	Protein 1498 1531	In addition, the combination of a
+#1	AnnotatorNotes T27	Remove last 2 sentences
+T28	Complex 43 57	NF kappa B/rel
+T29	Complex 672 686	NF kappa B/rel
+T30	Complex 1532 1546	NF kappa B/rel
+T31	Protein 129 143	Ig heavy chain
+#12	AnnotatorNotes T31	Not in String
+T32	Protein 353 356	IgE
+T33	Protein 994 997	IgE

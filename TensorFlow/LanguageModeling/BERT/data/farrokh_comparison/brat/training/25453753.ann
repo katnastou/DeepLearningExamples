@@ -1,0 +1,10 @@
+T1	Protein 68 100	epidermal growth factor receptor
+T2	Protein 107 139	epidermal growth factor receptor
+T3	Protein 141 145	EGFR
+T4	Protein 296 300	EGFR
+T5	Protein 415 419	EGFR
+T6	Protein 752 756	EGFR
+T7	Protein 888 892	EGFR
+T8	Protein 989 993	EGFR
+T9	Protein 1183 1187	EGFR
+*	Equiv T2 T3

@@ -1,0 +1,68 @@
+T1	Protein 0 30	SUMO-Targeted Ubiquitin Ligase
+T2	Protein 32 37	STUbL
+T3	Protein 39 43	Slx5
+T4	Protein 81 91	histone H3
+T5	Protein 100 104	Cse4
+T7	Protein 682 686	Cse4
+T8	Protein 690 694	Psh1
+T9	Protein 750 754	Cse4
+T10	Protein 797 801	Cse4
+T11	Protein 830 834	Siz1
+T12	Protein 839 843	Siz2
+T13	Protein 884 888	Cse4
+T14	Family 892 957	Small Ubiquitin-related Modifier (SUMO)-Targeted Ubiquitin Ligase
+T16	Family 959 964	STUbL
+T17	Protein 966 970	Slx5
+T18	Protein 1011 1015	Cse4
+T19	Protein 1048 1052	Cse4
+T20	Protein 1134 1138	Cse4
+T21	Protein 1174 1178	Cse4
+T22	Protein 1272 1276	Cse4
+T23	Protein 1278 1282	Slx5
+T24	Protein 1292 1296	Cse4
+T25	Protein 1327 1331	Psh1
+T26	Protein 1399 1403	Cse4
+T27	Protein 1528 1532	Slx5
+T28	Protein 1570 1574	Cse4
+*	Equiv T1 T2 T3
+R1	Regulation_of_proteolysis Arg1:T3 Arg2:T5	
+T29	Protein 179 189	CENP-ACse4
+T6	Protein 155 177	Centromeric histone H3
+*	Equiv T6 T29
+T30	Protein 284 294	CENP-ACse4
+T31	Protein 357 367	CENP-ACse4
+T32	Protein 486 492	CENP-A
+T33	Protein 553 559	CENP-A
+R3	Catalysis_of_ubiquitination Arg1:T8 Arg2:T7	
+R4	Regulation_of_proteolysis Arg1:T9 Arg2:T8	
+R5	Catalysis_of_protein_modification Arg1:T11 Arg2:T10	
+R6	Catalysis_of_protein_modification Arg1:T12 Arg2:T10	
+R8	Regulation_of_proteolysis Arg1:T17 Arg2:T18	
+R9	Regulation Arg1:T17 Arg2:T19	
+R10	Regulation_of_proteolysis Arg1:T23 Arg2:T24	
+T15	Protein 1338 1351	slx5increment
+T34	Protein 1352 1365	psh1increment
+T35	Protein 1182 1195	slx5increment
+T36	Protein 1453 1466	slx5increment
+T37	Protein 1470 1483	psh1increment
+R12	Regulation_of_proteolysis Arg1:T27 Arg2:T28	
+T38	Family 699 708	E3 ligase
+T39	Family 819 829	E3 ligases
+T40	Protein 1238 1247	ubiquitin
+T41	Protein 1536 1545	ubiquitin
+R2	Catalysis_of_ubiquitination Arg1:T17 Arg2:T13	
+*	Equiv T16 T14
+A1	Blacklisted T40
+A2	Blacklisted T41
+A3	Mutant T35
+#1	AnnotatorNotes T35	increment in entity
+A4	Mutant T15
+#2	AnnotatorNotes T15	increment in entity
+A5	Mutant T34
+#3	AnnotatorNotes T34	increment in entity
+A6	Mutant T37
+#4	AnnotatorNotes T37	increment in entity
+A7	Mutant T36
+#5	AnnotatorNotes T36	increment in entity
+R7	Regulation_of_proteolysis Arg1:T40 Arg2:T22	
+R11	Regulation_of_proteolysis Arg1:T41 Arg2:T28	

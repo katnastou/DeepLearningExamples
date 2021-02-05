@@ -1,0 +1,18 @@
+T1	Protein 30 35	Txnip
+T2	Protein 70 75	NF-YA
+T3	Protein 80 85	NF-YB
+T4	Protein 98 103	Txnip
+T5	Protein 268 273	Txnip
+T6	Protein 409 414	Txnip
+T7	Protein 510 515	Txnip
+T8	Protein 439 443	NF-Y
+R1	Regulation_of_transcription Arg1:T8 Arg2:T6	
+T9	Protein 500 504	NF-Y
+R2	Regulation_of_transcription Arg1:T9 Arg2:T7	
+T10	Protein 204 208	NF-Y
+R3	Regulation_of_transcription Arg1:T2 Arg2:T1	
+R4	Regulation_of_transcription Arg1:T3 Arg2:T1	
+T11	Protein 341 345	NF-Y
+R5	Regulation_of_transcription Arg1:T10 Arg2:T4	
+T12	Protein 0 14	In ChIP assays
+#1	AnnotatorNotes T12	NOTE: not sure if those relationships should be annotated

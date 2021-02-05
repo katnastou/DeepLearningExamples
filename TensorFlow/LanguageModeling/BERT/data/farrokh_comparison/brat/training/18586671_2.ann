@@ -1,0 +1,33 @@
+T1	Protein 0 5	TSG-6
+T2	Protein 140 145	TSG-6
+T3	Protein 303 308	TSG-6
+T4	Protein 367 372	TSG-6
+T5	Protein 382 387	RANKL
+T6	Protein 532 537	TSG-6
+T7	Protein 658 663	TSG-6
+T8	Protein 778 783	TSG-6
+T9	Protein 851 856	TSG-6
+T10	Protein 951 956	TSG-6
+T11	Protein 969 997	bone morphogenetic protein-2
+T12	Protein 999 1004	BMP-2
+T13	Protein 1078 1083	TSG-6
+T14	Protein 1102 1107	RANKL
+T15	Protein 1115 1120	BMP-2
+T16	OOS 1216 1219	CUB
+T17	Protein 1470 1475	TSG-6
+T18	Protein 1545 1550	RANKL
+T19	Protein 1671 1676	BMP-2
+T20	Protein 1681 1686	RANKL
+T21	Protein 256 263	plasmin
+R1	Regulation Arg1:T4 Arg2:T5	
+*	Equiv T11 T12
+R2	Regulation Arg1:T10 Arg2:T11	
+R3	Complex_formation Arg1:T13 Arg2:T14	
+R4	Complex_formation Arg1:T13 Arg2:T15	
+T22	Protein 1163 1168	BMP-3
+R5	Out-of-scope Arg1:T13 Arg2:T22	
+T23	Family 1139 1154	osteogenic BMPs
+R6	Complex_formation Arg1:T13 Arg2:T23	
+R7	Regulation Arg1:T17 Arg2:T18	
+R8	Complex_formation Arg1:T17 Arg2:T19	
+R9	Complex_formation Arg1:T17 Arg2:T20	

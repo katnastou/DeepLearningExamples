@@ -1,0 +1,6 @@
+T2	Protein 329 337	hnRNP A1
+T3	Protein 376 384	hnRNP A1
+T4	Protein 507 515	hnRNP A1
+T5	Protein 158 200	heterogeneous ribonucleoprotein (hnRNP) A1
+T6	Protein 423 433	telomerase
+R1	Complex_formation Arg1:T3 Arg2:T6	

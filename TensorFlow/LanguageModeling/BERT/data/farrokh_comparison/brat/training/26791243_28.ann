@@ -1,0 +1,24 @@
+T1	Protein 20 24	dPIS
+T2	Protein 221 232	PI synthase
+T3	Protein 456 488	lipid phosphate phosphohydrolase
+T4	Protein 540 551	PI synthase
+T5	Protein 629 640	PI synthase
+T6	Protein 737 741	dPIS
+T7	OOS 829 837	shut-off
+T8	Protein 963 967	dPIS
+T9	Protein 1131 1135	dPIS
+T10	Chemical 66 68	PA
+#1	AnnotatorNotes T10	phosphatidic acid
+T11	Chemical 174 176	PA
+T12	Protein 272 277	Opi1p
+T13	Chemical 305 307	PA
+T14	Chemical 396 398	PA
+T15	Chemical 505 507	PA
+T16	Chemical 609 611	PA
+T17	Protein 773 780	CdsAms1
+A1	Mutant T17
+T18	Chemical 912 914	PA
+T19	Protein 1102 1109	CdsAms1
+A2	Mutant T19
+#2	AnnotatorNotes T7	tagged by tagger
+R1	Complex_formation Arg1:T12 Arg2:T13	

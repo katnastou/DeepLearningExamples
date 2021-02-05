@@ -1,0 +1,26 @@
+T1	Protein 0 5	E2F-1
+T2	Protein 43 65	uracil-DNA glycosylase
+T3	Protein 183 188	E2F-1
+T4	Protein 249 271	uracil-DNA glycosylase
+T5	Protein 273 276	UDG
+T6	Protein 371 374	UDG
+T7	Protein 414 419	E2F-1
+T8	Protein 434 437	UDG
+T9	Protein 568 573	E2F-1
+T10	Protein 574 577	DP1
+T11	Protein 685 688	UDG
+T12	Protein 726 729	UDG
+T13	Protein 909 912	UDG
+T14	Protein 1319 1322	UDG
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T9 Arg2:T10
+R2	Positive_regulation Arg1:T7 Arg2:T8	
+R3	Regulation_of_gene_expression Arg1:T3 Arg2:T4	
+R4	Regulation_of_transcription Arg1:T7 Arg2:T8	
+T15	Family 463 466	E2F
+T16	Family 513 516	E2F
+T17	Family 706 709	E2F
+T18	Family 863 866	E2F
+T19	Family 1174 1177	E2F
+T20	Family 1195 1198	E2F
+T21	Family 1326 1329	E2F

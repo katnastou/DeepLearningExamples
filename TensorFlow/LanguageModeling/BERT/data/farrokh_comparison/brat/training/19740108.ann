@@ -1,0 +1,31 @@
+T1	Protein 255 280	deoxyhypusine hydroxylase
+T2	Protein 282 286	DOHH
+T3	Protein 376 380	dohh
+T4	Protein 555 559	DOHH
+T5	Protein 837 841	DOHH
+T6	Protein 901 905	DOHH
+T7	Protein 956 960	dohh
+T8	Protein 1288 1292	DOHH
+T10	Protein 1434 1440	P49366
+T12	Protein 1549 1553	DOHH
+T13	Protein 151 182	eukaryotic initiation factor-5A
+T14	Protein 184 190	eIF-5A
+*	Equiv T13 T14
+*	Equiv T1 T2
+T15	Protein 325 331	eIF-5A
+R1	Regulation Arg1:T2 Arg2:T15	
+T9	Protein 1419 1422	DHS
+T16	Protein 1476 1482	eIF-5A
+T17	Protein 1494 1500	Q710D1
+*	Equiv T16 T17
+R2	Complex_formation Arg1:T10 Arg2:T16	
+T11	Protein 1565 1571	Q8I701
+T18	Protein 1607 1613	eIF-5A
+T19	Protein 1625 1631	Q710D1
+*	Equiv T18 T19
+*	Equiv T12 T11
+R3	Complex_formation Arg1:T11 Arg2:T18	
+T20	Chemical 15 23	hypusine
+#1	AnnotatorNotes T20	uncommon amino acid
+T21	Chemical 131 139	hypusine
+T22	OOS 15 31	hypusine pathway

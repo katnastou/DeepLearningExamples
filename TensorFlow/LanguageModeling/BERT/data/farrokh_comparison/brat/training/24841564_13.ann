@@ -1,0 +1,52 @@
+T1	Protein 201 213	cytochrome b
+T2	Protein 303 307	Cytb
+T3	Protein 322 326	Cytb
+T4	Protein 644 656	cytochrome b
+T5	Protein 846 858	cytochrome b
+T6	Protein 874 878	His7
+T7	Protein 886 890	Cbp3
+T8	Protein 998 1002	His7
+T9	Protein 1169 1181	cytochrome b
+T10	Protein 1247 1259	cytochrome b
+T11	Protein 1419 1431	cytochrome b
+T12	Chemical 299 301	bL
+T13	Chemical 318 320	bH
+T14	Chemical 55 59	heme
+T15	Chemical 392 396	heme
+T16	Chemical 435 439	heme
+T17	Complex 508 511	bc1
+#1	AnnotatorNotes T17	complex III
+T18	Complex 709 712	bc1
+T19	Complex 744 747	COX
+A1	Fusion T6
+A2	Fusion T7
+T20	Chemical 950 959	digitonin
+A3	Fusion T8
+T21	Chemical 1050 1054	heme
+T22	Chemical 1120 1122	bH
+T23	Chemical 1161 1165	heme
+T24	Chemical 1166 1168	bs
+T25	Chemical 1316 1318	bL
+T26	Chemical 1351 1357	heme b
+T27	Chemical 1468 1474	heme b
+T28	Chemical 1496 1500	heme
+T29	Chemical 1524 1526	bL
+T30	Chemical 1556 1558	bL
+T31	Chemical 1593 1599	heme b
+#2	AnnotatorNotes T12	Cytochrome b contains two heme bs, one low-potential heme bL located close to the intermembrane space side of the inner membrane and one high-potential heme bH at the opposite side of the membrane
+T32	Chemical 1669 1671	bL
+T33	Chemical 1706 1708	bH
+#3	AnnotatorNotes T14	group
+#4	AnnotatorNotes T15	group
+#5	AnnotatorNotes T16	group
+#6	AnnotatorNotes T21	group
+#7	AnnotatorNotes T23	group
+#8	AnnotatorNotes T28	group
+T34	Complex 1435 1449	intermediate I
+T35	Complex 1193 1207	intermediate I
+T36	Complex 103 117	intermediate I
+T37	Complex 973 987	intermediate I
+T38	Complex 1292 1306	intermediate I
+#9	AnnotatorNotes T36	Intermediate I, which is composed of cytochrome b, Cbp4, and the evolutionary conserved assembly factors Cbp3–Cbp6
+R1	Out-of-scope Arg1:T11 Arg2:T34	
+#10	AnnotatorNotes R1	Part-of relation

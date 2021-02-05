@@ -1,0 +1,16 @@
+T1	OOS 29 32	CBS
+T2	Family 1131 1140	aconitase
+T3	Protein 1167 1171	xylP
+#1	AnnotatorNotes T1	tagged by tagger
+T4	Protein 194 198	akuB
+T5	Chemical 519 526	glucose
+T6	Chemical 537 544	ethanol
+T7	Chemical 733 740	glucose
+T8	Chemical 741 745	agar
+T9	Chemical 788 793	water
+T10	Chemical 1077 1084	glucose
+T11	Protein 1141 1145	acoA
+T12	Chemical 1225 1231	xylose
+T13	Chemical 1389 1395	xylose
+T14	Chemical 1589 1596	glucose
+T15	Chemical 1600 1606	xylose

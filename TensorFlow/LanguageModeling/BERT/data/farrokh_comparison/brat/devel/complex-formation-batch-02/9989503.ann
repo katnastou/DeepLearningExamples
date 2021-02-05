@@ -1,0 +1,49 @@
+T1	Protein 26 29	Nmi
+T2	Protein 45 50	Stat1
+T3	Protein 54 58	IL-2
+T4	Protein 64 72	IFNgamma
+T5	Protein 126 132	Stat5b
+T6	Protein 208 211	Nmi
+T7	Protein 269 285	N-Myc interactor
+T8	Protein 308 311	Nmi
+T9	Protein 344 349	Stat2
+T10	Protein 386 390	IL-2
+T11	Protein 395 403	IFNgamma
+T12	Protein 426 429	Nmi
+T13	Protein 514 517	Nmi
+T14	Protein 581 584	Nmi
+T15	Protein 648 653	Stat1
+T16	Protein 704 708	IL-2
+T17	Protein 714 722	IFNgamma
+T18	Protein 789 792	Nmi
+R1	Complex_formation Arg1:T5 Arg2:T6
+R2	Negated Arg1:T8 Arg2:T9
+T19	Protein 35 40	Stat5
+*	Equiv T7 T6
+T20	Protein 613 616	CBP
+T21	Protein 617 621	p300
+*	Equiv T20 T21
+T22	Protein 658 663	Stat5
+T23	Protein 683 686	CBP
+T24	Protein 687 691	p300
+R3	Regulation Arg1:T11 Arg2:T12	
+R4	Regulation Arg1:T10 Arg2:T12	
+R5	Positive_regulation Arg1:T14 Arg2:T20	
+R6	Complex_formation Arg1:T21 Arg2:T15	
+R7	Complex_formation Arg1:T21 Arg2:T22	
+R8	Positive_regulation Arg1:T14 Arg2:T15	
+R9	Positive_regulation Arg1:T14 Arg2:T22	
+R10	Positive_regulation Arg1:T24 Arg2:T16	
+*	Equiv T24 T23
+R11	Positive_regulation Arg1:T24 Arg2:T17	
+R12	Positive_regulation Arg1:T14 Arg2:T16	
+R13	Positive_regulation Arg1:T14 Arg2:T17	
+R14	Other Arg1:T1 Arg2:T19	
+R15	Other Arg1:T1 Arg2:T2	
+T25	Protein 331 336	STATs
+#1	AnnotatorNotes T25	Family
+R16	Complex_formation Arg1:T8 Arg2:T25	
+T26	Protein 439 443	STAT
+#2	AnnotatorNotes T26	Family
+T27	Protein 808 812	STAT
+#3	AnnotatorNotes T27	Family

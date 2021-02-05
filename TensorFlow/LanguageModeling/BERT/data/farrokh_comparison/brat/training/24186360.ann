@@ -1,0 +1,43 @@
+T1	Protein 99 106	insulin
+T2	Protein 175 182	Insulin
+T3	Protein 341 348	insulin
+T4	Protein 370 375	GLUT4
+T5	Protein 657 664	insulin
+T6	Protein 962 967	GLUT4
+T7	Protein 1332 1357	Hsc70-interacting protein
+T8	Protein 1359 1363	CHIP
+T9	Protein 1500 1507	insulin
+T10	Protein 1640 1647	insulin
+T11	Protein 1678 1683	GLUT4
+T12	Protein 1721 1728	insulin
+T13	Protein 1797 1804	insulin
+T14	Protein 1880 1887	insulin
+*	Equiv T7 T8
+T15	Protein 1267 1288	heat-shock protein 70
+T16	Protein 496 526	neuronal nitric oxide synthase
+T17	Protein 528 532	nNOS
+*	Equiv T16 T17
+T18	Protein 1243 1247	nNOS
+T19	Protein 999 1003	nNOS
+R1	Complex_formation Arg1:T18 Arg2:T15	
+R2	Regulation_of_proteolysis Arg1:T15 Arg2:T18	
+R3	Negative_regulation Arg1:T15 Arg2:T18	
+R4	Complex_formation Arg1:T18 Arg2:T7	
+R5	Regulation_of_proteolysis Arg1:T7 Arg2:T18	
+R6	Negative_regulation Arg1:T7 Arg2:T18	
+T20	Protein 1396 1400	nNOS
+T21	Protein 1472 1476	nNOS
+T22	Protein 1613 1617	nNOS
+R7	Regulation Arg1:T22 Arg2:T11	
+T23	Protein 1789 1793	nNOS
+T24	Protein 1155 1164	ubiquitin
+T25	Chemical 192 199	glucose
+T26	Chemical 284 291	glucose
+T27	Chemical 573 580	glucose
+T28	Chemical 930 937	glucose
+T29	Chemical 1516 1523	glucose
+T30	Chemical 1659 1666	glucose
+T31	Chemical 23 35	nitric oxide
+T32	OOS 1155 1183	ubiquitin proteasome pathway
+T33	Complex 1165 1175	proteasome
+A1	Blacklisted T24

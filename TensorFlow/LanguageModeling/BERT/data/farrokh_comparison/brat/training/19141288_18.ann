@@ -1,0 +1,35 @@
+T1	Protein 4 7	PhK
+T2	Protein 8 11	GPb
+T3	Protein 192 195	PhK
+T4	Protein 200 203	GPb
+T5	Protein 289 292	PhK
+T6	Protein 321 324	GPb
+T7	Protein 364 367	PhK
+T8	Protein 368 371	GPb
+T9	Protein 485 488	PhK
+T10	Protein 508 511	GPb
+T11	Protein 574 577	PhK
+T12	Protein 688 691	PhK
+T13	Protein 692 695	GPb
+T14	Protein 1156 1159	PhK
+T15	Protein 1160 1163	GPb
+T16	Protein 1172 1175	PhK
+T17	Protein 1211 1214	GPb
+T18	Protein 1260 1263	PhK
+T19	Protein 1290 1293	GPb
+T20	Protein 1345 1348	PhK
+T21	Protein 1354 1357	GPb
+T22	Protein 1512 1515	GPb
+T23	Protein 1548 1551	PhK
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+R3	Complex_formation Arg1:T7 Arg2:T8	
+R4	Catalysis_of_phosphorylation Arg1:T9 Arg2:T10	
+R5	Catalysis_of_phosphorylation Arg1:T12 Arg2:T13	
+R6	Complex_formation Arg1:T14 Arg2:T15	
+R7	Complex_formation Arg1:T18 Arg2:T19	
+R8	Complex_formation Arg1:T20 Arg2:T21	
+T24	Chemical 111 115	Mg2+
+T25	Chemical 120 124	Ca2+
+T26	Chemical 878 882	Mg2+
+T27	Chemical 887 891	Ca2+

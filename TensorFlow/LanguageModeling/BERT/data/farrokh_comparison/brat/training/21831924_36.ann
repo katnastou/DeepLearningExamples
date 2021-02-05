@@ -1,0 +1,11 @@
+T1	OOS 294 305	traffic jam
+T2	Protein 409 413	vret
+T3	OOS 279 283	soma
+#1	AnnotatorNotes T3	body in greek :) 
+T4	OOS 255 259	42AB
+#2	AnnotatorNotes T4	piRNA
+T5	OOS 264 273	Cluster 3
+#3	AnnotatorNotes T5	piRNA
+T6	OOS 285 289	flam
+#4	AnnotatorNotes T1	tagged by tagger
+T7	OOS 354 363	Cluster 2

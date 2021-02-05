@@ -1,0 +1,38 @@
+T1	Protein 15 20	c-Cbl
+T2	Protein 21 26	UbcH7
+T3	Family 60 85	ubiquitin-protein ligases
+T4	Family 88 113	Ubiquitin-protein ligases
+T5	Protein 197 202	c-Cbl
+T6	Protein 411 416	c-Cbl
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T7	Family 115 118	E3s
+*	Equiv T4 T7
+T8	Family 235 237	E3
+T9	Family 356 358	E2
+T10	Family 254 289	activated receptor tyrosine kinases
+R2	Complex_formation Arg1:T8 Arg2:T10	
+R3	Regulation_of_proteolysis Arg1:T8 Arg2:T10	
+T11	Family 326 354	ubiquitin-conjugating enzyme
+*	Equiv T11 T9
+R4	Catalysis_of_ubiquitination Arg1:T11 Arg2:T10	
+R5	Regulation_of_proteolysis Arg1:T11 Arg2:T10	
+R6	Negative_regulation Arg1:T11 Arg2:T10	
+R7	Negative_regulation Arg1:T8 Arg2:T10	
+T12	Family 436 438	E2
+R8	Complex_formation Arg1:T6 Arg2:T12	
+T13	Family 499 501	E2
+T14	Family 535 537	E3
+T15	Family 538 540	E2
+R9	Complex_formation Arg1:T14 Arg2:T15	
+T16	Family 573 575	E2
+T17	Family 607 609	E3
+R10	Complex_formation Arg1:T17 Arg2:T16	
+T18	Family 695 697	E2
+T19	Family 778 780	E2
+T20	Family 815 818	E3s
+T21	Family 881 883	E2
+R11	Complex_formation Arg1:T20 Arg2:T19	
+R12	Complex_formation Arg1:T21 Arg2:T20	
+T22	Family 523 527	HECT
+T23	Protein 898 907	ubiquitin
+A1	Blacklisted T23

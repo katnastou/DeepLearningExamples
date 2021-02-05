@@ -1,0 +1,19 @@
+T1	Protein 143 149	PCDH24
+T2	Protein 195 201	PCDH24
+T3	Protein 223 229	MLPCDH
+T4	Protein 293 299	PCDH24
+T5	Protein 451 457	PCDH24
+T6	Protein 521 527	MLPCDH
+T7	Protein 582 588	PCDH24
+T8	Protein 661 667	PCDH24
+T9	Protein 672 678	MLPCDH
+T10	OOS 174 178	FLAG
+A1	Fusion T10
+#1	AnnotatorNotes T10	not tagged by tagger
+A2	Fusion T2
+A3	Fusion T3
+A4	Fusion T4
+T11	Chemical 705 709	Ca2+
+R1	Complex_formation Arg1:T5 Arg2:T6	
+R2	Complex_formation Arg1:T8 Arg2:T9	
+R3	Complex_formation Arg1:T7 Arg2:T6	

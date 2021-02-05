@@ -1,0 +1,64 @@
+T1	Protein 144 155	CD40 ligand
+T2	Protein 160 164	IL-4
+T3	Protein 196 202	STAT-6
+T4	Protein 524 533	I gamma 3
+T5	Protein 630 639	C gamma 3
+T6	Protein 650 659	I gamma 3
+T7	Protein 691 700	I gamma 3
+T8	Protein 796 805	I gamma 1
+T9	Protein 807 816	I gamma 2
+T10	Protein 822 831	I gamma 4
+T11	Protein 1030 1034	CD40
+T12	Protein 1038 1049	CD40 ligand
+T13	Protein 1051 1056	CD40L
+T14	Protein 1074 1078	IL-4
+T15	Protein 1114 1118	CD40
+T16	Protein 1119 1124	CD40L
+T17	Protein 1152 1156	IL-4
+T18	Protein 1380 1385	CD40L
+T19	Protein 1390 1394	IL-4
+T20	Protein 1404 1410	STAT-6
+T21	Protein 1453 1457	IL-4
+T22	Protein 1522 1525	p50
+T23	Protein 1526 1529	p65
+T24	Protein 1530 1535	c-Rel
+T25	Protein 1540 1546	STAT-6
+T26	Protein 1574 1579	CD40L
+T27	Protein 1584 1588	IL-4
+T28	Protein 1680 1685	CD40L
+T29	Protein 1690 1694	IL-4
+T30	Protein 1914 1919	CD40L
+T31	Protein 1924 1928	IL-4
+*	Equiv T12 T13
+R1	Complex_formation Arg1:T11 Arg2:T12
+R2	Complex_formation Arg1:T15 Arg2:T16
+R3	Regulation_of_gene_expression Arg1:T26 Arg2:T25	
+R4	Regulation_of_gene_expression Arg1:T26 Arg2:T24	
+R5	Regulation_of_gene_expression Arg1:T26 Arg2:T23	
+R6	Regulation_of_gene_expression Arg1:T26 Arg2:T22	
+R7	Regulation_of_gene_expression Arg1:T27 Arg2:T25	
+R8	Regulation_of_gene_expression Arg1:T27 Arg2:T24	
+R9	Regulation_of_gene_expression Arg1:T27 Arg2:T23	
+R10	Regulation_of_gene_expression Arg1:T27 Arg2:T22	
+T32	Protein 1979 1988	C gamma 3
+R11	Regulation_of_transcription Arg1:T31 Arg2:T32	
+R12	Regulation_of_transcription Arg1:T30 Arg2:T32	
+T33	Protein 60 84	Ig heavy chain S gamma 3
+R13	Regulation_of_transcription Arg1:T1 Arg2:T33	
+R14	Regulation_of_transcription Arg1:T2 Arg2:T33	
+R15	Positive_regulation Arg1:T1 Arg2:T33	
+R16	Positive_regulation Arg1:T2 Arg2:T33	
+T34	Complex 181 191	NF-kappa B
+R17	Positive_regulation Arg1:T26 Arg2:T25	
+R18	Positive_regulation Arg1:T26 Arg2:T24	
+R19	Positive_regulation Arg1:T26 Arg2:T23	
+R20	Positive_regulation Arg1:T26 Arg2:T22	
+R21	Positive_regulation Arg1:T27 Arg2:T25	
+R22	Positive_regulation Arg1:T27 Arg2:T24	
+R23	Positive_regulation Arg1:T27 Arg2:T23	
+R24	Positive_regulation Arg1:T27 Arg2:T22	
+R25	Positive_regulation Arg1:T31 Arg2:T32	
+R26	Positive_regulation Arg1:T30 Arg2:T32	
+T35	Protein 1 59	he evolutionarily conserved sequence upstream of the human
+#1	AnnotatorNotes T35	Remove abstract
+T36	Complex 1296 1310	NF-kappa B/Rel

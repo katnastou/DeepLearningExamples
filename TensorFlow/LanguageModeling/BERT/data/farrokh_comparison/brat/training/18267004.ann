@@ -1,0 +1,15 @@
+T1	Protein 22 27	Sup35
+T2	Protein 347 351	eRF1
+T3	Protein 356 360	eRF3
+T4	Protein 434 440	Sup35p
+T5	Protein 446 450	eRF3
+T6	Protein 551 555	eRF3
+T7	Protein 879 884	Sup35
+T8	Protein 1219 1223	eRF1
+T9	Protein 1224 1230	Sup45p
+T10	Protein 1558 1563	Sup35
+T11	Protein 1723 1728	Sup35
+T12	Protein 952 983	cAMP-dependent protein kinase A
+R1	Catalysis_of_phosphorylation Arg1:T12 Arg2:T7	
+*	Equiv T8 T9
+R2	Complex_formation Arg1:T7 Arg2:T8	

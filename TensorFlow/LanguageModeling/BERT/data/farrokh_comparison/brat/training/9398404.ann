@@ -1,0 +1,53 @@
+T1	Protein 0 4	IL-2
+T2	Protein 9 13	IL-7
+T3	Protein 152 170	interleukin (IL)-2
+T4	Protein 175 179	IL-7
+T5	Protein 366 372	STAT5A
+T6	Protein 377 383	STAT5B
+T7	Protein 388 392	IL-2
+T8	Protein 398 402	IL-7
+T9	Protein 499 505	STAT5A
+T10	Protein 510 516	STAT5B
+T11	Protein 684 688	IL-2
+T12	Protein 694 697	L-7
+T13	Protein 764 768	IL-7
+T14	Protein 792 796	IL-2
+T15	Protein 812 816	IL-2
+T16	Protein 821 825	IL-7
+T17	Protein 897 903	STAT5A
+T18	Protein 908 914	STAT5B
+T19	Protein 992 996	IL-2
+T20	Protein 1001 1005	IL-7
+T21	Protein 1037 1043	STAT5A
+T22	Protein 1044 1050	STAT5B
+T23	Protein 1175 1179	IL-2
+T24	Protein 1184 1188	IL-7
+R1	Complex_formation Arg1:T9 Arg2:T10
+R2	Complex_formation Arg1:T21 Arg2:T22
+T25	Protein 43 48	STAT5
+R3	Regulation Arg1:T2 Arg2:T25	
+R4	Regulation Arg1:T1 Arg2:T25	
+T26	Family 291 295	STAT
+R5	Positive_regulation Arg1:T4 Arg2:T26	
+R6	Positive_regulation Arg1:T3 Arg2:T26	
+T27	Protein 359 364	STAT5
+T28	Protein 564 580	interferon-gamma
+R7	Regulation_of_transcription Arg1:T10 Arg2:T28	
+R8	Regulation_of_transcription Arg1:T9 Arg2:T28	
+R9	Regulation Arg1:T16 Arg2:T17	
+R10	Regulation Arg1:T15 Arg2:T17	
+R11	Regulation Arg1:T16 Arg2:T18	
+R12	Regulation Arg1:T15 Arg2:T18	
+R13	Regulation Arg1:T20 Arg2:T21	
+R14	Regulation Arg1:T20 Arg2:T22	
+R15	Regulation Arg1:T19 Arg2:T21	
+R16	Regulation Arg1:T19 Arg2:T22	
+T29	Protein 1121 1126	STAT3
+T30	Protein 1137 1142	STAT5
+R17	Complex_formation Arg1:T29 Arg2:T30	
+T31	Family 1208 1212	STAT
+R18	Regulation Arg1:T24 Arg2:T31	
+R19	Regulation Arg1:T23 Arg2:T31	
+T32	Family 950 955	STATs
+T33	Family 239 289	signal transducers and activators of transcription
+*	Equiv T33 T26

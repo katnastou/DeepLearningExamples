@@ -1,0 +1,68 @@
+T1	Protein 48 52	RelA
+T2	Protein 54 57	p65
+T3	Protein 122 126	RelA
+T4	Protein 128 131	p65
+T5	Protein 206 209	p50
+T6	Protein 210 213	p65
+T7	Protein 306 321	I kappa B alpha
+T8	Protein 350 365	I kappa B alpha
+T9	Protein 487 514	tumor necrosis factor alpha
+T10	Protein 538 553	I kappa B alpha
+T11	Protein 647 662	I kappa B alpha
+T12	Protein 747 751	RelA
+T13	Protein 807 811	RelA
+T14	Protein 847 862	I kappa B alpha
+T15	Protein 941 952	NF-kappa B2
+T16	Protein 954 958	p100
+T17	Protein 964 975	NF-kappa B1
+T18	Protein 977 981	p105
+T19	Protein 1010 1014	RelA
+T20	Protein 1015 1030	I kappa B alpha
+T21	Protein 1032 1036	RelA
+T22	Protein 1037 1041	p100
+T23	Protein 1094 1121	tumor necrosis factor alpha
+T24	Protein 1140 1144	p100
+T25	Protein 1180 1184	RelA
+T26	Protein 1241 1245	RelA
+T27	Protein 1250 1254	p100
+T28	Protein 1358 1362	RelA
+T29	Protein 1386 1401	I kappa B alpha
+T30	Protein 1415 1419	p100
+T31	Protein 1434 1438	RelA
+T32	Protein 1534 1538	RelA
+T33	Protein 1566 1581	I kappa B alpha
+T34	Protein 1591 1595	RelA
+T35	Protein 1607 1611	p100
+*	Equiv T1 T2
+*	Equiv T17 T18
+*	Equiv T3 T4
+*	Equiv T15 T16
+R1	Complex_formation Arg1:T13 Arg2:T17
+R2	Complex_formation Arg1:T13 Arg2:T14
+R3	Complex_formation Arg1:T13 Arg2:T15
+R4	Complex_formation Arg1:T26 Arg2:T27
+R5	Complex_formation Arg1:T28 Arg2:T29
+R6	Complex_formation Arg1:T5 Arg2:T6	
+R7	Complex_formation Arg1:T21 Arg2:T22	
+R8	Complex_formation Arg1:T19 Arg2:T20	
+R9	Regulation_of_transcription Arg1:T24 Arg2:T25	
+R10	Regulation_of_gene_expression Arg1:T34 Arg2:T35	
+R11	Positive_regulation Arg1:T4 Arg2:T5	
+R12	Complex_formation Arg1:T7 Arg2:T4	
+R13	Regulation_of_proteolysis Arg1:T9 Arg2:T10	
+R14	Positive_regulation Arg1:T23 Arg2:T22	
+R15	Positive_regulation Arg1:T23 Arg2:T21	
+R16	Negative_regulation Arg1:T23 Arg2:T20	
+R17	Negative_regulation Arg1:T23 Arg2:T19	
+R18	Negative_regulation Arg1:T24 Arg2:T25	
+T36	Protein 22 32	NF-kappa B
+#1	AnnotatorNotes T36	Complex
+T37	Protein 214 224	NF-kappa B
+#2	AnnotatorNotes T37	Complex
+T38	Protein 439 449	NF-kappa B
+#3	AnnotatorNotes T38	Complex
+T39	Protein 1796 1806	NF-kappa B
+#4	AnnotatorNotes T39	Complex
+T40	Protein 1278 1281	Rel
+#5	AnnotatorNotes T40	Family
+T41	Protein 105 112	ankyrin

@@ -1,0 +1,21 @@
+T1	Protein 427 431	JunB
+T2	Protein 433 437	FosB
+T3	Protein 442 447	c-Fos
+T4	Protein 627 659	immunoglobulin-like transcript-2
+T5	Protein 660 688	leukocyte Ig-like receptor 1
+T6	Protein 706 713	HLA-B27
+T7	Protein 818 822	JunB
+T8	Protein 824 828	FosB
+T9	Protein 834 839	c-Fos
+R1	Complex_formation Arg1:T4 Arg2:T6
+T10	Complex 54 58	AP-1
+T11	Protein 488 491	Jun
+T12	Protein 492 495	Fos
+R2	Complex_formation Arg1:T11 Arg2:T12	
+*	Equiv T4 T5
+T14	Complex 1195 1199	AP-1
+T15	Complex 367 391	activator protein (AP)-1
+R3	Regulation_of_transcription Arg1:T15 Arg2:T1	
+R4	Regulation_of_transcription Arg1:T15 Arg2:T2	
+R5	Regulation_of_transcription Arg1:T15 Arg2:T3	
+T13	Complex 988 992	AP-1

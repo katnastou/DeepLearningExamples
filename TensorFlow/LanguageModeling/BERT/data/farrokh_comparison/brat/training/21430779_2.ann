@@ -1,0 +1,16 @@
+T1	Protein 765 771	SETDB1
+T2	Protein 799 809	histone H3
+T3	Protein 1120 1126	SETDB1
+T4	Protein 1150 1156	SETDB1
+T5	OOS 137 177	mitogen-activated protein kinase pathway
+#1	AnnotatorNotes T5	Pathway
+T6	Protein 44 48	BRAF
+T7	Protein 95 99	BRAF
+T8	Family 71 94	serine/threonine kinase
+T9	Family 137 169	mitogen-activated protein kinase
+T10	Protein 179 183	BRAF
+T11	Protein 728 732	BRAF
+T12	Family 1034 1037	HOX
+A1	Mutant T6
+A2	Mutant T10
+A3	Mutant T11

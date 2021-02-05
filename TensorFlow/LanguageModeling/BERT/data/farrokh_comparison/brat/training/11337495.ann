@@ -1,0 +1,48 @@
+T1	Protein 627 630	Akt
+T2	Protein 984 987	Akt
+T3	Protein 1381 1384	Akt
+T4	OOS 1493 1496	Tyr
+T5	OOS 1677 1680	Tyr
+T6	OOS 1837 1840	Tyr
+T7	Protein 28 31	p85
+T8	Protein 130 133	p85
+T9	Family 156 185	phosphatidylinositol 3-kinase
+#1	AnnotatorNotes T9	http://pfam.xfam.org/family/PF00454
+T10	Family 187 191	PI3K
+*	Equiv T10 T9
+T11	Protein 237 241	p110
+T12	Protein 288 291	p85
+T13	Protein 353 356	p85
+T14	Family 385 388	Src
+T15	Protein 506 509	p85
+T16	Protein 555 559	SHP1
+T17	Family 615 619	PI3K
+T18	Protein 661 665	SHP1
+T19	Protein 698 701	p85
+T20	Family 723 727	PI3K
+T21	Family 785 789	PI3K
+T22	Protein 831 834	p85
+T23	Protein 889 892	p85
+T24	Protein 918 921	p85
+T25	Family 931 935	PI3K
+T26	Family 968 972	PI3K
+T27	Protein 1032 1035	p85
+T28	Protein 1318 1321	p85
+T29	Complex 1389 1397	NFkappaB
+T30	Protein 1444 1447	p85
+#2	AnnotatorNotes T4	tagged by tagger, has been fixed
+#3	AnnotatorNotes T5	tagged by tagger, has been fixed
+#4	AnnotatorNotes T6	tagged by tagger, has been fixed
+T31	Protein 1614 1617	p85
+T32	Protein 1766 1769	p85
+T33	Protein 1773 1777	p110
+T34	Protein 1723 1726	p85
+T35	Family 1883 1887	PI3K
+T36	Protein 1849 1852	p85
+T37	Family 68 97	phosphatidylinositol 3-kinase
+T38	Protein 434 437	p85
+R1	Complex_formation Arg1:T15 Arg2:T16	
+R2	Out-of-scope Arg1:T21 Arg2:T22	
+#6	AnnotatorNotes R2	"activity...associated with"
+R3	Out-of-scope Arg1:T21 Arg2:T23	
+#7	AnnotatorNotes R3	"activity...associated with"

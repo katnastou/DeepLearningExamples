@@ -1,0 +1,40 @@
+T1	Protein 51 56	c-Rel
+T2	Protein 101 114	interleukin-6
+T3	Protein 211 216	c-Rel
+T4	Protein 373 378	c-Rel
+T5	Protein 445 448	p50
+T6	Protein 586 591	c-Rel
+T7	Protein 626 639	interleukin-6
+T8	Protein 641 645	IL-6
+T9	Protein 651 666	beta interferon
+T10	Protein 715 718	p50
+T11	Protein 809 814	c-Rel
+T12	Protein 823 826	p50
+T13	Protein 858 887	L-6 kappa B binding factor II
+T14	Protein 912 917	c-Rel
+T15	Protein 966 970	IL-6
+T16	Protein 1050 1054	IL-6
+T17	Protein 1096 1117	tumor necrosis factor
+T18	Protein 1276 1306	IL-6 kappa B binding factor II
+T19	Protein 1345 1349	IL-6
+*	Equiv T7 T8
+R1	Complex_formation Arg1:T4 Arg2:T5
+R2	Complex_formation Arg1:T6 Arg2:T9
+R3	Complex_formation Arg1:T6 Arg2:T8
+T20	Protein 307 310	p50
+T21	Protein 315 318	p65
+T22	Protein 1091 1095	IL-1
+*	Equiv T22 T17
+R4	Negative_regulation Arg1:T18 Arg2:T19	
+R5	Regulation_of_gene_expression Arg1:T18 Arg2:T19	
+T23	Complex 236 279	nuclear factor kappa B transcription factor
+T24	Complex 331 353	nuclear factor kappa B
+T25	Complex 115 122	kappa B
+T26	Complex 388 395	kappa B
+T27	Complex 551 558	kappa B
+T28	Complex 667 674	kappa B
+T29	Complex 971 978	kappa B
+T30	Complex 987 994	kappa B
+T31	Complex 1055 1062	kappa B
+T32	Complex 1350 1357	kappa B
+T33	Complex 1366 1373	kappa B

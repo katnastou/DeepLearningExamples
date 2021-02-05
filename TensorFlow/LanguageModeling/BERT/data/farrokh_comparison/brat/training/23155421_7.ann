@@ -1,0 +1,31 @@
+T1	Protein 389 393	TLR9
+T2	Protein 545 549	TLR3
+T3	Protein 575 580	TLR10
+T4	Protein 737 741	TLR4
+T5	Protein 896 900	TLR4
+T6	Protein 966 970	TLR4
+T7	Protein 1355 1359	TLR2
+T8	Protein 1363 1367	TLR2
+T9	Protein 1410 1414	TLR1
+T10	Protein 1419 1423	TLR6
+T11	Protein 1574 1578	TLR2
+T12	Family 64 67	TLR
+T13	Family 148 152	TLRs
+T14	Complex 263 272	NF-kappaB
+T15	Family 304 307	TLR
+T16	Family 1043 1047	TLRs
+T17	Family 1240 1244	TLRs
+T18	Family 1164 1167	TLR
+T19	OOS 57 60	TMD
+#1	AnnotatorNotes T19	transmembrane domain
+T20	Family 1349 1353	TLRs
+T21	Protein 1360 1361	1
+T22	Protein 1368 1369	6
+T23	Family 1618 1621	TLR
+T24	Family 1694 1697	TLR
+T25	Family 1792 1796	TLRs
+T26	Family 1955 1958	TLR
+T27	Family 2115 2118	TLR
+R1	Complex_formation Arg1:T2 Arg2:T3	
+R2	Complex_formation Arg1:T7 Arg2:T21	
+R3	Complex_formation Arg1:T8 Arg2:T22	

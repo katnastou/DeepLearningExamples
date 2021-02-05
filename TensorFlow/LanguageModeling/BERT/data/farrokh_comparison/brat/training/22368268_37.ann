@@ -1,0 +1,45 @@
+T1	Protein 19 23	RPD3
+T2	Protein 35 39	HDA6
+T3	Protein 44 49	HDA19
+T4	Protein 114 118	hda6
+T5	Protein 130 134	HDA6
+T6	Protein 153 157	HDA6
+T7	Protein 347 351	hda6
+T8	Protein 356 360	HDA6
+T9	Protein 401 406	HDA19
+T10	Protein 431 436	hda19
+T11	Protein 543 548	hda19
+T12	Protein 571 576	HDA19
+T13	Protein 609 615	AtERF7
+T14	Protein 704 710	AtERF7
+T16	Protein 800 806	AtSin3
+T17	Protein 842 847	HDA19
+T18	Protein 870 876	AtERF7
+T19	Protein 878 884	AtSin3
+T20	Protein 890 895	HDA19
+T21	Protein 290 293	ABA
+T22	Protein 298 323	abiotic stress-responsive
+R1	Regulation Arg1:T7 Arg2:T22	
+R2	Regulation Arg1:T8 Arg2:T22	
+R3	Regulation Arg1:T7 Arg2:T21	
+R4	Regulation Arg1:T8 Arg2:T21	
+T23	Protein 1 18	he involvement of
+#1	AnnotatorNotes T23	Sentences 1-4 should be removed
+T24	Family 505 525	ABA-responsive genes
+R5	Regulation Arg1:T11 Arg2:T24	
+R6	Complex_formation Arg1:T12 Arg2:T13	
+R7	Complex_formation Arg1:T14 Arg2:T16	
+R8	Complex_formation Arg1:T16 Arg2:T17	
+R9	Complex_formation Arg1:T18 Arg2:T19	
+R10	Complex_formation Arg1:T19 Arg2:T20	
+R11	Complex_formation Arg1:T18 Arg2:T20	
+T15	Chemical 54 57	ABA
+T25	Chemical 219 222	ABA
+T26	Chemical 227 231	salt
+#3	AnnotatorNotes T21	Discontinuous
+T27	Chemical 953 956	ABA
+T28	Chemical 462 465	ABA
+T29	Chemical 470 474	salt
+A1	Mutant T4
+A2	Mutant T10
+A3	Mutant T11

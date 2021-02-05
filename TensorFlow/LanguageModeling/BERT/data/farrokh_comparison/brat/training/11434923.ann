@@ -1,0 +1,25 @@
+T1	Protein 82 90	syntenin
+T2	Protein 118 126	r-PTPeta
+T3	Protein 222 230	r-PTPeta
+T4	Protein 343 351	syntenin
+T5	Protein 448 456	syntenin
+T6	Protein 477 485	syndecan
+T7	Protein 501 513	beta-ephrins
+T8	Protein 518 529	neurofascin
+T9	Protein 544 552	r-PTPeta
+T10	Protein 578 586	syntenin
+T11	Protein 625 633	syntenin
+T12	Protein 696 704	r-PTPeta
+T13	Protein 743 751	syntenin
+T14	Protein 787 795	r-PTPeta
+T15	Protein 837 845	syntenin
+T16	Protein 850 858	r-PTPeta
+T17	Protein 0 36	Rat protein tyrosine phosphatase eta
+R1	Complex_formation Arg1:T17 Arg2:T1	
+R2	Complex_formation Arg1:T5 Arg2:T6	
+T18	Protein 487 499	proTGF-alpha
+R3	Complex_formation Arg1:T5 Arg2:T18	
+R4	Complex_formation Arg1:T5 Arg2:T7	
+R5	Complex_formation Arg1:T5 Arg2:T8	
+R6	Complex_formation Arg1:T9 Arg2:T10	
+R7	Complex_formation Arg1:T15 Arg2:T16	

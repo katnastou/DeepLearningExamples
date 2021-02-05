@@ -1,0 +1,32 @@
+T1	Protein 0 46	SHP2-interacting transmembrane adaptor protein
+T2	Protein 48 51	SIT
+T3	Protein 391 394	SIT
+T4	Protein 396 442	SHP2 interacting transmembrane adaptor protein
+T5	Protein 445 448	SIT
+T6	Protein 564 567	src
+T7	Protein 581 584	syk
+T8	Protein 610 613	SIT
+T9	Protein 670 674	SHP2
+T10	Protein 748 751	SIT
+T11	Protein 803 821	phytohemagglutinin
+T12	Protein 1022 1026	SHP2
+T13	Protein 1030 1033	SIT
+T14	Protein 1101 1104	SIT
+T15	Protein 1213 1217	SHP2
+*	Equiv T1 T2
+*	Equiv T3 T4
+R1	Complex_formation Arg1:T12 Arg2:T13
+R2	Catalysis_of_phosphorylation Arg1:T7 Arg2:T8	
+R3	Catalysis_of_phosphorylation Arg1:T6 Arg2:T8	
+R4	Complex_formation Arg1:T8 Arg2:T9	
+T16	Protein 985 1000	phospholipase C
+R5	Negative_regulation Arg1:T10 Arg2:T16	
+T17	Family 886 891	NF-AT
+R6	Negative_regulation Arg1:T10 Arg2:T17	
+T18	Family 1068 1073	NF-AT
+T19	Family 1124 1129	NF-AT
+R7	Regulation Arg1:T14 Arg2:T19	
+T20	Family 1157 1162	NF-AT
+T21	Family 849 884	nuclear factor of activated T cells
+#6	AnnotatorNotes T11	Could also be considered a chemical
+*	Equiv T17 T21

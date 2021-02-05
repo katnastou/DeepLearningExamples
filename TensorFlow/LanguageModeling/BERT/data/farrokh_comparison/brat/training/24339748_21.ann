@@ -1,0 +1,64 @@
+T1	Protein 38 44	MED19a
+T2	Protein 140 146	MED19a
+T3	Protein 252 258	MED19a
+T4	Protein 371 377	MED19a
+T5	Protein 487 493	MED19a
+T6	Protein 572 576	MED6
+T7	Protein 608 614	MED19a
+T8	Protein 660 664	MED6
+T9	Protein 673 679	MED19a
+T10	Protein 740 746	MED19a
+T11	Protein 861 867	MED19a
+T12	Protein 994 1000	MED19a
+T13	Protein 64 71	HaRxL44
+T14	Protein 136 139	GFP
+A1	Fusion T14
+#1	AnnotatorNotes T14	not tagged by tagger
+T15	Protein 151 154	3HA
+A2	Fusion T15
+#2	AnnotatorNotes T15	not tagged by tagger
+T16	Protein 174 177	3HA
+A3	Fusion T16
+#3	AnnotatorNotes T16	not tagged by tagger
+T17	Protein 185 188	GUS
+A4	Fusion T17
+#4	AnnotatorNotes T17	not tagged by tagger
+T18	Protein 559 562	3HA
+A5	Fusion T18
+#5	AnnotatorNotes T18	not tagged by tagger
+T19	Protein 604 607	GFP
+A6	Fusion T19
+#6	AnnotatorNotes T19	not tagged by tagger
+T20	Protein 669 672	GFP
+A7	Fusion T20
+#7	AnnotatorNotes T20	not tagged by tagger
+T21	Protein 155 161	Strep2
+A8	Fusion T21
+T22	Protein 162 169	HaRxL44
+A9	Fusion T22
+T23	Protein 178 184	Strep2
+A10	Fusion T23
+T24	Protein 290 297	HaRxL44
+T25	Chemical 333 338	MG132
+T26	Protein 360 367	HaRxL44
+T27	Protein 447 454	HaRxL44
+T28	Protein 563 570	HaRxL44
+A11	Fusion T28
+A12	Fusion T7
+A13	Fusion T9
+T29	Protein 751 758	HaRxL44
+T30	Complex 876 884	Mediator
+T31	Complex 897 905	Mediator
+T32	Protein 951 958	HaRxL44
+T33	Complex 1017 1025	Mediator
+T34	Complex 502 510	Mediator
+#8	AnnotatorNotes T34	Mediator is a conserved multisubunit complex that acts as a molecular bridge between transcriptional regulators at gene enhancer sequences and the activation of transcription by RNA polymerase II at the transcription start site
+R1	Complex_formation Arg1:T5 Arg2:T34	
+R2	Complex_formation Arg1:T6 Arg2:T7	
+R3	Out-of-scope Arg1:T6 Arg2:T19	
+#9	AnnotatorNotes R3	Ignore a reporter gene product
+R4	Complex_formation Arg1:T8 Arg2:T9	
+R5	Out-of-scope Arg1:T8 Arg2:T20	
+#10	AnnotatorNotes R5	Ignore a reporter gene product
+R6	Complex_formation Arg1:T11 Arg2:T30	
+R7	Complex_formation Arg1:T11 Arg2:T31	

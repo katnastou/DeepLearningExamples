@@ -1,0 +1,38 @@
+T1	Protein 0 4	Yeti
+T2	Family 144 153	Bucentaur
+T3	Family 155 159	BCNT
+T4	Family 378 382	BCNT
+T5	Protein 397 401	YETI
+T6	Protein 426 430	YETI
+T7	Protein 572 585	histone H2A.V
+T8	Protein 674 678	YETI
+T9	Family 731 735	BCNT
+T10	Family 766 773	histone
+T11	Protein 782 787	H2A.V
+T12	Protein 808 813	DOM-A
+T13	Protein 846 851	Tip60
+T14	Protein 907 911	YETI
+T15	Protein 953 958	DOM-A
+T16	Protein 1007 1011	YETI
+T17	Protein 1027 1032	H2A.V
+T18	Protein 1101 1106	Tip60
+T19	Protein 1168 1173	H2A.V
+T20	Protein 1249 1253	YETI
+T21	Family 1346 1350	BCNT
+*	Equiv T3 T2
+#1	AnnotatorNotes T9	domain, tagged by tagger
+T22	Protein 789 793	HP1a
+T23	Protein 798 806	Domino-A
+*	Equiv T12 T23
+T24	Protein 842 845	DOM
+T25	Protein 1097 1100	DOM
+T26	Family 599 607	histones
+R1	Complex_formation Arg1:T6 Arg2:T7	
+R2	Complex_formation Arg1:T8 Arg2:T11	
+R3	Complex_formation Arg1:T8 Arg2:T22	
+R4	Complex_formation Arg1:T8 Arg2:T23	
+R5	Complex_formation Arg1:T24 Arg2:T13	
+R6	Complex_formation Arg1:T16 Arg2:T17	
+R7	Complex_formation Arg1:T25 Arg2:T18	
+R8	Complex_formation Arg1:T16 Arg2:T25	
+R9	Complex_formation Arg1:T16 Arg2:T18	

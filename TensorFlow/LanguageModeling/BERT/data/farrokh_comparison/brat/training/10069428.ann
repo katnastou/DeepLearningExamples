@@ -1,0 +1,36 @@
+T1	Protein 61 66	NFAT1
+T2	Protein 109 113	IL-4
+T3	Protein 148 152	IL-4
+T4	Protein 263 267	IL-4
+T5	Protein 299 302	IgE
+T6	Protein 359 363	IL-4
+T7	Protein 414 418	IL-4
+T8	Protein 544 549	NFAT1
+T9	Protein 554 559	NFAT2
+T10	Protein 640 645	NFAT1
+T11	Protein 649 653	IL-4
+T12	Protein 947 951	IL-4
+T13	Protein 1028 1033	NFAT2
+T14	Protein 1233 1238	NFAT2
+T15	Protein 1555 1558	IgE
+T16	Protein 1631 1635	IL-4
+T17	Protein 1721 1726	NFAT1
+T18	Protein 1743 1747	IL-4
+T19	Family 1362 1366	NFAT
+T20	Protein 1367 1369	P0
+R2	Complex_formation Arg1:T19 Arg2:T20	
+R3	Regulation_of_transcription Arg1:T1 Arg2:T2	
+R1	Positive_regulation Arg1:T1 Arg2:T3	
+R4	Regulation_of_gene_expression Arg1:T8 Arg2:T7	
+R5	Regulation_of_gene_expression Arg1:T9 Arg2:T7	
+R6	Negative_regulation Arg1:T10 Arg2:T11	
+R7	Positive_regulation Arg1:T17 Arg2:T18	
+R8	Regulation_of_transcription Arg1:T17 Arg2:T18	
+T21	Family 496 500	NFAT
+T22	Family 885 889	NFAT
+T23	Family 1259 1263	NFAT
+T24	Family 992 996	NFAT
+T25	Family 1153 1157	NFAT
+T26	Family 459 494	nuclear factor of activated T cells
+*	Equiv T21 T26
+#1	AnnotatorNotes T20	not normalizable, site

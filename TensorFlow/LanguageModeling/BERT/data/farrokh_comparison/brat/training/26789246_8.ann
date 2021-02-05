@@ -1,0 +1,8 @@
+T1	Protein 63 67	TAP1
+T2	Protein 342 349	tapasin
+T3	Protein 72 76	TAP2
+T4	Protein 238 243	ICP47
+#1	AnnotatorNotes T4	88-residue protein
+T5	Protein 270 273	TAP
+#2	AnnotatorNotes T5	transporter associated with antigen processing
+T6	Protein 408 411	TAP

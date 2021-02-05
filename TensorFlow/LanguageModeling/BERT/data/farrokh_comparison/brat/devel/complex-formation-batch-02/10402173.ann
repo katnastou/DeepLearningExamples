@@ -1,0 +1,23 @@
+T1	Protein 697 701	RelA
+T2	Protein 702 711	NFkappaB1
+T3	Protein 836 848	IkappaBalpha
+T4	Protein 994 998	RelA
+T5	Protein 1003 1013	NF-kappaB1
+T6	Protein 1090 1094	RelA
+T7	Protein 1095 1105	NF-kappaB1
+R1	Complex_formation Arg1:T1 Arg2:T2
+R2	Complex_formation Arg1:T7 Arg2:T6	
+T8	Protein 15 24	NF-kappaB
+#1	AnnotatorNotes T8	Complex
+T9	Protein 294 303	NF-kappaB
+#2	AnnotatorNotes T9	Complex
+T10	Protein 252 261	NF-kappaB
+#3	AnnotatorNotes T10	Complex
+T11	Protein 439 448	NF-kappaB
+#4	AnnotatorNotes T11	Complex
+T12	Protein 1215 1224	NF-kappaB
+#5	AnnotatorNotes T12	Complex
+T13	Protein 1301 1310	NF-kappaB
+#6	AnnotatorNotes T13	Complex
+T14	Protein 531 537	kappaB
+#7	AnnotatorNotes T14	Complex

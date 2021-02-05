@@ -1,0 +1,57 @@
+T1	Protein 53 58	Ups1p
+T2	Protein 63 68	Ups2p
+T3	Protein 792 797	Ups1p
+T4	Protein 802 807	Ups2p
+T5	Protein 840 846	Mdm31p
+T6	Protein 922 927	Ups1p
+T7	Protein 933 939	Mdm31p
+T8	Protein 1094 1099	Ups1p
+T9	Protein 1118 1124	Mdm31p
+T10	Protein 1170 1175	Ups2p
+T11	Protein 1195 1200	Ups1p
+T12	Protein 1241 1246	Ups1p
+T13	Protein 1348 1353	Ups1p
+T14	Protein 1358 1363	Ups2p
+T15	Protein 1478 1481	Ups
+T16	Protein 1495 1501	Mdm31p
+T17	Protein 1569 1572	Ups
+T18	Complex 486 521	ER-mitochondria encounter structure
+T19	Complex 523 528	ERMES
+*	Equiv T18 T19
+T20	Chemical 418 430	phospholipid
+T21	Chemical 655 667	phospholipid
+T22	Chemical 105 117	phospholipid
+T23	Chemical 176 188	phospholipid
+T24	Chemical 207 220	phospholipids
+T25	Chemical 308 319	cardiolipin
+#3	AnnotatorNotes T22	Class
+#4	AnnotatorNotes T23	Class
+#5	AnnotatorNotes T24	Class
+#6	AnnotatorNotes T20	Class
+#7	AnnotatorNotes T21	Class
+T26	Chemical 851 863	phospholipid
+#8	AnnotatorNotes T26	Class
+T27	Chemical 980 992	phospholipid
+#9	AnnotatorNotes T27	Class
+T28	Chemical 1259 1271	phospholipid
+#10	AnnotatorNotes T28	Class
+T29	Chemical 1526 1538	phospholipid
+#11	AnnotatorNotes T29	Class
+T30	Chemical 1598 1610	phospholipid
+#12	AnnotatorNotes T30	Class
+T31	Chemical 324 348	phosphatidylethanolamine
+T32	Complex 907 912	ERMES
+T33	Complex 1077 1082	ERMES
+T34	Complex 1223 1228	ERMES
+T35	Chemical 1404 1428	phosphatidylethanolamine
+T36	Chemical 1432 1451	phosphatidylcholine
+R1	Complex_formation Arg1:T14 Arg2:T35	
+#16	AnnotatorNotes R1	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+R2	Complex_formation Arg1:T13 Arg2:T35	
+#17	AnnotatorNotes R2	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+R3	Complex_formation Arg1:T15 Arg2:T29	
+#18	AnnotatorNotes R3	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+R4	Complex_formation Arg1:T16 Arg2:T29	
+#19	AnnotatorNotes R4	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL
+R5	Complex_formation Arg1:T17 Arg2:T30	
+#20	AnnotatorNotes R5	ATTENTION: THIS IS REGULATION FROM PROTEIN TO CHEMICAL

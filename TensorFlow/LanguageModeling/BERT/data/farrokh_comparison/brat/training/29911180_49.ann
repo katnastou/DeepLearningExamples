@@ -1,0 +1,15 @@
+T1	Protein 8 14	Trim67
+T2	Protein 565 571	Trim67
+T3	Protein 774 780	Trim67
+T4	Protein 925 931	Trim67
+T5	Protein 1034 1040	Trim67
+T6	Protein 217 223	Trim67
+A1	Mutant T6
+T7	Protein 677 683	Trim67
+A2	Mutant T2
+A3	Mutant T7
+A4	Mutant T3
+A5	Mutant T4
+A6	Mutant T5
+T8	Protein 896 902	Trim67
+A7	Mutant T8

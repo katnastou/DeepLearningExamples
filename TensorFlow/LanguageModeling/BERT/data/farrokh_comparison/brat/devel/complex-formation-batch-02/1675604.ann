@@ -1,0 +1,41 @@
+T1	Protein 116 120	KBF1
+T2	Protein 213 218	H-2Kb
+T3	Protein 250 253	p50
+T4	Protein 399 403	KBF1
+T5	Protein 404 407	p50
+T6	Protein 531 536	c-rel
+T7	Protein 541 546	v-rel
+T8	Protein 592 596	KBF1
+T9	Protein 597 600	p50
+T10	Protein 659 663	KBF1
+T11	Protein 664 667	p50
+T12	Protein 874 878	KBF1
+T13	Protein 879 882	p50
+T14	Protein 884 886	c-
+T15	Protein 891 896	v-rel
+T16	Protein 1169 1172	CD4
+T17	Protein 1286 1291	H-2Kb
+R1	Regulation_of_transcription Arg1:T1 Arg2:T2
+R5	Complex_formation Arg1:T4 Arg2:T7
+*	Equiv T4 T5
+R2	Complex_formation Arg1:T4 Arg2:T6	
+*	Equiv T10 T11
+*	Equiv T8 T9
+*	Equiv T12 T13
+#1	AnnotatorNotes T4	KBF1 is p105 and is cleaved into p50
+T18	Protein 53 67	rel/NF-kappa B
+#2	AnnotatorNotes T18	Complex
+T19	Protein 302 312	NF-kappa B
+#3	AnnotatorNotes T19	Complex
+T20	Protein 1076 1086	NF-kappa B
+#4	AnnotatorNotes T20	Complex
+T21	Chemical 1105 1118	phorbol ester
+T22	Chemical 1120 1123	PMA
+*	Equiv T21 T22
+T23	Protein 1239 1242	TNF
+#5	AnnotatorNotes T23	Family
+T24	Protein 1246 1249	IL1
+T25	Protein 1467 1481	rel/NF-kappa B
+#6	AnnotatorNotes T25	Complex
+T26	Protein 1274 1285	MHC class I
+#7	AnnotatorNotes T26	Group

@@ -1,0 +1,19 @@
+T1	Protein 0 5	c-Rel
+T2	Protein 10 13	p65
+T3	Protein 67 115	granulocyte macrophage-colony stimulating factor
+T4	Protein 247 253	GM-CSF
+T5	Protein 480 486	GM-CSF
+T6	Protein 546 552	GM-CSF
+T7	Protein 722 727	c-Rel
+T8	Protein 732 735	p65
+T9	Protein 858 863	c-Rel
+T10	Protein 868 871	p50
+R1	Complex_formation Arg1:T9 Arg2:T10
+R2	Complex_formation Arg1:T7 Arg2:T8
+R3	Regulation_of_transcription Arg1:T2 Arg2:T3	
+R4	Regulation_of_transcription Arg1:T1 Arg2:T3	
+T11	Complex 43 52	NF-kappaB
+T12	Complex 357 366	NF-kappaB
+T13	Complex 702 711	NF-kappaB
+T14	Complex 794 800	kappaB
+T15	Chemical 137 150	phorbol ester

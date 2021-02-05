@@ -1,0 +1,9 @@
+T1	Protein 288 292	IscU
+T2	Protein 427 431	TusA
+T3	Protein 687 691	IscU
+T4	Protein 283 287	IscS
+T5	Protein 422 426	IscS
+T6	Protein 682 686	IscS
+R1	Complex_formation Arg1:T4 Arg2:T1	
+R2	Complex_formation Arg1:T5 Arg2:T2	
+R3	Out-of-scope Arg1:T6 Arg2:T3	

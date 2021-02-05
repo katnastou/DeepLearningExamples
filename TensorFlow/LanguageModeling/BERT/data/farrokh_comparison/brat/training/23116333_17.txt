@@ -1,0 +1,1 @@
+To test this hypothesis, the double mutants between npr1-1 and NahG (a transgenic plant that degrades SA,), eds5 (a mutant in SA transport,), and sid2 (a mutant in SA biosynthesis,), were constructed and tested for RIM. npr1-1 did not respond to MeJA even if the levels of SA were low (Figure 3c), so the hypothesis of a reinforcement of the negative crosstalk was not supported.

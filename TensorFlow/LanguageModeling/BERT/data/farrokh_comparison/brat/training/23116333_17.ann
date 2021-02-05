@@ -1,0 +1,19 @@
+T1	Protein 52 56	npr1
+T2	Protein 146 150	sid2
+T3	Protein 220 224	npr1
+A1	Mutant T1
+T4	Protein 63 67	NahG
+T5	Protein 108 112	eds5
+A2	Mutant T5
+A3	Mutant T2
+A4	Mutant T4
+A5	Mutant T3
+#1	AnnotatorNotes T4	bacterial nahG gene encoding salicylate hydroxylase
+T6	Chemical 102 104	SA
+T7	Chemical 126 128	SA
+T8	Chemical 164 166	SA
+T9	OOS 215 218	RIM
+#2	AnnotatorNotes T9	resistance-inducing ability of MeJA ([13], hereafter abbreviated as RIM)
+T10	Chemical 273 275	SA
+T11	Chemical 246 250	MeJA
+#3	AnnotatorNotes T11	Methyl Jasmonate (MeJA)

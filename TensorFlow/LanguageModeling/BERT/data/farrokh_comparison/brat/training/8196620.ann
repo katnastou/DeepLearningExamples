@@ -1,0 +1,63 @@
+T1	Protein 107 112	c-Rel
+T2	Protein 113 116	p65
+T3	Protein 343 356	tissue factor
+T4	Protein 358 360	TF
+T5	Protein 363 365	TF
+T6	Protein 614 616	TF
+T7	Protein 710 712	TF
+T8	Protein 766 768	TF
+T9	Protein 791 796	c-Rel
+T10	Protein 801 804	p65
+T11	Protein 824 827	p50
+T12	Protein 828 831	p65
+T13	Protein 848 851	p50
+T14	Protein 895 897	TF
+T15	Protein 1042 1044	TF
+T16	Protein 1085 1088	p50
+T17	Protein 1089 1092	p65
+T18	Protein 1128 1133	c-Rel
+T19	Protein 1134 1137	p65
+T20	Protein 1251 1256	c-Rel
+T21	Protein 1261 1264	p65
+T22	Protein 1284 1287	p50
+T23	Complex 1295 1297	TF
+T24	Protein 1330 1335	c-Rel
+T25	Protein 1336 1339	p65
+T26	Complex 1378 1388	TF kappa B
+T27	Protein 1438 1440	TF
+T28	Protein 1526 1531	c-Rel
+T29	Protein 1535 1538	p65
+T30	Protein 1597 1602	c-Rel
+T31	Protein 1603 1606	p65
+T32	Protein 1675 1677	TF
+*	Equiv T3 T4
+R8	Complex_formation Arg1:T1 Arg2:T2	
+R9	Regulation_of_transcription Arg1:T9 Arg2:T8	
+R10	Regulation_of_transcription Arg1:T10 Arg2:T8	
+R12	Complex_formation Arg1:T11 Arg2:T12	
+R1	Complex_formation Arg1:T16 Arg2:T17	
+R2	Complex_formation Arg1:T18 Arg2:T19	
+R11	Complex_formation Arg1:T24 Arg2:T25	
+R13	Complex_formation Arg1:T30 Arg2:T31	
+R3	Complex_formation Arg1:T20 Arg2:T21	
+R4	Out-of-scope Arg1:T22 Arg2:T21	
+R5	Out-of-scope Arg1:T22 Arg2:T20	
+R6	Regulation_of_transcription Arg1:T28 Arg2:T27	
+R7	Regulation_of_transcription Arg1:T29 Arg2:T27	
+R14	Positive_regulation Arg1:T28 Arg2:T27	
+R15	Positive_regulation Arg1:T29 Arg2:T27	
+R16	Regulation_of_gene_expression Arg1:T31 Arg2:T32	
+R17	Regulation_of_gene_expression Arg1:T30 Arg2:T32	
+T33	Complex 235 249	NF-kappa B/Rel
+T34	Chemical 196 214	lipopolysaccharide
+T35	Chemical 216 219	LPS
+*	Equiv T34 T35
+R18	Positive_regulation Arg1:T35 Arg2:T33	
+R19	Positive_regulation Arg1:T35 Arg2:T3	
+T36	Complex 980 990	NF-kappa B
+T37	Complex 1169 1179	NF-kappa B
+T38	Family 1184 1187	Rel
+T39	Chemical 661 664	LPS
+T40	Chemical 1456 1459	LPS
+T41	Complex 1631 1638	kappa B
+T42	Chemical 1658 1661	LPS

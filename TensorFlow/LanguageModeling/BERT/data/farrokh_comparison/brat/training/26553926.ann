@@ -1,0 +1,28 @@
+T1	Protein 0 4	Bub3
+T2	Protein 5 10	BubR1
+T3	Protein 498 503	BubR1
+T4	Protein 594 599	BubR1
+T5	Protein 682 687	BubR1
+T6	Protein 714 718	Bub3
+T7	Protein 825 830	Cdc20
+T8	Protein 947 952	BubR1
+T10	Protein 1025 1030	BubR1
+T11	Protein 1139 1143	Bub3
+T12	Protein 1144 1149	BubR1
+T13	Protein 1224 1229	Cdc20
+T14	Protein 38 48	Cdc20Fizzy
+R1	Complex_formation Arg1:T5 Arg2:T6	
+R2	Complex_formation Arg1:T1 Arg2:T2	
+R3	Regulation Arg1:T8 Arg2:T7	
+R4	Complex_formation Arg1:T11 Arg2:T12	
+R5	Regulation Arg1:T12 Arg2:T13	
+R6	Regulation Arg1:T11 Arg2:T13	
+R7	Regulation Arg1:T2 Arg2:T14	
+R8	Regulation Arg1:T1 Arg2:T14	
+T9	Family 850 869	E3 ubiquitin ligase
+T16	Complex 870 906	anaphase-promoting complex/cyclosome
+T17	Complex 908 913	APC/C
+T18	Complex 995 1000	APC/C
+T19	Complex 1061 1066	APC/C
+T20	Complex 1185 1190	APC/C
+*	Equiv T17 T16

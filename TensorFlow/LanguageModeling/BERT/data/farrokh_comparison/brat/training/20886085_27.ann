@@ -1,0 +1,24 @@
+T1	Protein 201 205	Sth1
+T2	Protein 253 257	RSC1
+T3	Protein 262 266	RSC2
+T4	Protein 301 305	RSC1
+T5	Protein 378 383	STE11
+T6	Protein 419 423	RSC1
+T7	Protein 476 480	RSC1
+T8	Protein 648 652	RSC1
+T9	Protein 668 672	RSC2
+T10	Protein 3 9	Pol II
+#1	AnnotatorNotes T10	not tagged by tagger
+T11	Complex 21 24	RSC
+T12	OOS 113 116	NFR
+#2	AnnotatorNotes T12	nucleosome free region (NFR) at RNA polymerase II
+#3	AnnotatorNotes T2	It's getting tagged as GGP, I think it is correct
+#4	AnnotatorNotes T3	It's getting tagged as GGP, I think it is correct
+#5	AnnotatorNotes T4	It's getting tagged as GGP, I think it is correct
+#6	AnnotatorNotes T7	It's getting tagged as GGP, I think it is correct
+#7	AnnotatorNotes T8	It's getting tagged as GGP, I think it is correct
+#8	AnnotatorNotes T9	It's getting tagged as GGP, I think it is correct
+T13	Protein 721 727	Pol II
+#9	AnnotatorNotes T13	Not tagged by tagger
+T14	Protein 348 350	H4
+T15	Family 567 574	histone

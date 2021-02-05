@@ -1,0 +1,24 @@
+T1	Protein 856 860	Dbp4
+T2	Protein 862 866	Rok1
+T3	Protein 868 872	Dbp9
+T4	Protein 986 990	Dbp9
+T5	OOS 57 89	35S polycistronic rRNA precursor
+T6	OOS 91 99	pre-rRNA
+T7	OOS 204 207	18S
+T8	OOS 209 213	5.8S
+T9	OOS 218 227	25S rRNAs
+T10	Family 491 504	RNA helicases
+T11	Complex 545 553	ribosome
+T12	Complex 612 620	ribosome
+T13	Family 586 599	RNA helicases
+T14	Family 801 814	RNA helicases
+T15	Protein 877 881	Has1
+R1	Regulation Arg1:T1 Arg2:T11	
+R2	Regulation Arg1:T2 Arg2:T11	
+R3	Regulation Arg1:T3 Arg2:T11	
+R4	Regulation Arg1:T15 Arg2:T11	
+T16	Protein 995 999	Has1
+T17	Family 1103 1112	helicases
+T18	Family 1188 1197	helicases
+T19	Chemical 696 699	ATP
+A1	Blacklisted T19

@@ -1,0 +1,30 @@
+T1	Protein 86 90	RIZ1
+T3	Protein 207 217	histone H3
+T4	Protein 316 320	RIZ1
+T5	Protein 372 376	RIZ1
+T6	Protein 452 456	RIZ1
+T7	Protein 562 566	RIZ1
+T8	Protein 661 665	RIZ1
+T9	Protein 814 818	RIZ1
+T10	Family 97 131	estrogen receptor (ER) coactivator
+T11	Family 2 27	histone methyltransferase
+T12	Family 146 178	histone lysine methyltransferase
+T2	Protein 393 397	SRC1
+T13	Protein 402 406	p300
+R2	Complex_formation Arg1:T5 Arg2:T2	
+R3	Complex_formation Arg1:T5 Arg2:T13	
+R4	Regulation Arg1:T2 Arg2:T5	
+R5	Regulation Arg1:T13 Arg2:T5	
+T14	Protein 578 593	estrogen target
+R6	Regulation_of_transcription Arg1:T7 Arg2:T14	
+T15	Protein 647 649	ER
+T16	Protein 696 698	H3
+R7	Catalysis_of_methylation Arg1:T8 Arg2:T16	
+T17	Protein 864 867	pS2
+R8	Regulation_of_gene_expression Arg1:T9 Arg2:T17	
+T18	Protein 1047 1049	ER
+#1	AnnotatorNotes T14	Not normalizable
+T19	Chemical 763 771	estrogen
+T20	Chemical 1032 1040	estrogen
+T21	Family 924 949	histone methyltransferase
+R9	Catalysis_of_methylation Arg1:T1 Arg2:T3	

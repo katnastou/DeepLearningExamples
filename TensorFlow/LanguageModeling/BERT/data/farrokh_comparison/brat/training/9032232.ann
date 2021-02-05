@@ -1,0 +1,33 @@
+T1	Protein 27 62	adenylyl cyclase-associated protein
+T2	Protein 91 107	adenylyl cyclase
+T3	Protein 283 299	adenylyl cyclase
+T4	Protein 411 427	adenylyl cyclase
+T5	Protein 647 663	adenylyl cyclase
+T6	Protein 822 838	adenylyl cyclase
+T7	Protein 851 886	adenylyl cyclase-associated protein
+T8	Protein 956 972	adenylyl cyclase
+T9	Protein 1053 1069	adenylyl cyclase
+T10	Protein 1385 1401	adenylyl cyclase
+T11	Protein 1481 1497	adenylyl cyclase
+T12	Protein 113 116	Ras
+T13	Protein 161 164	Ras
+T14	Protein 432 435	Ras
+T15	Protein 619 622	Ras
+T16	Protein 888 891	CAP
+*	Equiv T16 T7
+T17	Protein 976 979	Ras
+T18	Protein 1016 1019	Ras
+T19	Protein 1093 1096	CAP
+T20	Protein 1112 1115	CAP
+T21	Protein 1363 1366	CAP
+T22	Protein 1429 1432	CAP
+T23	Protein 1503 1506	CAP
+T24	Protein 1586 1589	Ras
+R1	Complex_formation Arg1:T2 Arg2:T12	
+R2	Complex_formation Arg1:T13 Arg2:T3	
+R3	Complex_formation Arg1:T15 Arg2:T5	
+R4	Complex_formation Arg1:T6 Arg2:T7	
+R5	Complex_formation Arg1:T1 Arg2:T2	
+R6	Complex_formation Arg1:T9 Arg2:T19	
+R7	Complex_formation Arg1:T21 Arg2:T10	
+R8	Complex_formation Arg1:T11 Arg2:T23	

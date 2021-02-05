@@ -1,0 +1,7 @@
+T1	Protein 323 328	ITF-1
+T2	Protein 333 338	ITF-2
+T3	Protein 542 547	ITF-1
+T4	Protein 552 557	ITF-2
+T5	Protein 435 462	heavy and kappa light chain
+R2	Regulation_of_transcription Arg1:T1 Arg2:T5	
+R3	Regulation_of_transcription Arg1:T2 Arg2:T5	

@@ -1,0 +1,17 @@
+T1	Protein 308 311	CDO
+T2	Protein 342 350	cadherin
+T3	Protein 428 432	MyoD
+T4	Protein 528 531	TnT
+T5	Protein 79 87	neogenin
+T6	Protein 126 134	netrin-3
+T7	Protein 219 222	DCC
+T8	Protein 262 268	NFATc3
+T9	Protein 373 376	MHC
+#1	AnnotatorNotes T5	antibody
+#2	AnnotatorNotes T6	antibody
+#3	AnnotatorNotes T7	antibody
+#4	AnnotatorNotes T8	antibody
+#5	AnnotatorNotes T3	antibody
+#6	AnnotatorNotes T1	antibody
+#7	AnnotatorNotes T9	antibody
+#8	AnnotatorNotes T4	antibody

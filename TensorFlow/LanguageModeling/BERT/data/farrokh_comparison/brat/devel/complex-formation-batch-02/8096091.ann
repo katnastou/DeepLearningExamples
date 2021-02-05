@@ -1,0 +1,36 @@
+T1	Protein 44 59	I kappa B alpha
+T2	Protein 382 397	I kappa B alpha
+T3	Protein 417 444	tumor necrosis factor-alpha
+T4	Protein 530 545	I kappa B alpha
+T5	Protein 568 583	I kappa B alpha
+T6	Protein 640 655	I kappa B alpha
+T7	Protein 782 797	I kappa B alpha
+T8	Protein 803 806	p65
+T9	Protein 1000 1015	I kappa B alpha
+R1	Complex_formation Arg1:T7 Arg2:T8
+T10	Protein 0 10	NF-kappa B
+R2	Regulation_of_gene_expression Arg1:T10 Arg2:T1	
+T11	Protein 148 170	nuclear factor-kappa B
+T12	Protein 172 182	NF-kappa B
+*	Equiv T11 T12
+T13	Protein 302 312	NF-kappa B
+R3	Complex_formation Arg1:T13 Arg2:T2	
+T14	Protein 466 476	NF-kappa B
+R5	Positive_regulation Arg1:T14 Arg2:T3	
+T15	Protein 692 743	65-kilodalton transactivating subunit of NF-kappa B
+R4	Regulation_of_transcription Arg1:T15 Arg2:T6	
+R6	Positive_regulation Arg1:T15 Arg2:T6	
+T16	Protein 844 854	NF-kappa B
+R7	Regulation Arg1:T8 Arg2:T16	
+R8	Regulation Arg1:T7 Arg2:T16	
+T17	Protein 962 972	NF-kappa B
+R9	Regulation_of_gene_expression Arg1:T17 Arg2:T9	
+#1	AnnotatorNotes T10	Complex
+#2	AnnotatorNotes T12	Complex
+#3	AnnotatorNotes T11	Complex
+#4	AnnotatorNotes T13	Complex
+#5	AnnotatorNotes T14	Complex
+#6	AnnotatorNotes T16	Complex
+#7	AnnotatorNotes T17	Complex
+T18	Chemical 399 412	Phorbol ester
+R10	Positive_regulation Arg1:T18 Arg2:T14	

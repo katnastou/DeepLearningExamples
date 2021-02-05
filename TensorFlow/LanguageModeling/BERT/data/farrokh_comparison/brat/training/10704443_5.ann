@@ -1,0 +1,21 @@
+T1	Complex 4 9	Emp24
+T2	Protein 37 43	Emp24p
+T3	Protein 45 51	Erv25p
+T4	Protein 69 74	Erp1p
+T5	Protein 79 84	Erp2p
+T6	Protein 98 103	EMP24
+T7	Complex 279 284	Emp24
+T8	Protein 341 346	Gas1p
+T9	Complex 525 530	Emp24
+R1	Complex_formation Arg1:T2 Arg2:T3	
+R2	Complex_formation Arg1:T2 Arg2:T4	
+R3	Complex_formation Arg1:T2 Arg2:T5	
+R4	Complex_formation Arg1:T3 Arg2:T4	
+R5	Complex_formation Arg1:T3 Arg2:T5	
+R6	Complex_formation Arg1:T4 Arg2:T5	
+#1	AnnotatorNotes T1	Complex
+#2	AnnotatorNotes T6	reference to protein here, capitalized
+R7	Negative_regulation Arg1:T6 Arg2:T3	
+R8	Negative_regulation Arg1:T6 Arg2:T4	
+R9	Negative_regulation Arg1:T6 Arg2:T5	
+R10	Regulation Arg1:T7 Arg2:T8	

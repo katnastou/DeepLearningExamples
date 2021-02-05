@@ -1,0 +1,14 @@
+T1	Protein 20 28	18S rRNA
+T2	Protein 305 310	Bud23
+T3	Protein 575 583	25S rRNA
+T4	Complex 15 18	40S
+T5	Protein 157 161	Dim1
+T6	Protein 163 167	Dim1
+T7	Protein 460 464	Dim1
+T8	Complex 570 573	60S
+#1	AnnotatorNotes T1	RNA
+#2	AnnotatorNotes T3	RNA
+R1	Out-of-scope Arg1:T1 Arg2:T4	
+#3	AnnotatorNotes R1	Part-of relation
+R2	Out-of-scope Arg1:T3 Arg2:T8	
+#4	AnnotatorNotes R2	Part-of relation

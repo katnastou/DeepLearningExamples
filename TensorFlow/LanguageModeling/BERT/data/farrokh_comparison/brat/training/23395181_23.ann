@@ -1,0 +1,18 @@
+T1	Protein 169 174	Sec23
+T2	Protein 268 272	Sar1
+T3	Protein 490 495	Sec23
+T4	Protein 496 501	Sec24
+T5	Protein 175 177	24
+T6	Family 178 183	COPII
+T7	Family 261 267	GTPase
+T8	Complex 278 297	clathrin adaptor AP
+T9	Complex 510 512	AP
+R1	Complex_formation Arg1:T3 Arg2:T4	
+R2	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T5 Arg2:T2	
+R4	Out-of-scope Arg1:T1 Arg2:T6	
+#1	AnnotatorNotes R4	Member-of relation
+R5	Out-of-scope Arg1:T5 Arg2:T6	
+#2	AnnotatorNotes R5	Member-of relation
+R6	Out-of-scope Arg1:T2 Arg2:T7	
+#3	AnnotatorNotes R6	Member-of relation

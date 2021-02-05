@@ -1,0 +1,19 @@
+T1	Protein 19 25	PIWIL2
+T2	Protein 185 191	PIWIL2
+T3	Protein 285 291	PIWIL2
+T4	Protein 402 408	PIWIL2
+T5	Protein 451 457	PIWIL2
+T6	Protein 595 601	PIWIL2
+T7	Protein 30 35	HDAC3
+T8	Protein 205 210	HDAC3
+T9	Protein 334 339	HDAC3
+T10	Protein 393 398	HDAC3
+T11	Protein 475 480	HDAC3
+T12	Protein 553 558	HDAC3
+T13	Chemical 714 727	cycloheximide
+T14	Chemical 729 732	CHX
+*	Equiv T14 T13
+T15	OOS 679 687	shPIWIL2
+#1	AnnotatorNotes T15	shRNA
+T16	OOS 691 695	shNC
+#2	AnnotatorNotes T16	shRNA

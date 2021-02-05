@@ -1,0 +1,19 @@
+T1	Protein 14 19	v-src
+T2	Protein 450 455	v-src
+T3	Protein 750 755	v-src
+T4	Protein 786 789	p50
+T5	Protein 794 797	p65
+T6	Protein 1024 1029	v-src
+T7	Protein 1135 1140	v-src
+R1	Complex_formation Arg1:T4 Arg2:T5
+T8	Complex 69 79	NF-kappa B
+R2	Other Arg1:T1 Arg2:T8	
+T9	Complex 82 92	NF-kappa B
+T10	Complex 812 822	NF-kappa B
+T11	Complex 507 514	kappa B
+T12	Complex 658 665	kappa B
+T13	Complex 1059 1066	kappa B
+T14	Complex 1214 1221	kappa B
+T15	OOS 1252 1277	T cell receptor signaling
+#1	AnnotatorNotes T15	Pathway
+T16	Family 1252 1267	T cell receptor

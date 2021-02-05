@@ -1,0 +1,28 @@
+T1	Protein 10 15	HSP90
+T2	Protein 62 66	RPM1
+T3	Protein 120 124	RPM1
+T4	Protein 382 387	HSP90
+T5	Protein 407 411	RPM1
+T6	Protein 505 509	RPM1
+T7	Protein 526 531	HSP90
+T8	Protein 573 577	RAR1
+T9	Protein 677 682	HSP90
+T10	Protein 719 724	HSP90
+T11	Protein 767 771	RPM1
+T12	Protein 778 783	HSP90
+T13	Protein 809 813	RAR1
+T14	Protein 853 858	HSP90
+T15	Protein 925 929	RPM1
+R1	Regulation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T6 Arg2:T7	
+T16	Protein 582 586	SGT1
+R4	Complex_formation Arg1:T8 Arg2:T10	
+R5	Complex_formation Arg1:T16 Arg2:T10	
+T17	Protein 818 822	SGT1
+R6	Complex_formation Arg1:T11 Arg2:T12	
+R7	Complex_formation Arg1:T11 Arg2:T14	
+R8	Complex_formation Arg1:T13 Arg2:T14	
+R9	Complex_formation Arg1:T17 Arg2:T14	
+T18	Chemical 329 332	ATP
+A1	Blacklisted T18

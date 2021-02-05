@@ -1,0 +1,21 @@
+T1	Protein 95 100	NFATc
+T2	Protein 403 419	murine (m) NFATc
+T3	Protein 615 621	mNFATc
+T4	Complex 637 641	AP-1
+T5	Protein 675 679	IL-2
+T6	Protein 758 762	IL-2
+T7	Protein 958 964	mNFATc
+T8	Protein 1047 1053	mNFATc
+T9	Protein 1184 1190	mNFATc
+R1	Complex_formation Arg1:T3 Arg2:T4
+R2	Regulation_of_transcription Arg1:T4 Arg2:T5	
+R3	Regulation_of_transcription Arg1:T3 Arg2:T5	
+R4	Positive_regulation Arg1:T4 Arg2:T5	
+R5	Positive_regulation Arg1:T3 Arg2:T5	
+T10	Family 495 499	NFAT
+T11	Family 555 559	NFAT
+T12	Family 680 684	NFAT
+T13	Family 132 136	NFAT
+T14	Family 530 533	rel
+T15	Family 138 173	nuclear factor of activated T cells
+*	Equiv T13 T15

@@ -1,0 +1,9 @@
+T1	Protein 274 279	CRT10
+T2	Protein 374 379	CRT10
+T3	Protein 95 98	Rnr
+#1	AnnotatorNotes T3	Ribonucleotide reductase
+T4	Chemical 305 316	hydroxyurea
+T5	Chemical 318 320	HU
+*	Equiv T5 T4
+T6	Protein 429 432	RNR
+R1	Regulation_of_transcription Arg1:T2 Arg2:T6	

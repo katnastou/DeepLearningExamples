@@ -1,0 +1,9 @@
+T1	Protein 198 202	Cis1
+T2	Protein 590 594	Cis1
+T3	Protein 807 811	Cis1
+T4	Protein 212 216	Msp1
+R1	Complex_formation Arg1:T1 Arg2:T4	
+T5	Protein 585 589	Msp1
+R2	Complex_formation Arg1:T5 Arg2:T2	
+T6	Protein 816 820	Msp1
+T7	Protein 1208 1212	Msp1

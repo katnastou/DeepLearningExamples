@@ -1,0 +1,17 @@
+T1	Protein 29 34	Hoxa2
+T2	Protein 67 71	Lmo1
+T3	Protein 73 78	Meox1
+T4	Protein 80 84	Lhx6
+T5	Protein 92 97	Robo2
+T6	Protein 101 105	Six2
+T7	Protein 140 144	Six2
+T8	Protein 146 151	Robo2
+T9	Protein 156 161	Hoxa2
+T10	Protein 211 216	Hoxa2
+T11	Protein 255 260	Hoxa2
+T12	Protein 425 430	Hoxa2
+T13	Protein 505 510	Hoxa2
+T14	Protein 550 555	Hoxa2
+T15	Protein 86 90	Ptx1
+T16	Family 462 466	TALE
+R1	Complex_formation Arg1:T16 Arg2:T13	

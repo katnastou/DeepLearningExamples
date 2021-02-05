@@ -1,0 +1,41 @@
+T1	Protein 4 13	zip/MyoII
+T2	Protein 19 25	zipper
+T3	OOS 83 92	crossvein
+T4	Protein 180 189	zip/MyoII
+T5	Protein 200 209	zip/MyoII
+T6	Protein 222 231	zip/MyoII
+T7	OOS 300 309	crossvein
+T8	Protein 341 350	zip/MyoII
+T9	Protein 434 443	crossvein
+T10	Protein 0 3	GFP
+A1	Fusion T10
+T11	Protein 176 179	GFP
+A2	Fusion T11
+T12	Protein 218 221	GFP
+A3	Fusion T12
+#1	AnnotatorNotes T10	not tagged by tagger
+#2	AnnotatorNotes T11	not tagged by tagger
+#3	AnnotatorNotes T12	not tagged by tagger
+T13	Protein 370 373	GFP
+A4	Fusion T13
+#4	AnnotatorNotes T13	not tagged by tagger
+T14	OOS 176 198	GFP-zip/MyoII-Neck-Rod
+A5	Fusion T14
+#5	AnnotatorNotes T14	zip dominant-negative (GFP-Zip-Neck-Rod)
+T15	Protein 195 198	Rod
+#6	AnnotatorNotes T15	Q9V9W7
+T16	Protein 190 194	Neck
+#7	AnnotatorNotes T16	Probably P17886
+T17	Protein 210 213	Rod
+T18	Protein 232 235	Rod
+A6	Fusion T4
+A7	Fusion T16
+A8	Fusion T15
+A9	Fusion T6
+A10	Fusion T18
+A11	Fusion T1
+T19	Protein 351 354	HMM
+A12	Fusion T19
+A13	Fusion T8
+#8	AnnotatorNotes T3	tagged by tagger
+#9	AnnotatorNotes T7	tagged by tagger

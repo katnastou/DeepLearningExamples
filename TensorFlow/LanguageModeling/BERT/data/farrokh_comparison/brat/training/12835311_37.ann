@@ -1,0 +1,11 @@
+T1	Protein 54 67	delta-catenin
+T2	Protein 145 158	delta-catenin
+T3	Protein 300 304	MAP2
+T4	OOS 31 35	Ab62
+#1	AnnotatorNotes T4	Not specific enough
+T5	Protein 345 352	tubulin
+T6	Protein 224 233	cortactin
+T7	Protein 393 395	HA
+T8	Complex 458 461	IgG
+T9	Complex 534 537	IgG
+T10	Complex 565 568	IgG

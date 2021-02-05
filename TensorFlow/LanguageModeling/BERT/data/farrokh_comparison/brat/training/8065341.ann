@@ -1,0 +1,24 @@
+T1	Protein 44 90	aryl hydrocarbon receptor nuclear translocator
+T2	Protein 100 104	ARNT
+T3	Protein 122 147	aryl hydrocarbon receptor
+T4	Protein 188 192	ARNT
+T5	Protein 505 509	ARNT
+T6	Protein 749 753	ARNT
+T7	Protein 807 811	ARNT
+T8	Protein 884 888	ARNT
+T9	Protein 1051 1055	ARNT
+T10	Protein 1469 1473	ARNT
+T11	Protein 1847 1851	ARNT
+T12	Protein 149 152	AHR
+T13	Protein 162 186	AHR nuclear translocator
+*	Equiv T1 T2
+*	Equiv T3 T12
+*	Equiv T13 T4
+R1	Complex_formation Arg1:T12 Arg2:T13	
+T14	Protein 351 354	AHR
+T15	Protein 501 504	AHR
+R2	Complex_formation Arg1:T15 Arg2:T5	
+T16	Protein 675 678	PER
+T18	Protein 683 686	SIM
+T17	Chemical 393 435	2,3,7,8-tetrachlorodibenzo-p-dioxin [TCDD]
+R3	Complex_formation Arg1:T17 Arg2:T14	

@@ -1,0 +1,1 @@
+Complex formation was carried out in column buffer [50 mM KHEPES (pH 7.5), 200 mM NaCl, 2 mM Mg(OAc)2, 2 mM DTT]. 10 muM of cpSRP54 was mixed with 10 muM wildtype or mutant cpFtsY in the presence of 450 muM GMPPNP and incubated on ice for 10 minutes before loading onto Superdex 200 (GE Healthcare). Reference runs of the individual proteins confirmed the identities of the peaks.

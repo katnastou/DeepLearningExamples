@@ -1,0 +1,35 @@
+T1	Protein 16 21	MDM20
+T2	Protein 90 95	actin
+T3	Protein 489 494	mdm20
+T4	Protein 540 545	actin
+T5	Protein 565 570	actin
+T6	Protein 601 606	MDM20
+T7	Protein 706 710	TPM1
+T8	Protein 732 737	actin
+T9	Protein 763 774	tropomyosin
+T10	Protein 841 846	actin
+T11	Protein 857 862	mdm20
+T12	Protein 921 926	mdm20
+T13	Protein 931 935	tpm1
+T14	Protein 985 996	tropomyosin
+T15	Protein 998 1003	Tpm2p
+T16	Protein 1038 1043	mdm20
+T17	Protein 1169 1174	actin
+T18	Protein 1193 1198	MDM20
+T19	Protein 1203 1207	TPM1
+T20	Protein 1276 1281	MDM20
+T21	Protein 1325 1329	BEM2
+T22	Protein 1334 1338	MYO2
+T23	Protein 1347 1351	SAC6
+T24	Protein 1362 1367	MDM20
+T25	Protein 1372 1376	TPM1
+T26	Protein 1437 1442	actin
+T27	Protein 1562 1568	Mdm20p
+T28	Protein 1573 1578	Tpm1p
+T29	Protein 1654 1659	actin
+R1	Complex_formation Arg1:T8 Arg2:T9	
+*	Equiv T7 T9
+A1	Mutant T3
+A2	Mutant T12
+A3	Mutant T13
+A4	Mutant T16

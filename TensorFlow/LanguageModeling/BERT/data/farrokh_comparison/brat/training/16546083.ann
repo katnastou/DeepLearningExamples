@@ -1,0 +1,47 @@
+T1	Protein 0 3	ATR
+T2	Protein 12 16	Mec1
+T3	Protein 61 65	Rev1
+T4	Protein 150 154	Rev1
+T5	Protein 288 292	REV3
+T6	Protein 342 346	REV7
+T7	Protein 348 352	Rev1
+T8	Protein 363 387	deoxycytidyl transferase
+T9	Protein 434 438	Rev1
+T10	Protein 582 586	Rev1
+T11	Protein 689 693	Rev1
+T12	Protein 703 707	Rev1
+T13	Protein 786 789	ATR
+T14	Protein 798 802	Mec1
+T15	Protein 884 888	Mec1
+T16	Protein 936 940	Rev1
+T17	Protein 964 968	Rev1
+T18	Protein 1028 1033	Rad24
+T19	Protein 1066 1070	Rad6
+T20	Protein 1071 1076	Rad18
+T21	Protein 1145 1149	Mec1
+T22	Protein 1185 1189	Rev1
+T23	Protein 41 60	DNA polymerase zeta
+R1	Complex_formation Arg1:T23 Arg2:T3	
+R2	Regulation Arg1:T2 Arg2:T23	
+R3	Regulation Arg1:T2 Arg2:T3	
+T24	Protein 116 135	DNA polymerase zeta
+T25	Protein 137 144	Polzeta
+*	Equiv T24 T25
+T26	Protein 239 246	Polzeta
+T27	Protein 422 429	Polzeta
+T28	Protein 570 577	Polzeta
+R4	Complex_formation Arg1:T28 Arg2:T10	
+T29	Protein 681 688	Polzeta
+R5	Complex_formation Arg1:T29 Arg2:T11	
+T30	Protein 928 935	Polzeta
+R6	Complex_formation Arg1:T30 Arg2:T16	
+R7	Positive_regulation Arg1:T15 Arg2:T30	
+R8	Positive_regulation Arg1:T15 Arg2:T16	
+T31	Protein 1177 1184	Polzeta
+R9	Complex_formation Arg1:T31 Arg2:T22	
+R10	Regulation Arg1:T21 Arg2:T31	
+R11	Regulation Arg1:T21 Arg2:T22	
+T32	Protein 1104 1108	PCNA
+R12	Regulation Arg1:T20 Arg2:T32	
+R13	Regulation Arg1:T19 Arg2:T32	
+T33	OOS 478 489	TLS pathway

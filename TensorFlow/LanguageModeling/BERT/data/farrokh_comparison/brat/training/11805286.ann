@@ -1,0 +1,39 @@
+T1	Protein 27 42	topoisomerase I
+T2	Protein 82 85	p53
+T3	Protein 157 176	DNA topoisomerase I
+T4	Protein 324 333	nucleolin
+T5	Protein 752 761	nucleolin
+T6	Protein 1096 1099	p53
+T7	Protein 1164 1167	p53
+T8	Protein 1260 1263	p53
+R1	Regulation Arg1:T1 Arg2:T2	
+T9	Protein 178 184	topo I
+*	Equiv T3 T9
+T10	Protein 386 392	topo I
+R2	Complex_formation Arg1:T4 Arg2:T10	
+T11	Protein 464 470	topo I
+T12	Protein 508 542	enhanced green fluorescent protein
+T13	Protein 544 548	EGFP
+*	Equiv T12 T13
+R3	Complex_formation Arg1:T11 Arg2:T5	
+T16	Protein 866 872	topo I
+T17	Protein 1039 1045	topoIN
+T18	Protein 1132 1138	topo I
+R4	Complex_formation Arg1:T18 Arg2:T7	
+T19	Protein 1205 1211	topo I
+R5	Regulation Arg1:T8 Arg2:T19	
+T20	Protein 1347 1353	topo I
+T14	Protein 1046 1050	EGFP
+A1	Fusion T14
+#4	AnnotatorNotes T14	not tagged by tagger
+T15	Protein 893 897	EGFP
+A2	Fusion T15
+#5	AnnotatorNotes T15	not tagged by tagger
+A3	Fusion T12
+#6	AnnotatorNotes T12	not tagged by tagger
+A4	Fusion T13
+#7	AnnotatorNotes T13	not tagged by tagger
+A5	Fusion T16
+A6	Fusion T17
+#1	AnnotatorNotes T17	not normalizable
+A7	Fusion T11

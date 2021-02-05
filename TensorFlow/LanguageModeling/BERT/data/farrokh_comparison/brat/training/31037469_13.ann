@@ -1,0 +1,5 @@
+T1	Protein 36 40	Dsn1
+T2	OOS 1384 1387	SNE
+#1	AnnotatorNotes T2	tagged by tagger
+T3	OOS 36 42	Dsn1-N
+#2	AnnotatorNotes T3	motif

@@ -1,0 +1,72 @@
+T1	Protein 91 96	Cdc42
+T2	Protein 102 106	RhoA
+T3	Protein 204 211	SWAP-70
+T4	Protein 835 840	Cdc42
+T5	Protein 1214 1219	Cdc42
+T6	Protein 1231 1235	RhoA
+T7	Protein 1306 1310	Rac2
+T8	Protein 1312 1317	Cdc42
+T9	Protein 1323 1327	RhoA
+T10	Protein 0 4	DEF6
+T11	Protein 85 89	Rac1
+R1	Positive_regulation Arg1:T10 Arg2:T11	
+R2	Positive_regulation Arg1:T10 Arg2:T1	
+R3	Positive_regulation Arg1:T10 Arg2:T2	
+T12	Protein 160 164	DEF6
+T13	Protein 255 267	Rho GTPases.
+R4	Positive_regulation Arg1:T12 Arg2:T13	
+T14	Protein 355 385	platelet-derived growth factor
+T15	Protein 387 391	PDGF
+*	Equiv T14 T15
+T16	Protein 443 447	DEF6
+T17	Protein 572 576	DEF6
+T18	Protein 658 663	actin
+T19	Protein 747 758	PI 3-kinase
+T20	Protein 305 316	PI 3-kinase
+T21	Protein 6 84	a novel PH-DH-like domain protein, is an upstream activator of the Rho GTPases
+#1	AnnotatorNotes T21	Remove first 5 sentences
+T22	Protein 1141 1145	DEF6
+R5	Positive_regulation Arg1:T22 Arg2:T5	
+T23	Protein 1221 1225	Rac1
+R6	Positive_regulation Arg1:T22 Arg2:T23	
+R7	Positive_regulation Arg1:T22 Arg2:T6	
+T24	Protein 1266 1270	DEF6
+T25	Protein 1300 1304	Rac1
+R8	Complex_formation Arg1:T24 Arg2:T25	
+R9	Positive_regulation Arg1:T24 Arg2:T7	
+R10	Complex_formation Arg1:T24 Arg2:T8	
+R11	Positive_regulation Arg1:T24 Arg2:T9	
+T26	Protein 1358 1362	DEF6
+T28	Protein 1412 1416	DEF6
+R12	Positive_regulation Arg1:T26 Arg2:T9	
+R13	Positive_regulation Arg1:T26 Arg2:T8	
+R14	Positive_regulation Arg1:T26 Arg2:T7	
+R15	Positive_regulation Arg1:T26 Arg2:T25	
+T27	Protein 1435 1440	actin
+R16	Positive_regulation Arg1:T28 Arg2:T27	
+T29	Protein 1480 1485	actin
+R17	Complex_formation Arg1:T28 Arg2:T29	
+T30	Protein 1506 1510	DEF6
+T31	OOS 305 334	PI 3-kinase signaling pathway
+T32	Chemical 347 351	H2O2
+T33	Protein 448 451	GFP
+A1	Fusion T33
+#3	AnnotatorNotes T33	not tagged by tagger
+A2	Fusion T16
+T34	Protein 622 625	GFP
+A3	Fusion T34
+A4	Fusion T17
+T35	Family 1167 1178	Rho GTPases
+T36	Protein 1076 1083	N17Rac1
+A5	Mutant T36
+T38	Protein 1098 1105	N19RhoA
+A7	Mutant T38
+T39	Protein 1085 1093	N17Cdc42
+A8	Mutant T39
+#2	AnnotatorNotes T38	not tagged by tagger
+#4	AnnotatorNotes T39	not tagged by tagger
+#5	AnnotatorNotes T36	not tagged by tagger
+T37	OOS 747 768	PI 3-kinase signaling
+T40	OOS 1214 1245	Cdc42, Rac1, and RhoA signaling
+T41	Chemical 820 823	GTP
+A6	Blacklisted T41

@@ -1,0 +1,29 @@
+T1	Protein 61 90	immunity-associated protein 2
+T2	Protein 92 98	GIMAP2
+T3	Protein 414 420	GIMAP2
+T4	Protein 512 518	GIMAP2
+T5	Protein 751 757	GIMAP2
+T6	Protein 1241 1247	GIMAP2
+*	Equiv T2 T1
+T7	Family 102 141	GTPases of immunity-associated proteins
+T8	Family 143 149	GIMAPs
+*	Equiv T8 T7
+T9	Family 39 57	septin-like GTPase
+T10	Family 179 186	GTPases
+T11	Family 1331 1337	GIMAPs
+T12	Family 1357 1364	septins
+T13	Family 1479 1493	dynamin GTPase
+T14	Family 1549 1556	septin-
+T15	Family 1561 1581	dynamin-like GTPases
+T16	Family 1754 1760	GIMAPs
+T17	Family 935 940	GIMAP
+R1	Out-of-scope Arg1:T1 Arg2:T9	
+#1	AnnotatorNotes R1	Member-of
+T18	Chemical 502 505	GDP
+T19	Chemical 746 749	GTP
+T20	Chemical 815 818	GTP
+R2	Out-of-scope Arg1:T4 Arg2:T18	
+#5	AnnotatorNotes R2	Conjugation
+A1	Blacklisted T18
+A2	Blacklisted T19
+A3	Blacklisted T20

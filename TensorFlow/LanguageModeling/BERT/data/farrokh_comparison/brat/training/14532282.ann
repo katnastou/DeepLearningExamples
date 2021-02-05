@@ -1,0 +1,32 @@
+T1	Protein 0 5	HCF-1
+T2	Protein 41 67	zinc finger protein Krox20
+T3	Protein 70 75	HCF-1
+T4	Protein 547 552	HCF-1
+T5	Protein 602 606	LZIP
+T6	Protein 611 619	Zhangfei
+T7	Protein 884 889	HCF-1
+T8	Protein 908 914	Krox20
+T9	Protein 998 1002	E2F4
+T10	Protein 1071 1076	HCF-1
+T11	Protein 1131 1154	estrogen receptor-alpha
+T12	Protein 1190 1196	Krox20
+T13	Protein 1352 1357	HCF-1
+T14	Protein 1425 1430	HCF-1
+T15	Protein 1460 1466	Krox20
+T16	Protein 1500 1504	p300
+T17	Protein 1533 1538	HCF-1
+R1	Positive_regulation Arg1:T1 Arg2:T2	
+T18	Protein 179 183	VP16
+T19	Protein 402 406	VP16
+R2	Complex_formation Arg1:T19 Arg2:T4	
+T20	Protein 565 568	HCF
+R3	Complex_formation Arg1:T20 Arg2:T5	
+R4	Complex_formation Arg1:T20 Arg2:T6	
+T21	Protein 704 707	HCF
+R5	Positive_regulation Arg1:T10 Arg2:T9	
+R6	Positive_regulation Arg1:T10 Arg2:T8	
+T22	Protein 1171 1174	HCF
+R7	Complex_formation Arg1:T12 Arg2:T13	
+R8	Positive_regulation Arg1:T13 Arg2:T12	
+R9	Positive_regulation Arg1:T15 Arg2:T14	
+R10	Regulation Arg1:T16 Arg2:T14	

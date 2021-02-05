@@ -1,0 +1,11 @@
+T1	Protein 362 372	Podoplanin
+T2	Protein 653 663	Podoplanin
+T3	Protein 748 754	LYVE-1
+T4	Protein 787 793	VEGFR3
+T5	Protein 868 874	LYVE-1
+T6	Protein 879 885	VEGFR3
+T7	Protein 899 906	epsin 1
+#1	AnnotatorNotes T1	antibody
+T8	Chemical 423 429	Biotin
+#2	AnnotatorNotes T2	antibody
+T9	Protein 911 912	2

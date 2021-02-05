@@ -1,0 +1,46 @@
+T1	Protein 30 34	ZFM1
+T2	Protein 79 82	EWS
+T3	Protein 115 119	ZFM1
+T4	Protein 201 204	SF1
+T5	Protein 206 210	ZFM1
+T6	Protein 433 436	EWS
+T7	Protein 748 752	ZFM1
+T8	Protein 773 776	EWS
+T9	Protein 807 832	glutathione S-transferase
+T10	Protein 870 873	EWS
+T11	Protein 895 899	ZFM1
+T12	Protein 957 961	ZFM1
+T13	Protein 1050 1053	EWS
+T15	Protein 1109 1113	ZFM1
+T16	Protein 1125 1128	EWS
+T17	Protein 1165 1173	hTAFII68
+T18	Protein 1208 1211	EWS
+T19	Protein 1232 1236	ZFM1
+T20	Protein 1271 1274	EWS
+T21	Protein 1279 1287	hTAFII68
+T22	Complex 1317 1322	TFIID
+T23	Protein 1339 1342	EWS
+T24	Protein 1347 1355	hTAFII68
+T25	Protein 1447 1451	ZFM1
+T26	Protein 1518 1522	ZFM1
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Regulation Arg1:T1 Arg2:T2	
+T27	Protein 392 424	stage-specific activator protein
+T28	Protein 426 430	SSAP
+*	Equiv T27 T28
+R4	Negative_regulation Arg1:T5 Arg2:T27	
+T29	Protein 606 610	SSAP
+R3	Complex_formation Arg1:T7 Arg2:T8	
+R5	Complex_formation Arg1:T10 Arg2:T11	
+R6	Complex_formation Arg1:T15 Arg2:T16	
+T31	Protein 1157 1160	TLS
+R7	Complex_formation Arg1:T17 Arg2:T19	
+R8	Complex_formation Arg1:T31 Arg2:T19	
+T32	Protein 1275 1278	TLS
+T33	Complex 1398 1415	RNA polymerase II
+R9	Complex_formation Arg1:T23 Arg2:T33	
+R10	Complex_formation Arg1:T24 Arg2:T33	
+T14	Protein 1045 1049	Gal4
+A1	Fusion T14
+#1	AnnotatorNotes T14	not tagged by tagger
+A2	Fusion T13

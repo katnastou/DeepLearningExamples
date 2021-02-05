@@ -1,0 +1,72 @@
+T1	Protein 34 47	interleukin-2
+T2	Protein 89 94	NFATp
+T3	Protein 308 321	interleukin 2
+T4	Protein 323 327	IL-2
+T5	Protein 578 582	IL-2
+T6	Protein 601 620	vitamin D3 receptor
+T7	Protein 622 625	VDR
+T8	Protein 694 698	IL-2
+T9	Protein 746 750	IL-2
+T10	Protein 786 789	VDR
+T11	Protein 1033 1040	NF-AT-1
+T12	Protein 1100 1105	NFATp
+T13	Protein 1127 1130	VDR
+T14	Protein 1227 1230	VDR
+T15	Protein 1311 1315	IL-2
+T16	Protein 1371 1374	VDR
+T17	Protein 1418 1422	IL-2
+T18	Protein 1520 1525	NFATp
+T19	Protein 1561 1564	VDR
+T20	Protein 1568 1571	VDR
+T21	Protein 1654 1657	VDR
+T22	Protein 1697 1702	NFATp
+T23	Protein 1762 1769	NF-AT-1
+T24	Protein 1869 1873	IL-2
+*	Equiv T3 T4
+*	Equiv T6 T7
+R2	Regulation_of_transcription Arg1:T21 Arg2:T23
+T25	Protein 330 346	gamma interferon
+T26	Protein 352 400	granulocyte-macrophage colony-stimulating factor
+R3	Negative_regulation Arg1:T6 Arg2:T5	
+T27	Complex 1121 1125	AP-1
+T28	Complex 1526 1530	AP-1
+T29	Protein 1658 1677	retinoid X receptor
+R5	Complex_formation Arg1:T21 Arg2:T29	
+T30	Complex 1703 1707	AP-1
+R6	Complex_formation Arg1:T22 Arg2:T30	
+R7	Complex_formation Arg1:T18 Arg2:T28	
+T31	Protein 1572 1591	retinoid X receptor
+R8	Complex_formation Arg1:T20 Arg2:T31	
+R9	Regulation_of_transcription Arg1:T29 Arg2:T23	
+R1	Regulation_of_transcription Arg1:T12 Arg2:T11	
+R4	Regulation_of_transcription Arg1:T27 Arg2:T11	
+T32	Complex 95 99	AP-1
+R10	Complex_formation Arg1:T2 Arg2:T32	
+R11	Regulation_of_gene_expression Arg1:T6 Arg2:T5	
+R12	Regulation_of_transcription Arg1:T14 Arg2:T15	
+R13	Regulation_of_gene_expression Arg1:T16 Arg2:T17	
+R14	Negative_regulation Arg1:T19 Arg2:T28	
+R15	Negative_regulation Arg1:T19 Arg2:T18	
+R16	Negative_regulation Arg1:T20 Arg2:T28	
+R17	Negative_regulation Arg1:T31 Arg2:T18	
+R18	Negative_regulation Arg1:T29 Arg2:T22	
+R19	Negative_regulation Arg1:T21 Arg2:T30	
+T33	Chemical 56 66	vitamin D3
+R20	Negative_regulation Arg1:T33 Arg2:T1	
+R21	Regulation_of_transcription Arg1:T33 Arg2:T1	
+T34	Chemical 194 218	1,25-dihydroxyvitamin D3
+T35	Chemical 220 231	1,25(OH)2D3
+*	Equiv T34 T35
+T36	Chemical 259 269	vitamin D3
+R22	Negative_regulation Arg1:T35 Arg2:T3	
+R23	Negative_regulation Arg1:T35 Arg2:T26	
+R24	Negative_regulation Arg1:T35 Arg2:T25	
+R25	Regulation_of_transcription Arg1:T35 Arg2:T3	
+R26	Regulation_of_transcription Arg1:T35 Arg2:T25	
+R27	Regulation_of_transcription Arg1:T35 Arg2:T26	
+T37	Chemical 434 445	1,25(OH)2D3
+T38	Chemical 650 660	vitamin D3
+T39	Chemical 485 498	cycloheximide
+R28	Complex_formation Arg1:T37 Arg2:T6	
+T40	Chemical 914 925	1,25(OH)2D3
+A1	Mutant T13

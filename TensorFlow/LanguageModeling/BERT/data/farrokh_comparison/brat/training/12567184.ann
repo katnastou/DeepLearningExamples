@@ -1,0 +1,35 @@
+T1	Family 325 329	CREB
+T2	Family 612 616	CREB
+T3	Family 753 757	CREB
+T4	Protein 786 791	HDAC1
+T5	Family 845 849	CREB
+T6	Protein 915 920	HDAC1
+T7	Family 59 63	HDAC
+T8	Protein 64 67	PP1
+R1	Complex_formation Arg1:T7 Arg2:T8	
+T9	Protein 177 180	PKA
+T10	Protein 222 243	protein phosphatase 1
+T11	Protein 245 248	PP1
+T12	Family 284 323	cAMP responsive element binding protein
+*	Equiv T12 T1
+*	Equiv T11 T10
+R2	Catalysis_of_dephosphorylation Arg1:T10 Arg2:T1	
+R3	Catalysis_of_phosphorylation Arg1:T9 Arg2:T1	
+T13	Family 409 426	histone acetylase
+T14	Family 428 431	HAT
+*	Equiv T13 T14
+T15	Protein 442 445	CBP
+T16	Protein 450 454	P300
+R4	Complex_formation Arg1:T15 Arg2:T1	
+R5	Complex_formation Arg1:T16 Arg2:T1	
+T17	Family 555 574	histone deacetylase
+T18	Family 576 580	HDAC
+*	Equiv T17 T18
+R6	Positive_regulation Arg1:T18 Arg2:T2	
+T19	Protein 725 729	HDAC
+R7	Negative_regulation Arg1:T19 Arg2:T3	
+R8	Complex_formation Arg1:T4 Arg2:T5	
+R9	Regulation Arg1:T4 Arg2:T5	
+T20	Protein 985 988	PP1
+R10	Complex_formation Arg1:T6 Arg2:T20	
+T21	Family 510 518	histones

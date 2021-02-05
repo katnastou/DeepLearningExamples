@@ -1,0 +1,41 @@
+T1	Protein 66 72	GATA-1
+T2	Protein 80 97	estrogen receptor
+T3	Protein 377 383	alpha-
+T4	Protein 388 399	beta-globin
+T5	Protein 459 461	H5
+T6	Protein 693 699	GATA-1
+T7	Protein 926 932	GATA-1
+T8	Protein 962 979	estrogen receptor
+T9	Protein 981 983	ER
+T10	Protein 1092 1094	ER
+T11	Protein 1118 1124	GATA-1
+T12	Protein 1285 1291	GATA-1
+T13	Protein 1293 1299	GATA-1
+T14	Protein 1304 1306	ER
+T15	Protein 1424 1430	GATA-1
+T16	Protein 1435 1437	ER
+T17	Protein 1512 1518	GATA-1
+T18	Protein 1527 1529	ER
+T19	Protein 1630 1636	GATA-1
+T20	Protein 1712 1718	GATA-1
+T21	Protein 1773 1775	ER
+*	Equiv T8 T9
+R1	Complex_formation Arg1:T13 Arg2:T14
+R2	Complex_formation Arg1:T15 Arg2:T16
+R4	Complex_formation Arg1:T17 Arg2:T18
+R5	Complex_formation Arg1:T20 Arg2:T21
+T22	Protein 401 407	band 3
+T23	Protein 409 417	band 4.1
+R3	Negative_regulation Arg1:T2 Arg2:T1	
+R6	Negative_regulation Arg1:T8 Arg2:T7	
+R7	Negative_regulation Arg1:T10 Arg2:T11	
+T24	Chemical 110 118	estrogen
+T25	Chemical 174 183	estrogens
+#1	AnnotatorNotes T25	Plural
+T26	Chemical 481 490	estrogens
+#2	AnnotatorNotes T26	Plural
+T27	Chemical 624 633	estrogens
+#3	AnnotatorNotes T27	Plural
+T28	Chemical 1656 1665	estrogens
+#4	AnnotatorNotes T28	Plural
+R8	Regulation Arg1:T28 Arg2:T20	

@@ -1,0 +1,42 @@
+T1	Protein 27 31	ITCH
+T2	Protein 100 106	LAPTM5
+T3	Protein 121 127	LAPTM5
+T4	Protein 150 156	LAPTM5
+T5	Protein 328 334	LAPTM5
+T6	Protein 499 505	LAPTM5
+T7	Protein 634 640	LAPTM5
+T8	Protein 718 722	ITCH
+T9	Protein 748 752	ITCH
+T10	Protein 789 795	LAPTM5
+T11	Protein 896 900	ITCH
+T12	Protein 927 933	LAPTM5
+T13	Protein 972 976	ITCH
+T14	Protein 1019 1025	LAPTM5
+T15	Protein 1066 1070	ITCH
+T16	Protein 1123 1129	LAPTM5
+T17	Protein 1182 1188	LAPTM5
+T18	Protein 1258 1262	ITCH
+T19	Protein 1376 1382	LAPTM5
+T20	Protein 40 98	lysosomal-associated protein multispanning transmembrane 5
+*	Equiv T20 T2
+T21	Protein 158 216	lysosomal-associated protein multispanning transmembrane 5
+*	Equiv T4 T21
+R1	Regulation Arg1:T1 Arg2:T20	
+R2	Regulation Arg1:T1 Arg2:T3	
+R3	Catalysis_of_ubiquitination Arg1:T8 Arg2:T7	
+R4	Regulation_of_proteolysis Arg1:T8 Arg2:T7	
+R5	Negative_regulation Arg1:T8 Arg2:T7	
+R6	Complex_formation Arg1:T9 Arg2:T10	
+R7	Catalysis_of_ubiquitination Arg1:T9 Arg2:T10	
+R8	Regulation_of_proteolysis Arg1:T9 Arg2:T10	
+R9	Negative_regulation Arg1:T9 Arg2:T10	
+R10	Regulation_of_proteolysis Arg1:T11 Arg2:T12	
+R11	Negative_regulation Arg1:T13 Arg2:T14	
+R12	Negative_regulation Arg1:T15 Arg2:T16	
+R13	Regulation_of_proteolysis Arg1:T15 Arg2:T16	
+R14	Catalysis_of_ubiquitination Arg1:T18 Arg2:T17	
+R15	Negative_regulation Arg1:T18 Arg2:T17	
+R16	Regulation_of_proteolysis Arg1:T18 Arg2:T17	
+T22	Family 727 746	E3 ubiquitin ligase
+T23	Family 10 26	ubiquitin ligase
+T25	Family 1241 1257	ubiquitin ligase

@@ -1,0 +1,8 @@
+T1	Protein 25 33	DNase II
+T2	Protein 155 159	dCAD
+T3	Protein 164 172	DNase II
+T4	Protein 631 639	DNase II
+T5	OOS 98 101	NCs
+#1	AnnotatorNotes T5	Nurse cells
+T6	OOS 123 126	PCD
+#2	AnnotatorNotes T6	Programmed cell death

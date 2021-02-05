@@ -1,0 +1,56 @@
+T1	Protein 0 8	Thrombin
+T2	Protein 17 20	p65
+T3	Protein 106 112	ICAM-1
+T4	Protein 216 224	thrombin
+T5	Protein 295 301	ICAM-1
+T6	Protein 303 307	CD54
+T7	Protein 368 376	thrombin
+T8	Protein 427 433	ICAM-1
+T9	Protein 474 480	ICAM-1
+T10	Protein 600 606	ICAM-1
+T11	Protein 774 782	thrombin
+T12	Protein 928 934	ICAM-1
+T13	Protein 1008 1016	thrombin
+T14	Protein 1240 1243	E1B
+T15	Protein 1285 1293	thrombin
+T16	Protein 1354 1362	thrombin
+T17	Protein 1413 1421	thrombin
+T18	Protein 1441 1454	NF-kappa Bp65
+T19	Protein 1456 1461	Rel A
+T20	Protein 1500 1506	ICAM-1
+T21	Protein 1517 1534	Thrombin receptor
+T22	Protein 1616 1652	proteolytically activated receptor-1
+T23	Protein 1663 1671	thrombin
+T24	Protein 1693 1699	ICAM-1
+T25	Protein 1737 1745	thrombin
+T26	Protein 1768 1774	ICAM-1
+T27	Protein 1830 1843	NF-kappa Bp65
+T28	Protein 1889 1895	ICAM-1
+T29	Protein 1911 1947	proteolytically activated receptor-1
+*	Equiv T5 T6
+*	Equiv T18 T19
+R1	Regulation_of_transcription Arg1:T19 Arg2:T20
+R2	Regulation_of_transcription Arg1:T27 Arg2:T28
+R3	Positive_regulation Arg1:T23 Arg2:T24	
+R4	Regulation_of_gene_expression Arg1:T4 Arg2:T5	
+R5	Positive_regulation Arg1:T4 Arg2:T5	
+R6	Regulation_of_transcription Arg1:T7 Arg2:T8	
+R7	Positive_regulation Arg1:T7 Arg2:T8	
+R8	Regulation_of_transcription Arg1:T13 Arg2:T12	
+R9	Positive_regulation Arg1:T13 Arg2:T12	
+T30	Complex 1325 1335	NF-kappa B
+T31	Complex 1193 1203	NF-kappa B
+R10	Positive_regulation Arg1:T30 Arg2:T16	
+R11	Positive_regulation Arg1:T17 Arg2:T18	
+R12	Positive_regulation Arg1:T19 Arg2:T20	
+R13	Regulation_of_transcription Arg1:T23 Arg2:T24	
+R14	Positive_regulation Arg1:T25 Arg2:T26	
+R15	Positive_regulation Arg1:T29 Arg2:T27	
+T32	Complex 53 63	NF-kappa B
+T33	Complex 700 710	NF-kappa B
+T34	Complex 839 849	NF-kappa B
+T35	Complex 976 986	NF-kappa B
+T36	Complex 1031 1041	NF-kappa B
+T37	Complex 1477 1487	NF-kappa B
+T38	Complex 1870 1880	NF-kappa B
+R16	Regulation_of_transcription Arg1:T2 Arg2:T3	

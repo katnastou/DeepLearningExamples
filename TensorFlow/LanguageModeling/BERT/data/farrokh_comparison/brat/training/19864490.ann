@@ -1,0 +1,30 @@
+T1	Protein 0 9	Consortin
+T2	Protein 360 369	consortin
+T3	Protein 539 548	consortin
+T4	Protein 622 631	Consortin
+T5	Protein 799 803	GGA1
+T6	Protein 808 812	GGA2
+T7	Protein 868 877	consortin
+T8	Protein 1050 1059	consortin
+T9	Protein 1225 1234	consortin
+T10	Protein 1513 1522	consortin
+T11	Protein 1763 1767	CNST
+T12	Protein 1791 1795	Cnst
+T13	Protein 99 108	connexins
+R1	Regulation Arg1:T1 Arg2:T13	
+T14	Protein 573 582	connexins
+R2	Complex_formation Arg1:T3 Arg2:T14	
+R3	Complex_formation Arg1:T4 Arg2:T5	
+R4	Complex_formation Arg1:T4 Arg2:T6	
+T15	Protein 1128 1137	connexins
+R5	Positive_regulation Arg1:T8 Arg2:T15	
+T16	Protein 1353 1361	connexin
+T17	Protein 1604 1612	connexin
+T18	Protein 1774 1783	NM_152609
+*	Equiv T11 T18
+T19	Protein 1802 1811	NM_146105
+*	Equiv T12 T19
+T20	Protein 781 789	clathrin
+R6	Complex_formation Arg1:T5 Arg2:T20	
+R7	Complex_formation Arg1:T6 Arg2:T20	
+A1	Mutant T7

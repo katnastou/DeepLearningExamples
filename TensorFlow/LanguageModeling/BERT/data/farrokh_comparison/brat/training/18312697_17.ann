@@ -1,0 +1,43 @@
+T1	Protein 162 167	hFBH1
+T2	Protein 379 384	hFBH1
+T3	Protein 415 420	hFBH1
+T4	Protein 465 470	hFBH1
+T5	Protein 695 700	hFBH1
+T6	Protein 871 875	Fbh1
+T7	Protein 1019 1024	Rhp51
+T8	Protein 1076 1081	Rhp51
+T9	Protein 1130 1135	Rhp51
+T10	Protein 1220 1224	Fbh1
+T12	Complex 305 308	SCF
+#1	AnnotatorNotes T12	GO:0019005
+T13	Complex 83 90	SCFFbh1
+#2	AnnotatorNotes T13	Fbh1 is superscript
+T14	OOS 289 294	F-box
+#3	AnnotatorNotes T14	Protein or domain? I think domain
+R2	Regulation Arg1:T12 Arg2:T1	
+T15	Complex 357 365	SCFhFBH1
+R3	Complex_formation Arg1:T2 Arg2:T15	
+R4	Regulation_of_proteolysis Arg1:T12 Arg2:T1	
+T16	Complex 502 510	SCFhFBH1
+R5	Complex_formation Arg1:T16 Arg2:T5	
+T17	Family 753 758	F-box
+T18	OOS 667 672	F-box
+T19	Complex 892 899	SCFFbh1
+T20	OOS 929 931	HR
+T21	Complex 973 980	SCFFbh1
+T22	Family 996 998	HR
+R1	Catalysis_of_protein_modification Arg1:T21 Arg2:T7	
+R6	Catalysis_of_protein_modification Arg1:T21 Arg2:T22	
+T23	Complex 1039 1046	SCFFbh1
+T24	OOS 1092 1094	HR
+T25	Complex 1244 1251	SCFFbh1
+T26	Complex 1284 1291	SCFFbh1
+T27	OOS 1387 1389	HR
+R7	Regulation Arg1:T23 Arg2:T9	
+R8	Regulation Arg1:T23 Arg2:T8	
+R9	Out-of-scope Arg1:T6 Arg2:T19	
+#4	AnnotatorNotes R9	Not sure what the authors mean
+T28	OOS 120 130	HR pathway
+#6	AnnotatorNotes T28	Pathway
+T11	Protein 900 909	ubiquitin
+A1	Blacklisted T11

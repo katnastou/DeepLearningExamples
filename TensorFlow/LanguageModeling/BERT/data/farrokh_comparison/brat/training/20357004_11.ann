@@ -1,0 +1,11 @@
+T1	Protein 505 512	rnf-121
+T2	Protein 815 822	rnf-121
+T3	Protein 901 908	rnf-121
+T4	Chemical 60 71	tunicamycin
+T5	Chemical 195 206	tunicamycin
+T6	Chemical 382 393	tunicamycin
+T7	Chemical 798 809	tunicamycin
+A1	Mutant T2
+T8	Chemical 875 886	tunicamycin
+A2	Mutant T3
+T9	Chemical 1032 1043	tunicamycin

@@ -1,0 +1,26 @@
+T1	Protein 34 41	tuberin
+T2	Protein 42 50	hamartin
+T3	Protein 60 67	Tuberin
+T4	Protein 97 105	hamartin
+T6	Protein 332 336	TSC1
+T7	Protein 340 344	TSC2
+T8	Protein 387 391	TSC1
+T9	Protein 405 413	hamartin
+T10	Protein 536 543	tuberin
+T11	Protein 572 576	TSC2
+T12	Protein 707 714	tuberin
+T13	Protein 719 727	hamartin
+T14	Protein 906 913	tuberin
+T15	Protein 918 926	hamartin
+T16	Protein 972 980	hamartin
+T17	Protein 1051 1058	tuberin
+T18	Protein 1076 1083	tuberin
+T19	Protein 1116 1124	hamartin
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+*	Equiv T8 T9
+*	Equiv T11 T10
+R3	Complex_formation Arg1:T12 Arg2:T13	
+R4	Complex_formation Arg1:T14 Arg2:T15	
+R5	Regulation Arg1:T18 Arg2:T19	
+R6	Complex_formation Arg1:T18 Arg2:T19	

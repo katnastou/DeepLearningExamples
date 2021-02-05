@@ -1,0 +1,23 @@
+T1	Protein 187 191	MMR1
+T2	Protein 683 687	MFB1
+T3	Protein 747 751	MMR1
+T4	Protein 854 859	Mfb1p
+T5	Protein 864 869	Mmr1p
+T6	Protein 148 157	mmr1Delta
+A1	Mutant T6
+T7	Protein 158 167	mfb1Delta
+A2	Mutant T7
+T8	Protein 525 534	mfb1Delta
+A3	Mutant T8
+T9	Protein 535 544	mmr1Delta
+A4	Mutant T9
+T10	Protein 638 647	mfb1Delta
+A5	Mutant T10
+T11	Protein 703 712	mmr1Delta
+A6	Mutant T11
+T12	Protein 755 764	mfb1Delta
+A7	Mutant T12
+T13	Protein 1081 1090	mfb1Delta
+A8	Mutant T13
+T14	OOS 141 144	RLS
+#1	AnnotatorNotes T14	replicative lifespans

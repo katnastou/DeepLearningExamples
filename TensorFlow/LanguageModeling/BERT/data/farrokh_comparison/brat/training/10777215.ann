@@ -1,0 +1,32 @@
+T1	Protein 79 83	ATFa
+T2	Family 119 123	CREB
+T3	Protein 306 309	Jun
+T4	Protein 311 314	Fos
+T5	Protein 420 424	JNK2
+T8	Protein 600 604	ATFa
+T9	Protein 652 683	mouse ATFa-associated Modulator
+T10	Protein 817 821	ATFa
+T11	Protein 1272 1276	ATFa
+T12	Protein 9 13	ATFa
+T13	Family 124 127	ATF
+*	Equiv T2 T13
+T14	Protein 209 223	adenovirus E1a
+R1	Complex_formation Arg1:T1 Arg2:T14	
+R2	Complex_formation Arg1:T1 Arg2:T3	
+R3	Complex_formation Arg1:T1 Arg2:T4	
+R4	Complex_formation Arg1:T1 Arg2:T5	
+T6	Protein 643 646	mAM
+*	Equiv T6 T9
+R5	Complex_formation Arg1:T6 Arg2:T10	
+T7	Protein 960 963	mAM
+T15	Protein 1073 1076	mAM
+T16	Protein 1149 1154	TFIIE
+T17	Protein 1159 1164	TFIIH
+T18	Protein 1177 1183	RNAPII
+R6	Complex_formation Arg1:T15 Arg2:T16	
+R7	Complex_formation Arg1:T15 Arg2:T17	
+R8	Complex_formation Arg1:T15 Arg2:T18	
+T19	Protein 1230 1233	mAM
+R9	Regulation_of_gene_expression Arg1:T19 Arg2:T11	
+#3	AnnotatorNotes T1	Plural
+T20	Family 908 914	ATPase

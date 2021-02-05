@@ -1,0 +1,31 @@
+T1	Protein 64 68	Axin
+T2	Protein 109 113	Axin
+T3	Protein 200 212	beta-catenin
+T4	Protein 298 302	Axin
+T5	Protein 446 450	Axin
+T6	Protein 653 676	c-Jun N-terminal kinase
+T7	Protein 717 721	Axin
+T8	Protein 733 745	beta-catenin
+T9	Protein 777 781	Axin
+T10	Protein 912 925	Axin-DeltaRGS
+T11	Protein 1052 1056	Axin
+T12	Protein 1079 1091	Axin-DeltaC6
+T13	Protein 1230 1234	Axin
+T14	Protein 1289 1301	beta-catenin
+T15	Protein 1411 1423	beta-catenin
+T16	Family 151 154	Wnt
+R2	Regulation_of_proteolysis Arg1:T2 Arg2:T3	
+R3	Negative_regulation Arg1:T2 Arg2:T3	
+T17	Protein 580 583	APC
+R4	Complex_formation Arg1:T5 Arg2:T17	
+R5	Positive_regulation Arg1:T5 Arg2:T6	
+T18	Family 729 732	Wnt
+R6	Out-of-scope Arg1:T7 Arg2:T18	
+R7	Out-of-scope Arg1:T7 Arg2:T8	
+T19	Protein 1061 1064	APC
+R8	Complex_formation Arg1:T11 Arg2:T19	
+T20	OOS 151 164	Wnt signaling
+T21	OOS 729 753	Wnt/beta-catenin pathway
+A1	Mutant T9
+A2	Mutant T14
+A3	Mutant T5

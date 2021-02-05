@@ -1,0 +1,18 @@
+T1	Protein 833 836	HMT
+T2	Protein 939 943	LSD1
+T3	Family 491 517	histone methyltransferases
+T4	Family 519 523	HMTs
+*	Equiv T4 T3
+T5	OOS 594 611	nuclear receptors
+T6	OOS 643 664	transcription factors
+R1	Out-of-scope Arg1:T3 Arg2:T6	
+R2	Out-of-scope Arg1:T3 Arg2:T5	
+T7	Protein 89 106	nuclear receptors
+#1	AnnotatorNotes T7	Plural
+#4	AnnotatorNotes T5	Plural
+#5	AnnotatorNotes T6	Plural
+#6	AnnotatorNotes T1	Plural
+T8	Family 0 7	Histone
+T9	Family 907 927	histone demethylases
+T10	Family 858 865	histone
+T11	Family 1086 1093	histone

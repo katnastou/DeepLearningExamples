@@ -1,0 +1,7 @@
+T1	Protein 43 47	Gln1
+T2	Protein 99 103	Gln1
+T3	Chemical 23 35	tetracystein
+A1	Fusion T1
+T4	Chemical 79 89	FIAsH-EDT2
+T5	Chemical 138 143	water
+T6	Chemical 165 182	phosphate-citrate

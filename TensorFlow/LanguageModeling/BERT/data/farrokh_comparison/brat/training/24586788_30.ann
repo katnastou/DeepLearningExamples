@@ -1,0 +1,18 @@
+T1	Protein 691 695	Asb4
+T2	Protein 700 704	Asb4
+T3	Protein 743 746	Id2
+T4	Protein 773 776	Id2
+T5	Protein 781 784	Id2
+T6	Protein 787 791	ASB4
+T7	Protein 855 859	ASB4
+T8	Protein 901 905	ASB4
+T9	Protein 58 62	Asb4
+A1	Mutant T9
+T10	OOS 93 97	E7.5
+#1	AnnotatorNotes T10	extraembryonic ectoderm of early post-implantation (E7.5) wild-type
+T11	Protein 459 463	Asb4
+A2	Mutant T11
+A3	Mutant T4
+A4	Mutant T5
+T12	Protein 846 849	ID2
+T13	Protein 927 930	ID2

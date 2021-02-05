@@ -1,0 +1,20 @@
+T1	Protein 424 428	RyR1
+T2	Protein 433 437	RyR2
+T3	Protein 477 481	RyR2
+T4	Protein 564 568	RyR2
+T5	Protein 643 647	RyR1
+T6	Chemical 14 21	calcium
+T7	Chemical 23 27	Ca2+
+T8	Chemical 104 108	Ca2+
+T9	Family 136 158	voltage-gated channels
+T10	Family 166 192	receptor-operated channels
+T11	Chemical 206 223	neurotransmitters
+#1	AnnotatorNotes T11	group
+T12	Chemical 239 243	Ca2+
+T13	Family 263 282	ryanodine receptors
+T14	Family 284 288	RyRs
+T15	Family 294 334	inositol (1,4,5)-trisphosphate receptors
+T16	Family 336 341	IP3Rs
+*	Equiv T15 T16
+*	Equiv T13 T14
+T17	Family 406 409	RyR

@@ -1,0 +1,1 @@
+To examine if any of these decapping activators directly affected translation, we examined the affect of recombinant Scd6, and different domains of Edc3 and Pat1 on translation in vitro. Purification of sufficient full length Edc3 and Pat1 protein for measuring their effects on translation was not possible due to solubility issues.

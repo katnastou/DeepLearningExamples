@@ -1,0 +1,30 @@
+T1	Protein 0 25	Membrane cofactor protein
+T2	Protein 32 36	CD46
+T3	Protein 83 108	Membrane cofactor protein
+T4	Protein 115 119	CD46
+T5	Family 1244 1254	src kinase
+T6	Family 1534 1544	src kinase
+T7	Protein 1546 1549	Lck
+T8	Protein 27 30	MCP
+*	Equiv T1 T8 T2
+T9	Protein 110 113	MCP
+*	Equiv T3 T9 T4
+T10	Protein 375 378	MCP
+T11	Protein 474 477	MCP
+T12	Protein 575 580	IL-12
+T13	Protein 500 527	measles virus hemagglutinin
+R1	Negative_regulation Arg1:T11 Arg2:T12	
+R2	Regulation Arg1:T13 Arg2:T11	
+T14	Protein 707 710	MCP
+T15	Protein 977 980	MCP
+T16	Protein 1199 1202	MCP
+R3	Catalysis_of_phosphorylation Arg1:T5 Arg2:T16	
+T17	Protein 1586 1589	MCP
+R4	Catalysis_of_phosphorylation Arg1:T7 Arg2:T17	
+T18	Protein 1708 1711	MCP
+T19	Protein 556 559	MCP
+T20	Protein 615 618	MCP
+T21	Protein 1067 1070	MCP
+T22	Protein 1160 1163	MCP
+T23	OOS 1657 1685	src family-dependent pathway
+T24	Family 1657 1660	src

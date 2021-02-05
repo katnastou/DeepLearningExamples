@@ -1,0 +1,19 @@
+T1	Protein 12 16	Cul9
+T2	Protein 303 307	CUL9
+T3	Protein 491 495	CUL7
+T4	Protein 521 525	CUL9
+T5	Protein 559 563	CUL9
+T6	Protein 633 637	CUL7
+T7	Protein 698 702	CUL9
+T8	Protein 847 851	CUL9
+T9	Protein 189 192	Myc
+#1	AnnotatorNotes T9	not tagged by tagger
+T10	Complex 382 384	3M
+T11	Complex 646 648	3M
+T12	Complex 744 746	3M
+T13	Protein 820 828	survivin
+T14	Protein 182 188	Emicro
+#2	AnnotatorNotes T14	It's Eµ, but μ coming from http://www.fileformat.info/info/unicode/char/b5/index.htm
+R1	Complex_formation Arg1:T3 Arg2:T4	
+R2	Catalysis_of_protein_modification Arg1:T8 Arg2:T13	
+#3	AnnotatorNotes R2	Substrate

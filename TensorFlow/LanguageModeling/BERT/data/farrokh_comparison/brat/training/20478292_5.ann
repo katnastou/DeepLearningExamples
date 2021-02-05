@@ -1,0 +1,21 @@
+T1	Protein 159 162	Ato
+T2	Protein 231 234	Spi
+T3	Protein 362 365	Ato
+T4	Protein 661 672	Abdominal-A
+T5	Protein 674 679	Abd-A
+T6	Protein 700 705	Abd-A
+T7	Protein 771 774	Spi
+T8	Protein 888 891	Ato
+T9	Protein 906 911	Abd-A
+T10	OOS 9 12	SOP
+#1	AnnotatorNotes T10	sensory organ precursor
+T11	Protein 28 31	rho
+#2	AnnotatorNotes T11	rhomboid (rho) protease
+T12	Protein 218 221	rho
+T13	Protein 458 465	rho and
+T14	Protein 603 606	rho
+T15	Family 649 652	Hox
+*	Equiv T5 T4
+T16	Protein 758 761	rho
+T17	OOS 912 924	Hox pathways
+T18	Family 912 915	Hox

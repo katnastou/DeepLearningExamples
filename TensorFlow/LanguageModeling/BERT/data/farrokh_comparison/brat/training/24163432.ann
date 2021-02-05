@@ -1,0 +1,39 @@
+T1	Protein 82 93	connexin 43
+T2	Protein 297 301	Cx43
+T3	Protein 349 364	integrin alpha5
+T4	Protein 426 430	Cx43
+T5	Protein 505 509	Cx43
+T6	Protein 514 529	integrin alpha5
+T7	Protein 609 613	Cx43
+T8	Protein 702 706	Cx43
+T9	Protein 711 726	integrin alpha5
+T10	Protein 795 799	Cx43
+T11	Protein 804 819	integrin alpha5
+T12	Protein 913 917	Cx43
+T13	Protein 1032 1036	Cx43
+T14	Protein 1041 1056	integrin alpha5
+T15	Protein 1194 1198	Cx43
+T16	Protein 1291 1295	Cx43
+T17	Protein 1300 1315	integrin alpha5
+T18	Protein 1526 1530	Cx43
+T19	Protein 1535 1550	integrin alpha5
+T20	Protein 0 11	14-3-3theta
+R1	Regulation Arg1:T20 Arg2:T1	
+R2	Regulation Arg1:T3 Arg2:T4	
+T21	Protein 544 555	14-3-3theta
+R3	Complex_formation Arg1:T6 Arg2:T21	
+R4	Complex_formation Arg1:T5 Arg2:T21	
+R5	Regulation Arg1:T21 Arg2:T7	
+T22	Protein 656 667	14-3-3theta
+R6	Complex_formation Arg1:T8 Arg2:T9	
+T23	Protein 983 994	14-3-3theta
+T24	Protein 1158 1169	14-3-3theta
+R8	Complex_formation Arg1:T23 Arg2:T13	
+R9	Complex_formation Arg1:T23 Arg2:T14	
+T25	Protein 1321 1332	14-3-3theta
+R7	Complex_formation Arg1:T17 Arg2:T25	
+R10	Complex_formation Arg1:T16 Arg2:T25	
+T26	Protein 1485 1496	14-3-3theta
+R11	Complex_formation Arg1:T26 Arg2:T18	
+R12	Complex_formation Arg1:T26 Arg2:T19	
+T27	Chemical 1252 1263	brefeldin A

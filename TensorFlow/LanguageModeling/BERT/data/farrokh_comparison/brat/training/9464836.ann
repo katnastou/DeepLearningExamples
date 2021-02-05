@@ -1,0 +1,40 @@
+T1	Protein 28 31	p40
+T2	Protein 46 50	CD40
+T3	Protein 365 369	CD40
+T4	Protein 370 381	CD40 ligand
+T5	Protein 383 388	CD40L
+T6	Protein 427 430	p40
+T7	Protein 588 591	p40
+T8	Protein 595 599	CD40
+T9	Protein 778 782	CD40
+T10	Protein 809 814	CD40L
+T11	Protein 843 846	p40
+T12	Protein 867 870	p40
+T13	Protein 913 916	p40
+T14	Protein 1223 1226	p40
+T15	Protein 1313 1317	CD40
+T16	Protein 1444 1477	chloramphenicol acetyltransferase
+T17	Protein 1479 1482	CAT
+T18	Protein 1517 1520	CAT
+T19	Protein 1755 1758	p40
+T20	Protein 1803 1806	p40
+T21	Protein 1820 1824	CD40
+*	Equiv T16 T17 T28
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T3 Arg2:T5
+T22	Protein 78 99	nuclear factor-kappaB
+R2	Positive_regulation Arg1:T2 Arg2:T1	
+R5	Positive_regulation Arg1:T8 Arg2:T7	
+R3	Regulation_of_transcription Arg1:T22 Arg2:T1	
+T23	Protein 0 27	Induction of interleukin-12
+#1	AnnotatorNotes T23	Remove abstract
+T24	Complex 958 984	nuclear factor (NF)-kappaB
+R4	Regulation_of_transcription Arg1:T24 Arg2:T13	
+T25	Complex 1099 1108	NF-kappaB
+T26	Complex 1243 1252	NF-kappaB
+T27	Complex 1387 1396	NF-kappaB
+R6	Complex_formation Arg1:T14 Arg2:T26	
+T28	Protein 1427 1443	thymidine kinase
+T29	Complex 1577 1586	NF-kappaB
+T30	Complex 1644 1653	NF-kappaB
+T31	Complex 1852 1861	NF-kappaB

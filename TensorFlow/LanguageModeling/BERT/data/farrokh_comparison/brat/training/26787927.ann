@@ -1,0 +1,33 @@
+T1	Protein 9 13	PTEN
+T2	Complex 521 540	IkappaBalpha kinase
+T3	Protein 609 621	IkappaBalpha
+T4	Protein 834 838	PTEN
+T5	Protein 884 888	PTEN
+T6	Protein 0 8	Profilin
+T7	Complex 37 46	NF-kappaB
+T8	Protein 125 133	Profilin
+T9	Complex 187 222	Nuclear transcription factor kappaB
+T10	Complex 224 233	NF-kappaB
+*	Equiv T10 T9
+T11	Complex 407 416	NF-kappaB
+T12	Complex 542 545	IKK
+*	Equiv T12 T2
+T13	Protein 464 472	Profilin
+T14	Complex 598 607	NF-kappaB
+T15	Protein 627 630	p65
+T16	Complex 648 657	NF-kappaB
+T17	Protein 752 760	Profilin
+T18	Protein 799 832	phosphatase and tension homologue
+*	Equiv T4 T18
+T19	Complex 958 961	IKK
+T20	Complex 993 1002	NF-kappaB
+T21	Protein 1021 1029	Profilin
+T22	Complex 1070 1079	NF-kappaB
+T23	Complex 1164 1173	NF-kappaB
+T24	Protein 1287 1295	Profilin
+T25	Complex 1347 1356	NF-kappaB
+R1	Complex_formation Arg1:T6 Arg2:T1	
+T26	Complex 76 79	IKK
+T27	Protein 381 389	Profilin
+R2	Complex_formation Arg1:T17 Arg2:T18	
+R3	Complex_formation Arg1:T5 Arg2:T19	

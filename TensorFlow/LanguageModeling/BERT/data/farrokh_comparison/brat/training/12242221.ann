@@ -1,0 +1,40 @@
+T1	Protein 63 67	INO1
+T2	Protein 79 84	sec14
+T3	Protein 132 136	INO1
+T4	Protein 519 523	INO1
+T5	Protein 765 770	sec14
+T6	Protein 865 869	INO1
+T7	Protein 1041 1045	INO1
+T8	Protein 1111 1116	sec14
+T9	Protein 1251 1255	INO1
+T10	Protein 1337 1343	Sec14p
+T11	Protein 1385 1390	sec14
+T12	Protein 1551 1556	sec14
+T13	Protein 1641 1646	sec14
+T14	Protein 1726 1731	sec14
+T15	Protein 147 176	inositol 1-phosphate synthase
+*	Equiv T15 T3
+T16	OOS 459 498	unfolded protein response (UPR) pathway
+T17	Protein 543 552	ire1Delta
+A1	Mutant T17
+T18	Protein 557 566	hac1Delta
+A2	Mutant T18
+T19	Chemical 579 587	inositol
+T20	Chemical 682 690	inositol
+A3	Mutant T5
+T21	Protein 775 784	cki1Delta
+A4	Mutant T21
+T22	Chemical 953 961	inositol
+T23	Protein 1121 1130	cki1Delta
+A5	Mutant T23
+A6	Mutant T8
+T24	Protein 1391 1395	cki1
+A7	Mutant T24
+A8	Mutant T11
+T25	Protein 1486 1495	cki1Delta
+A9	Mutant T25
+T26	Protein 1732 1736	cki1
+A10	Mutant T26
+A11	Mutant T14
+A12	Mutant T13
+A13	Mutant T12

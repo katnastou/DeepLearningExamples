@@ -1,0 +1,55 @@
+T1	Protein 815 820	HDAC1
+T2	Protein 825 830	HDAC2
+T3	Protein 1041 1046	HDAC1
+T4	Protein 1051 1056	HDAC2
+T5	Protein 1062 1067	Sin3A
+T6	Protein 1210 1215	HDAC2
+T7	Protein 1221 1245	transcription factor Sp1
+T8	Protein 26 45	histone deacetylase
+T9	Protein 88 108	Histone deacetylases
+T10	Protein 110 115	HDACs
+*	Equiv T9 T10
+T11	Protein 246 251	HDACs
+T12	Protein 317 321	HDAC
+T13	Protein 484 488	HDAC
+T14	Protein 674 678	HDAC
+T15	Protein 716 720	HDAC
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T16	Protein 977 981	HDAC
+R2	Complex_formation Arg1:T3 Arg2:T5	
+R3	Complex_formation Arg1:T4 Arg2:T5	
+T17	Protein 1093 1097	Sin3
+T18	Protein 1141 1145	Sin3
+R4	Complex_formation Arg1:T6 Arg2:T7	
+#1	AnnotatorNotes T9	Class
+#2	AnnotatorNotes T10	Class
+#3	AnnotatorNotes T8	Class
+#4	AnnotatorNotes T11	Class
+#5	AnnotatorNotes T12	Class
+#6	AnnotatorNotes T13	Class
+#7	AnnotatorNotes T15	Class
+#8	AnnotatorNotes T14	Class
+#9	AnnotatorNotes T16	Class
+T19	Chemical 58 72	trichostatin A
+T20	Chemical 77 85	butyrate
+T21	Chemical 438 452	trichostatin A
+T22	Chemical 454 457	TSA
+*	Equiv T21 T22
+T23	Chemical 471 479	butyrate
+T24	Chemical 590 593	TSA
+T25	Chemical 690 693	TSA
+T26	Chemical 698 706	butyrate
+T27	Chemical 843 846	TSA
+T28	Chemical 994 997	TSA
+T29	Chemical 1186 1189	TSA
+T30	Chemical 1270 1273	TSA
+R5	Negative_regulation Arg1:T19 Arg2:T8	
+R6	Negative_regulation Arg1:T20 Arg2:T8	
+R7	Negative_regulation Arg1:T26 Arg2:T15	
+R8	Negative_regulation Arg1:T25 Arg2:T15	
+R9	Negative_regulation Arg1:T25 Arg2:T14	
+R10	Negative_regulation Arg1:T26 Arg2:T14	
+R11	Negative_regulation Arg1:T27 Arg2:T1	
+R12	Negative_regulation Arg1:T27 Arg2:T2	
+R13	Negative_regulation Arg1:T28 Arg2:T16	
+R14	Complex_formation Arg1:T4 Arg2:T3	

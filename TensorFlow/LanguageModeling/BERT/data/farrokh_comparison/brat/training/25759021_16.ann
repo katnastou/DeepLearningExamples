@@ -1,0 +1,29 @@
+T1	Protein 6 10	RNF5
+T2	Protein 111 115	RNF5
+T3	Protein 326 332	SLC1A5
+T4	Protein 462 468	SLC1A5
+T5	Protein 569 575	SLC1A5
+T6	Protein 628 632	RNF5
+T7	Protein 687 691	RNF5
+T8	Protein 725 731	SLC1A5
+T9	Protein 795 801	SLC1A5
+T10	Protein 823 827	RNF5
+T11	OOS 79 83	ERAD
+#1	AnnotatorNotes T11	endoplasmic reticulum-associated degradation
+T12	OOS 133 136	Gln
+#2	AnnotatorNotes T12	glutamine
+T13	Protein 200 203	ERS
+#3	AnnotatorNotes T13	endoplasmic reticulum stress
+T14	Chemical 241 244	35S
+T15	Chemical 314 317	35S
+#4	AnnotatorNotes T15	 this is not GGP but rather radioactive isotope sulfur=>Chemical
+#5	AnnotatorNotes T14	this is not GGP but rather radioactive isotope sulfur=>Chemical
+T16	Chemical 386 389	SDS
+#6	AnnotatorNotes T16	not tagged by tagger
+T17	Chemical 502 512	paclitaxel
+T18	Chemical 706 716	paclitaxel
+T19	Protein 732 736	38A2
+T20	Protein 802 806	38A2
+*	Equiv T19 T8
+*	Equiv T20 T9
+T21	Chemical 834 844	paclitaxel

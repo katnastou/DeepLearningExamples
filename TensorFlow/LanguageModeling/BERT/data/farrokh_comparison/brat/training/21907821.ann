@@ -1,0 +1,50 @@
+T1	Protein 274 279	Stx1A
+T2	Protein 284 289	Stx2A
+T3	Protein 381 386	Stx1A
+T4	Protein 391 396	Stx2A
+T5	Protein 502 511	P protein
+T6	Protein 530 535	Stx1A
+T7	Protein 540 545	Stx2A
+T8	Protein 826 831	Stx1A
+T9	Protein 836 841	Stx2A
+T10	Protein 987 992	Stx1A
+T11	Protein 1128 1133	Stx2A
+T12	Protein 1406 1410	Stx1
+T13	Protein 1420 1424	Stx2
+T14	Protein 1492 1496	Stx1
+T15	Protein 1596 1600	Stx1
+T16	Protein 1605 1609	Stx2
+T17	Protein 1638 1642	Stx2
+T18	Protein 1701 1705	Stx1
+T19	Protein 1772 1776	Stx1
+T20	Protein 0 13	Shiga toxin 1
+T21	Protein 39 49	P proteins
+T22	Protein 104 117	Shiga toxin 2
+T23	Protein 613 615	P1
+T24	Protein 616 618	P2
+T25	Protein 655 662	DeltaP2
+T26	Protein 689 691	P1
+T27	Protein 692 694	P2
+T28	Protein 732 734	P2
+T29	Protein 751 758	DeltaP1
+T30	Protein 789 799	P proteins
+T31	Protein 864 873	P0DeltaAB
+T32	Protein 913 915	P1
+T33	Protein 916 918	P2
+T34	Protein 953 955	P1
+T35	Protein 956 958	P2
+T36	Protein 1042 1051	P0DeltaAB
+T37	Protein 1173 1182	P0DeltaAB
+T38	Protein 1094 1096	P1
+T39	Protein 1097 1099	P2
+T40	Protein 1239 1241	P1
+T41	Protein 1242 1244	P2
+T42	Protein 1276 1283	DeltaP1
+T43	Protein 1293 1302	P0DeltaAB
+T44	Protein 1349 1356	P1alpha
+T45	Protein 1357 1363	P2beta
+T46	Protein 1455 1465	P proteins
+T47	Protein 120 234	Shiga toxins produced by Escherichia coli O157:H7 are responsible for food poisoning and hemolytic uremic syndrome
+#1	AnnotatorNotes T47	Remove abstract
+A1	Mutant T5
+A2	Mutant T31

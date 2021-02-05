@@ -1,0 +1,6 @@
+T1	Protein 0 9	TGF-beta3
+T2	Protein 117 121	Ki67
+T3	Protein 441 447	Fbxo11
+T4	OOS 42 45	MEE
+#1	AnnotatorNotes T4	medial edge epithelium
+T5	Protein 303 312	caspase-3

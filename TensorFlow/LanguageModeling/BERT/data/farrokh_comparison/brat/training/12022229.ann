@@ -1,0 +1,40 @@
+T1	Protein 261 266	Yph1p
+T2	Protein 270 275	Nop7p
+T3	Protein 322 327	Nop7p
+T4	Protein 492 498	Rpl25p
+T5	Protein 674 679	Nop7p
+T6	Protein 853 858	Nop7p
+T7	Protein 954 959	Nop7p
+T8	Protein 1102 1107	Nop7p
+T9	Protein 6 16	Pescadillo
+T10	Complex 60 63	60S
+T11	Protein 98 108	Pescadillo
+T12	Protein 227 237	Pescadillo
+*	Equiv T2 T1
+T13	Complex 365 368	60S
+T14	OOS 611 620	5.8S rRNA
+#1	AnnotatorNotes T14	rna
+T15	OOS 685 690	27SA3
+#2	AnnotatorNotes T15	Rna
+T16	OOS 767 772	5.8Ss
+T17	Protein 842 845	TAP
+A1	Fusion T17
+#3	AnnotatorNotes T17	not tagged by tagger
+A2	Fusion T6
+T18	Complex 1066 1069	60S
+T19	Complex 1155 1158	60S
+T20	OOS 1019 1024	27SA3
+#4	AnnotatorNotes T20	RNA
+T21	OOS 633 640	5.8S(L)
+#5	AnnotatorNotes T21	RNA
+T22	OOS 645 650	5.8Ss
+#6	AnnotatorNotes T22	RNA
+T23	OOS 825 832	5.8S(L)
+#7	AnnotatorNotes T23	RNA
+T24	OOS 893 900	5.8S(L)
+#8	AnnotatorNotes T24	RNA
+T25	OOS 905 910	5.8Ss
+#9	AnnotatorNotes T25	RNA
+#10	AnnotatorNotes T16	RNA
+T26	OOS 825 840	5.8S(L) pathway
+R1	Complex_formation Arg1:T3 Arg2:T4	

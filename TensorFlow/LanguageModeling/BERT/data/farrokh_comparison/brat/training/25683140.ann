@@ -1,0 +1,21 @@
+T1	OOS 184 194	homo-dimer
+T2	Protein 335 361	Rieske iron-sulfur protein
+T3	Complex 739 759	cytochrome c oxidase
+T4	Complex 30 44	cytochrome bc1
+T5	Protein 93 97	Rip1
+T6	Complex 139 153	cytochrome bc1
+#1	AnnotatorNotes T1	tagged by tagger
+T7	Protein 363 367	Rip1
+*	Equiv T7 T2
+T8	Complex 444 447	bc1
+T9	Protein 478 482	Rip1
+T10	Protein 646 650	Rip1
+T11	Complex 692 695	bc1
+T12	Complex 824 838	cytochrome bc1
+T13	Complex 983 986	bc1
+T14	Protein 1031 1035	Rip1
+T15	Complex 1154 1157	bc1
+T16	Complex 1249 1252	bc1
+T17	Complex 1325 1339	cytochrome bc1
+T18	Complex 1419 1422	bc1
+R1	Complex_formation Arg1:T11 Arg2:T3	

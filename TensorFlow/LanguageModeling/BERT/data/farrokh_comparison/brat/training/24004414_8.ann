@@ -1,0 +1,18 @@
+T1	Protein 79 84	PCFS4
+T2	Protein 153 158	pcfs4
+T3	Protein 214 219	PCFS4
+T4	Protein 305 310	pcfs4
+T5	Protein 568 573	pcfs4
+T6	Protein 652 657	pcfs4
+T7	Protein 897 902	PCFS4
+T8	Protein 1006 1011	PCFS4
+T9	Protein 1119 1124	PCFS4
+T10	Protein 1183 1188	pcfs4
+T11	Protein 1223 1228	PCFS4
+T12	Protein 253 256	FCA
+R1	Regulation Arg1:T3 Arg2:T12	
+A1	Mutant T4
+A2	Mutant T2
+A3	Mutant T5
+A4	Mutant T6
+A5	Mutant T10

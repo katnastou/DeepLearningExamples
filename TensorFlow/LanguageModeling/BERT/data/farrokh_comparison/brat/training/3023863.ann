@@ -1,0 +1,26 @@
+T1	Protein 739 743	SIR2
+T2	Protein 745 749	SIR3
+T3	Protein 755 759	SIR4
+T4	Protein 796 800	SIR1
+T5	Protein 1035 1039	SIR3
+T6	Protein 1095 1099	SIR4
+T7	Protein 1194 1198	SIR3
+T8	Protein 1202 1206	SIR4
+T9	Protein 1221 1225	SIR4
+T10	Protein 1303 1307	SIR4
+T11	Protein 1409 1413	SIR3
+T12	Protein 1418 1422	SIR4
+T13	Protein 172 175	HML
+T14	Protein 180 183	HMR
+T15	Protein 522 525	HML
+T16	Protein 530 533	HMR
+T19	Family 483 486	SIR
+T17	Family 386 414	silent information regulator
+T18	Family 381 384	SIR
+T20	Family 37 40	SIR
+*	Equiv T18 T17
+T21	Family 544 547	SIR
+T22	Family 613 616	sir
+T23	Family 947 950	SIR
+T24	Family 965 968	Sir
+#1	AnnotatorNotes T24	Phenotype

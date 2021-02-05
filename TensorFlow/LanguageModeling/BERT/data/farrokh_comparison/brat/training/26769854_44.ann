@@ -1,0 +1,9 @@
+T1	Protein 124 137	cytokeratin 8
+T2	Protein 183 197	cytokeratin 18
+T3	Protein 228 242	cytokeratin 19
+T4	Protein 385 389	FDPS
+T5	Protein 354 383	farnesly diphosphate synthase
+*	Equiv T5 T4
+T6	Protein 95 106	HLA-Class I
+T7	Protein 264 269	IgG2a
+T8	Protein 462 465	IgG

@@ -1,0 +1,32 @@
+T1	Protein 12 16	Dab2
+T2	Protein 34 65	transforming growth factor beta
+T3	Protein 414 441	adaptor molecule disabled-2
+T4	Protein 443 447	Dab2
+T5	Protein 545 549	Dab2
+T6	Protein 580 584	Dab2
+T7	Protein 596 610	beta1 integrin
+T8	Protein 677 681	Dab2
+T10	Protein 959 963	Dab2
+T11	Protein 1291 1295	Dab2
+T12	Protein 1344 1348	Dab2
+T13	Protein 1419 1423	Dab2
+T14	Protein 1547 1551	Dab2
+T15	Protein 0 10	Disabled-2
+*	Equiv T15 T1
+R1	Regulation Arg1:T1 Arg2:T2	
+T16	Protein 119 150	Transforming growth factor beta
+T17	Protein 152 159	TGFbeta
+*	Equiv T16 T17
+T18	Protein 376 383	TGFbeta
+*	Equiv T3 T4
+R2	Positive_regulation Arg1:T18 Arg2:T3	
+R3	Regulation_of_gene_expression Arg1:T18 Arg2:T3	
+T19	Protein 501 508	TGFbeta
+R4	Regulation Arg1:T19 Arg2:T5	
+R5	Regulation Arg1:T19 Arg2:T6	
+R6	Complex_formation Arg1:T6 Arg2:T7	
+T20	Protein 758 766	integrin
+R7	Positive_regulation Arg1:T8 Arg2:T20	
+T21	Protein 807 814	TGFbeta
+T9	Protein 1049 1056	TGFbeta
+R8	Positive_regulation Arg1:T10 Arg2:T9	

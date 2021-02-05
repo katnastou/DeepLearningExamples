@@ -1,0 +1,39 @@
+T1	Protein 23 28	Coq9p
+T2	Protein 47 52	Coq7p
+T3	Protein 96 100	Coq8
+T4	Protein 124 129	Coq9p
+T5	Protein 140 145	Coq9p
+T6	Protein 349 353	Coq9
+T7	Protein 391 395	Coq9
+T8	Protein 513 518	Coq9p
+T9	Protein 549 553	COQ8
+T10	Protein 597 601	coq9
+T11	Protein 657 662	Coq9p
+T12	Protein 702 706	COQ8
+T13	Protein 742 747	Coq4p
+T14	Protein 792 796	coq9
+T15	Protein 864 869	Coq8p
+T16	Protein 874 879	Coq9p
+T17	Protein 930 935	Coq9p
+T18	Protein 939 944	Coq8p
+T19	Protein 1076 1080	Coq9
+T20	Protein 1092 1097	Coq4p
+T21	Protein 1099 1104	Coq6p
+T22	Protein 1110 1115	Coq7p
+T23	Protein 1140 1144	Coq8
+T24	Protein 1261 1265	COQ8
+T25	Protein 1295 1300	coq10
+A1	Mutant T10
+T26	Family 759 762	coq
+#1	AnnotatorNotes T26	mutant
+A2	Mutant T14
+T27	Family 1036 1039	Coq
+T28	Family 1173 1176	Coq
+T29	Chemical 1217 1219	Q6
+A3	Mutant T25
+R1	Out-of-scope Arg1:T15 Arg2:T16	
+#2	AnnotatorNotes R1	Negated
+R2	Complex_formation Arg1:T19 Arg2:T20	
+R3	Complex_formation Arg1:T19 Arg2:T21	
+R4	Complex_formation Arg1:T19 Arg2:T22	
+R5	Complex_formation Arg1:T19 Arg2:T27	

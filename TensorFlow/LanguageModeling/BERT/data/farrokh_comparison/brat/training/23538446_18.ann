@@ -1,0 +1,27 @@
+T1	Protein 40 46	RASSF5
+T2	Protein 658 664	RASSF5
+T3	Protein 716 722	RASSF5
+T4	Protein 766 772	RASSF5
+T5	Protein 1121 1127	RASSF5
+T6	Protein 101 108	RASSF5A
+T7	Protein 65 69	Itch
+R1	Negative_regulation Arg1:T7 Arg2:T1	
+T8	Protein 137 143	Itchwt
+T9	Protein 147 156	ItchC830A
+T10	Protein 226 232	Itchwt
+T11	Protein 241 250	ItchC830A
+T12	Protein 276 283	RASSF5A
+R2	Negative_regulation Arg1:T10 Arg2:T12	
+T13	Protein 399 406	RASSF5A
+T14	Protein 424 428	Itch
+T15	Protein 525 529	Itch
+T16	Protein 808 814	Itchwt
+R3	Negative_regulation Arg1:T16 Arg2:T4	
+T17	Protein 823 832	ItchC830A
+T18	Protein 915 919	Itch
+T19	Protein 1013 1024	RASSF5AY24A
+T20	Protein 1040 1044	Itch
+R4	Complex_formation Arg1:T20 Arg2:T19	
+T21	Protein 1133 1137	Itch
+R5	Complex_formation Arg1:T5 Arg2:T21	
+T22	Protein 1306 1313	RASSF5A

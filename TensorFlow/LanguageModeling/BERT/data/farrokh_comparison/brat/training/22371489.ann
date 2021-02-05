@@ -1,0 +1,53 @@
+T1	Protein 50 55	USP9X
+T2	Protein 97 106	peroxin 5
+T3	Protein 108 112	PEX5
+T4	Protein 136 145	Peroxin 5
+T5	Protein 147 151	PEX5
+T6	Protein 360 364	PEX5
+T7	Protein 443 447	PEX5
+T8	Protein 614 618	PEX5
+T9	Protein 643 647	PEX5
+T10	Protein 798 802	PEX5
+T11	Protein 881 885	PEX5
+T12	Protein 1085 1090	USP9X
+T13	Protein 1146 1150	PEX5
+T14	Protein 1211 1216	USP9X
+T15	Protein 18 48	ubiquitin-specific protease 9X
+*	Equiv T15 T1
+*	Equiv T2 T3
+*	Equiv T4 T5
+R1	Catalysis_of_deubiquitination Arg1:T1 Arg2:T3	
+T16	Protein 1053 1083	ubiquitin-specific protease 9X
+*	Equiv T16 T12
+R2	Catalysis_of_deubiquitination Arg1:T12 Arg2:T13	
+T17	Protein 604 613	ubiquitin
+T18	Protein 1414 1423	ubiquitin
+T19	Protein 1143 1145	Ub
+T20	Protein 640 642	Ub
+T21	Protein 795 797	Ub
+T22	Protein 878 880	Ub
+T23	Protein 87 96	ubiquitin
+T24	OOS 114 123	thioester
+#1	AnnotatorNotes T24	Group
+T25	OOS 619 628	thioester
+#2	AnnotatorNotes T25	Group
+R3	Out-of-scope Arg1:T17 Arg2:T8	
+R4	Out-of-scope Arg1:T9 Arg2:T20	
+R5	Out-of-scope Arg1:T2 Arg2:T23	
+R6	Out-of-scope Arg1:T10 Arg2:T21	
+R7	Out-of-scope Arg1:T11 Arg2:T22	
+R8	Out-of-scope Arg1:T13 Arg2:T19	
+#3	AnnotatorNotes R5	conjugate
+#4	AnnotatorNotes R3	conjugate
+#5	AnnotatorNotes R7	conjugate
+#6	AnnotatorNotes R8	conjugate
+#7	AnnotatorNotes R6	conjugate
+T26	Chemical 548 551	ATP
+A1	Blacklisted T26
+A2	Blacklisted T17
+A3	Blacklisted T20
+A4	Blacklisted T21
+A5	Blacklisted T22
+A6	Blacklisted T19
+A7	Blacklisted T18
+A8	Blacklisted T23

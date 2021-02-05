@@ -1,0 +1,33 @@
+T1	Protein 37 43	Smurf1
+T2	Protein 124 130	Smurf1
+T3	Protein 135 141	Smurf2
+T4	Protein 262 266	RhoA
+T5	Protein 382 388	Smurf2
+T6	Protein 415 421	Smurf1
+T7	Protein 524 530	Smurf1
+T8	Protein 596 602	Smurf1
+T9	Protein 681 687	Smurf1
+T10	Protein 722 726	RhoA
+T11	Protein 734 739	Smad5
+T12	Protein 744 749	Runx2
+T13	Protein 795 801	Smurf1
+T14	Protein 1011 1017	Smurf1
+T15	Protein 1119 1123	RhoA
+T16	Protein 1196 1202	Smurf1
+T17	Protein 1269 1275	Smurf1
+T18	Family 253 256	Wnt
+T19	Protein 225 251	bone morphogenetic protein
+R1	Regulation Arg1:T3 Arg2:T19	
+R2	Regulation Arg1:T3 Arg2:T18	
+R3	Regulation Arg1:T3 Arg2:T4	
+R4	Regulation Arg1:T2 Arg2:T19	
+R5	Regulation Arg1:T2 Arg2:T18	
+R6	Regulation Arg1:T2 Arg2:T4	
+R7	Regulation Arg1:T14 Arg2:T15	
+R8	Regulation Arg1:T9 Arg2:T10	
+R9	Regulation Arg1:T11 Arg2:T10	
+R10	Regulation Arg1:T12 Arg2:T10	
+T20	Family 106 123	ubiquitin ligases
+T21	Family 44 60	ubiquitin ligase
+T22	Chemical 1150 1156	Ca(2+)
+T23	OOS 225 285	bone morphogenetic protein, Wnt, and RhoA signaling pathways

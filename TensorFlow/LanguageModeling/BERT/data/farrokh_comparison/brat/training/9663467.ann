@@ -1,0 +1,32 @@
+T1	Protein 0 14	Thrombopoietin
+T2	Protein 85 90	c-Mpl
+T3	Protein 123 137	Thrombopoietin
+T4	Protein 139 142	TPO
+T5	Protein 442 445	TPO
+T6	Protein 464 467	TPO
+T7	Protein 556 559	TPO
+T8	Protein 588 591	TPO
+T9	Protein 632 644	TPO receptor
+T10	Protein 657 686	erythropoietin (EPO) receptor
+T11	Protein 721 724	TPO
+T12	Protein 729 732	EPO
+T13	Protein 748 760	EPO receptor
+T14	Protein 790 793	TPO
+T15	Protein 917 920	TPO
+T16	Protein 967 970	EPO
+T17	Protein 1049 1052	TPO
+*	Equiv T3 T4
+R1	Complex_formation Arg1:T1 Arg2:T2
+R2	Negated Arg1:T11 Arg2:T13
+R3	Complex_formation Arg1:T12 Arg2:T13
+R4	Positive_regulation Arg1:T8 Arg2:T9	
+T18	Protein 400 410	hemoglobin
+T19	Protein 412 414	Hb
+*	Equiv T18 T19
+T20	Protein 514 516	Hb
+T21	Protein 945 947	Hb
+R5	Regulation_of_gene_expression Arg1:T15 Arg2:T21	
+R6	Positive_regulation Arg1:T15 Arg2:T21	
+T22	Protein 1007 1009	Hb
+R7	Positive_regulation Arg1:T16 Arg2:T22	
+R8	Regulation_of_gene_expression Arg1:T16 Arg2:T22	

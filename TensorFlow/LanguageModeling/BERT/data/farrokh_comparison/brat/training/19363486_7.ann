@@ -1,0 +1,35 @@
+T1	Protein 6 10	Cdk5
+T2	Protein 74 78	Cdk5
+T3	Protein 647 651	Cdk5
+T4	Protein 88 93	talin
+T5	Protein 192 197	talin
+T6	Protein 187 191	EGFP
+A1	Fusion T6
+T7	Protein 200 208	talS425A
+A2	Mutant T7
+T8	Protein 213 221	talS425D
+A3	Mutant T8
+T9	Protein 321 325	EGFP
+A4	Fusion T9
+T10	Protein 327 332	talin
+T11	Protein 351 355	PDGF
+T12	Protein 371 375	EGFP
+A5	Fusion T12
+T13	Protein 376 384	talS425A
+A6	Mutant T13
+T14	Protein 388 392	EGFP
+A7	Fusion T14
+T15	Protein 393 401	talS425D
+A8	Mutant T15
+T16	Protein 420 424	PDGF
+T17	Protein 528 532	PDGF
+#1	AnnotatorNotes T6	not tagged by tagger
+A9	Fusion T5
+#2	AnnotatorNotes T9	not tagged by tagger
+A10	Fusion T10
+#3	AnnotatorNotes T12	not tagged by tagger
+#4	AnnotatorNotes T14	not tagged by tagger
+A11	Fusion T7
+A12	Fusion T8
+A13	Fusion T13
+A14	Fusion T15

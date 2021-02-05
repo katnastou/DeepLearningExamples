@@ -1,0 +1,29 @@
+T1	Protein 502 508	Emp24p
+T2	Protein 559 564	Gas1p
+T3	Protein 583 588	Gas1p
+T4	Protein 792 797	Gas1p
+T5	Protein 828 832	Gas1
+T6	Protein 864 869	Gas1p
+T7	Protein 965 970	Gas1p
+T8	Protein 975 979	Gas1
+T9	Protein 1009 1015	Emp24p
+T10	Protein 1071 1077	Emp24p
+T11	Family 4 25	GPI-anchored proteins
+T12	Complex 124 127	p24
+T13	Family 470 490	GPI-anchored protein
+T14	OOS 760 764	Gas1
+T15	OOS 925 929	Gas1
+#1	AnnotatorNotes T14	GGP but not tagged
+#2	AnnotatorNotes T15	ggp but not tagged
+T16	Family 1106 1127	GPI-anchored proteins
+R1	Complex_formation Arg1:T13 Arg2:T1	
+T17	OOS 141 144	GPI
+T18	OOS 193 196	GPI
+T19	OOS 305 308	GPI
+T20	OOS 606 609	GPI
+T21	OOS 910 913	GPI
+T22	OOS 1136 1139	GPI
+R2	Complex_formation Arg1:T7 Arg2:T9	
+R3	Complex_formation Arg1:T8 Arg2:T9	
+R4	Complex_formation Arg1:T10 Arg2:T16	
+#3	AnnotatorNotes T17	not standalone chemical

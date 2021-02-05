@@ -1,0 +1,47 @@
+T1	Protein 0 4	AML1
+T2	Protein 6 15	CBFalpha2
+T3	Protein 33 67	B cell-specific activating protein
+T4	Protein 69 73	BSAP
+T5	Protein 74 78	PAX5
+T6	Protein 117 120	BLK
+T7	Protein 137 141	AML1
+T8	Protein 226 230	AML1
+T9	Protein 365 369	AML1
+T10	Protein 471 475	AML1
+T11	Protein 521 525	AML1
+T12	Protein 562 593	B cell-specific tyrosine kinase
+T13	Protein 600 603	blk
+T14	Protein 682 686	AML1
+T15	Protein 726 729	blk
+T16	Protein 778 781	blk
+T17	Protein 858 862	AML1
+T18	Protein 946 950	BSAP
+T19	Protein 992 996	BSAP
+T20	Protein 1077 1080	blk
+T21	Protein 1111 1115	AML1
+T22	Protein 1121 1125	BSAP
+T23	Protein 1197 1201	AML1
+T24	Protein 1206 1210	BSAP
+T25	Protein 1236 1239	blk
+T26	Protein 1356 1360	AML1
+T27	Protein 1365 1369	BSAP
+T28	Protein 1387 1391	AML1
+T29	Protein 1463 1466	blk
+*	Equiv T1 T2
+*	Equiv T3 T4 T5
+R1	Regulation_of_transcription Arg1:T14 Arg2:T15
+R2	Complex_formation Arg1:T21 Arg2:T22
+R3	Complex_formation Arg1:T26 Arg2:T27
+*	Equiv T12 T13
+R4	Regulation_of_transcription Arg1:T11 Arg2:T12	
+R5	Complex_formation Arg1:T17 Arg2:T18	
+R7	Regulation_of_transcription Arg1:T3 Arg2:T6	
+R6	Regulation_of_transcription Arg1:T2 Arg2:T6	
+R8	Positive_regulation Arg1:T2 Arg2:T6	
+R9	Positive_regulation Arg1:T3 Arg2:T6	
+R10	Regulation_of_gene_expression Arg1:T19 Arg2:T20	
+R11	Positive_regulation Arg1:T24 Arg2:T25	
+R12	Positive_regulation Arg1:T23 Arg2:T25	
+R13	Regulation_of_transcription Arg1:T24 Arg2:T25	
+R14	Regulation_of_transcription Arg1:T23 Arg2:T25	
+R15	Regulation_of_gene_expression Arg1:T28 Arg2:T29	

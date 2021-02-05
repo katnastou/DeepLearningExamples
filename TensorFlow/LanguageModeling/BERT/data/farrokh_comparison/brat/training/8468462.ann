@@ -1,0 +1,51 @@
+T1	Protein 89 93	IL-2
+T2	Protein 134 139	c-fos
+T3	Protein 441 444	PHA
+T4	Protein 464 467	CD2
+T5	Protein 468 503	lymphocyte function-associated Ag-3
+T6	Protein 588 592	IL-2
+T7	Protein 820 824	IL-2
+T8	Protein 855 859	IL-2
+T9	Protein 966 970	IL-2
+T10	Protein 996 1001	c-jun
+T11	Protein 1006 1011	c-fos
+T12	Protein 1106 1111	c-jun
+T13	Protein 1142 1147	c-jun
+T14	Protein 1171 1174	PHA
+T15	Protein 1233 1238	c-fos
+T16	Protein 1293 1296	PHA
+T17	Protein 1332 1337	c-fos
+T18	Protein 1368 1373	c-fos
+T19	Protein 1382 1385	PHA
+T22	Protein 1643 1647	IL-2
+T23	Protein 1689 1694	c-Jun
+T24	Protein 1703 1708	c-Fos
+T25	Protein 1741 1744	PHA
+T26	Protein 1770 1775	c-Jun
+T27	Protein 1794 1799	c-Fos
+T28	Protein 1889 1894	c-Fos
+T29	Protein 1956 1960	IL-2
+T30	Protein 2201 2205	IL-2
+R1	Complex_formation Arg1:T4 Arg2:T5
+T31	Protein 751 755	OKT3
+R2	Complex_formation Arg1:T10 Arg2:T11	
+R4	Regulation_of_transcription Arg1:T23 Arg2:T22	
+R5	Positive_regulation Arg1:T2 Arg2:T1	
+T32	Complex 179 183	AP-1
+R6	Positive_regulation Arg1:T32 Arg2:T1	
+R7	Regulation_of_transcription Arg1:T10 Arg2:T9	
+R8	Regulation_of_transcription Arg1:T11 Arg2:T9	
+R9	Regulation_of_transcription Arg1:T16 Arg2:T15	
+R10	Positive_regulation Arg1:T16 Arg2:T15	
+R11	Complex_formation Arg1:T26 Arg2:T27	
+T33	Protein 0 78	Costimulation of peripheral blood T cell activation by human endothelial cells
+#1	AnnotatorNotes T33	Remove abstract
+T34	Complex 1055 1059	AP-1
+T35	Family 1061 1065	NFAT
+T36	Complex 1626 1630	AP-1
+T37	Complex 1731 1735	AP-1
+T38	Complex 1906 1910	AP-1
+T39	Complex 2152 2156	AP-1
+T40	Family 2005 2009	NFAT
+T41	OOS 1464 1511	CD2:lymphocyte function-associated Ag-3 pathway
+#4	AnnotatorNotes T41	Pathway

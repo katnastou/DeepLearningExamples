@@ -1,0 +1,60 @@
+T1	Family 4 14	PAAD/PYRIN
+T2	Protein 121 152	Apoptosis-associated speck-like
+T3	Protein 260 265	Pyrin
+T4	Protein 328 333	PYRIN
+T5	Protein 342 345	Pyk
+T6	Protein 508 521	pro-Caspase-1
+T7	Protein 814 819	Pyrin
+T8	Protein 824 833	Cryopyrin
+T9	Protein 1000 1017	interleukin 1beta
+T10	Protein 1320 1332	IkappaBalpha
+T11	Protein 30 33	ASC
+T12	Complex 77 98	nuclear factor kappaB
+R1	Regulation Arg1:T11 Arg2:T12	
+T13	Protein 202 205	ASC
+*	Equiv T2 T13
+T14	Protein 335 340	DAPIN
+T15	Protein 272 275	ASC
+T16	Protein 267 270	AIM
+T17	Protein 300 304	PAAD
+T18	Protein 380 383	ASC
+T19	Complex 477 503	nuclear factor (NF)-kappaB
+R2	Regulation Arg1:T18 Arg2:T19	
+R3	Regulation Arg1:T18 Arg2:T6	
+T20	Protein 576 579	ASC
+T21	Complex 594 603	NF-kappaB
+R4	Regulation Arg1:T20 Arg2:T21	
+T22	Complex 704 713	NF-kappaB
+R5	Positive_regulation Arg1:T20 Arg2:T22	
+R6	Negative_regulation Arg1:T20 Arg2:T22	
+T23	Family 432 443	PAAD-family
+R7	Regulation Arg1:T18 Arg2:T23	
+T24	Protein 768 771	ASC
+R8	Regulation Arg1:T24 Arg2:T7	
+R9	Regulation Arg1:T24 Arg2:T8	
+T25	Complex 844 853	NF-kappaB
+R10	Positive_regulation Arg1:T24 Arg2:T25	
+T26	Protein 864 867	ASC
+T27	Complex 899 908	NF-kappaB
+R11	Negative_regulation Arg1:T26 Arg2:T27	
+T28	Protein 966 998	tumor necrosis factor (TNF)alpha
+T29	Protein 1063 1066	ASC
+T30	Protein 1107 1110	ASC
+T31	Family 1136 1151	IkappaB kinases
+R12	Negative_regulation Arg1:T29 Arg2:T31	
+T32	Protein 1240 1243	ASC
+T33	Protein 1265 1268	TNF
+T34	Protein 1305 1308	IKK
+R13	Catalysis_of_protein_modification Arg1:T34 Arg2:T10	
+R14	Negative_regulation Arg1:T32 Arg2:T10	
+T35	Protein 1360 1363	ASC
+T36	Complex 1382 1391	NF-kappaB
+R15	Regulation Arg1:T35 Arg2:T36	
+T37	Protein 1430 1433	IKK
+R16	Regulation Arg1:T35 Arg2:T37	
+T38	Chemical 1274 1277	LPS
+T39	Chemical 1023 1041	lipopolysaccharide
+T40	Chemical 1043 1046	LPS
+*	Equiv T39 T40
+R17	Negative_regulation Arg1:T38 Arg2:T10	
+R18	Negative_regulation Arg1:T33 Arg2:T10	

@@ -1,0 +1,8 @@
+T1	OOS 68 89	MBT-domain containing
+T2	Protein 98 105	L3MBTL2
+T4	Protein 319 326	L3MBTL2
+#1	AnnotatorNotes T1	tagged by tagger
+T3	Family 136 139	PcG
+T5	OOS 466 476	H2AK119ub1
+#2	AnnotatorNotes T5	not tagged
+R1	Complex_formation Arg1:T2 Arg2:T3	

@@ -1,0 +1,12 @@
+T1	Protein 162 166	ELL2
+T2	Family 184 188	SECs
+T3	Protein 356 361	Siah1
+T4	Protein 377 381	ELL2
+T5	Protein 464 468	ELL2
+T6	Protein 498 502	ELL2
+T7	Chemical 55 65	prostratin
+T8	Chemical 85 98	phorbol ester
+T9	Chemical 104 108	HMBA
+#1	AnnotatorNotes T2	tagged as ggp by tagger
+T10	Chemical 576 586	prostratin
+T11	Chemical 595 599	HMBA

@@ -1,0 +1,25 @@
+T1	Protein 48 52	Ams2
+T2	Protein 152 156	mts2
+T3	Protein 162 166	mts3
+T4	Protein 278 282	mts2
+T5	Protein 289 293	mts3
+T6	Protein 360 364	Ams2
+T7	Protein 436 440	Ams2
+T8	Protein 537 541	Ams2
+T9	Protein 639 643	Ams2
+T10	Protein 679 683	mts2
+T11	Protein 707 711	mts3
+T12	Protein 772 776	Ams2
+T13	OOS 94 112	proteasome pathway
+T14	Complex 222 236	26S proteasome
+A1	Mutant T4
+A2	Mutant T5
+T15	Complex 310 320	proteasome
+T16	Complex 94 104	proteasome
+T17	Protein 353 359	pREP41
+T18	Chemical 480 488	thiamine
+T19	Chemical 493 496	CHX
+A3	Mutant T10
+A4	Mutant T11
+T20	OOS 802 830	proteasome-dependent pathway
+T21	Complex 802 812	proteasome

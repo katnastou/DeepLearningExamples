@@ -1,0 +1,35 @@
+T1	Protein 44 48	coq7
+T2	Protein 108 112	UbiF
+T3	Protein 149 153	Coq7
+T4	Protein 408 412	Coq1
+T5	Protein 413 417	Coq9
+T6	Protein 506 510	Coq7
+T7	Protein 560 565	Coq7p
+T8	Protein 599 603	ubiF
+T9	Protein 642 646	COQ7
+T10	Protein 652 656	ubiF
+T11	Protein 672 702	flavin-dependent monooxygenase
+T12	Protein 734 738	Coq7
+T13	Protein 830 834	ubiF
+T14	Protein 883 887	coq7
+T15	Protein 985 989	coq7
+T16	Protein 1026 1030	ubiF
+T17	Protein 1206 1210	coq7
+T18	Protein 1261 1265	Coq3
+T19	Protein 1267 1271	Coq4
+T20	Protein 1277 1281	Coq6
+T21	Protein 1352 1356	UbiF
+T22	Protein 1358 1363	Coq7p
+T23	Protein 1385 1389	Coq3
+T24	Protein 1394 1398	Coq4
+T25	Protein 1518 1522	Coq3
+T26	Protein 1527 1531	Coq4
+T27	Protein 1552 1556	coq7
+T28	Protein 1592 1597	Coq7p
+*	Equiv T10 T11
+R1	Positive_regulation Arg1:T13 Arg2:T14	
+A1	Mutant T1
+A2	Mutant T14
+A3	Mutant T15
+A4	Mutant T17
+A5	Mutant T27

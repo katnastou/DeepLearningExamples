@@ -1,0 +1,27 @@
+T1	Protein 53 61	obscurin
+T2	Protein 130 138	obscurin
+T3	Protein 140 146	Unc-89
+T4	Protein 211 219	Obscurin
+T5	Protein 463 467	MASK
+T7	Protein 636 640	MASK
+T8	Protein 719 723	MASK
+T9	Protein 819 827	Obscurin
+T10	Protein 917 921	MASK
+T11	Protein 930 938	obscurin
+T12	Protein 981 989	obscurin
+T13	Protein 1072 1076	MASK
+T14	Protein 1095 1103	obscurin
+*	Equiv T2 T3
+T15	Protein 389 398	Baellchen
+T16	Protein 400 404	Ball
+*	Equiv T15 T16
+R1	Complex_formation Arg1:T4 Arg2:T15	
+R2	Complex_formation Arg1:T4 Arg2:T5	
+T6	Protein 510 514	Ball
+T17	Protein 711 715	Ball
+T18	Protein 908 912	Ball
+R3	Complex_formation Arg1:T18 Arg2:T9	
+R4	Complex_formation Arg1:T10 Arg2:T9	
+T19	Protein 1063 1067	Ball
+R5	Regulation Arg1:T14 Arg2:T13	
+R6	Regulation Arg1:T14 Arg2:T19	

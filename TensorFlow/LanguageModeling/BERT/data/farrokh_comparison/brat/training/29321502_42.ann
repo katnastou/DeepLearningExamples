@@ -1,0 +1,73 @@
+T1	Protein 18 22	Pex6
+T2	Protein 1921 1925	Pex6
+T3	Protein 2280 2284	Pex6
+T4	Protein 2327 2331	Pex6
+T5	Protein 2377 2381	Pex6
+T6	Protein 0 4	Pex1
+A1	Fusion T6
+T7	Protein 2301 2305	Pex1
+A2	Fusion T7
+A3	Fusion T2
+T8	Protein 1907 1911	Pex1
+A4	Fusion T8
+T9	OOS 5 9	FLAG
+A5	Fusion T9
+#1	AnnotatorNotes T9	FLAG-tag (polypeptide protein tag), OOS?
+T10	OOS 1912 1916	FLAG
+#2	AnnotatorNotes T10	FLAG-tag (polypeptide protein tag), OOS?
+T11	OOS 14 17	His
+#3	AnnotatorNotes T11	not tagged by tagger, His-tag (polyhistidine protein tag)
+T12	OOS 1917 1920	His
+#4	AnnotatorNotes T12	His-tag (polyhistidine protein tag), OOS
+T13	OOS 207 215	tryptone
+#5	AnnotatorNotes T13	assortment of peptides. chemical?
+T14	Chemical 241 245	NaCl
+T15	Chemical 326 330	IPTG
+T16	OOS 504 515	Ni-A buffer
+T17	Chemical 523 528	HEPES
+T18	Chemical 544 548	NaCl
+T19	Chemical 557 560	KCl
+T20	Chemical 566 574	glycerol
+T21	Chemical 582 587	MgCl2
+T22	Chemical 596 600	EDTA
+T23	Chemical 608 617	imidazole
+T24	OOS 624 633	benzonase
+T25	Protein 635 643	lysozyme
+T26	Family 663 682	protease inhibitors
+T27	Chemical 1010 1017	agarose
+T28	Chemical 1088 1095	agarose
+T29	Chemical 1186 1193	agarose
+T30	Chemical 1397 1401	NaCl
+T31	Chemical 1410 1413	KCl
+T32	Chemical 1419 1427	glycerol
+T33	Chemical 1436 1445	imidazole
+T34	Chemical 1153 1156	ATP
+T35	Chemical 1457 1460	ATP
+T36	OOS 1524 1528	FLAG
+#6	AnnotatorNotes T36	FLAG-tag (polypeptide protein tag), OOS?
+T37	OOS 1615 1619	FLAG
+#7	AnnotatorNotes T37	antibody, FLAG-tag (polypeptide protein tag), OOS?
+T38	Chemical 1714 1717	ATP
+T39	Chemical 1768 1771	ATP
+T40	OOS 1788 1792	FLAG
+#8	AnnotatorNotes T40	FLAG-tag (polypeptide protein tag), OOS?
+T41	Chemical 1881 1889	nitrogen
+T42	OOS 1973 1977	FLAG
+#9	AnnotatorNotes T42	FLAG-tag (polypeptide protein tag), OOS?
+T43	Chemical 2087 2091	NaCl
+T44	Chemical 2099 2102	KCl
+T45	Chemical 2108 2116	glycerol
+T46	Chemical 2124 2129	MgCl2
+T47	Chemical 2138 2142	EDTA
+T48	Chemical 2154 2157	ATP
+T49	Protein 2271 2275	Pex1
+T50	Protein 2347 2351	Pex1
+T51	Chemical 1376 1381	HEPES
+T52	Chemical 2067 2072	HEPES
+R1	Complex_formation Arg1:T6 Arg2:T1	
+R2	Complex_formation Arg1:T8 Arg2:T2	
+A6	Blacklisted T34
+A7	Blacklisted T35
+A8	Blacklisted T38
+A9	Blacklisted T39
+A10	Blacklisted T48

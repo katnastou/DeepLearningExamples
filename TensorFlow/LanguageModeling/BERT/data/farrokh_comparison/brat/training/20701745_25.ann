@@ -1,0 +1,12 @@
+T1	Protein 22 27	KPNA7
+T2	Protein 100 105	KPNA2
+T3	Protein 207 212	KPNA7
+T4	Family 259 273	importin alpha
+T5	Protein 384 397	importin beta
+T6	Protein 465 470	KPNA7
+T7	Protein 581 586	KPNA7
+T8	Protein 593 606	importin beta
+T9	Protein 730 735	KPNA7
+T10	Protein 430 433	CAS
+#1	AnnotatorNotes T10	CAS is an exportin which forms a trimeric complex consisting of CAS, RanGTP and importin α
+R1	Complex_formation Arg1:T7 Arg2:T8	

@@ -1,0 +1,62 @@
+T1	Protein 94 121	tumor necrosis factor alpha
+T2	Protein 304 307	p50
+T3	Protein 356 398	interleukin-2 receptor (IL-2R) alpha chain
+T4	Protein 525 528	p50
+T5	Protein 529 532	p65
+T6	Protein 560 563	p50
+T7	Protein 564 569	c-rel
+T8	Protein 816 819	p65
+T9	Protein 824 829	c-rel
+T10	Protein 891 896	c-rel
+T11	Protein 901 905	p105
+T12	Protein 906 909	p50
+T13	Protein 934 937	p65
+T14	Protein 1092 1119	tumor necrosis factor alpha
+T15	Protein 1121 1130	TNF-alpha
+T16	Protein 1192 1195	p65
+T17	Protein 1200 1205	c-rel
+T18	Protein 1398 1407	TNF-alpha
+T19	Protein 1630 1639	TNF-alpha
+T20	Protein 1652 1661	TNF-alpha
+T21	Protein 1792 1795	p65
+T22	Protein 1800 1805	c-rel
+T23	Protein 1834 1839	c-rel
+T24	Protein 1844 1848	p105
+T25	Protein 1849 1852	p50
+*	Equiv T14 T15
+R1	Complex_formation Arg1:T4 Arg2:T5
+R2	Complex_formation Arg1:T6 Arg2:T7
+T26	Family 205 208	TcR
+T27	Protein 210 213	CD3
+R4	Complex_formation Arg1:T26 Arg2:T27	
+R5	Regulation_of_transcription Arg1:T2 Arg2:T3	
+T28	Family 455 458	TcR
+T29	Protein 459 462	CD3
+R6	Complex_formation Arg1:T28 Arg2:T29	
+R3	Regulation Arg1:T20 Arg2:T21	
+R7	Regulation Arg1:T20 Arg2:T22	
+R8	Regulation_of_transcription Arg1:T20 Arg2:T23	
+R9	Regulation_of_transcription Arg1:T20 Arg2:T24	
+*	Equiv T24 T25
+*	Equiv T11 T12
+T31	Complex 1480 1490	NF-kappa B
+T32	Complex 1735 1745	NF-kappa B
+R10	Regulation Arg1:T20 Arg2:T32	
+T33	Family 1530 1533	TcR
+T34	Protein 1534 1537	CD3
+T35	Family 1559 1562	TcR
+T36	Protein 1563 1566	CD3
+R11	Regulation Arg1:T35 Arg2:T31	
+R12	Regulation Arg1:T19 Arg2:T35	
+T37	Complex 20 42	nuclear factor-kappa B
+T38	Complex 142 169	nuclear factor (NF)-kappa B
+R13	Regulation Arg1:T26 Arg2:T38	
+R14	Regulation Arg1:T27 Arg2:T38	
+T30	Complex 337 344	kappa B
+T39	Family 188 203	T cell receptor
+*	Equiv T39 T26
+R15	Complex_formation Arg1:T33 Arg2:T34	
+R16	Complex_formation Arg1:T35 Arg2:T36	
+R17	Regulation Arg1:T19 Arg2:T36	
+R18	Regulation Arg1:T36 Arg2:T31	
+T40	Complex 308 318	NF-kappa B

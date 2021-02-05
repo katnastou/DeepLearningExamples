@@ -1,0 +1,49 @@
+T1	Protein 0 5	Elf-1
+T2	Protein 10 15	Stat5
+T3	Protein 74 102	interleukin-2 receptor alpha
+T4	Protein 178 212	interleukin 2 receptor alpha-chain
+T5	Protein 214 225	IL-2R alpha
+T6	Protein 280 291	IL-2R alpha
+T7	Protein 369 382	Interleukin 2
+T8	Protein 384 388	IL-2
+T9	Protein 401 412	IL-2R alpha
+T10	Protein 493 504	IL-2R alpha
+T11	Protein 854 859	Elf-1
+T12	Protein 864 872	HMG-I(Y)
+T13	Protein 952 963	IL-2R alpha
+T14	Protein 981 985	IL-2
+T15	Protein 1025 1036	IL-2R alpha
+T16	Protein 1090 1101	IL-2R alpha
+T17	Protein 1227 1231	IL-2
+T18	Protein 1317 1321	IL-2
+T19	Protein 1478 1482	IL-2
+T20	Protein 1506 1509	CAT
+T21	Protein 1531 1535	IL-2
+T22	Protein 1747 1758	IL-2R alpha
+T23	Protein 1879 1890	IL-2R alpha
+T24	Protein 1939 1944	Elf-1
+*	Equiv T7 T8
+*	Equiv T4 T5
+R1	Regulation_of_transcription Arg1:T2 Arg2:T3
+R2	Regulation_of_transcription Arg1:T1 Arg2:T3
+R3	Regulation_of_transcription Arg1:T14 Arg2:T13	
+R4	Other Arg1:T19 Arg2:T20	
+T25	Protein 1499 1505	PRRIII
+*	Equiv T25 T20
+T26	Protein 1301 1307	PRRIII
+T27	Protein 1559 1565	Stat5a
+T29	Protein 1570 1571	b
+R5	Positive_regulation Arg1:T21 Arg2:T27	
+R6	Positive_regulation Arg1:T21 Arg2:T29	
+R7	Positive_regulation Arg1:T8 Arg2:T9	
+R8	Regulation_of_transcription Arg1:T8 Arg2:T9	
+R9	Positive_regulation Arg1:T14 Arg2:T13	
+R10	Regulation_of_transcription Arg1:T24 Arg2:T23	
+R11	Negative_regulation Arg1:T24 Arg2:T23	
+T28	Complex 700 709	NF-kappaB
+T30	Family 842 845	Ets
+T31	Protein 1282 1288	IL-2rE
+T32	Family 1383 1387	Stat
+T33	Protein 1365 1371	PRRIII
+T34	Family 1431 1434	EBS
+*	Equiv T26 T31

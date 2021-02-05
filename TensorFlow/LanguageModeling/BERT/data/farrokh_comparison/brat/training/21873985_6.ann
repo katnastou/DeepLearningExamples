@@ -1,0 +1,13 @@
+T2	Protein 596 602	N-WASP
+T3	Chemical 43 49	pyrene
+T4	Protein 50 55	actin
+T5	Protein 101 106	Spire
+#1	AnnotatorNotes T5	Nucleation Promoting Factor
+T6	Protein 148 152	VopL
+T7	Protein 269 274	actin
+T8	OOS 308 311	VCD
+#2	AnnotatorNotes T8	VopL C-terminal domain
+T9	OOS 340 343	VCD
+T10	Complex 512 518	Arp2/3
+#3	AnnotatorNotes T10	Arp2/3 tagged as one GGP
+T1	Protein 698 703	Spire

@@ -1,0 +1,16 @@
+T1	Protein 610 614	Etd1
+T2	Protein 1519 1523	etd1
+T3	Chemical 518 526	thiamine
+T4	Protein 573 577	nmt1
+T5	Protein 606 609	GFP
+A1	Fusion T5
+T6	Chemical 662 670	thiamine
+T7	Chemical 722 730	thiamine
+T8	Chemical 776 785	Geneticin
+T9	Protein 1212 1221	etd1Delta
+A2	Mutant T9
+T10	Protein 1393 1396	ura
+T11	Protein 1427 1436	etd1Delta
+A3	Mutant T11
+T12	Protein 1558 1561	GFP
+A4	Fusion T12

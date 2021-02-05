@@ -1,0 +1,10 @@
+T1	Protein 74 81	Arkadia
+T2	Protein 136 143	Arkadia
+T3	Protein 227 234	Arkadia
+T4	Protein 294 301	Arkadia
+T5	Protein 460 467	Arkadia
+T6	Protein 507 512	ESRP2
+T7	Protein 577 584	Arkadia
+T8	Protein 713 718	ESRP2
+T9	Protein 731 738	Arkadia
+R1	Regulation Arg1:T9 Arg2:T8	

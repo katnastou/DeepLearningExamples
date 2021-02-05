@@ -1,0 +1,86 @@
+T1	Protein 10 15	MAD-3
+T2	Protein 68 71	p65
+T3	Protein 134 137	p65
+T4	Protein 275 278	p65
+T5	Protein 294 297	p50
+T6	Protein 367 372	v-rel
+T7	Protein 406 409	p65
+T8	Protein 597 600	p50
+T9	Protein 843 848	MAD-3
+T10	Protein 879 882	p65
+T12	Protein 1170 1175	MAD-3
+T13	Protein 1207 1210	p65
+T14	Protein 1374 1379	MAD-3
+T15	Protein 1394 1397	p65
+T16	Protein 1435 1438	p65
+T17	Protein 1591 1594	p65
+T18	Protein 1636 1641	MAD-3
+T19	Protein 1686 1689	p65
+T20	Protein 1819 1822	p65
+T21	Protein 1956 1959	p65
+T22	Protein 2058 2063	MAD-3
+T23	Protein 2131 2136	MAD-3
+T24	Protein 2166 2169	p50
+T25	Protein 2243 2246	p50
+T26	Protein 2436 2439	p65
+R1	Complex_formation Arg1:T4 Arg2:T5
+R2	Complex_formation Arg1:T14 Arg2:T15
+R3	Complex_formation Arg1:T17 Arg2:T18
+R4	Complex_formation Arg1:T23 Arg2:T24
+T27	Protein 0 9	I kappa B
+*	Equiv T27 T1
+T28	Protein 562 571	I kappa B
+T29	Protein 724 733	I kappa B
+T30	Protein 833 842	I kappa B
+*	Equiv T30 T9
+T31	Protein 1364 1373	I kappa B
+*	Equiv T31 T14
+T32	Protein 1160 1169	I kappa B
+*	Equiv T32 T12
+R5	Negative_regulation Arg1:T12 Arg2:T13	
+T33	Protein 1626 1635	I kappa B
+*	Equiv T33 T18
+T34	Protein 1775 1784	I kappa B
+R6	Negative_regulation Arg1:T34 Arg2:T20	
+T35	Protein 2048 2057	I kappa B
+*	Equiv T35 T22
+T36	Protein 2121 2130	I kappa B
+*	Equiv T36 T23
+R7	Regulation Arg1:T21 Arg2:T22	
+R8	Negative_regulation Arg1:T1 Arg2:T3	
+R9	Regulation_of_transcription Arg1:T1 Arg2:T3	
+R10	Negative_regulation Arg1:T1 Arg2:T2	
+R11	Complex_formation Arg1:T28 Arg2:T7	
+T37	Protein 948 957	I kappa B
+T38	Protein 983 992	I kappa B
+T41	Complex 183 193	NF-kappa B
+T39	Complex 543 553	NF-kappa B
+T40	Complex 626 633	kappa B
+T42	Protein 818 828	NF-kappa B
+R12	Complex_formation Arg1:T30 Arg2:T42	
+R13	Regulation Arg1:T30 Arg2:T42	
+T43	OOS 1557 1560	Rel
+T44	Complex 283 293	NF-kappa B
+T45	Complex 264 274	NF-kappa B
+T46	Complex 123 133	NF-kappa B
+T47	Complex 57 67	NF-kappa B
+T48	Complex 395 405	NF-kappa B
+T49	Complex 586 596	NF-kappa B
+T50	Complex 868 878	NF-kappa B
+T11	Protein 1121 1124	p65
+T51	Complex 1110 1120	NF-kappa B
+T52	Complex 1196 1206	NF-kappa B
+T53	Complex 1424 1434	NF-kappa B
+T54	Complex 1675 1685	NF-kappa B
+T55	Complex 1383 1393	NF-kappa B
+T56	Complex 1808 1818	NF-kappa B
+T57	Complex 1580 1590	NF-kappa B
+T58	Complex 1945 1955	NF-kappa B
+A1	Mutant T10
+A2	Mutant T11
+T59	Complex 1305 1312	kappa B
+#1	AnnotatorNotes R5	I think the relationships here correspond to wild-type
+#2	AnnotatorNotes T43	domain
+T60	Complex 2155 2165	NF-kappa B
+T61	Complex 2232 2242	NF-kappa B
+T62	Complex 2425 2435	NF-kappa B

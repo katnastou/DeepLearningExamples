@@ -1,0 +1,14 @@
+T1	Protein 166 170	Dsk2
+T2	Protein 286 291	Spc98
+T3	Protein 312 317	rad23
+T4	Protein 318 322	dsk2
+T5	Protein 376 380	Dsk2
+T6	Protein 385 390	Rad23
+T7	Protein 462 467	Rad23
+T8	Protein 472 476	Dsk2
+T9	OOS 247 250	SPB
+#1	AnnotatorNotes T9	spindle pole body
+A1	Mutant T3
+A2	Mutant T4
+T10	Protein 748 750	Ub
+T11	Complex 751 761	proteasome

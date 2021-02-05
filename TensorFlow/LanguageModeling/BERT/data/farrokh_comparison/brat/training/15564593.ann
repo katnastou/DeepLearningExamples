@@ -1,0 +1,33 @@
+T1	Protein 14 17	HCN
+T2	Protein 598 601	HCN
+T3	Protein 718 721	HCN
+T4	Protein 813 819	TRIP8b
+T5	Protein 825 865	TPR-containing Rab8b interacting protein
+T6	Protein 871 877	PEX5Rp
+T7	Protein 883 904	Pex5p-related protein
+T8	Family 949 952	HCN
+T9	Protein 1075 1081	TRIP8b
+T10	Protein 1235 1241	TRIP8b
+T11	Protein 1398 1404	TRIP8b
+T12	Protein 1406 1412	TRIP8b
+T13	Family 1452 1455	HCN
+T14	Family 1600 1603	HCN
+T15	Family 1678 1681	HCN
+T16	Protein 1748 1754	TRIP8b
+T17	Protein 1765 1771	TRIP8b
+T18	Protein 1892 1898	TRIP8b
+T19	Family 1913 1916	HCN
+T20	Family 207 213	HCN1-4
+T21	Protein 317 321	HCN1
+*	Equiv T4 T5
+*	Equiv T6 T7
+R1	Complex_formation Arg1:T4 Arg2:T8	
+R2	Complex_formation Arg1:T7 Arg2:T8	
+T22	Protein 1086 1090	HCN1
+T23	Protein 1302 1306	HCN1
+R4	Regulation Arg1:T23 Arg2:T10	
+T24	Protein 1389 1393	HCN1
+R5	Complex_formation Arg1:T24 Arg2:T11	
+R6	Regulation Arg1:T12 Arg2:T13	
+R7	Negative_regulation Arg1:T12 Arg2:T14	
+R9	Regulation Arg1:T18 Arg2:T19	

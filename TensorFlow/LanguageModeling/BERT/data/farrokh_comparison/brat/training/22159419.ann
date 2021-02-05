@@ -1,0 +1,53 @@
+T1	Protein 0 5	ARL4A
+T2	Protein 16 22	GCC185
+T3	Protein 64 103	ADP-ribosylation factor-like protein 4A
+T4	Protein 105 110	ARL4A
+T5	Family 157 160	ARF
+T6	Protein 205 210	ARL4A
+T7	Family 244 247	ARF
+T8	Protein 328 334	GCC185
+T9	Protein 442 448	GCC185
+T10	Protein 476 480	ARL4
+T11	Protein 513 518	ARL4A
+T12	Protein 543 549	GCC185
+T13	Protein 622 628	GCC185
+T14	Protein 670 676	GCC185
+T15	Protein 681 686	ARL4A
+T16	Protein 701 706	ARL4A
+T17	Protein 722 728	GCC185
+T18	Protein 840 846	GCC185
+T19	Protein 851 856	ARL4A
+T20	Protein 924 929	ARL4A
+T21	Protein 952 958	GCC185
+T22	Protein 1022 1027	ARL4A
+T23	Protein 1060 1066	GCC185
+T24	Protein 1119 1125	CLASP1
+T25	Protein 1130 1136	CLASP2
+T26	Protein 1183 1189	GCC185
+T27	Protein 1319 1324	ARL4A
+T28	Protein 1404 1410	GCC185
+*	Equiv T3 T4
+T29	Family 161 171	ARL GTPase
+T30	Family 248 251	ARL
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T9 Arg2:T10	
+R3	Complex_formation Arg1:T11 Arg2:T12	
+R4	Complex_formation Arg1:T14 Arg2:T15	
+R5	Positive_regulation Arg1:T16 Arg2:T17	
+R6	Complex_formation Arg1:T20 Arg2:T21	
+R7	Positive_regulation Arg1:T22 Arg2:T23	
+R8	Complex_formation Arg1:T23 Arg2:T24	
+R9	Complex_formation Arg1:T23 Arg2:T25	
+T31	Protein 1071 1111	cytoplasmic linker-associated proteins 1
+T32	Protein 1116 1117	2
+*	Equiv T32 T25
+*	Equiv T31 T24
+R10	Regulation Arg1:T26 Arg2:T31	
+R11	Regulation Arg1:T26 Arg2:T25	
+R12	Regulation Arg1:T27 Arg2:T28	
+T33	Family 1416 1422	CLASPs
+R13	Complex_formation Arg1:T28 Arg2:T33	
+T34	Family 1148 1154	CLASPs
+T35	Family 1226 1232	CLASPs
+T36	Chemical 555 558	GTP
+A1	Blacklisted T36

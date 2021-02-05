@@ -1,0 +1,8 @@
+T1	Family 18 21	AbG
+T2	Protein 122 126	Ago1
+#1	AnnotatorNotes T1	Ago1-bound genes, tagged as GGP by tagger
+T3	Family 51 55	AbGs
+T4	OOS 175 179	TSSs
+#2	AnnotatorNotes T4	Major transcription start site (TSS) 
+T5	Family 195 199	AbGs
+T6	Family 423 427	AbGs

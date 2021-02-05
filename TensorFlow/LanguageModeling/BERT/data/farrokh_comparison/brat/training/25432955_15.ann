@@ -1,0 +1,30 @@
+T1	Protein 42 46	Dcs1
+T2	Protein 51 55	Aph1
+T3	Protein 949 953	Dcs1
+T4	Protein 975 979	dcs1
+T5	Protein 1651 1655	Dcs1
+T6	Protein 1873 1877	aph1
+T7	Protein 1939 1943	Aph1
+T8	Protein 2054 2058	Aph1
+T9	Protein 2063 2067	Dcs1
+T10	Protein 2335 2339	Dcs1
+T11	Protein 1695 1699	ynk1
+T12	Protein 1709 1712	NDK
+T13	Protein 1277 1280	NDK
+T14	Protein 1839 1843	Ynk1
+T15	Protein 2217 2220	NDK
+T16	Chemical 1252 1255	ATP
+A1	Blacklisted T16
+T17	Protein 955 964	Deltadcs1
+T18	Protein 980 989	Deltaynk1
+A2	Mutant T17
+A3	Mutant T18
+A4	Mutant T4
+T19	Protein 1592 1601	Deltadcs1
+A5	Mutant T19
+T20	Protein 1492 1510	Deltadcs1Deltaynk1
+A6	Mutant T20
+T21	Protein 2415 2424	Deltadcs1
+A7	Mutant T21
+T22	Protein 2425 2434	Deltaaph1
+A8	Mutant T22

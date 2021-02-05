@@ -1,0 +1,33 @@
+T1	Protein 21 27	TRIM21
+T2	Protein 139 145	TRIM21
+T3	Protein 284 290	TRIM21
+T4	Protein 336 342	TRIM21
+T5	Protein 490 496	TRIM21
+T6	Protein 647 653	TRIM21
+T7	Protein 713 719	TRIM21
+T8	Protein 746 752	TRIM21
+T9	Protein 1027 1033	TRIM21
+T10	Protein 1207 1213	TRIM21
+T11	Protein 1311 1317	TRIM21
+T12	Protein 1460 1463	LFG
+T13	Protein 1478 1484	TRIM21
+T14	Protein 1563 1566	LFG
+T15	Protein 1619 1625	TRIM21
+T16	Protein 1774 1777	LFG
+T17	Protein 407 410	p27
+R1	Regulation Arg1:T4 Arg2:T17	
+T18	Complex 1326 1335	NF-kappaB
+R2	Negative_regulation Arg1:T11 Arg2:T18	
+T19	Complex 1400 1409	NF-kappaB
+R3	Regulation_of_gene_expression Arg1:T13 Arg2:T12	
+T20	Complex 1590 1599	NF-kappaB
+R4	Regulation Arg1:T20 Arg2:T14	
+T21	Complex 1714 1723	NF-kappaB
+R5	Regulation_of_gene_expression Arg1:T21 Arg2:T16	
+R6	Negative_regulation Arg1:T15 Arg2:T20	
+R7	Negative_regulation Arg1:T21 Arg2:T16	
+T22	Complex 1269 1278	NF-kappaB
+T23	Complex 1057 1066	NF-kappaB
+R8	Negative_regulation Arg1:T9 Arg2:T23	
+T24	Complex 1520 1529	NF-kappaB
+R9	Regulation Arg1:T24 Arg2:T13	

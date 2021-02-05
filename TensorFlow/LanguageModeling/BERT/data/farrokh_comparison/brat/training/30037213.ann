@@ -1,0 +1,27 @@
+T1	Protein 37 43	RNF168
+T2	Protein 48 53	PARP1
+T3	Protein 153 159	RNF168
+T4	Protein 164 193	poly(ADP-ribose) polymerase 1
+T5	Protein 195 200	PARP1
+T6	Protein 387 393	RNF168
+T7	Protein 408 413	PARP1
+T8	Protein 453 458	PARP1
+T10	Protein 547 552	PARP1
+T11	Protein 608 614	RNF168
+T12	Protein 657 662	PARP1
+T13	Protein 753 758	PARP1
+T14	Protein 848 854	RNF168
+T15	Protein 943 949	RNF168
+T16	Protein 988 994	RNF168
+T17	Protein 1198 1204	RNF168
+T18	Protein 1275 1281	RNF168
+T19	Protein 1307 1312	PARP1
+T20	Protein 1393 1398	PARP1
+*	Equiv T5 T4
+T9	Family 1040 1049	E3 ligase
+T21	Protein 678 687	ubiquitin
+A1	Blacklisted T21
+T22	Protein 1139 1148	ubiquitin
+A2	Blacklisted T22
+R1	Catalysis_of_ubiquitination Arg1:T6 Arg2:T7	
+R2	Complex_formation Arg1:T6 Arg2:T7	

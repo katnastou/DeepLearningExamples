@@ -1,0 +1,75 @@
+T1	Protein 65 86	protein kinase Cdelta
+T2	Protein 179 183	pVHL
+T3	Protein 184 193	elongin C
+T4	Protein 194 203	elongin B
+T5	Protein 205 210	Cul-2
+T6	Protein 212 220	Cullin-2
+T7	Protein 228 237	elongin C
+T8	Protein 239 248	elongin B
+T9	Protein 250 255	Cul-2
+T10	Protein 260 264	Rbx1
+T11	Protein 390 399	Hif1alpha
+T12	Protein 401 432	hypoxia-inducible factor 1alpha
+T13	Protein 473 478	Cul-2
+T14	Protein 743 747	pVHL
+T15	Protein 909 913	pVHL
+T17	Protein 1219 1223	pVHL
+T18	Protein 1332 1337	Cul-2
+T19	Protein 4 47	von Hippel-Lindau tumour-suppressor protein
+R1	Complex_formation Arg1:T19 Arg2:T1	
+T20	Protein 93 142	VHL (von Hippel-Lindau) tumour-suppressor protein
+R2	Complex_formation Arg1:T2 Arg2:T3	
+R3	Complex_formation Arg1:T3 Arg2:T4	
+R4	Complex_formation Arg1:T2 Arg2:T4	
+*	Equiv T5 T6
+R8	Complex_formation Arg1:T20 Arg2:T7	
+R9	Complex_formation Arg1:T20 Arg2:T8	
+R10	Complex_formation Arg1:T20 Arg2:T9	
+R11	Complex_formation Arg1:T20 Arg2:T10	
+T21	Family 278 299	ubiquitin-ligase (E3)
+*	Equiv T11 T12
+T22	Protein 469 472	VCB
+T23	Protein 174 177	VCB
+R12	Complex_formation Arg1:T22 Arg2:T13	
+R13	Complex_formation Arg1:T22 Arg2:T12	
+R14	Complex_formation Arg1:T13 Arg2:T12	
+R5	Complex_formation Arg1:T5 Arg2:T23	
+R6	Complex_formation Arg1:T5 Arg2:T4	
+R7	Complex_formation Arg1:T5 Arg2:T3	
+R15	Complex_formation Arg1:T5 Arg2:T2	
+R16	Complex_formation Arg1:T7 Arg2:T8	
+R17	Complex_formation Arg1:T7 Arg2:T9	
+R18	Complex_formation Arg1:T7 Arg2:T10	
+R19	Complex_formation Arg1:T8 Arg2:T9	
+R20	Complex_formation Arg1:T8 Arg2:T10	
+R21	Complex_formation Arg1:T9 Arg2:T10	
+T24	Family 522 526	aPKC
+T25	Family 528 553	atypical protein kinase C
+*	Equiv T24 T25
+R22	Complex_formation Arg1:T12 Arg2:T24	
+T26	Protein 730 738	PKCdelta
+T27	Protein 749 760	VHL protein
+*	Equiv T14 T27
+R23	Complex_formation Arg1:T26 Arg2:T14	
+T28	Protein 834 842	PKCdelta
+R24	Complex_formation Arg1:T28 Arg2:T15	
+T29	Protein 1042 1050	PKCdelta
+T16	Protein 1183 1191	PKCdelta
+T30	Family 1248 1252	aPKC
+T31	Protein 1254 1262	PKCdelta
+T32	Protein 1328 1331	VCB
+R25	Complex_formation Arg1:T32 Arg2:T18	
+R26	Complex_formation Arg1:T32 Arg2:T31	
+R27	Complex_formation Arg1:T18 Arg2:T30	
+R28	Regulation_of_proteolysis Arg1:T22 Arg2:T12	
+R29	Regulation_of_proteolysis Arg1:T13 Arg2:T12	
+R30	Regulation_of_proteolysis Arg1:T13 Arg2:T24	
+R31	Complex_formation Arg1:T22 Arg2:T24	
+R32	Regulation_of_proteolysis Arg1:T22 Arg2:T24	
+R33	Regulation_of_proteolysis Arg1:T32 Arg2:T31	
+R34	Regulation_of_proteolysis Arg1:T32 Arg2:T30	
+R35	Regulation_of_proteolysis Arg1:T18 Arg2:T31	
+R36	Regulation_of_proteolysis Arg1:T18 Arg2:T30	
+T33	Family 1302 1318	ubiquitin-ligase
+T34	Complex 314 324	proteasome
+T35	Complex 1006 1016	proteasome

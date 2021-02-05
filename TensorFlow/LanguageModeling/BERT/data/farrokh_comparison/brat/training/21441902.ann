@@ -1,0 +1,94 @@
+T1	Protein 306 310	Dbp5
+T2	Protein 318 323	DDX19
+T3	Protein 417 421	Dbp5
+T4	Protein 478 484	NUP214
+T5	Protein 535 539	Gle1
+T6	Protein 630 634	Dbp5
+T7	Protein 649 653	Gle1
+T8	Protein 725 729	Dbp5
+T9	Protein 790 794	Gle1
+T10	Protein 838 842	Dbp5
+T11	Protein 886 890	Dbp5
+T12	Protein 907 911	Gle1
+T13	Protein 927 931	Gle1
+T14	Protein 1030 1034	Gle1
+T15	Protein 1035 1039	Dbp5
+T16	Protein 1071 1075	Gle1
+T17	Protein 1083 1087	Dbp5
+T18	Protein 1193 1198	eIF4G
+T19	Protein 1199 1204	eIF4A
+T20	Protein 1230 1234	Gle1
+T21	Protein 1246 1251	eIF4G
+T22	Protein 1330 1334	Gle1
+T23	Protein 1351 1355	Dbp5
+T24	Protein 1421 1425	Dbp5
+T25	Protein 1494 1498	Gle1
+T26	Protein 1518 1522	Dbp5
+T27	Protein 1616 1620	Gle1
+T28	Protein 1621 1631	eIF4G-like
+T29	Protein 470 476	Nup159
+T30	Protein 806 812	Nup159
+T31	Protein 920 926	Nup159
+T32	Protein 1391 1397	Nup159
+T33	Protein 1507 1513	Nup159
+T34	Protein 25 40	DEAD-box ATPase
+T35	Protein 55 67	nucleoporins
+R1	Positive_regulation Arg1:T35 Arg2:T34	
+R2	Complex_formation Arg1:T3 Arg2:T29	
+R3	Positive_regulation Arg1:T5 Arg2:T3	
+R4	Positive_regulation Arg1:T7 Arg2:T6	
+R5	Regulation Arg1:T30 Arg2:T10	
+R6	Regulation Arg1:T9 Arg2:T10	
+R7	Complex_formation Arg1:T11 Arg2:T12	
+*	Equiv T31 T13
+R8	Complex_formation Arg1:T11 Arg2:T31	
+R9	Complex_formation Arg1:T14 Arg2:T15	
+R10	Complex_formation Arg1:T16 Arg2:T17	
+T36	Family 1272 1280	DEAD-box
+R11	Positive_regulation Arg1:T21 Arg2:T36	
+R12	Positive_regulation Arg1:T20 Arg2:T36	
+R13	Out-of-scope Arg1:T22 Arg2:T32	
+R14	Regulation Arg1:T22 Arg2:T24	
+R15	Regulation Arg1:T32 Arg2:T24	
+R16	Regulation Arg1:T22 Arg2:T23	
+*	Equiv T27 T28
+R17	Out-of-scope Arg1:T25 Arg2:T33	
+R18	Out-of-scope Arg1:T33 Arg2:T26	
+R19	Out-of-scope Arg1:T25 Arg2:T26	
+T38	Chemical 72 77	InsP6
+R20	Positive_regulation Arg1:T38 Arg2:T34	
+T39	Family 95 108	Superfamily 1
+T40	Family 113 140	superfamily 2 RNA helicases
+T41	Protein 276 305	superfamily 2 DEAD-box ATPase
+*	Equiv T1 T41
+T42	Complex 389 409	nuclear pore complex
+T43	Complex 411 414	NPC
+*	Equiv T43 T42
+T44	Complex 442 445	NPC
+T45	Complex 642 645	NPC
+T46	Chemical 573 598	inositol hexakisphosphate
+T47	Chemical 600 607	InsP(6)
+*	Equiv T47 T46
+R21	Positive_regulation Arg1:T46 Arg2:T3	
+T48	Chemical 795 800	InsP6
+R22	Regulation Arg1:T48 Arg2:T10	
+T49	Chemical 912 917	InsP6
+T50	Chemical 932 937	InsP6
+R23	Complex_formation Arg1:T11 Arg2:T49	
+R24	Complex_formation Arg1:T11 Arg2:T50	
+T51	Chemical 977 984	InsP(6)
+R25	Complex_formation Arg1:T51 Arg2:T14	
+R26	Complex_formation Arg1:T51 Arg2:T15	
+#8	AnnotatorNotes R25	I think the noun "tether" suggest interaction
+T52	Chemical 1076 1081	InsP6
+T53	Family 1131 1146	DEAD-box ATPase
+R29	Complex_formation Arg1:T19 Arg2:T18	
+T54	Chemical 1235 1240	InsP6
+R30	Positive_regulation Arg1:T54 Arg2:T36	
+T55	Chemical 1335 1340	InsP6
+R31	Regulation Arg1:T55 Arg2:T23	
+R32	Out-of-scope Arg1:T55 Arg2:T32	
+R33	Regulation Arg1:T55 Arg2:T24	
+T56	Chemical 1499 1504	InsP6
+T57	Family 1586 1601	DEAD-box ATPase
+R34	Regulation Arg1:T27 Arg2:T57	

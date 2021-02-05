@@ -1,0 +1,11 @@
+T1	Protein 14 20	KLHL12
+T2	Protein 54 59	KHSRP
+T3	Protein 72 77	KHSRP
+T4	Protein 126 132	KLHL12
+T5	Protein 142 147	KHSRP
+T6	OOS 171 175	IRES
+#1	AnnotatorNotes T6	internal ribosome entry sites 
+T7	Family 398 403	ITAFs
+T8	Protein 374 383	ubiquitin
+R1	Complex_formation Arg1:T1 Arg2:T2	
+A1	Blacklisted T8

@@ -1,0 +1,18 @@
+T1	Protein 98 108	paraplegin
+T2	Protein 113 119	AFG3L2
+T3	Protein 269 279	paraplegin
+T4	Protein 348 354	AFG3L2
+T5	Protein 461 467	AFG3L2
+T6	Protein 471 481	paraplegin
+T7	Protein 550 560	paraplegin
+T8	Protein 579 585	AFG3L2
+T9	Protein 734 744	paraplegin
+T10	Protein 766 772	AFG3L2
+T11	Protein 876 882	AFG3L2
+T12	Protein 1082 1092	paraplegin
+T13	Chemical 31 34	ATP
+A1	Blacklisted T13
+T14	Chemical 1171 1174	ATP
+A2	Blacklisted T14
+T15	Chemical 1273 1276	ATP
+A3	Blacklisted T15

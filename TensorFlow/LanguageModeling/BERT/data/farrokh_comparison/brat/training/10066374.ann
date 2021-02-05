@@ -1,0 +1,29 @@
+T1	Protein 62 67	Hsp90
+T2	Protein 174 179	Hsp90
+T3	Protein 334 339	Hsp90
+T4	Protein 451 456	Hsp90
+T5	Protein 668 673	Hsp90
+T6	Protein 948 953	Hsp90
+T7	Protein 1180 1185	Hsp90
+T8	Protein 1228 1233	Hsp90
+T9	Protein 95 123	glucocorticosteroid receptor
+T10	Protein 125 127	GR
+*	Equiv T9 T10
+T11	Protein 35 60	90-kDa heat shock protein
+*	Equiv T11 T1
+R1	Complex_formation Arg1:T1 Arg2:T9	
+T12	Protein 147 172	90-kDa heat shock protein
+*	Equiv T12 T2
+T13	Protein 259 287	glucocorticosteroid receptor
+T14	Protein 289 291	GR
+*	Equiv T13 T14
+R2	Regulation Arg1:T2 Arg2:T13	
+R3	Complex_formation Arg1:T3 Arg2:T13	
+T15	Protein 496 498	GR
+R4	Complex_formation Arg1:T4 Arg2:T15	
+T16	Protein 678 680	GR
+T17	Protein 1009 1011	GR
+R5	Complex_formation Arg1:T6 Arg2:T17	
+T18	Protein 1163 1165	GR
+R6	Complex_formation Arg1:T18 Arg2:T7	
+R7	Complex_formation Arg1:T5 Arg2:T16	

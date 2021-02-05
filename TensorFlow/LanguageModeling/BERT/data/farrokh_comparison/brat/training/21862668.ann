@@ -1,0 +1,31 @@
+T1	Protein 0 6	HCF243
+T4	Protein 646 652	hcf243
+T5	Protein 774 780	hcf243
+T6	Protein 940 946	hcf243
+T7	Protein 1028 1034	hcf243
+T8	Protein 1043 1049	HCF243
+T9	Protein 1133 1139	HCF243
+T10	Protein 1282 1288	HCF243
+T11	Protein 63 65	D1
+T12	Protein 733 735	D1
+T13	Protein 740 742	D2
+T14	Protein 916 918	D1
+T15	Protein 1121 1123	D1
+T16	Protein 1392 1394	D1
+R1	Regulation Arg1:T1 Arg2:T11	
+T2	Protein 289 321	high chlorophyll fluorescence243
+T3	Protein 323 329	hcf243
+*	Equiv T2 T3
+R2	Complex_formation Arg1:T8 Arg2:T15	
+R3	Regulation Arg1:T10 Arg2:T16	
+T17	Complex 222 236	photosystem II
+T18	Complex 238 242	PSII
+*	Equiv T17 T18
+T19	Complex 103 117	photosystem II
+T20	Complex 470 474	PSII
+T21	Complex 990 994	PSII
+T22	Complex 1449 1453	PSII
+T23	Complex 898 902	PSII
+A1	Mutant T2
+A2	Mutant T3
+A3	Mutant T7

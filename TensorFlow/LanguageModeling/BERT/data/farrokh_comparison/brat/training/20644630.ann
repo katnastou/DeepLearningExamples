@@ -1,0 +1,36 @@
+T1	Protein 299 304	POMT1
+T2	Protein 309 314	POMT2
+T3	Protein 317 324	fukutin
+T4	Protein 330 353	fukutin-related protein
+T5	Protein 452 457	POMT1
+T6	Protein 462 467	POMT2
+T7	Protein 651 656	POMT1
+T8	Protein 661 666	POMT2
+T9	Protein 693 708	rotated abdomen
+T10	Protein 718 725	twisted
+T11	Protein 1463 1467	POMT
+T12	Protein 1746 1750	POMT
+T13	Protein 267 291	O-mannosyltransferases 1
+T14	Protein 296 297	2
+*	Equiv T13 T1
+*	Equiv T14 T2
+T15	Protein 710 712	rt
+*	Equiv T9 T15
+T16	Protein 727 729	tw
+*	Equiv T10 T16
+T17	Protein 1281 1283	rt
+T18	Protein 1297 1299	tw
+A1	Mutant T7
+A2	Mutant T8
+A3	Mutant T9
+A4	Mutant T15
+A5	Mutant T10
+A6	Mutant T16
+A7	Mutant T17
+A8	Mutant T18
+A9	Mutant T11
+A10	Mutant T12
+T19	Protein 1164 1166	tw
+A11	Mutant T19
+T20	Protein 1606 1608	tw
+A12	Mutant T20

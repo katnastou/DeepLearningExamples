@@ -1,0 +1,39 @@
+T1	Protein 0 5	Tcf-1
+T2	Protein 69 95	glycogen synthase kinase-3
+T3	Protein 125 137	Beta-catenin
+T4	Protein 409 421	beta-catenin
+T5	Protein 438 450	beta-catenin
+T6	Protein 507 512	Tcf-1
+T7	Protein 576 588	beta-catenin
+T8	Protein 789 819	glycogen synthase kinase-3beta
+T9	Protein 821 830	GSK-3beta
+T10	Protein 866 878	beta-catenin
+T11	Protein 919 928	GSK-3beta
+T12	Protein 1000 1009	GSK-3beta
+T13	Chemical 1083 1101	phytohemagglutinin
+T14	Protein 1116 1125	GSK-3beta
+T15	Protein 1196 1205	GSK-3beta
+T16	Protein 1340 1349	GSK-3beta
+T17	Protein 1362 1365	Tcf
+*	Equiv T8 T9
+R1	Complex_formation Arg1:T6 Arg2:T7
+T18	Family 329 357	Lef/Tcf transcription factor
+R2	Complex_formation Arg1:T18 Arg2:T4	
+T19	Protein 204 213	Armadillo
+T20	Family 932 935	Tcf
+T21	Family 1041 1044	Tcf
+T22	Chemical 1072 1079	lithium
+T23	Protein 1156 1159	Tcf
+T24	Family 1234 1237	Tcf
+T25	Chemical 1320 1327	lithium
+T26	Family 1466 1469	Tcf
+T28	OOS 281 294	Wnt signaling
+#2	AnnotatorNotes T28	Pathway
+T29	OOS 610 641	Wnt signal transduction pathway
+#3	AnnotatorNotes T29	Pathway
+T30	OOS 1532 1545	Wnt signaling
+#4	AnnotatorNotes T30	Pathway
+T27	Family 1532 1535	Wnt
+T31	Family 281 284	Wnt
+T32	Family 610 613	Wnt
+T33	Family 701 704	Wnt

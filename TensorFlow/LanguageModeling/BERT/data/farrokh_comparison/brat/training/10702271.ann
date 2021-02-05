@@ -1,0 +1,51 @@
+T1	Protein 47 51	Pyk2
+T2	Protein 71 85	Janus kinase 1
+T3	Protein 90 100	IL-7Ralpha
+T5	Protein 103 132	Interleukin-7 (IL-7) receptor
+T6	Protein 196 200	Jak1
+T7	Protein 205 209	Jak3
+T8	Protein 319 323	Pyk2
+T10	Protein 380 384	IL-7
+T12	Protein 487 491	IL-7
+T13	Protein 561 565	Pyk2
+T14	Protein 606 610	Jak1
+T15	Protein 615 619	Jak3
+T16	Protein 649 653	IL-7
+T17	Protein 698 702	Pyk2
+T18	Protein 720 724	Pyk2
+T19	Protein 768 772	Jak1
+T20	Protein 782 786	IL-7
+T21	Protein 836 846	IL-7Ralpha
+T22	Protein 863 867	IL-7
+T23	Protein 881 885	Pyk2
+T24	Protein 946 950	Pyk2
+T25	Protein 1001 1005	Pyk2
+T26	Protein 1176 1180	IL-7
+T27	Protein 1212 1216	Pyk2
+T28	Protein 0 18	Interleukin (IL)-7
+R1	Positive_regulation Arg1:T28 Arg2:T1	
+R2	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T1 Arg2:T3	
+R4	Positive_regulation Arg1:T5 Arg2:T6	
+R5	Positive_regulation Arg1:T5 Arg2:T7	
+T9	Family 341 362	focal adhesion kinase
+R6	Positive_regulation Arg1:T12 Arg2:T13	
+R7	Catalysis_of_phosphorylation Arg1:T14 Arg2:T13	
+R8	Catalysis_of_phosphorylation Arg1:T15 Arg2:T13	
+R9	Positive_regulation Arg1:T14 Arg2:T13	
+R10	Positive_regulation Arg1:T15 Arg2:T13	
+R11	Positive_regulation Arg1:T16 Arg2:T17	
+R12	Complex_formation Arg1:T18 Arg2:T19	
+R14	Complex_formation Arg1:T18 Arg2:T21	
+T29	Family 1014 1048	muscarinic and nicotinic receptors
+R13	Positive_regulation Arg1:T29 Arg2:T25	
+T4	Chemical 1086 1092	Ca(2+)
+T11	Chemical 1104 1113	ionomycin
+T30	Chemical 1114 1139	phorbol myristate acetate
+*	Equiv T30 T11
+T31	Chemical 1055 1064	carbachol
+#2	AnnotatorNotes T29	Plural, Not normalizable
+T32	Protein 1229 1232	Jak
+T33	OOS 1229 1242	Jak signaling
+T34	OOS 104 142	nterleukin-7 (IL-7) receptor signaling
+T35	Family 173 195	Janus tyrosine kinases

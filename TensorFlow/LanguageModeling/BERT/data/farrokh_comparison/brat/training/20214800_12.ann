@@ -1,0 +1,59 @@
+T1	Protein 44 50	GPR177
+T2	Protein 171 174	MOR
+T3	Protein 207 213	GPR177
+T4	Protein 294 297	MOR
+T5	Protein 359 365	GPR177
+T6	Protein 381 384	MOR
+T7	Protein 535 538	MOR
+T8	Protein 589 607	mu-opioid receptor
+T9	Protein 617 620	MOR
+T10	Protein 698 701	MOR
+T11	Protein 757 763	GPR177
+T12	Protein 856 862	GPR177
+T13	Protein 934 940	GPR177
+T14	Protein 1065 1068	MOR
+T15	Protein 1082 1085	MOR
+T16	Protein 1106 1109	MOR
+T17	Protein 1137 1143	GPR177
+T18	Protein 1146 1149	GPR
+T19	Protein 1210 1216	GPR177
+T20	Protein 1279 1285	GPR177
+T21	Protein 1456 1462	GPR177
+T22	Protein 1563 1569	GPR177
+T23	Protein 1634 1640	GPR177
+T24	Protein 1676 1682	GPR177
+T25	Protein 36 39	MOR
+#1	AnnotatorNotes T25	mu-opioid receptor
+T26	Protein 284 288	MORs
+#2	AnnotatorNotes T26	Plural
+T27	OOS 272 276	FLAG
+T28	OOS 340 344	FLAG
+A2	Fusion T28
+#3	AnnotatorNotes T2	antibody
+#4	AnnotatorNotes T6	cells
+#5	AnnotatorNotes T7	antibody
+#6	AnnotatorNotes T9	cells
+#7	AnnotatorNotes T16	cells
+#8	AnnotatorNotes T10	antibody
+#9	AnnotatorNotes T11	antibody
+#10	AnnotatorNotes T13	antibody
+#11	AnnotatorNotes T19	antibody
+#12	AnnotatorNotes T22	antibody
+#13	AnnotatorNotes T21	antibody
+T29	OOS 1260 1264	FLAG
+A3	Fusion T29
+T30	OOS 1549 1553	FLAG
+A4	Fusion T30
+T31	OOS 1402 1406	FLAG
+A5	Fusion T31
+#14	AnnotatorNotes T31	antibody, not tagged by tagger
+#15	AnnotatorNotes T30	antibody, not tagged by tagger
+#16	AnnotatorNotes T23	antibody
+A6	Fusion T20
+#17	AnnotatorNotes T27	not tagged by tagger
+#19	AnnotatorNotes T28	not tagged by tagger
+A1	Fusion T27
+A7	Fusion T26
+R1	Complex_formation Arg1:T25 Arg2:T1	
+R2	Out-of-scope Arg1:T2 Arg2:T3	
+#20	AnnotatorNotes R2	"tested the ability"

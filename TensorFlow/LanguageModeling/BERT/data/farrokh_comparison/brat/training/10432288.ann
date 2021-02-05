@@ -1,0 +1,61 @@
+T1	Protein 0 5	Bcl-2
+T2	Protein 125 135	Fas ligand
+T3	Protein 152 157	Bcl-2
+T4	Protein 290 295	Bcl-2
+T5	Protein 404 407	Bax
+T6	Protein 412 415	Bad
+T7	Protein 558 561	Fas
+T8	Protein 562 572	Fas ligand
+T9	Protein 574 578	FasL
+T10	Protein 610 614	FasL
+T11	Protein 673 678	Bcl-2
+T12	Protein 769 773	FasL
+T13	Protein 852 857	Bcl-2
+T14	Protein 1169 1173	FasL
+T15	Protein 1335 1339	FasL
+T16	Protein 1354 1359	Bcl-2
+T17	Protein 1485 1489	FasL
+T18	Protein 1517 1522	Bcl-2
+T19	Protein 1587 1592	Bcl-2
+T20	Protein 1609 1614	Bcl-2
+T21	Protein 1627 1638	calcineurin
+T22	Protein 1661 1665	FasL
+T23	Protein 1708 1713	Bcl-2
+*	Equiv T8 T9
+R1	Complex_formation Arg1:T4 Arg2:T5
+R2	Complex_formation Arg1:T4 Arg2:T6
+R3	Out-of-scope Arg1:T20 Arg2:T21
+T24	Family 896 900	NFAT
+T25	Family 902 943	nuclear factor of activated T lymphocytes
+*	Equiv T24 T25
+T26	Protein 1029 1040	calcineurin
+T27	Protein 1044 1073	calcium-dependent phosphatase
+*	Equiv T26 T27
+T28	Family 1100 1104	NFAT
+R4	Catalysis_of_dephosphorylation Arg1:T27 Arg2:T28	
+T29	Family 1137 1141	NFAT
+T30	Protein 1409 1420	calcineurin
+T31	Family 1442 1446	NFAT
+T32	Family 1644 1648	NFAT
+R5	Complex_formation Arg1:T7 Arg2:T8	
+R6	Negative_regulation Arg1:T11 Arg2:T12	
+R7	Regulation_of_gene_expression Arg1:T11 Arg2:T12	
+R8	Negative_regulation Arg1:T13 Arg2:T24	
+R9	Regulation_of_transcription Arg1:T29 Arg2:T14	
+R10	Positive_regulation Arg1:T29 Arg2:T14	
+R11	Negative_regulation Arg1:T16 Arg2:T30	
+R12	Negative_regulation Arg1:T16 Arg2:T31	
+R13	Negative_regulation Arg1:T16 Arg2:T17	
+R14	Regulation_of_gene_expression Arg1:T16 Arg2:T17	
+T33	Family 111 115	NFAT
+T34	Family 68 109	nuclear factor of activated T lymphocytes
+*	Equiv T34 T33
+R15	Regulation_of_transcription Arg1:T33 Arg2:T2	
+R16	Positive_regulation Arg1:T33 Arg2:T2	
+T35	Chemical 243 258	glucocorticoids
+#8	AnnotatorNotes T35	Group of chemicals
+T36	Chemical 220 238	chemotherapy drugs
+#9	AnnotatorNotes T36	Group of chemicals
+T37	Protein 383 388	Bcl-2
+T38	Chemical 481 491	Paclitaxel
+T39	Chemical 624 634	paclitaxel

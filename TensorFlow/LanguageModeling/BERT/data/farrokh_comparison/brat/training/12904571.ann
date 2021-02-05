@@ -1,0 +1,76 @@
+T1	Protein 47 52	PIASy
+T2	Protein 510 515	Smad3
+T3	Protein 520 525	Smad4
+T4	Protein 550 555	PIASy
+T5	Protein 596 601	PIASy
+T6	Protein 626 631	Smad4
+T7	Protein 692 697	PIASy
+T8	Protein 723 728	Smad3
+T9	Protein 789 794	Smad4
+T10	Protein 820 825	Smad3
+T11	Protein 830 835	PIASy
+T12	Protein 921 926	Smad3
+T13	Protein 938 943	Smad3
+T14	Protein 945 950	Smad4
+T15	Protein 956 961	PIASy
+T16	Protein 990 995	PIASy
+T17	Protein 1135 1140	PIASy
+T18	Protein 1231 1264	cyclin-dependent kinase inhibitor
+T19	Protein 1278 1311	plasminogen activator inhibitor 1
+T20	Protein 1334 1339	PIASy
+T21	Protein 1373 1394	histone deacetylase 1
+T22	Protein 1396 1401	HDAC1
+T23	Protein 1499 1504	PIASy
+T24	Protein 1548 1553	PIASy
+T25	Protein 14 18	Smad
+R1	Negative_regulation Arg1:T1 Arg2:T25	
+R2	Regulation_of_transcription Arg1:T1 Arg2:T25	
+T26	Family 80 84	STAT
+T27	Family 87 91	Smad
+R3	Negative_regulation Arg1:T1 Arg2:T26	
+T28	Protein 109 140	transforming growth factor beta
+T29	Protein 142 150	TGF-beta
+*	Equiv T28 T29
+R4	Regulation Arg1:T27 Arg2:T28	
+T30	Protein 189 268	Protein inhibitor of activated signal transducer and activator of transcription
+T31	Protein 270 274	PIAS
+*	Equiv T30 T31
+T32	Family 448 452	Smad
+R5	Complex_formation Arg1:T4 Arg2:T3	
+R6	Complex_formation Arg1:T4 Arg2:T2	
+T33	Family 573 577	PIAS
+R7	Complex_formation Arg1:T5 Arg2:T6	
+T34	Family 665 670	Smads
+R8	Complex_formation Arg1:T5 Arg2:T34	
+R9	Complex_formation Arg1:T7 Arg2:T8	
+T35	Family 779 784	Smads
+R10	Complex_formation Arg1:T7 Arg2:T35	
+R11	Complex_formation Arg1:T7 Arg2:T9	
+R12	Complex_formation Arg1:T10 Arg2:T11	
+T36	Protein 868 876	TGF-beta
+R13	Positive_regulation Arg1:T36 Arg2:T10	
+R14	Positive_regulation Arg1:T36 Arg2:T11	
+R15	Complex_formation Arg1:T13 Arg2:T14	
+R16	Complex_formation Arg1:T14 Arg2:T15	
+R17	Complex_formation Arg1:T13 Arg2:T15	
+T37	Family 1013 1017	Smad
+T38	Family 1059 1063	Smad
+R18	Negative_regulation Arg1:T16 Arg2:T38	
+R19	Regulation_of_transcription Arg1:T16 Arg2:T38	
+R20	Negative_regulation Arg1:T17 Arg2:T18	
+T39	Protein 1265 1268	p15
+*	Equiv T18 T39
+R21	Negative_regulation Arg1:T17 Arg2:T19	
+R22	Regulation_of_transcription Arg1:T17 Arg2:T19	
+R23	Regulation_of_transcription Arg1:T17 Arg2:T18	
+R24	Complex_formation Arg1:T20 Arg2:T21	
+*	Equiv T21 T22
+R25	Negative_regulation Arg1:T23 Arg2:T21	
+T40	Protein 1566 1574	TGF-beta
+T41	Family 1575 1579	Smad
+R26	Negative_regulation Arg1:T24 Arg2:T40	
+R27	Negative_regulation Arg1:T24 Arg2:T41	
+T42	Family 1632 1636	Smad
+T43	Protein 1650 1654	HDAC
+R28	Complex_formation Arg1:T24 Arg2:T42	
+R29	Complex_formation Arg1:T24 Arg2:T43	

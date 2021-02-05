@@ -1,0 +1,12 @@
+T1	Protein 768 787	elongation factor 2
+T2	Protein 854 867	interleukin-6
+T3	Protein 881 891	Unpaired 3
+T4	Chemical 298 318	S-adenosylmethionine
+T5	Chemical 320 323	SAM
+*	Equiv T4 T5
+T6	Chemical 50 70	S-Adenosylmethionine
+T7	Chemical 509 512	SAM
+T8	Chemical 495 505	methionine
+T9	Chemical 602 605	SAM
+T10	Chemical 802 805	SAM
+T11	Chemical 1073 1076	SAM

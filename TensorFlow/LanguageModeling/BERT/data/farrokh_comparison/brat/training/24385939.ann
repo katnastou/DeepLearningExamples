@@ -1,0 +1,43 @@
+T1	Protein 0 4	Smc5
+T2	Protein 408 412	Smc5
+T3	Protein 498 502	Smc5
+T4	Protein 585 589	Smc5
+T5	Protein 765 769	Smc5
+T6	Protein 925 929	Smc5
+T7	Protein 1047 1051	Smc5
+T8	Protein 1134 1139	Mus81
+T9	Protein 1140 1144	Mms4
+T10	Protein 1145 1149	Eme1
+T11	Protein 1178 1182	Smc5
+T12	Protein 5 6	6
+T13	Protein 413 414	6
+R1	Complex_formation Arg1:T2 Arg2:T13	
+T14	Protein 503 504	6
+R2	Complex_formation Arg1:T3 Arg2:T14	
+T15	Protein 590 591	6
+R3	Complex_formation Arg1:T4 Arg2:T15	
+T16	Protein 770 771	6
+R4	Complex_formation Arg1:T5 Arg2:T16	
+T17	Protein 930 931	6
+R5	Complex_formation Arg1:T6 Arg2:T17	
+T18	Protein 1052 1053	6
+R6	Complex_formation Arg1:T7 Arg2:T18	
+*	Equiv T9 T10 T8
+R7	Regulation Arg1:T18 Arg2:T8	
+R8	Regulation Arg1:T7 Arg2:T8	
+T19	Protein 1183 1184	6
+R9	Complex_formation Arg1:T11 Arg2:T19	
+R10	Complex_formation Arg1:T1 Arg2:T12	
+T20	Complex 319 326	cohesin
+T21	Complex 331 340	condensin
+T22	Complex 136 172	Structural Maintenance of Chromosome
+T23	Complex 174 177	SMC
+*	Equiv T22 T23
+T24	Complex 395 398	SMC
+T25	Complex 563 570	cohesin
+T26	Complex 1373 1380	cohesin
+T27	Complex 623 630	cohesin
+T28	Complex 720 727	cohesin
+T29	Family 1109 1112	XPF
+T30	OOS 963 986	major crossover pathway
+T31	OOS 1002 1011	MutLgamma

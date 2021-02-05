@@ -1,0 +1,33 @@
+T1	Protein 126 130	B7.1
+T2	Protein 138 143	B7-H1
+T3	Protein 262 267	B7-H1
+T4	Protein 277 281	B7.1
+T5	Protein 153 155	IR
+T6	Protein 268 273	Rluc8
+A1	Fusion T6
+#1	AnnotatorNotes T6	not tagged by tagger
+T7	Protein 282 287	Rluc8
+A2	Fusion T7
+#2	AnnotatorNotes T7	not tagged by tagger
+T8	Protein 131 135	YPet
+A3	Fusion T8
+#3	AnnotatorNotes T8	not tagged by tagger
+T9	Protein 144 148	YPet
+A4	Fusion T9
+#4	AnnotatorNotes T9	not tagged by tagger
+T10	Protein 156 160	YPet
+A5	Fusion T10
+#5	AnnotatorNotes T10	not tagged by tagger
+T11	Chemical 359 362	PBS
+T12	Chemical 409 425	Coelenterazine H
+T13	Chemical 660 676	Coelenterazine H
+T14	Protein 878 882	Rluc
+A6	Fusion T14
+T15	Protein 906 909	YFP
+A7	Fusion T15
+#6	AnnotatorNotes T15	not tagged by tagger
+#7	AnnotatorNotes T14	not tagged by tagger
+T16	Protein 540 546	penton
+#8	AnnotatorNotes T16	https://www.uniprot.org/uniprot/Q546P6
+T17	Protein 595 601	penton
+#9	AnnotatorNotes T17	https://www.uniprot.org/uniprot/Q546P6

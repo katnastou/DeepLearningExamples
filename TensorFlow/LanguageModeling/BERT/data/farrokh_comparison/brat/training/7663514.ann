@@ -1,0 +1,22 @@
+T1	Protein 0 3	p53
+T2	Protein 73 76	p53
+T3	Protein 178 181	p53
+T4	Protein 444 447	p53
+T5	Protein 593 596	p53
+T6	Protein 660 663	p53
+T9	Protein 287 290	XPD
+T10	Protein 292 296	Rad3
+*	Equiv T9 T10
+T7	Protein 302 305	XPB
+T8	Protein 318 321	CSB
+R1	Complex_formation Arg1:T3 Arg2:T9	
+R2	Complex_formation Arg1:T3 Arg2:T7	
+R3	Complex_formation Arg1:T3 Arg2:T8	
+T11	Protein 457 460	XPD
+T12	Protein 462 466	Rad3
+*	Equiv T11 T12
+T13	Protein 472 475	XPB
+R4	Out-of-scope Arg1:T4 Arg2:T11	
+R5	Out-of-scope Arg1:T4 Arg2:T13	
+A1	Mutant T4
+A2	Mutant T5

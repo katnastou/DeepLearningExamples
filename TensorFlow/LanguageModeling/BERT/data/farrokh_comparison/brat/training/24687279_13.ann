@@ -1,0 +1,20 @@
+T1	Protein 39 43	ensc
+T2	Protein 115 119	ensc
+T3	Protein 507 511	ensc
+T4	Protein 763 772	Ensconsin
+T5	OOS 818 821	Mts
+T6	Protein 940 944	ensc
+T7	Protein 1108 1112	ensc
+T8	Protein 1217 1221	ensc
+A1	Mutant T1
+A2	Mutant T3
+T9	OOS 120 123	Nbs
+#1	AnnotatorNotes T9	neuroblasts
+#2	AnnotatorNotes T5	tagged by tagger, microtubule
+T10	Protein 899 902	EB1
+T11	Protein 903 906	GFP
+A3	Fusion T11
+#3	AnnotatorNotes T11	not tagged by tagger
+A4	Fusion T10
+A5	Mutant T7
+A6	Mutant T8

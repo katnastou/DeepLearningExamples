@@ -1,0 +1,41 @@
+T1	Protein 0 4	Mds3
+T2	Protein 342 346	Mds3
+T3	Protein 451 457	Rim101
+T4	Protein 512 516	mds3
+T5	Protein 807 811	mds3
+T6	Protein 948 952	TOR1
+T7	Protein 968 972	rbp1
+T8	Protein 1092 1096	Sit4
+T9	Protein 1142 1148	Rim101
+T10	Protein 1152 1156	Ras1
+T11	Protein 1162 1166	sit4
+T12	Protein 1183 1187	mds3
+T13	Protein 1264 1268	Sit4
+T14	Protein 1273 1277	Mds3
+T15	Protein 1340 1344	Mds3
+T16	Protein 1349 1353	Sit4
+T17	Protein 1381 1385	Mds3
+R1	Complex_formation Arg1:T15 Arg2:T16	
+T18	Family 61 64	TOR
+T19	Family 589 592	TOR
+T20	Family 874 877	TOR
+T21	Family 1100 1103	TOR
+T22	Family 1304 1307	TOR
+T23	Family 1409 1412	TOR
+T24	Chemical 725 733	nitrogen
+T25	Chemical 847 856	rapamycin
+R2	Negative_regulation Arg1:T25 Arg2:T20	
+T26	Chemical 928 937	rapamycin
+T27	Chemical 995 1004	Rapamycin
+T28	OOS 61 72	TOR pathway
+T29	OOS 451 476	Rim101 pH-sensing pathway
+T30	OOS 589 600	TOR pathway
+T31	OOS 1100 1111	TOR pathway
+T32	OOS 1304 1315	TOR pathway
+T33	OOS 1409 1420	TOR pathway
+A1	Mutant T12
+A2	Mutant T11
+A3	Mutant T5
+A4	Mutant T4
+A5	Mutant T7
+A6	Mutant T6

@@ -1,0 +1,33 @@
+T1	Protein 14 18	p105
+T2	Protein 183 193	NF-kappaB1
+T3	Protein 194 198	p105
+T4	Protein 238 241	p50
+T5	Protein 282 286	p105
+T6	Protein 519 523	p105
+T7	Protein 707 711	p105
+T8	Protein 844 847	p50
+T9	Protein 887 891	p105
+T10	Protein 943 946	p50
+T11	Protein 986 990	RelA
+T12	Protein 995 1000	c-Rel
+T13	Protein 1032 1036	p105
+T14	Protein 1084 1088	p105
+T15	Protein 1186 1190	p105
+T16	Protein 1307 1311	p105
+T17	Protein 1350 1353	p50
+T18	Protein 1440 1444	p105
+*	Equiv T2 T3
+R1	Complex_formation Arg1:T10 Arg2:T13
+R2	Complex_formation Arg1:T11 Arg2:T13
+R3	Complex_formation Arg1:T12 Arg2:T13
+R4	Negative_regulation Arg1:T10 Arg2:T9	
+T19	Protein 33 42	NF-kappaB
+#1	AnnotatorNotes T19	Complex
+T20	Protein 126 135	NF-kappaB
+#2	AnnotatorNotes T20	Complex
+T21	Protein 253 262	NF-kappaB
+#3	AnnotatorNotes T21	Complex
+T22	Protein 956 965	NF-kappaB
+#4	AnnotatorNotes T22	Complex
+T23	Protein 1138 1147	NF-kappaB
+#5	AnnotatorNotes T23	Complex

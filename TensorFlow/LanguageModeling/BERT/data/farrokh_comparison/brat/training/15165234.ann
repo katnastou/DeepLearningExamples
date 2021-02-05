@@ -1,0 +1,29 @@
+T1	Protein 563 573	NAG kinase
+T2	Protein 916 926	NAG kinase
+T3	Protein 1023 1033	NAG kinase
+T4	Protein 28 29	P
+T5	Protein 112 139	N-acetyl-L-glutamate kinase
+T6	Protein 243 248	P(II)
+T7	Protein 324 329	P(II)
+T8	Chemical 365 371	carbon
+T9	Chemical 372 380	nitrogen
+T10	Protein 482 512	N-acetylglutamate (NAG) kinase
+T11	Protein 530 535	P(II)
+T12	Protein 657 662	P(II)
+T13	Chemical 664 678	2-oxoglutarate
+T14	Protein 765 770	P(II)
+T15	Chemical 683 686	ATP
+T16	Protein 850 855	P(II)
+T17	Protein 1006 1011	P(II)
+T18	Protein 1081 1086	P(II)
+T19	Chemical 1088 1096	nitrogen
+T20	Protein 1158 1163	P(II)
+T21	Chemical 1181 1189	nitrogen
+T22	Chemical 1274 1282	nitrogen
+R1	Complex_formation Arg1:T4 Arg2:T5	
+T23	Chemical 67 75	arginine
+#1	AnnotatorNotes T23	Could be considered chemical here, because it's the free form
+T24	Chemical 451 459	arginine
+R2	Complex_formation Arg1:T7 Arg2:T10	
+R3	Complex_formation Arg1:T11 Arg2:T1	
+A1	Blacklisted T15

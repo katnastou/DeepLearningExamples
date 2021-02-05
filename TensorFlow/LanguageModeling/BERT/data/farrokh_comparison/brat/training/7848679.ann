@@ -1,0 +1,13 @@
+T1	Protein 862 865	p50
+T2	Protein 899 902	p50
+T3	Protein 958 961	p50
+T4	Protein 962 965	p56
+R1	Complex_formation Arg1:T3 Arg2:T4
+T5	Complex 30 40	NF-kappa B
+T6	Complex 684 706	nuclear factor-kappa B
+T7	Complex 708 718	NF-kappa B
+*	Equiv T6 T7
+T8	Complex 981 991	NF-kappa B
+T9	Complex 1016 1026	NF-kappa B
+T10	Complex 1137 1147	NF-kappa B
+T11	Complex 866 876	NF-kappa B

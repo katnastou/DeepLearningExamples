@@ -1,0 +1,61 @@
+T1	Protein 0 21	Carbonic anhydrase IV
+T2	Protein 119 123	WTAP
+T3	Protein 124 127	WT1
+T4	Protein 128 132	TBL1
+T5	Protein 165 186	carbonic anhydrase IV
+T6	Protein 188 191	CA4
+T8	Protein 403 406	CA4
+T9	Protein 474 477	CA4
+T10	Protein 551 554	CA4
+T11	Protein 741 744	CA4
+T12	Protein 793 796	CA4
+T13	Protein 928 931	CA4
+T14	Protein 1081 1084	CA4
+T15	Protein 1161 1164	CA4
+T16	Protein 1252 1255	CA4
+T17	Protein 1341 1353	beta-catenin
+T18	Protein 1355 1358	CA4
+T19	Protein 1412 1416	WTAP
+T20	Protein 1430 1434	WTAP
+T21	Protein 1493 1496	CA4
+T22	Protein 1555 1558	WT1
+T23	Protein 1662 1666	TBL1
+T24	Protein 1691 1703	beta-catenin
+T25	Protein 1718 1721	CA4
+T26	Protein 1828 1832	WTAP
+T27	Protein 1833 1836	WT1
+T28	Protein 1837 1841	TBL1
+T29	Protein 1848 1851	CA4
+R1	Regulation Arg1:T1 Arg2:T2	
+T30	Family 74 77	Wnt
+R2	Regulation Arg1:T1 Arg2:T30	
+R3	Regulation Arg1:T1 Arg2:T3	
+R4	Regulation Arg1:T1 Arg2:T4	
+*	Equiv T5 T6
+T7	Family 1286 1289	Wnt
+R5	Regulation Arg1:T16 Arg2:T7	
+R6	Negative_regulation Arg1:T16 Arg2:T17	
+T31	Protein 1375 1410	Wilms' tumour 1-associating protein
+*	Equiv T31 T19
+R7	Complex_formation Arg1:T18 Arg2:T31	
+R8	Regulation_of_proteolysis Arg1:T18 Arg2:T20	
+R9	Negative_regulation Arg1:T18 Arg2:T20	
+T32	Protein 1538 1553	Wilms' tumour 1
+*	Equiv T32 T22
+T33	Family 1582 1585	Wnt
+R10	Negative_regulation Arg1:T22 Arg2:T33	
+R11	Positive_regulation Arg1:T21 Arg2:T32	
+T34	Protein 1630 1660	transducin beta-like protein 1
+*	Equiv T34 T23
+R12	Positive_regulation Arg1:T22 Arg2:T34	
+R13	Negative_regulation Arg1:T22 Arg2:T24	
+R14	Regulation_of_proteolysis Arg1:T22 Arg2:T24	
+T35	Family 1788 1791	Wnt
+R15	Regulation Arg1:T25 Arg2:T35	
+R16	Regulation Arg1:T25 Arg2:T26	
+R17	Regulation Arg1:T25 Arg2:T27	
+R18	Regulation Arg1:T25 Arg2:T28	
+T36	OOS 1582 1593	Wnt pathway
+T37	OOS 1286 1307	Wnt signalling pathwa
+T38	OOS 74 96	Wnt signalling pathway
+T39	OOS 1788 1810	Wnt signalling pathway

@@ -1,0 +1,51 @@
+T1	Protein 33 38	Egr-1
+T2	Protein 59 92	interleukin-2 receptor beta-chain
+T3	Protein 155 193	interleukin-2 IL-2 receptor beta-chain
+T4	Protein 195 204	IL-2Rbeta
+T5	Protein 253 257	IL-2
+T6	Protein 262 267	IL-15
+T7	Protein 278 287	IL-2Rbeta
+T8	Protein 564 573	IL-2Rbeta
+T9	Protein 589 592	Sp1
+T10	Protein 597 600	Sp3
+T11	Protein 1072 1077	Egr-1
+T12	Protein 1111 1116	Egr-1
+T13	Protein 1172 1181	IL-2Rbeta
+T14	Protein 1242 1247	Egr-1
+T15	Protein 1275 1280	Egr-1
+T16	Protein 1365 1374	IL-2Rbeta
+T17	Protein 1431 1436	Egr-1
+T18	Protein 1515 1518	Sp1
+T19	Protein 1523 1528	Egr-1
+T20	Protein 1603 1608	Egr-1
+T21	Protein 1653 1656	Sp1
+T22	Protein 1661 1666	Egr-1
+T23	Protein 1724 1733	IL-2Rbeta
+*	Equiv T3 T4
+R1	Complex_formation Arg1:T18 Arg2:T19
+R2	Regulation_of_transcription Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T4 Arg2:T5	
+R4	Complex_formation Arg1:T4 Arg2:T6	
+R5	Regulation_of_transcription Arg1:T10 Arg2:T8	
+R6	Regulation_of_transcription Arg1:T9 Arg2:T8	
+T24	Protein 651 671	PMA-inducible factor
+T25	Protein 673 676	PIF
+*	Equiv T24 T25
+R7	Regulation_of_transcription Arg1:T24 Arg2:T8	
+T26	Protein 1294 1296	Sp
+R8	Complex_formation Arg1:T15 Arg2:T26	
+R9	Regulation_of_transcription Arg1:T22 Arg2:T23	
+R10	Regulation_of_transcription Arg1:T21 Arg2:T23	
+R11	Complex_formation Arg1:T21 Arg2:T22	
+R12	Positive_regulation Arg1:T22 Arg2:T23	
+R13	Positive_regulation Arg1:T21 Arg2:T23	
+T27	Family 123 126	Egr
+T28	Protein 131 134	Sp1
+T29	Chemical 404 435	phorbol 12-myristate 13-acetate
+T30	Chemical 437 440	PMA
+*	Equiv T30 T29
+R14	Positive_regulation Arg1:T29 Arg2:T7	
+R15	Regulation_of_gene_expression Arg1:T29 Arg2:T7	
+T31	Protein 785 788	PIF
+T32	Protein 935 938	PIF
+T33	Protein 1065 1068	PIF

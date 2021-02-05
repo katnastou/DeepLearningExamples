@@ -1,0 +1,31 @@
+T1	Protein 27 32	SENP1
+T2	Protein 116 121	SENP1
+T3	Protein 319 324	SENP1
+T4	Protein 386 391	SUMO2
+T5	Protein 447 452	SENP1
+T6	Protein 547 552	SENP1
+T7	Protein 583 588	SENP1
+T8	Protein 755 793	nucleus accumbens associated protein 1
+T9	Protein 902 907	SENP1
+T10	Protein 986 991	SENP1
+T11	Protein 1036 1041	SENP1
+T12	Protein 1244 1249	SENP1
+T13	Protein 1387 1392	SENP1
+T14	Chemical 0 11	Momordin Ic
+T15	Protein 90 114	SUMO-specific protease 1
+*	Equiv T2 T15
+T16	Chemical 252 266	Momordin Iotac
+T17	Chemical 268 270	Mc
+*	Equiv T17 T16
+T18	Protein 359 365	SENP1C
+T19	Protein 392 404	DeltaRanGAP1
+T20	Chemical 520 522	Mc
+T21	Chemical 601 603	Mc
+T22	Protein 723 750	hypoxia inducible factor-1a
+T23	Chemical 940 942	Mc
+T24	Chemical 1065 1067	Mc
+T25	Chemical 1096 1098	Mc
+T26	Chemical 1230 1232	Mc
+T27	Chemical 406 408	Mc
+R1	Complex_formation Arg1:T20 Arg2:T6	
+T28	Chemical 970 972	Mc

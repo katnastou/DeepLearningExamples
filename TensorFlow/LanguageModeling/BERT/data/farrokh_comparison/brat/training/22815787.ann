@@ -1,0 +1,31 @@
+T1	Protein 12 16	ErbB
+T2	Protein 555 559	NCAM
+T3	Protein 770 774	EGFR
+T4	Protein 776 781	erbB1
+T5	Protein 893 897	erbB
+T6	Protein 951 955	erbB
+T7	Protein 1165 1169	erbB
+T8	Protein 1269 1273	erbB
+T9	Protein 0 5	L1CAM
+R1	Complex_formation Arg1:T9 Arg2:T1	
+T10	Protein 78 88	neuregulin
+T11	Protein 564 566	L1
+T12	Protein 655 680	receptor tyrosine kinases
+R2	Positive_regulation Arg1:T12 Arg2:T11	
+R3	Positive_regulation Arg1:T12 Arg2:T2	
+T13	Protein 710 715	L1CAM
+R4	Positive_regulation Arg1:T13 Arg2:T3	
+*	Equiv T3 T4
+T14	Protein 879 884	L1CAM
+T15	Protein 928 933	L1CAM
+T16	Protein 1094 1099	L1CAM
+T17	Protein 1156 1161	L1CAM
+T18	Protein 1292 1297	L1CAM
+T19	Protein 1429 1434	L1CAM
+R5	Complex_formation Arg1:T14 Arg2:T5	
+R6	Complex_formation Arg1:T15 Arg2:T6	
+R7	Complex_formation Arg1:T17 Arg2:T7	
+T20	Protein 1195 1206	neuregulins
+R8	Regulation Arg1:T20 Arg2:T17	
+T21	Protein 1345 1356	neuregulins
+R9	Complex_formation Arg1:T18 Arg2:T8	

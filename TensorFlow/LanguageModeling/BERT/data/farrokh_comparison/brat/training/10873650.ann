@@ -1,0 +1,15 @@
+T1	Protein 0 6	PQBP-1
+T2	Protein 7 12	Npw38
+T3	Protein 83 90	U5-15kD
+T4	Protein 91 96	dim1p
+T5	Protein 132 138	PQBP-1
+T6	Protein 458 464	PQBP-1
+T7	Protein 655 662	U5-15kD
+T8	Protein 697 702	dim1p
+T9	Protein 729 735	PQBP-1
+T10	Protein 801 807	PQBP-1
+T11	Protein 910 916	PQBP-1
+*	Equiv T1 T2
+R1	Complex_formation Arg1:T2 Arg2:T3	
+*	Equiv T3 T4
+R2	Complex_formation Arg1:T7 Arg2:T9	

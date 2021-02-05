@@ -1,0 +1,40 @@
+T1	Protein 160 164	Kae1
+T2	Protein 265 269	Kae1
+T3	Protein 331 336	Bud32
+T4	Protein 338 344	Cgi121
+T5	Protein 346 350	Pcc1
+T6	Protein 355 359	Gon7
+T7	Protein 391 395	Kae1
+T8	Protein 438 442	Kae1
+T9	Protein 452 456	Qri7
+T10	Protein 563 567	Qri7
+T11	Protein 758 763	Bud32
+T12	Protein 765 769	Gon7
+T13	Protein 771 777	Cgi121
+T14	Protein 782 786	Pcc1
+T15	Protein 915 920	Bud32
+T16	Protein 922 926	Gon7
+T17	Protein 928 934	Cgi121
+T18	Protein 939 943	Pcc1
+T19	Protein 1003 1007	Qri7
+T20	Protein 1012 1016	Kae1
+T21	Protein 1061 1065	Qri7
+T22	Complex 63 68	KEOPS
+#1	AnnotatorNotes T22	Kae1 operates as part of a larger macromolecular assembly called KEOPS with Bud32, Cgi121, Gon7 and Pcc1 subunits
+T23	OOS 117 120	t6A
+#2	AnnotatorNotes T23	N6-threonylcarbamoylation (t(6)A) of tRNA
+T24	Complex 144 149	KEOPS
+T25	Complex 316 321	KEOPS
+T26	Protein 709 718	kae1Delta
+A1	Mutant T26
+#3	AnnotatorNotes T26	not tagged by tagger
+T27	Protein 747 750	GFP
+#4	AnnotatorNotes T27	not tagged by tagger
+A2	Fusion T27
+A3	Fusion T11
+A4	Fusion T12
+A5	Fusion T13
+A6	Fusion T14
+T28	Complex 1131 1136	KEOPS
+R1	Out-of-scope Arg1:T1 Arg2:T24	
+#5	AnnotatorNotes R1	Part-of relation

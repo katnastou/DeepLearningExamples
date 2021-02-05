@@ -1,0 +1,45 @@
+T1	Protein 66 143	vesicle soluble N-ethylmaleimide-sensitive factor attachment protein receptor
+T3	Protein 154 158	Snc1
+T6	Protein 384 388	Apm2
+T7	Protein 390 394	Apl4
+T8	Protein 400 404	Aps1
+T9	Protein 430 437	Yfl034w
+T10	Protein 506 510	Apm2
+T11	Protein 557 561	Apm1
+T12	Protein 597 601	Apm2
+T13	Protein 650 654	Snc1
+T14	Protein 753 757	Suc2
+T15	Protein 824 828	APM2
+T16	Protein 830 834	APL4
+T17	Protein 840 844	APS1
+T18	Protein 954 961	yap1801
+T19	Protein 1012 1016	APM1
+T20	Protein 1098 1102	Apm1
+R1	Regulation Arg1:T12 Arg2:T13	
+T2	Protein 742 751	invertase
+*	Equiv T2 T14
+T21	Protein 145 152	v-SNARE
+T4	Protein 249 252	GSS
+T22	Complex 369 373	AP-1
+T23	Protein 472 475	GSS
+T24	Complex 613 618	AP-1R
+T25	Protein 771 774	GSS
+T26	Protein 889 892	GSS
+R2	Regulation Arg1:T17 Arg2:T26	
+R3	Regulation Arg1:T16 Arg2:T26	
+R4	Regulation Arg1:T15 Arg2:T26	
+T27	Protein 1031 1034	GSS
+T28	Protein 1049 1054	AP-1R
+T29	Complex 1114 1118	AP-1
+T30	Complex 1159 1163	AP-1
+R5	Complex_formation Arg1:T7 Arg2:T6	
+R6	Complex_formation Arg1:T8 Arg2:T7	
+R7	Complex_formation Arg1:T8 Arg2:T6	
+T31	Protein 238 247	Snc1-Suc2
+A1	Fusion T31
+T32	Protein 234 237	GFP
+A2	Fusion T32
+A3	Fusion T4
+A4	Fusion T23
+#2	AnnotatorNotes T32	not tagged by tagger
+A5	Mutant T18

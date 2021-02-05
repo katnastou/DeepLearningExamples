@@ -1,0 +1,115 @@
+T1	Protein 91 101	IL-2Ralpha
+T2	Protein 103 108	c-myc
+T3	Protein 114 119	pim-1
+T4	Protein 391 401	IL-2Ralpha
+T5	Protein 403 408	c-myc
+T6	Protein 414 419	pim-1
+T7	Protein 517 530	interleukin-2
+T8	Protein 532 536	IL-2
+T9	Protein 611 615	IL-2
+T10	Protein 628 633	IL-15
+T11	Protein 646 656	IL-2Ralpha
+T12	Protein 658 663	c-myc
+T13	Protein 669 674	pim-1
+T14	Protein 729 733	IL-2
+T15	Protein 915 925	IL-2Ralpha
+T16	Protein 927 932	pim-1
+T17	Protein 938 943	IRF-1
+T18	Protein 1026 1031	STAT1
+T19	Protein 1033 1038	STAT3
+T20	Protein 1044 1049	STAT4
+T21	Protein 1165 1170	IFP53
+T22	Protein 1228 1233	STAT1
+T23	Protein 1235 1240	STAT3
+T24	Protein 1242 1247	STAT4
+T25	Protein 1249 1255	STAT5a
+T26	Protein 1261 1267	STAT5b
+T27	Protein 1283 1288	STAT4
+T28	Protein 1293 1297	IL-2
+T29	Protein 1302 1307	IL-15
+T30	Protein 1403 1407	IL-2
+T31	Protein 1420 1425	IL-15
+*	Equiv T7 T8
+R1	Regulation_of_transcription Arg1:T20 Arg2:T17
+R2	Regulation_of_transcription Arg1:T19 Arg2:T15
+R3	Regulation_of_transcription Arg1:T19 Arg2:T17
+R4	Regulation_of_transcription Arg1:T20 Arg2:T16
+R5	Regulation_of_transcription Arg1:T18 Arg2:T15
+R6	Regulation_of_transcription Arg1:T20 Arg2:T15
+R7	Regulation_of_transcription Arg1:T18 Arg2:T17
+R8	Regulation_of_transcription Arg1:T19 Arg2:T16
+R9	Regulation_of_transcription Arg1:T18 Arg2:T16
+T32	Protein 617 622	IL-12
+R10	Regulation_of_gene_expression Arg1:T10 Arg2:T11	
+R11	Regulation_of_gene_expression Arg1:T32 Arg2:T11	
+R12	Regulation_of_gene_expression Arg1:T9 Arg2:T11	
+R13	Regulation_of_gene_expression Arg1:T10 Arg2:T12	
+R14	Regulation_of_gene_expression Arg1:T32 Arg2:T12	
+R15	Regulation_of_gene_expression Arg1:T9 Arg2:T13	
+#1	AnnotatorNotes R6	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#2	AnnotatorNotes R4	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#3	AnnotatorNotes R2	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#4	AnnotatorNotes R5	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#5	AnnotatorNotes R8	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#6	AnnotatorNotes R1	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#7	AnnotatorNotes R9	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#8	AnnotatorNotes R3	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+#9	AnnotatorNotes R7	Gamma interferon activation site (GAS) elements are short stretches of DNA, originally defined as a requirement for the rapid transcriptional induction of genes in response to interferon-gamma (IFN-gamma).
+T33	Protein 1138 1143	STAT5
+R16	Regulation_of_transcription Arg1:T33 Arg2:T21	
+T34	Protein 600 609	IFN-alpha
+T35	Protein 1181 1190	IFN-alpha
+T36	Protein 1096 1105	IFN-alpha
+T37	Protein 1059 1064	STAT5
+T38	Protein 997 1006	IFN-alpha
+R17	Regulation_of_gene_expression Arg1:T34 Arg2:T11	
+R18	Regulation_of_gene_expression Arg1:T34 Arg2:T12	
+R19	Regulation_of_gene_expression Arg1:T34 Arg2:T13	
+T39	Protein 1270 1274	L-12
+T40	Protein 1316 1321	STAT5
+T41	Protein 1392 1401	IFN-alpha
+T42	Protein 1409 1414	IL-12
+T43	Protein 1520 1529	IFN-alpha
+R20	Positive_regulation Arg1:T10 Arg2:T11	
+R21	Positive_regulation Arg1:T10 Arg2:T12	
+R22	Positive_regulation Arg1:T10 Arg2:T13	
+R23	Positive_regulation Arg1:T32 Arg2:T11	
+R24	Positive_regulation Arg1:T32 Arg2:T12	
+R25	Positive_regulation Arg1:T32 Arg2:T13	
+R26	Positive_regulation Arg1:T9 Arg2:T11	
+R27	Positive_regulation Arg1:T9 Arg2:T12	
+R28	Positive_regulation Arg1:T9 Arg2:T13	
+R29	Positive_regulation Arg1:T34 Arg2:T11	
+R30	Positive_regulation Arg1:T34 Arg2:T12	
+R31	Positive_regulation Arg1:T34 Arg2:T13	
+T44	Protein 692 701	IFN-alpha
+T45	Protein 781 790	IFN-alpha
+R32	Positive_regulation Arg1:T38 Arg2:T18	
+R33	Positive_regulation Arg1:T38 Arg2:T19	
+R34	Positive_regulation Arg1:T38 Arg2:T20	
+R35	Negative_regulation Arg1:T38 Arg2:T37	
+R36	Positive_regulation Arg1:T36 Arg2:T33	
+R37	Regulation Arg1:T35 Arg2:T22	
+R38	Regulation Arg1:T35 Arg2:T23	
+R39	Regulation Arg1:T35 Arg2:T24	
+R40	Regulation Arg1:T35 Arg2:T25	
+R41	Regulation Arg1:T35 Arg2:T26	
+R43	Regulation_of_transcription Arg1:T28 Arg2:T40	
+R44	Regulation_of_transcription Arg1:T29 Arg2:T40	
+T46	Protein 0 16	Interferon-alpha
+T47	Protein 145 161	Interferon-alpha
+T48	Protein 163 172	IFN-alpha
+*	Equiv T47 T48
+T49	Family 36 40	STAT
+R46	Positive_regulation Arg1:T46 Arg2:T49	
+R47	Positive_regulation Arg1:T46 Arg2:T1	
+R45	Positive_regulation Arg1:T46 Arg2:T2	
+R48	Positive_regulation Arg1:T46 Arg2:T3	
+T50	Protein 305 314	IFN-alpha
+T51	Protein 434 437	CD3
+T52	Family 879 883	STAT
+R49	Regulation_of_transcription Arg1:T52 Arg2:T15	
+R50	Regulation_of_transcription Arg1:T52 Arg2:T16	
+R51	Regulation_of_transcription Arg1:T52 Arg2:T17	
+R52	Regulation_of_transcription Arg1:T39 Arg2:T27	
+#10	AnnotatorNotes T51	antibody

@@ -1,0 +1,62 @@
+T1	Protein 82 91	nucleolin
+T2	Protein 108 119	fibrillarin
+T3	Family 199 231	class I ADP-ribosylation factors
+T4	Family 233 239	ARF1-3
+T5	Protein 668 677	nucleolin
+T6	Protein 905 914	nucleolin
+T7	Protein 1137 1146	nucleolin
+T8	Protein 1263 1274	fibrillarin
+T9	Protein 1312 1321	nucleolin
+T10	Protein 1374 1383	nucleolin
+T11	Protein 1412 1423	fibrillarin
+T12	Protein 1586 1595	nucleolin
+T13	Protein 1605 1616	fibrillarin
+T14	Protein 1700 1709	nucleolin
+T15	Protein 51 55	BIG1
+R1	Complex_formation Arg1:T15 Arg2:T1	
+R2	Complex_formation Arg1:T15 Arg2:T2	
+T16	Protein 122 126	BIG1
+R3	Positive_regulation Arg1:T16 Arg2:T3	
+*	Equiv T3 T4
+T17	Protein 494 498	BIG1
+T18	Protein 603 607	BIG1
+T19	Protein 660 664	BIG1
+R4	Complex_formation Arg1:T19 Arg2:T5	
+T20	Protein 897 901	BIG1
+R5	Complex_formation Arg1:T20 Arg2:T6	
+T21	Protein 1129 1133	BIG1
+T22	Protein 1276 1291	nucleoporin p62
+T23	Protein 1303 1307	BIG1
+T24	Protein 1297 1299	La
+R7	Complex_formation Arg1:T8 Arg2:T23	
+R6	Complex_formation Arg1:T8 Arg2:T9	
+R8	Complex_formation Arg1:T23 Arg2:T9	
+R9	Complex_formation Arg1:T22 Arg2:T23	
+R10	Complex_formation Arg1:T22 Arg2:T9	
+R11	Complex_formation Arg1:T24 Arg2:T23	
+R12	Complex_formation Arg1:T24 Arg2:T9	
+T25	Protein 1368 1372	BIG1
+T26	Protein 1385 1387	U3
+T27	Protein 1453 1455	La
+T28	Protein 1534 1538	BIG1
+R13	Complex_formation Arg1:T25 Arg2:T10	
+R14	Complex_formation Arg1:T25 Arg2:T26	
+R15	Complex_formation Arg1:T25 Arg2:T11	
+R16	Complex_formation Arg1:T25 Arg2:T27	
+R17	Complex_formation Arg1:T10 Arg2:T26	
+R18	Complex_formation Arg1:T10 Arg2:T11	
+R19	Complex_formation Arg1:T10 Arg2:T27	
+R20	Complex_formation Arg1:T26 Arg2:T11	
+R21	Complex_formation Arg1:T26 Arg2:T27	
+R22	Complex_formation Arg1:T11 Arg2:T27	
+T29	Protein 1577 1581	BIG1
+T30	Protein 1638 1641	p62
+T31	Protein 1691 1695	BIG1
+R23	Complex_formation Arg1:T31 Arg2:T14	
+T32	Protein 1818 1822	BIG1
+T33	Chemical 130 141	brefeldin A
+T34	Chemical 280 283	GDP
+A1	Blacklisted T34
+T35	Chemical 287 290	GTP
+A2	Blacklisted T35
+R24	Negative_regulation Arg1:T33 Arg2:T16	

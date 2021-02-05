@@ -1,0 +1,41 @@
+T1	Protein 146 150	CUP1
+T2	Protein 206 210	CRS4
+T3	Protein 241 245	CRS4
+T4	Protein 263 267	SOD1
+T5	Protein 342 346	SOD1
+T6	Protein 389 393	SOD1
+T7	Protein 403 407	SOD2
+T8	Protein 497 501	SOD1
+T9	Protein 696 700	SOD1
+T10	Protein 783 787	pmr1
+T11	Protein 789 793	bsd2
+T12	Protein 799 803	ATX1
+T13	Protein 843 847	sod1
+T14	Protein 943 947	SOD1
+T15	Protein 1000 1004	ACE1
+T16	Protein 1068 1072	SOD1
+T17	Protein 1143 1147	SOD1
+T18	Protein 50 82	copper/zinc superoxide dismutase
+R1	Regulation_of_transcription Arg1:T15 Arg2:T14	
+R2	Positive_regulation Arg1:T15 Arg2:T14	
+T19	Chemical 86 92	copper
+T20	Chemical 109 115	copper
+T21	Protein 278 310	copper/zinc superoxide dismutase
+T22	Protein 312 315	SOD
+*	Equiv T21 T22
+T23	Chemical 356 362	copper
+T24	Chemical 418 427	manganese
+T25	Protein 428 431	SOD
+T26	Chemical 476 482	copper
+T27	Chemical 505 511	copper
+T28	Chemical 614 620	copper
+T29	Chemical 704 710	copper
+T30	Chemical 715 721	oxygen
+T31	Chemical 824 830	oxygen
+T32	Chemical 879 885	copper
+T33	Chemical 1167 1173	oxygen
+T34	Chemical 1232 1238	copper
+T35	Chemical 1239 1243	zinc
+T36	Protein 1244 1247	SOD
+T37	Chemical 985 991	copper
+A1	Mutant T13

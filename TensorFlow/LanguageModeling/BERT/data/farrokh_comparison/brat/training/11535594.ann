@@ -1,0 +1,69 @@
+T1	Protein 40 66	sterol 12alpha-hydroxylase
+T2	Protein 73 79	CYP8B1
+T3	Protein 160 186	Sterol 12alpha-hydroxylase
+T4	Protein 321 327	CYP8B1
+T5	Protein 373 380	insulin
+T6	Protein 408 414	CYP8B1
+T7	Protein 543 549	CYP8B1
+T8	Protein 572 578	CYP8B1
+T9	Protein 733 765	Hepatocyte nuclear factor 4alpha
+T10	Protein 767 776	HNF4alpha
+T11	Protein 803 809	CYP8B1
+T12	Protein 839 885	cholesterol 7alpha-hydroxylase promoter factor
+T13	Protein 896 901	NR5A2
+T14	Protein 1083 1089	CYP8B1
+T15	Protein 1254 1263	HNF4alpha
+T16	Protein 1500 1525	small heterodimer partner
+T17	Protein 1564 1570	CYP8B1
+T18	Protein 1574 1583	HNF4alpha
+T19	Protein 1627 1636	HNF4alpha
+T20	Protein 1653 1678	small heterodimer partner
+T21	Protein 1708 1728	farnesoid X receptor
+T22	Protein 1763 1772	HNF4alpha
+T23	Protein 1842 1862	farnesoid X receptor
+T24	Protein 1884 1893	HNF4alpha
+T25	Protein 1963 1972	HNF4alpha
+T26	Protein 1981 1987	CYP8B1
+T27	Protein 2061 2067	CYP8B1
+T28	Protein 2126 2135	HNF4alpha
+T29	Protein 2159 2168	HNF4alpha
+T30	Protein 2174 2177	SHP
+T31	Protein 2195 2204	HNF4alpha
+*	Equiv T2 T1
+T32	Protein 91 123	heaptocyte nuclear factor 4alpha
+T33	Chemical 137 146	bile acid
+T34	Chemical 214 225	cholic acid
+T35	Chemical 252 263	cholic acid
+T36	Chemical 269 290	chenodeoxycholic acid
+T37	Chemical 344 354	bile acids
+T38	Chemical 356 367	cholesterol
+T39	Chemical 432 442	bile acids
+T40	Protein 579 589	luciferase
+A1	Fusion T40
+#1	AnnotatorNotes T40	not tagged by tagger
+A2	Fusion T8
+*	Equiv T10 T9
+T41	Protein 887 890	CPF
+*	Equiv T41 T12
+#2	AnnotatorNotes T13	https://www.uniprot.org/uniprot/O00482
+T42	Protein 1016 1025	HNF4alpha
+T43	Protein 1031 1034	CPF
+T44	Chemical 1137 1147	bile acids
+T45	Chemical 1157 1166	bile acid
+T46	Chemical 1332 1341	bile acid
+T47	Protein 1389 1392	CPF
+T48	Chemical 1449 1458	bile acid
+#3	AnnotatorNotes T16	https://en.wikipedia.org/wiki/Small_heterodimer_partner
+T49	Chemical 1693 1703	bile acids
+T50	Chemical 1827 1837	Bile acids
+T51	Chemical 2024 2034	bile acids
+T52	Chemical 2036 2046	Bile acids
+#4	AnnotatorNotes T51	group
+#5	AnnotatorNotes T52	group
+#6	AnnotatorNotes T50	group
+#7	AnnotatorNotes T49	group
+#8	AnnotatorNotes T44	group
+#9	AnnotatorNotes T39	group
+#10	AnnotatorNotes T37	group
+R1	Complex_formation Arg1:T19 Arg2:T20	
+R2	Complex_formation Arg1:T29 Arg2:T30	

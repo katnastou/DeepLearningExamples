@@ -1,0 +1,39 @@
+T1	Protein 22 25	Tax
+T2	Protein 372 375	Tax
+T3	Protein 493 496	Tax
+T4	Protein 575 578	Tax
+T5	Protein 667 670	Tax
+T6	Protein 842 845	Tax
+T7	Protein 1112 1127	I kappa B alpha
+T8	Protein 1359 1363	p105
+T9	Protein 1392 1395	p50
+T10	Protein 1486 1489	Tax
+T11	Protein 1638 1641	Tax
+T12	Protein 1650 1654	HsN3
+T13	Protein 1760 1764	HsN3
+T14	Protein 1796 1799	Tax
+T15	Protein 1844 1847	Tax
+T16	Protein 1860 1864	p100
+T17	Protein 1868 1871	p65
+T18	Protein 1872 1887	I kappa B alpha
+R1	Complex_formation Arg1:T11 Arg2:T12
+R2	Complex_formation Arg1:T13 Arg2:T14
+R3	Complex_formation Arg1:T15 Arg2:T18
+R4	Complex_formation Arg1:T15 Arg2:T16
+R5	Complex_formation Arg1:T18 Arg2:T16
+R6	Complex_formation Arg1:T15 Arg2:T18
+R7	Complex_formation Arg1:T15 Arg2:T17
+R8	Complex_formation Arg1:T18 Arg2:T17
+T19	Complex 70 80	NF-kappa B
+T20	Complex 855 869	NF-kappa B/Rel
+T23	Complex 1043 1057	NF-kappa B/Rel
+T24	Complex 1231 1241	NF-kappa B
+T26	Complex 1500 1510	NF-kappa B
+T27	Complex 1914 1928	NF-kappa B/Rel
+T21	Family 1005 1014	I kappa B
+T22	Complex 1381 1391	NF-kappa B
+T25	Complex 1186 1196	proteasome
+T28	Complex 1450 1460	proteasome
+T29	Complex 1676 1686	proteasome
+T30	Complex 1765 1775	proteasome
+T31	Complex 1946 1956	proteasome

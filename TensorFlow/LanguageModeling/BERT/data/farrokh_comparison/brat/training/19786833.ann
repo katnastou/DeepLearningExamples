@@ -1,0 +1,57 @@
+T1	Protein 395 401	Dnmt3a
+T2	Protein 402 407	c-myc
+T3	Protein 544 549	c-myc
+T4	Protein 579 585	CDKN2a
+T5	Protein 587 592	CCND1
+T6	Protein 597 602	TIMP2
+T7	Protein 638 643	c-myc
+T8	Protein 657 662	c-myc
+T9	Protein 674 680	Dnmt3a
+T10	Protein 696 701	c-myc
+T11	Protein 709 714	c-myc
+T12	Protein 877 883	Dnmt3a
+T13	Protein 912 917	c-myc
+T14	Protein 951 957	Dnmt3a
+T15	Protein 962 968	Dnmt3b
+T16	Protein 1383 1389	Dnmt3a
+T17	Protein 1394 1400	Dnmt3b
+T18	Protein 1410 1414	CREB
+T19	Protein 1419 1422	FOS
+T20	Protein 1467 1473	Dnmt3a
+T21	Protein 1496 1499	p53
+T22	Protein 1544 1550	Dnmt3b
+T23	Protein 1646 1652	Dnmt3b
+T24	Protein 1662 1672	C/EBPalpha
+T25	Protein 1744 1750	Dnmt3a
+T26	Protein 1758 1764	Dnmt3b
+T27	Protein 0 5	Dnmt3
+T28	Protein 1483 1491	AP2alpha
+T29	Protein 1560 1563	SP1
+T30	Protein 1568 1571	SP4
+T31	Protein 1636 1641	Dnm3a
+T32	Complex 1677 1685	NFkappaB
+T33	Protein 1686 1689	p65
+T34	OOS 1677 1689	NFkappaB-p65
+#1	AnnotatorNotes T34	annotate as one entity?
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T16 Arg2:T18	
+R3	Complex_formation Arg1:T16 Arg2:T19	
+R4	Complex_formation Arg1:T17 Arg2:T18	
+R5	Complex_formation Arg1:T17 Arg2:T19	
+R6	Complex_formation Arg1:T20 Arg2:T28	
+R7	Complex_formation Arg1:T20 Arg2:T21	
+R8	Complex_formation Arg1:T22 Arg2:T29	
+R9	Complex_formation Arg1:T22 Arg2:T30	
+R10	Out-of-scope Arg1:T31 Arg2:T24	
+#2	AnnotatorNotes R10	Negated
+R11	Out-of-scope Arg1:T31 Arg2:T32	
+#3	AnnotatorNotes R11	Negated
+R12	Out-of-scope Arg1:T31 Arg2:T33	
+#4	AnnotatorNotes R12	Negated
+R13	Out-of-scope Arg1:T23 Arg2:T24	
+#5	AnnotatorNotes R13	Negated
+R14	Out-of-scope Arg1:T23 Arg2:T32	
+#6	AnnotatorNotes R14	Negated
+R15	Out-of-scope Arg1:T23 Arg2:T33	
+#7	AnnotatorNotes R15	Negated
+R16	Complex_formation Arg1:T25 Arg2:T26	

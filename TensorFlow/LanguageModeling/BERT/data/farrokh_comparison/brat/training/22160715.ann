@@ -1,0 +1,39 @@
+T1	Protein 1026 1031	Hsp70
+T2	Protein 1063 1067	TCP1
+T3	Protein 1095 1100	Hsp90
+T4	Protein 1526 1531	Hsp90
+T5	Protein 1627 1632	Hsp70
+T6	Protein 1636 1640	TCP1
+T7	Protein 83 101	glucocerebrosidase
+T9	Protein 235 253	glucocerebrosidase
+T10	Protein 255 260	GCase
+T13	Protein 628 633	GCase
+T15	Protein 918 923	GCase
+T16	Protein 999 1004	GCase
+T8	Protein 1237 1242	GCase
+T11	Family 1748 1752	HDAC
+T12	Family 0 19	Histone deacetylase
+T14	Family 460 479	histone deacetylase
+T17	OOS 492 496	HDAC
+T18	OOS 663 667	HDAC
+T19	OOS 1180 1184	HDAC
+T20	OOS 1221 1225	HDAC
+T21	OOS 1501 1505	HDAC
+*	Equiv T9 T10
+R1	Complex_formation Arg1:T16 Arg2:T1	
+R2	Regulation Arg1:T2 Arg2:T16	
+R3	Regulation Arg1:T3 Arg2:T16	
+T22	Protein 1136 1145	ubiquitin
+#4	AnnotatorNotes T18	not tagged
+#5	AnnotatorNotes T19	not tagged
+#6	AnnotatorNotes T21	not tagged
+T23	Protein 401 410	ubiquitin
+#2	AnnotatorNotes T17	not tagged
+#3	AnnotatorNotes T20	not tagged
+T24	OOS 401 429	ubiquitin-proteasome pathway
+T25	Complex 411 421	proteasome
+T26	Complex 1146 1156	proteasome
+T27	OOS 1136 1164	ubiquitin-proteasome pathway
+A1	Mutant T15
+A2	Blacklisted T23
+A3	Blacklisted T22

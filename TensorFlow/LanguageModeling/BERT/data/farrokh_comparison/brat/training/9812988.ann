@@ -1,0 +1,59 @@
+T1	Protein 0 4	Bcl3
+T2	Protein 140 151	IkappaBbeta
+T3	Protein 465 469	Bcl3
+T4	Protein 538 563	glutathione S-transferase
+T5	Protein 586 590	Bcl3
+T6	Protein 787 798	IkappaBbeta
+T7	Protein 800 804	Bcl3
+T8	Protein 850 854	Bcl3
+T9	Protein 918 923	TFIIB
+T10	Protein 925 928	TBP
+T11	Protein 993 996	TBP
+T12	Protein 1048 1059	IkappaBbeta
+T13	Protein 1074 1078	Bcl3
+T14	Protein 1178 1189	IkappaBbeta
+T15	Protein 1234 1238	p300
+T16	Protein 1262 1266	Bcl3
+T17	Family 9 16	IkappaB
+T18	Protein 70 89	retinoid X receptor
+T19	Family 124 131	IkappaB
+T20	Protein 172 191	retinoid X receptor
+T21	Protein 193 196	RXR
+*	Equiv T21 T20
+T22	Chemical 216 235	9-cis-retinoic acid
+T23	Chemical 237 239	RA
+*	Equiv T23 T22
+T24	Family 449 456	IkappaB
+T25	Protein 490 493	RXR
+T26	Protein 639 642	RXR
+T27	Chemical 709 717	9-cis-RA
+T28	Protein 845 848	RXR
+T29	Protein 934 939	TFIIA
+T30	Protein 953 963	TFIIEalpha
+T31	Protein 971 974	GST
+#1	AnnotatorNotes T31	not tagged by tagger
+T32	Protein 1001 1006	TFIIA
+T33	Chemical 1095 1103	9-cis-RA
+T34	Protein 1132 1135	RXR
+T35	Protein 1220 1225	SRC-1
+T36	Chemical 1295 1303	9-cis-RA
+T37	Protein 1332 1335	RXR
+T38	Family 1373 1380	IkappaB
+T39	Chemical 1418 1426	9-cis-RA
+T40	Protein 1455 1458	RXR
+R1	Complex_formation Arg1:T2 Arg2:T20	
+R2	Complex_formation Arg1:T3 Arg2:T25	
+R3	Complex_formation Arg1:T5 Arg2:T26	
+R4	Complex_formation Arg1:T6 Arg2:T28	
+R5	Out-of-scope Arg1:T7 Arg2:T28	
+#3	AnnotatorNotes R5	Negated (interaction with a specific domain)
+R6	Complex_formation Arg1:T8 Arg2:T9	
+R7	Complex_formation Arg1:T8 Arg2:T10	
+R8	Complex_formation Arg1:T8 Arg2:T29	
+R9	Out-of-scope Arg1:T8 Arg2:T30	
+#4	AnnotatorNotes R9	Negated
+R10	Out-of-scope Arg1:T11 Arg2:T12	
+#5	AnnotatorNotes R10	Negated
+R11	Out-of-scope Arg1:T32 Arg2:T12	
+#6	AnnotatorNotes R11	Negated
+A1	Blacklisted T4

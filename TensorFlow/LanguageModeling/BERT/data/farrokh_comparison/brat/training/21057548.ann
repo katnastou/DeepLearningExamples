@@ -1,0 +1,7 @@
+T1	Family 437 441	CtBP
+T2	Protein 488 496	aurora B
+T3	Family 0 5	CtBPs
+T4	Family 78 83	CtBPs
+T5	Family 377 382	CtBPs
+T6	Family 612 617	CtBPs
+R1	Regulation Arg1:T1 Arg2:T2	

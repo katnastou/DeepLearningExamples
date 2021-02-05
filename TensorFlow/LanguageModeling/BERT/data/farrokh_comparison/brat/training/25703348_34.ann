@@ -1,0 +1,16 @@
+T1	Protein 12 17	SCML2
+T2	Family 24 45	MBT domain-containing
+T3	Protein 151 156	SCML2
+T4	Protein 279 282	Scm
+T5	Protein 348 353	Scmh1
+T6	Protein 404 409	Scml2
+T7	Protein 442 447	Scmh1
+T8	Protein 476 481	SCML2
+T9	Protein 512 517	SCMH1
+T10	Protein 525 530	SCML2
+T11	Protein 605 626	MBT domain-containing
+T12	Protein 673 678	SCML2
+T13	Protein 791 796	SCML2
+T14	Protein 807 812	SCML2
+A1	Mutant T6
+A2	Mutant T7

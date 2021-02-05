@@ -1,0 +1,36 @@
+T1	Protein 44 49	EBNA2
+T2	Protein 247 251	BS69
+T3	Protein 252 259	ZMYND11
+T4	Protein 358 363	EBNA2
+T5	Protein 424 428	BS69
+T6	Protein 522 526	BS69
+T7	Protein 532 537	EBNA2
+T8	Protein 609 614	EBNA2
+T9	Protein 696 701	EBNA2
+T11	Protein 811 816	EBNA2
+T12	Protein 832 836	BS69
+T13	Protein 1013 1018	EBNA2
+T14	Protein 1029 1034	EBNA2
+T15	Protein 1198 1202	BS69
+T16	Protein 1203 1208	EBNA2
+T17	Protein 1239 1243	BS69
+T18	Protein 1262 1267	EBNA2
+T19	Protein 1342 1346	BS69
+T20	Protein 1385 1390	EBNA2
+T21	Protein 0 42	Epstein-Barr virus (EBV) nuclear antigen 2
+*	Equiv T21 T1
+*	Equiv T2 T3
+R1	Complex_formation Arg1:T4 Arg2:T2	
+R2	Complex_formation Arg1:T6 Arg2:T7	
+T22	Protein 567 578	BS69CC-MYND
+T23	Protein 641 652	BS69CC-MYND
+R3	Complex_formation Arg1:T23 Arg2:T9	
+R4	Complex_formation Arg1:T11 Arg2:T12	
+R5	Regulation_of_gene_expression Arg1:T11 Arg2:T12	
+R6	Negative_regulation Arg1:T11 Arg2:T12	
+T10	Protein 936 947	BS69CC-MYND
+R7	Complex_formation Arg1:T10 Arg2:T13	
+R8	Negative_regulation Arg1:T10 Arg2:T14	
+R9	Complex_formation Arg1:T15 Arg2:T16	
+R10	Negative_regulation Arg1:T17 Arg2:T18	
+R11	Negative_regulation Arg1:T19 Arg2:T20	

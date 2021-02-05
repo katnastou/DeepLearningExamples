@@ -1,0 +1,65 @@
+T1	Protein 304 310	UNC-45
+T2	Protein 311 315	CRO1
+T3	Protein 747 752	Myo4p
+T4	Protein 772 777	Myo5p
+T5	Protein 892 897	Myo3p
+T6	Protein 899 904	Myo4p
+T7	Protein 910 915	Myo5p
+T8	Protein 928 933	Myo2p
+T9	Protein 991 996	actin
+T10	Protein 1044 1049	Myo5p
+T11	Protein 1065 1070	actin
+T12	Protein 1209 1214	Myo2p
+T13	Protein 1219 1224	actin
+T14	Protein 1239 1243	Myo2
+T15	Protein 1376 1381	actin
+T16	Protein 1406 1411	Myo5p
+T17	Protein 23 28	She4p
+T18	Protein 38 44	myosin
+T19	Family 92 106	class V myosin
+R1	Complex_formation Arg1:T17 Arg2:T18	
+R2	Regulation Arg1:T17 Arg2:T19	
+T20	Protein 316 320	SHE4
+T21	Protein 372 378	myosin
+T22	Protein 436 441	She4p
+T23	Protein 461 467	myosin
+R3	Regulation Arg1:T22 Arg2:T23	
+T24	Protein 643 648	She4p
+T25	Family 671 678	class I
+T26	Family 683 698	class V myosins
+R4	Complex_formation Arg1:T24 Arg2:T25	
+R5	Complex_formation Arg1:T24 Arg2:T26	
+T27	Protein 700 705	She4p
+R6	Complex_formation Arg1:T27 Arg2:T3	
+T28	Family 732 746	class V myosin
+T29	Family 757 771	class I myosin
+R7	Complex_formation Arg1:T27 Arg2:T4	
+T30	Protein 807 812	She4p
+T31	Protein 836 841	She4p
+R8	Regulation Arg1:T31 Arg2:T5	
+R9	Regulation Arg1:T31 Arg2:T6	
+R10	Regulation Arg1:T31 Arg2:T7	
+T32	Family 961 976	class I myosins
+R11	Regulation Arg1:T31 Arg2:T32	
+T33	Protein 1016 1021	She4p
+R12	Regulation Arg1:T33 Arg2:T10	
+R13	Complex_formation Arg1:T10 Arg2:T11	
+T34	Protein 1082 1087	She4p
+T35	Protein 1273 1278	She4p
+R14	Regulation Arg1:T14 Arg2:T35	
+T36	Protein 1323 1328	She4p
+T37	Protein 1369 1375	myosin
+R15	Complex_formation Arg1:T37 Arg2:T15	
+R16	Regulation Arg1:T36 Arg2:T16	
+T38	Protein 1451 1456	She4p
+T39	Protein 1468 1474	myosin
+T40	Protein 1545 1551	myosin
+R17	Regulation Arg1:T38 Arg2:T40	
+T41	Family 80 87	class I
+R18	Regulation Arg1:T17 Arg2:T41	
+T42	Family 605 621	class II myosins
+T43	Family 1564 1571	class I
+T44	Family 1583 1598	class V myosins
+T45	Family 545 564	UCS domain proteins
+#11	AnnotatorNotes T45	Plural, Not normalizable
+R19	Complex_formation Arg1:T45 Arg2:T42	

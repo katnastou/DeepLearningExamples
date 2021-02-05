@@ -1,0 +1,14 @@
+T1	Protein 21 25	Nep1
+T2	Protein 78 82	Nep1
+T3	Protein 103 113	NEP1_YEAST
+T4	Protein 130 140	NEP1_HUMAN
+T5	Protein 168 178	NEP1_DROME
+T6	Protein 197 207	NEP1_ARCFU
+T7	Protein 814 818	Nep1
+T8	Chemical 296 299	SAM
+#1	AnnotatorNotes T8	S-adenosylmethionine
+T9	Protein 544 550	scNep1
+T10	Chemical 670 673	SAH
+#2	AnnotatorNotes T10	S-adenosyl homocysteine
+R1	Complex_formation Arg1:T8 Arg2:T2	
+#3	AnnotatorNotes R1	Inferred: "residues involved in...binding" is the cue

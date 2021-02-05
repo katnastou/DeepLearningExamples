@@ -1,0 +1,59 @@
+T1	Protein 0 4	ETS1
+T2	Protein 30 36	GM-CSF
+T3	Protein 275 323	Granulocyte-macrophage colony-stimulating factor
+T4	Protein 325 331	GM-CSF
+T5	Protein 542 548	GM-CSF
+T6	Protein 733 737	ETS1
+T7	Protein 742 746	ELF1
+T8	Protein 885 891	GM-CSF
+T9	Protein 933 937	ETS1
+T10	Protein 947 951	ELF1
+T11	Protein 971 977	GM-CSF
+T12	Protein 1254 1258	ETS1
+T13	Protein 1264 1270	GM-CSF
+T14	Protein 1308 1312	ETS1
+T15	Protein 1386 1390	ETS1
+T16	Protein 1478 1482	ETS1
+T17	Protein 1526 1532	GM-CSF
+*	Equiv T3 T4
+R2	Regulation_of_transcription Arg1:T1 Arg2:T2	
+R3	Regulation_of_transcription Arg1:T6 Arg2:T8	
+R4	Regulation_of_transcription Arg1:T7 Arg2:T8	
+R5	Regulation_of_transcription Arg1:T9 Arg2:T11	
+R1	Regulation_of_transcription Arg1:T14 Arg2:T13	
+R7	Regulation_of_transcription Arg1:T15 Arg2:T13	
+R8	Positive_regulation Arg1:T1 Arg2:T2	
+R10	Positive_regulation Arg1:T9 Arg2:T11	
+R11	Positive_regulation Arg1:T15 Arg2:T13	
+R12	Positive_regulation Arg1:T16 Arg2:T17	
+T18	Protein 454 464	NF kappa B
+#1	AnnotatorNotes T18	Complex
+T19	Protein 466 470	AP-1
+#2	AnnotatorNotes T19	Complex
+T20	Protein 475 478	ETS
+#3	AnnotatorNotes T20	Family
+T21	Chemical 1006 1009	PMA
+T22	Chemical 1010 1019	ionomycin
+R6	Regulation Arg1:T21 Arg2:T9	
+R9	Regulation Arg1:T22 Arg2:T9	
+T23	Protein 661 664	ETS
+#4	AnnotatorNotes T23	Family
+T24	Protein 1152 1155	ETS
+#5	AnnotatorNotes T24	Family
+T25	Protein 1057 1060	ETS
+#6	AnnotatorNotes T25	Family
+T26	Protein 1215 1218	ETS
+#7	AnnotatorNotes T26	Family
+T27	Chemical 1346 1349	PMA
+T28	Chemical 1350 1359	ionomycin
+T29	Chemical 1426 1429	PMA
+T30	Chemical 1434 1443	ionomycin
+T31	Chemical 80 83	PMA
+T32	Chemical 88 97	ionomycin
+R13	Regulation_of_transcription Arg1:T20 Arg2:T5	
+R14	Regulation_of_transcription Arg1:T19 Arg2:T5	
+R15	Regulation_of_transcription Arg1:T18 Arg2:T5	
+T33	Chemical 614 617	PMA
+T34	Chemical 622 631	ionomycin
+R16	Regulation Arg1:T27 Arg2:T13	
+R17	Regulation Arg1:T28 Arg2:T13	

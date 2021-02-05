@@ -1,0 +1,50 @@
+T1	Protein 0 7	TMEM166
+T2	Protein 8 13	EVA1A
+T3	Protein 29 36	ATG16L1
+T4	Protein 335 340	EVA1A
+T5	Protein 342 357	eva-1 homolog A
+T6	Protein 359 366	TMEM166
+T7	Protein 368 393	transmembrane protein 166
+T8	Protein 482 487	EVA1A
+T9	Protein 520 526	ZFYVE1
+T10	Protein 534 538	LC3B
+T11	Protein 540 547	ATG16L1
+T12	Protein 549 553	ATG5
+T13	Protein 555 560	STX17
+T14	Protein 562 566	RAB7
+T15	Protein 571 576	LAMP1
+T16	Protein 730 735	EVA1A
+T17	Protein 755 760	Eva1a
+T18	Protein 770 775	EVA1A
+T19	Protein 816 821	BECN1
+T20	Protein 822 828	PIK3C3
+T21	Protein 830 885	phosphatidylinositol 3-kinase, catalytic subunit type 3
+T22	Protein 908 912	ATG7
+T23	Protein 930 935	ATG12
+T24	Protein 936 940	ATG5
+T25	Protein 941 948	ATG16L1
+T26	Protein 1006 1011	EVA1A
+T27	Protein 1045 1052	ATG16L1
+T28	Protein 1089 1094	ATG12
+T29	Protein 1095 1099	ATG5
+T30	Protein 1100 1107	ATG16L1
+T31	Protein 1279 1284	EVA1A
+T32	Protein 1359 1364	EVA1A
+T33	Protein 1499 1504	EVA1A
+*	Equiv T1 T2
+R1	Complex_formation Arg1:T2 Arg2:T3	
+*	Equiv T4 T5 T6 T7
+T34	Protein 528 532	ATG9
+*	Equiv T20 T21
+R2	Complex_formation Arg1:T19 Arg2:T20	
+R3	Regulation Arg1:T22 Arg2:T18	
+R4	Complex_formation Arg1:T23 Arg2:T24	
+*	Equiv T24 T25
+R5	Regulation Arg1:T23 Arg2:T18	
+R6	Regulation Arg1:T24 Arg2:T18	
+R7	Complex_formation Arg1:T26 Arg2:T27	
+R8	Complex_formation Arg1:T28 Arg2:T29	
+*	Equiv T29 T30
+R9	Regulation Arg1:T26 Arg2:T28	
+R10	Regulation Arg1:T26 Arg2:T29	
+T35	Family 163 166	ATG

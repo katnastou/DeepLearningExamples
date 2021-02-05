@@ -1,0 +1,29 @@
+T1	Protein 153 170	small nuclear RNA
+T2	Protein 373 390	small nuclear RNA
+T3	Protein 392 397	snRNA
+T4	Protein 576 585	PTF gamma
+T6	Protein 671 679	PTF beta
+T7	Protein 722 730	PTF beta
+T8	Protein 750 758	PTF beta
+T9	Protein 886 894	PTF beta
+T10	Protein 930 938	PTF beta
+T11	Protein 988 993	snRNA
+T12	Protein 1110 1130	TATA-binding protein
+T13	Protein 1132 1135	TBP
+T14	Protein 1141 1149	TFIIIB90
+T15	Protein 1354 1363	PTF gamma
+T16	Protein 1364 1373	PTF delta
+T17	Protein 1378 1381	TBP
+T18	Protein 1405 1413	TFIIIB90
+T20	Protein 1513 1516	TBP
+*	Equiv T2 T3
+*	Equiv T12 T13
+R1	Complex_formation Arg1:T15 Arg2:T17
+R2	Complex_formation Arg1:T16 Arg2:T17
+T22	Protein 309 326	RNA polymerase II
+T23	Protein 332 350	RNA polymerase III
+T5	Protein 590 595	delta
+R3	Complex_formation Arg1:T4 Arg2:T5	
+T24	Protein 793 796	PTF
+T25	Protein 797 802	Oct-1
+R4	Complex_formation Arg1:T24 Arg2:T25	

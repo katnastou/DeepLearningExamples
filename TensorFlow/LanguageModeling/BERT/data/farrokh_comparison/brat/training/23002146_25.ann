@@ -1,0 +1,15 @@
+T1	OOS 15 18	TGS
+T2	Protein 186 190	Rbg1
+T3	OOS 191 194	TGS
+T4	Protein 263 267	Drg1
+T5	OOS 268 271	TGS
+T6	OOS 287 291	2EKI
+T7	OOS 343 346	TGS
+T8	Protein 399 423	threonyl tRNA synthetase
+T9	Protein 425 429	YchF
+T10	Protein 434 439	hOLA1
+T11	OOS 440 443	TGS
+#1	AnnotatorNotes T1	tagged by tagger
+T12	Protein 456 465	ubiquitin
+#3	AnnotatorNotes T6	OOS: (TGS domain of Drg1) https://www.rcsb.org/structure/2EKI
+A1	Blacklisted T12

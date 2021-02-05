@@ -1,0 +1,46 @@
+T1	Protein 158 163	Sir2p
+T2	Protein 165 170	Sir3p
+T3	Protein 176 181	Sir4p
+T4	Protein 238 243	Sir2p
+T5	Protein 390 394	SUM1
+T6	Protein 486 490	Sum1
+T7	Protein 513 518	Sum1p
+T8	Protein 608 612	Sum1
+T9	Protein 686 690	Sum1
+T10	Protein 712 716	Sum1
+T11	Protein 775 779	SIR2
+T12	Protein 786 790	Sum1
+T13	Protein 808 813	Sum1p
+T14	Protein 889 893	SUM1
+T15	Protein 936 941	Sum1p
+T16	Protein 976 981	Sum1p
+T17	Protein 998 1002	Sum1
+T18	Protein 1078 1082	Sum1
+T19	Protein 249 283	NAD+-dependent histone deacetylase
+*	Equiv T4 T19
+T20	Protein 756 760	HST1
+T21	Protein 830 835	Hst1p
+R1	Out-of-scope Arg1:T12 Arg2:T21	
+R2	Complex_formation Arg1:T13 Arg2:T21	
+T22	Protein 946 951	Hst1p
+R3	Complex_formation Arg1:T15 Arg2:T22	
+T23	Protein 1005 1010	Hst1p
+R4	Out-of-scope Arg1:T17 Arg2:T23	
+T24	Protein 653 656	ORC
+T25	Protein 558 584	origin recognition complex
+T26	Protein 586 589	ORC
+*	Equiv T25 T26
+R5	Out-of-scope Arg1:T26 Arg2:T8	
+R6	Out-of-scope Arg1:T24 Arg2:T9	
+T27	Protein 1090 1095	Hst1p
+T28	Family 1117 1120	Sir
+T29	Family 351 354	Sir
+R7	Out-of-scope Arg1:T20 Arg2:T10	
+A1	Mutant T6
+A2	Mutant T12
+A3	Mutant T10
+A4	Mutant T8
+A5	Mutant T18
+A6	Mutant T17
+A7	Mutant T14
+A8	Mutant T24

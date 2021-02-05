@@ -1,0 +1,42 @@
+T1	Protein 718 745	PLASTID REDOX INSENSITIVE 2
+T2	Protein 747 752	PRIN2
+T3	Protein 758 802	CHLOROPLAST STEM-LOOP BINDING PROTEIN 41 kDa
+T4	Protein 804 810	CSP41b
+T5	Protein 1009 1014	PRIN2
+T6	Protein 1019 1025	CSP41b
+T7	Protein 1037 1042	PRIN2
+T8	Protein 1047 1053	CSP41b
+T9	Protein 1115 1122	prin2.2
+T10	Protein 1127 1133	csp41b
+T11	Protein 1305 1311	csp41b
+T12	Protein 1423 1429	csp41b
+T13	Protein 1861 1866	PRIN2
+T14	Protein 1867 1873	CSP41b
+T15	Protein 431 476	plastid-encoded bacterial-type RNA polymerase
+T16	Protein 478 481	PEP
+T17	Protein 489 530	nuclear-encoded phage-type RNA polymerase
+T18	Protein 532 535	NEP
+*	Equiv T17 T18
+*	Equiv T15 T16
+T19	Protein 622 625	PEP
+T20	Protein 630 633	NEP
+*	Equiv T1 T2
+*	Equiv T3 T4
+R1	Complex_formation Arg1:T5 Arg2:T6	
+R2	Complex_formation Arg1:T7 Arg2:T8	
+T21	Protein 1313 1320	prin2.2
+T22	Protein 1431 1438	prin2.2
+R3	Complex_formation Arg1:T13 Arg2:T14	
+T23	Protein 1578 1581	PEP
+T24	Protein 1742 1745	PEP
+T25	Protein 1788 1791	NEP
+T26	Protein 1795 1798	PEP
+T27	Protein 1933 1936	PEP
+A1	Mutant T9
+A2	Mutant T10
+A3	Mutant T11
+A4	Mutant T21
+A5	Mutant T12
+A6	Mutant T22
+#1	AnnotatorNotes T21	cannot be tagged
+#2	AnnotatorNotes T22	cannot be tagged

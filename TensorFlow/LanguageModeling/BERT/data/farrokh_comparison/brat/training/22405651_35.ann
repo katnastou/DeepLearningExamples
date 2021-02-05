@@ -1,0 +1,41 @@
+T1	Protein 11 16	Cand1
+T2	Protein 18 22	Glmn
+T3	Protein 97 102	Cand1
+T4	Protein 172 176	Glmn
+T5	Protein 292 297	Cand1
+T6	Protein 363 368	Cand1
+T7	Protein 419 424	Cand1
+T8	Protein 587 592	Cand1
+T9	Protein 661 666	Cand1
+T10	Protein 790 795	Cand1
+T11	Protein 838 842	Rbx1
+T12	Family 49 53	CRLs
+T13	Family 133 140	cullins
+T14	Family 154 157	SRs
+T15	Family 189 196	cullins
+T16	Family 257 260	SRs
+T17	Family 312 315	CRL
+T18	Family 407 414	cullins
+T19	Family 480 487	cullins
+#1	AnnotatorNotes T12	Cullin RING Ligase family
+#2	AnnotatorNotes T14	substrate receptors - can be considered a group?
+T20	Chemical 520 527	MLN4924
+#3	AnnotatorNotes T20	https://www.medchemexpress.com/MLN4924.html
+T21	Family 723 726	CRL
+T22	Family 843 850	Cullins
+T23	Family 866 869	CRL
+T24	Family 633 636	SRs
+T25	Family 570 577	cullins
+T26	Family 615 621	cullin
+R1	Complex_formation Arg1:T1 Arg2:T12	
+R2	Complex_formation Arg1:T2 Arg2:T12	
+R3	Complex_formation Arg1:T3 Arg2:T13	
+R4	Out-of-scope Arg1:T13 Arg2:T14	
+#4	AnnotatorNotes R4	Negated
+R5	Complex_formation Arg1:T4 Arg2:T15	
+R6	Complex_formation Arg1:T15 Arg2:T16	
+R7	Complex_formation Arg1:T7 Arg2:T19	
+R8	Complex_formation Arg1:T25 Arg2:T8	
+R9	Complex_formation Arg1:T26 Arg2:T24	
+R10	Complex_formation Arg1:T10 Arg2:T11	
+R11	Complex_formation Arg1:T10 Arg2:T22	

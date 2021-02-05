@@ -1,0 +1,10 @@
+T1	Protein 24 30	CG4454
+T2	Protein 32 36	borr
+T3	Protein 42 49	CG17009
+T4	Protein 51 55	aust
+T5	Protein 391 394	MBP
+T6	Protein 514 520	INCENP
+T7	Protein 525 533	aurora B
+*	Equiv T1 T2
+*	Equiv T3 T4
+T8	OOS 651 655	FLAG

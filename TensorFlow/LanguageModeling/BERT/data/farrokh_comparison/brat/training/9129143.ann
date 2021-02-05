@@ -1,0 +1,41 @@
+T1	Protein 16 27	rhombotin-2
+T2	Protein 43 75	retinoblastoma-binding protein 2
+T3	Protein 101 112	rhombotin-2
+T4	Protein 114 120	RBTN-2
+T5	Protein 121 126	TTG-2
+T6	Protein 127 131	Lmo2
+T7	Protein 229 234	RBTN2
+T8	Protein 324 329	RBTN2
+T9	Protein 452 457	RBTN2
+T10	Protein 521 526	RBTN2
+T11	Protein 606 611	RBTN2
+T12	Protein 645 677	retinoblastoma-binding protein 2
+T13	Protein 679 683	RBP2
+T14	Protein 717 722	RBTN2
+T15	Protein 748 753	RBTN2
+T16	Protein 758 762	RBP2
+T17	Protein 909 914	RBTN2
+T18	Protein 986 990	RBP2
+T19	Protein 1016 1021	RBTN2
+T20	Protein 1026 1030	RBP2
+T21	Protein 1080 1084	RBP2
+T22	Protein 1089 1094	RBTN2
+T23	Protein 1136 1141	RBTN2
+T24	Protein 1170 1174	RBP2
+T25	Protein 1213 1218	RBTN2
+T26	Protein 1224 1229	RBTN2
+T27	Protein 1266 1270	RBP2
+T28	Protein 1284 1289	RBTN2
+T29	Protein 1372 1376	RBP2
+*	Equiv T3 T4 T5 T6
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T11 Arg2:T12	
+*	Equiv T13 T12
+R3	Complex_formation Arg1:T14 Arg2:T13	
+R4	Complex_formation Arg1:T15 Arg2:T16	
+R5	Complex_formation Arg1:T17 Arg2:T18	
+R6	Complex_formation Arg1:T19 Arg2:T20	
+R7	Complex_formation Arg1:T21 Arg2:T22	
+R8	Complex_formation Arg1:T25 Arg2:T24	
+R9	Complex_formation Arg1:T26 Arg2:T27	
+R10	Complex_formation Arg1:T28 Arg2:T29	

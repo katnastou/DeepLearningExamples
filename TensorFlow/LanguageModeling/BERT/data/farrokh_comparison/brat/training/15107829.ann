@@ -1,0 +1,52 @@
+T1	Protein 0 6	Suv39h
+T2	Protein 363 368	Smad5
+T3	Protein 496 501	Smad5
+T4	Protein 506 545	suppressor of variegation 3-9 homolog 2
+T5	Protein 547 554	Suv39h2
+T6	Protein 586 592	Suv39h
+T7	Protein 648 658	histone H3
+T8	Protein 799 804	Smad5
+T9	Protein 847 853	Suv39h
+T10	Protein 932 937	Smad2
+T11	Protein 942 947	Smad3
+T12	Protein 1111 1117	Suv39h
+T13	Protein 1244 1250	Suv39h
+T15	Family 48 53	Smads
+T16	Family 71 74	BMP
+T17	Family 96 100	Smad
+T18	Family 166 174	TGF-beta
+T19	Family 133 164	transforming growth factor-beta
+*	Equiv T18 T19
+T20	Family 279 283	Smad
+T21	Family 415 441	bone morphogenetic protein
+T22	Family 443 446	BMP
+*	Equiv T22 T21
+T23	OOS 415 457	bone morphogenetic protein (BMP) signaling
+*	Equiv T5 T4
+T14	Family 7 33	histone methyltransferases
+T24	Family 606 632	histone methyltransferases
+T25	Family 873 877	Smad
+T26	Family 904 912	TGF-beta
+T27	OOS 904 930	TGF-beta signaling pathway
+T28	Protein 1017 1039	muscle creatine kinase
+T29	Protein 1041 1044	MCK
+*	Equiv T29 T28
+T30	Family 1079 1082	BMP
+T31	Family 1131 1136	Smads
+T32	Family 1225 1229	Smad
+T33	Family 1467 1471	Smad
+T34	Family 1472 1475	Suv
+T35	Family 1567 1570	BMP
+R1	Out-of-scope Arg1:T1 Arg2:T14	
+#1	AnnotatorNotes R1	Member-of
+R2	Complex_formation Arg1:T1 Arg2:T15	
+R3	Out-of-scope Arg1:T20 Arg2:T2	
+#2	AnnotatorNotes R3	Hypothesis
+R4	Complex_formation Arg1:T3 Arg2:T4	
+R5	Complex_formation Arg1:T8 Arg2:T9	
+R6	Out-of-scope Arg1:T10 Arg2:T9	
+#3	AnnotatorNotes R6	Negated
+R7	Out-of-scope Arg1:T11 Arg2:T9	
+#4	AnnotatorNotes R7	Negated
+R8	Complex_formation Arg1:T32 Arg2:T13	
+R9	Complex_formation Arg1:T33 Arg2:T34	

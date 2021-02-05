@@ -1,0 +1,38 @@
+T1	Protein 4 12	Ecdysone
+T2	Protein 56 60	Crol
+T3	Protein 151 159	Ecdysone
+T4	Protein 297 305	Ecdysone
+T5	Protein 406 414	Ecdysone
+T6	Protein 458 462	Crol
+T7	Protein 499 507	Ecdysone
+T8	Protein 540 548	Wingless
+T9	Protein 602 606	Crol
+T10	Protein 717 720	Hfp
+T11	Protein 742 746	Crol
+T12	Protein 787 791	crol
+T13	Protein 883 887	Crol
+T14	Protein 1029 1033	Crol
+T15	Protein 1104 1108	crol
+T16	Protein 1138 1141	Hfp
+T17	Protein 1185 1189	crol
+T18	Protein 1227 1230	Hfp
+T19	Protein 1352 1356	Crol
+R1	Positive_regulation Arg1:T1 Arg2:T2	
+T20	Protein 71 73	Wg
+R2	Regulation_of_transcription Arg1:T2 Arg2:T20	
+T21	Protein 550 552	Wg
+*	Equiv T8 T21
+R3	Positive_regulation Arg1:T5 Arg2:T6	
+T22	Protein 683 685	Wg
+R4	Positive_regulation Arg1:T22 Arg2:T10	
+R5	Regulation Arg1:T10 Arg2:T9	
+T23	Protein 902 904	Wg
+T24	Protein 1050 1052	wg
+R6	Regulation_of_transcription Arg1:T14 Arg2:T24	
+R7	Negative_regulation Arg1:T14 Arg2:T24	
+R8	Negative_regulation Arg1:T15 Arg2:T16	
+T25	Protein 1390 1392	Wg
+T26	OOS 499 531	Ecdysone steroid hormone pathway
+T27	OOS 540 572	Wingless (Wg) signalling pathway
+A1	Mutant T12
+A2	Mutant T17

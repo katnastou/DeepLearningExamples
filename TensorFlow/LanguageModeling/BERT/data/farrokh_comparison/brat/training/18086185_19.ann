@@ -1,0 +1,9 @@
+T1	Protein 58 65	adhesin
+T2	Protein 285 293	AfaE-dsc
+T3	Protein 632 640	AfaE-dsc
+T4	Protein 66 71	N-CEA
+R1	Complex_formation Arg1:T1 Arg2:T4	
+T5	Protein 323 328	N-CEA
+T6	Protein 361 366	N-CEA
+T7	Protein 1025 1030	N-CEA
+T8	Protein 1249 1252	CEA

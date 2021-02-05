@@ -1,0 +1,38 @@
+T1	Protein 470 473	pyk
+T2	Protein 547 571	phosphoglucose isomerase
+T3	Protein 573 576	pgi
+T4	Protein 708 718	hexokinase
+T5	OOS 786 789	gcr
+T6	Protein 834 837	pyk
+T7	Protein 839 842	pgi
+T8	Protein 853 856	gcr
+T9	Protein 902 905	PYK
+T10	Protein 911 914	PYK
+T11	Protein 924 927	PYK
+T12	Protein 928 931	gcr
+T13	Chemical 125 133	pyruvate
+T14	Chemical 145 152	glucose
+T15	Chemical 184 192	pyruvate
+T16	Chemical 211 218	glucose
+T17	Chemical 334 343	netropsin
+T18	Chemical 367 375	inositol
+T19	Protein 453 468	pyruvate kinase
+*	Equiv T1 T19
+*	Equiv T3 T2
+T20	Protein 613 628	pyruvate kinase
+A1	Mutant T20
+T21	Chemical 663 670	glucose
+T22	Protein 720 723	hxk
+*	Equiv T22 T4
+T23	Protein 726 745	phosphofructokinase
+T24	Protein 747 749	fk
+T26	Protein 844 847	pfk
+T27	Protein 906 909	hxk
+T28	Protein 915 918	pfk
+T29	Chemical 952 959	glucose
+*	Equiv T24 T23
+#1	AnnotatorNotes T5	not a recognized gene name, tagged by tagger - probably as another organism's protein
+A2	Mutant T6
+A3	Mutant T7
+A4	Mutant T26
+A5	Mutant T8

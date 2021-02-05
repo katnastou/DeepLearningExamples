@@ -1,0 +1,22 @@
+T1	Protein 85 90	Est3p
+T2	Complex 107 117	telomerase
+T3	Protein 678 683	Est3p
+T4	Complex 693 703	telomerase
+T5	Complex 765 775	telomerase
+T6	Protein 0 5	Est1p
+T7	Protein 166 170	Est1
+T8	Complex 229 232	APC
+#1	AnnotatorNotes T8	Anaphase-promoting complex
+T9	Protein 302 307	Est1p
+T10	Protein 378 383	Est1p
+T11	Complex 391 394	APC
+T12	Protein 417 421	Est1
+A1	Mutant T12
+T13	Complex 470 473	APC
+T14	Protein 500 505	Est1p
+T15	Complex 577 580	APC
+T16	Complex 633 636	APC
+T17	Protein 646 651	Est1p
+R1	Out-of-scope Arg1:T11 Arg2:T10	
+#2	AnnotatorNotes R1	"recognition"
+R2	Complex_formation Arg1:T3 Arg2:T4	

@@ -1,0 +1,15 @@
+T1	Protein 507 511	GFAP
+T2	Protein 563 567	GFAP
+T3	Chemical 74 77	CO2
+T4	OOS 95 99	DMEM
+T5	Chemical 122 125	FBS
+T6	Chemical 127 138	L-glutamine
+T7	Chemical 146 156	penicillin
+T8	Chemical 176 188	streptomycin
+T9	Chemical 266 269	FBS
+T10	Chemical 271 282	L-glutamine
+T11	Chemical 291 301	penicillin
+T12	Chemical 318 330	streptomycin
+T13	Chemical 351 366	sodium pyruvate
+T14	Chemical 766 779	lipofectamine
+T15	Chemical 685 693	polyfect

@@ -1,0 +1,52 @@
+T1	Protein 57 88	hypoxia-inducible factor-1alpha
+T2	Protein 90 100	HIF-1alpha
+T3	Protein 106 110	p300
+T4	Protein 502 506	p300
+T5	Protein 693 703	HIF-1alpha
+T6	Protein 708 712	p300
+T7	Protein 921 925	p300
+T8	Protein 1031 1065	vascular endothelial growth factor
+*	Equiv T1 T2
+R1	Complex_formation Arg1:T2 Arg2:T3	
+T9	Protein 254 278	hypoxia-inducible factor
+T10	Protein 280 283	HIF
+*	Equiv T9 T10
+T11	Protein 456 465	HIF-alpha
+R2	Complex_formation Arg1:T11 Arg2:T4	
+R3	Complex_formation Arg1:T5 Arg2:T6	
+T12	Chemical 0 26	Epidithiodiketopiperazines
+#1	AnnotatorNotes T12	Plural
+R4	Negative_regulation Arg1:T12 Arg2:T1	
+R5	Negative_regulation Arg1:T12 Arg2:T3	
+T13	Chemical 116 120	zinc
+T14	Chemical 337 345	Chetomin
+T15	Chemical 363 388	epidithiodiketopiperazine
+#2	AnnotatorNotes T15	Family
+T16	Chemical 390 393	ETP
+*	Equiv T15 T16
+R6	Negative_regulation Arg1:T14 Arg2:T11	
+R7	Negative_regulation Arg1:T14 Arg2:T4	
+T17	Chemical 572 575	ETP
+T18	Chemical 629 632	ETP
+T19	Chemical 797 801	ETPs
+#3	AnnotatorNotes T19	Plural
+T20	Chemical 832 838	Zn(2+)
+#4	AnnotatorNotes T20	Plural
+T21	Chemical 905 909	ETPs
+#5	AnnotatorNotes T21	Plural
+T22	Chemical 935 939	zinc
+T23	Chemical 999 1003	ETPs
+#6	AnnotatorNotes T23	Plural
+T24	Chemical 1119 1123	zinc
+T25	Chemical 1199 1203	ETPs
+#7	AnnotatorNotes T25	Plural
+T26	Chemical 1231 1235	ETPs
+#8	AnnotatorNotes T26	Plural
+T27	Protein 1241 1279	other zinc ion-binding protein targets
+#9	AnnotatorNotes T27	Not normalizable
+R8	Complex_formation Arg1:T26 Arg2:T27	
+R9	Negative_regulation Arg1:T23 Arg2:T8	
+R10	Complex_formation Arg1:T21 Arg2:T7	
+#10	AnnotatorNotes R10	Other
+R11	Negative_regulation Arg1:T18 Arg2:T5	
+R12	Negative_regulation Arg1:T18 Arg2:T6	

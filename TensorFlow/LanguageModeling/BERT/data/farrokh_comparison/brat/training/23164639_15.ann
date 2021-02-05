@@ -1,0 +1,13 @@
+T1	Protein 213 218	Prdx6
+T2	Protein 257 262	Prdx6
+T3	Protein 386 391	Prdx6
+T4	Protein 223 228	piGST
+#1	AnnotatorNotes T4	π glutathione S-transferase (GST)
+T5	OOS 246 251	PMVEC
+A2	Mutant T5
+T6	Protein 617 622	piGST
+R1	Out-of-scope Arg1:T1 Arg2:T4	
+#2	AnnotatorNotes R1	Hypothesis
+#3	AnnotatorNotes T5	OOS PMVEC=pulmonary microvascular endothelial cells
+#4	AnnotatorNotes T2	 the gene itself is not mutated
+A1	Mutant T3

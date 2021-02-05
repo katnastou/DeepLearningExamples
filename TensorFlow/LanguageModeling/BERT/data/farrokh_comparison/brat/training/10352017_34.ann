@@ -1,0 +1,16 @@
+T1	Protein 619 623	BIM1
+T2	Protein 742 746	BIM1
+T3	Protein 871 876	Bim1p
+#1	AnnotatorNotes T1	Mutant
+#2	AnnotatorNotes T2	Mutant
+T4	Protein 557 566	bim1Delta
+T5	Protein 706 715	bim1Delta
+T6	Protein 827 836	bim1Delta
+#3	AnnotatorNotes T4	Mutant
+#4	AnnotatorNotes T5	Mutant
+#5	AnnotatorNotes T6	Mutant
+A1	Mutant T1
+A2	Mutant T2
+A3	Mutant T4
+A4	Mutant T5
+A5	Mutant T6

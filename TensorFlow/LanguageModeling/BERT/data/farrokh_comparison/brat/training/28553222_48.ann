@@ -1,0 +1,19 @@
+T1	Protein 476 481	GluA1
+T2	Protein 563 568	GluA1
+T3	Protein 742 751	drebrin A
+T4	Protein 0 3	Arc
+#1	AnnotatorNotes T4	Activity-regulatedcytoskeleton-associated protein
+T5	Protein 138 141	Arc
+T6	Protein 245 248	Arc
+A1	Mutant T6
+T7	Protein 283 286	Arc
+T8	Chemical 297 309	tetrodotoxin
+T9	Protein 352 355	Arc
+T10	Family 411 417	AMPARs
+#2	AnnotatorNotes T10	AMPA receptor
+T11	Protein 453 456	Arc
+A2	Mutant T11
+T12	Protein 511 514	Arc
+T13	Protein 799 802	Arc
+T14	Family 866 872	AMPARs
+R1	Complex_formation Arg1:T3 Arg2:T13	

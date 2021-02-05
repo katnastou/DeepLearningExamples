@@ -1,0 +1,63 @@
+T1	Protein 35 47	beta-catenin
+T2	Protein 81 85	mstn
+T3	Protein 156 160	mstn
+T4	Protein 169 174	axin1
+T5	Protein 195 199	Lef1
+T6	Protein 277 289	beta-catenin
+T7	Protein 303 307	Lef1
+T8	Protein 346 350	mstn
+T9	Protein 414 419	axin1
+T10	Protein 449 453	mstn
+T11	Protein 579 588	Myostatin
+T12	Protein 697 706	Myostatin
+T13	Protein 744 748	Lef1
+T14	Protein 805 809	Lef1
+T15	Protein 836 845	Myostatin
+T16	Protein 864 869	axin1
+T17	Protein 897 906	Myostatin
+T18	Protein 991 1000	myostatin
+T19	Protein 1017 1029	beta-catenin
+T20	Protein 1188 1192	lef1
+T21	Protein 1227 1231	axin
+T22	Protein 1232 1235	apc
+T23	Protein 1290 1294	mstn
+T24	Protein 1316 1328	beta-catenin
+T25	Protein 1370 1374	mstn
+T26	Protein 1397 1401	lef1
+T27	Protein 1452 1456	lef1
+T28	Protein 1535 1539	Mstn
+T29	Protein 1548 1560	beta-catenin
+T30	Protein 1748 1751	TCF
+T31	Protein 1778 1787	myostatin
+T32	Protein 1943 1952	myostatin
+T33	Protein 2078 2087	Myostatin
+T34	OOS 31 57	Wnt/beta-catenin signaling
+T35	OOS 273 299	Wnt/beta-catenin signaling
+T36	Protein 175 179	apc1
+A1	Mutant T36
+A2	Mutant T4
+A3	Mutant T5
+#1	AnnotatorNotes T5	is morphant a mutant?
+A4	Mutant T7
+T37	Protein 420 424	apc1
+A5	Mutant T37
+A6	Mutant T9
+A7	Mutant T13
+A8	Mutant T14
+A9	Mutant T16
+T38	Protein 870 874	apc1
+A10	Mutant T38
+A11	Mutant T21
+A12	Mutant T22
+T39	OOS 783 796	Wnt signaling
+T42	OOS 1544 1571	Wnt/beta-catenin signalling
+T43	Family 1842 1845	Wnt
+T44	Family 2070 2073	Wnt
+R1	Regulation_of_transcription Arg1:T30 Arg2:T31	
+R2	Complex_formation Arg1:T44 Arg2:T33	
+T41	Family 1312 1315	Wnt
+T40	Family 1013 1016	Wnt
+T45	Family 783 786	Wnt
+T46	Family 273 276	Wnt
+T47	Family 31 34	Wnt
+T48	Family 1544 1547	Wnt

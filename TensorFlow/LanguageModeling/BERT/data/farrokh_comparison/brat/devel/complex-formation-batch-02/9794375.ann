@@ -1,0 +1,92 @@
+T1	Protein 32 35	HS1
+T2	Protein 206 209	CD2
+T3	Protein 214 218	CD28
+T4	Protein 226 229	CD2
+T5	Protein 235 239	CD28
+T6	Protein 439 442	Vav
+T7	Protein 444 447	Cbl
+T8	Protein 488 491	Src
+T9	Protein 507 510	Lck
+T10	Protein 515 518	Fyn
+T11	Protein 581 584	HS1
+T12	Protein 704 707	HS1
+T13	Protein 763 766	CD2
+T14	Protein 772 776	CD28
+T15	Protein 934 938	CD28
+T16	Protein 971 975	CD28
+T17	Protein 984 988	CD80
+T18	Protein 992 996	CD86
+T19	Protein 1041 1044	HS1
+T20	Protein 1109 1112	HS1
+T21	Protein 1152 1155	CD2
+T22	Protein 1274 1278	CD28
+T23	Protein 1286 1289	CD2
+T24	Protein 1344 1347	HS1
+T25	Protein 1392 1395	HSI
+T26	Protein 1440 1443	Src
+T27	Protein 1467 1470	Lck
+T28	Protein 1500 1504	CD45
+T29	Protein 1522 1526	MEK1
+T30	Protein 1614 1618	CD28
+T31	Protein 1624 1627	CD2
+T32	Protein 1749 1752	HSI
+T33	Protein 1816 1819	HS1
+R1	Complex_formation Arg1:T16 Arg2:T17
+R2	Complex_formation Arg1:T16 Arg2:T18
+T34	Protein 170 173	CD3
+T35	Protein 221 224	CD3
+T36	Protein 449 478	p85 phosphoinositide 3-kinase
+T37	Protein 532 535	CD3
+T38	Protein 758 761	CD3
+T39	Protein 907 910	CD3
+T40	Protein 1380 1383	CD3
+T41	Protein 1311 1314	CD3
+R3	Regulation Arg1:T40 Arg2:T25	
+T42	Protein 1565 1581	protein kinase C
+T43	Protein 1609 1612	CD3
+R4	Complex_formation Arg1:T5 Arg2:T6	
+R5	Complex_formation Arg1:T5 Arg2:T7	
+R6	Complex_formation Arg1:T5 Arg2:T36	
+R7	Complex_formation Arg1:T5 Arg2:T9	
+R8	Complex_formation Arg1:T5 Arg2:T10	
+R9	Complex_formation Arg1:T4 Arg2:T6	
+R10	Complex_formation Arg1:T4 Arg2:T7	
+R11	Complex_formation Arg1:T4 Arg2:T36	
+R12	Complex_formation Arg1:T4 Arg2:T9	
+R13	Complex_formation Arg1:T4 Arg2:T10	
+R14	Complex_formation Arg1:T35 Arg2:T6	
+R15	Complex_formation Arg1:T35 Arg2:T7	
+R16	Complex_formation Arg1:T35 Arg2:T36	
+R17	Complex_formation Arg1:T35 Arg2:T9	
+R18	Complex_formation Arg1:T35 Arg2:T10	
+R19	Regulation Arg1:T35 Arg2:T6	
+R20	Regulation Arg1:T35 Arg2:T7	
+R21	Regulation Arg1:T35 Arg2:T36	
+R22	Regulation Arg1:T35 Arg2:T9	
+R23	Regulation Arg1:T35 Arg2:T10	
+R24	Regulation Arg1:T4 Arg2:T6	
+R25	Regulation Arg1:T4 Arg2:T7	
+R26	Regulation Arg1:T4 Arg2:T36	
+R27	Regulation Arg1:T4 Arg2:T9	
+R28	Regulation Arg1:T4 Arg2:T10	
+R29	Regulation Arg1:T5 Arg2:T6	
+R30	Regulation Arg1:T5 Arg2:T7	
+R31	Regulation Arg1:T5 Arg2:T36	
+R32	Regulation Arg1:T5 Arg2:T9	
+R33	Regulation Arg1:T5 Arg2:T10	
+R34	Regulation Arg1:T37 Arg2:T11	
+R35	Regulation Arg1:T41 Arg2:T24	
+R36	Catalysis_of_phosphorylation Arg1:T27 Arg2:T25	
+R37	Regulation Arg1:T28 Arg2:T25	
+R38	Regulation Arg1:T42 Arg2:T25	
+R39	Positive_regulation Arg1:T31 Arg2:T32	
+R40	Positive_regulation Arg1:T30 Arg2:T32	
+R41	Positive_regulation Arg1:T43 Arg2:T32	
+T44	Protein 1841 1845	NFAT
+T45	Protein 1208 1212	NFAT
+#1	AnnotatorNotes T45	Family
+T46	Protein 1214 1249	nuclear factor of activated T cells
+*	Equiv T46 T45
+#2	AnnotatorNotes T46	Family
+#3	AnnotatorNotes T44	Family
+#4	AnnotatorNotes T42	Family

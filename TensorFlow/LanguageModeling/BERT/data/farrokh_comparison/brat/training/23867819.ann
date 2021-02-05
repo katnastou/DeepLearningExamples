@@ -1,0 +1,28 @@
+T1	Protein 78 83	PINK1
+T2	Protein 150 171	PTEN-induced kinase 1
+T3	Protein 173 178	PINK1
+T4	Protein 395 401	parkin
+T5	Protein 452 457	GstO2
+T6	Protein 498 503	PINK1
+T7	Protein 542 548	GstO2A
+T8	Protein 574 579	PINK1
+T9	Protein 619 625	GstO2A
+T10	Protein 687 692	PINK1
+T11	Protein 753 759	GstO2A
+T12	Protein 795 820	ATP synthase beta subunit
+T13	Protein 824 830	parkin
+T14	Protein 834 839	PINK1
+T15	Protein 892 897	GstO2
+T16	Protein 918 923	PINK1
+T17	Protein 924 930	parkin
+T18	Protein 948 953	GstO2
+T19	Protein 984 989	PINK1
+T20	Protein 0 31	Glutathione S-transferase omega
+*	Equiv T3 T2
+T21	Protein 244 275	Glutathione S-transferase omega
+T22	Protein 277 281	GSTO
+*	Equiv T22 T21
+A1	Mutant T8
+A2	Mutant T14
+A3	Mutant T13
+T23	OOS 918 938	PINK1/parkin pathway

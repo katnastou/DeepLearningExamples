@@ -1,0 +1,66 @@
+T1	Protein 0 9	C/EBPbeta
+T2	Protein 14 20	GATA-1
+T3	Protein 62 100	eosinophil granule major basic protein
+T4	Protein 127 136	C/EBPbeta
+T5	Protein 178 216	Eosinophil granule major basic protein
+T6	Protein 218 221	MBP
+T7	Protein 377 383	GATA-1
+T8	Protein 419 425	GATA-2
+T9	Protein 429 432	MBP
+T10	Protein 477 480	MBP
+T11	Protein 629 632	MBP
+T12	Protein 786 796	C/EBPalpha
+T13	Protein 909 918	C/EBPbeta
+T14	Protein 1024 1033	C/EBPbeta
+T15	Protein 1112 1115	MBP
+T16	Protein 1170 1179	C/EBPbeta
+T17	Protein 1184 1190	GATA-1
+T18	Protein 1259 1262	MBP
+T19	Protein 1368 1377	C/EBPbeta
+T20	Protein 1382 1388	GATA-1
+T21	Protein 1407 1410	MBP
+T22	Protein 1427 1436	C/EBPbeta
+T23	Protein 1441 1447	GATA-1
+T24	Protein 1497 1506	C/EBPbeta
+T25	Protein 1511 1517	GATA-1
+T26	Protein 1602 1611	C/EBPbeta
+T27	Protein 1615 1621	GATA-1
+T28	Protein 1744 1750	GATA-1
+T29	Protein 1755 1764	C/EBPbeta
+T30	Protein 1812 1818	GATA-1
+T31	Protein 1907 1913	GATA-1
+T32	Protein 1922 1925	MBP
+T33	Protein 2012 2018	GATA-1
+T34	Protein 2023 2032	C/EBPbeta
+*	Equiv T5 T6
+R1	Regulation_of_transcription Arg1:T14 Arg2:T15
+R2	Regulation_of_transcription Arg1:T17 Arg2:T18
+R3	Regulation_of_transcription Arg1:T16 Arg2:T18
+R4	Complex_formation Arg1:T28 Arg2:T29
+R5	Regulation_of_transcription Arg1:T7 Arg2:T9	
+R6	Regulation_of_transcription Arg1:T8 Arg2:T9	
+T35	Protein 510 515	C/EBP
+T36	Protein 517 547	CCAAT/enhancer-binding protein
+*	Equiv T35 T36
+T37	Protein 1780 1783	FOG
+T38	Protein 1785 1794	riend ATA
+*	Equiv T37 T38
+R7	Complex_formation Arg1:T37 Arg2:T30	
+R8	Regulation_of_transcription Arg1:T31 Arg2:T32	
+T39	Protein 2132 2135	FOG
+R9	Regulation_of_transcription Arg1:T2 Arg2:T3	
+R10	Regulation_of_transcription Arg1:T1 Arg2:T3	
+R11	Positive_regulation Arg1:T7 Arg2:T9	
+R12	Negative_regulation Arg1:T8 Arg2:T9	
+R13	Regulation_of_transcription Arg1:T35 Arg2:T10	
+R14	Positive_regulation Arg1:T31 Arg2:T32	
+T40	Chemical 766 779	retinoic acid
+T41	Chemical 781 783	RA
+*	Equiv T40 T41
+T42	Protein 1070 1075	C/EBP
+T43	Protein 1222 1227	C/EBP
+T44	Family 1233 1237	GATA
+T45	Protein 1316 1321	C/EBP
+T46	Family 1327 1331	GATA
+T47	Family 1846 1850	GATA
+T48	Family 604 608	GATA

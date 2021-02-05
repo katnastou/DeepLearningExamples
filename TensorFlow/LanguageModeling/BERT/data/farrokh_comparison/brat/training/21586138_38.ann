@@ -1,0 +1,9 @@
+T1	OOS 16 21	PPC-1
+T2	Protein 145 150	Siah2
+T3	Protein 154 158	POSH
+T4	Protein 385 390	Siah2
+T5	Protein 394 398	POSH
+T6	OOS 0 5	DU145
+T7	OOS 7 11	PC-3
+#2	AnnotatorNotes T1	tagged by tagger
+T8	Complex 380 383	18S

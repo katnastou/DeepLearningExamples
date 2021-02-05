@@ -1,0 +1,19 @@
+T1	Protein 21 27	NIPP-1
+T2	Protein 31 73	nuclear inhibitor of protein phosphatase-1
+T3	Protein 139 145	NIPP-1
+T4	Protein 299 305	NIPP-1
+T5	Protein 469 475	NIPP-1
+T6	Protein 648 654	NIPP-1
+T7	Protein 728 734	NIPP-1
+T8	Protein 887 893	NIPP-1
+T9	Protein 927 932	ard-1
+T10	Protein 1113 1118	ard-1
+T11	Protein 1123 1129	NIPP-1
+T12	Protein 1278 1284	NIPP-1
+*	Equiv T1 T2
+T13	Protein 241 262	protein phosphatase-1
+R1	Negative_regulation Arg1:T3 Arg2:T13	
+T14	Protein 595 611	protein kinase A
+T15	Protein 616 631	casein kinase 2
+R2	Catalysis_of_phosphorylation Arg1:T15 Arg2:T5	
+R3	Catalysis_of_phosphorylation Arg1:T14 Arg2:T5	

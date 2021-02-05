@@ -1,0 +1,26 @@
+T1	Protein 38 41	p21
+T2	Protein 42 46	WAF1
+T3	Protein 47 51	CIP1
+T4	Protein 300 303	p21
+T5	Protein 304 308	WAF1
+T6	Protein 309 313	CIP1
+T7	Protein 363 366	p21
+T8	Protein 594 597	p21
+T9	Protein 678 681	p21
+T10	Complex 74 78	PCNA
+T11	Complex 116 136	DNA polymerase delta
+T12	Complex 157 161	PCNA
+T13	Complex 163 197	proliferating cell nuclear antigen
+T14	Complex 376 380	PCNA
+T15	Complex 526 530	PCNA
+T16	Complex 598 602	PCNA
+T17	Complex 707 711	PCNA
+T18	Complex 772 776	PCNA
+T19	Complex 838 848	polymerase
+*	Equiv T13 T12
+R7	Complex_formation Arg1:T7 Arg2:T14	
+R8	Complex_formation Arg1:T8 Arg2:T16	
+R9	Complex_formation Arg1:T12 Arg2:T4	
+R10	Complex_formation Arg1:T1 Arg2:T10	
+*	Equiv T1 T2 T3
+*	Equiv T5 T4 T6

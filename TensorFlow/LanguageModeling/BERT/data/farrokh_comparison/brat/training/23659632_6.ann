@@ -1,0 +1,8 @@
+T1	Protein 0 9	Aprataxin
+T2	Protein 195 204	Aprataxin
+T3	Protein 377 387	DNA ligase
+T4	Protein 406 415	Aprataxin
+T5	Protein 431 435	APTX
+T6	Family 221 248	dinucleotide polyphosphates
+T7	Family 253 268	phophoramidates
+*	Equiv T5 T4

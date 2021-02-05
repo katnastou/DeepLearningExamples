@@ -1,0 +1,35 @@
+T1	Protein 33 67	interleukin-2 receptor alpha-chain
+T2	Protein 133 138	Elf-1
+T3	Protein 140 148	HMG-I(Y)
+T4	Protein 187 221	interleukin 2 receptor alpha-chain
+T5	Protein 223 234	IL-2R alpha
+T6	Protein 580 585	Elf-1
+T7	Protein 590 598	HMG-I(Y)
+T8	Protein 694 699	Elf-1
+T9	Protein 735 746	IL-2R alpha
+T10	Protein 786 791	Elf-1
+T11	Protein 799 807	HMG-I(Y)
+T12	Protein 931 936	Elf-1
+T13	Protein 964 969	HMG-I
+T14	Protein 990 993	p50
+T15	Protein 998 1003	c-Rel
+T16	Protein 1423 1434	IL-2R alpha
+T17	Protein 1507 1512	Elf-1
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T12 Arg2:T15
+R2	Complex_formation Arg1:T12 Arg2:T14
+R3	Complex_formation Arg1:T12 Arg2:T13
+R4	Complex_formation Arg1:T2 Arg2:T3	
+R5	Negative_regulation Arg1:T10 Arg2:T9	
+R6	Regulation_of_transcription Arg1:T10 Arg2:T9	
+R7	Regulation_of_transcription Arg1:T11 Arg2:T9	
+R8	Negative_regulation Arg1:T11 Arg2:T9	
+T18	Complex 154 164	NF-kappa B
+T19	Complex 400 410	NF-kappa B
+T20	Complex 415 419	CArG
+T22	Complex 1246 1256	NF-kappa B
+T23	Family 1224 1227	Ets
+T24	Complex 1517 1527	NF-kappa B
+R9	Regulation_of_transcription Arg1:T19 Arg2:T4	
+R10	Regulation_of_transcription Arg1:T20 Arg2:T4	
+T21	Complex 979 989	NF-kappa B

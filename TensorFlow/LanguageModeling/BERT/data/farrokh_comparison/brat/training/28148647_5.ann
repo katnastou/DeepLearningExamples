@@ -1,0 +1,32 @@
+T1	Protein 158 163	Vps33
+T2	Family 623 630	R-SNARE
+T3	Complex 544 549	SNARE
+T4	Family 84 86	SM
+T5	Family 169 171	SM
+T6	Complex 183 187	HOPS
+T7	Family 256 258	R-
+T8	Family 263 272	Qa-SNAREs
+T9	OOS 239 244	SNARE
+T10	OOS 376 381	SNARE
+T11	Complex 459 470	trans-SNARE
+#1	AnnotatorNotes T2	tagged as ggp, probably synonym for Nyv1
+T12	Family 702 710	Q-SNAREs
+T13	Complex 730 734	HOPS
+T14	Complex 786 790	HOPS
+T15	Family 813 815	SM
+T16	OOS 837 842	SNARE
+T17	Family 983 991	Q-SNAREs
+T18	Family 1107 1115	Qc-SNARE
+T19	Complex 1123 1127	HOPS
+A1	Mutant T19
+#2	AnnotatorNotes T6	homotypic fusion and vacuole protein sorting (HOPS) complex
+T20	Chemical 1207 1226	polyethylene glycol
+T21	Chemical 927 946	polyethylene glycol
+T22	Complex 968 972	HOPS
+T23	Complex 1279 1283	HOPS
+T24	Complex 1327 1332	SNARE
+T25	Complex 1439 1444	SNARE
+T26	Complex 1493 1497	HOPS
+T27	Complex 1532 1536	HOPS
+R1	Complex_formation Arg1:T1 Arg2:T7	
+R2	Complex_formation Arg1:T1 Arg2:T8	

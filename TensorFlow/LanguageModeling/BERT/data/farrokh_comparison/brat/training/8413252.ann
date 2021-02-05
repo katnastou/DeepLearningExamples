@@ -1,0 +1,73 @@
+T1	Protein 89 97	cyclin A
+T2	Protein 299 302	pRB
+T3	Protein 307 311	p107
+T4	Protein 582 621	retinoblastoma tumor suppressor protein
+T5	Protein 623 626	pRB
+T6	Protein 662 665	pRB
+T7	Protein 799 803	p107
+T8	Protein 805 813	cyclin A
+T9	Protein 823 827	cdk2
+T11	Protein 840 848	cyclin A
+T12	Protein 973 981	cyclin A
+T13	Protein 1112 1120	cyclin A
+T14	Protein 1206 1214	cyclin A
+T15	Protein 1430 1438	cyclin A
+T16	Protein 1515 1523	cyclin A
+T17	Protein 1706 1714	cyclin A
+T18	Protein 1791 1799	cyclin A
+T19	Family 85 88	E2F
+R1	Complex_formation Arg1:T19 Arg2:T1	
+T20	Family 133 136	E2F
+R2	Regulation Arg1:T2 Arg2:T20	
+R3	Regulation Arg1:T3 Arg2:T20	
+T21	Family 313 316	E2F
+T22	Family 570 573	E2F
+*	Equiv T4 T5
+R4	Complex_formation Arg1:T22 Arg2:T4	
+T23	Family 658 661	E2F
+R5	Complex_formation Arg1:T23 Arg2:T6	
+T24	Family 711 714	E2F
+T25	Family 774 777	E2F
+R6	Complex_formation Arg1:T25 Arg2:T7	
+R7	Complex_formation Arg1:T25 Arg2:T8	
+R8	Complex_formation Arg1:T25 Arg2:T9	
+R9	Complex_formation Arg1:T7 Arg2:T9	
+R10	Complex_formation Arg1:T7 Arg2:T8	
+R11	Complex_formation Arg1:T8 Arg2:T9	
+T10	Family 836 839	E2F
+R12	Complex_formation Arg1:T10 Arg2:T11	
+T26	Family 969 972	E2F
+R13	Complex_formation Arg1:T26 Arg2:T12	
+T27	Family 1108 1111	E2F
+R14	Complex_formation Arg1:T27 Arg2:T13	
+T28	Family 1202 1205	E2F
+R15	Complex_formation Arg1:T28 Arg2:T14	
+T29	Family 1426 1429	E2F
+R16	Complex_formation Arg1:T29 Arg2:T15	
+T30	Family 1511 1514	E2F
+R17	Complex_formation Arg1:T30 Arg2:T16	
+T31	Family 1702 1705	E2F
+R18	Complex_formation Arg1:T31 Arg2:T17	
+T32	Family 1787 1790	E2F
+R19	Complex_formation Arg1:T32 Arg2:T18	
+T33	Protein 48 50	E7
+T34	Protein 439 441	E7
+T35	Protein 376 379	E1A
+T36	Protein 941 944	E1A
+T37	Protein 1016 1018	E7
+T38	Protein 1079 1082	E1A
+T39	Protein 1154 1156	E7
+T40	Protein 1328 1330	E7
+T41	Protein 1346 1348	E7
+T42	Protein 1573 1575	E7
+T43	Protein 1648 1650	E7
+R20	Regulation Arg1:T36 Arg2:T26	
+R21	Regulation Arg1:T36 Arg2:T12	
+R22	Complex_formation Arg1:T39 Arg2:T28	
+R23	Complex_formation Arg1:T39 Arg2:T14	
+R24	Complex_formation Arg1:T41 Arg2:T29	
+R25	Complex_formation Arg1:T41 Arg2:T15	
+R26	Complex_formation Arg1:T33 Arg2:T19	
+R27	Complex_formation Arg1:T33 Arg2:T1	
+R28	Complex_formation Arg1:T30 Arg2:T42	
+R29	Complex_formation Arg1:T16 Arg2:T42	

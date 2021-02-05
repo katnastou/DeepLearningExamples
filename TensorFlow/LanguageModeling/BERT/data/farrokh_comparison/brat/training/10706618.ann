@@ -1,0 +1,13 @@
+T1	Protein 31 54	zinc-finger protein RIZ
+T2	Protein 205 222	estrogen receptor
+T3	Protein 277 280	RIZ
+T4	Protein 558 561	RIZ
+T5	Protein 748 751	RIZ
+T6	Protein 4 18	retinoblastoma
+R1	Complex_formation Arg1:T6 Arg2:T1	
+#1	AnnotatorNotes T6	It's p53 :/
+T7	Protein 246 260	retinoblastoma
+R2	Complex_formation Arg1:T7 Arg2:T3	
+R3	Complex_formation Arg1:T2 Arg2:T3	
+T8	Chemical 83 91	estrogen
+T9	Chemical 726 735	estradiol

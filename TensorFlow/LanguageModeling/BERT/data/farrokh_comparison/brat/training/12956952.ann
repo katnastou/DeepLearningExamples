@@ -1,0 +1,32 @@
+T1	Protein 23 28	TAC-1
+T2	Protein 33 38	ZYG-9
+T3	Protein 511 516	TAC-1
+T4	Protein 760 765	ZYG-9
+T5	Protein 770 775	TAC-1
+T6	Protein 830 835	tac-1
+T7	Protein 906 911	zyg-9
+T8	Protein 932 937	TAC-1
+T9	Protein 942 947	ZYG-9
+T10	Protein 1382 1387	ZYG-9
+T11	Protein 1392 1397	TAC-1
+T12	Protein 1499 1504	ZYG-9
+T13	Protein 1505 1510	TAC-1
+T14	Family 115 119	TACC
+T15	Family 121 152	transforming acidic coiled-coil
+*	Equiv T15 T14
+T16	Family 288 292	TACC
+T17	Family 460 464	TACC
+T18	Family 536 540	TACC
+T19	Family 569 576	XMAP215
+T20	Family 652 656	TACC
+T21	Family 713 720	XMAP215
+T22	Family 743 750	XMAP215
+A1	Mutant T6
+A2	Mutant T7
+T23	Protein 1098 1111	alpha-tubulin
+T24	OOS 1522 1533	centrosomes
+#1	AnnotatorNotes T24	organelle
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T18 Arg2:T19	
+R3	Complex_formation Arg1:T10 Arg2:T11	
+R4	Complex_formation Arg1:T12 Arg2:T13	

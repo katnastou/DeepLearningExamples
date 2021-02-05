@@ -1,0 +1,21 @@
+T1	Protein 19 23	Dph3
+T2	Protein 517 521	Dph3
+T3	Protein 811 815	Dph3
+T4	Chemical 48 59	diphthamide
+T5	OOS 140 155	CSL zinc finger
+T6	OOS 290 310	CSL type zinc finger
+T7	OOS 319 326	PF05207
+T8	OOS 421 437	CSL zinc fingers
+#1	AnnotatorNotes T2	GGP which has CSL zinc finger? https://www.uniprot.org/uniprot/Q96FX2
+T9	OOS 558 573	CSL zinc finger
+T10	Chemical 628 639	diphthamide
+T11	Chemical 746 757	diphthamide
+T12	OOS 863 878	CSL zinc finger
+#2	AnnotatorNotes T5	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+#3	AnnotatorNotes T6	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+#4	AnnotatorNotes T7	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+#5	AnnotatorNotes T8	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+#6	AnnotatorNotes T9	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+#7	AnnotatorNotes T12	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6
+T13	OOS 489 504	CSL zinc finger
+#8	AnnotatorNotes T13	a family of type protein domain =>OOS? http://pfam.xfam.org/family/PF05207#tabview=tab6

@@ -1,0 +1,42 @@
+T1	Protein 257 261	Swi4
+T2	Protein 262 266	Swi6
+T3	Protein 302 306	Swi6
+T4	Protein 968 972	Swi6
+T5	Protein 977 981	Swi4
+T6	Protein 1014 1023	CK2 alpha
+T7	Complex 0 18	Protein kinase CK2
+T8	Complex 232 235	SBF
+T9	Complex 237 255	SCB binding factor
+*	Equiv T9 T8
+T10	Complex 272 275	MBF
+T11	Complex 277 295	MCB binding factor
+*	Equiv T11 T10
+T12	Protein 297 301	Mbp1
+T13	Complex 319 322	CK2
+T14	Complex 431 434	CK2
+T15	Complex 636 639	CK2
+T16	Protein 688 697	ckb1Delta
+A1	Mutant T16
+T17	Protein 698 707	ckb2Delta
+A2	Mutant T17
+T18	Complex 764 767	CK2
+T19	Complex 870 873	SBF
+T20	Complex 879 882	MBF
+T21	Protein 1028 1032	beta
+T22	Complex 1057 1074	RNA polymerase II
+T23	Complex 1137 1140	CK2
+T24	Complex 1211 1214	CK2
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T12 Arg2:T3	
+R3	Out-of-scope Arg1:T1 Arg2:T8	
+#1	AnnotatorNotes R3	Part-of
+R4	Out-of-scope Arg1:T2 Arg2:T8	
+#2	AnnotatorNotes R4	Part-of
+R5	Out-of-scope Arg1:T12 Arg2:T10	
+#3	AnnotatorNotes R5	Part-of
+R6	Out-of-scope Arg1:T3 Arg2:T10	
+#4	AnnotatorNotes R6	Part-of
+R7	Complex_formation Arg1:T6 Arg2:T22	
+R8	Complex_formation Arg1:T21 Arg2:T22	
+R9	Complex_formation Arg1:T6 Arg2:T21	
+#5	AnnotatorNotes R9	Inferred: subunits of COMPLEX

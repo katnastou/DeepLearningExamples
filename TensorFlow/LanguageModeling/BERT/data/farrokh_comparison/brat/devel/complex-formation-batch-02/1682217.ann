@@ -1,0 +1,39 @@
+T1	Protein 0 6	v-erbA
+T2	Protein 48 54	c-erbA
+T3	Protein 137 141	CAII
+T4	Protein 148 154	v-erbA
+T5	Protein 260 266	c-erbA
+T6	Protein 477 483	v-erbA
+T7	Protein 488 494	c-erbA
+T8	Protein 570 591	carbonic anhydrase II
+T9	Protein 593 597	CAII
+T10	Protein 656 662	v-erbA
+T11	Protein 838 842	CAII
+T12	Protein 864 870	v-erbA
+T13	Protein 937 943	v-erbA
+T14	Protein 964 970	c-erbA
+T15	Protein 1020 1026	c-erbA
+T16	Protein 1053 1059	v-erbA
+T17	Protein 1146 1152	v-erbA
+T18	Protein 1209 1213	CAII
+T19	Protein 1308 1312	CAII
+T20	Protein 1345 1351	c-erbA
+T21	Protein 1381 1385	CAII
+T22	Protein 1454 1460	v-erbA
+T23	Protein 1505 1511	v-erbA
+*	Equiv T8 T9
+R1	Regulation_of_transcription Arg1:T6 Arg2:T9
+R2	Regulation_of_transcription Arg1:T7 Arg2:T9
+R3	Negative_regulation Arg1:T10 Arg2:T9	
+R4	Negative_regulation Arg1:T12 Arg2:T11	
+R5	Regulation_of_transcription Arg1:T10 Arg2:T9	
+R6	Regulation_of_transcription Arg1:T12 Arg2:T11	
+T24	Protein 120 124	erbA
+#1	AnnotatorNotes T24	not normalizable?
+T25	Protein 227 259	thyroid hormone (T3/T4) receptor
+*	Equiv T5 T25
+T26	Protein 669 673	erbA
+#2	AnnotatorNotes T26	not normalizable?
+T27	Chemical 695 710	thyroid hormone
+T28	Protein 971 982	T3 receptor
+*	Equiv T14 T28

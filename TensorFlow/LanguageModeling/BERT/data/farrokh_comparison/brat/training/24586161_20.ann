@@ -1,0 +1,21 @@
+T1	Family 64 68	YopJ
+T2	Protein 145 150	ACIP1
+T3	Protein 266 271	ACIP1
+T4	Protein 316 321	ACIP1
+T5	Family 385 389	HopZ
+T6	Protein 429 434	ACIP1
+T7	Protein 103 109	HopZ1a
+T8	Protein 126 132	AvrBsT
+R1	Complex_formation Arg1:T8 Arg2:T2	
+T9	Protein 181 187	AvrBsT
+T10	Protein 204 210	HopZ1a
+T11	Protein 223 230	tubulin
+R2	Complex_formation Arg1:T10 Arg2:T11	
+T12	Protein 250 256	HopZ1a
+T13	Protein 353 359	HopZ1a
+T14	Protein 520 526	AvrBsT
+T15	Protein 552 559	tubulin
+T16	Protein 621 627	AvrBsT
+T17	Protein 632 639	tubulin
+T18	Protein 689 695	AvrBsT
+T19	Protein 700 706	HopZ1a

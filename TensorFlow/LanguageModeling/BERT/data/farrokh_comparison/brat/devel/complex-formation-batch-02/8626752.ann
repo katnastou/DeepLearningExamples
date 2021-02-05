@@ -1,0 +1,47 @@
+T1	Protein 18 23	STAT1
+T2	Protein 29 34	STAT2
+T3	Protein 39 44	STAT3
+T4	Protein 671 676	STAT1
+T5	Protein 680 685	STAT2
+T6	Protein 777 782	STAT1
+T7	Protein 783 788	STAT3
+T8	Protein 850 855	STAT1
+T9	Protein 860 865	STAT2
+T10	Protein 869 874	STAT1
+T11	Protein 879 884	STAT3
+T12	Protein 1137 1142	STAT1
+T13	Protein 1143 1148	STAT2
+T14	Protein 1185 1190	STAT1
+T15	Protein 1223 1228	STAT2
+T16	Protein 1233 1238	STAT3
+T17	Protein 1257 1262	STAT2
+T18	Protein 1267 1272	STAT3
+T19	Protein 1312 1317	STAT1
+T20	Protein 1352 1357	STAT1
+R1	Complex_formation Arg1:T6 Arg2:T7
+R2	Complex_formation Arg1:T8 Arg2:T9
+R3	Complex_formation Arg1:T10 Arg2:T11
+R4	Complex_formation Arg1:T14 Arg2:T16
+R5	Complex_formation Arg1:T14 Arg2:T15
+R6	Complex_formation Arg1:T17 Arg2:T19
+R7	Complex_formation Arg1:T18 Arg2:T19
+R8	Complex_formation Arg1:T12 Arg2:T13	
+R9	Complex_formation Arg1:T1 Arg2:T2	
+R10	Complex_formation Arg1:T1 Arg2:T3	
+T21	Protein 256 260	STAT
+#1	AnnotatorNotes T21	Family
+T22	Protein 262 312	signal transducers and activators of transcription
+#2	AnnotatorNotes T22	Family
+*	Equiv T21 T22
+T23	Protein 371 376	STATs
+#3	AnnotatorNotes T23	Family
+T24	Protein 491 495	STAT
+#4	AnnotatorNotes T24	Family
+T25	Protein 752 756	STAT
+#5	AnnotatorNotes T25	Family
+T26	Protein 1399 1403	STAT
+#6	AnnotatorNotes T26	Family
+T27	Chemical 625 629	salt
+T28	Chemical 633 642	detergent
+T29	Protein 1031 1047	interferon-alpha
+T30	Protein 1049 1053	beta

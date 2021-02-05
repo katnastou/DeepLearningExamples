@@ -1,0 +1,22 @@
+T1	Family 27 30	JNK
+T2	Family 230 233	JNK
+T3	Family 357 360	JNK
+T4	Family 443 446	JNK
+T5	Family 641 644	JNK
+T6	Family 688 691	JNK
+T7	Protein 18 22	Cdh1
+T8	Protein 85 90	APC/C
+T9	Protein 91 95	Cdh1
+*	Equiv T8 T9
+T10	Protein 253 258	APC/C
+T11	Protein 259 263	Cdh1
+*	Equiv T10 T11
+R1	Regulation_of_proteolysis Arg1:T10 Arg2:T2	
+R2	Negative_regulation Arg1:T10 Arg2:T2	
+T12	Protein 462 466	Cdh1
+R3	Catalysis_of_phosphorylation Arg1:T4 Arg2:T12	
+T13	Protein 588 593	APC/C
+R4	Positive_regulation Arg1:T12 Arg2:T13	
+T14	Protein 649 653	Cdh1
+R5	Regulation Arg1:T5 Arg2:T14	
+T15	Family 68 84	ubiquitin ligase

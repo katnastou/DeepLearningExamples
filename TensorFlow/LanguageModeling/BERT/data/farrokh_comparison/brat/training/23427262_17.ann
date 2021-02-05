@@ -1,0 +1,11 @@
+T1	Protein 89 124	microtubule-associated protein Dis1
+T3	Protein 238 242	Dis1
+T4	Protein 310 314	Dis1
+T5	Protein 423 427	Dis1
+T2	Family 151 193	TOG/XMAP215 microtubule-associated protein
+T6	Protein 213 218	ndc80
+A1	Mutant T6
+T7	Protein 335 340	ndc80
+A2	Mutant T7
+R1	Out-of-scope Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	Member-of relation

@@ -1,0 +1,31 @@
+T1	Protein 0 24	Glutathione peroxidase 1
+T2	Protein 45 50	c-Abl
+T3	Protein 82 87	c-Abl
+T4	Protein 210 215	c-Abl
+T5	Protein 239 263	glutathione peroxidase 1
+T6	Protein 265 269	GPx1
+T7	Protein 347 352	c-Abl
+T8	Protein 413 417	GPx1
+T9	Protein 442 446	GPx1
+T11	Protein 562 567	c-Abl
+T12	Protein 740 744	GPx1
+R1	Regulation Arg1:T2 Arg2:T1	
+T13	Protein 55 58	Arg
+R2	Regulation Arg1:T13 Arg2:T1	
+T14	Protein 92 95	Arg
+T15	Protein 220 223	Arg
+R3	Complex_formation Arg1:T15 Arg2:T5	
+R4	Complex_formation Arg1:T4 Arg2:T5	
+*	Equiv T6 T5
+T16	Protein 357 360	Arg
+R5	Complex_formation Arg1:T16 Arg2:T8	
+R6	Complex_formation Arg1:T7 Arg2:T8	
+T17	Protein 481 486	c-Abl
+T18	Protein 492 495	Arg
+R7	Regulation Arg1:T17 Arg2:T9	
+R8	Regulation Arg1:T18 Arg2:T9	
+T10	Protein 572 575	Arg
+T19	Protein 586 589	GPx
+R9	Positive_regulation Arg1:T10 Arg2:T19	
+R10	Positive_regulation Arg1:T11 Arg2:T19	
+T20	Protein 636 639	GPx

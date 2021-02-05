@@ -1,0 +1,29 @@
+T1	Protein 17 22	JIL-1
+T2	Protein 217 222	JIL-1
+T3	OOS 315 318	roX
+T4	Protein 352 355	MLE
+T5	Protein 677 682	JIL-1
+T6	Protein 832 844	JIL-1 kinase
+T7	Protein 965 970	JIL-1
+T8	Protein 1057 1062	JIL-1
+T9	Protein 1082 1087	JIL-1
+T10	Complex 43 46	MSL
+R1	Complex_formation Arg1:T1 Arg2:T10	
+T11	Complex 231 234	MSL
+R2	Complex_formation Arg1:T2 Arg2:T11	
+#1	AnnotatorNotes T3	RNa
+T12	Complex 397 400	MSL
+R3	Out-of-scope Arg1:T4 Arg2:T12	
+T13	Complex 525 528	MSL
+T14	Protein 129 132	GST
+#2	AnnotatorNotes T14	GST is not tagged by tagger
+T15	Complex 747 750	MSL
+R4	Complex_formation Arg1:T5 Arg2:T15	
+T16	Complex 880 883	MSL
+R5	Complex_formation Arg1:T6 Arg2:T16	
+T17	Complex 1020 1023	MSL
+T18	Complex 1106 1109	MSL
+R6	Complex_formation Arg1:T9 Arg2:T18	
+A2	Fusion T14
+T19	Protein 673 676	GST
+A1	Fusion T19

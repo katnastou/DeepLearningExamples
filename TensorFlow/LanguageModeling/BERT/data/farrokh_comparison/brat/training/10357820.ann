@@ -1,0 +1,21 @@
+T1	Protein 14 20	Ikaros
+T2	Protein 25 31	Aiolos
+T3	Protein 143 149	Ikaros
+T4	Protein 154 160	Aiolos
+T5	Protein 341 347	Ikaros
+T6	Protein 508 514	Ikaros
+T7	Protein 714 720	Ikaros
+T8	Protein 725 734	Mi-2-HDAC
+T9	Protein 752 758	Ikaros
+R1	Complex_formation Arg1:T7 Arg2:T8
+T10	Family 585 590	mSin3
+R2	Complex_formation Arg1:T6 Arg2:T10	
+T11	Family 52 71	histone deacetylase
+T12	Family 398 406	histones
+T13	Family 444 463	histone deacetylase
+T14	Family 629 649	histone deacetylases
+R3	Regulation Arg1:T11 Arg2:T2	
+R4	Regulation Arg1:T11 Arg2:T1	
+R5	Complex_formation Arg1:T10 Arg2:T14	
+T15	Family 852 871	histone deacetylase
+R6	Regulation Arg1:T9 Arg2:T15	

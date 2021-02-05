@@ -1,0 +1,21 @@
+T1	Protein 47 52	Eps15
+T2	Protein 53 56	Hrb
+T3	Protein 210 215	Eps15
+T4	Protein 245 248	Hrb
+T5	Protein 249 253	Hrbl
+T6	Protein 271 276	Eps15
+T7	Protein 280 283	Hrb
+T8	Protein 287 291	Hrbl
+T9	Protein 424 429	Eps15
+T10	Protein 442 445	Hrb
+T11	Protein 449 453	Hrbl
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T12	Protein 187 190	Rev
+#1	AnnotatorNotes T12	co-factor of Hrb
+R2	Out-of-scope Arg1:T4 Arg2:T5	
+#2	AnnotatorNotes R2	It's complex, but does not follow the rule we said about it being clear in the paragraph
+T13	Protein 307 310	Rev
+T14	Protein 367 370	Rev
+T15	Protein 397 400	Rev
+T16	Protein 486 489	Rev
+T17	Chemical 646 664	beta-galactosidase

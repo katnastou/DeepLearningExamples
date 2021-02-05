@@ -1,0 +1,29 @@
+T1	Protein 530 548	proteasomal ATPase
+T2	Protein 669 687	proteasomal ATPase
+T3	Complex 308 318	proteasome
+T4	Protein 304 307	Pup
+#1	AnnotatorNotes T4	prokaryotic ubiquitin-like protein
+T5	Protein 339 342	Pup
+T6	Protein 462 465	Pup
+#2	AnnotatorNotes T1	tagged as GGP
+T7	Protein 590 593	Pup
+T8	Protein 607 610	Mpa
+#3	AnnotatorNotes T8	Mycobacterium proteasomal ATPase
+T9	Protein 697 700	Pup
+T10	Protein 758 761	Mpa
+T11	OOS 744 746	OB
+#4	AnnotatorNotes T11	domain
+T12	Protein 778 781	Pup
+T13	Protein 843 846	Pup
+T14	Protein 867 870	Mpa
+T15	Protein 892 895	Pup
+T16	Protein 955 958	Mpa
+T17	Protein 1074 1077	Pup
+T18	Protein 1110 1113	Mpa
+T19	Protein 1182 1185	Pup
+T20	Protein 1213 1216	Mpa
+R1	Complex_formation Arg1:T7 Arg2:T8	
+#5	AnnotatorNotes R1	TODO check: "contact" is the cue
+R2	Complex_formation Arg1:T17 Arg2:T18	
+#6	AnnotatorNotes R2	TODO check: "displacement" is the cue
+R3	Complex_formation Arg1:T19 Arg2:T20	

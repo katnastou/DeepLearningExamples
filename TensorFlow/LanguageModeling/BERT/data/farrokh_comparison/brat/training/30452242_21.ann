@@ -1,0 +1,36 @@
+T1	Protein 42 46	Ssp2
+T2	Protein 51 55	Smk1
+T3	Chemical 363 366	Bpa
+T4	Chemical 400 403	Bpa
+T5	Protein 588 592	SMK1
+T6	Chemical 788 791	Bpa
+T7	Protein 895 899	Smk1
+T8	Protein 903 907	Ssp2
+T9	Protein 998 1002	Smk1
+T10	Protein 1139 1143	Smk1
+T11	Family 229 254	aminoacyl-tRNA synthetase
+#1	AnnotatorNotes T11	not tagged by tagger
+T12	Chemical 336 361	p-benzoyl-l-phenylalanine
+*	Equiv T3 T12
+#2	AnnotatorNotes T4	tagged as ggp
+T13	OOS 444 450	carbon
+T14	Protein 597 604	SSP2KAD
+T15	Protein 605 608	GST
+A1	Fusion T15
+#3	AnnotatorNotes T15	not tagged by tagger
+A2	Fusion T14
+T16	Family 690 700	synthetase
+T17	Protein 1003 1010	Ssp2KAD
+A3	Fusion T17
+T18	Protein 1011 1014	GST
+A4	Fusion T18
+#4	AnnotatorNotes T18	not tagged by tagger
+T19	Protein 1152 1159	Ssp2KAD
+A5	Fusion T19
+T20	Protein 1160 1163	GST
+A6	Fusion T20
+#5	AnnotatorNotes T20	not tagged by tagger
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T10 Arg2:T19	
+R3	Out-of-scope Arg1:T10 Arg2:T20	
+#6	AnnotatorNotes R3	GGP-reporter

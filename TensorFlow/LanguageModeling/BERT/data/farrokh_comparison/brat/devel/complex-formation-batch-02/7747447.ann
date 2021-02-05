@@ -1,0 +1,53 @@
+T1	Protein 13 16	Sp1
+T2	Protein 566 569	Sp1
+T3	Protein 768 771	Sp1
+T4	Protein 851 854	PHA
+T5	Protein 859 872	interleukin 2
+T6	Protein 942 945	Tat
+T7	Protein 1030 1033	SP1
+T8	Protein 1124 1128	PP2A
+T9	Protein 1228 1231	Tat
+T10	Protein 1237 1240	Sp1
+R1	Complex_formation Arg1:T9 Arg2:T10
+T11	Protein 208 211	TNF
+T12	Protein 639 642	TBP
+T13	Protein 828 831	TNF
+T14	Protein 988 991	TNF
+T15	Protein 1 133	nduction of Sp1 phosphorylation and NF-kappa B-independent HIV promoter domain activity in T lymphocytes stimulated by okadaic acid.
+#1	AnnotatorNotes T15	Remove abstract
+T16	Protein 380 390	NF-kappa B
+#2	AnnotatorNotes T16	Complex
+T17	Protein 1333 1343	NF-kappa B
+#3	AnnotatorNotes T17	Complex
+T18	Protein 918 925	kappa B
+#4	AnnotatorNotes T18	Complex
+#5	AnnotatorNotes T11	Family
+#6	AnnotatorNotes T13	Family
+#7	AnnotatorNotes T14	Family
+T19	Protein 37 47	NF-kappa B
+#8	AnnotatorNotes T19	Complex
+T20	Chemical 281 293	okadaic acid
+T21	Chemical 295 298	OKA
+*	Equiv T21 T20
+T22	Protein 423 426	LTR
+#9	AnnotatorNotes T22	Not normalizable?
+T23	Protein 258 261	LTR
+#10	AnnotatorNotes T23	Not normalizable
+T24	Protein 452 455	LTR
+#11	AnnotatorNotes T24	Not normalizable
+T25	Chemical 534 537	OKA
+T26	Chemical 688 691	OKA
+T27	Chemical 810 813	OKA
+R2	Regulation Arg1:T20 Arg2:T16	
+R3	Regulation Arg1:T20 Arg2:T22	
+R4	Regulation Arg1:T26 Arg2:T3	
+T28	Chemical 833 846	phorbol ester
+T29	Protein 892 895	LTR
+#12	AnnotatorNotes T29	Not normalizable
+T30	Chemical 976 979	OKA
+T31	Chemical 1061 1064	OKA
+T32	Protein 1379 1382	LTR
+#13	AnnotatorNotes T32	Not normalizable
+R5	Positive_regulation Arg1:T30 Arg2:T6	
+R6	Regulation_of_gene_expression Arg1:T30 Arg2:T6	
+R7	Regulation Arg1:T31 Arg2:T7	

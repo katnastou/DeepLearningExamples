@@ -1,0 +1,53 @@
+T1	Protein 73 76	TR6
+T2	Protein 116 119	TR6
+T3	Protein 121 137	decoy receptor 3
+T4	Protein 139 143	DcR3
+T5	Protein 215 218	TR6
+T6	Protein 317 320	TR6
+T7	Protein 476 479	TR6
+T8	Protein 602 605	TR6
+T9	Family 636 639	TNF
+T10	Protein 708 711	TR6
+T11	Protein 760 796	herpes virus entry mediator (HVEM)-L
+T13	Protein 814 818	FasL
+T14	Protein 819 824	CD95L
+T15	Protein 928 931	TR6
+T16	Protein 1094 1119	lymphotoxin beta receptor
+T17	Protein 1121 1128	LTbetaR
+T18	Protein 1134 1138	HVEM
+T19	Protein 1139 1142	TR2
+T20	Protein 1176 1179	TR6
+T21	Protein 1220 1224	HVEM
+T22	Protein 1225 1228	TR2
+T23	Protein 1233 1240	LTbetaR
+T24	Protein 1301 1304	TR6
+*	Equiv T4 T3 T2
+T25	Family 201 205	TNFR
+T26	Family 169 199	tumor necrosis factor receptor
+*	Equiv T26 T25
+T27	Family 29 59	tumor necrosis factor receptor
+T28	Protein 89 94	LIGHT
+R1	Negative_regulation Arg1:T1 Arg2:T28	
+R2	Complex_formation Arg1:T10 Arg2:T11	
+T29	Protein 753 758	LIGHT
+*	Equiv T29 T11
+T30	Protein 802 812	Fas ligand
+*	Equiv T30 T13 T14
+R3	Complex_formation Arg1:T10 Arg2:T30	
+T31	Protein 898 903	LIGHT
+T32	Protein 942 947	LIGHT
+R4	Negative_regulation Arg1:T15 Arg2:T32	
+T33	Protein 1007 1012	LIGHT
+*	Equiv T17 T16
+*	Equiv T18 T19
+T34	Protein 1209 1214	LIGHT
+R5	Negative_regulation Arg1:T20 Arg2:T34	
+R6	Complex_formation Arg1:T34 Arg2:T21	
+*	Equiv T21 T22
+R7	Complex_formation Arg1:T34 Arg2:T23	
+T35	Protein 1262 1267	LIGHT
+T36	Protein 1351 1355	FasL
+T37	Protein 1361 1366	LIGHT
+T38	Chemical 380 411	phorbol 12-myristate 13-acetate
+T39	Chemical 412 421	ionomycin
+*	Equiv T38 T39

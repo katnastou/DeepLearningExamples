@@ -1,0 +1,31 @@
+T1	Protein 983 987	BNA2
+T2	Protein 1101 1105	BNA2
+T3	Protein 1246 1250	BNA2
+T4	Protein 1300 1304	NPT1
+T5	Protein 1374 1378	NPT1
+T6	Protein 1442 1446	cdc3
+T7	Protein 1458 1462	BNA2
+T8	Protein 1473 1499	tryptophan 2,3-dioxygenase
+T9	Protein 1614 1618	NPT1
+T10	Protein 1629 1665	nicotinate phosphoribosyltransferase
+T11	Protein 167 172	cdc13
+T12	Protein 411 416	cdc13
+T13	Protein 350 355	cdc13
+T14	Protein 715 720	cdc13
+T15	Protein 1045 1050	cdc13
+T16	Protein 1280 1285	cdc13
+*	Equiv T7 T8
+T17	Chemical 1529 1543	nicotinic acid
+T18	Chemical 1569 1579	tryptophan
+T19	Chemical 1588 1598	kynurenine
+*	Equiv T9 T10
+R2	Regulation Arg1:T16 Arg2:T4	
+R1	Out-of-scope Arg1:T3 Arg2:T4	
+R3	Out-of-scope Arg1:T7 Arg2:T17	
+A1	Mutant T15
+A2	Mutant T11
+A3	Mutant T12
+A4	Mutant T14
+A5	Mutant T13
+A6	Mutant T6
+A7	Mutant T16

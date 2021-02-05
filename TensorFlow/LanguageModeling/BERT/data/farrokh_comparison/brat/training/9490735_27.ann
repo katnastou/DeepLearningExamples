@@ -1,0 +1,19 @@
+T1	Protein 28 35	ABP-280
+T2	Protein 212 219	ABP-280
+T3	Protein 254 261	ABP-280
+T4	Protein 348 355	ABP-280
+T5	Protein 649 656	ABP-280
+T6	Protein 896 903	ABP-280
+T7	Protein 58 60	TF
+#1	AnnotatorNotes T7	Tissue factor (TF), the protease receptor initiating the coagulation system
+T8	Protein 168 170	TF
+A1	Fusion T8
+#2	AnnotatorNotes T2	actin-binding protein 280
+T9	Protein 422 424	TF
+T10	Protein 848 850	TF
+R1	Out-of-scope Arg1:T1 Arg2:T7	
+#3	AnnotatorNotes R1	Hypothesis
+R2	Complex_formation Arg1:T4 Arg2:T9	
+R3	Complex_formation Arg1:T5 Arg2:T9	
+R4	Complex_formation Arg1:T10 Arg2:T6	
+#4	AnnotatorNotes R4	Inferred: "affinity"

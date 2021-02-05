@@ -1,0 +1,36 @@
+T1	Protein 35 41	GATA-4
+T2	Protein 74 78	IL-5
+T3	Protein 96 100	IL-5
+T4	Protein 164 177	Interleukin-5
+T5	Protein 179 183	IL-5
+T6	Protein 341 345	IL-5
+T7	Protein 398 402	IL-5
+T8	Protein 433 437	IL-5
+T9	Protein 667 679	human GATA-4
+T10	Protein 681 688	hGATA-4
+T11	Protein 704 711	hGATA-4
+T12	Protein 768 772	IL-5
+T13	Protein 950 957	hGATA-4
+T14	Protein 1007 1011	IL-5
+T15	Protein 1218 1225	hGATA-2
+T16	Protein 1227 1234	hGATA-3
+T17	Protein 1239 1246	hGATA-4
+T18	Protein 1390 1396	GATA-4
+T19	Protein 1607 1613	GATA-4
+T20	Protein 1770 1776	GATA-4
+T21	Protein 1854 1860	GATA-4
+T22	Protein 1902 1906	IL-5
+*	Equiv T9 T10
+*	Equiv T4 T5
+R1	Regulation_of_transcription Arg1:T11 Arg2:T12
+R2	Regulation_of_transcription Arg1:T1 Arg2:T2	
+R3	Regulation_of_transcription Arg1:T21 Arg2:T22	
+R4	Regulation Arg1:T13 Arg2:T14	
+T23	Family 7 11	GATA
+T24	Family 140 144	GATA
+T25	Family 536 540	GATA
+T28	Family 1195 1199	GATA
+T29	Family 1409 1413	GATA
+T27	Family 1573 1577	GATA
+T30	Family 1684 1688	GATA
+T31	Family 1960 1964	GATA

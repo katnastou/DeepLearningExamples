@@ -1,0 +1,38 @@
+T1	Protein 43 48	GW182
+T2	Family 127 136	Argonaute
+T3	Protein 226 231	GW182
+T4	Protein 261 267	TNRC6C
+T5	Protein 330 353	poly(A)-binding protein
+T6	Protein 355 361	PABPC1
+T7	Protein 398 403	GW182
+T8	Protein 427 433	PABPC1
+T9	Protein 456 460	PABP
+T10	Protein 508 514	TNRC6C
+T11	Protein 627 633	PABPC1
+T12	Protein 855 861	TNRC6A
+T13	Protein 906 912	PABPC1
+T14	Protein 1062 1068	PABPC1
+T15	Protein 1108 1113	GW182
+T16	Protein 1127 1133	PABPC1
+T17	Family 147 151	AGOs
+#1	AnnotatorNotes T2	tagged as ggps
+T18	OOS 273 275	SD
+*	Equiv T6 T5
+T19	Protein 726 734	HsTNRC6A
+#2	AnnotatorNotes T19	not tagged
+T20	Protein 792 800	DmPABPC1
+T21	Protein 785 787	Hs
+#3	AnnotatorNotes T21	not normalizable
+T22	Protein 941 947	TNRC6s
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T3 Arg2:T5	
+R4	Complex_formation Arg1:T7 Arg2:T8	
+R5	Complex_formation Arg1:T9 Arg2:T7	
+#5	AnnotatorNotes R5	Inferred: XXX-binding domain/site
+R6	Complex_formation Arg1:T10 Arg2:T9	
+#6	AnnotatorNotes R6	Inferred: XXX-binding domain/site
+R7	Complex_formation Arg1:T19 Arg2:T21	
+R8	Complex_formation Arg1:T19 Arg2:T20	
+R9	Complex_formation Arg1:T12 Arg2:T13	
+R10	Complex_formation Arg1:T15 Arg2:T16	
+*	Equiv T17 T2

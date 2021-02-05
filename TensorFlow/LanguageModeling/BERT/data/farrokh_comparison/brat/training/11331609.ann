@@ -1,0 +1,20 @@
+T1	Protein 190 194	SMRT
+T2	Protein 262 301	SMRT/HDAC1 Associated Repressor Protein
+T4	Protein 401 405	SMRT
+T5	Protein 462 467	HDAC1
+T6	Protein 472 477	HDAC2
+T7	Protein 0 5	Sharp
+T8	Protein 255 260	SHARP
+R1	Complex_formation Arg1:T1 Arg2:T8	
+*	Equiv T8 T2
+T3	Protein 304 309	SHARP
+R2	Complex_formation Arg1:T3 Arg2:T4	
+R3	Complex_formation Arg1:T3 Arg2:T5	
+R4	Complex_formation Arg1:T3 Arg2:T6	
+T9	Protein 492 497	SHARP
+T10	Protein 544 547	SRA
+R5	Complex_formation Arg1:T9 Arg2:T10	
+T11	Protein 599 602	SRA
+R6	Negative_regulation Arg1:T9 Arg2:T11	
+T12	Protein 669 674	SHARP
+T13	Protein 785 790	SHARP

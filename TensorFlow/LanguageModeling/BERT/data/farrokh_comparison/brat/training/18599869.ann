@@ -1,0 +1,51 @@
+T1	Protein 97 111	thrombomodulin
+T2	Protein 145 159	thrombomodulin
+T3	Protein 244 264	Kruppel-like factors
+T4	Protein 1251 1262	plasminogen
+T5	Protein 1318 1351	plasminogen activator inhibitor 1
+T6	Protein 1356 1387	connective tissue growth factor
+T7	Protein 1514 1525	plasminogen
+T8	Protein 1577 1610	plasminogen activator inhibitor 1
+T9	Protein 1615 1646	connective tissue growth factor
+T10	Protein 15 34	heat shock factor 1
+R1	Positive_regulation Arg1:T10 Arg2:T1	
+T11	Protein 161 163	TM
+*	Equiv T2 T11
+T12	Protein 207 226	Kruppel-like factor
+T13	Protein 461 464	SP1
+T14	Protein 465 484	Kruppel-like factor
+*	Equiv T13 T14
+T15	Protein 500 502	TM
+T16	Protein 552 554	TM
+T17	Protein 635 638	SP1
+T18	Protein 639 658	Kruppel-like factor
+*	Equiv T17 T18
+T19	Protein 702 704	TM
+R2	Out-of-scope Arg1:T18 Arg2:T19	
+R3	Out-of-scope Arg1:T14 Arg2:T15	
+T20	Protein 847 851	HSF1
+T21	Protein 882 884	TM
+R4	Regulation_of_transcription Arg1:T20 Arg2:T21	
+T22	Protein 953 957	HSF1
+T23	Protein 963 984	heat shock protein 90
+R5	Complex_formation Arg1:T22 Arg2:T23	
+T24	Protein 1011 1015	HSF1
+T25	Protein 1059 1061	TM
+T26	Protein 1118 1122	HSF1
+T27	Protein 1133 1143	14-3-3beta
+R6	Complex_formation Arg1:T27 Arg2:T26	
+T28	Protein 1169 1171	TM
+T29	Protein 1200 1204	HSF1
+T30	Protein 1300 1316	thrombomospondin
+R7	Regulation Arg1:T29 Arg2:T28	
+T31	Protein 1417 1427	14-3-3beta
+T32	Protein 1445 1449	HSF1
+T33	Protein 1500 1502	TM
+T34	Protein 1559 1575	thrombomospondin
+T35	Protein 1676 1680	HSF1
+T36	Protein 1725 1727	TM
+R8	Regulation Arg1:T35 Arg2:T36	
+A1	Mutant T13
+A2	Mutant T14
+A3	Mutant T17
+A4	Mutant T18

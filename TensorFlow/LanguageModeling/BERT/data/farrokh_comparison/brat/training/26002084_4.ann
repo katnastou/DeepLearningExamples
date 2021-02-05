@@ -1,0 +1,34 @@
+T1	Protein 243 247	Plk4
+T2	Protein 252 257	ZYG-1
+T3	Protein 298 303	SPD-2
+T4	Protein 317 326	Asterless
+T5	Protein 375 381	Cep192
+T6	Protein 386 392	Cep152
+T7	Protein 447 451	STIL
+T8	Protein 452 456	Ana2
+T9	Protein 457 462	SAS-5
+T10	Protein 467 472	Sas-6
+T11	Protein 556 561	Sas-4
+T12	Protein 658 663	Sas-4
+T13	Protein 804 810	Cep135
+T14	Protein 811 816	Bld10
+T15	Protein 328 331	Asl
+T16	Protein 248 251	Sak
+*	Equiv T1 T16 T2
+T17	Family 228 242	protein kinase
+*	Equiv T15 T4
+T18	Family 423 437	protein kinase
+*	Equiv T7 T8 T9
+T19	Protein 551 555	CPAP
+*	Equiv T11 T19
+T20	Protein 653 657	CPAP
+*	Equiv T12 T20
+T21	Protein 682 689	tubulin
+*	Equiv T14 T13
+R1	Complex_formation Arg1:T20 Arg2:T21	
+R2	Complex_formation Arg1:T9 Arg2:T19	
+R3	Complex_formation Arg1:T10 Arg2:T19	
+R4	Complex_formation Arg1:T9 Arg2:T10	
+#1	AnnotatorNotes R3	"assemble"
+#2	AnnotatorNotes R2	"assemble"
+#3	AnnotatorNotes R4	"assemble"

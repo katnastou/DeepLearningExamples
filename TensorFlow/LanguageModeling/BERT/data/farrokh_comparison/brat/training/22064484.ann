@@ -1,0 +1,49 @@
+T1	Protein 0 5	RNF34
+T2	Protein 50 60	PGC-1alpha
+T3	Protein 135 145	PGC-1alpha
+T4	Protein 239 249	PGC-1alpha
+T5	Protein 318 328	PGC-1alpha
+T6	Protein 520 525	RNF34
+T7	Protein 565 575	PGC-1alpha
+T8	Protein 577 582	RNF34
+T9	Protein 642 652	PGC-1alpha
+T10	Protein 693 698	RNF34
+T11	Protein 731 741	PGC-1alpha
+T12	Protein 881 886	RNF34
+T13	Protein 912 922	PGC-1alpha
+T14	Protein 938 958	uncoupling protein 1
+T15	Protein 960 964	UCP1
+T16	Protein 1094 1099	RNF34
+T17	Protein 1194 1219	beta3-adrenergic receptor
+T18	Protein 1254 1264	PGC-1alpha
+T19	Protein 1286 1291	RNF34
+T20	Protein 1423 1428	RNF34
+T21	Protein 1468 1478	PGC-1alpha
+*	Equiv T14 T15
+R1	Catalysis_of_ubiquitination Arg1:T1 Arg2:T2	
+R2	Regulation_of_proteolysis Arg1:T1 Arg2:T2	
+R3	Negative_regulation Arg1:T1 Arg2:T2	
+R4	Complex_formation Arg1:T10 Arg2:T11	
+R5	Complex_formation Arg1:T8 Arg2:T9	
+R6	Catalysis_of_ubiquitination Arg1:T8 Arg2:T9	
+R7	Catalysis_of_ubiquitination Arg1:T6 Arg2:T7	
+R8	Negative_regulation Arg1:T6 Arg2:T7	
+R9	Regulation_of_proteolysis Arg1:T6 Arg2:T7	
+R10	Negative_regulation Arg1:T8 Arg2:T9	
+R11	Regulation_of_proteolysis Arg1:T8 Arg2:T9	
+R12	Regulation_of_proteolysis Arg1:T10 Arg2:T11	
+R13	Negative_regulation Arg1:T10 Arg2:T11	
+R14	Negative_regulation Arg1:T12 Arg2:T13	
+R15	Negative_regulation Arg1:T12 Arg2:T14	
+R16	Regulation_of_gene_expression Arg1:T12 Arg2:T14	
+R17	Positive_regulation Arg1:T17 Arg2:T18	
+R18	Regulation_of_gene_expression Arg1:T17 Arg2:T19	
+R19	Negative_regulation Arg1:T17 Arg2:T19	
+R20	Catalysis_of_ubiquitination Arg1:T20 Arg2:T21	
+R21	Regulation_of_proteolysis Arg1:T20 Arg2:T21	
+R22	Negative_regulation Arg1:T20 Arg2:T21	
+T22	Family 26 45	E3 ubiquitin ligase
+T23	Family 541 560	E3 ubiquitin ligase
+T24	Family 1371 1380	E3 ligase
+T25	Family 1444 1463	E3 ubiquitin ligase
+T28	Chemical 982 988	oxygen

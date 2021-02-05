@@ -1,0 +1,25 @@
+T1	Protein 0 4	Emi1
+T2	Protein 152 156	Emi1
+T3	Protein 262 266	Emi1
+T4	Protein 390 395	UBE2C
+T5	Protein 396 402	UBCH10
+T6	Protein 446 451	UBE2S
+T7	Protein 508 512	Emi1
+T8	Protein 9 13	Emi2
+T9	Complex 102 107	APC/C
+T10	Protein 233 237	Emi2
+T11	Complex 354 359	APC/C
+T12	Protein 360 364	Cdh1
+T13	Protein 386 389	E2C
+T14	Protein 404 433	ubiquitin chain-initiating E2
+*	Equiv T13 T4 T5 T14
+T15	Protein 442 445	E2S
+T16	Protein 453 481	ubiquitin chain-extending E2
+*	Equiv T6 T16 T15
+T17	Protein 517 521	Emi2
+T18	Complex 530 535	APC/C
+T19	Protein 582 585	E2S
+T20	Complex 590 595	APC/C
+R1	Complex_formation Arg1:T7 Arg2:T18	
+R2	Complex_formation Arg1:T17 Arg2:T18	
+R3	Complex_formation Arg1:T19 Arg2:T20	

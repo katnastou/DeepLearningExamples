@@ -1,0 +1,10 @@
+T1	Protein 36 40	Vta1
+T2	Protein 96 100	Vta1
+T3	Protein 167 171	Vta1
+T4	Protein 222 226	Vta1
+T6	Protein 389 393	Vta1
+T7	Protein 489 493	Vta1
+T8	Protein 504 508	Vta1
+T9	Protein 623 627	Vta1
+T10	Protein 49 53	Vps4
+R1	Regulation Arg1:T1 Arg2:T10	

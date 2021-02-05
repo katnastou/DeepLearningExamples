@@ -1,0 +1,22 @@
+T1	Protein 102 106	DBC2
+T2	Protein 870 875	Hsp90
+T3	Protein 99 101	HA
+A1	Fusion T3
+#1	AnnotatorNotes T3	not tagged by tagger
+A2	Fusion T1
+T4	Chemical 178 181	PBS
+T5	Chemical 206 222	sodium molybdate
+T6	Chemical 280 283	KOH
+T7	Chemical 292 296	NaCl
+T8	Chemical 303 307	EGTA
+T9	Chemical 314 319	NP-40
+T10	Chemical 324 332	glycerol
+T11	Chemical 340 356	sodium molybdate
+T12	Protein 544 546	HA
+#2	AnnotatorNotes T12	not tagged by tagger, antibody
+T13	Chemical 714 751	sodium dodecyl sulfate-polyacrylamide
+T14	Chemical 773 776	SDS
+T15	Chemical 836 839	SDS
+T16	Protein 890 892	HA
+#3	AnnotatorNotes T16	not tagged by tagger
+T17	Chemical 262 267	Hepes

@@ -1,0 +1,23 @@
+T1	Protein 60 106	human transcription intermediary factor 1alpha
+T2	Protein 1419 1426	ERalpha
+T3	Protein 1483 1490	ERalpha
+T4	Protein 1569 1578	TIF1alpha
+T5	Protein 1670 1676	ERbeta
+T6	Protein 1687 1694	ERalpha
+T7	Family 111 129	estrogen receptors
+R1	Complex_formation Arg1:T1 Arg2:T7	
+T8	Family 595 613	estrogen receptors
+T9	Family 615 618	ERs
+*	Equiv T8 T9
+T10	Protein 628 672	transcription intermediary factor hTIF1alpha
+T11	Protein 674 722	human transcriptional intermediary factor 1alpha
+*	Equiv T10 T11
+R2	Complex_formation Arg1:T8 Arg2:T11	
+T12	Protein 1367 1377	hTIF1alpha
+R3	Complex_formation Arg1:T12 Arg2:T2	
+R4	Complex_formation Arg1:T4 Arg2:T3	
+T13	Protein 1637 1647	hTIF1alpha
+R5	Complex_formation Arg1:T13 Arg2:T5	
+R6	Complex_formation Arg1:T13 Arg2:T6	
+T14	Family 1123 1125	ER
+T15	Chemical 375 390	steroid hormone

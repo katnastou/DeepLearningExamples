@@ -1,0 +1,22 @@
+T2	Protein 116 120	Rho2
+T3	Protein 450 454	rho2
+T5	Protein 521 525	rho2
+T6	Protein 577 584	F-actin
+T7	Protein 685 689	rho2
+T8	Protein 748 752	rho2
+T9	Protein 806 810	rho2
+T10	Protein 924 928	Rho2
+T11	Protein 1046 1050	Rho2
+T12	Protein 1147 1151	Rho2
+T13	Protein 1197 1201	sts5
+T14	Protein 1232 1236	Rho2
+T15	Protein 1412 1416	Rho2
+T16	Protein 1421 1425	Rho1
+T17	Protein 636 639	cdc
+A1	Mutant T17
+T1	Chemical 96 99	GTP
+A2	Blacklisted T1
+R1	Complex_formation Arg1:T2 Arg2:T1	
+T4	Chemical 478 481	GTP
+A3	Blacklisted T4
+R2	Complex_formation Arg1:T4 Arg2:T3	

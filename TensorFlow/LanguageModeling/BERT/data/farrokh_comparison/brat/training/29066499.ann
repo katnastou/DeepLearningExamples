@@ -1,0 +1,13 @@
+T1	Protein 360 382	male-specific lethal 2
+T2	Protein 384 388	MSL2
+T4	Protein 411 419	Maleless
+T5	Protein 421 424	MLE
+T6	Protein 785 788	MLE
+T7	Protein 844 847	MLE
+T8	Protein 1026 1029	MLE
+T9	Protein 1080 1083	MLE
+T10	Protein 1306 1309	MLE
+*	Equiv T4 T5
+*	Equiv T1 T2
+T3	Family 343 359	ubiquitin ligase
+A1	Mutant T6

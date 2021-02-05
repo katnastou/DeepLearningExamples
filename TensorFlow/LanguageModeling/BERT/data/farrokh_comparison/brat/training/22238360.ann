@@ -1,0 +1,46 @@
+T1	Complex 18 24	NUP107
+T2	Protein 211 217	NUP107
+T3	Protein 489 495	NUP107
+T4	Protein 534 540	NUP107
+T5	Protein 541 546	npp-5
+T6	Protein 610 615	NPP-5
+T7	Protein 734 739	NPP-5
+T8	Protein 792 798	NUP133
+T9	Protein 799 805	NPP-15
+T10	Protein 815 821	NUP107
+T11	Protein 861 866	NUP96
+T12	Protein 879 883	ELYS
+T13	Protein 884 890	MEL-28
+T14	Protein 894 899	NPP-5
+T15	Protein 927 951	kinetochore protein NUF2
+T16	Protein 952 958	HIM-10
+T17	Protein 963 971	Aurora B
+T18	Protein 972 977	AIR-2
+T20	Protein 1029 1034	NPP-5
+T21	Protein 1046 1051	npp-5
+T22	Protein 1168 1173	NPP-5
+T23	Protein 1233 1238	MDF-1
+T24	Protein 1285 1290	NPP-5
+T25	Protein 118 122	MAD1
+*	Equiv T4 T5
+*	Equiv T8 T9
+R1	Complex_formation Arg1:T9 Arg2:T10	
+R2	Regulation Arg1:T7 Arg2:T8	
+T26	Protein 867 874	NPP-10C
+*	Equiv T11 T26
+*	Equiv T12 T13
+*	Equiv T15 T16
+*	Equiv T17 T18
+T19	Protein 1228 1232	MAD1
+*	Equiv T19 T23
+R3	Complex_formation Arg1:T1 Arg2:T25	
+R4	Complex_formation Arg1:T11 Arg2:T10	
+R5	Complex_formation Arg1:T13 Arg2:T10	
+R6	Regulation Arg1:T20 Arg2:T18	
+R7	Regulation Arg1:T20 Arg2:T16	
+R8	Complex_formation Arg1:T22 Arg2:T19	
+R9	Regulation Arg1:T24 Arg2:T23	
+T27	Family 657 669	nucleoporins
+A1	Mutant T5
+A2	Mutant T4
+A3	Mutant T21

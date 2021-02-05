@@ -1,0 +1,15 @@
+T1	Protein 251 284	calcium-responsive transactivator
+T2	Protein 303 336	calcium-responsive transactivator
+T4	Protein 34 39	CREST
+T5	Protein 292 297	CREST
+*	Equiv T1 T5 T2
+T6	Protein 339 344	CREST
+T7	Protein 350 353	SYT
+T8	Protein 398 490	adenosine 3',5'-monophosphate (cAMP) response element-binding protein (CREB)-binding protein
+T3	Protein 492 495	CBP
+*	Equiv T8 T3
+R1	Complex_formation Arg1:T6 Arg2:T8	
+T9	Protein 583 588	crest
+T10	Protein 697 702	crest
+T11	Protein 798 803	CREST
+A1	Mutant T10

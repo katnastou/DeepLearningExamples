@@ -1,0 +1,25 @@
+T1	Protein 77 82	Hoxa2
+T2	Protein 105 110	Hoxa2
+T3	Protein 171 176	RCHY1
+T4	Protein 445 450	RCHY1
+T5	Protein 472 477	HOXA2
+T6	OOS 507 513	Fig 1A
+T7	Protein 528 533	RCHY1
+T8	Protein 580 585	HOXA2
+T9	Protein 623 628	Hoxa2
+T10	Protein 654 659	HOXA2
+T11	Protein 685 690	RCHY1
+T12	OOS 440 444	FLAG
+A1	Fusion T12
+#1	AnnotatorNotes T12	not tagged by tagger
+T13	Protein 455 458	GST
+A2	Fusion T13
+#2	AnnotatorNotes T13	not tagged by tagger
+T14	Protein 468 471	GST
+A3	Fusion T14
+#3	AnnotatorNotes T14	not tagged by tagger
+A4	Fusion T4
+A5	Fusion T5
+#4	AnnotatorNotes T6	tagged by tagger
+#5	AnnotatorNotes T11	RCHY1 protein is tagged by tagger
+R1	Complex_formation Arg1:T2 Arg2:T3	

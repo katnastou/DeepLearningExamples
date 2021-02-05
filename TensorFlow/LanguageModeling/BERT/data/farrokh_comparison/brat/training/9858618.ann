@@ -1,0 +1,36 @@
+T1	Protein 25 48	class II transactivator
+T2	Protein 53 73	CREB binding protein
+T3	Protein 240 256	gamma interferon
+T4	Protein 335 358	class II transactivator
+T5	Protein 360 365	CIITA
+T6	Protein 428 433	CIITA
+T7	Protein 452 472	CREB binding protein
+T8	Protein 474 477	CBP
+T9	Protein 569 574	CIITA
+T10	Protein 579 582	CBP
+T11	Protein 640 643	CBP
+T12	Protein 873 876	CBP
+T13	Protein 884 907	glucocorticoid receptor
+T14	Protein 926 929	CBP
+*	Equiv T4 T5
+*	Equiv T7 T8
+R1	Complex_formation Arg1:T1 Arg2:T2
+R2	Complex_formation Arg1:T9 Arg2:T10
+R3	Complex_formation Arg1:T6 Arg2:T7	
+T15	Family 100 147	major histocompatibility complex class II genes
+R4	Regulation_of_transcription Arg1:T2 Arg2:T15	
+R5	Regulation_of_transcription Arg1:T1 Arg2:T15	
+R6	Positive_regulation Arg1:T2 Arg2:T15	
+R7	Positive_regulation Arg1:T1 Arg2:T15	
+T16	Family 150 200	Class II major histocompatibility (class II) genes
+R8	Negative_regulation Arg1:T13 Arg2:T12	
+T17	Family 1008 1022	class II genes
+R9	Regulation_of_transcription Arg1:T14 Arg2:T17	
+T18	Family 482 490	class II
+T19	Family 670 678	class II
+T20	Family 703 711	class II
+T21	Family 777 785	class II
+T22	Chemical 809 831	glucocorticoid hormone
+R10	Regulation_of_gene_expression Arg1:T22 Arg2:T21	
+R11	Negative_regulation Arg1:T22 Arg2:T21	
+T23	Family 933 958	histone acetyltransferase

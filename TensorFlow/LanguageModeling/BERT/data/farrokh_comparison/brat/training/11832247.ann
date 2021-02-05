@@ -1,0 +1,37 @@
+T1	Protein 27 32	Rab3b
+T2	Protein 41 74	polymeric immunoglobulin receptor
+T3	Protein 166 171	rab3b
+T4	Protein 208 213	rab3b
+T5	Protein 263 296	polymeric immunoglobulin receptor
+T6	Protein 298 302	pIgR
+T7	Protein 373 378	rab3b
+T8	Protein 429 433	pIgR
+T9	Protein 454 458	pIgR
+T10	Protein 505 510	rab3b
+T11	Protein 597 601	pIgR
+T12	Protein 634 639	rab3b
+T13	Protein 660 664	pIgR
+T14	Protein 779 784	rab3b
+T15	Protein 862 865	rab
+R1	Complex_formation Arg1:T1 Arg2:T2	
+*	Equiv T6 T5
+R2	Complex_formation Arg1:T7 Arg2:T8	
+T16	Protein 446 450	dIgA
+R3	Complex_formation Arg1:T16 Arg2:T9	
+R4	Negative_regulation Arg1:T16 Arg2:T9	
+R5	Complex_formation Arg1:T9 Arg2:T10	
+T17	Protein 536 540	dIgA
+T18	Protein 652 656	dIgA
+R6	Complex_formation Arg1:T18 Arg2:T13	
+T19	Protein 794 798	dIgA
+R7	Negative_regulation Arg1:T14 Arg2:T19	
+T20	OOS 897 911	specific cargo
+R8	Out-of-scope Arg1:T15 Arg2:T20	
+T21	OOS 536 559	dIgA-mediated signaling
+T22	Chemical 363 366	GTP
+A1	Blacklisted T22
+R9	Complex_formation Arg1:T7 Arg2:T22	
+T23	Chemical 616 619	GTP
+A2	Blacklisted T23
+T24	Chemical 768 771	GTP
+A3	Blacklisted T24

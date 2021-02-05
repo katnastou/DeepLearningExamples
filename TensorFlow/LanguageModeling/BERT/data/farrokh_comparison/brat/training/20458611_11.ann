@@ -1,0 +1,16 @@
+T1	OOS 241 246	new 1
+T2	Chemical 510 513	CoA
+T3	OOS 726 735	protein-1
+T4	Chemical 106 125	potassium phosphate
+T5	Chemical 132 135	DTT
+#1	AnnotatorNotes T1	tagged by tagger
+T6	Chemical 422 429	tricine
+T7	Chemical 439 454	(MgCO3)4Mg(OH)2
+T8	Chemical 457 461	5H2O
+T9	Chemical 471 476	MgSO4
+T10	Chemical 485 489	EDTA
+T11	Chemical 497 500	DTT
+T12	Chemical 523 534	D-luciferin
+T13	Chemical 544 547	ATP
+#2	AnnotatorNotes T3	tagged by tagger
+A1	Blacklisted T13

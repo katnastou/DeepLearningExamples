@@ -1,0 +1,29 @@
+T3	Protein 712 716	p300
+T4	Protein 787 792	SIRT1
+T5	Protein 820 825	SIRT1
+T6	Protein 956 960	p300
+T7	Protein 15 18	tau
+T8	Protein 142 145	tau
+T1	Protein 268 271	tau
+T2	Protein 399 402	tau
+T9	Protein 430 433	tau
+T10	Protein 457 460	tau
+T11	Protein 512 515	tau
+T12	Protein 519 522	tau
+T13	Protein 577 580	tau
+T14	Protein 597 600	tau
+T15	Protein 733 736	tau
+R1	Catalysis_of_acetylation Arg1:T3 Arg2:T15	
+R2	Catalysis_of_deacetylation Arg1:T4 Arg2:T15	
+T16	Protein 856 859	tau
+R3	Catalysis_of_deacetylation Arg1:T5 Arg2:T16	
+T17	Protein 886 889	tau
+T18	Protein 992 995	tau
+R4	Catalysis_of_acetylation Arg1:T6 Arg2:T18	
+T19	Protein 1027 1030	tau
+T20	Protein 1069 1072	tau
+T21	Protein 1131 1134	tau
+T22	Family 686 693	Histone
+R5	Catalysis_of_acetylation Arg1:T3 Arg2:T22	
+T23	Complex 912 922	proteasome
+#1	AnnotatorNotes T22	if histone acetyltransferase is tagged then the relationships are lost

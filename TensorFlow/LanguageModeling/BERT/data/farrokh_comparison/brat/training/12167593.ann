@@ -1,0 +1,47 @@
+T1	Family 0 24	Ubiquitin-protein ligase
+T2	Protein 25 29	WWP2
+T3	Family 242 247	Nedd4
+T4	Family 258 283	ubiquitin-protein ligases
+T5	Protein 506 536	WW domain-containing protein 2
+T6	Protein 538 542	WWP2
+T7	Family 561 566	Nedd4
+T8	Family 577 602	ubiquitin-protein ligases
+T9	Protein 684 688	WWP2
+T10	Protein 790 794	WWP2
+T11	Protein 903 910	Nedd4-2
+T12	Protein 937 941	WWP2
+T13	Protein 1157 1161	WWP2
+#1	AnnotatorNotes T1	Tagged as GGP
+T14	Complex 61 85	epithelial Na(+) channel
+T15	Complex 92 116	epithelial Na(+) channel
+T16	Complex 118 122	ENaC
+*	Equiv T16 T15
+T17	Complex 370 374	ENaC
+*	Equiv T6 T5
+#2	AnnotatorNotes T7	tagged as ggp
+T18	Complex 631 635	ENaC
+T19	Complex 737 741	ENaC
+T20	Complex 860 864	ENaC
+T21	Complex 931 935	ENaC
+T22	Complex 952 956	ENaC
+T23	Complex 1057 1061	ENaC
+T24	Complex 1189 1193	ENaC
+T25	Chemical 1203 1208	Na(+)
+#3	AnnotatorNotes T14	It's the complex https://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=122
+T26	Chemical 175 179	salt
+T27	Chemical 184 189	water
+#4	AnnotatorNotes T8	tagged as ggp
+#5	AnnotatorNotes T4	tagged as ggp
+R1	Out-of-scope Arg1:T2 Arg2:T1	
+#6	AnnotatorNotes R1	Member-of
+R2	Complex_formation Arg1:T2 Arg2:T14	
+R3	Out-of-scope Arg1:T3 Arg2:T4	
+#7	AnnotatorNotes R3	Member-of
+R4	Complex_formation Arg1:T3 Arg2:T15	
+R5	Out-of-scope Arg1:T5 Arg2:T7	
+#8	AnnotatorNotes R5	Member-of
+R6	Out-of-scope Arg1:T7 Arg2:T8	
+#9	AnnotatorNotes R6	Member-of
+R7	Complex_formation Arg1:T10 Arg2:T20	
+R8	Complex_formation Arg1:T11 Arg2:T21	
+R9	Complex_formation Arg1:T12 Arg2:T22	

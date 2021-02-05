@@ -1,0 +1,64 @@
+T1	Protein 0 4	Rab8
+T2	Protein 45 48	LAX
+T3	Protein 103 109	CTLA-4
+T4	Protein 252 258	CTLA-4
+T6	Protein 364 368	Rab8
+T7	Protein 461 467	CTLA-4
+T8	Protein 501 505	TRIM
+T9	Protein 553 559	CTLA-4
+T10	Protein 600 604	TRIM
+T11	Protein 617 620	LAX
+T12	Protein 653 657	Rab8
+T13	Protein 704 707	LAX
+T14	Protein 747 751	Rab8
+T15	Protein 788 794	CTLA-4
+T16	Protein 796 800	TRIM
+T17	Protein 810 813	LAX
+T18	Protein 829 833	Rab8
+T19	Protein 858 861	LAX
+T20	Protein 909 915	CTLA-4
+T21	Protein 970 974	Rab8
+T22	Protein 978 981	LAX
+T23	Protein 999 1002	LAX
+T24	Protein 1003 1007	Rab8
+T25	Protein 1035 1041	CTLA-4
+T26	Protein 1101 1104	LAX
+T27	Protein 1139 1145	CTLA-4
+T28	Protein 1277 1283	CTLA-4
+T29	Protein 1284 1288	TRIM
+T30	Protein 1289 1292	LAX
+T31	Protein 1293 1297	Rab8
+T32	Protein 1335 1341	CTLA-4
+R2	Regulation Arg1:T2 Arg2:T3	
+R3	Complex_formation Arg1:T7 Arg2:T8	
+R4	Complex_formation Arg1:T9 Arg2:T10	
+R5	Complex_formation Arg1:T9 Arg2:T11	
+R6	Complex_formation Arg1:T11 Arg2:T12	
+R7	Complex_formation Arg1:T13 Arg2:T14	
+R8	Complex_formation Arg1:T13 Arg2:T15	
+R9	Complex_formation Arg1:T16 Arg2:T18	
+R10	Regulation Arg1:T17 Arg2:T16	
+R11	Regulation Arg1:T19 Arg2:T20	
+R12	Complex_formation Arg1:T23 Arg2:T24	
+R13	Regulation Arg1:T23 Arg2:T25	
+R14	Regulation Arg1:T24 Arg2:T25	
+R15	Regulation Arg1:T21 Arg2:T25	
+R16	Regulation Arg1:T22 Arg2:T25	
+R17	Regulation Arg1:T26 Arg2:T27	
+R18	Complex_formation Arg1:T28 Arg2:T29	
+R19	Complex_formation Arg1:T29 Arg2:T30	
+R20	Complex_formation Arg1:T30 Arg2:T31	
+R21	Complex_formation Arg1:T29 Arg2:T31	
+R22	Complex_formation Arg1:T28 Arg2:T30	
+R23	Complex_formation Arg1:T28 Arg2:T29	
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T5	Family 345 348	Ras
+R24	Complex_formation Arg1:T11 Arg2:T10	
+R25	Complex_formation Arg1:T9 Arg2:T12	
+R26	Complex_formation Arg1:T10 Arg2:T12	
+T33	Chemical 743 746	GTP
+A1	Blacklisted T33
+T34	Chemical 643 646	GTP
+A2	Blacklisted T34
+R27	Complex_formation Arg1:T12 Arg2:T34	
+R28	Complex_formation Arg1:T14 Arg2:T33	

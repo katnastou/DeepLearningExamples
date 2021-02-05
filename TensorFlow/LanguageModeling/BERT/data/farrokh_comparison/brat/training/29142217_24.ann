@@ -1,0 +1,13 @@
+T1	Protein 55 61	FBXO32
+T2	Protein 277 283	FBXO32
+T3	Protein 392 398	FBXO32
+T4	Protein 530 536	FBXO32
+T5	Protein 843 849	FBXO32
+T6	Protein 936 942	FBXO32
+T7	Protein 1055 1061	FBXO32
+T8	Protein 1450 1456	FBXO32
+T9	Protein 1704 1710	FBXO32
+T10	Protein 1769 1775	FBXO32
+T11	Protein 1988 1994	FBXO32
+T12	OOS 69 72	EMT
+#1	AnnotatorNotes T12	epithelial-mesenchymal transition

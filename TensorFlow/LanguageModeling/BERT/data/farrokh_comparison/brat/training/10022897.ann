@@ -1,0 +1,55 @@
+T1	Protein 61 64	Fas
+T2	Protein 93 96	p50
+T3	Protein 97 100	p65
+T4	Protein 115 118	Fas
+T5	Protein 120 124	CD95
+T6	Protein 130 140	Fas ligand
+T7	Protein 142 147	CD95L
+T8	Protein 275 278	Fas
+T9	Protein 328 332	FasL
+T10	Protein 362 365	Fas
+T11	Protein 564 567	Fas
+T12	Protein 618 621	fas
+T13	Protein 842 845	Fas
+T14	Protein 847 850	Fas
+T15	Protein 966 969	fas
+T16	Protein 1120 1123	fas
+T17	Protein 1243 1246	Sp1
+T18	Protein 1428 1431	Sp1
+T19	Protein 1489 1492	p50
+T20	Protein 1493 1496	p65
+T21	Protein 1542 1545	Sp1
+T22	Protein 1679 1682	Sp1
+T23	Protein 1699 1702	p50
+T24	Protein 1746 1749	Sp1
+T25	Protein 1782 1785	fas
+T26	Protein 1835 1838	Sp1
+T27	Protein 1985 1998	IkappaB-alpha
+T28	Protein 2076 2079	Sp1
+T29	Protein 2155 2158	fas
+*	Equiv T6 T7
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T5 Arg2:T7
+R2	Regulation_of_transcription Arg1:T2 Arg2:T1	
+R3	Regulation_of_transcription Arg1:T3 Arg2:T1	
+R4	Complex_formation Arg1:T19 Arg2:T20	
+R5	Regulation_of_transcription Arg1:T24 Arg2:T25	
+R6	Regulation_of_transcription Arg1:T28 Arg2:T29	
+R7	Complex_formation Arg1:T2 Arg2:T3	
+R8	Positive_regulation Arg1:T24 Arg2:T25	
+R9	Positive_regulation Arg1:T28 Arg2:T29	
+T30	Complex 83 92	NF-kappaB
+T31	Complex 1251 1260	NF-kappaB
+T32	Complex 1497 1506	NF-kappaB
+T33	Complex 1550 1559	NF-kappaB
+T34	Complex 1739 1745	kappaB
+T35	Complex 1828 1834	kappaB
+T36	Complex 2069 2075	kappaB
+R10	Regulation_of_transcription Arg1:T34 Arg2:T25	
+R11	Positive_regulation Arg1:T34 Arg2:T25	
+R12	Regulation_of_transcription Arg1:T36 Arg2:T29	
+R13	Positive_regulation Arg1:T36 Arg2:T29	
+*	Equiv T14 T13
+R14	Regulation_of_transcription Arg1:T17 Arg2:T15	
+R15	Regulation_of_transcription Arg1:T31 Arg2:T15	
+R16	Out-of-scope Arg1:T26 Arg2:T35	

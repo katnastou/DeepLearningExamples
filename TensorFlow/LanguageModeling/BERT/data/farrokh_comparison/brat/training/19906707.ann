@@ -1,0 +1,24 @@
+T1	Protein 412 417	Rad21
+T2	Protein 679 684	53BP1
+T3	Protein 723 728	Rad21
+T4	Protein 834 837	ATM
+T5	Protein 990 995	Rad21
+T6	Protein 1374 1377	ATM
+T7	Complex 0 7	Cohesin
+T8	Complex 113 120	cohesin
+T9	Complex 386 393	cohesin
+T10	Protein 403 407	SMC1
+T11	Protein 565 569	SMC1
+#1	AnnotatorNotes T2	tagged by tagger
+T12	Protein 714 718	SMC1
+T13	Protein 818 824	DNA-PK
+T14	Protein 900 904	SMC1
+T15	Protein 1000 1004	SMC1
+T16	Complex 1235 1242	cohesin
+T17	OOS 1374 1395	ATM-dependent pathway
+R1	Out-of-scope Arg1:T10 Arg2:T9	
+#2	AnnotatorNotes R1	Part-of
+R2	Out-of-scope Arg1:T1 Arg2:T9	
+#3	AnnotatorNotes R2	Part-of
+R3	Complex_formation Arg1:T10 Arg2:T1	
+#4	AnnotatorNotes R3	Inferred: subunits of COMPLEX

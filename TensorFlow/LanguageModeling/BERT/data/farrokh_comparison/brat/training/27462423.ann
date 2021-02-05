@@ -1,0 +1,25 @@
+T1	Protein 40 46	ERLIN2
+T2	Protein 59 68	Cyclin B1
+T3	Protein 186 192	ERLIN2
+T4	Protein 232 238	ERLIN2
+T5	Protein 413 419	ERLIN2
+T6	Protein 467 473	ERLIN2
+T7	Protein 673 679	ERLIN2
+T8	Protein 762 768	ERLIN2
+T9	Protein 844 850	ERLIN2
+T10	Protein 978 984	ERLIN2
+T11	Protein 1045 1054	Cyclin B1
+T12	Protein 1055 1059	Cdk1
+T13	Protein 1061 1067	ERLIN2
+T14	Protein 1127 1136	Cyclin B1
+T15	Protein 1178 1184	ERLIN2
+T16	Protein 1409 1415	ERLIN2
+R1	Positive_regulation Arg1:T1 Arg2:T2	
+T17	Protein 126 184	endoplasmic reticulum (ER) lipid raft-associated protein 2
+*	Equiv T17 T3
+T18	Protein 892 905	alpha-tubulin
+R2	Complex_formation Arg1:T9 Arg2:T18	
+R3	Complex_formation Arg1:T10 Arg2:T11	
+R4	Complex_formation Arg1:T10 Arg2:T12	
+R5	Complex_formation Arg1:T11 Arg2:T12	
+R6	Regulation Arg1:T13 Arg2:T14	

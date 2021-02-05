@@ -1,0 +1,36 @@
+T1	Protein 48 52	DTX1
+T2	Protein 647 651	DTX1
+T3	Protein 720 724	DTX1
+T4	Protein 817 821	DTX1
+T5	Protein 959 963	DTX1
+T6	Protein 22 26	HES1
+T7	Protein 99 103	HES1
+T8	Protein 105 111	dnHES1
+A1	Mutant T8
+A2	Mutant T7
+T9	Protein 210 214	HES1
+T10	Protein 314 318	HES1
+T11	OOS 319 321	AB
+T12	Protein 352 356	HES1
+T13	Protein 368 372	HES1
+T14	OOS 373 375	AB
+T15	Protein 406 412	dnHES1
+A5	Mutant T15
+T16	Protein 422 426	HES1
+T17	Protein 450 454	Hes1
+T18	OOS 455 457	AB
+T19	Protein 600 606	dnHES1
+A7	Mutant T19
+T20	Protein 619 623	HES1
+T21	Protein 701 707	dnHES1
+A8	Mutant T21
+T22	Protein 801 805	HES1
+T23	Protein 864 869	HASH1
+T24	Protein 879 883	HES1
+T25	Protein 916 922	dnHES1
+A9	Mutant T25
+#1	AnnotatorNotes T14	promoter region?
+#2	AnnotatorNotes T11	promoter region?
+#3	AnnotatorNotes T18	promoter region?
+R1	Regulation_of_transcription Arg1:T9 Arg2:T10	
+#4	AnnotatorNotes R1	"its own promoter"

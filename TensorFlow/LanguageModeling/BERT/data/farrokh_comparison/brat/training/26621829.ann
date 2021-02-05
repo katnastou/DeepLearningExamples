@@ -1,0 +1,19 @@
+T1	Protein 27 31	Sun4
+T2	Protein 683 687	Sun4
+T3	Protein 753 757	Sun4
+T4	Protein 871 875	Sun3
+T5	Protein 876 884	Nesprin1
+T6	Protein 926 930	Sun4
+T7	Complex 4 8	LINC
+T8	Complex 93 97	LINC
+T9	Complex 717 721	LINC
+T10	Complex 885 889	LINC
+T11	Complex 1235 1239	LINC
+T12	Complex 1025 1029	LINC
+T13	Complex 563 567	LINC
+R1	Out-of-scope Arg1:T1 Arg2:T7	
+#1	AnnotatorNotes R1	Part-of
+R2	Out-of-scope Arg1:T2 Arg2:T9	
+#2	AnnotatorNotes R2	Part-of
+R3	Complex_formation Arg1:T3 Arg2:T4	
+R4	Complex_formation Arg1:T3 Arg2:T5	

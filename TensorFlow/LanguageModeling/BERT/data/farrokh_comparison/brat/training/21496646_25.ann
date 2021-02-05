@@ -1,0 +1,7 @@
+T1	Protein 26 33	Thorase
+T2	Protein 43 50	Thorase
+T3	Protein 159 166	Thorase
+T4	Protein 250 257	Thorase
+T5	Protein 510 517	Thorase
+T6	OOS 51 55	flox
+#1	AnnotatorNotes T6	In genetics, floxing refers to the sandwiching of a DNA sequence (which is then said to be floxed) between two lox P sites.

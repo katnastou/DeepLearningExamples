@@ -1,0 +1,75 @@
+T1	Protein 0 4	TAL1
+T2	Protein 50 79	retinaldehyde dehydrogenase 2
+T3	Protein 157 162	GATA3
+T4	Protein 196 200	TAL1
+T5	Protein 369 373	TAL1
+T6	Protein 525 529	TAL1
+T7	Protein 645 649	TAL1
+T8	Protein 723 752	retinaldehyde dehydrogenase 2
+T9	Protein 754 760	RALDH2
+T10	Protein 836 840	TAL1
+T11	Protein 874 878	TAL1
+T12	Protein 918 924	RALDH2
+T13	Protein 994 998	TAL1
+T14	Protein 1011 1017	RALDH2
+T15	Protein 1221 1225	TAL1
+T16	Protein 1277 1282	GATA3
+T17	Protein 1337 1342	GATA3
+T18	Protein 1372 1378	RALDH2
+T19	Protein 1382 1386	TAL1
+T20	Protein 1461 1465	TAL1
+T21	Protein 1528 1534	RALDH2
+T22	Protein 1562 1567	GATA3
+T23	Protein 1606 1612	RALDH2
+T24	Protein 1689 1693	TAL1
+T25	Protein 1726 1730	TAL1
+T26	Protein 1760 1765	GATA3
+T27	Protein 1799 1805	RALDH2
+*	Equiv T8 T9
+T28	Protein 209 217	LIM-only
+T29	Protein 232 235	LMO
+*	Equiv T28 T29
+T30	Protein 9 17	LIM-only
+T31	Protein 378 381	LMO
+T32	Protein 845 848	LMO
+T33	Protein 1002 1005	LMO
+T34	Protein 883 886	LMO
+T35	Protein 1391 1394	LMO
+R1	Complex_formation Arg1:T17 Arg2:T19	
+R2	Complex_formation Arg1:T17 Arg2:T35	
+R3	Complex_formation Arg1:T19 Arg2:T35	
+T36	Protein 1554 1557	LMO
+R4	Out-of-scope Arg1:T20 Arg2:T21	
+T37	Protein 1698 1701	LMO
+T38	Protein 1735 1738	LMO
+R5	Positive_regulation Arg1:T30 Arg2:T2	
+R6	Positive_regulation Arg1:T1 Arg2:T2	
+R7	Regulation_of_gene_expression Arg1:T30 Arg2:T2	
+R8	Regulation_of_gene_expression Arg1:T1 Arg2:T2	
+R9	Complex_formation Arg1:T30 Arg2:T3	
+R10	Complex_formation Arg1:T1 Arg2:T3	
+T39	Protein 534 537	LMO
+T40	Protein 654 657	LMO
+T41	Protein 1231 1234	LMO
+R11	Regulation_of_transcription Arg1:T15 Arg2:T14	
+R12	Regulation_of_transcription Arg1:T41 Arg2:T14	
+R13	Regulation_of_transcription Arg1:T16 Arg2:T14	
+R14	Positive_regulation Arg1:T17 Arg2:T18	
+R15	Positive_regulation Arg1:T19 Arg2:T18	
+R16	Positive_regulation Arg1:T35 Arg2:T18	
+R17	Out-of-scope Arg1:T20 Arg2:T21	
+R18	Regulation_of_transcription Arg1:T24 Arg2:T23	
+R19	Regulation_of_transcription Arg1:T37 Arg2:T23	
+R20	Complex_formation Arg1:T38 Arg2:T26	
+R21	Complex_formation Arg1:T25 Arg2:T26	
+R22	Regulation_of_transcription Arg1:T26 Arg2:T27	
+R23	Regulation_of_transcription Arg1:T38 Arg2:T27	
+R24	Regulation_of_transcription Arg1:T25 Arg2:T27	
+R25	Positive_regulation Arg1:T26 Arg2:T27	
+R26	Positive_regulation Arg1:T38 Arg2:T27	
+R27	Positive_regulation Arg1:T25 Arg2:T27	
+R28	Regulation_of_transcription Arg1:T34 Arg2:T12	
+R29	Regulation_of_transcription Arg1:T11 Arg2:T12	
+R30	Positive_regulation Arg1:T34 Arg2:T12	
+R31	Positive_regulation Arg1:T11 Arg2:T12	
+T42	Family 1131 1135	GATA

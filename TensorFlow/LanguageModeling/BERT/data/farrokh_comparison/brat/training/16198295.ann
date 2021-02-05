@@ -1,0 +1,35 @@
+T1	Protein 21 32	follistatin
+T2	Protein 269 280	follistatin
+T3	Protein 455 466	follistatin
+T4	Protein 472 483	follistatin
+T5	Protein 690 701	follistatin
+T6	Protein 746 757	follistatin
+T7	Protein 903 914	follistatin
+T8	Protein 1025 1036	follistatin
+T9	Protein 1076 1087	follistatin
+T10	Protein 33 40	activin
+T11	Family 114 122	TGF-beta
+T12	Protein 387 396	activin A
+T13	Family 400 408	TGF-beta
+T14	Protein 503 510	activin
+#1	AnnotatorNotes T14	gonadal protein
+#2	AnnotatorNotes T12	gonadal protein, belongs to TGF-beta family
+T15	Family 915 918	BMP
+T16	Family 919 934	type I receptor
+T17	Protein 1017 1024	activin
+T18	Family 76 82	type I
+#3	AnnotatorNotes T18	Type I cytokine receptor i.e. ILs
+T19	Family 87 103	type II receptor
+T20	Family 216 222	type I
+T21	Family 227 239	II receptors
+T22	Family 642 657	type I receptor
+T23	Family 823 838	type I receptor
+R1	Complex_formation Arg1:T1 Arg2:T10	
+R2	Complex_formation Arg1:T12 Arg2:T3	
+R3	Complex_formation Arg1:T4 Arg2:T14	
+#4	AnnotatorNotes R3	Inferred: previous sentence, "encircle" is not clear enough as a cue
+R4	Complex_formation Arg1:T22 Arg2:T14	
+R5	Complex_formation Arg1:T7 Arg2:T15	
+R6	Complex_formation Arg1:T7 Arg2:T16	
+R7	Complex_formation Arg1:T15 Arg2:T16	
+R8	Complex_formation Arg1:T17 Arg2:T8	

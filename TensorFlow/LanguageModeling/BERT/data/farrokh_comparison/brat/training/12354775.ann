@@ -1,0 +1,47 @@
+T1	Protein 35 46	dishevelled
+T2	Family 66 69	Wnt
+T3	Protein 81 94	naked cuticle
+T4	Protein 132 145	naked cuticle
+T5	Protein 147 150	nkd
+T6	Protein 168 176	wingless
+T7	Family 177 180	Wnt
+T8	Protein 254 257	Nkd
+T10	Family 381 384	Wnt
+T11	Protein 404 415	dishevelled
+T12	Protein 417 420	Dsh
+T13	Protein 441 444	Dsh
+T14	Protein 467 470	Nkd
+T15	Protein 631 634	Nkd
+T16	Family 649 652	Wnt
+T17	Protein 681 684	Nkd
+T18	Protein 746 749	Nkd
+T19	Protein 750 753	Dsh
+T20	Protein 915 918	Nkd
+T21	Protein 919 922	Dsh
+T23	Protein 992 995	Nkd
+T24	Protein 996 999	Dsh
+T26	Protein 1104 1107	Nkd
+T27	Protein 1174 1177	Nkd
+T28	Family 1193 1196	Wnt
+T29	Protein 1228 1231	Dsh
+T30	Protein 1288 1291	Nkd
+T31	Protein 1348 1351	Dsh
+R1	Complex_formation Arg1:T1 Arg2:T3	
+R2	Regulation Arg1:T3 Arg2:T2	
+*	Equiv T4 T5
+R3	Positive_regulation Arg1:T5 Arg2:T6	
+R4	Complex_formation Arg1:T8 Arg2:T11	
+*	Equiv T12 T11
+R5	Regulation Arg1:T11 Arg2:T10	
+R6	Complex_formation Arg1:T13 Arg2:T14	
+R7	Negative_regulation Arg1:T15 Arg2:T16	
+R8	Complex_formation Arg1:T18 Arg2:T19	
+R9	Complex_formation Arg1:T20 Arg2:T21	
+R10	Complex_formation Arg1:T23 Arg2:T24	
+R11	Complex_formation Arg1:T27 Arg2:T29	
+R12	Negative_regulation Arg1:T27 Arg2:T28	
+R13	Complex_formation Arg1:T30 Arg2:T31	
+T9	OOS 168 190	wingless/Wnt signaling
+T22	OOS 381 391	Wnt signal
+T25	OOS 649 662	Wnt signaling
+T32	OOS 1193 1206	Wnt signaling

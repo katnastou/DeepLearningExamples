@@ -1,0 +1,8 @@
+T1	Protein 22 27	Buffy
+T2	Protein 32 37	Debcl
+T3	Protein 186 191	Buffy
+T4	Protein 260 265	Debcl
+T5	Protein 516 521	Buffy
+T6	Protein 538 543	Debcl
+T7	Protein 196 200	lacZ
+#1	AnnotatorNotes T7	not tagged by tagger\

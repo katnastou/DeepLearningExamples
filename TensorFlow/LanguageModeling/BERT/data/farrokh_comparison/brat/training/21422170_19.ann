@@ -1,0 +1,25 @@
+T1	Protein 19 24	NKp30
+T2	Protein 45 50	B7-H6
+T3	Protein 229 234	NKp30
+T4	Protein 274 279	B7-H6
+T5	Protein 326 331	NKp30
+T6	Protein 332 337	B7-H6
+T7	Protein 442 447	NKp30
+T8	Protein 463 468	B7-H6
+T9	Protein 532 538	CTLA-4
+T10	Protein 539 543	B7-1
+T11	Protein 618 622	PDL1
+T12	Protein 1116 1121	B7-H6
+T13	Protein 1255 1260	NKp30
+T14	Protein 1293 1297	CD28
+T15	Protein 1364 1369	NKp30
+T16	Protein 1370 1375	B7-H6
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+R3	Complex_formation Arg1:T5 Arg2:T6	
+R4	Complex_formation Arg1:T7 Arg2:T8	
+R5	Complex_formation Arg1:T9 Arg2:T10	
+T17	Protein 613 617	PD-1
+R6	Complex_formation Arg1:T17 Arg2:T11	
+R7	Complex_formation Arg1:T12 Arg2:T13	
+R8	Complex_formation Arg1:T15 Arg2:T16	

@@ -1,0 +1,49 @@
+T1	Protein 29 40	Inscuteable
+T2	Protein 172 183	Inscuteable
+T3	Protein 367 371	Numb
+T4	Protein 428 439	Inscuteable
+T5	Protein 505 512	Bazooka
+T6	Protein 630 641	Inscuteable
+T7	Protein 727 749	Partner of Inscuteable
+T8	Family 778 801	G-protein alpha subunit
+T9	Protein 862 873	Inscuteable
+T10	Protein 1030 1041	Inscuteable
+T11	Protein 1153 1164	Inscuteable
+T12	Protein 1169 1176	Bazooka
+T13	Protein 1220 1231	inscuteable
+T14	Protein 1334 1345	Inscuteable
+T15	Protein 1522 1526	Numb
+T16	Protein 1582 1593	Inscuteable
+T17	Protein 1666 1677	Inscuteable
+T18	Protein 1766 1777	Inscuteable
+T19	Protein 1939 1950	Inscuteable
+T20	Family 49 71	Galpha-binding protein
+T21	Protein 72 76	Pins
+T22	Protein 376 384	Prospero
+T23	Protein 751 755	Pins
+*	Equiv T23 T7
+#1	AnnotatorNotes T8	tagged as ggp by tagger,
+T24	Protein 909 913	Pins
+T25	Family 991 997	Galpha
+T26	Protein 1008 1012	Pins
+T27	Protein 1134 1138	Pins
+T28	Protein 1233 1237	Pins
+T29	Protein 1350 1354	pins
+A1	Mutant T29
+T30	Protein 1531 1538	Miranda
+T31	Protein 1597 1601	pins
+A2	Mutant T31
+T32	Protein 1757 1761	Pins
+T33	Protein 1877 1881	Pins
+T34	Family 1885 1891	Galpha
+T35	Protein 1955 1959	Pins
+T36	Complex 2052 2061	G-protein
+#2	AnnotatorNotes T36	I think it implies Gα,Gβ,Gγ
+R1	Complex_formation Arg1:T1 Arg2:T21	
+R2	Out-of-scope Arg1:T21 Arg2:T20	
+#3	AnnotatorNotes R2	Member-of
+R3	Complex_formation Arg1:T4 Arg2:T5	
+R4	Complex_formation Arg1:T7 Arg2:T9	
+R5	Complex_formation Arg1:T8 Arg2:T9	
+R6	Complex_formation Arg1:T24 Arg2:T25	
+R7	Complex_formation Arg1:T33 Arg2:T34	

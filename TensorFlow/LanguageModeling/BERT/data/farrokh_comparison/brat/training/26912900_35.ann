@@ -1,0 +1,24 @@
+T1	Family 1367 1390	deubiquitinating enzyme
+T2	Protein 1391 1395	Ubp6
+T3	Protein 30 34	Rpn1
+T4	Protein 48 57	ubiquitin
+T5	Family 62 65	UBL
+T6	Complex 120 130	proteasome
+T7	Complex 188 198	proteasome
+T8	Complex 257 267	proteasome
+T9	Protein 493 502	ubiquitin
+T10	Protein 653 662	ubiquitin
+T11	Protein 747 756	ubiquitin
+T12	Complex 775 785	proteasome
+T13	Family 987 993	ATPase
+T14	Protein 1018 1027	ubiquitin
+T15	Complex 1125 1135	proteasome
+T16	Complex 1251 1261	proteasome
+T17	Family 1404 1410	ATPase
+R1	Complex_formation Arg1:T3 Arg2:T4	
+R2	Complex_formation Arg1:T3 Arg2:T5	
+A1	Blacklisted T4
+A2	Blacklisted T9
+A3	Blacklisted T10
+A4	Blacklisted T11
+A5	Blacklisted T14

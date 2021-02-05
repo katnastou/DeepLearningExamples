@@ -1,0 +1,40 @@
+T1	Protein 70 75	MyD88
+T2	Protein 516 521	MyD88
+T3	Protein 608 613	TIRAP
+T4	Protein 706 711	MyD88
+T5	Protein 760 765	MyD88
+T6	Protein 826 831	MyD88
+T7	Protein 847 852	MyD88
+T8	Protein 857 862	MyD88
+T9	Protein 868 873	MyD88
+T10	Protein 878 883	MyD88
+T11	Protein 893 898	MyD88
+T12	Protein 903 908	MyD88
+T13	Protein 930 935	MyD88
+T14	Protein 936 941	MyD88
+T15	Protein 945 950	MyD88
+T16	Protein 956 961	MyD88
+T17	Protein 1087 1092	MyD88
+T18	Protein 30 34	TcpB
+T21	Protein 322 326	TcpB
+T23	Protein 487 491	TcpB
+T24	Protein 677 681	TcpB
+T25	Protein 598 602	TcpB
+T26	Protein 701 705	TcpB
+T27	Protein 771 775	TcpB
+T28	Protein 833 837	TcpB
+T30	Protein 1041 1045	TcpB
+T31	Protein 1060 1063	TLR
+R1	Complex_formation Arg1:T18 Arg2:T1	
+R2	Complex_formation Arg1:T23 Arg2:T2	
+R3	Complex_formation Arg1:T25 Arg2:T3	
+R4	Complex_formation Arg1:T24 Arg2:T3	
+R5	Complex_formation Arg1:T26 Arg2:T4	
+R6	Out-of-scope Arg1:T30 Arg2:T31	
+R7	Complex_formation Arg1:T30 Arg2:T17	
+T20	OOS 1060 1073	TLR signaling
+R8	Complex_formation Arg1:T7 Arg2:T8	
+R9	Complex_formation Arg1:T9 Arg2:T10	
+R10	Complex_formation Arg1:T11 Arg2:T12	
+R11	Complex_formation Arg1:T14 Arg2:T13	
+R12	Complex_formation Arg1:T16 Arg2:T15	

@@ -1,0 +1,55 @@
+T1	Protein 0 4	GrpL
+T2	Protein 8 36	Grb2-related adaptor protein
+T3	Protein 53 59	SLP-76
+T4	Protein 222 254	SH2 domain-containing protein 76
+T5	Protein 256 262	SLP-76
+T6	Protein 318 321	Vav
+T7	Protein 497 501	Grb2
+T8	Protein 538 581	Grb2-related protein of the lymphoid system
+T9	Protein 583 587	GrpL
+T10	Protein 604 608	GrpL
+T11	Protein 678 682	Grb2
+T12	Protein 716 720	GrpL
+T13	Protein 754 760	SLP-76
+T14	Protein 774 778	Sos1
+T15	Protein 782 786	Sos2
+T16	Protein 826 830	Grb2
+T17	Protein 864 868	Sos1
+T18	Protein 873 877	Sos2
+T19	Protein 891 897	SLP-76
+T20	Protein 933 936	LAT
+T21	Protein 937 944	pp36/38
+T22	Protein 1024 1028	Grb2
+T23	Protein 1037 1041	GrpL
+T24	Protein 1106 1110	GrpL
+T25	Protein 1115 1119	Grb2
+T26	Protein 1157 1161	GrpL
+T27	Protein 1162 1168	SLP-76
+T28	Protein 1208 1212	GrpL
+T29	Protein 1245 1251	SLP-76
+*	Equiv T8 T9
+*	Equiv T20 T21
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T1 Arg2:T3
+R2	Complex_formation Arg1:T5 Arg2:T6
+R3	Out-of-scope Arg1:T12 Arg2:T14
+R4	Out-of-scope Arg1:T12 Arg2:T15
+R5	Complex_formation Arg1:T12 Arg2:T13
+R6	Complex_formation Arg1:T17 Arg2:T16
+R7	Out-of-scope Arg1:T19 Arg2:T16
+R8	Complex_formation Arg1:T18 Arg2:T16
+R9	Complex_formation Arg1:T20 Arg2:T22
+R10	Out-of-scope Arg1:T20 Arg2:T23
+R11	Complex_formation Arg1:T26 Arg2:T27	
+R12	Complex_formation Arg1:T28 Arg2:T29	
+T30	Family 373 378	NF-AT
+R13	Positive_regulation Arg1:T5 Arg2:T30	
+*	Equiv T1 T2
+T31	Protein 985 988	CD3
+R14	Complex_formation Arg1:T24 Arg2:T25	
+T32	Family 1263 1268	NF-AT
+R15	Positive_regulation Arg1:T28 Arg2:T32	
+T33	Family 152 175	T cell antigen receptor
+T34	Family 177 180	TCR
+*	Equiv T33 T34
+#1	AnnotatorNotes T31	antibody

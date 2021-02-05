@@ -1,0 +1,41 @@
+T1	Protein 98 102	GPVI
+T2	Protein 355 358	vWF
+T3	Protein 1412 1415	vWF
+T4	Chemical 484 498	hydroxyproline
+T5	Chemical 26 33	(GPO)10
+#1	AnnotatorNotes T5	I annotated as chemicals, but could be OOS
+T6	Chemical 35 55	GCO-(GPO)10-GCOG-NH2
+T7	Chemical 112 118	GFOGER
+T8	Chemical 128 152	GPC(GPP)5GFOGER(GPP)5GPC
+T9	Chemical 262 271	RGQOGVMGF
+T10	Chemical 281 334	GPC-(GPP)5-GPOGPSGPRGQOGVMGFOGPKGNDGAO-(GPP)5-GPC-NH2
+T11	Chemical 440 449	RGQOGVMGF
+T12	Protein 375 383	collagen
+T13	Protein 72 80	collagen
+T14	Chemical 515 524	RGQPGVMGF
+T15	Chemical 563 572	RGQPGVMGF
+T16	Chemical 649 711	PGGPDGGF(P)10GPGGKPPNGQGPPSPPGPAGGPGPGMPPGPPGGVPGCGGPGRPPC-NH2
+T17	Chemical 943 949	GFOGER
+T18	Chemical 1002 1011	RGQOGVMGF
+T19	Chemical 1078 1087	RGQPGVMGF
+T20	Chemical 1190 1193	PBS
+T21	Chemical 1253 1257	SPDP
+T22	Chemical 1259 1307	N-succinimimidyl-3-[2-Pyridyldithiol] propionate
+*	Equiv T21 T22
+T23	Chemical 1393 1402	RGQOGVMGF
+T24	Chemical 1437 1444	(GPO)10
+T25	Chemical 1491 1497	GFOGER
+T26	Chemical 1530 1534	Ca2+
+R1	Complex_formation Arg1:T13 Arg2:T1	
+#2	AnnotatorNotes R1	Inferred: XXX-binding domain/site
+R2	Complex_formation Arg1:T5 Arg2:T1	
+R3	Complex_formation Arg1:T6 Arg2:T1	
+R4	Complex_formation Arg1:T2 Arg2:T12	
+#3	AnnotatorNotes R4	Inferred: XXX-binding domain/site
+R5	Complex_formation Arg1:T9 Arg2:T12	
+R6	Complex_formation Arg1:T10 Arg2:T12	
+#4	AnnotatorNotes R2	TODO check: Could "Chemical recognizes GGP site" be a complex formation?
+T27	Protein 0 8	Collagen
+#6	AnnotatorNotes R3	TODO check: Could "Chemical recognizes GGP site" be a complex formation?
+#7	AnnotatorNotes R5	TODO check: Could "Chemical recognizes GGP site" be a complex formation?
+#8	AnnotatorNotes R6	TODO check: Could "Chemical recognizes GGP site" be a complex formation?

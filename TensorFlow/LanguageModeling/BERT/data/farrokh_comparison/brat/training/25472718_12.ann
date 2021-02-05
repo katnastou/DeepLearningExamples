@@ -1,0 +1,59 @@
+T1	Protein 68 72	Klp5
+T2	Protein 76 80	Klp6
+T3	Protein 133 137	Klp6
+T4	Protein 181 185	Klp5
+T5	Protein 224 228	Klp5
+T6	Protein 283 287	Klp6
+T7	Protein 347 351	Klp5
+T8	Protein 356 360	Klp6
+T9	Protein 612 616	Klp5
+T10	Protein 621 625	Klp6
+T11	Protein 654 658	Klp5
+T12	Protein 659 663	Klp6
+T13	Protein 753 757	Klp5
+T14	Protein 758 762	Klp6
+T15	Protein 906 910	Klp5
+T16	Protein 911 915	Klp6
+T17	Protein 11 23	DeltaPP1dis2
+A1	Mutant T17
+A2	Mutant T3
+A3	Mutant T4
+T18	Protein 97 102	ndc80
+T19	OOS 97 107	ndc80-NH12
+#1	AnnotatorNotes T19	mutant
+T20	Protein 485 490	ndc80
+A4	Mutant T20
+A5	Mutant T18
+T21	Protein 558 563	ndc80
+A6	Mutant T21
+T22	Protein 925 928	PP1
+T23	OOS 977 980	SAC
+#2	AnnotatorNotes T23	spindle assembly checkpoint 
+T24	Protein 858 861	PP1
+T25	Protein 138 144	PP1mut
+A7	Mutant T25
+T26	Protein 186 192	PP1mut
+A8	Mutant T26
+*	Equiv T26 T4
+*	Equiv T25 T3
+T27	Protein 43 46	PP1
+T28	Protein 242 245	PP1
+R1	Complex_formation Arg1:T27 Arg2:T1	
+#3	AnnotatorNotes R1	Inferred: XXX-binding domain/site
+R2	Complex_formation Arg1:T27 Arg2:T2	
+#4	AnnotatorNotes R2	Inferred: XXX-binding domain/site
+R3	Complex_formation Arg1:T5 Arg2:T28	
+#5	AnnotatorNotes R3	Inferred: XXX-binding domain/site
+R4	Complex_formation Arg1:T28 Arg2:T6	
+#6	AnnotatorNotes R4	Inferred: XXX-binding domain/site
+T29	Protein 364 367	PP1
+R5	Complex_formation Arg1:T7 Arg2:T29	
+R6	Complex_formation Arg1:T8 Arg2:T29	
+R7	Complex_formation Arg1:T13 Arg2:T24	
+#8	AnnotatorNotes R7	"recruitment"
+R8	Complex_formation Arg1:T14 Arg2:T24	
+#9	AnnotatorNotes R8	"recruitment"
+R9	Complex_formation Arg1:T15 Arg2:T22	
+R10	Complex_formation Arg1:T16 Arg2:T22	
+#10	AnnotatorNotes R9	"deliver"
+#11	AnnotatorNotes R10	"deliver"

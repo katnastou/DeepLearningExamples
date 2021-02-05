@@ -1,0 +1,56 @@
+T1	Protein 0 8	Vinculin
+T2	Protein 80 88	Vinculin
+T3	Protein 276 289	vinculin tail
+T4	Protein 373 379	actins
+T5	Protein 1549 1557	vinculin
+T6	Protein 19 24	actin
+T7	Protein 53 58	actin
+R1	Regulation Arg1:T1 Arg2:T6	
+R2	Regulation Arg1:T1 Arg2:T7	
+T8	Complex 95 104	integrins
+T9	Protein 112 117	actin
+T10	Protein 142 149	F-actin
+R3	Complex_formation Arg1:T2 Arg2:T10	
+R4	Regulation Arg1:T2 Arg2:T8	
+T11	Protein 222 227	actin
+T12	Protein 298 303	actin
+T13	Protein 406 413	G-actin
+T14	Protein 291 293	VT
+*	Equiv T3 T14
+T15	Protein 381 383	VT
+R5	Regulation Arg1:T15 Arg2:T13	
+T16	Protein 509 514	actin
+T17	Protein 639 641	VT
+T18	Protein 731 733	VT
+T19	Protein 736 741	actin
+T20	Protein 755 757	VT
+T21	Protein 789 796	G-actin
+T22	Protein 986 988	VT
+T23	Protein 1040 1045	actin
+R6	Regulation Arg1:T22 Arg2:T23	
+T24	Protein 1107 1112	actin
+T25	Protein 1147 1149	VT
+T26	Protein 1199 1204	actin
+T27	Protein 1281 1283	VT
+T28	Protein 1318 1325	F-actin
+T29	Protein 1454 1456	VT
+T30	Protein 1492 1497	actin
+R7	Regulation Arg1:T29 Arg2:T30	
+T31	Protein 1643 1648	actin
+R8	Regulation Arg1:T5 Arg2:T31	
+R9	Complex_formation Arg1:T8 Arg2:T9	
+#2	AnnotatorNotes R9	?
+#3	AnnotatorNotes T4	Plural
+#4	AnnotatorNotes T3	Not normalizable
+#5	AnnotatorNotes T14	Not normalizable
+#6	AnnotatorNotes T15	Not normalizable
+#7	AnnotatorNotes T17	Not normalizable
+#8	AnnotatorNotes T18	Not normalizable
+#9	AnnotatorNotes T20	Not normalizable
+#10	AnnotatorNotes T22	Not normalizable
+#11	AnnotatorNotes T25	Not normalizable
+#12	AnnotatorNotes T27	Not normalizable
+#13	AnnotatorNotes T29	Not normalizable
+T32	Chemical 761 767	pyrene
+T33	Chemical 1297 1303	pyrene
+T34	Chemical 1400 1406	pyrene

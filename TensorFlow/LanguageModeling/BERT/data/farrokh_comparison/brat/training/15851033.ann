@@ -1,0 +1,9 @@
+T1	Protein 421 424	Src
+T2	Protein 447 452	CDCP1
+T3	Protein 17 25	PKCdelta
+T4	Protein 264 272	PKCdelta
+T5	Protein 393 401	PKCdelta
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T5 Arg2:T2	
+T6	Protein 483 491	PKCdelta
+T7	Family 739 761	protein Ser/Thr kinase

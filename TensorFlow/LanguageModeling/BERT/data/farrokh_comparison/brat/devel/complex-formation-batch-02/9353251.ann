@@ -1,0 +1,41 @@
+T1	Protein 0 4	CD30
+T2	Protein 30 35	TRAF2
+T3	Protein 127 131	CD30
+T4	Protein 277 281	CD30
+T5	Protein 414 418	CD30
+T6	Protein 496 533	type 1 tumor necrosis factor receptor
+T7	Protein 535 540	TNFR1
+T8	Protein 612 616	CD30
+T9	Protein 686 691	TRAF2
+T10	Protein 749 754	TNFR1
+T11	Protein 845 849	CD30
+T12	Protein 896 901	TRAF2
+T13	Protein 931 935	CD30
+T14	Protein 970 975	TRAF2
+T15	Protein 1003 1008	TRAF1
+T16	Protein 1061 1065	CD30
+T17	Protein 1160 1165	TRAF2
+T18	Protein 1194 1199	TRAF2
+T19	Protein 1351 1356	TNFR1
+T20	Protein 1433 1438	TRAF2
+T21	Protein 1463 1468	TNFR1
+T22	Protein 1543 1547	CD30
+*	Equiv T6 T7
+R1	Complex_formation Arg1:T8 Arg2:T9
+R2	Complex_formation Arg1:T12 Arg2:T13
+R3	Regulation_of_proteolysis Arg1:T1 Arg2:T2	
+R6	Negative_regulation Arg1:T13 Arg2:T14	
+R7	Negative_regulation Arg1:T13 Arg2:T15	
+R8	Regulation_of_proteolysis Arg1:T13 Arg2:T14	
+R9	Regulation_of_proteolysis Arg1:T13 Arg2:T15	
+T23	Protein 1566 1570	TRAF
+R5	Regulation Arg1:T10 Arg2:T9	
+T24	Protein 266 275	NF-kappaB
+#1	AnnotatorNotes T24	Complex
+#2	AnnotatorNotes T23	Family
+T25	Protein 1594 1598	TNFR
+#3	AnnotatorNotes T25	Family
+T26	Protein 77 81	TRAF
+#4	AnnotatorNotes T26	Family
+T27	Protein 582 586	TRAF
+#5	AnnotatorNotes T27	Family

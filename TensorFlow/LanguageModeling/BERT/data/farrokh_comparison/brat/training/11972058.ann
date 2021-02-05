@@ -1,0 +1,40 @@
+T1	Protein 58 84	adenomatous polyposis coli
+T2	Protein 1674 1677	APC
+T3	Protein 30 45	casein kinase 2
+T4	Protein 112 138	adenomatous polyposis coli
+T5	Protein 140 143	APC
+*	Equiv T4 T5
+R1	Regulation Arg1:T1 Arg2:T3	
+T6	Protein 315 318	APC
+T7	Protein 379 382	APC
+T8	Protein 571 574	APC
+T9	Protein 644 647	APC
+T10	Protein 713 716	APC
+T11	Protein 805 820	casein kinase 2
+T12	Protein 822 825	CK2
+*	Equiv T11 T12
+T13	Protein 833 841	CK2alpha
+T14	Protein 847 851	beta
+T15	Protein 890 893	APC
+R2	Complex_formation Arg1:T14 Arg2:T15	
+R3	Complex_formation Arg1:T13 Arg2:T15	
+T16	Protein 981 984	APC
+T17	Protein 1001 1004	CK2
+R4	Complex_formation Arg1:T17 Arg2:T16	
+T18	Protein 1070 1073	APC
+T19	Protein 1079 1082	CK2
+R5	Complex_formation Arg1:T18 Arg2:T19	
+T20	Protein 1163 1166	APC
+T21	Protein 1209 1212	APC
+T22	Protein 1231 1234	CK2
+R6	Negative_regulation Arg1:T20 Arg2:T22	
+T23	Protein 1285 1288	APC
+T24	Protein 1348 1351	APC
+T25	Protein 1414 1417	APC
+T26	Protein 1682 1685	CK2
+T27	Protein 1770 1773	CK2
+T28	Protein 1732 1735	APC
+R7	Regulation Arg1:T27 Arg2:T28	
+R8	Complex_formation Arg1:T2 Arg2:T26	
+T29	Chemical 751 754	GTP
+A1	Blacklisted T29

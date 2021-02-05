@@ -1,0 +1,27 @@
+T1	Protein 95 100	Rad18
+T2	Protein 103 108	Rad18
+T3	Protein 350 355	Rad18
+T4	Protein 576 581	Rad18
+T5	Protein 702 707	Rad18
+T6	Protein 815 826	diubiquitin
+T7	Protein 1040 1045	Rad18
+T8	Protein 1150 1155	Rad18
+T9	Protein 1217 1222	Rad18
+T10	Protein 1508 1513	Rad18
+T11	Protein 1700 1705	Rad18
+T12	Protein 1749 1754	RAP80
+T13	Protein 1803 1808	RAP80
+T14	Protein 1865 1870	Rad18
+T15	Protein 2018 2023	Rad18
+T16	Protein 0 91	Molecular determinants of polyubiquitin recognition by continuous ubiquitin-binding domains
+#1	AnnotatorNotes T16	Remove abstract
+T17	Protein 278 287	ubiquitin
+T18	Protein 1276 1285	ubiquitin
+T19	Protein 1671 1680	ubiquitin
+T20	Protein 1897 1906	ubiquitin
+T21	OOS 2031 2042	DDR pathway
+A1	Blacklisted T17
+A2	Blacklisted T6
+A3	Blacklisted T18
+A4	Blacklisted T19
+A5	Blacklisted T20

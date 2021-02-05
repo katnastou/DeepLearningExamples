@@ -1,0 +1,19 @@
+T1	Protein 20 26	Dnmt3b
+T2	Protein 27 50	thymine-DNA glycosylase
+T3	Protein 438 443	Dnmt1
+T4	Protein 445 451	Dnmt3a
+T5	Protein 457 463	Dnmt3b
+T6	Protein 789 834	G/T mismatch-specific thymine-DNA glycosylase
+T7	Protein 836 839	Tdg
+T8	Protein 845 880	methyl-CpG binding domain protein 4
+T9	Protein 1036 1042	Dnmt3b
+T10	Protein 1052 1055	Tdg
+T11	Protein 1060 1095	methyl-CpG binding domain protein 4
+T12	Protein 1135 1138	Tdg
+T13	Protein 1143 1149	Dnmt3b
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R3	Complex_formation Arg1:T9 Arg2:T10	
+R4	Complex_formation Arg1:T9 Arg2:T11	
+T14	Family 121 145	DNA methyltransferase(s)
+T15	Family 414 436	DNA methyltransferases
+*	Equiv T6 T7

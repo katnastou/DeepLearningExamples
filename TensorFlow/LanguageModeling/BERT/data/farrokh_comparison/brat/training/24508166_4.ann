@@ -1,0 +1,22 @@
+T1	Protein 50 54	Cdr2
+T2	Protein 134 138	Pom1
+T3	Protein 175 179	Pom1
+T4	Protein 251 255	pom1
+T5	Protein 554 558	Cdr2
+T6	Protein 615 619	Pom1
+T7	Protein 692 696	Pom1
+T8	Protein 771 775	Pom1
+T9	Protein 795 799	Cdr2
+T10	Protein 891 895	Cdr2
+T11	Protein 966 970	Pom1
+T12	Protein 1070 1074	Pom1
+T13	Protein 1138 1142	Cdr2
+T14	Family 1241 1261	SNF1-related kinases
+T15	Protein 1382 1386	SNF1
+T16	Protein 1425 1429	Cdr2
+T17	Protein 1453 1457	Cdr1
+T18	Protein 1632 1636	Cdr2
+A1	Mutant T4
+T19	Family 1236 1240	AMPK
+T20	Family 1377 1381	AMPK
+R1	Catalysis_of_phosphorylation Arg1:T2 Arg2:T1	

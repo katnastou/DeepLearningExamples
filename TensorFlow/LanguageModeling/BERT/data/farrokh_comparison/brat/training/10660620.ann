@@ -1,0 +1,20 @@
+T3	Protein 0 9	PILRalpha
+T4	Protein 92 97	SHP-1
+R1	Complex_formation Arg1:T3 Arg2:T4	
+T5	Protein 173 181	PILRbeta
+R2	Complex_formation Arg1:T3 Arg2:T5	
+T6	Protein 184 189	SHP-1
+T7	Protein 493 498	SHP-1
+T8	Protein 537 546	PILRalpha
+T9	Protein 809 818	PILRalpha
+T10	Protein 835 840	SHP-1
+R3	Complex_formation Arg1:T9 Arg2:T10	
+T11	Protein 917 926	PILRalpha
+T1	Protein 991 996	SHP-1
+R4	Complex_formation Arg1:T11 Arg2:T1	
+T12	Protein 1079 1088	PILRalpha
+T2	Protein 1101 1106	SHP-1
+R5	Complex_formation Arg1:T12 Arg2:T2	
+T13	Protein 1296 1304	PILRbeta
+T14	Protein 1455 1464	PILRalpha
+T15	Protein 1469 1477	PILRbeta

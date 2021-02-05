@@ -1,0 +1,38 @@
+T1	Protein 20 25	SUP45
+T2	Protein 27 31	eRF1
+T3	Protein 37 42	SUP35
+T4	Protein 148 153	SUP45
+T5	Protein 160 166	Sup45p
+T6	Protein 232 236	eRF1
+T7	Protein 354 360	Sup45p
+T8	Protein 384 389	SUP35
+T9	Protein 396 402	Sup35p
+T10	Protein 437 443	Sup45p
+T11	Protein 504 510	Sup35p
+T12	Protein 615 620	SUP45
+T13	Protein 624 629	SUP35
+T14	Protein 761 766	SUP35
+T15	Protein 771 776	SUP45
+T16	Protein 899 905	Sup35p
+T17	Protein 910 916	Sup45p
+T18	Protein 1022 1026	eRF1
+T19	Protein 1028 1033	SUP45
+T20	Protein 1129 1134	SUP35
+T21	Protein 1288 1294	Sup45p
+T22	Protein 1299 1305	Sup35p
+T23	Protein 1366 1372	Sup35p
+*	Equiv T5 T4
+T24	Protein 204 230	eukaryote release factor 1
+*	Equiv T6 T24
+*	Equiv T9 T8
+T25	Complex 1325 1339	release factor
+T26	Chemical 1384 1387	GTP
+A1	Blacklisted T26
+T27	Chemical 1451 1454	GTP
+A2	Blacklisted T27
+R1	Complex_formation Arg1:T7 Arg2:T9	
+R2	Complex_formation Arg1:T10 Arg2:T11	
+R3	Complex_formation Arg1:T16 Arg2:T17	
+R4	Complex_formation Arg1:T21 Arg2:T22	
+R5	Out-of-scope Arg1:T26 Arg2:T23	
+#3	AnnotatorNotes R5	Conjugation

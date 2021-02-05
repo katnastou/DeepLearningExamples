@@ -1,0 +1,73 @@
+T1	Protein 40 75	latent infection membrane protein 1
+T2	Protein 203 211	IKKalpha
+T3	Protein 216 223	IKKbeta
+T4	Protein 261 296	latent infection membrane protein 1
+T5	Protein 298 302	LMP1
+T6	Protein 515 521	TNFRII
+T7	Protein 566 571	TRAF1
+T8	Protein 576 581	TRAF2
+T9	Protein 617 622	TNFRI
+T11	Protein 686 691	TRADD
+T12	Protein 693 698	TNFRI
+T13	Protein 770 775	TRADD
+T14	Protein 777 780	RIP
+T15	Protein 786 791	TRAF2
+T16	Protein 811 836	NF-kappaB-inducing kinase
+T17	Protein 838 841	NIK
+T18	Protein 885 893	IKKalpha
+T19	Protein 898 905	IKKbeta
+T20	Protein 931 944	IkappaB alpha
+T21	Protein 946 959	IkappaB alpha
+T22	Protein 1107 1111	LMP1
+T23	Protein 1184 1187	NIK
+T24	Protein 1189 1197	IKKalpha
+T25	Protein 1203 1210	IKKbeta
+T26	Protein 1241 1244	NIK
+T27	Protein 1246 1254	IKKalpha
+T28	Protein 1259 1266	IKKbeta
+T29	Protein 1315 1319	LMP1
+*	Equiv T16 T17
+*	Equiv T4 T5
+R3	Complex_formation Arg1:T12 Arg2:T15
+R4	Complex_formation Arg1:T12 Arg2:T13
+R5	Complex_formation Arg1:T12 Arg2:T14
+R1	Catalysis_of_phosphorylation Arg1:T12 Arg2:T20	
+T30	Complex 107 116	NF-kappaB
+R6	Positive_regulation Arg1:T1 Arg2:T30	
+T31	Protein 153 178	NF-kappaB-inducing kinase
+R7	Positive_regulation Arg1:T31 Arg2:T30	
+R8	Positive_regulation Arg1:T2 Arg2:T30	
+R9	Positive_regulation Arg1:T3 Arg2:T30	
+R10	Complex_formation Arg1:T6 Arg2:T7	
+R11	Complex_formation Arg1:T6 Arg2:T8	
+T10	Protein 647 685	TNFRI death domain interacting protein
+*	Equiv T10 T11
+R2	Complex_formation Arg1:T9 Arg2:T11	
+T32	Protein 735 744	NF-kappaB
+R12	Positive_regulation Arg1:T12 Arg2:T32	
+R13	Positive_regulation Arg1:T12 Arg2:T16	
+R14	Positive_regulation Arg1:T12 Arg2:T18	
+R15	Positive_regulation Arg1:T12 Arg2:T19	
+T33	Complex 1083 1092	NF-kappaB
+R16	Positive_regulation Arg1:T22 Arg2:T33	
+T34	Complex 1291 1300	NF-kappaB
+R17	Out-of-scope Arg1:T28 Arg2:T34	
+R18	Out-of-scope Arg1:T27 Arg2:T34	
+R19	Out-of-scope Arg1:T26 Arg2:T34	
+R20	Positive_regulation Arg1:T29 Arg2:T34	
+R21	Positive_regulation Arg1:T23 Arg2:T33	
+R22	Positive_regulation Arg1:T24 Arg2:T33	
+R23	Positive_regulation Arg1:T25 Arg2:T33	
+T35	Complex 1032 1041	NF-kappaB
+T36	Family 342 372	tumor necrosis factor receptor
+T37	Family 374 378	TNFR
+*	Equiv T36 T37
+T38	Complex 416 425	NF-kappaB
+T39	Family 187 194	IkappaB
+R24	Positive_regulation Arg1:T37 Arg2:T38	
+T40	Family 542 546	TNFR
+T41	Family 862 869	IkappaB
+A1	Mutant T26
+A2	Mutant T27
+A3	Mutant T28
+#1	AnnotatorNotes T26	dominant negative mutations: engineered mutations in the protein of interest that abolish its function and that also inhibit the function of simultaneously expressed wild-type protein 

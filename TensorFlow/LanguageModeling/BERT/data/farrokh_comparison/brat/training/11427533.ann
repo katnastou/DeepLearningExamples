@@ -1,0 +1,40 @@
+T1	Protein 0 5	TGIF2
+T2	Protein 21 42	histone deacetylase 1
+T3	Protein 555 560	TGIF2
+T4	Protein 657 662	TGIF2
+T5	Family 761 765	CtBP
+T6	Protein 767 772	TGIF2
+T7	Protein 830 835	TGIF2
+T8	Protein 903 908	TGIF2
+T9	Protein 998 1003	TGIF2
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T10	Protein 73 94	TG-interacting factor
+T11	Protein 96 100	TGIF
+*	Equiv T10 T11
+T12	Protein 210 240	ransforming growth factor beta
+T13	Protein 242 250	TGF beta
+*	Equiv T12 T13
+R2	Complex_formation Arg1:T11 Arg2:T12	
+T14	Protein 262 267	Smads
+R3	Positive_regulation Arg1:T12 Arg2:T14	
+T15	Protein 337 341	TGIF
+T16	Protein 533 553	TGIF-related protein
+*	Equiv T16 T3
+T17	Protein 621 625	TGIF
+T18	Protein 651 655	TGIF
+T19	Family 672 691	histone deacetylase
+R4	Complex_formation Arg1:T4 Arg2:T19	
+R5	Complex_formation Arg1:T18 Arg2:T19	
+T20	Protein 712 716	TGIF
+R6	Complex_formation Arg1:T20 Arg2:T5	
+T21	Protein 777 781	TGIF
+T22	Protein 884 888	TGIF
+T23	Protein 924 932	TGF beta
+T24	Protein 943 948	Smads
+R7	Complex_formation Arg1:T8 Arg2:T24	
+R8	Positive_regulation Arg1:T23 Arg2:T24	
+T25	Protein 963 971	TGF beta
+R9	Negative_regulation Arg1:T8 Arg2:T25	
+T26	Protein 1106 1110	TGIF
+T27	Protein 1183 1187	TGIF
+T28	Protein 288 296	TGF beta

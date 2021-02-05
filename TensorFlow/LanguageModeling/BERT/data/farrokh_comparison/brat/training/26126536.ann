@@ -1,0 +1,41 @@
+T1	Protein 0 36	Protein Arginine Methyltransferase 1
+T2	Protein 48 54	Smurf2
+T3	Protein 57 63	Smurf2
+T4	Protein 263 269	Smurf2
+T5	Protein 472 478	Smurf2
+T6	Protein 482 487	PRMT1
+T7	Protein 528 534	Smurf2
+T8	Protein 540 546	Smurf1
+T9	Protein 566 571	PRMT1
+T10	Protein 608 613	PRMT1
+T11	Protein 634 640	Smurf2
+T12	Protein 664 670	Smurf2
+T13	Protein 689 694	PRMT1
+T14	Protein 707 713	Smurf2
+T15	Protein 738 743	PRMT1
+T16	Protein 851 857	Smurf2
+T17	Protein 1016 1021	PRMT1
+T18	Protein 1044 1050	Smurf2
+T19	Protein 1172 1178	Smurf2
+T20	Protein 1302 1307	PRMT1
+T21	Protein 1321 1327	Smurf2
+R1	Catalysis_of_methylation Arg1:T1 Arg2:T2	
+T22	Protein 197 202	Smads
+T23	Protein 207 224	TGF-beta receptor
+R2	Regulation Arg1:T3 Arg2:T22	
+R3	Regulation Arg1:T3 Arg2:T23	
+R4	Catalysis_of_methylation Arg1:T6 Arg2:T5	
+R5	Catalysis_of_methylation Arg1:T9 Arg2:T7	
+R6	Regulation Arg1:T10 Arg2:T11	
+R7	Catalysis_of_methylation Arg1:T13 Arg2:T12	
+R8	Catalysis_of_methylation Arg1:T15 Arg2:T14	
+R9	Regulation Arg1:T17 Arg2:T18	
+R10	Catalysis_of_methylation Arg1:T20 Arg2:T21	
+T24	Protein 1350 1358	TGF-beta
+R11	Out-of-scope Arg1:T20 Arg2:T24	
+T25	Family 93 102	E3 ligase
+T26	Protein 165 173	TGF-beta
+R12	Out-of-scope Arg1:T3 Arg2:T26	
+T27	Protein 1087 1095	TGF-beta
+T28	OOS 165 183	TGF-beta signaling
+T29	OOS 1350 1368	TGF-beta signaling

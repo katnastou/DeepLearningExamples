@@ -1,0 +1,51 @@
+T2	Protein 28 33	COPR5
+T3	Protein 110 115	PRMT5
+T4	Protein 118 154	Protein arginine methyltransferase 5
+T5	Protein 156 161	PRMT5
+T6	Protein 251 270	cooperator of PRMT5
+T7	Protein 272 277	COPR5
+T8	Protein 317 322	PRMT5
+T9	Protein 324 329	COPR5
+T10	Protein 347 352	PRMT5
+T11	Protein 434 439	PRMT5
+T12	Protein 449 454	COPR5
+T13	Protein 466 476	histone H4
+T14	Protein 516 526	histone H3
+T15	Protein 549 554	COPR5
+T16	Protein 602 607	PRMT5
+T17	Protein 679 684	COPR5
+T18	Protein 716 726	histone H4
+T19	Protein 754 759	PRMT5
+T20	Protein 813 818	COPR5
+T21	Protein 855 860	PRMT5
+T22	Protein 893 898	PRMT5
+T23	Protein 911 920	cyclin E1
+T24	Protein 922 927	CCNE1
+T25	Protein 953 958	COPR5
+T26	Protein 995 1000	CCNE1
+T27	Protein 1038 1043	COPR5
+T28	Protein 1082 1087	PRMT5
+T1	Family 4 11	histone
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Regulation Arg1:T2 Arg2:T3	
+*	Equiv T4 T5
+*	Equiv T6 T7
+R3	Regulation Arg1:T7 Arg2:T8	
+R4	Complex_formation Arg1:T9 Arg2:T10	
+R5	Complex_formation Arg1:T11 Arg2:T12	
+R6	Catalysis_of_methylation Arg1:T11 Arg2:T13	
+T29	Protein 478 480	R3
+*	Equiv T13 T29
+R7	Catalysis_of_methylation Arg1:T11 Arg2:T14	
+T30	Protein 528 530	R8
+*	Equiv T14 T30
+R8	Regulation Arg1:T15 Arg2:T16	
+T31	Family 647 655	histones
+R9	Complex_formation Arg1:T16 Arg2:T31	
+R10	Complex_formation Arg1:T17 Arg2:T18	
+R11	Regulation Arg1:T17 Arg2:T19	
+R12	Regulation Arg1:T20 Arg2:T21	
+R13	Regulation Arg1:T22 Arg2:T23	
+*	Equiv T23 T24
+R14	Regulation Arg1:T25 Arg2:T26	
+R15	Regulation Arg1:T27 Arg2:T28	

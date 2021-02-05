@@ -1,0 +1,19 @@
+T1	Protein 65 68	p53
+T2	Protein 810 813	p53
+T3	Protein 971 974	p53
+T4	Protein 1012 1015	p53
+T5	Protein 1043 1046	p53
+T6	Protein 69 73	HDM2
+R1	Complex_formation Arg1:T1 Arg2:T6	
+T7	Protein 728 731	p53
+T8	Protein 756 760	HDM2
+R2	Complex_formation Arg1:T7 Arg2:T8	
+T9	Protein 934 938	HDM2
+R3	Complex_formation Arg1:T9 Arg2:T3	
+T10	Protein 1047 1051	HDM2
+R4	Complex_formation Arg1:T5 Arg2:T10	
+T11	Family 761 780	E3 ubiquitin ligase
+T12	Chemical 855 863	Nutlin-3
+R5	Complex_formation Arg1:T12 Arg2:T9	
+R6	Regulation Arg1:T12 Arg2:T9	
+R7	Regulation Arg1:T12 Arg2:T4	

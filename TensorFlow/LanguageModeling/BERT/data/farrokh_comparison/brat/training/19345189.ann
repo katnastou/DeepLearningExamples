@@ -1,0 +1,42 @@
+T1	Protein 9 12	p53
+T2	Protein 383 386	p53
+T3	Protein 478 481	p53
+T4	Protein 517 520	p53
+T5	Protein 841 844	p53
+T6	Protein 13 17	Smad
+R1	Out-of-scope Arg1:T1 Arg2:T6	
+T7	Protein 34 37	p63
+T8	Protein 49 56	TGFbeta
+R2	Out-of-scope Arg1:T6 Arg2:T7	
+#1	AnnotatorNotes R2	Mutant
+R3	Out-of-scope Arg1:T1 Arg2:T7	
+#2	AnnotatorNotes R3	Mutant
+T9	Protein 78 85	TGFbeta
+T10	Protein 301 308	TGFbeta
+T11	Protein 402 405	p63
+R4	Out-of-scope Arg1:T2 Arg2:T10	
+R5	Regulation Arg1:T11 Arg2:T10	
+T12	Protein 424 431	TGFbeta
+T13	Protein 463 466	Ras
+T14	Protein 521 524	p63
+T15	Protein 550 555	Smads
+T16	Protein 615 618	p63
+R6	Out-of-scope Arg1:T12 Arg2:T13	
+R7	Out-of-scope Arg1:T12 Arg2:T3	
+R8	Out-of-scope Arg1:T4 Arg2:T14	
+R9	Out-of-scope Arg1:T12 Arg2:T14	
+R10	Out-of-scope Arg1:T12 Arg2:T4	
+R11	Out-of-scope Arg1:T15 Arg2:T14	
+R12	Out-of-scope Arg1:T15 Arg2:T4	
+T17	Protein 660 663	p63
+T18	Protein 849 852	Ras
+T19	Protein 988 995	TGFbeta
+T20	Protein 1020 1023	p63
+R13	Negative_regulation Arg1:T19 Arg2:T20	
+A1	Mutant T1
+A2	Mutant T2
+A3	Mutant T13
+A4	Mutant T3
+A5	Mutant T4
+A6	Mutant T5
+A7	Mutant T18

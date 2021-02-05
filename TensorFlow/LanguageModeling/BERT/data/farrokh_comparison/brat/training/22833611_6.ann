@@ -1,0 +1,22 @@
+T1	Protein 0 5	Rrp44
+T2	Protein 97 102	Rrp44
+T3	OOS 159 163	CSD1
+T4	OOS 168 172	CSD2
+T5	OOS 212 215	RNB
+T6	OOS 305 309	CSD1
+T7	OOS 311 315	CSD2
+T8	OOS 317 320	RNB
+T9	Protein 404 410	Rrp44p
+T10	Protein 552 557	Rrp44
+T11	Protein 618 623	Rrp41
+T12	Protein 628 633	Rrp45
+#1	AnnotatorNotes T3	tagged by tagger
+#2	AnnotatorNotes T4	tagged by tagger
+#3	AnnotatorNotes T6	tagged by tagger
+#4	AnnotatorNotes T7	tagged by tagger
+#5	AnnotatorNotes T8	tagged by tagger
+#6	AnnotatorNotes T5	tagged by tagger
+T13	Protein 642 646	2WP8
+T14	Chemical 787 793	sulfur
+R1	Complex_formation Arg1:T10 Arg2:T11	
+R2	Complex_formation Arg1:T10 Arg2:T12	

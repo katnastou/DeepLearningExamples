@@ -1,0 +1,17 @@
+T1	Protein 17 25	endoglin
+T2	Protein 634 642	endoglin
+T3	Protein 825 833	endoglin
+T4	Protein 921 929	Endoglin
+T5	Protein 1107 1115	endoglin
+T6	Protein 1202 1210	endoglin
+T7	Protein 1475 1483	endoglin
+T8	Family 584 621	transforming growth factor (TGF)-beta
+T9	Family 1235 1243	TGF-beta
+T10	OOS 1235 1253	TGF-beta signaling
+T11	Family 1309 1317	integrin
+T12	Family 1345 1370	phosphoinositide-3-kinase
+T13	Family 1319 1340	focal adhesion kinase
+T14	Family 1281 1307	bone morphogenetic protein
+T15	OOS 1281 1380	bone morphogenetic protein, integrin, focal adhesion kinase and phosphoinositide-3-kinase signaling
+R1	Complex_formation Arg1:T8 Arg2:T2	
+#1	AnnotatorNotes R1	Inferred: receptor of XXX

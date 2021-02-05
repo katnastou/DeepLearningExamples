@@ -1,0 +1,28 @@
+T1	Protein 270 302	suppressor of Hairy-wing protein
+T2	Protein 304 308	Suhw
+T3	Protein 385 389	Suhw
+T4	Protein 729 732	Nli
+T5	Protein 733 737	Ldb1
+T6	Protein 738 744	Clim-2
+T7	Protein 757 762	Xldb1
+T8	Protein 862 870	Apterous
+T9	Protein 928 936	apterous
+T10	Protein 988 996	Apterous
+T11	Protein 0 4	Chip
+*	Equiv T1 T2
+T12	Protein 424 427	cut
+*	Equiv T4 T5 T6
+T13	Protein 605 609	Chip
+T14	Protein 567 571	Chip
+R1	Regulation Arg1:T3 Arg2:T12	
+T15	Protein 656 660	Chip
+T16	Protein 811 815	Chip
+R2	Complex_formation Arg1:T16 Arg2:T8	
+T17	Protein 896 900	Chip
+T18	Protein 1028 1032	Chip
+T19	Protein 1116 1120	Chip
+T20	Protein 1240 1244	Chip
+T21	Protein 1286 1289	gap
+T22	Protein 1294 1303	pair-rule
+T23	Protein 1406 1410	Chip
+T24	Protein 1541 1545	Chip

@@ -1,0 +1,17 @@
+T1	Chemical 80 102	inositol pyrophosphate
+T2	Protein 321 325	TeaA
+T3	Protein 390 394	AlpA
+T4	Protein 618 622	Vip1
+T5	Protein 630 637	PPIP5K1
+T6	Protein 713 720	PPIP5K1
+T7	Family 774 788	PtdIns3 kinase
+#1	AnnotatorNotes T1	inositol tagged as GGP
+T8	OOS 137 139	MT
+#2	AnnotatorNotes T8	microtubule
+T9	Family 302 306	Tea1
+T10	Family 374 381	XMAP215
+T11	Protein 421 425	Asp1
+T12	Protein 533 537	Asp1
+A1	Fusion T12
+T13	Protein 538 541	GFP
+#3	AnnotatorNotes T13	not tagged by tagger

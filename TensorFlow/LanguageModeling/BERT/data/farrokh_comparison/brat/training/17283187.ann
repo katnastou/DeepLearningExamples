@@ -1,0 +1,20 @@
+T1	Protein 17 27	granzyme B
+T2	Protein 104 114	granzyme B
+T3	Protein 116 120	GzmB
+T4	Protein 219 223	GzmB
+T5	Protein 244 260	BH3-only protein
+T6	Protein 364 368	GzmB
+T7	Protein 504 508	GzmB
+T8	Protein 618 622	ICAD
+T9	Protein 627 636	caspase-8
+T10	Protein 773 777	GzmB
+T11	Protein 820 824	GzmB
+T12	Protein 871 875	GzmB
+*	Equiv T2 T3
+R2	Regulation Arg1:T4 Arg2:T5	
+T13	Protein 262 265	BID
+*	Equiv T5 T13
+T14	Protein 564 567	BID
+R1	Regulation Arg1:T7 Arg2:T14	
+R3	Regulation Arg1:T7 Arg2:T8	
+R4	Regulation Arg1:T7 Arg2:T9	

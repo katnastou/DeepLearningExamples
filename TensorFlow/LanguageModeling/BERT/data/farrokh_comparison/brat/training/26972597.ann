@@ -1,0 +1,46 @@
+T1	Protein 67 73	cFLIPL
+T2	Protein 96 123	Tumor Necrosis Factor-alpha
+T3	Protein 200 238	cellular FLICE-like inhibitory protein
+T4	Protein 240 246	cFLIPL
+T5	Protein 397 403	cFLIPL
+T6	Protein 465 469	FasL
+T7	Protein 574 579	cFLIP
+T8	Protein 794 800	cFLIPL
+T9	Protein 856 865	TNF-alpha
+T10	Protein 969 975	cFLIPL
+T11	Protein 1077 1109	inhibitor of apoptosis protein 2
+T12	Protein 1111 1116	cIAP2
+T13	Protein 1157 1162	cIAP2
+T14	Protein 1307 1311	JNK1
+T15	Protein 1355 1359	ITCH
+T16	Protein 1371 1377	cFLIPL
+T17	Protein 0 4	FADD
+T18	Complex 15 24	NF-kappaB
+T19	Complex 162 171	NF-kappaB
+*	Equiv T4 T3
+T20	Protein 333 360	Fas associated death domain
+#1	AnnotatorNotes T20	Fas associated protein with death domain
+T21	Protein 362 366	FADD
+*	Equiv T21 T20
+T22	Protein 419 429	caspases-8
+T23	Protein 548 552	FADD
+T24	Complex 584 593	NF-kappaB
+T25	Protein 720 724	FADD
+T26	Complex 819 828	NF-kappaB
+T27	Protein 915 919	FADD
+T28	Protein 942 954	procaspase-8
+T29	Complex 988 1020	death inducing signaling complex
+T30	Complex 1022 1026	DISC
+*	Equiv T30 T29
+T31	Protein 1042 1046	FADD
+T32	Protein 1142 1146	FADD
+T33	Protein 1276 1280	FADD
+T34	Protein 1428 1432	FADD
+T35	Protein 1193 1197	RIP1
+T36	Protein 1202 1214	procaspase-8
+*	Equiv T12 T11
+T37	Protein 1122 1127	Bcl-2
+T38	Family 1335 1354	E3 ubiquitin ligase
+R1	Complex_formation Arg1:T27 Arg2:T28	
+R2	Complex_formation Arg1:T32 Arg2:T35	
+R3	Complex_formation Arg1:T32 Arg2:T36	

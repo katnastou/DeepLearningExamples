@@ -1,0 +1,14 @@
+T1	Protein 118 124	hTHEM2
+T2	Protein 134 137	CoA
+T3	Protein 194 200	hTHEM2
+T4	Protein 207 210	CoA
+T5	Protein 295 298	CoA
+T6	Protein 408 411	CoA
+T7	Protein 434 437	CoA
+T8	Protein 536 542	hTHEM2
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+T9	Protein 306 316	desulfoCoA
+T10	Protein 428 432	DTNB
+T11	Protein 470 480	desulfoCoA
+R3	Regulation Arg1:T11 Arg2:T8	

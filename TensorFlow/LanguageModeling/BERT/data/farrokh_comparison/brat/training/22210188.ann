@@ -1,0 +1,23 @@
+T1	Protein 15 52	protein inhibitor of activated STAT 2
+T2	Protein 54 59	PIAS2
+T3	Protein 100 105	RACK1
+T4	Protein 217 222	RACK1
+T5	Protein 273 310	protein inhibitor of activated STAT 2
+T6	Protein 312 317	PIAS2
+T7	Protein 408 413	RACK1
+T8	Protein 419 424	PIAS2
+T9	Protein 566 571	RACK1
+T10	Protein 640 645	PIAS2
+T11	Protein 690 695	PIAS2
+T12	Protein 756 761	RACK1
+*	Equiv T1 T2
+T13	Protein 66 98	receptor of activated C kinase 1
+*	Equiv T13 T3
+R1	Complex_formation Arg1:T2 Arg2:T13	
+T14	Protein 183 215	receptor of activated C kinase 1
+*	Equiv T14 T4
+*	Equiv T6 T5
+R2	Complex_formation Arg1:T14 Arg2:T6	
+R3	Complex_formation Arg1:T7 Arg2:T8	
+R4	Complex_formation Arg1:T9 Arg2:T10	
+R5	Complex_formation Arg1:T11 Arg2:T12	

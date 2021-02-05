@@ -1,0 +1,42 @@
+T1	Protein 28 33	Ric8a
+T2	Protein 61 66	NCS-1
+T3	Protein 162 171	Frequenin
+T4	Protein 198 203	NCS-1
+T5	Chemical 212 219	calcium
+T6	Protein 492 497	Ric8a
+T7	Protein 522 531	synembryn
+T8	Protein 556 561	Ric8a
+T9	OOS 587 596	activator
+T10	Protein 630 634	Frq2
+T11	Protein 678 682	Frq1
+T12	Protein 718 722	Frq2
+T13	Protein 756 760	Frq1
+T14	Protein 840 845	NCS-1
+T15	Protein 850 855	Ric8a
+T16	Protein 954 959	Ric8a
+T17	Protein 964 971	Galphas
+T18	Protein 1062 1066	Frq2
+T19	Protein 1068 1072	Frq2
+T20	Protein 1094 1099	Ric8a
+T21	Protein 1182 1187	Ric8a
+T22	Protein 1206 1210	Frq2
+T23	Protein 1312 1316	Frq2
+T24	Protein 1317 1322	Ric8a
+T25	Protein 1323 1330	Galphas
+T26	Protein 1387 1391	Frq2
+T27	Protein 1392 1397	Ric8a
+T28	Protein 1460 1465	NCS-1
+T29	Chemical 47 53	Ca(2)+
+T30	Chemical 139 145	Ca(2+)
+*	Equiv T8 T7
+#1	AnnotatorNotes T9	tagged by tagger
+T31	Complex 600 609	G protein
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Out-of-scope Arg1:T30 Arg2:T3	
+#2	AnnotatorNotes R2	maybe conjugation
+R3	Complex_formation Arg1:T6 Arg2:T10	
+R4	Out-of-scope Arg1:T6 Arg2:T11	
+#3	AnnotatorNotes R4	Negated
+R5	Complex_formation Arg1:T14 Arg2:T15	
+R6	Complex_formation Arg1:T21 Arg2:T22	
+R7	Complex_formation Arg1:T26 Arg2:T27	

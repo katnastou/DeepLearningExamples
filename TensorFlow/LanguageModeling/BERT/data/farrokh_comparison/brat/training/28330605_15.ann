@@ -1,0 +1,24 @@
+T1	Protein 339 343	Rpt1
+T2	Protein 348 352	Rpt2
+T3	Protein 510 514	Rpt1
+T4	Protein 519 523	Rpt2
+T5	Complex 30 40	proteasome
+T6	Protein 50 54	Rpn1
+T7	Complex 107 110	19S
+T8	Protein 196 202	polyUb
+T9	Family 188 192	UBLs
+T10	Complex 232 242	proteasome
+T11	Protein 262 266	Rpn1
+T12	Complex 255 259	4cr2
+T13	Complex 299 302	19S
+T14	Family 319 329	AAA ATPase
+T15	Protein 439 443	Rpn1
+T16	Complex 551 561	proteasome
+T17	Complex 641 651	proteasome
+T18	Protein 694 698	Rpn1
+T19	Protein 755 759	Rpn1
+T20	Complex 776 780	4cr2
+T21	OOS 850 859	PC toroid
+#3	AnnotatorNotes T21	Protein region, Structurally, Rpn1 can be divided into three segments: a central toroid made up of repetitive α-turn-α repeats termed PC repeat
+R1	Complex_formation Arg1:T6 Arg2:T7	
+A1	Blacklisted T8

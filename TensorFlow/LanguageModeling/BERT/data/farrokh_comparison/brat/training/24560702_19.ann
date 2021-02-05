@@ -1,0 +1,13 @@
+T1	Protein 24 28	zfh1
+T2	OOS 109 112	EWs
+T3	Protein 117 120	grn
+T4	Protein 143 147	zfh1
+T5	Protein 152 155	grn
+T6	Protein 179 182	eve
+T7	OOS 214 217	EWs
+T8	Protein 333 336	eve
+T9	Protein 342 346	zfh1
+T10	Protein 350 353	grn
+T11	OOS 408 411	EWs
+#1	AnnotatorNotes T2	tagged by tagger, EW neurons
+T12	Family 254 258	CAMs

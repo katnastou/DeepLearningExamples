@@ -1,0 +1,6 @@
+T1	Protein 167 172	Ten-m
+T2	Protein 190 200	odd paired
+T3	Protein 228 233	Ten-m
+T4	OOS 390 394	mAL1
+A1	Mutant T1
+#1	AnnotatorNotes T2	Drosophila odd-paired (opa) gene, italics in original text

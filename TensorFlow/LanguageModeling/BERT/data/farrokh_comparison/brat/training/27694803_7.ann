@@ -1,0 +1,35 @@
+T1	Protein 11 15	Cbr1
+T2	Protein 29 33	Dph3
+T3	Protein 94 98	Cbr1
+T4	Protein 136 140	Dph3
+T5	Protein 188 192	Dph3
+T6	Protein 266 270	Dph3
+T7	Protein 294 298	Cbr1
+T8	Protein 370 374	Dph3
+T9	Protein 392 396	Cbr1
+T10	Protein 476 480	Dph3
+T11	Protein 549 553	Dph1
+T12	Protein 554 558	Dph2
+T13	Protein 656 660	eEF2
+T14	Protein 706 710	Dph1
+T15	Protein 711 715	Dph2
+T16	Protein 717 721	Dph3
+T17	Protein 723 727	Cbr1
+T18	Protein 785 789	Cbr1
+T19	Protein 795 799	Dph3
+T20	Protein 836 840	Dph1
+T21	Protein 841 845	Dph2
+T22	Protein 987 991	Cbr1
+T23	Protein 1003 1007	Dph3
+T24	Chemical 235 239	NADH
+T25	Chemical 335 340	NADPH
+T26	Chemical 403 407	NADH
+T27	Protein 459 463	Cbr1
+T28	Chemical 594 605	diphthamide
+T29	Chemical 732 736	NADH
+T30	Chemical 790 794	NADH
+T31	Chemical 859 869	dithionite
+T32	Chemical 896 909	Fe-S clusters
+T33	Chemical 1014 1018	NADH
+T34	Chemical 635 640	C-SAM
+#1	AnnotatorNotes T34	ARC 0343-50 radiolabelled chemical

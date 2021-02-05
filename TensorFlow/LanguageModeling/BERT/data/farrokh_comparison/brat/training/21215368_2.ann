@@ -1,0 +1,31 @@
+T1	Protein 151 155	Epe1
+T2	Protein 260 264	Epe1
+T3	Protein 424 428	Epe1
+T4	Protein 484 488	Cul4
+T5	Protein 489 493	Ddb1
+T6	Protein 545 549	Epe1
+T7	Protein 644 648	Epe1
+T8	Protein 734 738	Epe1
+T9	Protein 765 769	Cul4
+T10	Protein 770 774	Ddb1
+T11	Protein 943 947	Epe1
+T12	Family 131 135	JmjC
+T13	Family 300 303	HP1
+#1	AnnotatorNotes T5	Ddb1 is a specific adaptor protein of Cul4 RING finger ligases (Cul4-Ddb1) and recruits the substrate recognition factor that confers specificity to the ubiquitylation reaction. 
+T14	Protein 493 500	(Cdt)^2
+#2	AnnotatorNotes T14	Cdt2 is all an exponent, but PubMed has destroyed the abstract a bit
+T15	Protein 774 781	(Cdt)^2
+T16	Family 915 918	HP1
+T17	Protein 919 923	Swi6
+T18	Protein 927 930	CK2
+#3	AnnotatorNotes T17	part of HP1 family
+T19	Protein 501 510	ubiquitin
+R1	Catalysis_of_ubiquitination Arg1:T4 Arg2:T6	
+R2	Complex_formation Arg1:T9 Arg2:T10	
+R3	Out-of-scope Arg1:T9 Arg2:T15	
+#5	AnnotatorNotes R3	TODO check
+R4	Out-of-scope Arg1:T10 Arg2:T15	
+#6	AnnotatorNotes R4	TODO check
+T20	Protein 970 979	ubiquitin
+A1	Blacklisted T19
+A2	Blacklisted T20

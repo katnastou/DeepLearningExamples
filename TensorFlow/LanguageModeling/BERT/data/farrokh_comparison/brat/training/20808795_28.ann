@@ -1,0 +1,20 @@
+T1	Protein 180 187	Galphao
+T2	Protein 486 493	Galphao
+T3	Protein 720 727	Galphao
+T4	Family 25 31	Galpha
+T5	Complex 101 111	Gbetagamma
+T6	Complex 206 208	Gs
+T7	Complex 401 403	Gs
+T8	Complex 409 411	Go
+T9	Complex 553 555	Go
+T10	Family 564 569	GPCRs
+T11	Complex 578 580	Go
+T12	Family 604 613	G protein
+T13	Family 637 646	G protein
+T14	Complex 746 748	Gs
+#1	AnnotatorNotes T9	https://pubmed.ncbi.nlm.nih.gov/10352022/
+#2	AnnotatorNotes T7	heterotrimeric Gs protein complex
+#3	AnnotatorNotes T1	https://www.uniprot.org/uniprot/P16378
+R1	Complex_formation Arg1:T4 Arg2:T5	
+T15	Chemical 475 478	GDP
+A1	Blacklisted T15

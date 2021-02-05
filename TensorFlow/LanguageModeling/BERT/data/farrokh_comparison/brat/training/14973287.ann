@@ -1,0 +1,39 @@
+T2	Protein 112 116	HtrA
+T4	Protein 294 305	follistatin
+T5	Protein 638 642	Bmp4
+T6	Protein 644 648	Gdf5
+T7	Protein 701 705	Bmp4
+T8	Protein 707 711	Bmp2
+T9	Protein 717 725	Tgfbeta1
+T10	Protein 1179 1185	noggin
+T11	Protein 0 5	HtrA1
+T1	Family 53 60	Tgfbeta
+R1	Out-of-scope Arg1:T11 Arg2:T1	
+T12	Protein 79 84	HtrA1
+T3	Protein 214 219	HtrA1
+T13	Protein 327 332	HtrA1
+T14	Family 363 370	Tgfbeta
+T15	Protein 421 426	HtrA1
+T16	Family 478 485	Tgfbeta
+T17	Protein 571 576	HtrA1
+T18	Family 603 610	Tgfbeta
+R2	Complex_formation Arg1:T17 Arg2:T5	
+R3	Complex_formation Arg1:T17 Arg2:T6	
+T19	Family 650 658	Tgfbetas
+R4	Complex_formation Arg1:T17 Arg2:T19	
+T20	Protein 663 670	activin
+R5	Complex_formation Arg1:T17 Arg2:T20	
+T21	Protein 672 677	HtrA1
+R6	Negative_regulation Arg1:T21 Arg2:T7	
+R7	Negative_regulation Arg1:T21 Arg2:T8	
+R8	Negative_regulation Arg1:T21 Arg2:T9	
+T22	Protein 874 879	HtrA1
+T23	Family 972 979	Tgfbeta
+T24	Protein 1034 1039	HtrA1
+T25	Protein 1058 1063	HtrA1
+T26	Protein 1228 1233	HtrA1
+T27	Family 1267 1274	Tgfbeta
+R10	Negative_regulation Arg1:T26 Arg2:T27	
+T28	OOS 465 485	signaling by Tgfbeta
+T29	OOS 972 989	Tgfbeta signaling
+T30	OOS 31 60	signaling mediated by Tgfbeta

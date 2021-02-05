@@ -1,0 +1,20 @@
+T1	Protein 34 38	FEZ1
+T2	Protein 54 61	PKCzeta
+T3	Protein 125 132	PKCzeta
+T4	Protein 178 182	FEZ1
+T5	Protein 302 305	NGF
+T6	Protein 356 363	PKCzeta
+T7	Protein 375 384	nucleolin
+T8	Protein 573 582	nucleolin
+T9	Protein 615 622	PKCzeta
+T10	Protein 630 633	NGF
+T11	Protein 721 730	nucleolin
+T12	Protein 735 739	FEZ1
+T13	Protein 799 808	nucleolin
+T14	Protein 960 969	nucleolin
+T15	Protein 974 978	FEZ1
+T16	Protein 218 227	caPKCzeta
+T17	Protein 822 831	caPKCzeta
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Catalysis_of_phosphorylation Arg1:T6 Arg2:T7	
+#1	AnnotatorNotes R2	"substrate"

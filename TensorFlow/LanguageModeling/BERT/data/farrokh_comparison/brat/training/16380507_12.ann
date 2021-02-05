@@ -1,0 +1,37 @@
+T1	Protein 13 18	HDAC2
+T2	Protein 191 196	HDAC2
+T3	Protein 317 322	HDAC2
+T4	Protein 481 487	GM-CSF
+T5	Protein 510 515	HDAC2
+T6	Protein 537 542	HDAC2
+T7	Complex 37 46	NF-kappaB
+T8	Complex 96 105	NF-kappaB
+T9	Protein 184 186	GR
+T10	Protein 218 221	p65
+T11	Complex 222 231	NF-kappaB
+R1	Out-of-scope Arg1:T11 Arg2:T10	
+R2	Complex_formation Arg1:T2 Arg2:T10	
+R3	Complex_formation Arg1:T2 Arg2:T11	
+R4	Complex_formation Arg1:T9 Arg2:T10	
+R5	Complex_formation Arg1:T9 Arg2:T11	
+T12	Chemical 170 173	Dex
+#1	AnnotatorNotes T12	dexamethasone
+R6	Regulation Arg1:T12 Arg2:T9	
+R7	Regulation Arg1:T12 Arg2:T2	
+T13	Protein 261 263	GR
+T14	Protein 289 292	p65
+T15	Complex 293 302	NF-kappaB
+R8	Out-of-scope Arg1:T15 Arg2:T14	
+T16	Chemical 396 399	Dex
+T17	Protein 418 427	histone 4
+T18	Protein 447 450	p65
+T19	Complex 451 460	NF-kappaB
+R9	Out-of-scope Arg1:T19 Arg2:T18	
+T20	Protein 576 578	GR
+T21	Protein 589 591	GR
+T22	Complex 670 679	NF-kappaB
+R10	Out-of-scope Arg1:T18 Arg2:T17	
+R11	Out-of-scope Arg1:T19 Arg2:T17	
+#2	AnnotatorNotes R1	Part-of relation
+#3	AnnotatorNotes R8	Part-of relation
+#4	AnnotatorNotes R9	Part-of relation

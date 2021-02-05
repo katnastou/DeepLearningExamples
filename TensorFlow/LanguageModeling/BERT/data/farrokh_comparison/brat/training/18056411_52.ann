@@ -1,0 +1,18 @@
+T1	Protein 12 18	IFNAR1
+T2	Protein 403 407	Tyk2
+T3	Protein 432 438	IFNAR1
+T4	Chemical 195 207	Nonidet P-40
+T5	Chemical 213 217	NaCl
+T6	Chemical 228 231	SDS
+T7	Chemical 305 309	NaCl
+T8	Chemical 318 322	NaCl
+T9	Chemical 338 341	TBS
+R1	Complex_formation Arg1:T3 Arg2:T2	
+T10	Chemical 489 496	glycine
+T11	Chemical 521 524	SDS
+T12	Chemical 781 784	SDS
+T13	Chemical 812 821	Coomassie
+T14	Chemical 823 833	Invitrogen
+*	Equiv T14 T13
+T15	OOS 0 4	Flag
+T16	OOS 733 737	FLAG

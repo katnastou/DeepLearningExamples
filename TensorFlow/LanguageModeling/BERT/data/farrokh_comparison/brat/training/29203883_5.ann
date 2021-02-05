@@ -1,0 +1,16 @@
+T1	Protein 0 6	ABIN-1
+T2	Protein 152 158	Abin-1
+T3	Protein 160 189	TNFAIP3-interacting protein 1
+T4	Protein 194 199	Tnip1
+T5	Protein 389 395	Abin-1
+T6	Protein 405 411	ABIN-1
+T7	Protein 510 516	Abin-1
+T8	Protein 634 642	TNFalpha
+*	Equiv T4 T3 T2
+T9	Protein 12 21	ubiquitin
+T10	Protein 71 80	ubiquitin
+A1	Mutant T7
+R1	Complex_formation Arg1:T1 Arg2:T9	
+R2	Complex_formation Arg1:T1 Arg2:T10	
+A2	Blacklisted T9
+A3	Blacklisted T10

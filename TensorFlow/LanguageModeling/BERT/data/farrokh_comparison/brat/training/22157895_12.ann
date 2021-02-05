@@ -1,0 +1,8 @@
+T1	Protein 273 277	H2AX
+T2	Protein 547 551	H2AX
+T3	Protein 722 726	H2AX
+T4	Protein 894 898	H2AX
+T5	Protein 1080 1084	H2AX
+T6	Protein 334 339	MRE11
+T7	Protein 344 348	NBS1
+#1	AnnotatorNotes T1	Colocalization

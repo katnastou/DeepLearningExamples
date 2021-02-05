@@ -1,0 +1,45 @@
+T1	Protein 30 51	lysosomal acid lipase
+T2	Protein 118 121	Sp1
+T3	Protein 139 160	lysosomal acid lipase
+T4	Protein 162 165	LAL
+T5	Protein 369 372	LAL
+T6	Protein 505 508	LAL
+T7	Protein 1106 1109	Sp1
+T8	Protein 1126 1129	LAL
+T9	Protein 1221 1224	Sp1
+T10	Protein 1334 1337	LAL
+T11	Protein 1410 1431	lysosomal acid lipase
+T12	Protein 1433 1436	LAL
+T13	Protein 1501 1504	Sp1
+*	Equiv T11 T12
+*	Equiv T3 T4
+R1	Regulation_of_transcription Arg1:T7 Arg2:T8
+T14	Protein 126 130	AP-2
+T15	Protein 1114 1118	AP-2
+R2	Regulation_of_transcription Arg1:T15 Arg2:T8	
+T16	Protein 1229 1233	AP-2
+T17	Protein 1509 1513	AP-2
+R3	Regulation_of_transcription Arg1:T2 Arg2:T1	
+R4	Regulation_of_transcription Arg1:T14 Arg2:T1	
+R5	Regulation_of_transcription Arg1:T13 Arg2:T12	
+R6	Regulation_of_transcription Arg1:T17 Arg2:T12	
+#1	AnnotatorNotes T14	Complex
+T18	Chemical 211 229	cholesteryl esters
+#2	AnnotatorNotes T18	Plural
+T19	Chemical 234 247	triglycerides
+#3	AnnotatorNotes T19	Plural
+T20	Protein 421 437	protein kinase C
+T21	Chemical 716 730	phorbol esters
+#4	AnnotatorNotes T21	Plural
+T22	Chemical 807 838	phorbol 12-myristate-13 acetate
+T23	Chemical 840 843	PMA
+*	Equiv T22 T23
+T24	Chemical 932 935	PMA
+#5	AnnotatorNotes T15	Complex
+T25	Chemical 1155 1158	PMA
+R7	Positive_regulation Arg1:T25 Arg2:T7	
+R8	Positive_regulation Arg1:T25 Arg2:T15	
+T26	Chemical 1321 1324	PMA
+#6	AnnotatorNotes T17	Complex
+#7	AnnotatorNotes T16	Complex
+#8	AnnotatorNotes T20	Family

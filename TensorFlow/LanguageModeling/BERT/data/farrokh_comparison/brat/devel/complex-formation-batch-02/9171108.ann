@@ -1,0 +1,29 @@
+T1	Protein 4 28	class II trans-activator
+T2	Protein 29 34	CIITA
+T3	Protein 54 57	TBP
+T4	Protein 76 83	TAFII32
+T5	Protein 90 115	class II trans- activator
+T6	Protein 117 122	CIITA
+T7	Protein 601 606	CIITA
+T8	Protein 620 625	CIITA
+T9	Protein 757 762	CIITA
+T10	Protein 841 848	TAFII32
+T11	Protein 914 919	CIITA
+T12	Protein 973 980	TAFII32
+T13	Protein 1020 1027	TAFII32
+T14	Protein 1032 1037	CIITA
+*	Equiv T1 T2
+*	Equiv T5 T6
+R1	Complex_formation Arg1:T2 Arg2:T4
+R2	Complex_formation Arg1:T9 Arg2:T10
+R3	Complex_formation Arg1:T11 Arg2:T12
+R4	Complex_formation Arg1:T13 Arg2:T14
+R5	Complex_formation Arg1:T3 Arg2:T4	
+T15	Protein 1072 1080	class II
+R6	Positive_regulation Arg1:T14 Arg2:T15	
+R7	Positive_regulation Arg1:T13 Arg2:T15	
+T16	Protein 187 199	MHC class II
+#1	AnnotatorNotes T16	Group
+#2	AnnotatorNotes T15	Group
+T17	Protein 834 839	TFIID
+#3	AnnotatorNotes T17	Complex

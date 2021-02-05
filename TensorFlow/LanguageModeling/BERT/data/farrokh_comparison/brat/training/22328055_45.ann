@@ -1,0 +1,30 @@
+T1	Protein 19 22	OS9
+T2	Protein 43 47	BRI1
+T3	Protein 54 58	BRI1
+T4	Protein 119 123	BRI1
+T5	Protein 146 150	BRI1
+T6	Protein 214 218	BRI1
+T7	Protein 323 327	BRI1
+T8	Protein 445 449	BRI1
+T9	Protein 456 460	BRI1
+T10	Protein 660 664	BRI1
+T11	Protein 672 675	OS9
+T12	Protein 749 752	OS9
+T13	Protein 763 767	YOS9
+A1	Mutant T2
+A2	Mutant T3
+A3	Mutant T4
+A4	Mutant T5
+A5	Mutant T8
+A6	Mutant T9
+T14	Complex 494 498	ERAD
+T15	Complex 604 608	ERAD
+A7	Mutant T10
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T1 Arg2:T3	
+T16	Chemical 66 77	kifunensine
+R3	Out-of-scope Arg1:T1 Arg2:T4	
+#2	AnnotatorNotes R3	Negated
+R4	Out-of-scope Arg1:T1 Arg2:T5	
+#3	AnnotatorNotes R4	Negated
+R5	Complex_formation Arg1:T10 Arg2:T11	

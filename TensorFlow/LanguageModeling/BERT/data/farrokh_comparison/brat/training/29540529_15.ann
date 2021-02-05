@@ -1,0 +1,14 @@
+T1	Protein 18 22	Atg1
+T2	Protein 58 63	Atg13
+T3	Protein 119 123	Atg1
+T4	Protein 139 144	Atg13
+T5	Protein 183 187	Atg1
+T6	Protein 206 211	Atg13
+T7	Protein 253 258	Atg13
+T8	Protein 323 328	Atg13
+T9	Protein 411 415	Atg1
+T10	Protein 429 434	Atg13
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T3 Arg2:T4	
+R3	Complex_formation Arg1:T9 Arg2:T10	
+A1	Mutant T9

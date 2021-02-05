@@ -1,0 +1,88 @@
+T1	Protein 35 60	latent membrane protein 1
+T2	Protein 124 129	TRADD
+T3	Protein 301 305	LMP1
+T4	Protein 346 418	tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein
+T5	Protein 419 424	TRADD
+T6	Protein 563 567	LMP1
+T7	Protein 586 591	TRADD
+T8	Protein 605 610	TNFR1
+T9	Protein 629 634	TRADD
+T10	Protein 636 640	LMP1
+T11	Protein 707 712	TRADD
+T12	Protein 744 749	TNFR1
+T13	Protein 795 799	LMP1
+T14	Protein 817 822	TRADD
+T15	Protein 875 880	TNFR1
+T16	Protein 890 895	TRADD
+T17	Protein 917 921	LMP1
+T18	Protein 973 978	TRADD
+T19	Protein 1028 1033	TNFR1
+T20	Protein 1035 1039	LMP1
+T21	Protein 1193 1197	LMP1
+T22	Protein 1283 1288	TRADD
+T23	Protein 1297 1301	LMP1
+T24	Protein 1484 1488	LMP1
+T25	Protein 1490 1495	TRADD
+*	Equiv T4 T5
+R1	Complex_formation Arg1:T1 Arg2:T2
+R2	Complex_formation Arg1:T3 Arg2:T5
+R4	Complex_formation Arg1:T23 Arg2:T22
+T26	Protein 1067 1095	receptor-interacting protein
+T27	Protein 1097 1100	RIP
+*	Equiv T26 T27
+R3	Complex_formation Arg1:T20 Arg2:T26	
+T28	Protein 1129 1132	RIP
+R5	Complex_formation Arg1:T20 Arg2:T28	
+T29	Protein 1215 1218	RIP
+T30	Protein 1292 1295	RIP
+R6	Complex_formation Arg1:T30 Arg2:T23	
+T31	Protein 1501 1504	RIP
+T32	Protein 164 167	RIP
+R7	Complex_formation Arg1:T1 Arg2:T32	
+R8	Complex_formation Arg1:T10 Arg2:T11	
+R9	Complex_formation Arg1:T12 Arg2:T11	
+R11	Complex_formation Arg1:T16 Arg2:T15	
+R12	Complex_formation Arg1:T18 Arg2:T17	
+R13	Negated Arg1:T19 Arg2:T26	
+T33	Protein 436 445	NF-kappaB
+T34	Protein 450 473	c-Jun N-terminal kinase
+R14	Positive_regulation Arg1:T5 Arg2:T33	
+R15	Positive_regulation Arg1:T5 Arg2:T34	
+R16	Positive_regulation Arg1:T3 Arg2:T34	
+R17	Positive_regulation Arg1:T3 Arg2:T33	
+T35	Protein 679 688	NF-kappaB
+R18	Positive_regulation Arg1:T10 Arg2:T35	
+T36	Protein 716 725	NF-kappaB
+R19	Positive_regulation Arg1:T11 Arg2:T36	
+R20	Positive_regulation Arg1:T10 Arg2:T36	
+T37	Protein 847 856	NF-kappaB
+R10	Positive_regulation Arg1:T13 Arg2:T37	
+R21	Positive_regulation Arg1:T15 Arg2:T37	
+T38	Protein 947 956	NF-kappaB
+T39	Protein 1223 1232	NF-kappaB
+R22	Positive_regulation Arg1:T21 Arg2:T39	
+#1	AnnotatorNotes T35	Complex
+T40	Protein 218 227	NF-kappaB
+#2	AnnotatorNotes T40	Complex
+#3	AnnotatorNotes T33	Complex
+#4	AnnotatorNotes T36	Complex
+#5	AnnotatorNotes T37	Complex
+#6	AnnotatorNotes T38	Complex
+#7	AnnotatorNotes T39	Complex
+T41	Protein 134 162	receptor-interacting protein
+#8	AnnotatorNotes T41	Family
+*	Equiv T41 T32
+#9	AnnotatorNotes T32	Family
+T42	Protein 73 103	tumor necrosis factor receptor
+#10	AnnotatorNotes T42	Family
+T43	Protein 210 213	RIP
+#11	AnnotatorNotes T43	Family
+R23	Negative_regulation Arg1:T18 Arg2:T17	
+#12	AnnotatorNotes T26	Family
+#13	AnnotatorNotes T27	Family
+#14	AnnotatorNotes T28	Family
+#15	AnnotatorNotes T29	Family
+#16	AnnotatorNotes T30	Family
+#17	AnnotatorNotes T31	Family
+R24	Other Arg1:T6 Arg2:T7	
+R25	Other Arg1:T8 Arg2:T9	

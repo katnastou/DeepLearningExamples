@@ -1,0 +1,14 @@
+T1	Protein 342 372	Parathyroid hormone receptor 1
+T2	Protein 374 379	PTHR1
+T3	Protein 389 421	Glucagon-like-peptide-1 receptor
+T4	Protein 423 429	GLP-1R
+T5	Family 93 120	G-protein coupled receptors
+T6	Family 123 150	G-protein coupled receptors
+T7	Family 152 157	GPCRs
+*	Equiv T7 T6
+T8	Family 280 293	class B GPCRs
+*	Equiv T2 T1
+*	Equiv T4 T3
+T9	Family 517 530	Class B GPCRs
+T10	Family 938 942	SUMO
+T11	Family 1029 1033	SUMO

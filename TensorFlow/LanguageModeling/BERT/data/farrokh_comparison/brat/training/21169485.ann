@@ -1,0 +1,35 @@
+T1	Protein 90 94	LptA
+T2	Protein 95 99	LptC
+T3	Protein 116 120	LptA
+T4	Protein 687 691	LptA
+T5	Protein 958 962	LptA
+T6	Protein 967 971	LptC
+T7	Protein 1078 1082	LptC
+T8	Protein 1125 1129	LptC
+T9	Protein 1147 1151	LptA
+T10	Protein 1239 1243	LptA
+T11	Protein 1263 1267	LptA
+T12	Complex 22 25	Lpt
+T13	Protein 709 713	LptD
+T14	Protein 659 663	LptB
+T15	Protein 663 664	C
+T16	Protein 664 665	D
+T17	Protein 665 666	F
+T18	Protein 713 714	E
+T19	Protein 1195 1198	Lpt
+R1	Complex_formation Arg1:T1 Arg2:T2	
+T20	Protein 590 603	MsbA flippase
+R2	Complex_formation Arg1:T5 Arg2:T6	
+R3	Complex_formation Arg1:T8 Arg2:T9	
+T21	Chemical 40 58	lipopolysaccharide
+T22	Chemical 190 208	Lipopolysaccharide
+T23	Chemical 210 213	LPS
+*	Equiv T22 T23
+T24	Chemical 226 236	glycolipid
+#1	AnnotatorNotes T24	Group
+T25	Chemical 369 372	LPS
+T26	Chemical 490 493	LPS
+T27	Complex 627 630	Lpt
+T28	Chemical 736 739	LPS
+T29	Complex 821 824	Lpt
+T30	Chemical 1421 1424	LPS

@@ -1,0 +1,20 @@
+T1	Protein 18 23	Rad52
+T2	Protein 84 101	Rad51 recombinase
+T3	Protein 108 113	RAD51
+T4	Protein 118 123	RAD52
+T5	Protein 181 186	RAD52
+T6	Protein 288 293	RAD51
+T7	Protein 502 507	Rad51
+T8	Protein 606 611	Rad51
+T9	Protein 859 864	Rad52
+T10	Protein 980 985	Rad52
+T11	Protein 1019 1036	Rad51 recombinase
+T12	Protein 54 75	replication protein A
+T13	Protein 468 489	replication protein A
+T14	Protein 491 494	RPA
+*	Equiv T14 T13
+T15	Protein 616 619	RPA
+T16	Protein 775 778	RPA
+T17	Protein 1098 1101	RPA
+T18	Protein 0 16	Function of yeas
+#1	AnnotatorNotes T18	Remove abstract

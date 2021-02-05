@@ -1,0 +1,12 @@
+T1	Protein 117 121	p38a
+T2	Protein 126 130	p38b
+T3	Protein 643 647	p38b
+T4	Protein 651 655	p38a
+T5	Protein 870 874	p38a
+T6	Protein 931 935	p38b
+T7	Protein 1007 1011	p38a
+T8	Protein 1015 1019	p38b
+T9	Protein 909 920	p38bDelta45
+A1	Mutant T9
+T10	Protein 969 979	p38aDelta1
+A2	Mutant T10

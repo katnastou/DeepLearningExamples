@@ -1,0 +1,44 @@
+T1	Protein 4 8	RAG1
+T2	Protein 149 153	RAG1
+T3	Protein 154 158	RAG2
+T4	Protein 225 229	RAG1
+T5	Protein 230 234	RAG2
+T6	Protein 236 240	RAG1
+T7	Protein 404 408	RAG1
+T8	Protein 484 488	RAG1
+T9	Protein 611 615	RAG1
+T10	Protein 747 751	RAG1
+T11	Protein 30 34	HMG1
+T12	Protein 39 43	HMG2
+R1	Complex_formation Arg1:T1 Arg2:T11	
+R2	Complex_formation Arg1:T1 Arg2:T12	
+R3	Complex_formation Arg1:T2 Arg2:T3	
+R4	Regulation Arg1:T12 Arg2:T2	
+R5	Regulation Arg1:T12 Arg2:T3	
+R6	Regulation Arg1:T11 Arg2:T2	
+R7	Regulation Arg1:T11 Arg2:T3	
+R8	Complex_formation Arg1:T4 Arg2:T5	
+T13	Protein 241 242	2
+R9	Complex_formation Arg1:T6 Arg2:T13	
+*	Equiv T4 T6
+*	Equiv T5 T13
+T14	Protein 409 410	2
+R10	Complex_formation Arg1:T7 Arg2:T14	
+T15	Protein 448 452	HMG1
+T16	Protein 456 460	HMG2
+T17	Protein 543 547	HMG1
+T18	Protein 552 556	HMG2
+T19	Protein 558 562	HMG1
+T20	Protein 563 564	2
+R11	Complex_formation Arg1:T17 Arg2:T8	
+R12	Complex_formation Arg1:T18 Arg2:T8	
+*	Equiv T19 T17
+*	Equiv T20 T18
+T21	Protein 616 617	2
+R13	Complex_formation Arg1:T9 Arg2:T21	
+T22	Protein 752 753	2
+R14	Complex_formation Arg1:T10 Arg2:T22	
+T23	Protein 821 825	HMG1
+T24	Protein 826 827	2
+T25	Protein 992 996	HMG1
+T26	Protein 997 998	2

@@ -1,0 +1,33 @@
+T1	Protein 38 52	I kappa B beta
+T2	Protein 193 208	I kappa B alpha
+T3	Protein 213 227	I kappa B beta
+T4	Protein 336 339	p65
+T5	Protein 343 348	c-Rel
+T6	Protein 419 436	I kappa B epsilon
+T7	Protein 491 506	I kappa B alpha
+T8	Protein 508 522	I kappa B beta
+T9	Protein 653 668	I kappa B alpha
+T10	Protein 673 687	I kappa B beta
+T11	Protein 716 719	p65
+T12	Protein 729 743	I kappa B beta
+T13	Protein 771 780	TNF alpha
+T14	Protein 867 882	I kappa B alpha
+T15	Protein 884 898	I kappa B beta
+T16	Protein 1019 1033	I kappa B beta
+R1	Complex_formation Arg1:T4 Arg2:T2
+R2	Complex_formation Arg1:T5 Arg2:T2
+R3	Complex_formation Arg1:T5 Arg2:T3
+R4	Complex_formation Arg1:T4 Arg2:T3
+R5	Complex_formation Arg1:T9 Arg2:T11
+R6	Complex_formation Arg1:T10 Arg2:T11
+T17	Complex 11 21	NF-kappa B
+R7	Regulation Arg1:T1 Arg2:T17	
+T18	Complex 90 100	NF-kappa B
+T19	Protein 153 171	kappa B inhibitors
+R8	Negative_regulation Arg1:T19 Arg2:T18	
+T20	Complex 290 300	NF-kappa B
+R9	Negative_regulation Arg1:T3 Arg2:T20	
+R10	Negative_regulation Arg1:T2 Arg2:T20	
+T21	Complex 397 407	NF-kappa B
+R11	Negative_regulation Arg1:T6 Arg2:T21	
+T22	Complex 566 576	NF-kappa B

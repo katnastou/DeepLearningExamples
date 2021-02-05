@@ -1,0 +1,35 @@
+T1	Protein 0 5	MEKK3
+T2	Protein 25 29	MEK5
+T3	Protein 54 92	big mitogen-activated protein kinase 1
+T4	Protein 94 98	BMK1
+T5	Protein 164 168	BMK1
+T6	Protein 185 189	ERK5
+T7	Protein 375 379	MEK5
+T8	Protein 421 425	BMK1
+T9	Protein 488 492	MEK5
+T10	Protein 598 603	MEKK3
+T11	Protein 649 653	MEK5
+T12	Protein 752 756	MEK5
+T13	Protein 761 766	MEKK3
+T14	Protein 841 846	MEKK3
+T15	Protein 858 862	BMK1
+T16	Protein 880 884	MEK5
+T17	Protein 916 921	MEKK3
+T18	Protein 1004 1008	BMK1
+T19	Protein 1049 1054	MEKK3
+T20	Protein 1098 1102	MEK5
+T21	Protein 1107 1111	BMK1
+R1	Regulation Arg1:T1 Arg2:T2	
+T22	Protein 120 162	Big mitogen-activated protein (MAP) kinase
+*	Equiv T22 T5 T6
+R2	Regulation Arg1:T7 Arg2:T8	
+R3	Complex_formation Arg1:T10 Arg2:T11	
+R4	Complex_formation Arg1:T12 Arg2:T13	
+R5	Positive_regulation Arg1:T14 Arg2:T15	
+R6	Regulation Arg1:T17 Arg2:T18	
+R7	Regulation Arg1:T19 Arg2:T20	
+R8	Regulation Arg1:T14 Arg2:T16	
+R9	Regulation Arg1:T19 Arg2:T21	
+*	Equiv T4 T3
+T23	Family 210 220	MAP kinase
+T24	OOS 54 117	big mitogen-activated protein kinase 1 (BMK1) signaling pathway

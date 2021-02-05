@@ -1,0 +1,26 @@
+T1	OOS 93 97	MST1
+T2	OOS 279 283	MST1
+T3	OOS 363 366	U27
+T4	OOS 639 642	U27
+T5	OOS 961 964	U27
+T6	OOS 22 28	tRNA-A
+#1	AnnotatorNotes T6	not tagged by tagger
+T7	OOS 481 487	tRNA-A
+#2	AnnotatorNotes T7	not tagged by tagger
+T8	OOS 195 202	tRNAThr
+#3	AnnotatorNotes T8	not tagged by tagger
+T9	OOS 437 445	tRNA2Thr
+#4	AnnotatorNotes T9	not tagged by tagger
+#5	AnnotatorNotes T3	tagged by tagger
+#6	AnnotatorNotes T5	tagged by tagger
+#7	AnnotatorNotes T4	tagged by tagger
+#8	AnnotatorNotes T1	tagged by tagger, but is a dimer consisting of MST1-A and MST1_B
+T10	Protein 93 99	MST1-B
+T11	Protein 279 285	MST1-B
+T12	OOS 616 618	O2
+#9	AnnotatorNotes T12	it's the second O in the structure, not free Oxygen, I have not tagged as chemical, since I also don't tag amino acid residues in protein structures
+T13	OOS 701 703	O2
+T14	OOS 708 710	N3
+T15	Chemical 833 838	water
+T16	OOS 906 908	N3
+T17	OOS 927 932	sugar

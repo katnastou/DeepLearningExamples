@@ -1,0 +1,26 @@
+T1	OOS 21 28	spastic
+T2	OOS 165 172	spastic
+T3	Protein 214 221	spartin
+T4	Protein 391 398	spartin
+T5	Protein 447 454	spartin
+T6	Protein 561 568	spartin
+T7	Protein 713 717	ITCH
+T8	Protein 719 752	itchy E3 ubiquitin protein ligase
+T9	Protein 786 790	WWP1
+T10	Protein 907 914	spartin
+T11	Protein 979 986	spartin
+T12	OOS 4 8	HSPs
+#1	AnnotatorNotes T1	tagged by tagger
+#2	AnnotatorNotes T2	tagged by tagger
+T13	Family 654 674	ubiquitin E3 ligases
+T14	Protein 675 679	AIP4
+T15	Protein 681 711	atrophin-interacting protein 4
+*	Equiv T15 T14
+*	Equiv T8 T7
+T16	Protein 780 784	AIP5
+*	Equiv T16 T9
+T17	Protein 823 827	AIP4
+T18	Protein 832 836	AIP5
+T19	Protein 858 865	spartin
+R1	Complex_formation Arg1:T6 Arg2:T14	
+R2	Complex_formation Arg1:T6 Arg2:T16	

@@ -1,0 +1,21 @@
+T1	Protein 19 23	Mba1
+T2	Protein 147 151	Oxa1
+T3	Protein 153 157	Mba1
+T4	Protein 256 260	Mba1
+T5	Protein 265 269	Oxa1
+T6	Protein 372 376	Oxa1
+T7	Protein 378 382	Mba1
+T8	Protein 423 427	Oxa1
+T9	Protein 458 462	Mba1
+T10	Protein 477 481	Mba1
+T11	Protein 503 507	Oxa1
+T12	Protein 589 593	Oxa1
+T13	Protein 693 697	Mba1
+T14	Protein 704 708	Oxa1
+T15	Protein 726 730	Cox2
+T16	Protein 761 765	Cox3
+T17	Protein 784 788	Oxa1
+R1	Complex_formation Arg1:T13 Arg2:T15	
+R2	Complex_formation Arg1:T13 Arg2:T16	
+T18	Protein 609 618	Deltaoxa1
+A1	Mutant T18

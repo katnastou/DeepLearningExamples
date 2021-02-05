@@ -1,0 +1,54 @@
+T1	Protein 86 90	Orc2
+T2	Protein 1384 1388	Orc2
+T3	Protein 39 44	Rbf1N
+T4	Protein 50 53	ORC
+T5	Protein 76 81	Rbf1N
+R1	Complex_formation Arg1:T3 Arg2:T4	
+T6	Protein 117 122	Rbf1N
+#1	AnnotatorNotes T3	N-terminal fragment of Rbf1
+#2	AnnotatorNotes T5	N-terminal fragment of Rbf1, not tagged
+#3	AnnotatorNotes T6	N-terminal fragment of Rbf1, not tagged
+T7	Protein 269 274	Rbf1N
+#4	AnnotatorNotes T7	N-terminal fragment of Rbf1, not tagged
+T8	Protein 484 489	Rbf1N
+#5	AnnotatorNotes T8	N-terminal fragment of Rbf1, not tagged
+T9	Protein 368 373	Rbf1N
+#6	AnnotatorNotes T9	N-terminal fragment of Rbf1, not tagged
+T10	Protein 942 947	Rbf1N
+#7	AnnotatorNotes T10	N-terminal fragment of Rbf1, not tagged
+T11	Protein 1159 1164	Rbf1N
+#8	AnnotatorNotes T11	N-terminal fragment of Rbf1, not tagged
+T12	Protein 1394 1399	Rbf1N
+#9	AnnotatorNotes T12	N-terminal fragment of Rbf1, not tagged
+T13	Protein 327 332	actin
+#10	AnnotatorNotes T13	Not tagged
+T14	Protein 333 337	GAL4
+#11	AnnotatorNotes T14	Not tagged
+T15	Protein 374 377	RFP
+A2	Fusion T15
+#12	AnnotatorNotes T15	Not tagged
+T16	Protein 364 367	UAS
+#13	AnnotatorNotes T16	Not tagged
+T17	Protein 490 493	RFP
+A1	Fusion T17
+#14	AnnotatorNotes T17	not tagged
+T18	Chemical 521 525	BrdU
+T19	Protein 948 951	RFP
+A3	Fusion T19
+#15	AnnotatorNotes T19	not tagged
+T20	Protein 1165 1168	RFP
+A4	Fusion T20
+#16	AnnotatorNotes T20	not tagged
+T21	Protein 1155 1158	UAS
+#17	AnnotatorNotes T21	not tagged
+T22	Protein 1194 1197	GMR
+#18	AnnotatorNotes T22	Not tagged
+T23	Protein 1198 1202	GAL4
+#19	AnnotatorNotes T23	Not tagged
+T24	Protein 1206 1208	ey
+#20	AnnotatorNotes T24	Not tagged
+T25	Protein 1209 1213	GAL4
+#21	AnnotatorNotes T25	Not tagged
+T26	Protein 1312 1317	Rbf1N
+#22	AnnotatorNotes T26	N-terminal fragment of Rbf1, not tagged
+R2	Complex_formation Arg1:T26 Arg2:T2	

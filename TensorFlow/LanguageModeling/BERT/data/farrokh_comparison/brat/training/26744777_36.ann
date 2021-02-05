@@ -1,0 +1,22 @@
+T1	Protein 4 9	Rpn11
+T2	Protein 146 151	Rpn11
+T3	Protein 214 217	DUB
+T4	Protein 261 266	Rpn11
+T5	Protein 456 461	Rpn11
+T6	Protein 487 492	Rpn11
+T7	Protein 503 506	DUB
+T8	Protein 588 593	Rpn11
+T9	Protein 676 681	Rpn11
+T10	Protein 765 770	Rpn11
+T11	Protein 66 75	ubiquitin
+T12	Protein 543 552	ubiquitin
+T13	Protein 639 648	Ubiquitin
+T14	Complex 600 611	proteasomes
+T15	Complex 418 429	proteasomes
+T16	Complex 28 38	proteasome
+T17	Complex 230 241	proteasomes
+T18	Complex 316 327	proteasomes
+T19	Complex 774 785	proteasomes
+A1	Blacklisted T12
+A2	Blacklisted T13
+A3	Blacklisted T11

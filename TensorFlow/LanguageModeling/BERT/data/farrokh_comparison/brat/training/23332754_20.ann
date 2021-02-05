@@ -1,0 +1,14 @@
+T1	Protein 28 34	UNC-45
+T2	Protein 110 116	UNC-45
+T3	Protein 542 548	UNC-45
+T4	Protein 750 756	unc-45
+T5	Protein 332 340	DeltaTPR
+A1	Mutant T5
+#1	AnnotatorNotes T5	mutant of UNC-45 ?
+T6	Protein 480 488	DeltaTPR
+A2	Mutant T6
+#2	AnnotatorNotes T6	mutant of UNC-45 ?
+T7	Protein 830 838	DeltaTPR
+A3	Mutant T7
+#3	AnnotatorNotes T7	mutant of UNC-45 ?
+A4	Mutant T4

@@ -1,0 +1,23 @@
+T1	OOS 286 293	stretch
+T2	OOS 712 715	m2p
+T3	OOS 717 720	m3p
+T4	OOS 1289 1292	m3p
+#1	AnnotatorNotes T1	tagged by tagger
+T5	Protein 361 363	Sc
+T6	Family 467 473	kinase
+T7	Family 492 497	Cdk's
+T8	Family 502 508	MAPK's
+T9	Protein 571 573	Sc
+T10	OOS 724 727	m5p
+A1	Mutant T2
+#2	AnnotatorNotes T2	tagged by tagger
+A2	Mutant T3
+#3	AnnotatorNotes T3	tagged by tagger
+A3	Mutant T10
+T11	Protein 853 855	Sc
+T12	Protein 960 962	Sc
+A4	Mutant T12
+T13	Protein 1132 1134	Sc
+T14	Protein 1286 1288	Sc
+T15	Protein 1318 1320	Sc
+T16	Protein 1338 1340	Sc

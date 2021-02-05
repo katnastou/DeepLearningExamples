@@ -1,0 +1,88 @@
+T1	Protein 4 7	tax
+T2	Protein 90 95	c-sis
+T3	Protein 96 128	platelet-derived growth factor-B
+T4	Protein 202 205	Sp1
+T5	Protein 210 216	NGFI-A
+T6	Protein 217 222	Egr-1
+T7	Protein 262 267	c-sis
+T8	Protein 268 300	platelet-derived growth factor-B
+T9	Protein 302 308	PDGF-B
+T10	Protein 332 335	Tax
+T11	Protein 551 556	c-sis
+T12	Protein 557 563	PDGF-B
+T14	Protein 640 643	Tax
+T15	Protein 664 667	Sp1
+T16	Protein 669 672	Sp3
+T17	Protein 678 684	NGFI-A
+T18	Protein 685 690	Egr-1
+T19	Protein 766 769	Tax
+T20	Protein 853 856	Tax
+T21	Protein 876 881	c-sis
+T22	Protein 882 888	PDGF-B
+T23	Protein 947 950	Tax
+T24	Protein 1070 1075	c-sis
+T25	Protein 1076 1082	PDGF-B
+T26	Protein 1151 1154	Tax
+T27	Protein 1198 1201	Sp1
+T28	Protein 1206 1212	NGFI-A
+T29	Protein 1213 1218	Egr-1
+T30	Protein 1251 1254	Tax
+T31	Protein 1357 1362	c-sis
+T32	Protein 1363 1369	PDGF-B
+T33	Protein 1435 1438	Tax
+T34	Protein 1470 1473	Sp1
+T35	Protein 1478 1484	NGFI-A
+T36	Protein 1485 1490	Egr-1
+T37	Protein 1558 1561	Tax
+T38	Protein 1604 1610	NGFI-A
+T39	Protein 1611 1616	Egr-1
+T40	Protein 1626 1629	Tax
+T41	Protein 1671 1677	NGFI-A
+T42	Protein 1678 1683	Egr-1
+*	Equiv T28 T29
+*	Equiv T11 T12
+*	Equiv T35 T36
+*	Equiv T2 T3
+*	Equiv T17 T18
+*	Equiv T38 T39
+*	Equiv T24 T25
+*	Equiv T31 T32
+*	Equiv T21 T22
+*	Equiv T5 T6
+*	Equiv T41 T42
+*	Equiv T7 T8 T9
+R1	Complex_formation Arg1:T1 Arg2:T4
+R2	Complex_formation Arg1:T1 Arg2:T5
+R3	Complex_formation Arg1:T33 Arg2:T34
+R4	Complex_formation Arg1:T33 Arg2:T35
+R5	Positive_regulation Arg1:T10 Arg2:T9	
+T43	Protein 747 751	TRE1
+R6	Regulation_of_transcription Arg1:T18 Arg2:T43	
+R7	Regulation_of_transcription Arg1:T16 Arg2:T43	
+R8	Regulation_of_transcription Arg1:T15 Arg2:T43	
+R9	Out-of-scope Arg1:T40 Arg2:T42	
+R10	Out-of-scope Arg1:T37 Arg2:T38	
+R11	Regulation_of_transcription Arg1:T1 Arg2:T2	
+R12	Positive_regulation Arg1:T1 Arg2:T2	
+R13	Regulation_of_transcription Arg1:T4 Arg2:T2	
+R14	Positive_regulation Arg1:T4 Arg2:T2	
+R15	Positive_regulation Arg1:T5 Arg2:T2	
+R16	Regulation_of_transcription Arg1:T5 Arg2:T2	
+R17	Regulation_of_transcription Arg1:T10 Arg2:T9	
+R18	Regulation_of_transcription Arg1:T14 Arg2:T12	
+R19	Positive_regulation Arg1:T14 Arg2:T12	
+R20	Regulation_of_transcription Arg1:T20 Arg2:T21	
+R21	Positive_regulation Arg1:T20 Arg2:T21	
+R22	Positive_regulation Arg1:T23 Arg2:T24	
+R23	Regulation_of_transcription Arg1:T23 Arg2:T24	
+R24	Positive_regulation Arg1:T26 Arg2:T27	
+R25	Positive_regulation Arg1:T26 Arg2:T28	
+R26	Positive_regulation Arg1:T30 Arg2:T31	
+R27	Regulation_of_transcription Arg1:T30 Arg2:T31	
+T13	OOS 1288 1295	IEXC29S
+T44	OOS 1300 1308	IEXL320G
+#1	AnnotatorNotes R26	The non-mutant should have the opposite relationships
+T45	OOS 1569 1576	IEXC29S
+T46	OOS 1637 1645	IEXL320G
+T47	OOS 574 598	Tax-responsive element 1
+T48	OOS 600 604	TRE1

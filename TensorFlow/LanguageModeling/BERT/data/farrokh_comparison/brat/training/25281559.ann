@@ -1,0 +1,21 @@
+T1	Protein 0 5	Hrr25
+T2	Protein 45 50	Atg34
+T3	Family 84 101	alpha-mannosidase
+T4	Family 212 229	alpha-mannosidase
+T5	Protein 230 234	Ams1
+T6	Protein 276 281	Atg34
+T7	Protein 385 390	Hrr25
+T8	Protein 425 430	Atg34
+T9	Protein 455 460	Hrr25
+T10	Protein 521 526	Atg34
+T11	Protein 532 536	Ams1
+T12	Protein 559 564	Atg34
+T13	Protein 596 601	Atg11
+T14	Protein 649 653	Ams1
+T15	Protein 654 659	Atg34
+T16	Protein 722 726	Ams1
+T17	Chemical 108 116	nitrogen
+T18	Chemical 176 184	nitrogen
+R2	Complex_formation Arg1:T10 Arg2:T11	
+R3	Complex_formation Arg1:T12 Arg2:T13	
+R4	Complex_formation Arg1:T14 Arg2:T15	

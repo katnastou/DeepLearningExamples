@@ -1,0 +1,67 @@
+T1	Protein 0 9	Rabphilin
+T2	Protein 14 18	Noc2
+T3	Protein 90 96	Rab27A
+T4	Protein 113 122	Rabphilin
+T5	Protein 127 131	Noc2
+T6	Protein 161 166	Rab3A
+T7	Protein 301 307	Rab27A
+T8	Protein 334 339	Rab3A
+T9	Protein 409 414	Rab3A
+T10	Protein 529 538	rabphilin
+T11	Protein 543 547	Noc2
+T12	Protein 619 625	Rab27A
+T13	Protein 636 641	Rab3A
+T14	Protein 658 663	Rab3A
+T15	Protein 693 702	rabphilin
+T16	Protein 713 717	Noc2
+T17	Protein 830 849	nerve growth factor
+T18	Protein 921 927	Rab27A
+T19	Protein 957 966	rabphilin
+T20	Protein 982 986	Noc2
+T21	Protein 1108 1117	rabphilin
+T22	Protein 1155 1164	rabphilin
+T23	Protein 1213 1227	neuropeptide Y
+T24	Protein 1272 1281	rabphilin
+T25	Protein 1307 1312	Rab27
+T26	Protein 1430 1439	rabphilin
+T27	Protein 1444 1456	dm-rabphilin
+T28	Protein 1488 1496	dm-Rab27
+T29	Protein 1514 1521	dm-Rab3
+T30	Protein 1528 1535	dm-Rab8
+T31	Protein 1553 1562	rabphilin
+T32	Protein 1578 1583	Rab27
+T33	Protein 1689 1698	rabphilin
+T34	Protein 1703 1707	Noc2
+T35	Protein 1757 1762	Rab27
+T36	Protein 1782 1808	synaptotagmin-like protein
+T37	Protein 1834 1841	Slac2-a
+T38	Protein 1842 1854	melanophilin
+R1	Complex_formation Arg1:T2 Arg2:T3	
+R2	Complex_formation Arg1:T1 Arg2:T3	
+R3	Complex_formation Arg1:T5 Arg2:T6	
+R4	Complex_formation Arg1:T4 Arg2:T6	
+R5	Complex_formation Arg1:T5 Arg2:T7	
+R6	Complex_formation Arg1:T4 Arg2:T7	
+R7	Complex_formation Arg1:T5 Arg2:T8	
+R8	Complex_formation Arg1:T4 Arg2:T8	
+R9	Complex_formation Arg1:T5 Arg2:T9	
+R10	Complex_formation Arg1:T4 Arg2:T9	
+R11	Complex_formation Arg1:T11 Arg2:T12	
+R12	Complex_formation Arg1:T10 Arg2:T12	
+R13	Negative_regulation Arg1:T22 Arg2:T23	
+R14	Negative_regulation Arg1:T21 Arg2:T23	
+R15	Complex_formation Arg1:T24 Arg2:T25	
+T39	Protein 1441 1443	ce
+T40	Protein 1485 1487	ce
+T41	Protein 1511 1513	ce
+R16	Complex_formation Arg1:T39 Arg2:T40	
+R17	Complex_formation Arg1:T27 Arg2:T28	
+T42	Protein 1525 1527	ce
+R18	Complex_formation Arg1:T31 Arg2:T32	
+*	Equiv T27 T39
+*	Equiv T28 T40
+*	Equiv T29 T41
+*	Equiv T30 T42
+*	Equiv T37 T38
+A1	Mutant T21
+A2	Mutant T22

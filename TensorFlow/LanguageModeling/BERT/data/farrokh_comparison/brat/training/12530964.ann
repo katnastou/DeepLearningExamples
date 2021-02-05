@@ -1,0 +1,29 @@
+T1	Protein 0 9	Mind bomb
+T2	Family 78 83	Notch
+T3	Family 137 142	Notch
+T4	Family 460 465	Notch
+T5	Family 734 739	Notch
+T6	Family 801 806	Notch
+T7	Family 834 839	Notch
+T8	Family 916 921	Notch
+T9	Family 1025 1030	Notch
+T10	Family 1056 1061	Notch
+T11	Protein 97 102	Delta
+R2	Regulation Arg1:T1 Arg2:T11	
+T12	Protein 489 510	RING ubiquitin ligase
+T13	Protein 316 319	mib
+T14	Protein 422 425	mib
+*	Equiv T14 T12
+T15	Protein 512 515	Mib
+T16	Protein 559 564	Delta
+R4	Complex_formation Arg1:T15 Arg2:T16	
+T17	Protein 658 661	mib
+R5	Positive_regulation Arg1:T17 Arg2:T5	
+T18	Protein 828 833	Delta
+R6	Complex_formation Arg1:T18 Arg2:T7	
+T19	Protein 882 887	Delta
+T20	Family 15 31	ubiquitin ligase
+T21	OOS 460 473	Notch pathway
+A1	Mutant T13
+T22	OOS 78 93	Notch signaling
+T23	OOS 137 152	Notch signaling

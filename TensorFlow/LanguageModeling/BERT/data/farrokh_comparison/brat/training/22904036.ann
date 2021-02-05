@@ -1,0 +1,52 @@
+T1	Protein 79 83	Mig1
+T2	Protein 480 484	Opy2
+T3	Protein 535 539	Opy2
+T4	Protein 649 653	Mig1
+T5	Protein 689 693	Mig2
+T6	Protein 695 699	Mig1
+T7	Protein 704 708	Mig2
+T8	Protein 809 813	Snf1
+T9	Protein 847 851	Opy2
+T10	Protein 853 857	Mig1
+T11	Protein 862 866	Mig2
+T12	Protein 988 992	Msb2
+T13	Protein 1016 1020	Ste7
+T14	Protein 1041 1045	Kss1
+T15	Protein 1054 1058	Opy2
+T16	Protein 1060 1064	Mig1
+T17	Protein 1138 1142	Mig1
+T18	Protein 1147 1151	Opy2
+T19	Protein 84 85	2
+R1	Complex_formation Arg1:T3 Arg2:T4	
+R2	Complex_formation Arg1:T3 Arg2:T5	
+R3	Complex_formation Arg1:T10 Arg2:T9	
+R4	Complex_formation Arg1:T11 Arg2:T9	
+R5	Complex_formation Arg1:T10 Arg2:T12	
+R6	Complex_formation Arg1:T11 Arg2:T12	
+R7	Complex_formation Arg1:T10 Arg2:T13	
+R8	Complex_formation Arg1:T11 Arg2:T13	
+R9	Complex_formation Arg1:T10 Arg2:T14	
+R10	Complex_formation Arg1:T11 Arg2:T14	
+T20	Family 998 1015	MAP kinase kinase
+T21	Family 1030 1040	MAP kinase
+T22	Family 1317 1321	MAPK
+T23	Family 23 27	MAPK
+T24	Family 209 213	MAPK
+T25	Family 421 425	MAPK
+T26	Chemical 48 55	Glucose
+T27	Chemical 767 774	glucose
+T28	Family 635 639	AMPK
+T29	Family 798 808	AMP kinase
+T30	Chemical 1093 1102	pheromone
+#9	AnnotatorNotes T30	Group
+T31	Family 1298 1302	AMPK
+T32	OOS 23 35	MAPK Pathway
+T33	OOS 209 221	MAPK pathway
+T34	OOS 452 478	filamentous growth pathway
+T35	OOS 335 361	filamentous growth pathway
+T36	OOS 725 751	filamentous growth pathway
+T37	OOS 635 647	AMPK pathway
+T38	OOS 907 933	filamentous growth pathway
+T39	OOS 1093 1119	pheromone response pathway
+T40	OOS 1298 1310	AMPK pathway
+T41	OOS 1317 1329	MAPK pathway

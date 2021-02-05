@@ -1,0 +1,36 @@
+T1	Protein 556 560	Dab2
+T2	Protein 741 745	Dab2
+T3	Protein 962 966	Dab2
+T4	Protein 1100 1104	Dab2
+T5	Protein 1191 1204	beta-arrestin
+T6	Protein 1206 1211	AP180
+T7	Protein 0 10	Disabled-2
+T8	Protein 66 74	clathrin
+T9	Protein 85 93	Clathrin
+T10	Complex 267 271	AP-2
+T11	Protein 544 554	Disabled-2
+*	Equiv T1 T11
+T12	Family 609 621	LDL-receptor
+T13	Complex 735 739	AP-2
+T14	Chemical 769 786	phosphoinositides
+#1	AnnotatorNotes T14	group
+T15	Protein 794 802	clathrin
+T16	Chemical 877 894	phosphoinositides
+T17	Complex 1009 1013	AP-2
+T18	Protein 1018 1026	clathrin
+T19	Protein 1057 1065	clathrin
+#2	AnnotatorNotes T5	arrestin tagged by tagger
+T20	Protein 1213 1218	epsin
+T21	Protein 1220 1224	HIP1
+T22	Protein 1229 1233	numb
+T23	Protein 1250 1258	clathrin
+T24	Protein 244 251	micro 2
+#3	AnnotatorNotes T24	Its Mu2
+R1	Out-of-scope Arg1:T24 Arg2:T10	
+#4	AnnotatorNotes R1	Part-of
+R2	Complex_formation Arg1:T2 Arg2:T13	
+R3	Complex_formation Arg1:T2 Arg2:T14	
+R4	Complex_formation Arg1:T2 Arg2:T15	
+R5	Complex_formation Arg1:T17 Arg2:T18	
+R6	Complex_formation Arg1:T16 Arg2:T3	
+#5	AnnotatorNotes R6	Inferred: anchor

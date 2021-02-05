@@ -1,0 +1,8 @@
+T1	Protein 646 651	FGFR1
+T2	Protein 859 864	FGFR1
+T3	Protein 962 967	FGFR1
+T4	Protein 670 690	phospholipase Cgamma
+R1	Complex_formation Arg1:T1 Arg2:T4	
+T5	Protein 802 822	phospholipase Cgamma
+R2	Complex_formation Arg1:T5 Arg2:T2	
+T6	OOS 835 864	signaling via activated FGFR1

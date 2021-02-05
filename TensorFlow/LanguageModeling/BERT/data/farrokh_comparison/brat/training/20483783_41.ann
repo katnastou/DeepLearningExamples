@@ -1,0 +1,29 @@
+T1	Protein 47 52	HLA-F
+T2	Protein 98 103	HLA-F
+T3	Family 108 113	MHC-I
+T4	Protein 293 298	MHC-I
+T5	Protein 378 383	HLA-F
+T6	Protein 388 393	MHC-I
+T7	Protein 666 671	HLA-F
+T8	Protein 709 714	MHC-I
+T9	Protein 749 754	HLA-F
+T10	Protein 928 933	MHC-I
+T11	Protein 941 946	HLA-F
+T12	OOS 114 116	HC
+#1	AnnotatorNotes T12	MHC-I H chain (HC)
+T13	OOS 235 239	3D11
+#2	AnnotatorNotes T13	antibody
+T14	OOS 244 248	4A11
+#3	AnnotatorNotes T14	antibody
+T15	OOS 306 309	4B4
+#4	AnnotatorNotes T15	antibody
+T16	OOS 793 795	HC
+#5	AnnotatorNotes T16	antibody
+T17	OOS 715 717	HC
+T18	OOS 896 907	HC antibody
+#7	AnnotatorNotes T18	antibody
+T19	OOS 934 936	HC
+T20	OOS 394 396	HC
+R1	Complex_formation Arg1:T2 Arg2:T3	
+R2	Complex_formation Arg1:T5 Arg2:T6	
+R3	Complex_formation Arg1:T10 Arg2:T11	

@@ -1,0 +1,60 @@
+T1	Protein 0 3	VeA
+T2	Protein 12 16	VelB
+T3	Protein 21 25	LaeA
+T4	Protein 42 46	VelB
+T5	Protein 47 50	VeA
+T6	Protein 51 55	LaeA
+T7	Protein 129 132	VeA
+T8	Protein 190 194	mpkB
+T9	Protein 211 215	velB
+T10	Protein 242 246	laeA
+T11	Protein 354 357	VeA
+T12	Protein 481 485	VelB
+T13	Protein 490 494	LaeA
+T14	Protein 528 531	VeA
+T15	Protein 550 554	MpkB
+T16	Protein 590 600	MAP kinase
+T17	Protein 617 620	VeA
+T18	Protein 664 667	VeA
+T19	Protein 686 690	KapA
+T20	Protein 725 729	mpkB
+T21	Protein 799 803	VelB
+T22	Protein 804 807	VeA
+T23	Protein 808 812	LaeA
+T24	Protein 911 915	laeA
+T25	Protein 941 944	VeA
+T26	Protein 949 953	VelB
+T27	Protein 1033 1036	VeA
+T28	Protein 1037 1041	VelB
+T29	Protein 1095 1099	LaeA
+T30	Protein 1103 1107	mpkB
+R1	Complex_formation Arg1:T1 Arg2:T2	
+R2	Complex_formation Arg1:T1 Arg2:T3	
+R3	Complex_formation Arg1:T3 Arg2:T2	
+R4	Complex_formation Arg1:T4 Arg2:T5	
+R5	Complex_formation Arg1:T5 Arg2:T6	
+R6	Complex_formation Arg1:T4 Arg2:T6	
+R7	Complex_formation Arg1:T1 Arg2:T4	
+R8	Complex_formation Arg1:T1 Arg2:T6	
+R9	Complex_formation Arg1:T2 Arg2:T5	
+R10	Complex_formation Arg1:T2 Arg2:T6	
+R11	Complex_formation Arg1:T3 Arg2:T4	
+R12	Complex_formation Arg1:T3 Arg2:T5	
+T31	Protein 86 92	AnFus3
+R13	Regulation Arg1:T15 Arg2:T13	
+R14	Regulation Arg1:T15 Arg2:T12	
+R15	Complex_formation Arg1:T18 Arg2:T19	
+R16	Complex_formation Arg1:T21 Arg2:T22	
+R17	Complex_formation Arg1:T22 Arg2:T23	
+R18	Complex_formation Arg1:T21 Arg2:T23	
+T32	Protein 882 888	AnSte7
+R19	Negative_regulation Arg1:T24 Arg2:T25	
+R20	Negative_regulation Arg1:T24 Arg2:T26	
+R21	Complex_formation Arg1:T27 Arg2:T28	
+R22	Regulation_of_gene_expression Arg1:T24 Arg2:T25	
+R23	Regulation_of_gene_expression Arg1:T24 Arg2:T26	
+A1	Mutant T8
+A2	Mutant T20
+T33	Protein 843 847	mkkB
+A3	Mutant T33
+A5	Mutant T30

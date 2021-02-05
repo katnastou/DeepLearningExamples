@@ -1,0 +1,40 @@
+T1	Protein 81 86	c-Jun
+T2	Protein 297 306	IFN-gamma
+T3	Protein 702 707	c-Jun
+T4	Protein 737 742	c-Fos
+T5	Protein 818 823	c-Fos
+T6	Protein 824 829	c-Jun
+T7	Protein 940 945	c-Fos
+T8	Protein 946 951	c-Jun
+T9	Protein 1003 1006	DRA
+R1	Complex_formation Arg1:T3 Arg2:T4
+R2	Complex_formation Arg1:T5 Arg2:T6
+R3	Complex_formation Arg1:T7 Arg2:T8	
+R4	Negative_regulation Arg1:T8 Arg2:T9	
+R5	Negative_regulation Arg1:T7 Arg2:T9	
+R6	Regulation_of_gene_expression Arg1:T8 Arg2:T9	
+R7	Regulation_of_gene_expression Arg1:T7 Arg2:T9	
+T10	Protein 0 5	NF-X2
+T11	Protein 24 27	DRA
+R8	Complex_formation Arg1:T10 Arg2:T11	
+T12	Protein 38 57	activator protein 1
+*	Equiv T12 T10
+#1	AnnotatorNotes T10	Complex
+T13	Protein 89 110	Human class II MHC Ag
+#2	AnnotatorNotes T13	Group
+T14	Protein 390 398	class II
+#3	AnnotatorNotes T14	Group
+T15	Protein 413 416	DRA
+T17	Protein 492 509	nuclear factor X2
+#5	AnnotatorNotes T17	Complex
+T16	Protein 511 516	NF-X2
+#4	AnnotatorNotes T16	Complex
+*	Equiv T17 T16
+R9	Regulation_of_transcription Arg1:T17 Arg2:T15	
+T18	Protein 616 621	NF-X2
+#6	AnnotatorNotes T18	Complex
+T19	Protein 767 786	activator protein-1
+#7	AnnotatorNotes T19	Complex
+#8	AnnotatorNotes T12	Complex
+T20	Protein 904 912	class II
+#9	AnnotatorNotes T20	Group

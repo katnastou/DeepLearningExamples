@@ -1,0 +1,31 @@
+T1	Protein 25 31	Arc35p
+T2	Protein 72 82	calmodulin
+T3	Protein 109 114	actin
+T4	Protein 159 164	arc35
+T5	Protein 225 229	Arp2
+T6	Protein 275 280	actin
+T7	Protein 599 604	arc35
+T8	Protein 651 655	BUB2
+T9	Protein 657 663	Arc35p
+T10	Protein 736 741	actin
+T11	Protein 769 774	arc35
+T12	Protein 816 826	calmodulin
+T13	Protein 859 863	cmd1
+T14	Protein 906 911	actin
+T15	Protein 980 985	arc35
+T16	Protein 1043 1048	actin
+T17	Protein 119 126	tubulin
+R1	Regulation Arg1:T1 Arg2:T3	
+R2	Regulation Arg1:T1 Arg2:T17	
+T18	Protein 230 231	3
+R3	Complex_formation Arg1:T5 Arg2:T18	
+R4	Complex_formation Arg1:T4 Arg2:T5	
+R5	Complex_formation Arg1:T4 Arg2:T18	
+R6	Regulation Arg1:T4 Arg2:T6	
+R7	Negative_regulation Arg1:T12 Arg2:T11	
+R8	Negative_regulation Arg1:T12 Arg2:T10	
+A1	Mutant T13
+A2	Mutant T15
+A3	Mutant T4
+A4	Mutant T7
+A5	Mutant T11

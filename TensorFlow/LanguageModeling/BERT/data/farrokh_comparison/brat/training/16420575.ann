@@ -1,0 +1,46 @@
+T1	Protein 19 40	von Willebrand factor
+T2	Protein 236 257	von Willebrand factor
+T3	Protein 259 262	VWF
+T4	Protein 478 481	VWF
+T5	Protein 770 773	VWF
+T6	Protein 1316 1319	VWF
+T7	Protein 1679 1682	VWF
+*	Equiv T3 T2
+T8	Protein 56 64	collagen
+T9	Protein 173 181	collagen
+T10	Protein 283 291	collagen
+T11	Protein 403 419	collagen types I
+T12	Protein 424 427	III
+T13	Protein 633 641	collagen
+T14	Chemical 755 765	ristocetin
+T15	Protein 788 796	collagen
+T16	Protein 913 921	collagen
+T17	Protein 1092 1100	collagen
+T18	Protein 1248 1256	collagen
+T19	Protein 1484 1492	collagen
+T20	Protein 1686 1694	collagen
+R1	Complex_formation Arg1:T1 Arg2:T8	
+R2	Complex_formation Arg1:T2 Arg2:T10	
+#1	AnnotatorNotes R2	Inferred: XXX-binding domain/site
+R3	Complex_formation Arg1:T2 Arg2:T11	
+R4	Complex_formation Arg1:T2 Arg2:T12	
+T21	Protein 579 587	collagen
+R5	Complex_formation Arg1:T4 Arg2:T21	
+R6	Complex_formation Arg1:T13 Arg2:T4	
+R7	Complex_formation Arg1:T14 Arg2:T5	
+R8	Complex_formation Arg1:T15 Arg2:T4	
+R9	Complex_formation Arg1:T16 Arg2:T4	
+#4	AnnotatorNotes R9	Inferred: XXX-binding domain/site
+R10	Complex_formation Arg1:T17 Arg2:T4	
+R11	Complex_formation Arg1:T18 Arg2:T6	
+T22	Complex 1506 1510	GPIb
+#5	AnnotatorNotes T22	https://en.wikipedia.org/wiki/Glycoprotein_Ib
+T23	Complex 926 945	glycoprotein (GP)Ib
+#6	AnnotatorNotes T23	https://en.wikipedia.org/wiki/Glycoprotein_Ib
+R12	Complex_formation Arg1:T23 Arg2:T4	
+#7	AnnotatorNotes R12	Inferred: XXX-binding domain/site
+R13	Complex_formation Arg1:T19 Arg2:T6	
+#8	AnnotatorNotes R13	"isolated A1 domain"
+R14	Complex_formation Arg1:T22 Arg2:T6	
+#9	AnnotatorNotes R14	"isolated A1 domain"
+R15	Complex_formation Arg1:T7 Arg2:T20	

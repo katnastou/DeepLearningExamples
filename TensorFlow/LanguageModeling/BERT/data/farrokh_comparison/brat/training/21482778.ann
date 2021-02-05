@@ -1,0 +1,14 @@
+T1	Protein 583 586	EGF
+T2	Protein 600 604	TrkB
+T3	Protein 1040 1044	TrkB
+T4	Family 1048 1066	dopamine receptors
+T5	Family 687 692	GPCRs
+T6	Family 658 685	G protein-coupled receptors
+*	Equiv T6 T5
+T7	Family 770 774	GPCR
+T8	Family 805 814	G-protein
+R1	Positive_regulation Arg1:T5 Arg2:T1	
+R2	Positive_regulation Arg1:T5 Arg2:T2	
+R3	Complex_formation Arg1:T8 Arg2:T7	
+R4	Positive_regulation Arg1:T4 Arg2:T3	
+T9	Family 994 999	GPCRs

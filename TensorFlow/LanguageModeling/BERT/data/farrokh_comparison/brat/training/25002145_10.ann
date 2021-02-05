@@ -1,0 +1,100 @@
+T1	Protein 29 33	ROS1
+T2	Protein 90 95	RD29A
+T3	Protein 140 144	IDM1
+T4	Protein 193 198	RD29A
+T5	Protein 307 311	SUC2
+T6	Protein 364 368	IDM1
+T7	Protein 380 384	ROS1
+T8	Protein 441 445	idm2
+T9	Protein 474 478	SUC2
+T10	Protein 603 607	SUC2
+T11	Protein 609 630	sucrose transporter 2
+T12	Protein 668 672	idm1
+T13	Protein 679 683	idm2
+T14	Protein 760 764	SUC2
+T15	Protein 789 793	SUC2
+T16	Protein 836 840	idm1
+T17	Protein 847 851	idm2
+T18	Protein 1029 1033	idm1
+T19	Protein 1040 1044	idm2
+T20	Protein 1072 1081	At1g26400
+T21	Protein 1117 1121	idm1
+T22	Protein 1128 1132	idm2
+T23	Protein 1355 1359	idm2
+T24	Protein 1426 1435	At1g54840
+T25	Protein 1561 1565	idm2
+T26	Protein 1672 1676	idm2
+T27	Protein 1683 1687	idm2
+T28	Protein 1743 1747	idm2
+T29	Protein 1798 1802	IDM2
+T30	Protein 1825 1829	idm2
+T31	Protein 1950 1954	IDM1
+T32	Protein 1959 1963	ROS1
+T33	Protein 1965 1969	IDM2
+T34	Protein 2036 2040	SUC2
+T35	Protein 96 99	LUC
+A1	Fusion T35
+#1	AnnotatorNotes T35	not tagged by tagger
+T36	Protein 199 202	LUC
+A2	Fusion T36
+#2	AnnotatorNotes T36	not tagged by tagger
+T37	Protein 802 807	HPTII
+A3	Fusion T37
+#3	AnnotatorNotes T37	not tagged by tagger
+T38	Protein 108 113	NPTII
+A4	Fusion T38
+#4	AnnotatorNotes T38	not tagged by tagger
+T39	Protein 2049 2054	HPTII
+A5	Fusion T39
+#5	AnnotatorNotes T39	not tagged by tagger
+T40	Protein 1277 1284	H3K4me2
+#6	AnnotatorNotes T40	not tagged by tagger
+A6	Fusion T2
+T41	Protein 104 107	35S
+A7	Fusion T41
+#7	AnnotatorNotes T41	cauliflower mosaic virus (CaMV) 35S promoter
+T42	Protein 303 306	35S
+A8	Fusion T42
+T43	Protein 168 171	35S
+A9	Fusion T43
+T44	Protein 172 177	NPTII
+A10	Fusion T44
+T45	Protein 470 473	35S
+A11	Fusion T45
+T46	Protein 785 788	35S
+A12	Fusion T46
+T47	Protein 798 801	35S
+A13	Fusion T47
+A14	Fusion T15
+A15	Fusion T9
+T48	Protein 756 759	35S
+A16	Fusion T48
+A17	Fusion T14
+A18	Fusion T5
+A19	Fusion T34
+T49	Chemical 573 580	sucrose
+*	Equiv T11 T10
+T50	Chemical 881 890	Bisulfite
+T51	Protein 992 995	35S
+A20	Mutant T16
+A21	Mutant T12
+A22	Mutant T13
+A23	Mutant T8
+A24	Mutant T17
+A25	Mutant T18
+A26	Mutant T19
+A27	Mutant T21
+A28	Mutant T22
+A29	Mutant T23
+A30	Mutant T25
+A31	Mutant T26
+A32	Mutant T27
+A33	Mutant T28
+A34	Mutant T30
+T52	Protein 1247 1254	H3K9me2
+#8	AnnotatorNotes T52	not tagged by tagger
+T53	Protein 1298 1301	35S
+T54	Protein 2033 2035	35
+A35	Fusion T54
+T55	Protein 2045 2048	35S
+A36	Fusion T55

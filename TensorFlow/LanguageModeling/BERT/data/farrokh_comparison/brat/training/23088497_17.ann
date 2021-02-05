@@ -1,0 +1,28 @@
+T1	Protein 29 35	WIPI-1
+T2	Protein 152 158	WIPI-1
+T3	Protein 271 277	WIPI-1
+T4	Protein 25 28	GFP
+A1	Fusion T4
+#1	AnnotatorNotes T4	not tagged by tagger
+A2	Fusion T1
+A3	Mutant T1
+T5	Chemical 69 79	PtdIns(3)P
+T6	Chemical 84 97	PtdIns(3,5)P2
+T7	Protein 148 151	GFP
+A4	Fusion T7
+#2	AnnotatorNotes T7	not tagged by tagger
+T8	Chemical 319 329	PtdIns(3)P
+T9	Chemical 352 365	PtdIns(3,5)P2
+T10	Protein 415 417	RR
+A5	Mutant T10
+#3	AnnotatorNotes T10	not normalizable
+T11	Chemical 469 482	phospholipids
+#4	AnnotatorNotes T11	group
+R1	Out-of-scope Arg1:T1 Arg2:T5	
+#5	AnnotatorNotes R1	Hypothesis
+R2	Out-of-scope Arg1:T1 Arg2:T6	
+#6	AnnotatorNotes R2	Hypothesis
+R3	Complex_formation Arg1:T3 Arg2:T8	
+R4	Complex_formation Arg1:T3 Arg2:T9	
+R5	Out-of-scope Arg1:T10 Arg2:T11	
+#7	AnnotatorNotes R5	Negated

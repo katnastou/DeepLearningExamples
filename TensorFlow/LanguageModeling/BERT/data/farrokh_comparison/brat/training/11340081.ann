@@ -1,0 +1,78 @@
+T1	Protein 0 3	Nck
+T2	Protein 104 110	N-WASP
+T3	Protein 132 164	Wiskott-Aldrich syndrome protein
+T4	Protein 166 170	WASP
+T5	Protein 189 200	neural WASP
+T6	Protein 202 208	N-WASP
+T7	Protein 353 358	Cdc42
+T8	Protein 406 409	Nck
+T9	Protein 410 439	Src homology (SH) 2/3 adaptor
+T10	Protein 494 498	WASP
+T11	Protein 503 509	N-WASP
+T12	Protein 623 626	Nck
+T13	Protein 716 722	N-WASP
+T14	Protein 769 772	Nck
+T15	Protein 822 825	Nck
+T16	Protein 857 863	N-WASP
+T17	Protein 960 965	Cdc42
+T18	Protein 983 986	Nck
+T19	Protein 991 996	Cdc42
+T20	Protein 1006 1012	N-WASP
+T21	Protein 1080 1083	Nck
+T22	Protein 1095 1100	Cdc42
+T23	Protein 1181 1184	Nck
+T24	Protein 111 115	Arp2
+T25	Protein 116 117	3
+R1	Complex_formation Arg1:T24 Arg2:T25	
+T26	Protein 71 76	actin
+R2	Regulation Arg1:T1 Arg2:T26	
+*	Equiv T3 T4
+*	Equiv T5 T6
+T27	Protein 288 292	Arp2
+T28	Protein 293 294	3
+R3	Complex_formation Arg1:T27 Arg2:T28	
+*	Equiv T8 T9
+R4	Complex_formation Arg1:T8 Arg2:T10	
+R5	Complex_formation Arg1:T8 Arg2:T11	
+T29	Protein 688 693	actin
+R6	Positive_regulation Arg1:T12 Arg2:T29	
+T30	Protein 742 746	Arp2
+T31	Protein 747 748	3
+R7	Regulation Arg1:T30 Arg2:T12	
+R8	Regulation Arg1:T31 Arg2:T12	
+T32	Protein 837 842	actin
+R9	Positive_regulation Arg1:T15 Arg2:T32	
+T33	Protein 864 868	Arp2
+T34	Protein 869 870	3
+R10	Complex_formation Arg1:T33 Arg2:T34	
+R11	Complex_formation Arg1:T16 Arg2:T33	
+R12	Complex_formation Arg1:T16 Arg2:T34	
+R13	Complex_formation Arg1:T30 Arg2:T31	
+R14	Regulation Arg1:T16 Arg2:T32	
+R15	Regulation Arg1:T33 Arg2:T32	
+R16	Regulation Arg1:T34 Arg2:T32	
+R17	Positive_regulation Arg1:T19 Arg2:T20	
+R18	Positive_regulation Arg1:T18 Arg2:T20	
+T35	Protein 1133 1138	actin
+R19	Regulation Arg1:T21 Arg2:T35	
+T36	Chemical 8 45	phosphatidylinositol 4,5-bisphosphate
+R20	Positive_regulation Arg1:T36 Arg2:T26	
+R21	Complex_formation Arg1:T6 Arg2:T27	
+R22	Complex_formation Arg1:T6 Arg2:T28	
+R23	Complex_formation Arg1:T4 Arg2:T27	
+R24	Complex_formation Arg1:T4 Arg2:T28	
+T37	Protein 237 242	actin
+R25	Regulation Arg1:T6 Arg2:T37	
+R26	Regulation Arg1:T4 Arg2:T37	
+T38	Chemical 363 400	phosphatidylinositol 4,5-bisphosphate
+R27	Complex_formation Arg1:T37 Arg2:T7	
+R28	Complex_formation Arg1:T37 Arg2:T38	
+T39	Chemical 906 943	phosphatidylinositol 4,5-bisphosphate
+R29	Positive_regulation Arg1:T39 Arg2:T32	
+T40	OOS 104 125	N-WASP-Arp2/3 pathway
+T41	Chemical 343 346	GTP
+A1	Blacklisted T41
+R30	Complex_formation Arg1:T7 Arg2:T41	
+T42	Chemical 956 959	GTP
+A2	Blacklisted T42
+R31	Complex_formation Arg1:T17 Arg2:T42	

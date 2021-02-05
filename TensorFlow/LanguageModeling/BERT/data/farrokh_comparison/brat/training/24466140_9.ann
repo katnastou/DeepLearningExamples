@@ -1,0 +1,8 @@
+T1	Protein 126 131	Utp21
+T2	Protein 208 213	Utp18
+T3	Protein 249 254	Utp21
+T4	Complex 52 56	UTPB
+#1	AnnotatorNotes T4	UTPB is a large evolutionarily conserved complex in the 90S small subunit processome that mediates early processing of 18S rRNA.
+T5	Complex 158 162	UTPB
+T6	Complex 393 397	UTPB
+R1	Complex_formation Arg1:T2 Arg2:T3	

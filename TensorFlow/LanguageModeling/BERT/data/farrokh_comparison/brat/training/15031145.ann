@@ -1,0 +1,27 @@
+T1	Protein 31 63	hypoxia-inducible factor-1 alpha
+T2	Protein 692 702	HIF-1alpha
+T3	Protein 1126 1136	HIF-1alpha
+T4	Protein 1422 1432	HIF-1alpha
+T5	Protein 1696 1705	HIF-1beta
+T6	Protein 1769 1774	HIF-1
+T7	Protein 1871 1876	HIF-1
+T8	Protein 2007 2012	HIF-1
+T9	Protein 403 440	hypoxia-inducible factor (HIF)-1alpha
+T10	Protein 462 476	mHIF-1alphaI.1
+T11	Protein 518 532	mHIF-1alphaI.1
+T12	Protein 739 752	hHIF-1alphaTe
+T13	Protein 759 773	mHIF-1alphaI.1
+T14	Protein 775 788	hHIF-1alphaTe
+T15	Protein 1009 1022	hHIF-1alphaTe
+T16	Protein 1318 1331	hHIF-1alphaTe
+T17	Protein 1336 1347	hHIF-1alpha
+T18	Protein 1471 1485	mHIF-1alphaI.1
+T19	Protein 1499 1512	hHIF-1alphaTe
+T20	Protein 1640 1653	hHIF-1alphaTe
+R1	Complex_formation Arg1:T20 Arg2:T5	
+T21	Protein 1716 1729	hHIF-1alphaTe
+T22	Protein 1812 1825	hHIF-1alphaTe
+R2	Negative_regulation Arg1:T22 Arg2:T7	
+R3	Regulation_of_transcription Arg1:T22 Arg2:T7	
+T23	Protein 1942 1955	hHIF-1alphaTe
+R4	Negative_regulation Arg1:T23 Arg2:T8	

@@ -1,0 +1,39 @@
+T1	Protein 15 18	pUb
+T3	Protein 95 100	RING1
+T4	Protein 202 205	pUb
+T5	Protein 326 329	pUb
+T6	Protein 564 567	pUb
+T8	Protein 782 787	RING1
+T10	Protein 840 845	RING1
+T11	Protein 860 863	pUb
+T13	Protein 1226 1229	pUb
+T14	Protein 1250 1253	pUb
+T17	Protein 1481 1484	pUb
+T18	Protein 1901 1904	pUb
+T19	Protein 22 28	Parkin
+R1	Complex_formation Arg1:T1 Arg2:T19	
+T20	Protein 210 216	Parkin
+R2	Complex_formation Arg1:T4 Arg2:T20	
+T21	Protein 298 304	Parkin
+R3	Regulation Arg1:T21 Arg2:T5	
+T22	Protein 572 578	Parkin
+R4	Complex_formation Arg1:T6 Arg2:T22	
+T23	Protein 631 637	Parkin
+R5	Negative_regulation Arg1:T6 Arg2:T23	
+T24	Protein 797 803	Parkin
+R6	Complex_formation Arg1:T10 Arg2:T11	
+T25	Protein 980 986	Parkin
+T26	Protein 1197 1203	Parkin
+T27	Protein 1257 1263	Parkin
+T29	Protein 1302 1305	REP
+T30	Protein 1415 1418	REP
+T32	Protein 1503 1509	Parkin
+T33	Protein 1663 1669	Parkin
+T34	Protein 1910 1916	Parkin
+R7	Complex_formation Arg1:T18 Arg2:T34	
+R8	Complex_formation Arg1:T14 Arg2:T27	
+R9	Regulation Arg1:T14 Arg2:T29	
+A1	Mutant T26
+A2	Mutant T25
+A3	Mutant T32
+A4	Mutant T24

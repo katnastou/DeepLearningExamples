@@ -1,0 +1,16 @@
+T1	Protein 654 658	Cdc4
+T2	Protein 668 677	beta-TrCP
+T3	Protein 693 701	E2 Cdc34
+T4	Family 183 185	E1
+T5	Family 187 189	E2
+T6	Family 194 196	E3
+T7	Family 267 269	E2
+T8	Family 639 641	E3
+T9	Protein 93 102	ubiquitin
+T10	Protein 780 790	ubiquitins
+T11	Family 983 1005	RING ubiquitin ligases
+T12	Protein 1087 1096	ubiquitin
+A1	Blacklisted T9
+A2	Blacklisted T10
+A3	Blacklisted T12
+#1	AnnotatorNotes T10	plural

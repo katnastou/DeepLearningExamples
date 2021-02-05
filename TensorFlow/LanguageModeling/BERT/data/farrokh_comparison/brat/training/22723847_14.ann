@@ -1,0 +1,9 @@
+T1	Protein 18 22	Ubp9
+T2	Protein 34 38	Duf1
+T3	Protein 327 331	Ubp9
+T4	Protein 336 340	Duf1
+T5	Protein 24 29	Ubp13
+T6	Protein 194 197	GFP
+A1	Fusion T6
+T7	Protein 391 393	HA
+A2	Fusion T7

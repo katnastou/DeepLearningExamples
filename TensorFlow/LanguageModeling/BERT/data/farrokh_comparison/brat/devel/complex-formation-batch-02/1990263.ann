@@ -1,0 +1,33 @@
+T1	Protein 33 46	proenkephalin
+T2	Protein 201 214	proenkephalin
+T3	Protein 304 317	proenkephalin
+T4	Protein 622 635	proenkephalin
+T5	Protein 740 743	p50
+T6	Protein 808 821	proenkephalin
+T7	Protein 874 877	p65
+T8	Protein 888 891	p50
+T9	Protein 974 987	proenkephalin
+R1	Complex_formation Arg1:T7 Arg2:T8
+R2	Regulation_of_transcription Arg1:T5 Arg2:T6	
+#1	AnnotatorNotes R2	B2 site resides in the promoter of this gene
+R3	Regulation_of_transcription Arg1:T7 Arg2:T6	
+R4	Regulation_of_transcription Arg1:T8 Arg2:T6	
+T10	Protein 470 497	nuclear factor (NF)-kappa B
+#2	AnnotatorNotes T10	Complex
+T11	Protein 538 548	NF-kappa B
+#3	AnnotatorNotes T11	Complex
+T12	Protein 776 786	NF-kappa B
+#4	AnnotatorNotes T12	Complex
+T13	Protein 1012 1022	NF-kappa B
+#5	AnnotatorNotes T13	Complex
+R5	Regulation Arg1:T13 Arg2:T9	
+T14	Protein 1036 1046	NF-kappa B
+#6	AnnotatorNotes T14	Complex
+T15	Protein 1193 1203	NF-kappa B
+#7	AnnotatorNotes T15	Complex
+T16	Protein 0 22	Nuclear factor kappa B
+#8	AnnotatorNotes T16	Complex
+T17	Protein 395 402	kappa B
+#9	AnnotatorNotes T17	Complex
+R6	Positive_regulation Arg1:T16 Arg2:T1	
+R7	Regulation_of_transcription Arg1:T16 Arg2:T1	

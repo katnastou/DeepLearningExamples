@@ -1,0 +1,28 @@
+T1	Protein 35 40	CDC28
+T2	Protein 207 212	Ctf7p
+T3	Protein 214 219	Eco1p
+T4	Protein 317 322	Ctf7p
+T5	Protein 382 387	Ctf7p
+T6	Protein 434 440	Cdc28p
+T7	Protein 547 552	Ctf7p
+T8	Protein 615 619	ctf7
+T9	Protein 624 629	cdc28
+T10	Protein 657 662	CDC28
+T11	Protein 674 679	CDC28
+T12	Protein 680 685	Cak1p
+T13	Protein 708 712	ctf7
+T14	Protein 757 762	Ctf7p
+T15	Protein 896 901	Ctf7p
+T16	Protein 1027 1032	Ctf7p
+T17	Family 41 44	CDK
+R1	Complex_formation Arg1:T1 Arg2:T17	
+*	Equiv T2 T3
+R2	Catalysis_of_phosphorylation Arg1:T6 Arg2:T5	
+R3	Regulation Arg1:T6 Arg2:T7	
+R4	Complex_formation Arg1:T8 Arg2:T9	
+T18	Family 806 809	CDK
+T19	Family 977 980	CDK
+T20	Family 441 464	cyclin-dependent kinase
+T21	Family 466 469	CDK
+*	Equiv T20 T21
+A1	Mutant T13

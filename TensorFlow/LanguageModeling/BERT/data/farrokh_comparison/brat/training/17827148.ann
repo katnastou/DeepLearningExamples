@@ -1,0 +1,36 @@
+T1	Protein 33 37	MDC1
+T2	Protein 105 109	MDC1
+T3	Protein 111 116	NFBD1
+T4	Protein 345 349	MDC1
+T6	Protein 543 547	MDC1
+T7	Protein 574 579	Cdc27
+T8	Protein 581 585	APC3
+T9	Protein 644 649	Cdc27
+T10	Protein 721 726	BRCA1
+T11	Protein 749 753	MDC1
+T12	Protein 805 817	histone H2AX
+T13	Protein 819 829	gamma-H2AX
+T14	Protein 930 940	gamma-H2AX
+T15	Protein 945 950	Cdc27
+T16	Protein 995 999	MDC1
+T17	Protein 1114 1118	MDC1
+*	Equiv T2 T3
+T18	Complex 360 396	anaphase-promoting complex/cyclosome
+T19	Complex 398 403	APC/C
+*	Equiv T18 T19
+R1	Complex_formation Arg1:T4 Arg2:T18	
+*	Equiv T7 T8
+T5	Protein 515 520	BRCA1
+R2	Complex_formation Arg1:T6 Arg2:T7	
+R3	Complex_formation Arg1:T11 Arg2:T12	
+*	Equiv T12 T13
+T20	Protein 846 851	APC/C
+R4	Complex_formation Arg1:T11 Arg2:T20	
+T21	Protein 602 607	APC/C
+R5	Complex_formation Arg1:T15 Arg2:T16	
+T22	Protein 1209 1214	APC/C
+R6	Complex_formation Arg1:T17 Arg2:T22	
+T23	Family 409 428	E3 ubiquitin ligase
+T24	Complex 66 102	anaphase-promoting complex/cyclosome
+R7	Complex_formation Arg1:T1 Arg2:T24	
+R8	Complex_formation Arg1:T16 Arg2:T14	

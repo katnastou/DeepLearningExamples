@@ -1,0 +1,21 @@
+T1	Protein 1018 1023	KCNK3
+T2	Protein 1027 1032	KCNK9
+T3	Family 16 41	potassium (K(+)) channels
+T4	Family 480 493	K(+) channels
+T5	Family 989 1017	two-pore-domain K(+) channel
+T6	Family 1755 1768	K(+) channels
+T7	Chemical 514 518	K(+)
+T8	Chemical 570 574	K(+)
+T9	Chemical 610 614	K(+)
+T10	Chemical 811 815	K(+)
+T11	Chemical 882 886	K(+)
+T12	Chemical 1074 1078	K(+)
+T13	Chemical 1408 1412	K(+)
+T14	Protein 655 697	mammalian inwardly rectifying K(+) channel
+T15	Protein 699 705	Kir2.1
+*	Equiv T15 T14
+T16	Protein 755 761	Kir2.1
+T17	Protein 862 868	Kir2.1
+A1	Mutant T17
+T18	Family 1130 1136	14-3-3
+T19	Protein 1235 1241	Kir2.1
