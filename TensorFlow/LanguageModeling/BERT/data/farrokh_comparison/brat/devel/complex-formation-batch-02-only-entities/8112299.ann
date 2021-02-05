@@ -1,0 +1,39 @@
+T1	Protein 61 65	MAD3
+T2	Protein 100 113	interleukin-2
+T3	Protein 115 119	IL-2
+T4	Protein 492 496	IL-2
+T5	Protein 638 642	IL-2
+T6	Protein 692 695	OAP
+T7	Protein 700 705	Oct-1
+T8	Protein 930 934	MAD3
+T9	Protein 51 60	I kappa B
+T10	Protein 711 715	IL-2
+T11	Protein 730 735	NF-AT
+T12	Protein 920 930	I kappa B/
+T13	Protein 83 93	NF-kappa B
+T14	Protein 952 962	NF-kappa B
+T15	Protein 0 11	Calcineurin
+T16	Chemical 33 36	PMA
+T17	Protein 162 177	T cell receptor
+T18	Protein 179 182	TcR
+T19	Chemical 301 314	cyclosporin A
+T20	Chemical 316 319	CsA
+T21	Chemical 325 335	tacrolimus
+T22	Chemical 337 343	FK-506
+T23	Protein 346 357	Calcineurin
+T24	Protein 361 406	Ca2+/calmodulin-dependent protein phosphatase
+T25	Chemical 415 421	FK-506
+T26	Chemical 427 430	CsA
+T27	Protein 461 464	TcR
+T28	Protein 554 565	calcineurin
+T29	Chemical 596 600	Ca2+
+T30	Protein 661 665	IL-2
+T31	Chemical 773 777	Ca2+
+T32	Protein 815 825	NF-kappa B
+T33	Protein 872 882	NF-kappa B
+T34	Protein 845 856	Calcineurin
+T35	Protein 1005 1015	NF-kappa B
+T36	Protein 1145 1154	I kappa B
+T37	Chemical 1240 1246	FK-506
+T38	Chemical 1251 1254	CsA
+T39	Protein 1305 1316	calcineurin

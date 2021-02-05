@@ -1,0 +1,34 @@
+T1	Protein 0 4	ETS1
+T2	Protein 30 36	GM-CSF
+T3	Protein 275 323	Granulocyte-macrophage colony-stimulating factor
+T4	Protein 325 331	GM-CSF
+T5	Protein 542 548	GM-CSF
+T6	Protein 733 737	ETS1
+T7	Protein 742 746	ELF1
+T8	Protein 885 891	GM-CSF
+T9	Protein 933 937	ETS1
+T10	Protein 947 951	ELF1
+T11	Protein 971 977	GM-CSF
+T12	Protein 1254 1258	ETS1
+T13	Protein 1264 1270	GM-CSF
+T14	Protein 1308 1312	ETS1
+T15	Protein 1386 1390	ETS1
+T16	Protein 1478 1482	ETS1
+T17	Protein 1526 1532	GM-CSF
+T18	Protein 454 464	NF kappa B
+T19	Protein 466 470	AP-1
+T20	Protein 475 478	ETS
+T21	Chemical 1006 1009	PMA
+T22	Chemical 1010 1019	ionomycin
+T23	Protein 661 664	ETS
+T24	Protein 1152 1155	ETS
+T25	Protein 1057 1060	ETS
+T26	Protein 1215 1218	ETS
+T27	Chemical 1346 1349	PMA
+T28	Chemical 1350 1359	ionomycin
+T29	Chemical 1426 1429	PMA
+T30	Chemical 1434 1443	ionomycin
+T31	Chemical 80 83	PMA
+T32	Chemical 88 97	ionomycin
+T33	Chemical 614 617	PMA
+T34	Chemical 622 631	ionomycin

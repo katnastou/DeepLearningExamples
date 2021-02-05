@@ -1,0 +1,39 @@
+T1	Protein 50 53	CD2
+T2	Protein 59 63	CD28
+T3	Protein 185 188	CD2
+T4	Protein 193 197	CD28
+T5	Protein 288 301	interleukin 2
+T6	Protein 303 307	IL-2
+T7	Protein 390 394	IL-2
+T8	Protein 465 490	IL-2 receptor alpha chain
+T9	Protein 492 503	IL-2R alpha
+T10	Protein 596 607	IL-2R alpha
+T11	Protein 757 768	IL-2R alpha
+T12	Protein 856 867	IL-2R alpha
+T13	Protein 931 942	IL-2R alpha
+T14	Protein 1008 1011	CD2
+T15	Protein 1014 1018	CD28
+T16	Protein 1073 1077	KBF1
+T17	Protein 1078 1081	p50
+T18	Protein 1166 1180	NF-kappa B p50
+T19	Protein 1181 1184	p65
+T20	Protein 1210 1215	c-Rel
+T21	Protein 1229 1234	c-Rel
+T22	Protein 1235 1238	p65
+T23	Protein 1397 1400	CD2
+T24	Protein 1403 1407	CD28
+T25	Protein 1749 1753	IL-2
+T26	Protein 1765 1776	IL-2R alpha
+T27	Protein 1959 1962	CD2
+T28	Protein 1965 1969	CD28
+T29	Protein 123 133	NF-kappa B
+T30	Protein 685 695	NF-kappa B
+T31	Protein 894 904	NF-kappa B
+T32	Protein 1865 1875	NF-kappa B
+T33	Protein 1705 1715	NF-kappa B
+T34	Protein 943 950	kappa B
+T35	Protein 1120 1127	kappa B
+T36	Chemical 1457 1462	thiol
+T37	Chemical 1489 1495	oxygen
+T38	Chemical 1597 1624	pyrrolidine dithiocarbamate
+T39	Chemical 1629 1635	oxygen

@@ -1,0 +1,32 @@
+T1	Protein 57 77	toll-like receptor 2
+T2	Protein 86 106	Toll-like receptor 2
+T3	Protein 108 112	TLR2
+T4	Protein 237 241	TLR2
+T5	Protein 275 279	TLR2
+T6	Protein 343 347	CD14
+T7	Protein 440 444	TLR2
+T8	Protein 544 548	TLR2
+T9	Protein 593 597	TLR2
+T10	Protein 818 822	TLR2
+T11	Protein 876 880	TLR2
+T12	Protein 967 999	TNF receptor-associated factor 6
+T13	Protein 1005 1030	NF-kappaB-inducing kinase
+T14	Protein 1054 1058	TLR2
+T15	Protein 1069 1073	TLR2
+T16	Protein 1160 1164	TLR2
+T17	Protein 1232 1236	TLR2
+T18	Protein 518 522	IRAK
+T19	Protein 493 516	IL-1R-associated kinase
+T20	Protein 646 650	IRAK
+T21	Protein 961 965	IRAK
+T22	Protein 928 959	myeloid differentiation protein
+T23	Protein 1083 1092	NF-kappaB
+T24	Protein 173 182	NF-kappaB
+T25	Chemical 155 158	LPS
+T26	Chemical 28 46	lipopolysaccharide
+T27	Chemical 257 260	LPS
+T28	Chemical 314 317	LPS
+T29	Chemical 363 366	LPS
+T30	Chemical 394 397	LPS
+T31	Chemical 720 723	LPS
+T32	Protein 1169 1175	IL-1Rs
