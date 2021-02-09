@@ -8,11 +8,11 @@
 
 # Allocate enough memory.
 #SBATCH --mem=100G
-###SBATCH -p gpu
-#SBATCH -p gputest
+#SBATCH -p gpu
+###SBATCH -p gputest
 # Time limit on Puhti's gpu partition is 3 days.
-###SBATCH -t 06:00:00
-#SBATCH -t 00:15:00
+#SBATCH -t 03:00:00
+###SBATCH -t 00:15:00
 # Allocate 4 GPUs on each node.
 #SBATCH --gres=gpu:v100:1
 #SBATCH --ntasks-per-node=1
@@ -45,8 +45,8 @@ mkdir -p $OUTPUT_DIR
 #trap on_exit EXIT
 
 #check for all parameters
-if [ "$#" -ne 9 ]; then
-    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint input_file_type"
+if [ "$#" -ne 10 ]; then
+    echo "Usage: $0 model_dir data_dir max_seq_len batch_size learning_rate epochs task init_checkpoint input_file_type strategy"
     exit 1
 fi
 #command example from BERT folder in projappl dir:
@@ -64,7 +64,7 @@ EPOCHS="$6"
 TASK=${7:-"consensus"}
 INIT_CKPT=${8:-"models/biobert_large/bert_model.ckpt"}
 FILE_TYPE="$9"
-
+STRATEGY="${10}"
 # #fix in case you want to use uncased models
 # #start with this 
 # if [[ $BERT_DIR =~ "uncased" ]]; then
@@ -114,6 +114,7 @@ srun python run_re_masked_consensus.py \
     --learning_rate=$LEARNING_RATE \
     --num_train_epochs=$EPOCHS \
     --input_file_type=$FILE_TYPE \
+    --strategy=$STRATEGY \
     --use_fp16 \
     --use_xla \
     --horovod \
@@ -128,10 +129,21 @@ echo -n 'max_seq_length'$'\t'"$MAX_SEQ_LENGTH"$'\t'
 echo -n 'train_batch_size'$'\t'"$BATCH_SIZE"$'\t'
 echo -n 'learning_rate'$'\t'"$LEARNING_RATE"$'\t'
 echo -n 'num_train_epochs'$'\t'"$EPOCHS"$'\t'
+echo -n 'strategy'$'\t'"$STRATEGY"$'\t'
 echo -n 'accuracy'$'\t'"$result"$'\n'
 
-paste <(paste ${DATASET_DIR}"/test.tsv" ${OUTPUT_DIR}"/test_output_labels.txt") ${OUTPUT_DIR}"/test_results.tsv" | awk -F'\t' '{printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t\'\{\''Not_a_complex'\'': %s'\,' '\''Complex_formation'\'': %s'\}'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10)}' > ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv"; 
+if ["$FILE_TYPE" = "tsv"]; then
+	paste <(paste ${DATASET_DIR}"/test.tsv" ${OUTPUT_DIR}"/test_output_labels.txt") ${OUTPUT_DIR}"/test_results.tsv" | awk -F'\t' '{printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t\'\{\''Not_a_complex'\'': %s'\,' '\''Complex_formation'\'': %s'\}'\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10)}' > ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv"; 
+else
+	paste -d, <(paste -d, <(gawk -v RS='"' 'NR % 2 == 0{ gsub(/\n/, "") } { printf("%s%s", $0, RT) }' ${DATASET_DIR}"/test.tsv"  | awk -F, '{printf("%s,%s,%s\n", $1, $3, $4)}') ${OUTPUT_DIR}"/test_output_labels.txt") ${OUTPUT_DIR}"/test_results.tsv" | awk -F',' '{printf("%s\t%s\t%s\t%s\t\'\{\''Not_a_complex'\'': %s'\,' '\''Complex_formation'\'': %s'\}'\n",$1,$2,$3,$4,$5,$6)}' > ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv";
+fi
 
+cp -r "data/farrokh_comparison/brat/devel/complex-formation-batch-02-only-entities/" ${OUTPUT_DIR}
+
+counter=0; while IFS=$'\t' read -r f1 f2 f3 f4 f5; do if [ "$pmid" != "$f1" ]; then counter=0; pmid=$f1; if [ "$f4" == "Complex_formation" ]; then counter=1; echo -e "R$counter\t$f4 Arg1:$f2 Arg2:$f3" >> ${OUTPUT_DIR}"/complex-formation-batch-02-only-entities/"$pmid".ann"; fi; else if [ "$f4" == "Complex_formation" ];then counter=$((counter+1)); echo -e "R$counter\t$f4 Arg1:$f2 Arg2:$f3" >> ${OUTPUT_DIR}"/complex-formation-batch-02-only-entities/"$pmid".ann"; fi; fi; done <${OUTPUT_DIR}/output_with_probabilities_dict.tsv
+
+result2=$(python3 evalsorel.py --entities Protein,Chemical,Complex,Family --relations Complex_formation data/farrokh_comparison/brat/devel/complex-formation-batch-02/ ${OUTPUT_DIR}/complex-formation-batch-02-only-entities/| egrep '^TOTAL' | perl -pe 's/.*F(.*)$/$1/')
+echo -n 'F-score'$'\t'"$result2"$'\n'
 #remove everything up to last - 
 #cp ${OUTPUT_DIR}"/output_with_probabilities_dict.tsv" "/scratch/project_2001426/stringdata/week_50/tokenization/output_with_probabilities_tokenization_orgs_all.tsv"
 

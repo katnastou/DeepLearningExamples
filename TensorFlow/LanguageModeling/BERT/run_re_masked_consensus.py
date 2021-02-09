@@ -36,6 +36,11 @@ flags.DEFINE_string(
 )
 
 flags.DEFINE_string(
+    "strategy", "mask",
+    "The strategy for dealing with span of interest: mask or mark.",
+)
+
+flags.DEFINE_string(
     "input_file_type", "tsv", "The type of input file: tsv or csv supported"
 )
 
@@ -211,7 +216,6 @@ class DataProcessor(object):
             lines = []
             for line in tsv_reader:
                 lines.append(line)
-                #print (line)
             return lines
 
 
@@ -248,7 +252,6 @@ class ConsensusProcessor(DataProcessor):
         #the file now has 10 columns
         examples = []
         for (i, line) in enumerate(lines):
-            print (line)
             guid = "%s-%s" % (set_type, i)
             sent_start = tokenization.convert_to_unicode(line[-6])
             entity1 = tokenization.convert_to_unicode(line[-5])
@@ -267,7 +270,7 @@ class ConsensusProcessor(DataProcessor):
                     label=label))
         return examples
 
-def convert_single_example(ex_index, example, label_list,label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B):
+def convert_single_example(ex_index, example, label_list,label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B, strategy):
     if isinstance(example, PaddingInputExample):
         return InputFeatures(
             input_ids=[0] * max_seq_length,
@@ -302,16 +305,33 @@ def convert_single_example(ex_index, example, label_list,label_map, max_seq_leng
             sent_start_tok.append(sent_start_tok_bef[i])
 
     # I have removed sentences with more than 20 words in text_between_ent_1_and_ent_2_tok during preprocessing --> check if it needs more
-    if (len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-1:
-        sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-1):]
-    else:
-        sent_start_tok = ['[PAD]'] * ((center-1)-len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
+    if (strategy == "mask"): #if we don't add marking tokens
+        if (len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-1:
+            sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-1):]
+        else:
+            sent_start_tok = ['[PAD]'] * ((center-1)-len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
+    else: #if we add the two tokens for marking we need to subtract 3 it's also the tokens left and right to mark the entities
+        if (len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) > center-3:
+            sent_start_tok = sent_start_tok[len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))-(center-3):]
+        else:
+            sent_start_tok = ['[PAD]'] * ((center-3)-len(sent_start_tok+entity1_tok)+int(round(len(text_between_ent_1_and_ent_2_tok)/2))) + sent_start_tok
+    
     tokens_bef.extend(sent_start_tok)
      
     if not replace_span_A:
-        tokens_bef.extend(entity1_tok)
+        if (strategy == "mask"):
+            tokens_bef.extend(entity1_tok)
+        elif (strategy == "mark"):
+            tokens_bef.append('[unused4]')
+            tokens_bef.extend(entity1_tok)
+            tokens_bef.append('[unused5]')
     else:
-        tokens_bef.append(replace_span_A)
+        if (strategy == "mask"):
+            tokens_bef.append(replace_span_A)
+        elif (strategy == "mark"):
+            tokens_bef.append('[unused4]')
+            tokens_bef.append(replace_span_A)
+            tokens_bef.append('[unused5]')
     #tokens.extend(span_tok)
     #if an equiv entity exists
     #if example.text_between_ent_1:
@@ -319,11 +339,24 @@ def convert_single_example(ex_index, example, label_list,label_map, max_seq_leng
     #    tokens_bef.extend(equiv1_tok)
     tokens_bef.extend(text_between_ent_1_and_ent_2_tok)
     
+    #if not replace_span_B:
+    #    tokens_bef.extend(entity2_tok)
+    #else:
+    #    tokens_bef.append(replace_span_B)
     if not replace_span_B:
-        tokens_bef.extend(entity2_tok)
+        if (strategy == "mask"):
+            tokens_bef.extend(entity2_tok)
+        else:
+            tokens_bef.append('[unused6]')
+            tokens_bef.extend(entity2_tok)
+            tokens_bef.append('[unused7]')
     else:
-        tokens_bef.append(replace_span_B)
-
+        if (strategy == "mask"):
+            tokens_bef.append(replace_span_B)
+        else:
+            tokens_bef.append('[unused6]')
+            tokens_bef.append(replace_span_B)
+            tokens_bef.append('[unused7]')
     #if example.text_between_ent_2:
     #    tokens_bef.extend(text_between_ent_2_tok)
     #    tokens_bef.extend(equiv2_tok)
@@ -369,7 +402,7 @@ def convert_single_example(ex_index, example, label_list,label_map, max_seq_leng
         tf.compat.v1.logging.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
         tf.compat.v1.logging.info("segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
         tf.compat.v1.logging.info("label: %s (id = %d)" % (example.label, label_id))
-    
+        tf.compat.v1.logging.info("strategy: %s" % (strategy)) 
     feature = InputFeatures(
         input_ids=input_ids,
         input_mask=input_mask,
@@ -395,12 +428,12 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
         else:
             tokens_b.pop()
 
-def filed_based_convert_examples_to_features(examples, label_list, label_map, max_seq_length, tokenizer, output_file, replace_span_A, replace_span_B):
+def filed_based_convert_examples_to_features(examples, label_list, label_map, max_seq_length, tokenizer, output_file, replace_span_A, replace_span_B, strategy):
     writer = tf.python_io.TFRecordWriter(output_file)
     for (ex_index, example) in enumerate(examples):
         if ex_index % 20000 == 0:
             tf.compat.v1.logging.info("Writing example %d of %d" % (ex_index, len(examples)))
-        feature = convert_single_example(ex_index, example, label_list, label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B)
+        feature = convert_single_example(ex_index, example, label_list, label_map, max_seq_length, tokenizer, replace_span_A, replace_span_B, strategy)
 
         def create_int_feature(values):
             f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
@@ -709,7 +742,7 @@ def main(_):
 
     if FLAGS.do_train: 
         filed_based_convert_examples_to_features(
-          train_examples[start_index:end_index], label_list, label_map, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span_A, FLAGS.replace_span_B)
+          train_examples[start_index:end_index], label_list, label_map, FLAGS.max_seq_length, tokenizer, tmp_filenames[hvd_rank], FLAGS.replace_span_A, FLAGS.replace_span_B, FLAGS.strategy)
         tf.compat.v1.logging.info("***** Running training *****")
         tf.compat.v1.logging.info("  Num examples = %d", len(train_examples))
         tf.compat.v1.logging.info("  Batch size = %d", FLAGS.train_batch_size)
@@ -745,7 +778,7 @@ def main(_):
         num_actual_eval_examples = len(eval_examples)
         eval_file = os.path.join(FLAGS.output_dir, "eval.tf_record")
         filed_based_convert_examples_to_features(
-            eval_examples, label_list, label_map, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
+            eval_examples, label_list, label_map, FLAGS.max_seq_length, tokenizer, eval_file, FLAGS.replace_span_A, FLAGS.replace_span_B, FLAGS.strategy)
 
         tf.compat.v1.logging.info("***** Running evaluation *****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
@@ -774,7 +807,7 @@ def main(_):
         predict_file = os.path.join(FLAGS.output_dir, "predict.tf_record")
         filed_based_convert_examples_to_features(predict_examples, label_list, label_map,
                                                  FLAGS.max_seq_length, tokenizer,
-                                                 predict_file, FLAGS.replace_span_A, FLAGS.replace_span_B)
+                                                 predict_file, FLAGS.replace_span_A, FLAGS.replace_span_B, FLAGS.strategy)
         tf.compat.v1.logging.info("***** Running prediction*****")
         tf.compat.v1.logging.info("  Num examples = %d (%d actual, %d padding)",
                         len(predict_examples), num_actual_predict_examples,
@@ -804,11 +837,18 @@ def main(_):
                 pr_res = np.argmax(logits, axis=-1)
                 output = str(inv_label_map[pr_res])+"\n"
                 writer2.write(output)
-                output_line = "\t".join(
-                    str(class_probability)
-                    for class_probability in probabilities) + "\n"
-                writer.write(output_line)
-                num_written_lines += 1
+                if (FLAGS.input_file_type == "tsv"):
+                    output_line = "\t".join(
+                        str(class_probability)
+                        for class_probability in probabilities) + "\n"
+                    writer.write(output_line)
+                    num_written_lines += 1
+                if (FLAGS.input_file_type == "csv"):
+                    output_line = ",".join(
+                        str(class_probability)
+                        for class_probability in probabilities) + "\n"
+                    writer.write(output_line)
+                    num_written_lines += 1
         assert num_written_lines == num_actual_predict_examples
 
         eval_time_elapsed = time.time() - eval_start_time
